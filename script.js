@@ -58,6 +58,54 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/514470/Hustler%20-%20Sukh%20Lotey%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/728670/Wang%20Golden.jpg',
+        name : 'Wang Golden',
+        artist : 'Sajjan Adeeb',
+        music : 'https://hd1.djjohal.com/320/514467/Wang%20Golden%20-%20Sajjan%20Adeeb%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728672/Mehfilan.jpg',
+        name : 'Mehfilan',
+        artist : 'Shooter Kahlon',
+        music : 'https://hd1.djjohal.com/320/514469/Mehfilan%20-%20Shooter%20Kahlon%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728662/Boss%20Walk.jpg',
+        name : 'Boss Walk',
+        artist : 'Nirvair Pannu',
+        music : 'https://hd1.djjohal.com/320/514454/Boss%20Walk%20-%20Nirvair%20Pannu%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728653/Jhumka.jpg',
+        name : 'Jhumka',
+        artist : 'Ekam Chanoli',
+        music : 'https://hd1.djjohal.com/320/514445/Jhumka%20-%20Ekam%20Chanoli%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728659/Wangan.jpg',
+        name : 'Wangan',
+        artist : 'Shivjot',
+        music : 'https://hd1.djjohal.com/320/514451/Wangan%20-%20Shivjot%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728658/Munda%20Sardaran%20Da.jpg',
+        name : 'Munda Sardaran Da',
+        artist : 'Jordan Sandhu',
+        music : 'https://hd1.djjohal.com/320/514450/Munda%20Sardaran%20Da%20-%20Jordan%20Sandhu%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728656/Jatt%20Bolde.jpg',
+        name : 'Jatt Bolde',
+        artist : 'Gippy Grewal, Jazzy B',
+        music : 'https://hd1.djjohal.com/320/514448/Jatt%20Bolde%20-%20Gippy%20Grewal%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728651/Pariyan%20De%20Desh.jpg',
+        name : 'Pariyan De Desh',
+        artist : 'Gurnam Bhullar',
+        music : 'https://hd1.djjohal.com/320/514443/Pariyan%20De%20Desh%20-%20Gurnam%20Bhullar%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://pbs.twimg.com/card_img/1592186029829652487/uFVmf5r8?format=jpg&name=large',
         name : 'Anak',
         artist : 'Gulab Sidhu',

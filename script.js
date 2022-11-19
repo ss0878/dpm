@@ -34,6 +34,30 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/514489/Gal%20Ban%20Jae%20-%20Ammy%20Virk%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/728688/Geet%20Banuga.jpg',
+        name : 'Geet Banuga',
+        artist : 'Kaka',
+        music : 'https://hd1.djjohal.com/320/514485/Geet%20Banuga%20-%20Kaka%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728686/Kangne.jpg',
+        name : 'Geet Banuga',
+        artist : 'Kaka',
+        music : 'https://hd1.djjohal.com/320/514485/Geet%20Banuga%20-%20Kaka%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728700/Trucker.jpg',
+        name : 'Kangne',
+        artist : 'Kaur B',
+        music : 'https://hd1.djjohal.com/320/514483/Kangne%20-%20Kaur%20B%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728673/Hustler.jpg',
+        name : 'Hustler',
+        artist : 'Sukh Lotey',
+        music : 'https://hd1.djjohal.com/320/514470/Hustler%20-%20Sukh%20Lotey%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://pbs.twimg.com/card_img/1592186029829652487/uFVmf5r8?format=jpg&name=large',
         name : 'Anak',
         artist : 'Gulab Sidhu',

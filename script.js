@@ -34,6 +34,12 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/514489/Gal%20Ban%20Jae%20-%20Ammy%20Virk%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/728691/Wallpaper.jpg',
+        name : 'Wallpaper',
+        artist : 'Kadir Thind',
+        music : 'https://hd1.djjohal.com/320/514488/Wallpaper%20-%20Kadir%20Thind%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://lq.djjohal.com/covers/728688/Geet%20Banuga.jpg',
         name : 'Geet Banuga',
         artist : 'Kaka',
@@ -56,6 +62,12 @@ const music_list = [
         name : 'Hustler',
         artist : 'Sukh Lotey',
         music : 'https://hd1.djjohal.com/320/514470/Hustler%20-%20Sukh%20Lotey%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728677/Karobaar.jpg',
+        name : 'Karobaar',
+        artist : 'Zora Randhawa',
+        music : 'https://hd1.djjohal.com/320/514474/Karobaar%20-%20Zora%20Randhawa%20(DJJOhAL.Com).mp3'
     },
     {
         img : 'https://lq.djjohal.com/covers/728670/Wang%20Golden.jpg',
@@ -106,10 +118,16 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/514443/Pariyan%20De%20Desh%20-%20Gurnam%20Bhullar%20(DJJOhAL.Com).mp3'
     },
     {
-        img : 'https://pbs.twimg.com/card_img/1592186029829652487/uFVmf5r8?format=jpg&name=large',
+        img : 'https://lq.djjohal.com/covers/728279/Ainak.jpg',
         name : 'Anak',
         artist : 'Gulab Sidhu',
         music : 'https://hd1.djjohal.com/320/513936/Ainak%20-%20Gulab%20Sidhu%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/726955/Colt.jpg',
+        name : 'Colt',
+        artist : 'Pavitar Lassoi',
+        music : 'https://hd1.djjohal.com/320/512214/Colt%20-%20Pavitar%20Lassoi%20(DJJOhAL.Com).mp3'
     }
 ];
 

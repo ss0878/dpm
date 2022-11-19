@@ -146,7 +146,8 @@ const music_list = [
         name : 'Vaar',
         artist : 'Sidhu Moose Wala',
         music : 'https://hd1.djjohal.com/320/514382/Vaar%20-%20Sidhu%20Moose%20Wala%20(DJJOhAL.Com).mp3'
-    },{
+    },
+	{
         img : 'https://lq.djjohal.com/covers/728600/Jee%20Jeha%20Karda.jpg',
         name : 'Jee Jeha Karda',
         artist : 'Jasmine Sandlas',

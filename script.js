@@ -22,16 +22,22 @@ let updateTimer;
 
 const music_list = [
     {
-        img : 'https://pbs.twimg.com/card_img/1592186029829652487/uFVmf5r8?format=jpg&name=large',
-        name : 'Anak',
-        artist : 'Gulab Sidhu',
-        music : 'https://hd1.djjohal.com/320/513936/Ainak%20-%20Gulab%20Sidhu%20(DJJOhAL.Com).mp3'
-    },
-    {
         img : 'https://lq.djjohal.com/covers/728705/Jagga%20Daaku.jpg',
         name : 'Jagga Daaku',
         artist : 'Varinder Brar',
         music : 'https://hd1.djjohal.com/320/514518/Jagga%20Daaku%20-%20Varinder%20Brar%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728692/Gal%20Ban%20Jae.jpg',
+        name : 'Gal Ban Jae',
+        artist : 'Ammy Virk',
+        music : 'https://hd1.djjohal.com/320/514489/Gal%20Ban%20Jae%20-%20Ammy%20Virk%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://pbs.twimg.com/card_img/1592186029829652487/uFVmf5r8?format=jpg&name=large',
+        name : 'Anak',
+        artist : 'Gulab Sidhu',
+        music : 'https://hd1.djjohal.com/320/513936/Ainak%20-%20Gulab%20Sidhu%20(DJJOhAL.Com).mp3'
     }
 ];
 

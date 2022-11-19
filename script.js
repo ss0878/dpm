@@ -128,6 +128,24 @@ const music_list = [
         name : 'Colt',
         artist : 'Pavitar Lassoi',
         music : 'https://hd1.djjohal.com/320/512214/Colt%20-%20Pavitar%20Lassoi%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728610/Pooranmashi.jpg',
+        name : 'Pooranmashi',
+        artist : 'Kulwinder Billa',
+        music : 'https://hd1.djjohal.com/320/514387/Pooranmashi%20-%20Kulwinder%20Billa%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728609/Wanted.jpg',
+        name : 'Wanted',
+        artist : 'Ninja & Korala Maan',
+        music : 'https://hd1.djjohal.com/320/514386/Wanted%20-%20Ninja%20%20Korala%20Maan%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728606/Vaar.jpg',
+        name : 'Vaar',
+        artist : 'Sidhu Moose Wala',
+        music : 'https://hd1.djjohal.com/320/514382/Vaar%20-%20Sidhu%20Moose%20Wala%20(DJJOhAL.Com).mp3'
     }
 ];
 

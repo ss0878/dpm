@@ -146,6 +146,77 @@ const music_list = [
         name : 'Vaar',
         artist : 'Sidhu Moose Wala',
         music : 'https://hd1.djjohal.com/320/514382/Vaar%20-%20Sidhu%20Moose%20Wala%20(DJJOhAL.Com).mp3'
+    },{
+        img : 'https://lq.djjohal.com/covers/728600/Jee%20Jeha%20Karda.jpg',
+        name : 'Jee Jeha Karda',
+        artist : 'Jasmine Sandlas',
+        music : 'https://hd1.djjohal.com/320/514375/Jee%20Jeha%20Karda%20-%20Jasmine%20Sandlas%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728597/BBBB.jpg',
+        name : 'BBBB',
+        artist : 'Khan Bhaini',
+        music : 'https://hd1.djjohal.com/320/514372/BBBB%20-%20Khan%20Bhaini%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728590/Chobbar.jpg',
+        name : 'Chobbar',
+        artist : 'Jordan Sandhu',
+        music : 'https://hd1.djjohal.com/320/514362/Chobbar%20-%20Jordan%20Sandhu%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728580/Tutta%20Dil.jpg',
+        name : 'Tutta Dil',
+        artist : 'Sharry Maan',
+        music : 'https://hd1.djjohal.com/320/514352/Tutta%20Dil%20-%20Sharry%20Maan%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728579/Zara%20Faasley%20Te.jpg',
+        name : 'Zara Faasley Te',
+        artist : 'Satinder Sartaaj',
+        music : 'https://hd1.djjohal.com/320/514351/Zara%20Faasley%20Te%20-%20Satinder%20Sartaaj%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728563/Mithiyan%20Jailan.jpg',
+        name : 'Mithiyan Jailan',
+        artist : 'Ranjit Bawa',
+        music : 'https://hd1.djjohal.com/320/514326/Mithiyan%20Jailan%20-%20Ranjit%20Bawa%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728561/13%20Pind.jpg',
+        name : '13 Pind',
+        artist : 'Rajvir Jawanda',
+        music : 'https://hd1.djjohal.com/320/514324/13%20Pind%20-%20Rajvir%20Jawanda%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728560/Letter%20to%20Sidhu.jpg',
+        name : 'Letter to Sidhu',
+        artist : 'Sunny Malton',
+        music : 'https://hd1.djjohal.com/320/514323/Letter%20to%20Sidhu%20-%20Sunny%20Malton%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728542/Ak%2047.jpg',
+        name : 'Ak 47',
+        artist : 'Ninja',
+        music : 'https://hd1.djjohal.com/320/514296/Ak%2047%20-%20Ninja%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728541/Mera%20Jee%20Karda.jpg',
+        name : 'Mera Jee Karda (Remix)',
+        artist : 'Byg Byrd',
+        music : 'https://hd1.djjohal.com/320/514295/Mera%20Jee%20Karda%20-%20Byg%20Byrd%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728538/2%20Bloodas.jpg',
+        name : '2 Bloodas',
+        artist : 'Varinder Brar',
+        music : 'https://hd1.djjohal.com/320/514292/2%20Bloodas%20-%20Varinder%20Brar%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728529/Hello%20Hello%20Hola.jpg',
+        name : 'Hello Hello Hola',
+        artist : 'Garry Sandhu Ft. Las Villa ',
+        music : 'https://hd1.djjohal.com/320/514271/Hello%20Hello%20Hola%20-%20Garry%20Sandhu%20(DJJOhAL.Com).mp3'
     }
 ];
 

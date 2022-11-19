@@ -147,13 +147,13 @@ const music_list = [
         artist : 'Sidhu Moose Wala',
         music : 'https://hd1.djjohal.com/320/514382/Vaar%20-%20Sidhu%20Moose%20Wala%20(DJJOhAL.Com).mp3'
     },
-	{
+    {
         img : 'https://lq.djjohal.com/covers/728600/Jee%20Jeha%20Karda.jpg',
         name : 'Jee Jeha Karda',
         artist : 'Jasmine Sandlas',
         music : 'https://hd1.djjohal.com/320/514375/Jee%20Jeha%20Karda%20-%20Jasmine%20Sandlas%20(DJJOhAL.Com).mp3'
     },
-	{
+    {
         img : 'https://lq.djjohal.com/covers/728597/BBBB.jpg',
         name : 'BBBB',
         artist : 'Khan Bhaini',

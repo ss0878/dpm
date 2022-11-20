@@ -201,6 +201,12 @@ const music_list = [
         artist : 'Ninja',
         music : 'https://hd1.djjohal.com/320/514296/Ak%2047%20-%20Ninja%20(DJJOhAL.Com).mp3'
     },
+    {
+        img : 'https://lq.djjohal.com/covers/728517/AK%20Di%20Barrel.jpg',
+        name : 'AK Di Barrel',
+        artist : 'Himmat Sandhu',
+        music : 'https://hd1.djjohal.com/320/514255/AK%20Di%20Barrel%20-%20Himmat%20Sandhu%20(DJJOhAL.Com).mp3'
+    },
 	{
         img : 'https://lq.djjohal.com/covers/728541/Mera%20Jee%20Karda.jpg',
         name : 'Mera Jee Karda (Remix)',
@@ -218,6 +224,24 @@ const music_list = [
         name : 'Hello Hello Hola',
         artist : 'Garry Sandhu Ft. Las Villa ',
         music : 'https://hd1.djjohal.com/320/514271/Hello%20Hello%20Hola%20-%20Garry%20Sandhu%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728506/Trust.jpg',
+        name : 'Trust',
+        artist : 'Nseeb',
+        music : 'https://hd1.djjohal.com/320/514241/Trust%20-%20Nseeb%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728500/Balle%20Jatta.jpg',
+        name : 'Balle Jatta',
+        artist : 'Diljit Dosanjh',
+        music : 'https://hd1.djjohal.com/320/514225/Balle%20Jatta%20-%20Diljit%20Dosanjh%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728483/Mehflan.jpg',
+        name : 'Mehflan',
+        artist : 'Kulbir Jhinjer',
+        music : 'https://hd1.djjohal.com/320/514208/Mehflan%20-%20Kulbir%20Jhinjer%20(DJJOhAL.Com).mp3'
     }
 ];
 

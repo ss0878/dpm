@@ -22,6 +22,24 @@ let updateTimer;
 
 const music_list = [
     {
+        img : 'https://lq.djjohal.com/covers/728716/Ailaan.jpg',
+        name : 'Ailaan',
+        artist : 'Gulab Sidhu , Gur Sidhu',
+        music : 'https://hd1.djjohal.com/320/514529/Ailaan%20-%20Gulab%20Sidhu%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728715/Blona%20Shad%20Ta.jpg',
+        name : 'Blona Shad Ta',
+        artist : 'Guntaj Dandiwal, Korala Maan & Desi Crew',
+        music : 'https://hd1.djjohal.com/320/514528/Blona%20Shad%20Ta%20-%20Guntaj%20Dandiwal%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728712/Same%20Same.jpg',
+        name : 'Same Same',
+        artist : 'Singga',
+        music : 'https://hd1.djjohal.com/320/514525/Same%20Same%20-%20Singga%20(DJJOhAL.Com).mp3'
+    },
+	{
         img : 'https://lq.djjohal.com/covers/728705/Jagga%20Daaku.jpg',
         name : 'Jagga Daaku',
         artist : 'Varinder Brar',
@@ -242,6 +260,12 @@ const music_list = [
         name : 'Mehflan',
         artist : 'Kulbir Jhinjer',
         music : 'https://hd1.djjohal.com/320/514208/Mehflan%20-%20Kulbir%20Jhinjer%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728480/25-25.jpg',
+        name : '25-25',
+        artist : 'Arjan Dhillon',
+        music : 'https://hd1.djjohal.com/320/514194/2525%20-%20Arjan%20Dhillon%20(DJJOhAL.Com).mp3'
     }
 ];
 

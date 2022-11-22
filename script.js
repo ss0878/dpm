@@ -172,6 +172,12 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/514375/Jee%20Jeha%20Karda%20-%20Jasmine%20Sandlas%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/728423/Dekhya%20Kite.jpg',
+        name : 'Dekhya Kite',
+        artist : 'Davy',
+        music : 'https://hd1.djjohal.com/320/514113/Dekhya%20Kite%20-%20Davy%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://lq.djjohal.com/covers/728597/BBBB.jpg',
         name : 'BBBB',
         artist : 'Khan Bhaini',
@@ -266,6 +272,144 @@ const music_list = [
         name : '25-25',
         artist : 'Arjan Dhillon',
         music : 'https://hd1.djjohal.com/320/514194/2525%20-%20Arjan%20Dhillon%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728717/Gall%20Mukk%20Gyi.jpg',
+        name : 'Gall Mukk Gyi',
+        artist : 'Nimrat Khaira',
+        music : 'https://hd1.djjohal.com/320/514530/Gall%20Mukk%20Gyi%20-%20Nimrat%20Khaira%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728713/Jaane%20Meriye.jpg',
+        name : 'Jaane Meriye Akhil',
+        artist : 'Akhil',
+        music : 'https://hd1.djjohal.com/320/514526/Jaane%20Meriye%20-%20Akhil%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728619/Kam%20Lout.jpg',
+        name : 'Kam Lout',
+        artist : 'A Kay',
+        music : 'https://hd1.djjohal.com/320/514401/Kam%20Lout%20-%20A%20Kay%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728612/High%20Life.jpg',
+        name : 'High Life',
+        artist : 'Jass Bajwa',
+        music : 'https://hd1.djjohal.com/320/514390/High%20Life%20-%20Jass%20Bajwa%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728492/Mehrma.jpg',
+        name : 'Mehrma',
+        artist : 'The PropheC',
+        music : 'https://hd1.djjohal.com/320/514217/Mehrma%20-%20The%20PropheC%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728489/Detail.jpg',
+        name : 'Detail',
+        artist : 'Amrit Maan',
+        music : 'https://hd1.djjohal.com/320/514214/Detail%20-%20Amrit%20Maan%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728468/Snowfall.jpg',
+        name : 'Snowfall',
+        artist : 'Jordan Sandhu',
+        music : 'https://hd1.djjohal.com/320/514180/Snowfall%20-%20Jordan%20Sandhu%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728459/6%20L.jpg',
+        name : '6 L',
+        artist : 'Tarsem Jassar & Kulbir Jhinjer',
+        music : 'https://hd1.djjohal.com/320/514151/6%20L%20-%20Tarsem%20Jassar%20%20Kulbir%20Jhinjer%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728421/Trouble%20Maker.jpg',
+        name : 'Trouble',
+        artist : 'Maker Jassa',
+        music : 'https://hd1.djjohal.com/320/514111/Trouble%20Maker%20-%20Jassa%20Dhillon%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728398/Blood%20Talks.jpg',
+        name : 'Blood Talks',
+        artist : 'Jordan Sandhu & Zikar Sandhu',
+        music : 'https://hd1.djjohal.com/320/514078/Blood%20Talks%20-%20Jordan%20Sandhu%20%20Zikar%20Sandhu%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728375/Jugni.jpg',
+        name : 'Jugni',
+        artist : 'Diljit Dosanjh & Diamond Platnumz',
+        music : 'https://hd1.djjohal.com/320/514054/Jugni%20-%20Diljit%20Dosanjh%20%20Diamond%20Platnumz%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728305/DOABA.jpg',
+        name : 'DOABA',
+        artist : 'Garry Sandhu',
+        music : 'https://hd1.djjohal.com/320/513974/DOABA%20-%20Garry%20Sandhu%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728292/Mobster.jpg',
+        name : 'Mobster',
+        artist : 'Singga Ft. Deep Jandu',
+        music : 'https://hd1.djjohal.com/320/513961/Mobster%20-%20Singga%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728280/Grace.jpg',
+        name : 'Grace',
+        artist : 'Gurnam Bhullar',
+        music : 'https://hd1.djjohal.com/320/513937/Grace%20-%20Gurnam%20Bhullar%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728276/Dont%20You.jpg',
+        name : 'Dont You',
+        artist : 'Jassa Dhillon',
+        music : 'https://hd1.djjohal.com/320/513933/Dont%20You%20-%20Jassa%20Dhillon%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728273/Koka.jpg',
+        name : 'Koka',
+        artist : 'Diljit Dosanjh',
+        music : 'https://hd1.djjohal.com/320/513929/Koka%20-%20Diljit%20Dosanjh%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728257/Jionda%20Reh.jpg',
+        name : 'Jionda Reh',
+        artist : 'Prabh Gill',
+        music : 'https://hd1.djjohal.com/320/513904/Jionda%20Reh%20-%20Prabh%20Gill%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728244/Yaad.jpg',
+        name : 'Yaad',
+        artist : 'Jassa Dhillon',
+        music : 'https://hd1.djjohal.com/320/513883/Yaad%20-%20Jassa%20Dhillon%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728233/Wrong%20Report.jpg',
+        name : 'Wrong Report',
+        artist : 'Korala Maan',
+        music : 'https://hd1.djjohal.com/320/513865/Wrong%20Report%20-%20Korala%20Maan%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728216/Hanji%20Hanji.jpg',
+        name : 'Hanji Hanji',
+        artist : 'Amrit Maan',
+        music : 'https://hd1.djjohal.com/320/513848/Hanji%20Hanji%20-%20Amrit%20Maan%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728207/Swag.jpg',
+        name : 'Swag',
+        artist : 'Tarsem Jassar',
+        music : 'https://hd1.djjohal.com/320/513838/Swag%20-%20Tarsem%20Jassar%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/727349/The%20Last%20Ride.jpg',
+        name : 'The Last Ride',
+        artist : 'Sidhu Moose Wala',
+        music : 'https://hd1.djjohal.com/320/512702/The%20Last%20Ride%20-%20Sidhu%20Moose%20Wala%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/727181/Sunburn.jpg',
+        name : 'Sunburn',
+        artist : 'Pavitar Lassoi',
+        music : 'https://hd1.djjohal.com/320/512482/Sunburn%20-%20Pavitar%20Lassoi%20(DJJOhAL.Com).mp3'
     }
 ];
 

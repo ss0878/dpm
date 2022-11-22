@@ -35,6 +35,8 @@ body{
     -moz-border-radius:190px;
     -webkit-border-radius:190px;
     border-radius: 190px;
+    
+    transition: 0.4s;
 }
 .now-playing{
     font-size: 1rem;

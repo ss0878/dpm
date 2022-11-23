@@ -404,6 +404,12 @@ const music_list = [
         name : 'Sunburn',
         artist : 'Pavitar Lassoi',
         music : 'https://hd1.djjohal.com/320/512482/Sunburn%20-%20Pavitar%20Lassoi%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/727699/Call.jpg',
+        name : 'Call',
+        artist : 'Nirvair Pannu',
+        music : 'https://hd1.djjohal.com/320/513130/Call%20-%20Nirvair%20Pannu%20(DJJOhAL.Com).mp3'
     }
 ];
 

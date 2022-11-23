@@ -65,12 +65,6 @@ const music_list = [
     },
     {
         img : 'https://lq.djjohal.com/covers/728686/Kangne.jpg',
-        name : 'Geet Banuga',
-        artist : 'Kaka',
-        music : 'https://hd1.djjohal.com/320/514485/Geet%20Banuga%20-%20Kaka%20(DJJOhAL.Com).mp3'
-    },
-    {
-        img : 'https://lq.djjohal.com/covers/728700/Trucker.jpg',
         name : 'Kangne',
         artist : 'Kaur B',
         music : 'https://hd1.djjohal.com/320/514483/Kangne%20-%20Kaur%20B%20(DJJOhAL.Com).mp3'
@@ -281,7 +275,7 @@ const music_list = [
     },
     {
         img : 'https://lq.djjohal.com/covers/728713/Jaane%20Meriye.jpg',
-        name : 'Jaane Meriye Akhil',
+        name : 'Jaane Meriye',
         artist : 'Akhil',
         music : 'https://hd1.djjohal.com/320/514526/Jaane%20Meriye%20-%20Akhil%20(DJJOhAL.Com).mp3'
     },
@@ -323,8 +317,8 @@ const music_list = [
     },
     {
         img : 'https://lq.djjohal.com/covers/728421/Trouble%20Maker.jpg',
-        name : 'Trouble',
-        artist : 'Maker Jassa',
+        name : 'Trouble Maker',
+        artist : 'Jassa',
         music : 'https://hd1.djjohal.com/320/514111/Trouble%20Maker%20-%20Jassa%20Dhillon%20(DJJOhAL.Com).mp3'
     },
     {

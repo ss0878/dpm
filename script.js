@@ -22,6 +22,30 @@ let updateTimer;
 
 const music_list = [
     {
+        img : 'https://lq.djjohal.com/covers/728730/Enigma.jpg',
+        name : 'Enigma',
+        artist : 'Tarsem Jassar',
+        music : 'https://hd1.djjohal.com/320/514552/Enigma%20-%20Tarsem%20Jassar%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728738/So%20Mean.jpg',
+        name : 'So Mean',
+        artist : 'Navaan Sandhu',
+        music : 'https://hd1.djjohal.com/320/514568/So%20Mean%20-%20Navaan%20Sandhu%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728739/Sifat.jpg',
+        name : 'Sifat',
+        artist : 'Nirvair Pannu',
+        music : 'https://hd1.djjohal.com/320/514569/Sifat%20-%20Nirvair%20Pannu%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728741/Aho%20Aho.jpg',
+        name : 'Aho Aho',
+        artist : 'Gur Sidhu & Sultaan',
+        music : 'https://hd1.djjohal.com/320/514571/Aho%20Aho%20-%20Gur%20Sidhu%20%20Sultaan%20(DJJOhAL.Com).mp3'
+    },
+	{
         img : 'https://lq.djjohal.com/covers/728716/Ailaan.jpg',
         name : 'Ailaan',
         artist : 'Gulab Sidhu , Gur Sidhu',
@@ -410,6 +434,12 @@ const music_list = [
         name : 'Call',
         artist : 'Nirvair Pannu',
         music : 'https://hd1.djjohal.com/320/513130/Call%20-%20Nirvair%20Pannu%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728001/Plug%20Talk.jpg',
+        name : 'Plug Talk',
+        artist : 'Navaan Sandhu',
+        music : 'https://hd1.djjohal.com/320/513558/Plug%20Talk%20-%20Navaan%20Sandhu%20(DJJOhAL.Com).mp3'
     }
 ];
 

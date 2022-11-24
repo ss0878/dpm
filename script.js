@@ -22,6 +22,12 @@ let updateTimer;
 
 const music_list = [
     {
+        img : '',
+        name : '',
+        artist : 'Karan Aujla',
+        music : ''
+    },
+       {
         img : 'https://lq.djjohal.com/covers/728750/WYTB.jpg',
         name : 'WYTB',
         artist : 'Karan Aujla & Gurlez Akhtar',

@@ -23,6 +23,11 @@ let updateTimer;
 const music_list = [
     {
         img : 'https://lq.djjohal.com/covers/728749/On%20Top.jpg',
+        name : 'On Top (Test)',
+        artist : 'Karan Aujla',
+        music : 'https://dl2.djring.com/sd2.djjohal.com/128/514579/(DJJOhAL.Com).mp3'
+    },{
+        img : 'https://lq.djjohal.com/covers/728749/On%20Top.jpg',
         name : 'On Top',
         artist : 'Karan Aujla',
         music : 'https://hd1.djjohal.com/320/514579/On%20Top%20-%20Karan%20Aujla%20(DJJOhAL.Com).mp3'

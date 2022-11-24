@@ -22,10 +22,16 @@ let updateTimer;
 
 const music_list = [
     {
-        img : '',
-        name : '',
+        img : 'https://lq.djjohal.com/covers/728749/On%20Top.jpg',
+        name : 'On Top',
         artist : 'Karan Aujla',
-        music : ''
+        music : 'https://hd1.djjohal.com/320/514579/On%20Top%20-%20Karan%20Aujla%20(DJJOhAL.Com).mp3'
+    },
+       {
+        img : 'https://lq.djjohal.com/covers/728730/Enigma.jpg',
+        name : 'Enigma',
+        artist : 'Tarsem Jassar',
+        music : 'https://hd1.djjohal.com/320/514552/Enigma%20-%20Tarsem%20Jassar%20(DJJOhAL.Com).mp3'
     },
        {
         img : 'https://lq.djjohal.com/covers/728750/WYTB.jpg',
@@ -34,10 +40,10 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/514580/WYTB%20-%20Karan%20Aujla%20%20Gurlez%20Akhtar%20(DJJOhAL.Com).mp3'
     },
        {
-        img : 'https://lq.djjohal.com/covers/728730/Enigma.jpg',
-        name : 'Enigma',
-        artist : 'Tarsem Jassar',
-        music : 'https://hd1.djjohal.com/320/514552/Enigma%20-%20Tarsem%20Jassar%20(DJJOhAL.Com).mp3'
+        img : 'https://lq.djjohal.com/covers/728751/Blast.jpg',
+        name : 'Blast',
+        artist : 'R. Nait & Gurlez Akhtar',
+        music : 'https://hd1.djjohal.com/320/514581/Blast%20-%20R%20Nait%20%20Gurlez%20Akhtar%20(DJJOhAL.Com).mp3'
     },
 	{
         img : 'https://lq.djjohal.com/covers/728738/So%20Mean.jpg',

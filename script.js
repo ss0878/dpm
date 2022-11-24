@@ -22,6 +22,12 @@ let updateTimer;
 
 const music_list = [
     {
+        img : 'https://lq.djjohal.com/covers/728750/WYTB.jpg',
+        name : 'WYTB',
+        artist : 'Karan Aujla & Gurlez Akhtar',
+        music : 'https://hd1.djjohal.com/320/514580/WYTB%20-%20Karan%20Aujla%20%20Gurlez%20Akhtar%20(DJJOhAL.Com).mp3'
+    },
+       {
         img : 'https://lq.djjohal.com/covers/728730/Enigma.jpg',
         name : 'Enigma',
         artist : 'Tarsem Jassar',

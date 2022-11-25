@@ -22,13 +22,13 @@ let updateTimer;
 
 const music_list = [
     {
-        img : 'https://lq.djjohal.com/covers/728749/On%20Top.jpg',
+        img : 'https://i.imgur.com/b7k4od1.jpg',
         name : 'On Top',
         artist : 'Karan Aujla',
         music : 'https://hd1.djjohal.com/320/514579/On%20Top%20-%20Karan%20Aujla%20(DJJOhAL.Com).mp3'
     },
 	{
-        img : 'https://lq.djjohal.com/covers/728752/10%20Outta%2010.jpg',
+        img : 'https://i.imgur.com/2AyYePC.jpg',
         name : '10 Outta 10',
         artist : 'Amrit Maan & Shipra Goyal',
         music : 'https://hd1.djjohal.com/320/514582/10%20Outta%2010%20-%20Amrit%20Maan%20%20Shipra%20Goyal%20(DJJOhAL.Com).mp3'

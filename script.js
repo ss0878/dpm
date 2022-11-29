@@ -22,6 +22,18 @@ let updateTimer;
 
 const music_list = [
     {
+        img : 'https://lq.djjohal.com/covers/728761/Jatt%20Life%20Zone.jpg',
+        name : 'Jatt Life Zone',
+        artist : 'Varinder Brar',
+        music : 'https://hd1.djjohal.com/320/514606/Jatt%20Life%20Zone%20-%20Varinder%20Brar%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728765/Rude%20Boy.jpg',
+        name : 'Rude Boy',
+        artist : 'Jazzy B',
+        music : 'https://hd1.djjohal.com/320/514610/Rude%20Boy%20-%20Jazzy%20B%20(DJJOhAL.Com).mp3'
+    },
+	{
         img : 'https://i.imgur.com/b7k4od1.jpg',
         name : 'On Top',
         artist : 'Karan Aujla',

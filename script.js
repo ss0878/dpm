@@ -478,6 +478,12 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/513838/Swag%20-%20Tarsem%20Jassar%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/724892/Mashup.jpg',
+        name : 'Mashup',
+        artist : 'Amantej Hundal',
+        music : 'https://hd1.djjohal.com/320/509586/Mashup%20-%20Amantej%20Hundal%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://lq.djjohal.com/covers/727349/The%20Last%20Ride.jpg',
         name : 'The Last Ride',
         artist : 'Sidhu Moose Wala',
@@ -514,10 +520,22 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/513781/Baller%20-%20Shubh%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/728727/Its%20a%20Good%20Day.jpg',
+        name : 'Its a Good Day',
+        artist : 'Amantej Hundal',
+        music : 'https://hd1.djjohal.com/320/514546/Its%20a%20Good%20Day%20-%20Amantej%20Hundal%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://lq.djjohal.com/covers/725501/Elevated.jpg',
         name : 'Elevated',
         artist : 'Shubh',
         music : 'https://hd1.djjohal.com/320/510384/Elevated%20-%20Shubh%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728269/Gun%20n%20Mic.jpg',
+        name : 'Gun n Mic',
+        artist : 'Amantej Hundal',
+        music : 'https://hd1.djjohal.com/320/513925/Gun%20n%20Mic%20-%20Amantej%20Hundal%20(DJJOhAL.Com).mp3'
     }
 ];
 

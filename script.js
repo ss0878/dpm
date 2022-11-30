@@ -536,7 +536,15 @@ const music_list = [
         name : 'Gun n Mic',
         artist : 'Amantej Hundal',
         music : 'https://hd1.djjohal.com/320/513925/Gun%20n%20Mic%20-%20Amantej%20Hundal%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://i.ytimg.com/vi/o84t0LSOBwI/hqdefault.jpg',
+        name : 'Gaddi Red Challenger',
+        artist : 'Babbu',
+        music : 'https://github.com/ss0878/dpm/blob/main/Babbu%20-%20Gaddi%20Red%20Challenger.mp3?raw=true'
     }
+	
+	
 ];
 
 loadTrack(track_index);

@@ -484,6 +484,12 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/512702/The%20Last%20Ride%20-%20Sidhu%20Moose%20Wala%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/725500/Offshore.jpg',
+        name : 'Offshore',
+        artist : 'Shubh',
+        music : 'https://hd1.djjohal.com/320/510383/Offshore%20-%20Shubh%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://lq.djjohal.com/covers/727181/Sunburn.jpg',
         name : 'Sunburn',
         artist : 'Pavitar Lassoi',
@@ -500,6 +506,18 @@ const music_list = [
         name : 'Plug Talk',
         artist : 'Navaan Sandhu',
         music : 'https://hd1.djjohal.com/320/513558/Plug%20Talk%20-%20Navaan%20Sandhu%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728164/Baller.jpg',
+        name : 'Baller',
+        artist : 'Shubh',
+        music : 'https://hd1.djjohal.com/320/513781/Baller%20-%20Shubh%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/725501/Elevated.jpg',
+        name : 'Elevated',
+        artist : 'Shubh',
+        music : 'https://hd1.djjohal.com/320/510384/Elevated%20-%20Shubh%20(DJJOhAL.Com).mp3'
     }
 ];
 

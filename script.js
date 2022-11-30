@@ -22,6 +22,30 @@ let updateTimer;
 
 const music_list = [
     {
+        img : 'https://lq.djjohal.com/covers/728780/Her.jpg',
+        name : 'Her',
+        artist : 'Shubh',
+        music : 'https://hd1.djjohal.com/320/514625/Her%20-%20Shubh%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728781/Tu%20He%20Dass.jpg',
+        name : 'Tu He Dass',
+        artist : 'Harvi',
+        music : 'https://hd1.djjohal.com/320/514626/Tu%20He%20Dass%20-%20Harvi%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728776/Taur%20Tappa.jpg',
+        name : 'Taur Tappa',
+        artist : 'Shooter Kahlon',
+        music : 'https://hd1.djjohal.com/320/514621/Taur%20Tappa%20-%20Shooter%20Kahlon%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728772/Best%20Friends.jpg',
+        name : 'Best Friends',
+        artist : 'The Landers & Guri Singh',
+        music : 'https://hd1.djjohal.com/320/514617/Best%20Friends%20-%20The%20Landers%20%20Guri%20Singh%20(DJJOhAL.Com).mp3'
+    },
+	{
         img : 'https://lq.djjohal.com/covers/728761/Jatt%20Life%20Zone.jpg',
         name : 'Jatt Life Zone',
         artist : 'Varinder Brar',

@@ -22,6 +22,18 @@ let updateTimer;
 
 const music_list = [
     {
+        img : 'https://lq.djjohal.com/covers/728793/2NI.jpg',
+        name : '2NI',
+        artist : 'Garry Sandhu',
+        music : 'https://hd1.djjohal.com/320/514643/2NI%20-%20Garry%20Sandhu%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728796/3%20-%204%20Yaar.jpg',
+        name : '3 - 4 Yaar',
+        artist : 'Karaj Randhawa',
+        music : 'https://hd1.djjohal.com/320/514646/3%20%204%20Yaar%20-%20Karaj%20Randhawa%20(DJJOhAL.Com).mp3'
+    },
+	{
         img : 'https://lq.djjohal.com/covers/728780/Her.jpg',
         name : 'Her',
         artist : 'Shubh',

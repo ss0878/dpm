@@ -1,5 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right,#9a1d86, #1595be);
+    font-weight: bold;
     color: whitesmoke;
 }
 .player{
@@ -25,12 +27,12 @@ body{
     margin: 25px;
     height: 250px;
     width: 250px;
-    border: 2px solid #fff;
+    border: 2px solid #FFFAFA;
     background-size: cover;
     background-position: center;
     border-radius: 50%;
-    -moz-box-shadow: 0px 6px 5px #ccc;
-    -webkit-box-shadow:0px 6px 5px #ccc;
+    -moz-box-shadow: 0px 6px 5px black;
+    -webkit-box-shadow:0px 6px 5px black;
     box-shadow: 0px 6px 5px #ccc;
     -moz-border-radius:190px;
     -webkit-border-radius:190px;
@@ -122,14 +124,15 @@ i,
 i.fa-play-circle,
 i.fa-pause-circle,
 i.fa-step-forward,
-i.fa-step-backward{
+i.fa-step-backward,
+p{
     cursor: pointer;
 }
 .randomActive{
     color: black;
 }
 .rotate{
-    animation: rotation 8s infinite linear;
+    animation: rotation 10s infinite linear;
 }
 @keyframes rotation{
     from{

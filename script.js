@@ -20,6 +20,70 @@ let isPlaying = false;
 let isRandom = false;
 let updateTimer;
 
+let alright = new HTMLAudioElement();
+let u = new HTMLAudioElement();
+let forSaleInterlude = new HTMLAudioElement();
+
+const updatePositionState = () => {
+  navigator.mediaSession.setPositionState({
+    duration: alright.duration,
+    playbackRate: alright.playbackRate,
+    position: alright.currentTime
+  });
+}
+ 
+const actionsAndHandlers = [
+  ['play', () => {
+    alright.play();
+    updatePositionState();
+  }],
+  ['pause', () => { alright.pause(); }],
+  ['previoustrack', () => { u.play(); }],
+  ['nexttrack', () => { forSaleInterlude.play(); }],
+  ['seekbackward', (details) => {
+    alright.currentTime = alright.currentTime - (details.seekOffset || 10);
+    updatePositionState();
+  }],
+  ['seekforward', (details) => {
+    alright.currentTime = alright.currentTime + (details.seekOffset || 10);
+    updatePositionState();
+  }],
+  ['seekto', (details) => {
+    if (details.fastSeek && 'fastSeek' in alright) {
+      alright.fastSeek(details.seekTime);
+      updatePositionState();
+      return;
+    }
+    alright.currentTime = details.seekTime;
+    updatePositionState();
+  }],
+  ['stop', () => {
+    alright.pause();
+    alright.currentTime = 0;
+  }],
+]
+ 
+if ( 'mediaSession' in navigator ) {
+  navigator.mediaSession.metadata = new MediaMetadata({
+    title: 'Alright',
+    artist: 'Kendrick Lamar',
+    album: 'To Pimp A Butterfly',
+    artwork: [
+      { src: 'https://mytechnicalarticle/kendrick-lamar/to-pimp-a-butterfly/alright/96x96', sizes: '96x96', type: 'image/png' },
+      { src: 'https://mytechnicalarticle/kendrick-lamar/to-pimp-a-butterfly/alright/128x128', sizes: '128x128', type: 'image/png' },
+      // More sizes, like 192x192, 256x256, 384x384, and 512x512
+    ]
+  });
+ 
+  for (const [action, handler] of actionsAndHandlers) {
+    try {
+      navigator.mediaSession.setActionHandler(action, handler);
+    } catch (error) {
+      console.log(`The media session action, ${action}, is not supported`);
+    }
+  }
+}
+
 const music_list = [
     {
         img : 'https://lq.djjohal.com/covers/728793/2NI.jpg',

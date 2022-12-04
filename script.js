@@ -578,7 +578,9 @@ function loadTrack(track_index){
 
     curr_track.addEventListener('ended', nextTrack);
     random_bg_color();
+    notification();
 }
+
 
 function random_bg_color(){
     let hex = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e'];
@@ -605,7 +607,7 @@ function reset(){
     seek_slider.value = 0;
 }
 function randomTrack(){
-    isRandom ? pauseRandom() : playRandom();
+    isRandom ? pauseRandom() : playRandom(); 
 }
 function playRandom(){
     isRandom = true;
@@ -618,10 +620,10 @@ function pauseRandom(){
 function repeatTrack(){
     let current_index = track_index;
     loadTrack(current_index);
-    playTrack();
+    playTrack(); notification();
 }
 function playpauseTrack(){
-    isPlaying ? pauseTrack() : playTrack();
+    isPlaying ? pauseTrack() : playTrack(); notification();
 }
 function playTrack(){
     curr_track.play();
@@ -648,6 +650,7 @@ function nextTrack(){
     }
     loadTrack(track_index);
     playTrack();
+    notification();
 }
 function prevTrack(){
     if(track_index > 0){
@@ -657,6 +660,7 @@ function prevTrack(){
     }
     loadTrack(track_index);
     playTrack();
+    notification();
 }
 function seekTo(){
     let seekto = curr_track.duration * (seek_slider.value / 100);
@@ -684,4 +688,29 @@ function setUpdate(){
         curr_time.textContent = currentMinutes + ":" + currentSeconds;
         total_duration.textContent = durationMinutes + ":" + durationSeconds;
     }
+}
+function notification(){
+if ( 'mediaSession' in navigator ) {
+	navigator.mediaSession.metadata = new MediaMetadata({
+	  title: track_name.textContent,
+		  artist: track_artist.textContent,
+		  //album: track_name.textContent,
+		 // artwork: track_art.style.backgroundImage
+	});
+  
+	navigator.mediaSession.setActionHandler('pause', () => {
+	  audio.pause();
+	});
+	navigator.mediaSession.setActionHandler('play', () => {
+	  audio.play();
+	});
+	navigator.mediaSession.setActionHandler('previoustrack', () => {
+	  //find the index of the audio src in our srcs array to know what src to set next
+	  prevTrack();
+	});
+	navigator.mediaSession.setActionHandler('nexttrack', () => {
+	  //find the index of the audio src in our srcs array to know what src to set next
+	  nextTrack();
+	});
+  }
 }

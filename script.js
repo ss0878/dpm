@@ -23,6 +23,13 @@ let updateTimer;
 
 const music_list = [
     {
+        img : 'https://lq.djjohal.com/covers/728833/Amsterdam.jpg',
+        name : 'Amsterdam',
+        artist : 'Jaz Dhami',
+	album : 'Jaz Dhami Music',
+        music : 'https://hd1.djjohal.com/320/514701/Amsterdam%20-%20Jaz%20Dhami%20(DJJOhAL.Com).mp3'
+    },
+	{
         img : 'https://lq.djjohal.com/covers/728802/Slang.jpg',
         name : 'Slang',
         artist : 'Mani Longia',

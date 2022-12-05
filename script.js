@@ -23,27 +23,38 @@ let updateTimer;
 
 const music_list = [
     {
+        img : 'https://lq.djjohal.com/covers/728802/Slang.jpg',
+        name : 'Slang',
+        artist : 'Mani Longia',
+	album : 'Single Track Studios',
+        music : 'https://hd1.djjohal.com/320/514655/Slang%20-%20Mani%20Longia%20(DJJOhAL.Com).mp3'
+    },
+	{
         img : 'https://lq.djjohal.com/covers/728793/2NI.jpg',
         name : '2NI',
         artist : 'Garry Sandhu',
+	album : 'Fresh Media Records',
         music : 'https://hd1.djjohal.com/320/514643/2NI%20-%20Garry%20Sandhu%20(DJJOhAL.Com).mp3'
     },
 	{
         img : 'https://lq.djjohal.com/covers/728796/3%20-%204%20Yaar.jpg',
         name : '3 - 4 Yaar',
         artist : 'Karaj Randhawa',
+	album : 'Karaj Randhawa Music',
         music : 'https://hd1.djjohal.com/320/514646/3%20%204%20Yaar%20-%20Karaj%20Randhawa%20(DJJOhAL.Com).mp3'
     },
 	{
         img : 'https://lq.djjohal.com/covers/728780/Her.jpg',
         name : 'Her',
         artist : 'Shubh',
+	album : 'Shubh Music',
         music : 'https://hd1.djjohal.com/320/514625/Her%20-%20Shubh%20(DJJOhAL.Com).mp3'
     },
 	{
         img : 'https://lq.djjohal.com/covers/728781/Tu%20He%20Dass.jpg',
         name : 'Tu He Dass',
         artist : 'Harvi',
+	album : 'Bang Music',
         music : 'https://hd1.djjohal.com/320/514626/Tu%20He%20Dass%20-%20Harvi%20(DJJOhAL.Com).mp3'
     },
 	{

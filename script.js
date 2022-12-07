@@ -30,6 +30,20 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/514725/SUPREME%20-%20Amrit%20Maan%20(DJJOhAL.Com).mp3'
     },
 	{
+        img : 'https://lq.djjohal.com/covers/728843/Lalkaare.jpg',
+        name : 'Lalkaare',
+        artist : 'Harjot , Deepak Dhillon',
+	album : 'True Music',
+        music : 'https://hd1.djjohal.com/320/514729/Lalkaare%20-%20Harjot%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728845/Landlord.jpg',
+        name : 'Landlord',
+        artist : 'Geeta Zaildar',
+	album : 'T-Series',
+        music : 'https://hd1.djjohal.com/320/514731/Landlord%20-%20Geeta%20Zaildar%20(DJJOhAL.Com).mp3'
+    },
+	{
         img : 'https://lq.djjohal.com/covers/728833/Amsterdam.jpg',
         name : 'Amsterdam',
         artist : 'Jaz Dhami',

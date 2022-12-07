@@ -23,11 +23,25 @@ let updateTimer;
 
 const music_list = [
     {
+        img : 'https://lq.djjohal.com/covers/728839/DONT%20YOU%20KNOW.jpg',
+        name : 'SUPREME',
+        artist : 'Amrit Maan',
+	album : 'XPENSIVE',
+        music : 'https://hd1.djjohal.com/320/514725/SUPREME%20-%20Amrit%20Maan%20(DJJOhAL.Com).mp3'
+    },
+	{
         img : 'https://lq.djjohal.com/covers/728833/Amsterdam.jpg',
         name : 'Amsterdam',
         artist : 'Jaz Dhami',
 	album : 'Jaz Dhami Music',
         music : 'https://hd1.djjohal.com/320/514701/Amsterdam%20-%20Jaz%20Dhami%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728839/DONT%20YOU%20KNOW.jpg',
+        name : 'DONT YOU KNOW',
+        artist : 'Amrit Maan',
+	album : 'XPENSIVE',
+        music : 'https://hd1.djjohal.com/320/514722/DONT%20YOU%20KNOW%20-%20Amrit%20Maan%20(DJJOhAL.Com).mp3'
     },
 	{
         img : 'https://lq.djjohal.com/covers/728802/Slang.jpg',
@@ -717,10 +731,10 @@ if ( 'mediaSession' in navigator ) {
 	});
   
 	navigator.mediaSession.setActionHandler('pause', () => {
-	  audio.pause();
+	  audio.pauseTrack();
 	});
 	navigator.mediaSession.setActionHandler('play', () => {
-	  audio.play();
+	  audio.playTrack();
 	});
 	navigator.mediaSession.setActionHandler('previoustrack', () => {
 	  //find the index of the audio src in our srcs array to know what src to set next

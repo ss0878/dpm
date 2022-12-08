@@ -745,10 +745,10 @@ if ( 'mediaSession' in navigator ) {
 	});
   
 	navigator.mediaSession.setActionHandler('pause', () => {
-	  audio.pauseTrack();
+	  pauseTrack();
 	});
 	navigator.mediaSession.setActionHandler('play', () => {
-	  audio.playTrack();
+	  playTrack();
 	});
 	navigator.mediaSession.setActionHandler('previoustrack', () => {
 	  //find the index of the audio src in our srcs array to know what src to set next

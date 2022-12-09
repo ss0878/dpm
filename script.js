@@ -23,6 +23,83 @@ let updateTimer;
 
 const music_list = [
     {
+        img : 'https://lq.djjohal.com/covers/728864/Machi%20Jande%20Aa.jpg',
+        name : 'Machi Jande Aa',
+        artist : 'Hunar Sidhu & Gurlez Akhtar',
+	album : 'Pendu Boyz Music',
+        music : 'https://hd1.djjohal.com/320/514763/Machi%20Jande%20Aa%20-%20Hunar%20Sidhu%20%20Gurlez%20Akhtar%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728853/No%20Parking.jpg',
+        name : 'No Parking',
+        artist : 'Kahlon',
+	album : 'Gringo Entertainments',
+        music : 'https://hd1.djjohal.com/320/514742/No%20Parking%20-%20Kahlon%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728858/Jaan%20Ke%20Bhulekhe.jpg',
+        name : 'Jaan Ke Bhulekhe',
+        artist : 'Satinder Sartaaj',
+	album : 'Jugnu Music',
+        music : 'https://hd1.djjohal.com/320/514752/Jaan%20Ke%20Bhulekhe%20-%20Satinder%20Sartaaj%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728860/Move%20On.jpg',
+        name : 'Let Go',
+        artist : 'Prem Dhillon',
+	album : 'Archives',
+        music : 'https://hd1.djjohal.com/320/514754/Let%20Go%20-%20Prem%20Dhillon%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728850/Aam%20Jahi.jpg',
+        name : 'Aam Jahi',
+        artist : 'Sukh Lotey',
+	album : 'Red Leaf Music',
+        music : 'https://hd1.djjohal.com/320/514739/Aam%20Jahi%20-%20Sukh%20Lotey%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728856/My%20Dear%20Punjab.jpg',
+        name : 'My Dear Punjab',
+        artist : 'Ranjit Bawa',
+	album : 'Bless Studios',
+        music : 'https://hd1.djjohal.com/320/514745/My%20Dear%20Punjab%20-%20Ranjit%20Bawa%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728859/Jand.jpg',
+        name : 'Jand',
+        artist : 'Tarsem',
+	album : 'Flame Studio',
+        music : 'https://hd1.djjohal.com/320/514753/Jand%20-%20Tarsem%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728863/Red%20Eyes.jpg',
+        name : 'Red Eyes',
+        artist : 'Ekam Chanoli',
+	album : 'Jass Records',
+        music : 'https://hd1.djjohal.com/320/514762/Red%20Eyes%20-%20Ekam%20Chanoli%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728854/Ik%20Kudi.jpg',
+        name : 'Ik Kudi',
+        artist : 'Gippy Grewal',
+	album : 'Humble Music',
+        music : 'https://hd1.djjohal.com/320/514743/Ik%20Kudi%20-%20Gippy%20Grewal%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728861/White%20Brown%20Black.jpg',
+        name : 'White Brown Black',
+        artist : 'Avvy Sra & Karan Aujla',
+	album : 'Desi Melodies',
+        music : 'https://hd1.djjohal.com/320/514760/White%20Brown%20Black%20-%20Avvy%20Sra%20%20Karan%20Aujla%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728860/Move%20On.jpg',
+        name : 'Without You',
+        artist : 'Prem Dhillon',
+	album : 'Archives',
+        music : 'https://hd1.djjohal.com/320/514759/Without%20You%20-%20Prem%20Dhillon%20(DJJOhAL.Com).mp3'
+    },
+	{
         img : 'https://lq.djjohal.com/covers/728839/DONT%20YOU%20KNOW.jpg',
         name : 'SUPREME',
         artist : 'Amrit Maan',
@@ -453,6 +530,13 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/514180/Snowfall%20-%20Jordan%20Sandhu%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/728363/Ferozi%20Koka.jpg',
+        name : 'Ferozi Koka',
+        artist : 'Ranjit Bawa',
+	album : 'Cocktail Music',
+        music : 'https://hd1.djjohal.com/320/514037/Ferozi%20Koka%20-%20Ranjit%20Bawa%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://lq.djjohal.com/covers/728459/6%20L.jpg',
         name : '6 L',
         artist : 'Tarsem Jassar & Kulbir Jhinjer',
@@ -601,6 +685,124 @@ const music_list = [
         name : 'Gaddi Red Challenger',
         artist : 'Babbu',
         music : 'https://github.com/ss0878/dpm/blob/main/Babbu%20-%20Gaddi%20Red%20Challenger.mp3?raw=true'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/723322/Koka.jpg',
+        name : 'Koka',
+        artist : 'Ranjit Bawa',
+        music : 'https://hd1.djjohal.com/320/507450/Koka%20-%20Ranjit%20Bawa%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728191/Gaddi%20Vich.jpg',
+        name : 'Gaddi Vich',
+        artist : 'Dilpreet Dhillon & Kuar B',
+	album : 'Times Music',
+        music : 'https://hd1.djjohal.com/320/513819/Gaddi%20Vich%20-%20Dilpreet%20Dhillon%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728117/Band%20Theke.jpg',
+        name : 'Band Theke',
+        artist : 'Jordan Sandhu',
+	album : 'Times Music',
+        music : 'https://hd1.djjohal.com/320/513723/Band%20Theke%20-%20Jordan%20Sandhu%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/728113/Just%20Round.jpg',
+        name : 'Just Round',
+        artist : 'Jass Bajwa',
+	album : 'Mee Muzic',
+        music : 'https://hd1.djjohal.com/320/513708/Just%20Round%20-%20Jass%20Bajwa%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/727948/Right%20Left.jpg',
+        name : 'Right Left',
+        artist : 'Kulwinder Billa',
+	album : 'Times Music',
+        music : 'https://hd1.djjohal.com/320/513475/Right%20Left%20-%20Kulwinder%20Billa%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/727800/Patake.jpg',
+        name : 'Patake',
+        artist : 'Khan Bhaini & Gurlez Akhtar',
+	album : 'Single Track Studio',
+        music : 'https://hd1.djjohal.com/320/513275/Patake%20-%20Khan%20Bhaini%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/727286/Kuwait%20Wala%20Koka.jpg',
+        name : 'Kuwait Wala Koka',
+        artist : 'Gurman Sandhu & Baani Sandhue',
+	album : 'Desi Junction',
+        music : 'https://hd1.djjohal.com/320/512621/Kuwait%20Wala%20Koka%20-%20Gurman%20Sandhu%20%20Baani%20Sandhu%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/727060/Nain.jpg',
+        name : 'Nain',
+        artist : 'Dilpreet Dhillon Ft. Mehar Vaani',
+	album : 'White Hill Music',
+        music : 'https://hd1.djjohal.com/320/512335/Nain%20-%20Dilpreet%20Dhillon%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/727012/Tej%20Mitha.jpg',
+        name : 'Tej Mitha',
+        artist : 'Deep Bajwa',
+	album : 'Team 7 Picture',
+        music : 'https://hd1.djjohal.com/320/512275/Tej%20Mitha%20-%20Deep%20Bajwa%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/726849/Dil%20Mangeya.jpg',
+        name : 'Dil Mangeya',
+        artist : 'Sajjan Adeeb',
+	album : 'Sajjan Adeeb Music',
+        music : 'https://hd1.djjohal.com/320/512080/Dil%20Mangeya%20-%20Sajjan%20Adeeb%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/726830/Shehar%20Vichon%20Geda.jpg',
+        name : 'Shehar Vichon Geda',
+        artist : 'Jordan Sandhu',
+	album : 'Times Music',
+        music : 'https://hd1.djjohal.com/320/512061/Shehar%20Vichon%20Geda%20-%20Jordan%20Sandhu%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/726106/Jatt%20Flex.jpg',
+        name : 'Jatt Flex',
+        artist : 'Amrit Maan',
+	album : 'Cocktail Music',
+        music : 'https://hd1.djjohal.com/320/511151/Jatt%20Flex%20-%20Amrit%20Maan%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/725994/Black%20Effect.jpg',
+        name : 'Black Effect',
+        artist : 'Jordan Sandhu',
+	album : 'Times Music',
+        music : 'https://hd1.djjohal.com/320/510999/Black%20Effect%20-%20Jordan%20Sandhu%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/725816/Kul%20Milake%20Jatt.jpg',
+        name : 'Kul Milake Jatt',
+        artist : 'Gurnam Bhullar',
+	album : 'Desi Junction',
+        music : 'https://hd1.djjohal.com/320/510776/Kul%20Milake%20Jatt%20-%20Gurnam%20Bhullar%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/725561/Sira%20Ft.%20Shipra%20Goyal.jpg',
+        name : 'Sira',
+        artist : 'Dilpreet Dhillon, Shipra Goyal',
+	album : 'Times Music',
+        music : 'https://hd1.djjohal.com/320/510473/Sira%20Ft%20Shipra%20Goyal%20-%20Dilpreet%20Dhillon%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/725551/Teri%20Life%20Meri%20Life%20Ft.%20Kaur%20B.jpg',
+        name : 'Teri Life Meri Life',
+        artist : 'R Nait & Kaur B',
+	album : 'Times Music',
+        music : 'https://hd1.djjohal.com/320/510450/Teri%20Life%20Meri%20Life%20Ft%20Kaur%20B%20-%20R%20Nait%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/725502/What%20Ve.jpg',
+        name : 'What Ve',
+        artist : 'Diljit Dosanjh & Nimrat Khaira',
+	album : 'Diljit Dosanjh Music',
+        music : 'https://hd1.djjohal.com/320/510385/What%20Ve%20-%20Diljit%20Dosanjh%20%20Nimrat%20Khaira%20(DJJOhAL.Com).mp3'
     }
 	
 	

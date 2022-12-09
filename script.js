@@ -272,12 +272,6 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/514489/Gal%20Ban%20Jae%20-%20Ammy%20Virk%20(DJJOhAL.Com).mp3'
     },
     {
-        img : 'https://lq.djjohal.com/covers/728691/Wallpaper.jpg',
-        name : 'Wallpaper',
-        artist : 'Kadir Thind',
-        music : 'https://hd1.djjohal.com/320/514488/Wallpaper%20-%20Kadir%20Thind%20(DJJOhAL.Com).mp3'
-    },
-    {
         img : 'https://lq.djjohal.com/covers/728688/Geet%20Banuga.jpg',
         name : 'Geet Banuga',
         artist : 'Kaka',

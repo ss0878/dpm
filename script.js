@@ -430,7 +430,7 @@ const music_list = [
 	{
         img : 'https://lq.djjohal.com/covers/728542/Ak%2047.jpg',
         name : 'Ak 47',
-        artist : 'Ninja',
+        artist : 'Ninja & Deep Jandu',
         music : 'https://hd1.djjohal.com/320/514296/Ak%2047%20-%20Ninja%20(DJJOhAL.Com).mp3'
     },
     {

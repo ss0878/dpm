@@ -201,28 +201,10 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/514485/Geet%20Banuga%20-%20Kaka%20(DJJOhAL.Com).mp3'
     },
     {
-        img : 'https://lq.djjohal.com/covers/728686/Kangne.jpg',
-        name : 'Kangne',
-        artist : 'Kaur B',
-        music : 'https://hd1.djjohal.com/320/514483/Kangne%20-%20Kaur%20B%20(DJJOhAL.Com).mp3'
-    },
-    {
         img : 'https://lq.djjohal.com/covers/728673/Hustler.jpg',
         name : 'Hustler',
         artist : 'Sukh Lotey',
         music : 'https://hd1.djjohal.com/320/514470/Hustler%20-%20Sukh%20Lotey%20(DJJOhAL.Com).mp3'
-    },
-    {
-        img : 'https://lq.djjohal.com/covers/728677/Karobaar.jpg',
-        name : 'Karobaar',
-        artist : 'Zora Randhawa',
-        music : 'https://hd1.djjohal.com/320/514474/Karobaar%20-%20Zora%20Randhawa%20(DJJOhAL.Com).mp3'
-    },
-    {
-        img : 'https://lq.djjohal.com/covers/728670/Wang%20Golden.jpg',
-        name : 'Wang Golden',
-        artist : 'Sajjan Adeeb',
-        music : 'https://hd1.djjohal.com/320/514467/Wang%20Golden%20-%20Sajjan%20Adeeb%20(DJJOhAL.Com).mp3'
     },
     {
         img : 'https://lq.djjohal.com/covers/728672/Mehfilan.jpg',
@@ -249,12 +231,6 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/514451/Wangan%20-%20Shivjot%20(DJJOhAL.Com).mp3'
     },
     {
-        img : 'https://lq.djjohal.com/covers/728658/Munda%20Sardaran%20Da.jpg',
-        name : 'Munda Sardaran Da',
-        artist : 'Jordan Sandhu',
-        music : 'https://hd1.djjohal.com/320/514450/Munda%20Sardaran%20Da%20-%20Jordan%20Sandhu%20(DJJOhAL.Com).mp3'
-    },
-    {
         img : 'https://lq.djjohal.com/covers/728656/Jatt%20Bolde.jpg',
         name : 'Jatt Bolde',
         artist : 'Gippy Grewal, Jazzy B',
@@ -277,12 +253,6 @@ const music_list = [
         name : 'Colt',
         artist : 'Pavitar Lassoi',
         music : 'https://hd1.djjohal.com/320/512214/Colt%20-%20Pavitar%20Lassoi%20(DJJOhAL.Com).mp3'
-    },
-    {
-        img : 'https://lq.djjohal.com/covers/728610/Pooranmashi.jpg',
-        name : 'Pooranmashi',
-        artist : 'Kulwinder Billa',
-        music : 'https://hd1.djjohal.com/320/514387/Pooranmashi%20-%20Kulwinder%20Billa%20(DJJOhAL.Com).mp3'
     },
     {
         img : 'https://lq.djjohal.com/covers/728609/Wanted.jpg',
@@ -331,12 +301,6 @@ const music_list = [
         name : 'Zara Faasley Te',
         artist : 'Satinder Sartaaj',
         music : 'https://hd1.djjohal.com/320/514351/Zara%20Faasley%20Te%20-%20Satinder%20Sartaaj%20(DJJOhAL.Com).mp3'
-    },
-	{
-        img : 'https://lq.djjohal.com/covers/728563/Mithiyan%20Jailan.jpg',
-        name : 'Mithiyan Jailan',
-        artist : 'Ranjit Bawa',
-        music : 'https://hd1.djjohal.com/320/514326/Mithiyan%20Jailan%20-%20Ranjit%20Bawa%20(DJJOhAL.Com).mp3'
     },
 	{
         img : 'https://lq.djjohal.com/covers/728561/13%20Pind.jpg',

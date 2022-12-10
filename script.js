@@ -578,6 +578,7 @@ const music_list = [
         img : 'https://lq.djjohal.com/covers/723322/Koka.jpg',
         name : 'Koka',
         artist : 'Ranjit Bawa',
+	album : 'Brand B',
         music : 'https://hd1.djjohal.com/320/507450/Koka%20-%20Ranjit%20Bawa%20(DJJOhAL.Com).mp3'
     },
     {
@@ -691,6 +692,27 @@ const music_list = [
         artist : 'Diljit Dosanjh & Nimrat Khaira',
 	album : 'Diljit Dosanjh Music',
         music : 'https://hd1.djjohal.com/320/510385/What%20Ve%20-%20Diljit%20Dosanjh%20%20Nimrat%20Khaira%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/724582/Loud.jpg',
+        name : 'Loud',
+        artist : 'Ranjit Bawa',
+	album : 'Loud',
+        music : 'https://hd1.djjohal.com/320/509156/Loud%20-%20Ranjit%20Bawa%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/723626/Be%20Ready%20Ft.%20Desi%20Crew.jpg',
+        name : 'Be Ready',
+        artist : 'Ninja Ft. Desi Crew',
+	album : 'Happy Raikoti Music',
+        music : 'https://hd1.djjohal.com/320/507830/Be%20Ready%20Ft%20Desi%20Crew%20-%20Ninja%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/723058/Jatt%20Te%20Jawani.jpg',
+        name : 'Jatt Te Jawani',
+        artist : 'Dilpreet Dhillon & Karan Aujla',
+	album : 'Times Music',
+        music : 'https://hd1.djjohal.com/320/507096/Jatt%20Te%20Jawani%20-%20Dilpreet%20Dhillon%20%20Karan%20Aujla%20(DJJOhAL.Com).mp3'
     }
 	
 	

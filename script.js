@@ -22,6 +22,13 @@ let updateTimer;
 
 
 const music_list = [
+   {
+        img : 'https://lq.djjohal.com/covers/728873/The%20Lion.jpg',
+        name : 'The Lion',
+        artist : 'Varinder Brar',
+	album : 'Varinder Brar Music',
+        music : 'https://hd1.djjohal.com/320/514772/The%20Lion%20-%20Varinder%20Brar%20(DJJOhAL.Com).mp3'
+    },
 	{
         img : 'https://lq.djjohal.com/covers/728839/DONT%20YOU%20KNOW.jpg',
         name : 'SUPREME',
@@ -562,10 +569,10 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/513925/Gun%20n%20Mic%20-%20Amantej%20Hundal%20(DJJOhAL.Com).mp3'
     },
     {
-        img : 'https://i.ytimg.com/vi/o84t0LSOBwI/hqdefault.jpg',
+        img : 'https://lq.djjohal.com/covers/728871/Gaddi%20Red%20Challenger.jpg',
         name : 'Gaddi Red Challenger',
         artist : 'Babbu',
-        music : 'https://github.com/ss0878/dpm/blob/main/Babbu%20-%20Gaddi%20Red%20Challenger.mp3?raw=true'
+        music : 'https://hd1.djjohal.com/320/514770/Gaddi%20Red%20Challenger%20-%20Babbulicious%20(DJJOhAL.Com).mp3'
     },
     {
         img : 'https://lq.djjohal.com/covers/723322/Koka.jpg',

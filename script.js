@@ -23,6 +23,13 @@ let updateTimer;
 
 const music_list = [
    {
+        img : 'https://lq.djjohal.com/covers/728880/Bet%20On%20Me.jpg',
+        name : 'Bet On Me',
+        artist : 'Jerry',
+	album : 'VIP Records Ltd',
+        music : 'https://lq.djjohal.com/48/514779/Bet%20On%20Me%20-%20Jerry%20(DJJOhAL.Com).mp3'
+    },
+	{
         img : 'https://lq.djjohal.com/covers/728873/The%20Lion.jpg',
         name : 'The Lion',
         artist : 'Varinder Brar',

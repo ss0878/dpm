@@ -22,7 +22,14 @@ let updateTimer;
 
 
 const music_list = [
-   {
+//   {
+//        img : '',
+//        name : '',
+//        artist : '',
+//	album : '',
+//       music : ''
+//    },
+	{
         img : 'https://lq.djjohal.com/covers/728880/Bet%20On%20Me.jpg',
         name : 'Bet On Me',
         artist : 'Jerry',

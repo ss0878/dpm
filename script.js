@@ -30,6 +30,20 @@ const music_list = [
 //       music : ''
 //    },
 	{
+	img : 'https://lq.djjohal.com/covers/728904/Good%20Luck.jpg',
+        name : 'Good Luck',
+	artist : 'Jordan Sandhu',
+ 	album : 'Times Music',
+        music : 'https://hd1.djjohal.com/320/514810/Good%20Luck%20-%20Jordan%20Sandhu%20(DJJOhAL.Com).mp3'
+      },
+	{
+	img : 'https://lq.djjohal.com/covers/728892/Raule.jpg',
+        name : 'Raule',
+	artist : 'Mani Sandhu',
+ 	album : 'Golden Tunes',
+        music : 'https://hd1.djjohal.com/320/514798/Raule%20-%20Mani%20Sandhu%20(DJJOhAL.Com).mp3'
+      },
+	{
         img : 'https://lq.djjohal.com/covers/728880/Bet%20On%20Me.jpg',
         name : 'Bet On Me',
         artist : 'Jerry',

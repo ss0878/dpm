@@ -22,13 +22,20 @@ let updateTimer;
 
 
 const music_list = [
-//   {
-//        img : '',
-//        name : '',
-//        artist : '',
-//	album : '',
-//       music : ''
-//    },
+   {
+        img : 'https://lq.djjohal.com/covers/728913/Stampede.jpg',
+        name : 'Stampede',
+        artist : 'Pavitar Lassoi',
+ 	album : 'Times Music',
+        music : 'https://hd1.djjohal.com/320/514824/Stampede%20-%20Pavitar%20Lassoi%20(DJJOhAL.Com).mp3'
+     },
+	{
+        img : 'https://lq.djjohal.com/covers/728907/WOH.jpg',
+        name : 'WOH',
+        artist : 'IKKA & Dino James & Badshah',
+ 	album : 'Dino James Music',
+        music : 'https://hd1.djjohal.com/320/514813/WOH%20-%20IKKA%20%20Dino%20James%20%20Badshah%20(DJJOhAL.Com).mp3'
+     },
 	{
 	img : 'https://lq.djjohal.com/covers/728904/Good%20Luck.jpg',
         name : 'Good Luck',
@@ -181,6 +188,13 @@ const music_list = [
         artist : 'R. Nait & Gurlez Akhtar',
         music : 'https://hd1.djjohal.com/320/514581/Blast%20-%20R%20Nait%20%20Gurlez%20Akhtar%20(DJJOhAL.Com).mp3'
     },
+       {
+        img : 'https://lq.djjohal.com/covers/728396/Faizal.jpg',
+        name : 'Faizal',
+        artist : 'Varinder Brar',
+	album : 'Varinder Brar Music',
+        music : 'https://hd1.djjohal.com/320/514076/Faizal%20-%20Varinder%20Brar%20(DJJOhAL.Com).mp3'
+    },
 	{
         img : 'https://lq.djjohal.com/covers/728738/So%20Mean.jpg',
         name : 'So Mean',
@@ -204,6 +218,20 @@ const music_list = [
         name : 'Ailaan',
         artist : 'Gulab Sidhu , Gur Sidhu',
         music : 'https://hd1.djjohal.com/320/514529/Ailaan%20-%20Gulab%20Sidhu%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728419/The%20Umbrella%20Song.jpg',
+        name : 'The Umbrella Song',
+        artist : 'Bilal Saeed Ft. Fateh',
+	album: 'One Two Records',
+        music : 'https://hd1.djjohal.com/320/514106/The%20Umbrella%20Song%20-%20Bilal%20Saeed%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/728332/2%20Velly.jpg',
+        name : '2 Velly',
+        artist : 'Harvi & Veer Sandhu',
+	album: 'Tree Music Labe',
+        music : 'https://hd1.djjohal.com/320/514005/2%20Velly%20-%20Harvi%20%20Veer%20Sandhu%20(DJJOhAL.Com).mp3'
     },
 	{
         img : 'https://lq.djjohal.com/covers/728715/Blona%20Shad%20Ta.jpg',
@@ -722,6 +750,13 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/510385/What%20Ve%20-%20Diljit%20Dosanjh%20%20Nimrat%20Khaira%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/718263/Sohne%20Lagde%20Ft.%20The%20Prophec.jpg',
+        name : 'Sohne Lagde ',
+        artist : 'Sidhu Moose Wala Ft. The Prophec',
+	album : 'Sidhu Moose Wala Music',
+        music : 'https://hd1.djjohal.com/320/501163/Sohne%20Lagde%20Ft%20The%20Prophec%20-%20Sidhu%20Moose%20Wala1%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://lq.djjohal.com/covers/724582/Loud.jpg',
         name : 'Loud',
         artist : 'Ranjit Bawa',
@@ -741,6 +776,13 @@ const music_list = [
         artist : 'Dilpreet Dhillon & Karan Aujla',
 	album : 'Times Music',
         music : 'https://hd1.djjohal.com/320/507096/Jatt%20Te%20Jawani%20-%20Dilpreet%20Dhillon%20%20Karan%20Aujla%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/719510/Yaara%20Tu%20Ft.%20The%20Prophec.jpg',
+        name : 'Yaara Tu ',
+        artist : 'The Prophec Ft. Ezu',
+	album : 'VIP Records',
+        music : 'https://hd1.djjohal.com/320/502907/Yaara%20Tu%20Ft%20The%20Prophec%20-%20Ezu%20(DJJOhAL.Com).mp3'
     }
 	
 	

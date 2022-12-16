@@ -22,7 +22,15 @@ let updateTimer;
 
 
 const music_list = [
-   {
+   	{
+        img : 'https://lq.djjohal.com/covers/728917/2%20Percent.jpg',
+        name : '2 Percent',
+        artist : 'Garry Sandhu',
+ 	album : 'Fresh Media Records',
+	released : '16-12-2022',
+        music : 'https://hd1.djjohal.com/320/514828/2%20Percent%20-%20Garry%20Sandhu%20(DJJOhAL.Com).mp3'
+     },
+	{
         img : 'https://lq.djjohal.com/covers/728913/Stampede.jpg',
         name : 'Stampede',
         artist : 'Pavitar Lassoi',

@@ -695,6 +695,13 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/514770/Gaddi%20Red%20Challenger%20-%20Babbulicious%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/725368/Lakh%20Rupiya.jpg',
+        name : 'Lakh Rupiya',
+        artist : 'Veer Sandhu',
+	album : 'Punjab Central Channel',
+        music : 'https://hd1.djjohal.com/320/510236/Lakh%20Rupiya%20-%20Veer%20Sandhu%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://lq.djjohal.com/covers/728152/Kajla.jpg',
         name : 'Kajla',
         artist : 'Jassa Dhillon & Pavitar Lassoih',

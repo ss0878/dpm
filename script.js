@@ -530,6 +530,20 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/513933/Dont%20You%20-%20Jassa%20Dhillon%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/725876/All%20Ace.jpg',
+        name : 'All Ace',
+        artist : 'Prem Dhillon Ft. Byg Byrd',
+	album : 'Prem Dhillon Music',
+        music : 'https://hd1.djjohal.com/320/510852/All%20Ace%20-%20Prem%20Dhillon%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/726961/94%20Flow.jpg',
+        name : '94 Flow',
+        artist : 'Big Boi Deep Ft. Byg Byrd',
+	album : 'Brown Boys Records',
+        music : 'https://hd1.djjohal.com/320/512220/94%20Flow%20-%20Big%20Boi%20Deep%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://lq.djjohal.com/covers/723247/Kaala%20Ghoda%20Ft.%20Divine%20(Original).jpg',
         name : 'Kaala Ghoda',
         artist : 'Amrit Maan Ft. Divine',
@@ -695,6 +709,13 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/510485/Too%20Much%20-%20Garry%20Sandhu%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/723316/Dont%20Know%20Why%20Ft.%20Byg%20Byrd.jpg',
+        name : 'Dont Know Why',
+        artist : 'Nirvair Pannu Ft. Byg Byrd',
+	album : 'Single Track Studio',
+        music : 'https://hd1.djjohal.com/320/507430/Dont%20Know%20Why%20Ft%20Byg%20Byrd%20-%20Nirvair%20Pannu%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://lq.djjohal.com/covers/726750/Shadow.jpg',
         name : 'Shadow',
         artist : 'Jassa Dhillon',
@@ -791,6 +812,13 @@ const music_list = [
         artist : 'Dilpreet Dhillon Ft. Mehar Vaani',
 	album : 'White Hill Music',
         music : 'https://hd1.djjohal.com/320/512335/Nain%20-%20Dilpreet%20Dhillon%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/723254/IDGAF%20Ft.%20Asli%20Maharaja.jpg',
+        name : 'IDGAF',
+        artist : 'Sidhu Moose Wala Ft. Asli Maharaja',
+	album : 'Sidhu Moose Wala',
+        music : 'https://hd1.djjohal.com/320/507346/IDGAF%20Ft%20Asli%20Maharaja%20-%20Sidhu%20Moose%20Wala1%20(DJJOhAL.Com).mp3'
     },
     {
         img : 'https://lq.djjohal.com/covers/727012/Tej%20Mitha.jpg',

@@ -938,6 +938,20 @@ const music_list = [
         artist : 'Sidhu Moose Wala & Sunny Malton',
 	album : 'Sidhu Moose Wala',
         music : 'https://hd1.djjohal.com/320/502532/B%20Town%20Original%20-%20Sidhu%20Moose%20Wala%20%20Sunny%20Malton%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/70408/East%20Side%20Flow%20Ft.%20Byg%20Byrd.jpg',
+        name : 'East Side Flow',
+        artist : 'Sidhu Moose Wala',
+	album : 'Sidhu Moose Wala',
+        music : 'https://hd1.djjohal.com/320/499274/East%20Side%20Flow%20Ft%20Byg%20Byrd%20-%20Sidhu%20Moose%20Wala1%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/70619/Sidhus%20Anthem%20Ft.%20Byg%20Byrd.jpg',
+        name : 'Sidhus Anthem',
+        artist : 'Sidhu Moose Wala',
+	album : 'Sidhu Moose Wala',
+        music : 'https://hd1.djjohal.com/320/499601/Sidhus%20Anthem%20Ft%20Byg%20Byrd%20-%20Sidhu%20Moose%20Wala%20%20Sunny%20Malton%20(DJJOhAL.Com).mp3'
     }
 	
 	

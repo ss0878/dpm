@@ -38,13 +38,6 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/514824/Stampede%20-%20Pavitar%20Lassoi%20(DJJOhAL.Com).mp3'
      },
 	{
-        img : 'https://lq.djjohal.com/covers/728907/WOH.jpg',
-        name : 'WOH',
-        artist : 'IKKA & Dino James & Badshah',
- 	album : 'Dino James Music',
-        music : 'https://hd1.djjohal.com/320/514813/WOH%20-%20IKKA%20%20Dino%20James%20%20Badshah%20(DJJOhAL.Com).mp3'
-     },
-	{
 	img : 'https://lq.djjohal.com/covers/728904/Good%20Luck.jpg',
         name : 'Good Luck',
 	artist : 'Jordan Sandhu',

@@ -530,6 +530,20 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/513933/Dont%20You%20-%20Jassa%20Dhillon%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/723247/Kaala%20Ghoda%20Ft.%20Divine%20(Original).jpg',
+        name : 'Kaala Ghoda',
+        artist : 'Amrit Maan Ft. Divine',
+	album : 'Times Music',
+        music : 'https://hd1.djjohal.com/320/507330/Kaala%20Ghoda%20Ft%20Divine%20Original%20-%20Amrit%20Maan%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/722291/Eddan%20Ni%20Ft.%20Bohemia.jpg',
+        name : 'Eddan Ni',
+        artist : 'Amrit Maan Ft. Bohemia',
+	album : 'Bang Music',
+        music : 'https://hd1.djjohal.com/320/506266/Eddan%20Ni%20Ft%20Bohemia%20-%20Amrit%20Maan%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://lq.djjohal.com/covers/728273/Koka.jpg',
         name : 'Koka',
         artist : 'Diljit Dosanjh',
@@ -564,6 +578,13 @@ const music_list = [
         name : 'Swag',
         artist : 'Tarsem Jassar',
         music : 'https://hd1.djjohal.com/320/513838/Swag%20-%20Tarsem%20Jassar%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/722003/Ayen%20Kiven%20Ft.%20Amrit%20Maan.jpg',
+        name : 'Ayen Kiven',
+        artist : 'Gippy Grewal Ft. Amrit Maan',
+	album : 'Geet MP3',
+        music : 'https://hd1.djjohal.com/320/505918/Ayen%20Kiven%20Ft%20Amrit%20Maan%20-%20Gippy%20Grewal%20(DJJOhAL.Com).mp3'
     },
     {
         img : 'https://lq.djjohal.com/covers/724892/Mashup.jpg',
@@ -610,6 +631,20 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/513130/Call%20-%20Nirvair%20Pannu%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/718916/Tu%20Hi%20Ah.jpg',
+        name : 'Tu Hi Ah',
+        artist : 'The Prophec',
+	album : 'The Prophec Music',
+        music : 'https://hd1.djjohal.com/320/502078/Tu%20Hi%20Ah%20-%20The%20Prophec%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/68304/Raat%20Di%20Gedi-Peg%20Di%20Waashna%20Mashup.jpg',
+        name : 'Raat Di Gedi-Peg Di Waashna Mashup',
+        artist : 'Diljit Dosanjh & Amrit Maan',
+	album : 'Speed Records',
+        music : 'https://hd1.djjohal.com/320/496406/Raat%20Di%20GediPeg%20Di%20Waashna%20Mashup%20-%20Diljit%20Dosanjh%20%20Amrit%20Maan%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://lq.djjohal.com/covers/728001/Plug%20Talk.jpg',
         name : 'Plug Talk',
         artist : 'Navaan Sandhu',
@@ -646,11 +681,25 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/514770/Gaddi%20Red%20Challenger%20-%20Babbulicious%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/728152/Kajla.jpg',
+        name : 'Kajla',
+        artist : 'Jassa Dhillon & Pavitar Lassoih',
+	album : 'Jassa Dhillon Music',
+        music : 'https://hd1.djjohal.com/320/513769/Kajla%20-%20Jassa%20Dhillon%20%20Pavitar%20Lassoi%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://lq.djjohal.com/covers/723322/Koka.jpg',
         name : 'Too Much',
         artist : 'Garry Sandhu',
 	album : 'Fresh Media Records',
         music : 'https://hd1.djjohal.com/320/510485/Too%20Much%20-%20Garry%20Sandhu%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/726750/Shadow.jpg',
+        name : 'Shadow',
+        artist : 'Jassa Dhillon',
+	album : 'Jassa Dhillon Music',
+        music : 'https://hd1.djjohal.com/320/511960/Shadow%20-%20Jassa%20Dhillon%20(DJJOhAL.Com).mp3'
     },
     {
         img : 'https://lq.djjohal.com/covers/725573/Too%20Much.jpg',
@@ -665,6 +714,13 @@ const music_list = [
         artist : 'Amrit Maan & Garry Sandhu Ft. Ikky',
 	album : '4N Records Inc',
         music : 'https://hd1.djjohal.com/320/508146/80%2090%20Ft%20Ikky%20-%20Amrit%20Maan%20%20Garry%20Sandhu%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/723187/Above%20All%20Ft.%20Gur%20Sidhu.jpg',
+        name : 'Above All',
+        artist : 'Jassa Dhillon Ft. Gur Sidhu',
+	album : 'Browntown Entertainment Ltd.',
+        music : 'https://hd1.djjohal.com/320/507249/Above%20All%20Ft%20Gur%20Sidhu%20-%20Jassa%20Dhillon%20(DJJOhAL.Com).mp3'
     },
     {
         img : 'https://lq.djjohal.com/covers/728191/Gaddi%20Vich.jpg',
@@ -688,6 +744,13 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/513708/Just%20Round%20-%20Jass%20Bajwa%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/722175/Mutiyaare%20Ni%20Ft.%20Bohemia.jpg',
+        name : 'Mutiyaare Ni',
+        artist : 'Jassa Dhillon Ft. Bohemia',
+	album : 'Saga Music & YRF',
+        music : 'https://hd1.djjohal.com/320/506136/Mutiyaare%20Ni%20Ft%20Bohemia%20-%20Jassa%20Dhillon%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://lq.djjohal.com/covers/727948/Right%20Left.jpg',
         name : 'Right Left',
         artist : 'Kulwinder Billa',
@@ -709,6 +772,13 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/512621/Kuwait%20Wala%20Koka%20-%20Gurman%20Sandhu%20%20Baani%20Sandhu%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/721433/Faraar%20Ft.%20Gur%20Sidhu.jpg',
+        name : 'Faraar',
+        artist : 'Jassa Dhillon Ft. Gur Sidhu',
+	album : 'Brown Town Music',
+        music : 'https://hd1.djjohal.com/320/505234/Faraar%20Ft%20Gur%20Sidhu%20-%20Jassa%20Dhillon%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://lq.djjohal.com/covers/727060/Nain.jpg',
         name : 'Nain',
         artist : 'Dilpreet Dhillon Ft. Mehar Vaani',
@@ -721,6 +791,13 @@ const music_list = [
         artist : 'Deep Bajwa',
 	album : 'Team 7 Picture',
         music : 'https://hd1.djjohal.com/320/512275/Tej%20Mitha%20-%20Deep%20Bajwa%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/720423/Low%20Rider.jpg',
+        name : 'Low Rider',
+        artist : 'Jassa Dhillon',
+	album : 'Brown Town Music',
+        music : 'https://hd1.djjohal.com/320/504054/Low%20Rider%20-%20Jassa%20Dhillon%20(DJJOhAL.Com).mp3'
     },
     {
         img : 'https://lq.djjohal.com/covers/726849/Dil%20Mangeya.jpg',

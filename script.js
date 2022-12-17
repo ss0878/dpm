@@ -584,6 +584,20 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/510383/Offshore%20-%20Shubh%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/725027/Holiday.jpg',
+        name : 'Holiday',
+        artist : 'Garry Sandhu',
+	album : 'Fresh Media Records',
+        music : 'https://hd1.djjohal.com/320/509797/Holiday%20-%20Garry%20Sandhu%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/725027/Holiday.jpg',
+        name : 'Fitoor',
+        artist : 'Garry Sandhu',
+	album : 'Fresh Media Records',
+        music : 'https://hd1.djjohal.com/320/509794/Fitoor%20-%20Garry%20Sandhu%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://lq.djjohal.com/covers/727181/Sunburn.jpg',
         name : 'Sunburn',
         artist : 'Pavitar Lassoi',
@@ -633,10 +647,24 @@ const music_list = [
     },
     {
         img : 'https://lq.djjohal.com/covers/723322/Koka.jpg',
+        name : 'Too Much',
+        artist : 'Garry Sandhu',
+	album : 'Fresh Media Records',
+        music : 'https://hd1.djjohal.com/320/510485/Too%20Much%20-%20Garry%20Sandhu%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/725573/Too%20Much.jpg',
         name : 'Koka',
         artist : 'Ranjit Bawa',
 	album : 'Brand B',
         music : 'https://hd1.djjohal.com/320/507450/Koka%20-%20Ranjit%20Bawa%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/723849/80%2090%20Ft.%20Ikky.jpg',
+        name : '80 90',
+        artist : 'Amrit Maan & Garry Sandhu Ft. Ikky',
+	album : '4N Records Inc',
+        music : 'https://hd1.djjohal.com/320/508146/80%2090%20Ft%20Ikky%20-%20Amrit%20Maan%20%20Garry%20Sandhu%20(DJJOhAL.Com).mp3'
     },
     {
         img : 'https://lq.djjohal.com/covers/728191/Gaddi%20Vich.jpg',

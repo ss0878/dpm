@@ -544,7 +544,7 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/512220/94%20Flow%20-%20Big%20Boi%20Deep%20(DJJOhAL.Com).mp3'
     },
     {
-        img : 'https://lq.djjohal.com/covers/723247/Kaala%20Ghoda%20Ft.%20Divine%20(Original).jpg',
+        img : 'https://i.imgur.com/KjweaqA.jpg',
         name : 'Kaala Ghoda',
         artist : 'Amrit Maan Ft. Divine',
 	album : 'Times Music',

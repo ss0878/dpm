@@ -905,6 +905,13 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/509156/Loud%20-%20Ranjit%20Bawa%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/720561/My%20Block.jpg',
+        name : 'My Block',
+        artist : 'Sidhu Moose Wala',
+	album : 'Sidhu Moose Wala',
+        music : 'https://hd1.djjohal.com/320/504228/My%20Block%20-%20Sidhu%20Moose%20Wala1%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://lq.djjohal.com/covers/723626/Be%20Ready%20Ft.%20Desi%20Crew.jpg',
         name : 'Be Ready',
         artist : 'Ninja Ft. Desi Crew',
@@ -920,10 +927,17 @@ const music_list = [
     },
     {
         img : 'https://lq.djjohal.com/covers/719510/Yaara%20Tu%20Ft.%20The%20Prophec.jpg',
-        name : 'Yaara Tu ',
+        name : 'Yaara Tu',
         artist : 'The Prophec Ft. Ezu',
 	album : 'VIP Records',
         music : 'https://hd1.djjohal.com/320/502907/Yaara%20Tu%20Ft%20The%20Prophec%20-%20Ezu%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/719510/Yaara%20Tu%20Ft.%20The%20Prophec.jpg',
+        name : 'B Town',
+        artist : 'Sidhu Moose Wala & Sunny Malton',
+	album : 'Sidhu Moose Wala',
+        music : 'https://hd1.djjohal.com/320/502532/B%20Town%20Original%20-%20Sidhu%20Moose%20Wala%20%20Sunny%20Malton%20(DJJOhAL.Com).mp3'
     }
 	
 	

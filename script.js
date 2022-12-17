@@ -558,6 +558,13 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/506266/Eddan%20Ni%20Ft%20Bohemia%20-%20Amrit%20Maan%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/727137/LA.jpg',
+        name : 'LA',
+        artist : 'Nirvair Pannu',
+	album : 'Juke Dock',
+        music : 'https://hd1.djjohal.com/320/512420/LA%20-%20Nirvair%20Pannu%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://lq.djjohal.com/covers/728273/Koka.jpg',
         name : 'Koka',
         artist : 'Diljit Dosanjh',
@@ -631,6 +638,13 @@ const music_list = [
         artist : 'Garry Sandhu',
 	album : 'Fresh Media Records',
         music : 'https://hd1.djjohal.com/320/509794/Fitoor%20-%20Garry%20Sandhu%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/723217/Munda%20Takda.jpg',
+        name : 'Munda Takda',
+        artist : 'Nirvair Pannu',
+	album : 'Juke Dock',
+        music : 'https://hd1.djjohal.com/320/507279/Munda%20Takda%20-%20Nirvair%20Pannu%20(DJJOhAL.Com).mp3'
     },
     {
         img : 'https://lq.djjohal.com/covers/727181/Sunburn.jpg',
@@ -947,6 +961,13 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/502532/B%20Town%20Original%20-%20Sidhu%20Moose%20Wala%20%20Sunny%20Malton%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/721277/Bandook.jpg',
+        name : 'Bandook',
+        artist : 'Nirvair Pannu',
+	album : 'Juke Dock',
+        music : 'https://hd1.djjohal.com/320/505031/Bandook%20-%20Nirvair%20Pannu%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://lq.djjohal.com/covers/70408/East%20Side%20Flow%20Ft.%20Byg%20Byrd.jpg',
         name : 'East Side Flow',
         artist : 'Sidhu Moose Wala',
@@ -959,6 +980,20 @@ const music_list = [
         artist : 'Sidhu Moose Wala',
 	album : 'Sidhu Moose Wala',
         music : 'https://hd1.djjohal.com/320/499601/Sidhus%20Anthem%20Ft%20Byg%20Byrd%20-%20Sidhu%20Moose%20Wala%20%20Sunny%20Malton%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/722476/City%20Of%20Gold.jpg',
+        name : 'City Of Gold',
+        artist : 'Nirvair Pannu',
+	album : 'Juke Dock',
+        music : 'https://hd1.djjohal.com/320/506462/City%20Of%20Gold%20-%20Nirvair%20Pannu%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/724084/Balle%20Balle.jpg',
+        name : 'Balle Balle',
+        artist : 'Nirvair Pannu',
+	album : 'Juke Dock',
+        music : 'https://hd1.djjohal.com/320/508486/Balle%20Balle%20-%20Nirvair%20Pannu%20(DJJOhAL.Com).mp3'
     }
 	
 	

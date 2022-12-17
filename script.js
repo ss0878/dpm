@@ -688,7 +688,7 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/513769/Kajla%20-%20Jassa%20Dhillon%20%20Pavitar%20Lassoi%20(DJJOhAL.Com).mp3'
     },
     {
-        img : 'https://lq.djjohal.com/covers/723322/Koka.jpg',
+        img : 'https://lq.djjohal.com/covers/725573/Too%20Much.jpg',
         name : 'Too Much',
         artist : 'Garry Sandhu',
 	album : 'Fresh Media Records',
@@ -702,11 +702,18 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/511960/Shadow%20-%20Jassa%20Dhillon%20(DJJOhAL.Com).mp3'
     },
     {
-        img : 'https://lq.djjohal.com/covers/725573/Too%20Much.jpg',
+        img : 'https://lq.djjohal.com/covers/723322/Koka.jpg',
         name : 'Koka',
         artist : 'Ranjit Bawa',
 	album : 'Brand B',
         music : 'https://hd1.djjohal.com/320/507450/Koka%20-%20Ranjit%20Bawa%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/49802/Yaari%20Chandigarh%20Waliye%20(Trap%20Mix).jpg',
+        name : 'Yaari Chandigarh Waliye',
+        artist : 'Ranjit Bawa, TaTva',
+	album : 'Trap Mix',
+        music : 'https://hd1.djjohal.com/320/468482/Yaari%20Chandigarh%20Waliye%20Trap%20Mix%20-%20Ranjit%20Bawa%20TaTva%20K%20(DJJOhAL.Com).mp3'
     },
     {
         img : 'https://lq.djjohal.com/covers/723849/80%2090%20Ft.%20Ikky.jpg',

@@ -23,6 +23,14 @@ let updateTimer;
 
 const music_list = [
    	{
+        img : 'https://lq.djjohal.com/covers/728931/Our%20Beginning.jpg',
+        name : 'Our Beginning',
+        artist : 'Himmat Sandhu',
+ 	album : 'Majhail Creations',
+	released : '17-12-2022',
+        music : 'https://hd1.djjohal.com/320/514842/Our%20Beginning%20-%20Himmat%20Sandhu%20(DJJOhAL.Com).mp3'
+     },
+	{
         img : 'https://lq.djjohal.com/covers/728917/2%20Percent.jpg',
         name : '2 Percent',
         artist : 'Garry Sandhu',

@@ -23,6 +23,22 @@ let updateTimer;
 
 const music_list = [
    	{
+        img : 'https://lq.djjohal.com/covers/728958/Players.jpg',
+        name : 'Players',
+        artist : 'Badshah & Karan Aujla',
+ 	album : 'Badshah Music',
+	released : '21-12-2022',
+        music : 'https://hd1.djjohal.com/320/514878/Players%20-%20Badshah%20%20Karan%20Aujla%20(DJJOhAL.Com).mp3'
+     },
+	{
+        img : 'https://lq.djjohal.com/covers/728964/Me%20and%20You.jpg',
+        name : 'Me and You',
+        artist : 'Yuvraj',
+ 	album : 'Yuvraj Studios',
+	released : '21-12-2022',
+        music : 'https://hd1.djjohal.com/320/514884/Me%20and%20You%20-%20Yuvraj%20(DJJOhAL.Com).mp3'
+     },
+	{
         img : 'https://lq.djjohal.com/covers/728931/Our%20Beginning.jpg',
         name : 'Our Beginning',
         artist : 'Himmat Sandhu',

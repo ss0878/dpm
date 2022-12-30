@@ -23,6 +23,30 @@ let updateTimer;
 
 const music_list = [
    	{
+        img : 'https://lq.djjohal.com/covers/729017/Shokeen.jpg',
+        name : 'Shokeen',
+        artist : 'Fateh',
+ 	album : 'WinWin Records',
+	released : '30-12-2022',
+        music : 'https://hd1.djjohal.com/320/514980/Shokeen%20-%20Fateh%20(DJJOhAL.Com).mp3'
+     },
+	{
+        img : 'https://lq.djjohal.com/covers/729013/Hirni.jpg',
+        name : 'Hirni',
+        artist : 'Navaan Sandhu',
+ 	album : 'Husky Music',
+	released : '30-12-2022',
+        music : 'https://hd1.djjohal.com/320/514976/Hirni%20-%20Navaan%20Sandhu%20(DJJOhAL.Com).mp3'
+     },
+	{
+        img : 'https://lq.djjohal.com/covers/729012/Poh%20Da%20Mahina.jpg',
+        name : 'Poh Da Mahina',
+        artist : 'Kirat Gill',
+ 	album : 'Gringo Entertainments',
+	released : '30-12-2022',
+        music : 'https://hd1.djjohal.com/320/514975/Poh%20Da%20Mahina%20-%20Kirat%20Gill%20(DJJOhAL.Com).mp3'
+     },
+	{
         img : 'https://lq.djjohal.com/covers/728958/Players.jpg',
         name : 'Players',
         artist : 'Badshah & Karan Aujla',

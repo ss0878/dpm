@@ -313,6 +313,12 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/514485/Geet%20Banuga%20-%20Kaka%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/728455/Real%20Talks.jpg',
+        name : 'Real Talks',
+        artist : 'Dilbag Sandhu',
+        music : 'https://hd1.djjohal.com/320/514146/Real%20Talks%20-%20Dilbag%20Sandhu%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://lq.djjohal.com/covers/728673/Hustler.jpg',
         name : 'Hustler',
         artist : 'Sukh Lotey',

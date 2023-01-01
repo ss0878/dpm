@@ -23,6 +23,22 @@ let updateTimer;
 
 const music_list = [
    	{
+        img : 'https://lq.djjohal.com/covers/729022/2023%20FLOW.jpg',
+        name : '2023 FLOW',
+        artist : 'Sikander Kahlon',
+ 	album : 'Sikander Kahlon Music',
+	released : '01-01-2023',
+        music : 'https://hd1.djjohal.com/320/514985/2023%20FLOW%20-%20Sikander%20Kahlon%20(DJJOhAL.Com).mp3'
+     },
+	{
+        img : 'https://lq.djjohal.com/covers/729018/Da%20Bomb.jpg',
+        name : 'Da Bomb',
+        artist : 'Ellde Fazilka',
+ 	album : 'Ellde Fazilka Music',
+	released : '01-01-2023',
+        music : 'https://hd1.djjohal.com/320/514981/Da%20Bomb%20-%20Ellde%20Fazilka%20(DJJOhAL.Com).mp3'
+     },
+	{
         img : 'https://lq.djjohal.com/covers/729017/Shokeen.jpg',
         name : 'Shokeen',
         artist : 'Fateh',

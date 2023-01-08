@@ -23,6 +23,22 @@ let updateTimer;
 
 const music_list = [
    	{
+        img : 'https://lq.djjohal.com/covers/729059/Gedi%20Route.jpg',
+        name : 'Gedi Route',
+        artist : 'Kulbir Jhinjer',
+ 	album : 'Super Beat & Records',
+	released : '06-01-2023',
+        music : 'https://hd1.djjohal.com/320/515022/Gedi%20Route%20-%20Kulbir%20Jhinjer%20(DJJOhAL.Com).mp3'
+     },
+	{
+        img : 'https://lq.djjohal.com/covers/729047/All%20Eyez%20On%20Me.jpg',
+        name : 'All Eyez On Me',
+        artist : 'Ranjit Bawa',
+ 	album : 'Ranjit Bawa Music',
+	released : '05-01-2023',
+        music : 'https://hd1.djjohal.com/320/515010/All%20Eyez%20On%20Me%20-%20Ranjit%20Bawa%20(DJJOhAL.Com).mp3'
+     },
+	{
         img : 'https://lq.djjohal.com/covers/729022/2023%20FLOW.jpg',
         name : '2023 FLOW',
         artist : 'Sikander Kahlon',

@@ -110,6 +110,14 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/514828/2%20Percent%20-%20Garry%20Sandhu%20(DJJOhAL.Com).mp3'
      },
 	{
+        img : 'https://lq.djjohal.com/covers/728881/Behja%20Behja.jpg',
+        name : 'Behja Behja',
+        artist : 'Dilpreet Dhillon',
+ 	album : 'Times Music',
+	released : '12-12-2022',
+        music : 'https://hd1.djjohal.com/320/514780/Behja%20Behja%20-%20Dilpreet%20Dhillon%20(DJJOhAL.Com).mp3'
+     },
+	{
         img : 'https://lq.djjohal.com/covers/728913/Stampede.jpg',
         name : 'Stampede',
         artist : 'Pavitar Lassoi',

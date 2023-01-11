@@ -38,7 +38,8 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/515066/Identity%20-%20Gurnam%20Bhullar%20(DJJOhAL.Com).mp3'
      },
 	{
-        img : 'https://lq.djjohal.com/covers/729089/Appa.jpg',
+        img : 'https://i.imgur.com/JIhTlCi.mp4',
+	background: 'https://lq.djjohal.com/covers/729089/Appa.jpg',
         name : 'Appa',
         artist : 'Navv Inder &Gurlez Akhtar',
  	album : 'Gem Tunes Punjabi',

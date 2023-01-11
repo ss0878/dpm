@@ -21,7 +21,15 @@ let updateTimer;
 
 
 const music_list = [
-   	{
+	{
+        img : 'https://lq.djjohal.com/covers/729086/Identity.jpg',
+        name : 'Rakaan Top Di',
+        artist : 'Gurnam Bhullar',
+ 	album : 'Imagination',
+	released : '10-01-2023',
+        music : 'https://hd1.djjohal.com/320/515069/Rakaan%20Top%20Di%20Ft%20Gurlez%20Akhtar%20-%20Gurnam%20Bhullar%20(DJJOhAL.Com).mp3'
+     },
+	     {
         img : 'https://lq.djjohal.com/covers/729086/Identity.jpg',
         name : 'Imagination',
         artist : 'Gurnam Bhullar',

@@ -22,6 +22,22 @@ let updateTimer;
 
 const music_list = [
    	{
+        img : 'https://lq.djjohal.com/covers/729086/Identity.jpg',
+        name : 'Imagination',
+        artist : 'Gurnam Bhullar',
+ 	album : 'Imagination',
+	released : '10-01-2023',
+        music : 'https://hd1.djjohal.com/320/515067/Imagination%20-%20Gurnam%20Bhullar%20(DJJOhAL.Com).mp3'
+     },
+	{
+        img : 'https://lq.djjohal.com/covers/729086/Identity.jpg',
+        name : 'Identity',
+        artist : 'Gurnam Bhullar',
+ 	album : 'Imagination',
+	released : '10-01-2023',
+        music : 'https://hd1.djjohal.com/320/515066/Identity%20-%20Gurnam%20Bhullar%20(DJJOhAL.Com).mp3'
+     },
+	{
         img : 'https://lq.djjohal.com/covers/729089/Appa.jpg',
         name : 'Appa',
         artist : 'Navv Inder &Gurlez Akhtar',

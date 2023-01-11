@@ -22,6 +22,30 @@ let updateTimer;
 
 const music_list = [
    	{
+        img : 'https://lq.djjohal.com/covers/729089/Appa.jpg',
+        name : 'Appa',
+        artist : 'Navv Inder &Gurlez Akhtar',
+ 	album : 'Gem Tunes Punjabi',
+	released : '10-01-2023',
+        music : 'https://hd1.djjohal.com/320/515075/Appa%20-%20Navv%20Inder%20Gurlez%20Akhtar%20(DJJOhAL.Com).mp3'
+     },
+	{
+        img : 'https://lq.djjohal.com/covers/729087/Long%20Route.jpg',
+        name : 'Long Route',
+        artist : 'Amar Sehmbi',
+ 	album : 'Jass Records',
+	released : '10-01-2023',
+        music : 'https://hd1.djjohal.com/320/515073/Long%20Route%20-%20Amar%20Sehmbi%20(DJJOhAL.Com).mp3'
+     },
+	{
+        img : 'https://lq.djjohal.com/covers/729090/Khrey%20Khrey.jpg',
+        name : 'Khrey Khrey',
+        artist : 'Hunar Sidhu & Gurlez Akhter',
+ 	album : 'One Take Worldwide',
+	released : '10-01-2023',
+        music : 'https://hd1.djjohal.com/320/515076/Khrey%20Khrey%20-%20Hunar%20Sidhu%20%20Gurlez%20Akhter%20(DJJOhAL.Com).mp3'
+     },
+	{
         img : 'https://lq.djjohal.com/covers/729059/Gedi%20Route.jpg',
         name : 'Gedi Route',
         artist : 'Kulbir Jhinjer',
@@ -165,13 +189,6 @@ const music_list = [
         artist : 'Harjot , Deepak Dhillon',
 	album : 'True Music',
         music : 'https://hd1.djjohal.com/320/514729/Lalkaare%20-%20Harjot%20(DJJOhAL.Com).mp3'
-    },
-	{
-        img : 'https://lq.djjohal.com/covers/728845/Landlord.jpg',
-        name : 'Landlord',
-        artist : 'Geeta Zaildar',
-	album : 'T-Series',
-        music : 'https://hd1.djjohal.com/320/514731/Landlord%20-%20Geeta%20Zaildar%20(DJJOhAL.Com).mp3'
     },
 	{
         img : 'https://lq.djjohal.com/covers/728833/Amsterdam.jpg',
@@ -649,6 +666,13 @@ const music_list = [
         artist : 'Amrit Maan Ft. Bohemia',
 	album : 'Bang Music',
         music : 'https://hd1.djjohal.com/320/506266/Eddan%20Ni%20Ft%20Bohemia%20-%20Amrit%20Maan%20(DJJOhAL.Com).mp3'
+    },
+	{
+        img : 'https://lq.djjohal.com/covers/726624/Nadan%20Jehi%20Aas.jpg',
+        name : 'Nadan Jehi Aas',
+        artist : 'Satinder Sartaaj',
+	album : 'Firdaus Production',
+        music : 'https://hd1.djjohal.com/320/511790/Nadan%20Jehi%20Aas%20-%20Satinder%20Sartaaj%20(DJJOhAL.Com).mp3'
     },
     {
         img : 'https://lq.djjohal.com/covers/727137/LA.jpg',

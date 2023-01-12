@@ -936,6 +936,13 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/513819/Gaddi%20Vich%20-%20Dilpreet%20Dhillon%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/723963/Signed%20to%20God.jpg',
+        name : 'Signed to God',
+        artist : 'Sidhu Moose Wala',
+	album : 'Sidhu Moose Wala',
+        music : 'https://hd1.djjohal.com/320/508305/Signed%20to%20God%20-%20Sidhu%20Moose%20Wala1%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://lq.djjohal.com/covers/728117/Band%20Theke.jpg',
         name : 'Band Theke',
         artist : 'Jordan Sandhu',
@@ -978,11 +985,25 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/512621/Kuwait%20Wala%20Koka%20-%20Gurman%20Sandhu%20%20Baani%20Sandhu%20(DJJOhAL.Com).mp3'
     },
     {
+        img : 'https://lq.djjohal.com/covers/727454/Levels.jpg',
+        name : 'Levels',
+        artist : 'Sidhu Moose Wala',
+	album : 'Sidhu Moose Wala',
+        music : 'https://hd1.djjohal.com/320/512816/Levels%20-%20Sidhu%20Moose%20Wala%20%20%20Sunny%20Malton%20(DJJOhAL.Com).mp3'
+    },
+    {
         img : 'https://lq.djjohal.com/covers/721433/Faraar%20Ft.%20Gur%20Sidhu.jpg',
         name : 'Faraar',
         artist : 'Jassa Dhillon Ft. Gur Sidhu',
 	album : 'Brown Town Music',
         music : 'https://hd1.djjohal.com/320/505234/Faraar%20Ft%20Gur%20Sidhu%20-%20Jassa%20Dhillon%20(DJJOhAL.Com).mp3'
+    },
+    {
+        img : 'https://lq.djjohal.com/covers/727454/Levels.jpg',
+        name : 'These Days',
+        artist : 'Sidhu Moose Wala feat. Bohemia',
+	album : 'Sidhu Moose Wala',
+        music : 'https://hd1.djjohal.com/320/512916/These%20Days%20feat%20Bohemia%20-%20Sidhu%20Moose%20Wala%20(DJJOhAL.Com).mp3'
     },
     {
         img : 'https://lq.djjohal.com/covers/727060/Nain.jpg',

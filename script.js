@@ -22,6 +22,38 @@ let updateTimer;
 
 const music_list = [
 	{
+        img : 'https://lq.djjohal.com/covers/729107/Ego.jpg',
+        name : 'Ego',
+        artist : 'Zora Randhawa FT. Naseeb',
+ 	album : 'Dr Zeus Music',
+	released : '12-01-2023',
+        music : 'https://hd1.djjohal.com/320/515095/Ego%20-%20Zora%20Randhawa%20(DJJOhAL.Com).mp3'
+     },
+	{
+        img : 'https://lq.djjohal.com/covers/729106/Hold%20Sway.jpg',
+        name : 'Hold Sway',
+        artist : 'Harman Brar & Sabi Bhinder',
+ 	album : 'Jatt Life Studios',
+	released : '12-01-2023',
+        music : 'https://hd1.djjohal.com/320/515094/Hold%20Sway%20-%20Harman%20Brar%20%20Sabi%20Bhinder%20(DJJOhAL.Com).mp3'
+     },
+	{
+        img : 'https://lq.djjohal.com/covers/729102/Dil%20Mangda.jpg',
+        name : 'Dil Mangda',
+        artist : 'Rajvir Jawanda',
+ 	album : 'Rajvir Jawanda Music',
+	released : '12-01-2023',
+        music : 'https://hd1.djjohal.com/320/515090/Dil%20Mangda%20-%20Rajvir%20Jawanda%20(DJJOhAL.Com).mp3'
+     },
+	{
+        img : 'https://lq.djjohal.com/covers/729112/No%20Cap.jpg',
+        name : 'No Cap',
+        artist : 'Harp Multani',
+ 	album : '84 Records',
+	released : '12-01-2023',
+        music : 'https://hd1.djjohal.com/320/515101/No%20Cap%20-%20Harp%20Multani%20(DJJOhAL.Com).mp3'
+     },
+	{
         img : 'https://lq.djjohal.com/covers/729095/Court.jpg',
         name : 'Court',
         artist : 'Gulab Sidhu',

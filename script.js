@@ -371,7 +371,7 @@ const music_list = [
         artist : 'Varinder Brar',
 	album : 'Varinder Brar Music',
         music : 'https://hd1.djjohal.com/320/514076/Faizal%20-%20Varinder%20Brar%20(DJJOhAL.Com).mp3'
-    },
+    }, 
 	{
         img : 'https://lq.djjohal.com/covers/728738/So%20Mean.jpg',
         name : 'So Mean',

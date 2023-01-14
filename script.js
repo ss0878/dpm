@@ -22,6 +22,30 @@ let updateTimer;
 
 const music_list = [
 	{
+        img : 'https://lq.djjohal.com/covers/729116/Unique.jpg',
+        name : 'Unique',
+        artist : 'Jimmy Mahal',
+ 	album : 'Jimmy Mahal Music',
+	released : '14-01-2023',
+        music : 'https://hd1.djjohal.com/320/515105/Unique%20-%20Jimmy%20Mahal%20(DJJOhAL.Com).mp3'
+     },
+	{
+        img : 'https://lq.djjohal.com/covers/729115/Handmade.jpg',
+        name : 'Handmade',
+        artist : 'Gurmaan Sahota',
+ 	album : 'Jass Records',
+	released : '14-01-2023',
+        music : 'https://hd1.djjohal.com/320/515104/Handmade%20-%20Gurmaan%20Sahota%20(DJJOhAL.Com).mp3'
+     },
+	{
+        img : 'https://lq.djjohal.com/covers/729113/Taur%20Tappa.jpg',
+        name : 'Taur Tappa',
+        artist : 'Shivjot',
+ 	album : 'Dose of Music',
+	released : '14-01-2023',
+        music : 'https://hd1.djjohal.com/320/515102/Taur%20Tappa%20-%20Shivjot%20(DJJOhAL.Com).mp3'
+     },
+	{
         img : 'https://lq.djjohal.com/covers/729107/Ego.jpg',
         name : 'Ego',
         artist : 'Zora Randhawa FT. Naseeb',

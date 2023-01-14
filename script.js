@@ -1343,8 +1343,8 @@ if ( 'mediaSession' in navigator ) {
 		  artist: track_artist.textContent,
 		album: 'Dope Music',
           	artwork: [
-            { src: 'https://www.dropbox.com/s/9s99pr2e5lv2b4j/1.png?dl=1', sizes: '96x96', type: 'image/png' }/*,
-                  { src: 'https://assets.codepen.io/4358584/1.300.jpg', sizes: '128x128', type: 'image/png' },
+            { src: track_art.textContent, sizes: '96x96', type: 'image/png' }/*,
+                  { src: 'https://www.dropbox.com/s/9s99pr2e5lv2b4j/1.png?dl=1', sizes: '128x128', type: 'image/png' },
                    { src: 'https://assets.codepen.io/4358584/1.300.jpg', sizes: '192x192', type: 'image/png' },
                    { src: 'https://assets.codepen.io/4358584/1.300.jpg', sizes: '256x256', type: 'image/png' },
                    { src: 'https://assets.codepen.io/4358584/1.300.jpg', sizes: '384x384', type: 'image/png' },

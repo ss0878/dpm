@@ -1392,5 +1392,18 @@ if ( 'mediaSession' in navigator ) {
 	  //find the index of the audio src in our srcs array to know what src to set next
 	  nextTrack();
 	});
+	let defaultSkipTime = 5; /* Time to skip in seconds by default */
+
+	navigator.mediaSession.setActionHandler('seekbackward', function(event) {
+  	const skipTime = event.seekOffset || defaultSkipTime;
+  	curr_track.currentTime = Math.max(curr_track.currentTime - skipTime, 0);
+  	updatePositionState();
+	});
+
+	navigator.mediaSession.setActionHandler('seekforward', function(event) {
+  	const skipTime = event.seekOffset || defaultSkipTime;
+  	curr_track.currentTime = Math.min(curr_track.currentTime + skipTime, curr_track.duration);
+  	updatePositionState();
+	});
   }
 }

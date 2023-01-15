@@ -143,6 +143,50 @@ p{
         transform: rotate(359deg);
     }
 }
+
+
+.blob {
+	background: rgba(133, 131, 131, 0);
+	border-radius: 50%;
+	height: 260px;
+	width: 260px;
+    position: absolute;
+    margin-top: -55px;
+
+	box-shadow: 0 0 0 0 rgb(247, 243, 243);
+	transform: scale(1);
+	animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(251, 249, 249, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .loader{
     height: 70px;
     display: flex;

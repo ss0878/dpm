@@ -150,6 +150,14 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/515076/Khrey%20Khrey%20-%20Hunar%20Sidhu%20%20Gurlez%20Akhter%20(DJJOhAL.Com).mp3'
      },
 	{
+        img : 'https://lq.djjohal.com/covers/729080/Ikki%20Na%20Dukki.jpg',
+        name : 'Ikki Na Dukki',
+        artist : 'Vicky FT Kaptaan, SanB',
+ 	album : 'Times Music',
+	released : '06-01-2023',
+        music : 'https://hd1.djjohal.com/320/515047/Ikki%20Na%20Dukki%20-%20Vicky%20(DJJOhAL.Com).mp3'
+     },
+	{
         img : 'https://lq.djjohal.com/covers/729059/Gedi%20Route.jpg',
         name : 'Gedi Route',
         artist : 'Kulbir Jhinjer',

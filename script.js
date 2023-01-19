@@ -182,6 +182,14 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/514981/Da%20Bomb%20-%20Ellde%20Fazilka%20(DJJOhAL.Com).mp3'
      },
 	{
+        img : 'https://lq.djjohal.com/covers/728782/Secret.jpg',
+        name : 'Secret',
+        artist : 'Zehr Vibe',
+ 	album : 'Jatt Life Studios',
+	released : '30-12-2022',
+        music : 'https://hd1.djjohal.com/320/514630/Secret%20-%20Zehr%20Vibe%20(DJJOhAL.Com).mp3'
+     },
+	{
         img : 'https://lq.djjohal.com/covers/729017/Shokeen.jpg',
         name : 'Shokeen',
         artist : 'Fateh',

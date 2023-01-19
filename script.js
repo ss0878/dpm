@@ -364,6 +364,14 @@ const music_list = [
         music : 'https://hd1.djjohal.com/320/514617/Best%20Friends%20-%20The%20Landers%20%20Guri%20Singh%20(DJJOhAL.Com).mp3'
     },
 	{
+        img : 'https://lq.djjohal.com/covers/728206/Unbeatable.jpg',
+        name : 'Unbeatable',
+        artist : 'The Landers',
+ 	album : 'The Landers Music',
+	released : '14-09-2022',
+        music : 'https://hd1.djjohal.com/320/513836/Unbeatable%20-%20The%20Landers%20(DJJOhAL.Com).mp3'
+     },
+	{
         img : 'https://lq.djjohal.com/covers/728761/Jatt%20Life%20Zone.jpg',
         name : 'Jatt Life Zone',
         artist : 'Varinder Brar',

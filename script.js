@@ -22,20 +22,12 @@ let updateTimer;
 
 const music_list = [
 	{
-        img : 'https://cover.djpunjab.is/53101/300x700/Gede-Harf-Cheema.jpg',
-        name : 'Gede',
-        artist : 'Harf Cheema',
-      	album : 'T-Series Apna Punjab',
-	    released : '22-01-2023',
-        music : 'https://s320.djpunjab.is/data/320/53101/301214/Gede%20-%20Harf%20Cheema.mp3'
-     },
-     {
-        img : 'https://cover.djpunjab.is/53099/300x700/Taare-Sucha-Yaar.jpg',
-        name : 'Taare',
-        artist : 'Sucha Yaar',
-      	album : 'Sucha Yaar',
-	    released : '22-01-2023',
-        music : 'https://s320.djpunjab.is/data/320/53099/301212/Taare%20-%20Sucha%20Yaar.mp3'
+        img : 'https://cover.djpunjab.is/53108/300x700/Combination-Nawab.jpg',
+        name : 'Combination',
+        artist : 'Nawab',
+      	album : 'Nawab Music',
+	    released : '23-01-2023',
+        music : 'https://s320.djpunjab.is/data/320/53108/301221/Combination%20-%20Nawab.mp3'
      },
      {
         img : 'https://cover.djpunjab.is/53103/300x700/Soorma-2-Jazzy-B.jpg',
@@ -44,6 +36,46 @@ const music_list = [
       	album : 'Jazzy B Music',
 	    released : '22-01-2023',
         music : 'https://s320.djpunjab.is/data/320/53103/301216/Soorma%202%20-%20Jazzy%20B.mp3'
+     },
+     {
+        img : 'https://cover.djpunjab.is/53102/300x700/Me-Nijjar.jpg',
+        name : 'ME',
+        artist : 'Nijjar Ft. Deep Jandu',
+      	album : 'Nijjar Music',
+	    released : '22-01-2023',
+        music : 'https://s320.djpunjab.is/data/320/53102/301215/Me%20-%20Nijjar.mp3'
+     },
+     {
+        img : 'https://cover.djpunjab.is/53096/300x700/Faraan-Wali-Jacket-Guri-Lahoria.jpg',
+        name : 'Faraan Wali Jacket',
+        artist : 'Guri Lahoria',
+      	album : 'Music',
+	    released : '21-01-2023',
+        music : 'https://s320.djpunjab.is/data/320/53096/301209/Faraan%20Wali%20Jacket%20-%20Guri%20Lahoria.mp3'
+     },
+     {
+        img : 'https://cover.djpunjab.is/53096/300x700/Faraan-Wali-Jacket-Guri-Lahoria.jpg',
+        name : 'Faraan Wali Jacket',
+        artist : 'Guri Lahoria',
+      	album : 'Music',
+	    released : '21-01-2023',
+        music : 'https://s320.djpunjab.is/data/320/53096/301209/Faraan%20Wali%20Jacket%20-%20Guri%20Lahoria.mp3'
+     },
+     {
+        img : 'https://cover.djpunjab.is/53081/300x700/Where-Do-I-Go-Deep-Jandu.jpg',
+        name : 'Where Do I Go',
+        artist : 'Deep Jandu',
+      	album : 'Deep Jandu Entertainment Inc.',
+	    released : '19-01-2023',
+        music : 'https://s320.djpunjab.is/data/320/53081/301194/Where%20Do%20I%20Go%20-%20Deep%20Jandu.mp3'
+     },
+     {
+        img : 'https://cover.djpunjab.is/53073/300x700/Dil-Da-Black-Runbir.jpg',
+        name : 'Dil Da Black',
+        artist : 'Runbir',
+      	album : 'Crown Records',
+	    released : '18-01-2023',
+        music : 'https://s320.djpunjab.is/data/320/53073/301177/Dil%20Da%20Black%20-%20Runbir.mp3'
      },
      {
         img : 'https://lq.djjohal.com/covers/729142/Tu%20Kaafi%20Ae.jpg',
@@ -77,6 +109,22 @@ const music_list = [
           released : '18-01-2023',
           music : 'https://s320.djpunjab.is/data/320/53050/301154/Taur%20Tappa%20-%20shivjot.mp3'
        },
+       {
+           img : 'https://cover.djpunjab.is/53049/300x700/Thirty-Six-Penny.jpg',
+           name : 'Thirty Six',
+           artist : 'Penny',
+            album : 'Jatt Land Music',
+           released : '14-01-2023',
+           music : 'https://s320.djpunjab.is/data/320/53049/301153/Thirty%20Six%20-%20Penny.mp3'
+        },
+        {
+            img : 'https://cover.djpunjab.is/53048/300x700/Unique-Jimmy-Mahal.jpg',
+            name : 'Unique',
+            artist : 'Jimmy Mahal',
+             album : 'Jimmy Mahal Music',
+            released : '14-01-2023',
+            music : 'https://s320.djpunjab.is/data/320/53048/301152/Unique%20-%20Jimmy%20Mahal.mp3'
+         },
       {
           img : 'https://cover.djpunjab.is/53024/300x700/Court-Gulab-Sidhu.jpg',
           name : 'Court',

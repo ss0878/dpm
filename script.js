@@ -60,7 +60,31 @@ const music_list = [
  	    album : 'Tyson Sidhu Music',
 	    released : '18-01-2023',
         music : 'https://hd1.djjohal.com/320/515117/Skills%20-%20Tyson%20Sidhu%20(DJJOhAL.Com).mp3'
-     }
+     },
+     {
+         img : 'https://cover.djpunjab.is/53018/300x700/Pecha-Gur-Sidhu.jpg',
+         name : 'Pecha',
+         artist : 'Gur Sidhu',
+          album : 'Brown Town Music',
+         released : '18-01-2023',
+         music : 'https://s320.djpunjab.is/data/320/53018/301109/Pecha%20-%20Gur%20Sidhu.mp3'
+      },
+      {
+          img : 'https://cover.djpunjab.is/53050/300x700/Taur-Tappa-shivjot.jpg',
+          name : 'Taur Tappa',
+          artist : 'Shivjot',
+           album : 'Dose Of Music',
+          released : '18-01-2023',
+          music : 'https://s320.djpunjab.is/data/320/53050/301154/Taur%20Tappa%20-%20shivjot.mp3'
+       },
+      {
+          img : 'https://cover.djpunjab.is/53024/300x700/Court-Gulab-Sidhu.jpg',
+          name : 'Court',
+          artist : 'Gulab Sidhu',
+           album : 'Speed Records',
+          released : '10-01-2023',
+          music : 'https://s320.djpunjab.is/data/320/53024/301115/Court%20-%20Gulab%20Sidhu.mp3'
+       }
 	
 	
 ];

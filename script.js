@@ -22,6 +22,14 @@ let updateTimer;
 
 const music_list = [
 	{
+        img : 'https://i.imgur.com/a6zNwMG.jpg',
+        name : 'Soorma 2',
+        artist : 'Jazzy B',
+      	album : 'Jazzy B Music',
+	      released : '22-01-2023',
+        music : 'https://djyoungster.net/music/320/Single-Tracks/January(2023)/Soorma%202%20Jazzy%20B.mp3'
+     },
+     {
         img : 'https://lq.djjohal.com/covers/729142/Tu%20Kaafi%20Ae.jpg',
         name : 'Tu Kaafi Ae',
         artist : 'Pav Dharia',

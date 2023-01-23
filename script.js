@@ -22,27 +22,43 @@ let updateTimer;
 
 const music_list = [
 	{
-        img : 'https://i.imgur.com/a6zNwMG.jpg',
+        img : 'https://cover.djpunjab.is/53101/300x700/Gede-Harf-Cheema.jpg',
+        name : 'Gede',
+        artist : 'Harf Cheema',
+      	album : 'T-Series Apna Punjab',
+	    released : '22-01-2023',
+        music : 'https://s320.djpunjab.is/data/320/53101/301214/Gede%20-%20Harf%20Cheema.mp3'
+     },
+     {
+        img : 'https://cover.djpunjab.is/53099/300x700/Taare-Sucha-Yaar.jpg',
+        name : 'Taare',
+        artist : 'Sucha Yaar',
+      	album : 'Sucha Yaar',
+	    released : '22-01-2023',
+        music : 'https://s320.djpunjab.is/data/320/53099/301212/Taare%20-%20Sucha%20Yaar.mp3'
+     },
+     {
+        img : 'https://cover.djpunjab.is/53103/300x700/Soorma-2-Jazzy-B.jpg',
         name : 'Soorma 2',
         artist : 'Jazzy B',
       	album : 'Jazzy B Music',
-	      released : '22-01-2023',
-        music : 'https://djyoungster.net/music/320/Single-Tracks/January(2023)/Soorma%202%20Jazzy%20B.mp3'
+	    released : '22-01-2023',
+        music : 'https://s320.djpunjab.is/data/320/53103/301216/Soorma%202%20-%20Jazzy%20B.mp3'
      },
      {
         img : 'https://lq.djjohal.com/covers/729142/Tu%20Kaafi%20Ae.jpg',
         name : 'Tu Kaafi Ae',
         artist : 'Pav Dharia',
       	album : 'Pav Dharia Music',
-	      released : '18-01-2023',
+	    released : '18-01-2023',
         music : 'https://hd1.djjohal.com/320/515154/Tu%20Kaafi%20Ae%20-%20Pav%20Dharia%20(DJJOhAL.Com).mp3'
      },
 	{
         img : 'https://lq.djjohal.com/covers/729123/Skills.jpg',
         name : 'Skills',
         artist : 'Tyson Sidhu',
- 	album : 'Tyson Sidhu Music',
-	released : '18-01-2023',
+ 	    album : 'Tyson Sidhu Music',
+	    released : '18-01-2023',
         music : 'https://hd1.djjohal.com/320/515117/Skills%20-%20Tyson%20Sidhu%20(DJJOhAL.Com).mp3'
      }
 	
@@ -183,7 +199,7 @@ if ( 'mediaSession' in navigator ) {
 		  artist: track_artist.textContent,
 		album: 'Dope Music',
           	artwork: [
-            { src: 'https://assets.codepen.io/4358584/1.300.jpg', sizes: '96x96', type: 'image/png' }/*,
+            { src: 'https://cdn-icons-png.flaticon.com/512/9280/9280598.png', sizes: 'auto', type: 'image/png' }/*,
                   { src: 'https://www.dropbox.com/s/9s99pr2e5lv2b4j/1.png?dl=1', sizes: '128x128', type: 'image/png' },
                    { src: 'https://assets.codepen.io/4358584/1.300.jpg', sizes: '192x192', type: 'image/png' },
                    { src: 'https://assets.codepen.io/4358584/1.300.jpg', sizes: '256x256', type: 'image/png' },

@@ -284,7 +284,47 @@ const music_list = [
                     album : 'T-Series',
                     released : '28-12-2022',
                     music : 'https://s320.djpunjab.is/data/320/52960/301051/Goddamn%20-%20Jerry.mp3'
-                       }
+                       },
+                       {
+                     img : 'https://cover.djpunjab.is/52951/300x700/Afterhours-BIR.jpg',
+                     name : 'Afterhours',
+                     artist : 'BIR',
+                     album : 'Unbothered Records',
+                     released : '27-12-2022',
+                     music : 'https://s320.djpunjab.is/data/320/52951/301042/Afterhours%20-%20BIR.mp3'
+                        },
+                        {
+                      img : 'https://cover.djpunjab.is/52925/300x700/Me-and-You-Yuvraj.jpg',
+                      name : 'Me And You',
+                      artist : 'Yuvraj',
+                      album : 'Yuvraj Studios',
+                      released : '21-12-2022',
+                      music : 'https://s320.djpunjab.is/data/320/52925/301016/Me%20And%20You%20-%20Yuvraj.mp3'
+                         },
+                         {
+                       img : 'https://cover.djpunjab.is/52924/300x700/Players-Badshah.jpg',
+                       name : 'Players',
+                       artist : 'Badshah Ft. Karan Aujla',
+                       album : 'Badshah Music',
+                       released : '21-12-2022',
+                       music : 'https://s320.djpunjab.is/data/320/52924/301015/Players%20-%20Badshah.mp3'
+                          },
+                          {
+                        img : 'https://cover.djpunjab.is/52917/300x700/Never-Back-Down-Robyn-Sandhu.jpg',
+                        name : 'Never Back Down',
+                        artist : 'Robyn Sandhu',
+                        album : 'T-Series',
+                        released : '20-12-2022',
+                        music : 'https://s320.djpunjab.is/data/320/52917/301008/Never%20Back%20Down%20-%20Robyn%20Sandhu.mp3'
+                           },
+                           {
+                         img : 'https://cover.djpunjab.is/52911/300x700/True-Talks-Jassa-Dhillon.jpg',
+                         name : 'True Talks',
+                         artist : 'Jassa Dhillon',
+                         album : 'Jassa Dhillon Music',
+                         released : '19-12-2022',
+                         music : 'https://s320.djpunjab.is/data/320/52911/301002/True%20Talks%20-%20Jassa%20Dhillon.mp3'
+                            }
 	
 	
 ];

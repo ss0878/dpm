@@ -252,6 +252,38 @@ const music_list = [
                     album : 'Sikander Kahlon Music',
                     released : '01-01-2023',
                     music : 'https://s320.djpunjab.is/data/320/52968/301059/2023%20FLOW%20-%20Sikander%20Kahlon.mp3'
+                       },
+                      {
+                    img : 'https://cover.djpunjab.is/52965/300x700/Poh-Da-Mahina-Kirat-Gill.jpg',
+                    name : 'Poh Da Mahina',
+                    artist : 'Kirat Gill',
+                    album : 'Gringo Entertainments',
+                    released : '30-12-2022',
+                    music : 'https://s320.djpunjab.is/data/320/52965/301056/Poh%20Da%20Mahina%20-%20Kirat%20Gill.mp3'
+                       },
+                      {
+                    img : 'https://cover.djpunjab.is/52964/300x700/Hirni-Navaan-Sandhu.jpg',
+                    name : 'Hirni',
+                    artist : 'Navaan Sandhu',
+                    album : 'Husky Music',
+                    released : '30-12-2022',
+                    music : 'https://s320.djpunjab.is/data/320/52964/301055/Hirni%20-%20Navaan%20Sandhu.mp3'
+                       },
+                      {
+                    img : 'https://cover.djpunjab.is/52963/300x700/YDY-Zora-Randhawa.jpg',
+                    name : 'YDY',
+                    artist : 'Zora Randhawa',
+                    album : 'Zora Randhawa Music',
+                    released : '30-12-2022',
+                    music : 'https://s320.djpunjab.is/data/320/52963/301054/YDY%20-%20Zora%20Randhawa.mp3'
+                       },
+                      {
+                    img : 'https://cover.djpunjab.is/52960/300x700/Goddamn-Jerry.jpg',
+                    name : 'Goddamn',
+                    artist : 'Jerry',
+                    album : 'T-Series',
+                    released : '28-12-2022',
+                    music : 'https://s320.djpunjab.is/data/320/52960/301051/Goddamn%20-%20Jerry.mp3'
                        }
 	
 	

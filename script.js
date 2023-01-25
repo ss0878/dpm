@@ -460,6 +460,62 @@ const music_list = [
          album : 'Jugnu Music',
          released : '08-12-2022',
          music : 'https://s320.djpunjab.is/data/320/52836/300914/Jaan%20Ke%20Bhulekhe%20-%20Satinder%20Sartaaj.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52833/300x700/My-Dear-Punjab-Ranjit-Bawa.jpg',
+         name : 'My Dear Punjab',
+         artist : 'Ranjit Bawa',
+         album : 'Bless Studios',
+         released : '07-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52833/300911/My%20Dear%20Punjab%20-%20Ranjit%20Bawa.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52830/300x700/Aam-Jahi-Sukh-Lotey.jpg',
+         name : 'Aam Jahi',
+         artist : 'Sukh Lotey',
+         album : 'Red Leaf Music',
+         released : '07-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52830/300904/Aam%20Jahi%20-%20Sukh%20Lotey.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52826/300x700/Lalkaare-Harjot.jpg',
+         name : 'Lalkaare',
+         artist : 'Harjot',
+         album : 'True Music',
+         released : '07-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52826/300900/Lalkaare%20-%20Harjot.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52818/300x700/Sad-Song-Ravinder-Grewal.jpg',
+         name : 'Sad Song',
+         artist : 'Ravinder Grewal',
+         album : 'Hot Shot Music',
+         released : '05-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52818/300892/Sad%20Song%20-%20Ravinder%20Grewal.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52793/300x700/3---4-Yaar-Karaj-Randhawa.jpg',
+         name : '3 - 4 Yaar',
+         artist : 'Karaj Randhawa',
+         album : 'Karaj Randhawa Music',
+         released : '01-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52793/300857/3%20-%204%20Yaar%20-%20Karaj%20Randhawa.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52790/300x700/2NI-Garry-Sandhu.jpg',
+         name : '2NI',
+         artist : 'Garry Sandhu',
+         album : 'Fresh Media Records',
+         released : '01-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52790/300854/2NI%20-%20Garry%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52779/300x700/Tu-He-Dass-Harvi.jpg',
+         name : 'Tu He Dass',
+         artist : 'Harvi',
+         album : 'Bang Music',
+         released : '30-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52779/300843/Tu%20He%20Dass%20-%20Harvi.mp3'
             }
 	
 	

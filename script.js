@@ -54,14 +54,6 @@ const music_list = [
         music : 'https://s320.djpunjab.is/data/320/53096/301209/Faraan%20Wali%20Jacket%20-%20Guri%20Lahoria.mp3'
      },
      {
-        img : 'https://cover.djpunjab.is/53096/300x700/Faraan-Wali-Jacket-Guri-Lahoria.jpg',
-        name : 'Faraan Wali Jacket',
-        artist : 'Guri Lahoria',
-      	album : 'Music',
-	    released : '21-01-2023',
-        music : 'https://s320.djpunjab.is/data/320/53096/301209/Faraan%20Wali%20Jacket%20-%20Guri%20Lahoria.mp3'
-     },
-     {
         img : 'https://cover.djpunjab.is/53081/300x700/Where-Do-I-Go-Deep-Jandu.jpg',
         name : 'Where Do I Go',
         artist : 'Deep Jandu',
@@ -238,93 +230,237 @@ const music_list = [
                    music : 'https://s320.djpunjab.is/data/320/52976/301067/Jatt%20Nu%20Sambhle%20-%20Deep%20Chahal.mp3'
                       },
                       {
-                    img : 'https://cover.djpunjab.is/52970/300x700/Da-Bomb-Ellde-Fazilka.jpg',
-                    name : 'Da Bomb',
-                    artist : 'Ellde Fazilka',
-                    album : 'Ellde Fazilka Music',
-                    released : '01-01-2023',
-                    music : 'https://s320.djpunjab.is/data/320/52970/301061/Da%20Bomb%20-%20Ellde%20Fazilka.mp3'
-                       },
-                      {
-                    img : 'https://cover.djpunjab.is/52968/300x700/2023-FLOW-Sikander-Kahlon.jpg',
-                    name : '2023 FLOW',
-                    artist : 'Sikander Kahlon',
-                    album : 'Sikander Kahlon Music',
-                    released : '01-01-2023',
-                    music : 'https://s320.djpunjab.is/data/320/52968/301059/2023%20FLOW%20-%20Sikander%20Kahlon.mp3'
-                       },
-                      {
-                    img : 'https://cover.djpunjab.is/52965/300x700/Poh-Da-Mahina-Kirat-Gill.jpg',
-                    name : 'Poh Da Mahina',
-                    artist : 'Kirat Gill',
-                    album : 'Gringo Entertainments',
-                    released : '30-12-2022',
-                    music : 'https://s320.djpunjab.is/data/320/52965/301056/Poh%20Da%20Mahina%20-%20Kirat%20Gill.mp3'
-                       },
-                      {
-                    img : 'https://cover.djpunjab.is/52964/300x700/Hirni-Navaan-Sandhu.jpg',
-                    name : 'Hirni',
-                    artist : 'Navaan Sandhu',
-                    album : 'Husky Music',
-                    released : '30-12-2022',
-                    music : 'https://s320.djpunjab.is/data/320/52964/301055/Hirni%20-%20Navaan%20Sandhu.mp3'
-                       },
-                      {
-                    img : 'https://cover.djpunjab.is/52963/300x700/YDY-Zora-Randhawa.jpg',
-                    name : 'YDY',
-                    artist : 'Zora Randhawa',
-                    album : 'Zora Randhawa Music',
-                    released : '30-12-2022',
-                    music : 'https://s320.djpunjab.is/data/320/52963/301054/YDY%20-%20Zora%20Randhawa.mp3'
-                       },
-                      {
-                    img : 'https://cover.djpunjab.is/52960/300x700/Goddamn-Jerry.jpg',
-                    name : 'Goddamn',
-                    artist : 'Jerry',
-                    album : 'T-Series',
-                    released : '28-12-2022',
-                    music : 'https://s320.djpunjab.is/data/320/52960/301051/Goddamn%20-%20Jerry.mp3'
+              img : 'https://cover.djpunjab.is/52970/300x700/Da-Bomb-Ellde-Fazilka.jpg',
+              name : 'Da Bomb',
+              artist : 'Ellde Fazilka',
+              album : 'Ellde Fazilka Music',
+              released : '01-01-2023',
+              music : 'https://s320.djpunjab.is/data/320/52970/301061/Da%20Bomb%20-%20Ellde%20Fazilka.mp3'
+                 },
+                {
+              img : 'https://cover.djpunjab.is/52968/300x700/2023-FLOW-Sikander-Kahlon.jpg',
+              name : '2023 FLOW',
+              artist : 'Sikander Kahlon',
+              album : 'Sikander Kahlon Music',
+              released : '01-01-2023',
+              music : 'https://s320.djpunjab.is/data/320/52968/301059/2023%20FLOW%20-%20Sikander%20Kahlon.mp3'
+                 },
+                {
+              img : 'https://cover.djpunjab.is/52965/300x700/Poh-Da-Mahina-Kirat-Gill.jpg',
+              name : 'Poh Da Mahina',
+              artist : 'Kirat Gill',
+              album : 'Gringo Entertainments',
+              released : '30-12-2022',
+              music : 'https://s320.djpunjab.is/data/320/52965/301056/Poh%20Da%20Mahina%20-%20Kirat%20Gill.mp3'
+                 },
+                {
+              img : 'https://cover.djpunjab.is/52964/300x700/Hirni-Navaan-Sandhu.jpg',
+              name : 'Hirni',
+              artist : 'Navaan Sandhu',
+              album : 'Husky Music',
+              released : '30-12-2022',
+              music : 'https://s320.djpunjab.is/data/320/52964/301055/Hirni%20-%20Navaan%20Sandhu.mp3'
+                 },
+                {
+              img : 'https://cover.djpunjab.is/52963/300x700/YDY-Zora-Randhawa.jpg',
+              name : 'YDY',
+              artist : 'Zora Randhawa',
+              album : 'Zora Randhawa Music',
+              released : '30-12-2022',
+              music : 'https://s320.djpunjab.is/data/320/52963/301054/YDY%20-%20Zora%20Randhawa.mp3'
+                 },
+                {
+              img : 'https://cover.djpunjab.is/52960/300x700/Goddamn-Jerry.jpg',
+              name : 'Goddamn',
+              artist : 'Jerry',
+              album : 'T-Series',
+              released : '28-12-2022',
+              music : 'https://s320.djpunjab.is/data/320/52960/301051/Goddamn%20-%20Jerry.mp3'
                        },
                        {
-                     img : 'https://cover.djpunjab.is/52951/300x700/Afterhours-BIR.jpg',
-                     name : 'Afterhours',
-                     artist : 'BIR',
-                     album : 'Unbothered Records',
-                     released : '27-12-2022',
-                     music : 'https://s320.djpunjab.is/data/320/52951/301042/Afterhours%20-%20BIR.mp3'
-                        },
-                        {
-                      img : 'https://cover.djpunjab.is/52925/300x700/Me-and-You-Yuvraj.jpg',
-                      name : 'Me And You',
-                      artist : 'Yuvraj',
-                      album : 'Yuvraj Studios',
-                      released : '21-12-2022',
-                      music : 'https://s320.djpunjab.is/data/320/52925/301016/Me%20And%20You%20-%20Yuvraj.mp3'
-                         },
-                         {
-                       img : 'https://cover.djpunjab.is/52924/300x700/Players-Badshah.jpg',
-                       name : 'Players',
-                       artist : 'Badshah Ft. Karan Aujla',
-                       album : 'Badshah Music',
-                       released : '21-12-2022',
-                       music : 'https://s320.djpunjab.is/data/320/52924/301015/Players%20-%20Badshah.mp3'
-                          },
-                          {
-                        img : 'https://cover.djpunjab.is/52917/300x700/Never-Back-Down-Robyn-Sandhu.jpg',
-                        name : 'Never Back Down',
-                        artist : 'Robyn Sandhu',
-                        album : 'T-Series',
-                        released : '20-12-2022',
-                        music : 'https://s320.djpunjab.is/data/320/52917/301008/Never%20Back%20Down%20-%20Robyn%20Sandhu.mp3'
-                           },
+             img : 'https://cover.djpunjab.is/52951/300x700/Afterhours-BIR.jpg',
+             name : 'Afterhours',
+             artist : 'BIR',
+             album : 'Unbothered Records',
+             released : '27-12-2022',
+             music : 'https://s320.djpunjab.is/data/320/52951/301042/Afterhours%20-%20BIR.mp3'
+                },
+                {
+              img : 'https://cover.djpunjab.is/52925/300x700/Me-and-You-Yuvraj.jpg',
+              name : 'Me And You',
+              artist : 'Yuvraj',
+              album : 'Yuvraj Studios',
+              released : '21-12-2022',
+              music : 'https://s320.djpunjab.is/data/320/52925/301016/Me%20And%20You%20-%20Yuvraj.mp3'
+                 },
+                 {
+               img : 'https://cover.djpunjab.is/52924/300x700/Players-Badshah.jpg',
+               name : 'Players',
+               artist : 'Badshah Ft. Karan Aujla',
+               album : 'Badshah Music',
+               released : '21-12-2022',
+               music : 'https://s320.djpunjab.is/data/320/52924/301015/Players%20-%20Badshah.mp3'
+                  },
+                  {
+                img : 'https://cover.djpunjab.is/52917/300x700/Never-Back-Down-Robyn-Sandhu.jpg',
+                name : 'Never Back Down',
+                artist : 'Robyn Sandhu',
+                album : 'T-Series',
+                released : '20-12-2022',
+                music : 'https://s320.djpunjab.is/data/320/52917/301008/Never%20Back%20Down%20-%20Robyn%20Sandhu.mp3'
+                   },
                            {
-                         img : 'https://cover.djpunjab.is/52911/300x700/True-Talks-Jassa-Dhillon.jpg',
-                         name : 'True Talks',
-                         artist : 'Jassa Dhillon',
-                         album : 'Jassa Dhillon Music',
-                         released : '19-12-2022',
-                         music : 'https://s320.djpunjab.is/data/320/52911/301002/True%20Talks%20-%20Jassa%20Dhillon.mp3'
-                            }
+               img : 'https://cover.djpunjab.is/52911/300x700/True-Talks-Jassa-Dhillon.jpg',
+               name : 'True Talks',
+               artist : 'Jassa Dhillon',
+               album : 'Jassa Dhillon Music',
+               released : '19-12-2022',
+               music : 'https://s320.djpunjab.is/data/320/52911/301002/True%20Talks%20-%20Jassa%20Dhillon.mp3'
+                  },
+                 {
+               img : 'https://cover.djpunjab.is/52911/300x700/True-Talks-Jassa-Dhillon.jpg',
+               name : 'True Talks',
+               artist : 'Jassa Dhillon',
+               album : 'Jassa Dhillon Music',
+               released : '19-12-2022',
+               music : 'https://s320.djpunjab.is/data/320/52911/301002/True%20Talks%20-%20Jassa%20Dhillon.mp3'
+                  },
+            {
+         img : 'https://cover.djpunjab.is/52905/300x700/Our-Beginning-Himmat-Sandhu.jpg',
+         name : 'Our Beginning',
+         artist : 'Himmat Sandhu',
+         album : 'Majhail Creations',
+         released : '17-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52905/300996/Our%20Beginning%20-%20Himmat%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52901/300x700/Never-Change-Sucha-Yaar.jpg',
+         name : 'Never Change',
+         artist : 'Sucha Yaar',
+         album : 'Paapi Production',
+         released : '17-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52901/300992/Never%20Change%20-%20Sucha%20Yaar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52898/300x700/Chaal-Rahat-Fateh-Ali-Khan.jpg',
+         name : 'Chaal',
+         artist : 'Rahat Fateh Ali Khan',
+         album : 'Dr Zeus WorldWide',
+         released : '16-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52898/300989/Chaal%20-%20Rahat%20Fateh%20Ali%20Khan.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52896/300x700/If-I-Die-Guri-Lahoria.jpg',
+         name : 'If I Die',
+         artist : 'Guri Lahoria',
+         album : 'Grand Studio',
+         released : '16-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52896/300987/If%20I%20Die%20-%20Guri%20Lahoria.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52894/300x700/Ambran-De-Taare-Shipra-Goyal.jpg',
+         name : 'If I Die',
+         artist : 'Guri Lahoria',
+         album : 'Grand Studio',
+         released : '16-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52896/300987/If%20I%20Die%20-%20Guri%20Lahoria.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52889/300x700/2-Percent-Garry-Sandhu.jpg',
+         name : '2 Percent',
+         artist : 'Garry Sandhu',
+         album : 'Fresh Media Records',
+         released : '16-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52889/300980/2%20Percent%20-%20Garry%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52885/300x700/Insomnia-The-Prophec.jpg',
+         name : 'Insomnia',
+         artist : 'The Prophec',
+         album : 'The Prophec Music',
+         released : '15-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52885/300976/Insomnia%20-%20The%20Prophec.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52876/300x700/Tootan-Wala-Khoo-Chani-Nattan.jpg',
+         name : 'Tootan Wala Khoo',
+         artist : 'Chani Nattan',
+         album : 'Chani Nattan Music',
+         released : '15-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52876/300967/Tootan%20Wala%20Khoo%20-%20Chani%20Nattan.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52872/300x700/Exotic-Rangrez-Sidhu.jpg',
+         name : 'Exotic',
+         artist : 'Rangrez Sidhu',
+         album : 'Taz Studios',
+         released : '14-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52872/300963/Exotic%20-%20Rangrez%20Sidhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52860/300x700/Bet-On-Me-Jerry.jpg',
+         name : 'Bet On Me',
+         artist : 'Jerry',
+         album : 'VIP Records Ltd',
+         released : '12-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52860/300944/Bet%20On%20Me%20-%20Jerry.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52857/300x700/Tareefan-Harnoor.jpg',
+         name : 'Tareefan',
+         artist : 'Harnoor',
+         album : 'Jatt Life Studios',
+         released : '11-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52857/300941/Tareefan%20-%20Harnoor.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52855/300x700/Zulfaan-Sarrb.jpg',
+         name : 'Zulfaan',
+         artist : 'Sarrb',
+         album : 'NorthWest Music',
+         released : '10-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52855/300939/Zulfaan%20-%20Sarrb.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52853/300x700/The-Lion-Varinder-Brar.jpg',
+         name : 'The Lion',
+         artist : 'Varinder Brar',
+         album : 'Varinder Brar Music',
+         released : '10-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52853/300937/The%20Lion%20-%20Varinder%20Brar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52849/300x700/Red-Eyes-Ekam-Chanoli.jpg',
+         name : 'Red Eyes',
+         artist : 'Ekam Chanoli',
+         album : 'Jass Records',
+         released : '10-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52849/300927/Red%20Eyes%20-%20Ekam%20Chanoli.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52845/300x700/Khanabadosh-Akhil.jpg',
+         name : 'Khanabadosh',
+         artist : 'Akhil',
+         album : 'Times Music',
+         released : '09-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52845/300923/Khanabadosh%20-%20Akhil.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52840/300x700/White-Brown-Black-Avvy-Sra.jpg',
+         name : 'White Brown Black',
+         artist : 'Avvy Sra Ft. Karan Aujla',
+         album : 'Desi Melodies',
+         released : '08-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52840/300918/White%20Brown%20Black%20-%20Avvy%20Sra.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52836/300x700/Jaan-Ke-Bhulekhe-Satinder-Sartaaj.jpg',
+         name : 'Jaan Ke Bhulekhe',
+         artist : 'Satinder Sartaaj',
+         album : 'Jugnu Music',
+         released : '08-12-2022',
+         music : 'https://s320.djpunjab.is/data/320/52836/300914/Jaan%20Ke%20Bhulekhe%20-%20Satinder%20Sartaaj.mp3'
+            }
 	
 	
 ];

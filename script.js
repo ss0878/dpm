@@ -516,6 +516,70 @@ const music_list = [
          album : 'Bang Music',
          released : '30-11-2022',
          music : 'https://s320.djpunjab.is/data/320/52779/300843/Tu%20He%20Dass%20-%20Harvi.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52775/300x700/Her-Shubh.jpg',
+         name : 'Her',
+         artist : 'Shubh',
+         album : 'Shubh Music',
+         released : '29-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52775/300839/Her%20-%20Shubh.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52766/300x700/Jatt-Life-Zone-Varinder-Brar.jpg',
+         name : 'Jatt Life Zone',
+         artist : 'Varinder Brar',
+         album : 'white Hill Music',
+         released : '28-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52766/300830/Jatt%20Life%20Zone%20-%20Varinder%20Brar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52766/300x700/Jatt-Life-Zone-Varinder-Brar.jpg',
+         name : 'Jatt Life Zone',
+         artist : 'Varinder Brar',
+         album : 'white Hill Music',
+         released : '28-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52766/300830/Jatt%20Life%20Zone%20-%20Varinder%20Brar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52755/300x700/WYTB-Karan-Aujla.jpg',
+         name : 'WYTB',
+         artist : 'Karan Aujla Ft. Gurlez Akhtar',
+         album : 'Karan Aujla Music',
+         released : '24-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52755/300807/WYTB%20-%20Karan%20Aujla.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52753/300x700/10-Outta-10-Shipra-Goyal.jpg',
+         name : '10 Outta 10',
+         artist : 'Shipra Goyal Ft. Amrit Maan',
+         album : 'Blue Beat Studios',
+         released : '24-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52753/300805/10%20Outta%2010%20-%20Shipra%20Goyal.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52751/300x700/On-Top-Karan-Aujla.jpg',
+         name : 'On Top',
+         artist : 'Karan Aujla',
+         album : 'Karan Aujla Music',
+         released : '24-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52751/300803/On%20Top%20-%20Karan%20Aujla.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52750/300x700/Sifat-Nirvair-Pannu.jpg',
+         name : 'Sifat',
+         artist : 'Nirvair Pannu',
+         album : 'Juke Dock',
+         released : '24-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52750/300802/Sifat%20-%20Nirvair%20Pannu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52745/300x700/So-Mean-Navaan-Sandhu.jpg',
+         name : 'So Mean',
+         artist : 'Navaan Sandhu',
+         album : 'T-Series',
+         released : '23-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52745/300794/So%20Mean%20-%20Navaan%20Sandhu.mp3'
             }
 	
 	

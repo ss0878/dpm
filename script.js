@@ -38,12 +38,12 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/53116/301246/Investigate%20-%20Karan%20Aujla.mp3'
         },
         {
-        img : '',
-        name : 'Jaan (Slowed Version)',
-        artist : 'Arjan Dhillon',
-        album : 'Arjan Dhillon Music',
-        released : '25-01-2023',
-        music : 'https://s320.djpunjab.is/data/320/53114/301237/Jaan%20(Slowed%20Version)%20-%20Arjan%20Dhillon.mp3'
+         img : 'https://cover.djpunjab.is/53114/300x700/Jaan-(Slowed-Version)-Arjan-Dhillon.jpg',
+         name : 'Jaan (Slow Version)',
+         artist : 'Arjan Dhillon',
+         album : 'Arjan Dhillon Music',
+         released : '25-01-2023',
+         music : 'https://s320.djpunjab.is/data/320/53114/301237/Jaan%20(Slowed%20Version)%20-%20Arjan%20Dhillon.mp3'
         },
  {
         img : 'https://cover.djpunjab.is/53108/300x700/Combination-Nawab.jpg',

@@ -22,6 +22,30 @@ let updateTimer;
 
 const music_list = [
 	{
+    img : 'https://cover.djpunjab.is/53124/300x700/Hustle-Hard-Babbal-Rai.jpg',
+    name : 'Hustle Hard',
+    artist : 'Babbal Rai',
+    album : 'Satti Grewal & Eyp Creations',
+    released : '26-01-2023',
+    music : 'https://s320.djpunjab.is/data/320/53124/301268/Hustle%20Hard%20-%20Babbal%20Rai.mp3'
+ },
+ {
+  img : 'https://cover.djpunjab.is/53116/300x700/Investigate-Karan-Aujia.jpg',
+  name : 'Investigate',
+  artist : 'Karan Aujia',
+  album : 'Karan Aujia Music',
+  released : '25-01-2023',
+  music : 'https://s320.djpunjab.is/data/320/53116/301246/Investigate%20-%20Karan%20Aujla.mp3'
+},
+{
+ img : 'https://cover.djpunjab.is/53114/300x700/Jaan-(Slowed-Version)-Arjan-Dhillon.jpg',
+ name : 'Jaan (Slowed Version)',
+ artist : 'Arjan Dhillon',
+ album : 'Arjan Dhillon Music',
+ released : '25-01-2023',
+ music : 'https://s320.djpunjab.is/data/320/53114/301237/Jaan%20(Slowed%20Version)%20-%20Arjan%20Dhillon.mp3'
+},
+ {
         img : 'https://cover.djpunjab.is/53108/300x700/Combination-Nawab.jpg',
         name : 'Combination',
         artist : 'Nawab',
@@ -700,6 +724,14 @@ const music_list = [
          album : 'Varinder Brar Music',
          released : '29-10-2022',
          music : 'https://s320.djpunjab.is/data/320/52613/300657/2%20Bloodas%20-%20Varinder%20Brar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52594/300x700/AK-Di-Barrel-Himmat-Sandhu.jpg',
+         name : 'AK Di Barrel',
+         artist : 'Himmat Sandhu ',
+         album : 'Himmat Sandhu  Music',
+         released : '26-10-2022',
+         music : 'https://s320.djpunjab.is/data/320/52594/300638/AK%20Di%20Barrel%20-%20Himmat%20Sandhu.mp3'
             }
 	
 	

@@ -534,14 +534,6 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/52766/300830/Jatt%20Life%20Zone%20-%20Varinder%20Brar.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/52766/300x700/Jatt-Life-Zone-Varinder-Brar.jpg',
-         name : 'Jatt Life Zone',
-         artist : 'Varinder Brar',
-         album : 'white Hill Music',
-         released : '28-11-2022',
-         music : 'https://s320.djpunjab.is/data/320/52766/300830/Jatt%20Life%20Zone%20-%20Varinder%20Brar.mp3'
-            },
-            {
          img : 'https://cover.djpunjab.is/52755/300x700/WYTB-Karan-Aujla.jpg',
          name : 'WYTB',
          artist : 'Karan Aujla Ft. Gurlez Akhtar',
@@ -580,6 +572,134 @@ const music_list = [
          album : 'T-Series',
          released : '23-11-2022',
          music : 'https://s320.djpunjab.is/data/320/52745/300794/So%20Mean%20-%20Navaan%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52725/300x700/Jagga-Daaku-Varinder-Brar.jpg',
+         name : 'Jagga Daaku',
+         artist : 'Varinder Brar',
+         album : 'Varinder Brar Music',
+         released : '20-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52725/300774/Jagga%20Daaku%20-%20Varinder%20Brar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52691/300x700/Boss-Walk-Nirvair-Pannu.jpg',
+         name : 'Boss Walk',
+         artist : 'Nirvair Pannu',
+         album : 'Juke Dock',
+         released : '14-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52691/300740/Boss%20Walk%20-%20Nirvair%20Pannu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52689/300x700/Munda-Sardaran-Da-Jordan-Sandhu.jpg',
+         name : 'Munda Sardaran Da',
+         artist : 'Jordan Sandhu',
+         album : 'Jordan Sandhu Music',
+         released : '14-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52689/300738/Munda%20Sardaran%20Da%20-%20Jordan%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52665/300x700/High-Life-Jass-Bajwa.jpg',
+         name : 'High Life',
+         artist : 'Jass Bajwa',
+         album : 'Jass Bajwa Music',
+         released : '10-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52665/300714/High%20Life%20-%20Jass%20Bajwa.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52660/300x700/Live-Till-Death-Veer-Sandhu.jpg',
+         name : 'Live Till Death',
+         artist : 'Veer Sandhu',
+         album : 'Veer Sandhu Music',
+         released : '08-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52660/300709/Live%20Till%20Death%20-%20Veer%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52658/300x700/Vaar-Sidhu-Moose-Wala.jpg',
+         name : 'Vaar',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala',
+         released : '08-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52658/300707/Vaar%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52656/300x700/Trucker-Arjan-Dhillon.jpg',
+         name : 'Trucker',
+         artist : 'Arjan Dhillon',
+         album : 'Panjaab Records',
+         released : '07-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52656/300705/Trucker%20-%20Arjan%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52655/300x700/Jee-Jeha-Karda-Jasmine-Sandlas.jpg',
+         name : 'Jee Jeha Karda',
+         artist : 'Jasmine Sandlas',
+         album : 'Jasmine Sandlas Records',
+         released : '06-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52655/300704/Jee%20Jeha%20Karda%20-%20Jasmine%20Sandlas.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52652/300x700/BBBB-Khan-Bhaini.jpg',
+         name : 'BBBB',
+         artist : 'Khan Bhaini',
+         album : 'Times Music',
+         released : '06-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52652/300701/BBBB%20-%20Khan%20Bhaini.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52651/300x700/Kundi-Muchh-Love-Pannu.jpg',
+         name : 'Kundi Muchh',
+         artist : 'Love Pannu',
+         album : 'Midland Records',
+         released : '06-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52651/300700/Kundi%20Muchh%20-%20Love%20Pannu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52648/300x700/Violence-Varinder-Brar.jpg',
+         name : 'Violence',
+         artist : 'Varinder Brar',
+         album : 'Varinder Brar Music',
+         released : '05-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52648/300697/Violence%20-%20Varinder%20Brar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52642/300x700/Tutta-Dil-Sharry-Maan.jpg',
+         name : 'Tutta ',
+         artist : 'Sharry Maan',
+         album : 'Desi Verse',
+         released : '03-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52642/300691/Tutta%20Dil%20-%20Sharry%20Maan.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52639/300x700/Zara-Faasley-Te-Satinder-Sartaaj.jpg',
+         name : 'Zara Faasley Te',
+         artist : 'Satinder Sartaaj',
+         album : 'Saregama Punjabi',
+         released : '03-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52639/300688/Zara%20Faasley%20Te%20-%20Satinder%20Sartaaj.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52636/300x700/13-Pind-Rajvir-Jawanda.jpg',
+         name : '13 Pind',
+         artist : 'Rajvir Jawanda',
+         album : 'Rajvir Jawanda Music',
+         released : '03-11-2022',
+         music : 'https://s320.djpunjab.is/data/320/52636/300685/13%20Pind%20-%20Rajvir%20Jawanda.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52619/300x700/Osoyoos-Blues-Bhalwaan.jpg',
+         name : 'Osoyoos Blues',
+         artist : 'Bhalwaan',
+         album : 'Freq Records',
+         released : '30-10-2022',
+         music : 'https://s320.djpunjab.is/data/320/52619/300663/Osoyoos%20Blues%20-%20Bhalwaan.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52613/300x700/2-Bloodas-Varinder-Brar.jpg',
+         name : '2 Bloodas',
+         artist : 'Varinder Brar',
+         album : 'Varinder Brar Music',
+         released : '29-10-2022',
+         music : 'https://s320.djpunjab.is/data/320/52613/300657/2%20Bloodas%20-%20Varinder%20Brar.mp3'
             }
 	
 	

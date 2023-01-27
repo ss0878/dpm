@@ -832,10 +832,138 @@ const music_list = [
             {
          img : 'https://cover.djpunjab.is/52539/300x700/The-Umbrella-Song-Bilal-Saeed.jpg',
          name : 'The Umbrella',
-         artist : 'Bilal Saeed',
+         artist : 'Bilal Saeed Ft. Fateh',
          album : 'One Two Records',
          released : '11-10-2022',
          music : 'https://s320.djpunjab.is/data/320/52539/300569/The%20Umbrella%20Song%20-%20Bilal%20Saeed.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52527/300x700/Blood-Talks-Jordan-Sandhu.jpg',
+         name : 'Blood Talks',
+         artist : 'Jordan Sandhu',
+         album : 'Jordan Sandhu Music',
+         released : '10-10-2022',
+         music : 'https://s320.djpunjab.is/data/320/52527/300557/Blood%20Talks%20-%20Jordan%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52522/300x700/Faizal-Varinder-Brar.jpg',
+         name : 'Faizal',
+         artist : 'Varinder Brar',
+         album : 'Varinder Brar Music',
+         released : '08-10-2022',
+         music : 'https://s320.djpunjab.is/data/320/52522/300552/Faizal%20-%20Varinder%20Brar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52516/300x700/Jugni-Diljit-Dosanjh.jpg',
+         name : 'Jugni',
+         artist : 'Diljit Dosanjh',
+         album : 'Diljit Dosanjh Music',
+         released : '07-10-2022',
+         music : 'https://s320.djpunjab.is/data/320/52516/300546/Jugni%20-%20Diljit%20Dosanjh.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52509/300x700/Ferozi-Koka-Ranjit-Bawa.jpg',
+         name : 'Ferozi Koka',
+         artist : 'Ranjit Bawa',
+         album : 'Amrit Maan Music',
+         released : '05-10-2022',
+         music : 'https://s320.djpunjab.is/data/320/52509/300539/Ferozi%20Koka%20-%20Ranjit%20Bawa.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52494/300x700/2-Velly-Harvi.jpg',
+         name : '2 Velly',
+         artist : 'Harvi',
+         album : 'Tree Music Labe',
+         released : '03-10-2022',
+         music : 'https://s320.djpunjab.is/data/320/52494/300524/2%20Velly%20-%20Harvi.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52473/300x700/DOABA-Garry-Sandhu.jpg',
+         name : 'DOABA',
+         artist : 'Garry Sandhu',
+         album : 'Fresh Media Records',
+         released : '29-09-2022',
+         music : 'https://s320.djpunjab.is/data/320/52473/300500/DOABA%20-%20Garry%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52465/300x700/Mobster-Singga.jpg',
+         name : 'Mobster',
+         artist : 'Singga Ft. Deep Jandu',
+         album : 'Singga Music',
+         released : '27-09-2022',
+         music : 'https://s320.djpunjab.is/data/320/52465/300487/Mobster%20-%20Singga.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52460/300x700/Ainak-Gulab-Sidhu.jpg',
+         name : 'Ainak',
+         artist : 'Gulab Sidhu',
+         album : 'Red Leaf Music',
+         released : '26-09-2022',
+         music : 'https://s320.djpunjab.is/data/320/52460/300482/Ainak%20-%20Gulab%20Sidhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52461/300x700/Grace-Gurnam-Bhullar.jpg',
+         name : 'Grace',
+         artist : 'Gurnam Bhullar',
+         album : 'Diamondstar Worldwide',
+         released : '26-09-2022',
+         music : 'https://s320.djpunjab.is/data/320/52461/300483/Grace%20-%20Gurnam%20Bhullar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52459/300x700/Dont-You-Jassa-Dhillon.jpg',
+         name : 'Dont You',
+         artist : 'Jassa Dhillon',
+         album : 'Thiarajxtt Music',
+         released : '24-09-2022',
+         music : 'https://s320.djpunjab.is/data/320/52459/300481/Dont%20You%20-%20Jassa%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52453/300x700/Gun-n-Mic-Amantej-Hundal.jpg',
+         name : 'Gun N Mic',
+         artist : 'Amantej Hundal',
+         album : 'Amantej Hundal Music',
+         released : '23-09-2022',
+         music : 'https://s320.djpunjab.is/data/320/52453/300475/Gun%20N%20Mic%20-%20Amantej%20Hundal.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52452/300x700/Keep-It-Gangsta-Wazir-Patar.jpg',
+         name : 'Outlaw',
+         artist : 'Wazir Patar',
+         album : 'Wazir Patar Music',
+         released : '23-09-2022',
+         music : 'https://s320.djpunjab.is/data/320/52452/300474/Outlaw%20-%20Wazir%20Patar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52452/300x700/Keep-It-Gangsta-Wazir-Patar.jpg',
+         name : 'Pind Da Riwaaz',
+         artist : 'Wazir Patar',
+         album : 'Wazir Patar Music',
+         released : '23-09-2022',
+         music : 'https://s320.djpunjab.is/data/320/52452/300473/Pind%20Da%20Riwaaz%20-%20Wazir%20Patar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52452/300x700/Keep-It-Gangsta-Wazir-Patar.jpg',
+         name : 'Tattoo',
+         artist : 'Wazir Patar',
+         album : 'Wazir Patar Music',
+         released : '23-09-2022',
+         music : 'https://s320.djpunjab.is/data/320/52452/300472/Tattoo%20-%20Wazir%20Patar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52452/300x700/Keep-It-Gangsta-Wazir-Patar.jpg',
+         name : 'Chup Chup',
+         artist : 'Wazir Patar',
+         album : 'Wazir Patar Music',
+         released : '23-09-2022',
+         music : 'https://s320.djpunjab.is/data/320/52452/300471/Chup%20Chup%20-%20Wazir%20Patar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52452/300x700/Keep-It-Gangsta-Wazir-Patar.jpg',
+         name : 'One Way',
+         artist : 'Wazir Patar',
+         album : 'Wazir Patar Music',
+         released : '23-09-2022',
+         music : 'https://s320.djpunjab.is/data/320/52452/300470/One%20Way%20-%20Wazir%20Patar.mp3'
             }
 	
 	

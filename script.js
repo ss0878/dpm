@@ -760,10 +760,82 @@ const music_list = [
             {
          img : 'https://cover.djpunjab.is/52594/300x700/AK-Di-Barrel-Himmat-Sandhu.jpg',
          name : 'AK Di Barrel',
-         artist : 'Himmat Sandhu ',
+         artist : 'Himmat Sandhu',
          album : 'Himmat Sandhu  Music',
          released : '26-10-2022',
          music : 'https://s320.djpunjab.is/data/320/52594/300638/AK%20Di%20Barrel%20-%20Himmat%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52582/300x700/Mehrma-The-Prophec.jpg',
+         name : 'Mehrma',
+         artist : 'The Prophec',
+         album : 'The Prophec Music',
+         released : '21-10-2022',
+         music : 'https://s320.djpunjab.is/data/320/52582/300626/Mehrma%20-%20The%20Prophec.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52579/300x700/Balle-Jatta-Diljit-Dosanjh.jpg',
+         name : 'Balle Jatta',
+         artist : 'Diljit Dosanjh',
+         album : 'Diljit Dosanjh Music',
+         released : '20-10-2022',
+         music : 'https://s320.djpunjab.is/data/320/52579/300623/Balle%20Jatta%20-%20Diljit%20Dosanjh.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52578/300x700/Detail-Amrit-Maan.jpg',
+         name : 'Detail',
+         artist : 'Amrit Maan',
+         album : 'Amrit Maan Music',
+         released : '20-10-2022',
+         music : 'https://s320.djpunjab.is/data/320/52578/300622/Detail%20-%20Amrit%20Maan.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52572/300x700/Mehflan-Kulbir-Jhinjer.jpg',
+         name : 'Mehflan',
+         artist : 'Kulbir Jhinjer',
+         album : 'Kulbir Jhinjer Worldwide',
+         released : '19-10-2022',
+         music : 'https://s320.djpunjab.is/data/320/52572/300616/Mehflan%20-%20Kulbir%20Jhinjer.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52561/300x700/Snowfall-Jordan-Sandhu.jpg',
+         name : 'Snowfall',
+         artist : 'Jordan Sandhu',
+         album : 'Planet Recordz',
+         released : '17-10-2022',
+         music : 'https://s320.djpunjab.is/data/320/52561/300594/Snowfall%20-%20Jordan%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52557/300x700/6-L-Tarsem-Jassar.jpg',
+         name : '6 L',
+         artist : 'Tarsem Jassar',
+         album : 'Vehli Janta Records',
+         released : '15-10-2022',
+         music : 'https://s320.djpunjab.is/data/320/52557/300590/6%20L%20-%20Tarsem%20Jassar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52546/300x700/Trouble-Maker-Jassa-Dhillon.jpg',
+         name : 'Trouble Maker',
+         artist : 'Jassa Dhillon',
+         album : 'Jassa Dhillon Music',
+         released : '12-10-2022',
+         music : 'https://s320.djpunjab.is/data/320/52546/300579/Trouble%20Maker%20-%20Jassa%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52541/300x700/Dekhya-Kite-Davy.jpg',
+         name : 'Dekhya Kite',
+         artist : 'Davy',
+         album : 'Brown Town Music',
+         released : '12-10-2022',
+         music : 'https://s320.djpunjab.is/data/320/52541/300571/Dekhya%20Kite%20-%20Davy.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52539/300x700/The-Umbrella-Song-Bilal-Saeed.jpg',
+         name : 'The Umbrella',
+         artist : 'Bilal Saeed',
+         album : 'One Two Records',
+         released : '11-10-2022',
+         music : 'https://s320.djpunjab.is/data/320/52539/300569/The%20Umbrella%20Song%20-%20Bilal%20Saeed.mp3'
             }
 	
 	

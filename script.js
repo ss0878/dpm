@@ -964,6 +964,62 @@ const music_list = [
          album : 'Wazir Patar Music',
          released : '23-09-2022',
          music : 'https://s320.djpunjab.is/data/320/52452/300470/One%20Way%20-%20Wazir%20Patar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52443/300x700/Yaad-Jassa-Dhillon.jpg',
+         name : 'Yaad',
+         artist : 'Jassa Dhillon',
+         album : 'Jassa Dhillon Music',
+         released : '22-09-2022',
+         music : 'https://s320.djpunjab.is/data/320/52443/300447/Yaad%20-%20Jassa%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52430/300x700/Hanji-Hanji-Amrit-Maan.jpg',
+         name : 'Hanji Hanji',
+         artist : 'Amrit Maan FT. PropheC',
+         album : 'WhiteHill Music',
+         released : '18-09-2022',
+         music : 'https://s320.djpunjab.is/data/320/52430/300434/Hanji%20Hanji%20-%20Amrit%20Maan.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52417/300x700/Swag-Tarsem-Jassar.jpg',
+         name : 'Swag',
+         artist : 'Tarsem Jassar',
+         album : 'Gem Tunes',
+         released : '16-09-2022',
+         music : 'https://s320.djpunjab.is/data/320/52417/300421/Swag%20-%20Tarsem%20Jassar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52398/300x700/Punjab-Jeha-Wazir-Patar.jpg',
+         name : 'Punjab Jeha',
+         artist : 'Wazir Patar',
+         album : 'Gem Tunes Punjabi',
+         released : '10-09-2022',
+         music : 'https://s320.djpunjab.is/data/320/52398/300402/Punjab%20Jeha%20-%20Wazir%20Patar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52396/300x700/Baller-Shubh.jpg',
+         name : 'Baller',
+         artist : 'Shubh',
+         album : 'Shubh Music',
+         released : '09-09-2022',
+         music : 'https://s320.djpunjab.is/data/320/52396/300400/Baller%20-%20Shubh.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52393/300x700/Cause-Of-You-Zehr-Vibe.jpg',
+         name : 'Cause Of You',
+         artist : 'Zehr Vibe',
+         album : 'Jatt Life Studios',
+         released : '09-09-2022',
+         music : 'https://s320.djpunjab.is/data/320/52393/300397/Cause%20Of%20You%20-%20Zehr%20Vibe.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52388/300x700/Kajla-Jassa-Dhillon.jpg',
+         name : 'Kajla',
+         artist : 'Jassa Dhillon',
+         album : 'Jassa Dhillon Music',
+         released : '09-09-2022',
+         music : 'https://s320.djpunjab.is/data/320/52388/300392/Kajla%20-%20Jassa%20Dhillon.mp3'
             }
 	
 	

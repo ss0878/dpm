@@ -21,7 +21,39 @@ let updateTimer;
 
 
 const music_list = [
-          {
+        {
+         img : 'https://cover.djpunjab.is/53140/300x700/Swaad-Gurluv.jpg',
+         name : 'Swaad',
+         artist : 'Gurluv',
+         album : 'Sidhu Brothers Entertainment',
+         released : '27-01-2023',
+         music : 'https://s320.djpunjab.is/data/320/53140/301297/Swaad%20-%20Gurluv.mp3'
+        },
+	{
+         img : 'https://cover.djpunjab.is/53137/300x700/Rise-And-Shine-Gagan-Kokri.jpg',
+         name : 'Rise And Shine',
+         artist : 'Gagan Kokri',
+         album : 'T-Series',
+         released : '27-01-2023',
+         music : 'https://s320.djpunjab.is/data/320/53137/301291/Rise%20And%20Shine%20-%20Gagan%20Kokri.mp3'
+        },
+	{
+         img : 'https://cover.djpunjab.is/53130/300x700/Trust-Me-I-Know-Big-Boi-Deep.jpg',
+         name : 'Trust Me I Know',
+         artist : 'Big Boi Deep',
+         album : 'Brown Boys Records',
+         released : '27-01-2023',
+         music : 'https://s320.djpunjab.is/data/320/53130/301274/Trust%20Me%20I%20Know%20-%20Big%20Boi%20Deep.mp3'
+        },
+	{
+         img : 'https://cover.djpunjab.is/53128/300x700/Fab-Janda-Lakhi-Ghuman.jpg',
+         name : 'Fab Janda',
+         artist : 'Lakhi Ghuman',
+         album : 'Noble Music',
+         released : '26-01-2023',
+         music : 'https://s320.djpunjab.is/data/320/53128/301272/Fab%20Janda%20-%20Lakhi%20Ghuman.mp3'
+        },
+	{
          img : 'https://cover.djpunjab.is/53124/300x700/Hustle-Hard-Babbal-Rai.jpg',
          name : 'Hustle Hard',
          artist : 'Babbal Rai',
@@ -38,14 +70,14 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/53116/301246/Investigate%20-%20Karan%20Aujla.mp3'
         },
         {
-         img : 'https://cover.djpunjab.is/53114/300x700/Jaan-(Slowed-Version)-Arjan-Dhillon.jpg',
+         img : 'https://cover.djpunjab.is/53114/300x700/Jaan-%20(Slowed%20Version)%20-Arjan-Dhillon.jpg',
          name : 'Jaan (Slow Version)',
          artist : 'Arjan Dhillon',
          album : 'Arjan Dhillon Music',
          released : '25-01-2023',
          music : 'https://s320.djpunjab.is/data/320/53114/301237/Jaan%20(Slowed%20Version)%20-%20Arjan%20Dhillon.mp3'
         },
- {
+ 	{
         img : 'https://cover.djpunjab.is/53108/300x700/Combination-Nawab.jpg',
         name : 'Combination',
         artist : 'Nawab',
@@ -105,15 +137,15 @@ const music_list = [
         img : 'https://lq.djjohal.com/covers/729123/Skills.jpg',
         name : 'Skills',
         artist : 'Tyson Sidhu',
- 	    album : 'Tyson Sidhu Music',
-	    released : '18-01-2023',
+ 	album : 'Tyson Sidhu Music',
+	released : '18-01-2023',
         music : 'https://hd1.djjohal.com/320/515117/Skills%20-%20Tyson%20Sidhu%20(DJJOhAL.Com).mp3'
      },
      {
          img : 'https://cover.djpunjab.is/53018/300x700/Pecha-Gur-Sidhu.jpg',
          name : 'Pecha',
          artist : 'Gur Sidhu',
-          album : 'Brown Town Music',
+         album : 'Brown Town Music',
          released : '18-01-2023',
          music : 'https://s320.djpunjab.is/data/320/53018/301109/Pecha%20-%20Gur%20Sidhu.mp3'
       },
@@ -121,7 +153,7 @@ const music_list = [
           img : 'https://cover.djpunjab.is/53050/300x700/Taur-Tappa-shivjot.jpg',
           name : 'Taur Tappa',
           artist : 'Shivjot',
-           album : 'Dose Of Music',
+          album : 'Dose Of Music',
           released : '18-01-2023',
           music : 'https://s320.djpunjab.is/data/320/53050/301154/Taur%20Tappa%20-%20shivjot.mp3'
        },
@@ -129,17 +161,17 @@ const music_list = [
            img : 'https://cover.djpunjab.is/53049/300x700/Thirty-Six-Penny.jpg',
            name : 'Thirty Six',
            artist : 'Penny',
-            album : 'Jatt Land Music',
+           album : 'Jatt Land Music',
            released : '14-01-2023',
            music : 'https://s320.djpunjab.is/data/320/53049/301153/Thirty%20Six%20-%20Penny.mp3'
         },
         {
-            img : 'https://cover.djpunjab.is/53048/300x700/Unique-Jimmy-Mahal.jpg',
-            name : 'Unique',
-            artist : 'Jimmy Mahal',
-             album : 'Jimmy Mahal Music',
-            released : '14-01-2023',
-            music : 'https://s320.djpunjab.is/data/320/53048/301152/Unique%20-%20Jimmy%20Mahal.mp3'
+           img : 'https://cover.djpunjab.is/53048/300x700/Unique-Jimmy-Mahal.jpg',
+           name : 'Unique',
+           artist : 'Jimmy Mahal',
+           album : 'Jimmy Mahal Music',
+           released : '14-01-2023',
+           music : 'https://s320.djpunjab.is/data/320/53048/301152/Unique%20-%20Jimmy%20Mahal.mp3'
          },
          {
              img : 'https://cover.djpunjab.is/53046/300x700/Handmade-Gurmaan-Sahota.jpg',

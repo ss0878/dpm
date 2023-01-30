@@ -1044,6 +1044,166 @@ const music_list = [
          album : 'Jassa Dhillon Music',
          released : '09-09-2022',
          music : 'https://s320.djpunjab.is/data/320/52388/300392/Kajla%20-%20Jassa%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52370/300x700/Yaar-Mere-Himmat-Sandhu.jpg',
+         name : 'Yaar Mere',
+         artist : 'Himmat Sandhu',
+         album : 'Himmat Sandhu Music',
+         released : '02-09-2022',
+         music : 'https://s320.djpunjab.is/data/320/52370/300374/Yaar%20Mere%20-%20Himmat%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52368/300x700/Panjab-Warga-Arjan-Dhillon.jpg',
+         name : 'Panjab Warga',
+         artist : 'Arjan Dhillon',
+         album : 'Panjaab Records',
+         released : '01-09-2022',
+         music : 'https://s320.djpunjab.is/data/320/52368/300372/Panjab%20Warga%20-%20Arjan%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52367/300x700/Band-Theke-Jordan-Sandhu.jpg',
+         name : 'Band Theke',
+         artist : 'Jordan Sandhu',
+         album : 'Times Music',
+         released : '01-09-2022',
+         music : 'https://s320.djpunjab.is/data/320/52367/300371/Band%20Theke%20-%20Jordan%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52365/300x700/Just-Round-Jass-Bajwa.jpg',
+         name : 'Just Round',
+         artist : 'Jass Bajwa',
+         album : 'Mee Muzic',
+         released : '31-08-2022',
+         music : 'https://s320.djpunjab.is/data/320/52365/300369/Just%20Round%20-%20Jass%20Bajwa.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52361/300x700/Sheesha-Karan-Aujla.jpg',
+         name : 'Sheesha',
+         artist : 'Karan Aujla',
+         album : 'Karan Aujla Music',
+         released : '29-08-2022',
+         music : 'https://s320.djpunjab.is/data/320/52361/300365/Sheesha%20-%20Karan%20Aujla.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52353/300x700/By-Pass-KpTaan.jpg',
+         name : 'By Pass',
+         artist : 'KpTaan',
+         album : 'Studio 7 Records',
+         released : '26-08-2022',
+         music : 'https://s320.djpunjab.is/data/320/52353/300357/By%20Pass%20-%20KpTaan.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52347/300x700/Haaye-Jatiye-Pavitar-Lassoi.jpg',
+         name : 'Haaye Jatiye',
+         artist : 'Pavitar Lassoi',
+         album : 'Vibe Music Studios',
+         released : '25-08-2022',
+         music : 'https://s320.djpunjab.is/data/320/52347/300351/Haaye%20Jatiye%20-%20Pavitar%20Lassoi.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52321/300x700/Feel-Safe-Garry-Sandhu.jpg',
+         name : 'Feel Safe',
+         artist : 'Garry Sandhu',
+         album : 'Fresh Media Records',
+         released : '19-08-2022',
+         music : 'https://s320.djpunjab.is/data/320/52321/300315/Feel%20Safe%20-%20Garry%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52316/300x700/Secrets-The-Prophec.jpg',
+         name : 'Secrets',
+         artist : 'The Prophec',
+         album : 'The Prophec Music',
+         released : '19-08-2022',
+         music : 'https://s320.djpunjab.is/data/320/52316/300310/Secrets%20-%20The%20Prophec.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52313/300x700/New-Bars-Wazir-Patar.jpg',
+         name : 'New Bars',
+         artist : 'Wazir Patar',
+         album : 'Wazir Patar Music',
+         released : '17-08-2022',
+         music : 'https://s320.djpunjab.is/data/320/52313/300307/New%20Bars%20-%20Wazir%20Patar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52311/300x700/Nava-Nava-Pyar-Gippy-Grewal.jpg',
+         name : 'Nava Nava Pyar',
+         artist : 'Gippy Grewal',
+         album : 'Gem Tunes Punjabi',
+         released : '17-08-2022',
+         music : 'https://s320.djpunjab.is/data/320/52311/300305/Nava%20Nava%20Pyar%20-%20Gippy%20Grewal.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52310/300x700/Karobar-R-Nait.jpg',
+         name : 'Karobar',
+         artist : 'R Nait Ft. Gurlez Akhtar',
+         album : 'Times Music',
+         released : '16-08-2022',
+         music : 'https://s320.djpunjab.is/data/320/52310/300304/Karobar%20-%20R%20Nait.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52295/300x700/Plug-Talk-Navaan-Sandhu.jpg',
+         name : 'Plug Talk',
+         artist : 'Navaan Sandhu',
+         album : 'Navaan Sandhu Music',
+         released : '12-08-2022',
+         music : 'https://s320.djpunjab.is/data/320/52295/300281/Plug%20Talk%20-%20Navaan%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52292/300x700/26-Boulevard-Prem-Dhillon.jpg',
+         name : '26 Boulevard',
+         artist : 'Prem Dhillon',
+         album : 'Prem Dhillon Music',
+         released : '11-08-2022',
+         music : 'https://s320.djpunjab.is/data/320/52292/300278/26%20Boulevard%20-%20Prem%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52283/300x700/Wrangler-Tarsem-Jassar.jpg',
+         name : 'Wrangler',
+         artist : 'Tarsem Jassar',
+         album : 'Tpz Records',
+         released : '09-08-2022',
+         music : 'https://s320.djpunjab.is/data/320/52283/300260/Wrangler%20-%20Tarsem%20Jassar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52272/300x700/Mulk-Amrinder-Gill.jpg',
+         name : 'Mulk',
+         artist : 'Amrinder Gill',
+         album : 'Rhthm Boyz',
+         released : '06-08-2022',
+         music : 'https://s320.djpunjab.is/data/320/52272/300245/Mulk%20-%20Amrinder%20Gill.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52268/300x700/Summer-High-AP-Dhillon.jpg',
+         name : 'Summer High',
+         artist : 'AP Dhillon',
+         album : 'Run-Up Records',
+         released : '05-08-2022',
+         music : 'https://s320.djpunjab.is/data/320/52268/300232/Summer%20High%20-%20AP%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52266/300x700/Convict-Wazir-Patar.jpg',
+         name : 'Convict',
+         artist : 'Wazir Patar',
+         album : 'Wazir Patar Music',
+         released : '05-08-2022',
+         music : 'https://s320.djpunjab.is/data/320/52266/300230/Convict%20-%20Wazir%20Patar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52263/300x700/Photo-Nimrat-Khaira.jpg',
+         name : 'Photo',
+         artist : 'Nimrat Khaira',
+         album : 'Brown Studios',
+         released : '04-08-2022',
+         music : 'https://s320.djpunjab.is/data/320/52263/300227/Photo%20-%20Nimrat%20Khaira.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52262/300x700/Right-Left-Kulwinder-Billa.jpg',
+         name : 'Right Left',
+         artist : 'Kulwinder Billa',
+         album : 'Times Music',
+         released : '04-08-2022',
+         music : 'https://s320.djpunjab.is/data/320/52262/300226/Right%20Left%20-%20Kulwinder%20Billa.mp3'
             }
 	
 	

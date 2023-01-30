@@ -22,6 +22,30 @@ let updateTimer;
 
 const music_list = [
         {
+         img : 'https://cover.djpunjab.is/53153/300x700/Jodia-Inderpal-Moga.jpg',
+         name : 'Jodia',
+         artist : 'Inderpal Moga',
+         album : 'Chani Nattan Music',
+         released : '29-01-2023',
+         music : 'https://s320.djpunjab.is/data/320/53153/301310/Jodia%20-%20Inderpal%20Moga.mp3'
+        },
+	{
+         img : 'https://cover.djpunjab.is/53152/300x700/Nazarya-Ch-Yaar-Deep-Chahal.jpg',
+         name : 'Nazarya Ch Yaar',
+         artist : 'Deep Chahal',
+         album : 'Well Music',
+         released : '29-01-2023',
+         music : 'https://s320.djpunjab.is/data/320/53152/301309/Nazarya%20Ch%20Yaar%20-%20Deep%20Chahal.mp3'
+        },
+	{
+         img : 'https://cover.djpunjab.is/53147/300x700/Folk-Boliyan-Rami-Randhawa.jpg',
+         name : 'Folk Boliyan',
+         artist : 'Rami Randhawa',
+         album : 'Jass Records',
+         released : '28-01-2023',
+         music : 'https://s320.djpunjab.is/data/320/53147/301304/Folk%20Boliyan%20-%20Rami%20Randhawa.mp3'
+        },
+	{
          img : 'https://cover.djpunjab.is/53140/300x700/Swaad-Gurluv.jpg',
          name : 'Swaad',
          artist : 'Gurluv',

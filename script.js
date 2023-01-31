@@ -22,6 +22,14 @@ let updateTimer;
 
 const music_list = [
         {
+         img : 'https://cover.djpunjab.is/53177/300x700/Nazare-Sunny-Randhawa.jpg',
+         name : 'Nazare',
+         artist : 'Sunny Randhawa',
+         album : 'Street Gang Music',
+         released : '31-01-2023',
+         music : 'https://s320.djpunjab.is/data/320/53177/301334/Nazare%20-%20Sunny%20Randhawa.mp3'
+        },
+	{
          img : 'https://cover.djpunjab.is/53153/300x700/Jodia-Inderpal-Moga.jpg',
          name : 'Jodia',
          artist : 'Inderpal Moga',

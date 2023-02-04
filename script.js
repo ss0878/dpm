@@ -1190,14 +1190,6 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/52268/300232/Summer%20High%20-%20AP%20Dhillon.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/52266/300x700/Convict-Wazir-Patar.jpg',
-         name : 'Convict',
-         artist : 'Wazir Patar',
-         album : 'Wazir Patar Music',
-         released : '05-08-2022',
-         music : 'https://s320.djpunjab.is/data/320/52266/300230/Convict%20-%20Wazir%20Patar.mp3'
-            },
-            {
          img : 'https://cover.djpunjab.is/52263/300x700/Photo-Nimrat-Khaira.jpg',
          name : 'Photo',
          artist : 'Nimrat Khaira',
@@ -1212,6 +1204,118 @@ const music_list = [
          album : 'Times Music',
          released : '04-08-2022',
          music : 'https://s320.djpunjab.is/data/320/52262/300226/Right%20Left%20-%20Kulwinder%20Billa.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52258/300x700/Batua-Veer-Sandhu.jpg',
+         name : 'Batua',
+         artist : 'Veer Sandhu',
+         album : 'Sword Music',
+         released : '03-08-2022',
+         music : 'https://s320.djpunjab.is/data/320/52258/300222/Batua%20-%20Veer%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52250/300x700/Dubda-Sooraj-Amrinder-Gill.jpg',
+         name : 'Dubda Sooraj',
+         artist : 'Amrinder Gill',
+         album : 'Rhythm Boyz',
+         released : '31-07-2022',
+         music : 'https://s320.djpunjab.is/data/320/52250/300214/Dubda%20Sooraj%20-%20Amrinder%20Gill.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52250/300x700/Dubda-Sooraj-Amrinder-Gill.jpg',
+         name : 'Doongiyan Baatan',
+         artist : 'Amrinder Gill',
+         album : 'Rhythm Boyz',
+         released : '31-07-2022',
+         music : 'https://s320.djpunjab.is/data/320/52240/300187/Doongiyan%20Baatan%20-%20Amrinder%20Gill.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52231/300x700/Lutt-Lai-Giya-Ranjit-Bawa.jpg',
+         name : 'Lutt Lai Giya',
+         artist : 'Ranjit Bawa',
+         album : 'Brand B',
+         released : '28-07-2022',
+         music : 'https://s320.djpunjab.is/data/320/52231/300178/Lutt%20Lai%20Giya%20-%20Ranjit%20Bawa.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52230/300x700/Definitely-(Laazmi)-The-Landers.jpg',
+         name : 'Definitely (Laazmi)',
+         artist : 'The Landers',
+         album : 'Koinage Records',
+         released : '28-07-2022',
+         music : 'https://s320.djpunjab.is/data/320/52230/300177/Definitely%20(Laazmi)%20-%20The%20Landers.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52216/300x700/Allah-Maaf-Kre-Amrit-Maan.jpg',
+         name : 'Allah Maaf Kre',
+         artist : 'Amrit Maan',
+         album : 'Cocktail Music',
+         released : '25-07-2022',
+         music : 'https://s320.djpunjab.is/data/320/52216/300163/Allah%20Maaf%20Kre%20-%20Amrit%20Maan.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52201/300x700/DJ-Walle-Kulwinder-Billa.jpg',
+         name : 'Allah Maaf Kre',
+         artist : 'Amrit Maan',
+         album : 'Cocktail Music',
+         released : '25-07-2022',
+         music : 'https://s320.djpunjab.is/data/320/52216/300163/Allah%20Maaf%20Kre%20-%20Amrit%20Maan.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52180/300x700/Moonroof-Nseeb.jpg',
+         name : 'Moonroof',
+         artist : 'Nseeb',
+         album : 'Nseeb Music',
+         released : '14-07-2022',
+         music : 'https://s320.djpunjab.is/data/320/52180/300123/Moonroof%20-%20Nseeb.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52168/300x700/Akh-Laal-Sabi-Bhinder.jpg',
+         name : 'Akh Laal',
+         artist : 'Sabi Bhinder',
+         album : 'Jatt Life Studios',
+         released : '12-07-2022',
+         music : 'https://s320.djpunjab.is/data/320/52168/300107/Akh%20Laal%20-%20Sabi%20Bhinder.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52165/300x700/GODSPEED-Tyson-Sidhu.jpg',
+         name : 'GODSPEED',
+         artist : 'Tyson Sidhu',
+         album : 'Game Time',
+         released : '12-07-2022',
+         music : 'https://s320.djpunjab.is/data/320/52165/300104/GODSPEED%20-%20Tyson%20Sidhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52164/300x700/Patake-Khan-Bhaini.jpg',
+         name : 'Patake',
+         artist : 'Khan Bhain',
+         album : 'Single Track Studio',
+         released : '11-07-2022',
+         music : 'https://s320.djpunjab.is/data/320/52164/300103/Patake%20-%20Khan%20Bhaini.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52164/300x700/Patake-Khan-Bhaini.jpg',
+         name : 'Patake',
+         artist : 'Khan Bhain',
+         album : 'Single Track Studio',
+         released : '11-07-2022',
+         music : 'https://s320.djpunjab.is/data/320/52164/300103/Patake%20-%20Khan%20Bhaini.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52155/300x700/Mella-Singga.jpg',
+         name : 'Mella',
+         artist : 'Singga',
+         album : 'Singga Music',
+         released : '09-07-2022',
+         music : 'https://s320.djpunjab.is/data/320/52155/300094/Mella%20-%20Singga.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52138/300x700/Gucci-Di-Sole-Kahlon.jpg',
+         name : 'Gucci Di',
+         artist : 'Sole Kahlon',
+         album : 'Gringo Entertainments',
+         released : '07-07-2022',
+         music : 'https://s320.djpunjab.is/data/320/52138/300077/Gucci%20Di%20Sole%20-%20Kahlon.mp3'
             }
 	
 	

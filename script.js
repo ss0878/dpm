@@ -22,6 +22,22 @@ let updateTimer;
 
 const music_list = [
         {
+         img : 'https://cover.djpunjab.is/53233/300x700/Supreme-Nseeb.jpg',
+         name : 'Supreme',
+         artist : 'Nseeb',
+         album : 'Nseeb Music',
+         released : '07-02-2023',
+         music : 'https://s320.djpunjab.is/data/320/53233/301413/Supreme%20-%20Nseeb.mp3'
+        },
+	{
+         img : 'https://cover.djpunjab.is/53228/300x700/Naam-Sunuga-Khan-Bhaini.jpg',
+         name : 'Naam Sunuga',
+         artist : 'Khan Bhaini',
+         album : 'Khan Bhaini Music',
+         released : '06-02-2023',
+         music : 'https://s320.djpunjab.is/data/320/53228/301408/Naam%20Sunuga%20-%20Khan%20Bhaini.mp3'
+        },
+	{
          img : 'https://cover.djpunjab.is/53177/300x700/Nazare-Sunny-Randhawa.jpg',
          name : 'Nazare',
          artist : 'Sunny Randhawa',

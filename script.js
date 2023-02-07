@@ -38,6 +38,54 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/53228/301408/Naam%20Sunuga%20-%20Khan%20Bhaini.mp3'
         },
 	{
+         img : 'https://cover.djpunjab.is/53223/300x700/Graveyard-Veer-Sandhu.jpg',
+         name : 'Graveyard',
+         artist : 'Veer Sandhu',
+         album : 'Sword Music',
+         released : '06-02-2023',
+         music : 'https://s320.djpunjab.is/data/320/53223/301403/Graveyard%20-%20Veer%20Sandhu.mp3'
+        },
+	{
+         img : 'https://cover.djpunjab.is/53222/300x700/Tu-Te-Sharab-Jordan-Sandhu.jpg',
+         name : 'Tu Te Sharab',
+         artist : 'Jordan Sandhu',
+         album : 'Speed Records',
+         released : '05-02-2023',
+         music : 'https://s320.djpunjab.is/data/320/53222/301402/Tu%20Te%20Sharab%20-%20Jordan%20Sandhu.mp3'
+        },
+	{
+         img : 'https://cover.djpunjab.is/53216/300x700/Four-You-Karan-Aujla.jpg',
+         name : 'Yeah Naah',
+         artist : 'Karan Aujla',
+         album : 'Karan Aujla',
+         released : '04-02-2023',
+         music : 'https://s320.djpunjab.is/data/320/53216/301384/Yeah%20Naah%20-%20Karan%20Aujla.mp3'
+        },
+	{
+         img : 'https://cover.djpunjab.is/53216/300x700/Four-You-Karan-Aujla.jpg',
+         name : 'Fallin Apart',
+         artist : 'Karan Aujla',
+         album : 'Karan Aujla',
+         released : '04-02-2023',
+         music : 'https://s320.djpunjab.is/data/320/53216/301383/Fallin%20Apart%20-%20Karan%20Aujla.mp3'
+        },
+	{
+         img : 'https://cover.djpunjab.is/53216/300x700/Four-You-Karan-Aujla.jpg',
+         name : 'Take It Easy',
+         artist : 'Karan Aujla',
+         album : 'Karan Aujla',
+         released : '04-02-2023',
+         music : 'https://s320.djpunjab.is/data/320/53216/301382/Take%20It%20Easy%20-%20Karan%20Aujla.mp3'
+        },
+	{
+         img : 'https://cover.djpunjab.is/53216/300x700/Four-You-Karan-Aujla.jpg',
+         name : '52 Bars',
+         artist : 'Karan Aujla',
+         album : 'Karan Aujla',
+         released : '04-02-2023',
+         music : 'https://s320.djpunjab.is/data/320/53216/301381/52%20Bars%20-%20Karan%20Aujla.mp3'
+        },
+	{
          img : 'https://cover.djpunjab.is/53177/300x700/Nazare-Sunny-Randhawa.jpg',
          name : 'Nazare',
          artist : 'Sunny Randhawa',

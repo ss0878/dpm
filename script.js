@@ -22,6 +22,14 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53254/300x700/Queen-Fateh.jpg',
+       name : 'Queen',
+       artist : 'Fateh',
+       album : 'WINWIN Records',
+       released : '10-02-2023',
+       music : 'https://s320.djpunjab.is/data/320/53254/301440/Queen%20-%20Fateh.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53247/300x700/You-Know-Shipra-Goyal.jpg',
        name : 'You Know',
        artist : 'Shipra Goyal',

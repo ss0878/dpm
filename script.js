@@ -38,14 +38,6 @@ const music_list = [
        music : 'https://s320.djpunjab.is/data/320/53247/301433/You%20Know%20-%20Shipra%20Goyal.mp3'
         },
 	{
-       img : 'https://cover.djpunjab.is/53233/300x700/Supreme-Nseeb.jpg',
-       name : 'Supreme',
-       artist : 'Nseeb',
-       album : 'Nseeb Music',
-       released : '07-02-2023',
-       music : 'https://s320.djpunjab.is/data/320/53233/301413/Supreme%20-%20Nseeb.mp3'
-        },
-	{
          img : 'https://cover.djpunjab.is/53233/300x700/Supreme-Nseeb.jpg',
          name : 'Supreme',
          artist : 'Nseeb',

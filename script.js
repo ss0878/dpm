@@ -79,14 +79,6 @@ const music_list = [
         },
 	{
          img : 'https://cover.djpunjab.is/53216/300x700/Four-You-Karan-Aujla.jpg',
-         name : 'Fallin Apart',
-         artist : 'Karan Aujla',
-         album : 'Karan Aujla',
-         released : '04-02-2023',
-         music : 'https://s320.djpunjab.is/data/320/53216/301383/Fallin%20Apart%20-%20Karan%20Aujla.mp3'
-        },
-	{
-         img : 'https://cover.djpunjab.is/53216/300x700/Four-You-Karan-Aujla.jpg',
          name : 'Take It Easy',
          artist : 'Karan Aujla',
          album : 'Karan Aujla',

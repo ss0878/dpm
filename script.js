@@ -22,6 +22,14 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53258/300x700/Mohali-Block-Sharry-Maan.jpg',
+       name : 'Mohali Block',
+       artist : 'Sharry Maan',
+       album : 'T-Series',
+       released : '11-02-2023',
+       music : 'https://s320.djpunjab.is/data/320/53258/301444/Mohali%20Block%20-%20Sharry%20Maan.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53254/300x700/Queen-Fateh.jpg',
        name : 'Queen',
        artist : 'Fateh',

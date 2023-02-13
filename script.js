@@ -22,6 +22,14 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53263/300x700/Small-Circle-Ekam-Sudhar.jpg',
+       name : 'Small Circle',
+       artist : 'Ekam Sudhar',
+       album : 'Collab Creations',
+       released : '13-02-2023',
+       music : 'https://s320.djpunjab.is/data/320/53263/301449/Small%20Circle%20-%20Ekam%20Sudhar.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53258/300x700/Mohali-Block-Sharry-Maan.jpg',
        name : 'Mohali Block',
        artist : 'Sharry Maan',

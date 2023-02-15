@@ -22,6 +22,14 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53282/300x700/No.1-Nijjar.jpg',
+       name : 'No.1',
+       artist : 'Nijjar',
+       album : 'Nijjar Inc',
+       released : '15-02-2023',
+       music : 'https://s320.djpunjab.is/data/320/53282/301479/No.1%20-%20Nijjar.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53263/300x700/Small-Circle-Ekam-Sudhar.jpg',
        name : 'Small Circle',
        artist : 'Ekam Sudhar',

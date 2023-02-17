@@ -22,6 +22,14 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53289/300x700/Jelly-Bean-Garry-Sandhu.jpg',
+       name : 'Jelly Bean',
+       artist : 'Garry Sandhu',
+       album : 'Fresh Media Records',
+       released : '17-02-2023',
+       music : 'https://s320.djpunjab.is/data/320/53289/301486/Jelly%20Bean%20-%20Garry%20Sandhu.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53282/300x700/No.1-Nijjar.jpg',
        name : 'No.1',
        artist : 'Nijjar',

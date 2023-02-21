@@ -30,7 +30,7 @@ const music_list = [
        music : 'https://s320.djpunjab.is/data/320/53314/301511/Suit%20Jatti%20De%20-%20Karamvir%20Dhumi.mp3'
         },
 	{
-       img : 'https://cover.djpunjab.is/53311/300x700/SPAIN-(Extended-Version)-Jassa-Dhillon.jpg',
+       img : "https://cover.djpunjab.is/53311/300x700/SPAIN-(Extended-Version)-Jassa-Dhillon.jpg",
        name : 'SPAIN (Extended Version)',
        artist : 'Jassa Dhillon',
        album : 'Jassa Dhillon Music',

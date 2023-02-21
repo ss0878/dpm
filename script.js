@@ -22,6 +22,22 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53314/300x700/Suit-Jatti-De-Karamvir-Dhumi.jpg',
+       name : 'Suit Jatti De',
+       artist : 'Karamvir Dhumi',
+       album : 'Vehli Janta Records',
+       released : '21-02-2023',
+       music : 'https://s320.djpunjab.is/data/320/53314/301511/Suit%20Jatti%20De%20-%20Karamvir%20Dhumi.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53311/300x700/SPAIN-(Extended-Version)-Jassa-Dhillon.jpg',
+       name : 'SPAIN (Extended Version)',
+       artist : 'Jassa Dhillon',
+       album : 'Jassa Dhillon Music',
+       released : '21-02-2023',
+       music : 'https://s320.djpunjab.is/data/320/53311/301508/SPAIN%20(Extended%20Version)%20-%20Jassa%20Dhillon.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53289/300x700/Jelly-Bean-Garry-Sandhu.jpg',
        name : 'Jelly Bean',
        artist : 'Garry Sandhu',

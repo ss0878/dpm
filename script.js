@@ -1460,6 +1460,118 @@ const music_list = [
          album : 'Gringo Entertainments',
          released : '07-07-2022',
          music : 'https://s320.djpunjab.is/data/320/52138/300077/Gucci%20Di%20Sole%20-%20Kahlon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/52057/300x700/Nakhre-Arjan-Dhillon.jpg',
+         name : 'Nakhre',
+         artist : 'Arjan Dhillon',
+         album : 'Brown studios',
+         released : '19-06-2022',
+         music : 'https://s320.djpunjab.is/data/320/52057/299991/Nakhre%20-%20Arjan%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51942/300x700/No-Count-Tarsem-Jassar.jpg',
+         name : 'No Count',
+         artist : 'Tarsem Jassar',
+         album : 'Tpz Records',
+         released : '20-05-2022',
+         music : 'https://s320.djpunjab.is/data/320/51942/299876/No%20Count%20-%20Tarsem%20Jassar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51932/300x700/Will-Nseeb.jpg',
+         name : 'Will',
+         artist : 'Nseeb',
+         album : 'Nseeb Music',
+         released : '17-05-2022',
+         music : 'https://s320.djpunjab.is/data/320/51932/299866/Will%20-%20Nseeb.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51930/300x700/Mob-Jassa-Dhillon.jpg',
+         name : 'Mob',
+         artist : 'Jassa Dhillon',
+         album : 'Jassa Dhillon Music',
+         released : '16-05-2022',
+         music : 'https://s320.djpunjab.is/data/320/51930/299864/Mob%20-%20Jassa%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51922/300x700/The-Last-Ride-Sidhu-Moose-Wala.jpg',
+         name : 'The Last Ride',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala Music',
+         released : '15-05-2022',
+         music : 'https://s320.djpunjab.is/data/320/51922/299856/The%20Last%20Ride%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51902/300x700/Thabba-Ku-Zulfan-Arjan-Dhillon.jpg',
+         name : 'Thabba Ku Zulfan',
+         artist : 'Arjan Dhillon',
+         album : 'Brown Studios',
+         released : '12-05-2022',
+         music : 'https://s320.djpunjab.is/data/320/51902/299836/Thabba%20Ku%20Zulfan%20-%20Arjan%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51895/300x700/Trouble-Deep-Jandu.jpg',
+         name : 'Trouble',
+         artist : 'Deep Jandu',
+         album : 'Deep Jandu Ent',
+         released : '11-05-2022',
+         music : 'https://s320.djpunjab.is/data/320/51895/299829/Trouble%20-%20Deep%20Jandu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51870/300x700/Positivity-Jordan-Sandhu.jpg',
+         name : 'Positivity',
+         artist : 'Jordan Sandhu',
+         album : 'Jordan Sandhu Music',
+         released : '09-05-2022',
+         music : 'https://s320.djpunjab.is/data/320/51870/299799/Positivity%20-%20Jordan%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51865/300x700/Kuwait-Wala-Koka-Gurman-Sandhu.jpg',
+         name : 'Kuwait Wala Koka',
+         artist : 'Gurman Sandhu',
+         album : 'Desi Junction',
+         released : '09-05-2022',
+         music : 'https://s320.djpunjab.is/data/320/51865/299794/Kuwait%20Wala%20Koka%20-%20Gurman%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51862/300x700/Pasoori-Ali-Sethi.jpg',
+         name : 'Pasoori',
+         artist : 'Ali Sethi',
+         album : 'Xulfi',
+         released : '08-05-2022',
+         music : 'https://s320.djpunjab.is/data/320/51862/299781/Pasoori%20-%20Ali%20Sethi.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51842/300x700/Gal-Sun-Jaz-Dhami.jpg',
+         name : 'Gal Sun',
+         artist : 'Jaz Dhami',
+         album : 'Jaz Dhami',
+         released : '05-05-2022',
+         music : 'https://s320.djpunjab.is/data/320/51842/299759/Gal%20Sun%20-%20Jaz%20Dhami.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51840/300x700/Dss-Bhabhiye-Rajvir-Jawanda.jpg',
+         name : 'Dss Bhabhiye',
+         artist : 'Rajvir Jawanda',
+         album : 'Prince Saggu',
+         released : '05-05-2022',
+         music : 'https://s320.djpunjab.is/data/320/51840/299757/Dss%20Bhabhiye%20-%20Rajvir%20Jawanda.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51828/300x700/Way-Ahead---Aukaat-Karan-Aujla.jpg',
+         name : 'Way Ahead - Aukaat',
+         artist : 'Karan Aujla',
+         album : 'Rehaan Records',
+         released : '03-05-2022',
+         music : 'https://s320.djpunjab.is/data/320/51828/299745/Way%20Ahead%20-%20Aukaat%20-%20Karan%20Aujla.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51820/300x700/Wahzirinthehood-Wazir-Patar.jpg',
+         name : 'Wahzirinthehood',
+         artist : 'Wazir Patar',
+         album : 'Wazir Patar Music',
+         released : '02-05-2022',
+         music : 'https://s320.djpunjab.is/data/320/51820/299737/Wahzirinthehood%20-%20Wazir%20Patar.mp3'
             }
 	
 	

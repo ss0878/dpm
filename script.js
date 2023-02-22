@@ -22,6 +22,30 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53327/300x700/8055-Nijjar.jpg',
+       name : '8055',
+       artist : 'Nijjar',
+       album : 'Nijjar',
+       released : '22-02-2023',
+       music : 'https://s320.djpunjab.is/data/320/53327/301524/8055%20-%20Nijjar.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53323/300x700/My-World-Avtar.jpg',
+       name : 'My World',
+       artist : 'Avtar',
+       album : 'Saaz Records',
+       released : '22-02-2023',
+       music : 'https://s320.djpunjab.is/data/320/53323/301520/My%20World%20-%20Avtar.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53319/300x700/Guitar-Wale-Munde-Ranjit-Bawa.jpg',
+       name : 'Guitar Wale Munde',
+       artist : 'Ranjit Bawa',
+       album : 'Bless Studios',
+       released : '22-02-2023',
+       music : 'https://s320.djpunjab.is/data/320/53319/301516/Guitar%20Wale%20Munde%20-%20Ranjit%20Bawa.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53314/300x700/Suit-Jatti-De-Karamvir-Dhumi.jpg',
        name : 'Suit Jatti De',
        artist : 'Karamvir Dhumi',

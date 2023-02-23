@@ -1438,14 +1438,6 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/52164/300103/Patake%20-%20Khan%20Bhaini.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/52164/300x700/Patake-Khan-Bhaini.jpg',
-         name : 'Patake',
-         artist : 'Khan Bhain',
-         album : 'Single Track Studio',
-         released : '11-07-2022',
-         music : 'https://s320.djpunjab.is/data/320/52164/300103/Patake%20-%20Khan%20Bhaini.mp3'
-            },
-            {
          img : 'https://cover.djpunjab.is/52155/300x700/Mella-Singga.jpg',
          name : 'Mella',
          artist : 'Singga',
@@ -1572,6 +1564,254 @@ const music_list = [
          album : 'Wazir Patar Music',
          released : '02-05-2022',
          music : 'https://s320.djpunjab.is/data/320/51820/299737/Wahzirinthehood%20-%20Wazir%20Patar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51788/300x700/Time-Keeps-Tickin-Deep-Jandu.jpg',
+         name : 'Time Keeps Tickin',
+         artist : 'Deep Jandu',
+         album : 'Deep Jandu Ent.',
+         released : '26-04-2022',
+         music : 'https://s320.djpunjab.is/data/320/51788/299705/Time%20Keeps%20Tickin%20-%20Deep%20Jandu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51775/300x700/End-Amrit-Maan.jpg',
+         name : 'End',
+         artist : 'Amrit Maan',
+         album : 'Times Music',
+         released : '20-04-2022',
+         music : 'https://s320.djpunjab.is/data/320/51775/299679/End%20-%20Amrit%20Maan.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51774/300x700/LA-Nirvair-Pannu.jpg',
+         name : 'LA',
+         artist : 'Nirvair Pannu',
+         album : 'Juke Dock',
+         released : '20-04-2022',
+         music : 'https://s320.djpunjab.is/data/320/51774/299678/LA%20-%20Nirvair%20Pannu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51763/300x700/Mob-N-Love-Prem-Dhillon.jpg',
+         name : 'Mob N Love',
+         artist : 'Prem Dhillon',
+         album : 'Prem Dhillon Music',
+         released : '18-04-2022',
+         music : 'https://s320.djpunjab.is/data/320/51763/299667/Mob%20N%20Love%20-%20Prem%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51747/300x700/Rajdhani-Gulab-Sidhu.jpg',
+         name : 'Rajdhani',
+         artist : 'Gulab Sidhu',
+         album : 'Leaf Records',
+         released : '15-04-2022',
+         music : 'https://s320.djpunjab.is/data/320/51747/299651/Rajdhani%20-%20Gulab%20Sidhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51742/300x700/Chauffeur-Diljit-Dosanjh.jpg',
+         name : 'Chauffeur',
+         artist : 'Diljit Dosanjh',
+         album : 'Warner Music India',
+         released : '13-04-2022',
+         music : 'https://s320.djpunjab.is/data/320/51742/299646/Chauffeur%20-%20Diljit%20Dosanjh.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51733/300x700/Jattan-de-Putt-Sharry-Maan.jpg',
+         name : 'Jattan De Putt',
+         artist : 'Sharry Maan',
+         album : 'Sharry Maan Music',
+         released : '11-04-2022',
+         music : 'https://s320.djpunjab.is/data/320/51733/299637/Jattan%20De%20Putt%20-%20Sharry%20Maan.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51715/300x700/Nain-Dilpreet-Dhillon.jpg',
+         name : 'Nain',
+         artist : 'Dilpreet Dhillon',
+         album : 'White Hill Music',
+         released : '08-04-2022',
+         music : 'https://s320.djpunjab.is/data/320/51715/299619/Nain%20-%20Dilpreet%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51714/300x700/Still-Rollin-Srmn.jpg',
+         name : 'Still Rollin',
+         artist : 'Srmn',
+         album : 'Srmn Music',
+         released : '08-04-2022',
+         music : 'https://s320.djpunjab.is/data/320/51714/299618/Still%20Rollin%20-%20Srmn.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51689/300x700/Magic-Akhil.jpg',
+         name : 'Magic',
+         artist : 'Akhil',
+         album : 'Akhil Music',
+         released : '04-04-2022',
+         music : 'https://s320.djpunjab.is/data/320/51689/299593/Magic%20-%20Akhil.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51667/300x700/Mucho-Mafia-Karan-Aujla.jpg',
+         name : 'Mucho Mafia',
+         artist : 'Karan Aujla',
+         album : 'Karan Aujla Music',
+         released : '30-03-2022',
+         music : 'https://s320.djpunjab.is/data/320/51667/299571/Mucho%20Mafia%20-%20Karan%20Aujla.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51664/300x700/Nabzan-Arjan-Dhillon.jpg',
+         name : 'Nabzan',
+         artist : 'Arjan Dhillon',
+         album : 'VLC',
+         released : '30-03-2022',
+         music : 'https://s320.djpunjab.is/data/320/51664/299568/Nabzan%20-%20Arjan%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51651/300x700/COLT-Pavitar-Lassoi.jpg',
+         name : 'COLT',
+         artist : 'Pavitar Lassoi',
+         album : 'Pavitar Lassoi',
+         released : '26-03-2022',
+         music : 'https://s320.djpunjab.is/data/320/51651/299555/COLT%20-%20Pavitar%20Lassoi.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51651/300x700/COLT-Pavitar-Lassoi.jpg',
+         name : 'COLT',
+         artist : 'Pavitar Lassoi',
+         album : 'Pavitar Lassoi',
+         released : '26-03-2022',
+         music : 'https://s320.djpunjab.is/data/320/51651/299555/COLT%20-%20Pavitar%20Lassoi.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51635/300x700/Fuck-Em-All-Sidhu-Moose-Wala.jpg',
+         name : 'Fuck Em All',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala',
+         released : '23-03-2022',
+         music : 'https://s320.djpunjab.is/data/320/51635/299539/Fuck%20Em%20All%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51632/300x700/Bae-Wazir-Patar.jpg',
+         name : 'Bae',
+         artist : 'Wazir Patar',
+         album : 'Enury Day Records',
+         released : '22-03-2022',
+         music : 'https://s320.djpunjab.is/data/320/51632/299536/Bae%20-%20Wazir%20Patar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51630/300x700/Shehar-Vichon-Geda-Jordan-Sandhu.jpg',
+         name : 'Shehar Vichon Geda',
+         artist : 'Jordan Sandhu',
+         album : 'Speed Records',
+         released : '21-03-2022',
+         music : 'https://s320.djpunjab.is/data/320/51630/299534/Shehar%20Vichon%20Geda%20-%20Jordan%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51619/300x700/Chak-Chak-Chak-Khan-Bhaini.jpg',
+         name : 'Chak Chak Chak',
+         artist : 'Khan Bhaini',
+         album : 'Bang Music',
+         released : '18-03-2022',
+         music : 'https://s320.djpunjab.is/data/320/51619/299512/Chak%20Chak%20Chak%20-%20Khan%20Bhaini.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51618/300x700/Zindagi-Parmish-Verma.jpg',
+         name : 'Zindagi',
+         artist : 'Parmish Verma',
+         album : 'Parmish Verma Music',
+         released : '18-03-2022',
+         music : 'https://s320.djpunjab.is/data/320/51618/299511/Zindagi%20-%20Parmish%20Verma.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51616/300x700/Bas-Jaz-Dhami.jpg',
+         name : 'Bas',
+         artist : 'Jaz Dhami',
+         album : 'Jaz Dhami Music',
+         released : '18-03-2022',
+         music : 'https://s320.djpunjab.is/data/320/51616/299509/Bas%20-%20Jaz%20Dhami.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51612/300x700/Order-Rajvir-Jawanda.jpg',
+         name : 'Order',
+         artist : 'Rajvir Jawanda',
+         album : 'T-Series',
+         released : '17-03-2022',
+         music : 'https://s320.djpunjab.is/data/320/51612/299505/Order%20-%20Rajvir%20Jawanda.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51612/300x700/Order-Rajvir-Jawanda.jpg',
+         name : 'Order',
+         artist : 'Rajvir Jawanda',
+         album : 'T-Series',
+         released : '17-03-2022',
+         music : 'https://s320.djpunjab.is/data/320/51612/299505/Order%20-%20Rajvir%20Jawanda.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51605/300x700/Shakti-Water-Sharry-Maan.jpg',
+         name : 'Shakti',
+         artist : 'Sharry Maan',
+         album : 'The Maple Music',
+         released : '16-03-2022',
+         music : 'https://s320.djpunjab.is/data/320/51605/299498/Shakti%20Water%20-%20Sharry%20Maan.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51598/300x700/Missing-Me-Mickey-Singh.jpg',
+         name : 'Missing Me',
+         artist : 'Mickey Singh',
+         album : 'Treehouse V.H.T',
+         released : '15-03-2022',
+         music : 'https://s320.djpunjab.is/data/320/51598/299491/Missing%20Me%20-%20Mickey%20Singh.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51596/300x700/Dil-Mangeya-Sajjan-Adeeb.jpg',
+         name : 'Dil Mangeya',
+         artist : 'Sajjan Adeeb',
+         album : 'Sajjan Adeeb',
+         released : '15-03-2022',
+         music : 'https://s320.djpunjab.is/data/320/51596/299489/Dil%20Mangeya%20-%20Sajjan%20Adeeb.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51589/300x700/Wait-And-Watch-Prem-Dhillon.jpg',
+         name : 'Wait And Watch',
+         artist : 'Prem Dhillon',
+         album : 'Bamb Beats',
+         released : '14-03-2022',
+         music : 'https://s320.djpunjab.is/data/320/51589/299482/Wait%20And%20Watch%20-%20Prem%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51588/300x700/Vip-Diljit-Dosanjh.jpg',
+         name : 'Vip',
+         artist : 'Diljit Dosanjh',
+         album : 'Raj Ranjodh Music',
+         released : '13-03-2022',
+         music : 'https://s320.djpunjab.is/data/320/51588/299481/Vip%20-%20Diljit%20Dosanjh.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51578/300x700/Remix-Mashup-Gur-Sidhu.jpg',
+         name : 'Remix Mashup',
+         artist : 'Gur Sidhu',
+         album : 'Times Music',
+         released : '12-03-2022',
+         music : 'https://s320.djpunjab.is/data/320/51578/299471/Remix%20Mashup%20-%20Gur%20Sidhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51573/300x700/Trouble-Maker-Amrit-Maan.jpg',
+         name : 'Trouble Maker',
+         artist : 'Amrit Maan',
+         album : 'Times Music',
+         released : '09-03-2022',
+         music : 'https://s320.djpunjab.is/data/320/51573/299457/Trouble%20Maker%20-%20Amrit%20Maan.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51566/300x700/Jaane-Jassa-Dhillon.jpg',
+         name : 'Jaane',
+         artist : 'Jassa Dhillon',
+         album : 'Jassa Dhillon Music',
+         released : '08-03-2022',
+         music : 'https://s320.djpunjab.is/data/320/51566/299450/Jaane%20-%20Jassa%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51563/300x700/Shadow-Jassa-Dhillon.jpg',
+         name : 'Shadow',
+         artist : 'Jassa Dhillon',
+         album : 'Jassa Dhillon Music',
+         released : '08-03-2022',
+         music : 'https://s320.djpunjab.is/data/320/51563/299447/Shadow%20-%20Jassa%20Dhillon.mp3'
             }
 	
 	

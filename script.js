@@ -22,6 +22,38 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53358/300x700/Gaddiyan-Kaaliyan-Gurp-Sandhu.jpg',
+       name : 'Gaddiyan Kaaliyan',
+       artist : 'Gurp Sandhu',
+       album : 'Midland Records',
+       released : '27-02-2023',
+       music : 'https://s320.djpunjab.is/data/320/53358/301555/Gaddiyan%20Kaaliyan%20-%20Gurp%20Sandhu.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53352/300x700/Akaal-Nseeb.jpg',
+       name : 'Akaal',
+       artist : 'Nseeb',
+       album : 'Nseeb',
+       released : '26-02-2023',
+       music : 'https://s320.djpunjab.is/data/320/53352/301549/Akaal%20-%20Nseeb.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53337/300x700/That-Guy-Sunny-Malton.jpg',
+       name : 'That Guy',
+       artist : 'Sunny Malton',
+       album : 'Gur3',
+       released : '23-02-2023',
+       music : 'https://s320.djpunjab.is/data/320/53337/301534/That%20Guy%20-%20Sunny%20Malton.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53336/300x700/Naam-Jatt-Da-Davi-Singh.jpg',
+       name : 'Naam Jatt Da',
+       artist : 'Davi Singh',
+       album : 'The Landers Music',
+       released : '23-02-2023',
+       music : 'https://s320.djpunjab.is/data/320/53336/301533/Naam%20Jatt%20Da%20-%20Davi%20Singh.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53327/300x700/8055-Nijjar.jpg',
        name : '8055',
        artist : 'Nijjar',

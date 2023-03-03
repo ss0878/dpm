@@ -22,6 +22,46 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53392/300x700/Salute-Arjan-Dhillon.jpg',
+       name : 'Salute',
+       artist : 'Arjan Dhillon',
+       album : 'Panj-aab Records',
+       released : '03-03-2023',
+       music : 'https://s320.djpunjab.is/data/320/53392/301589/Salute%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53389/300x700/Kuwait-Kauri-Jhamat.jpg',
+       name : 'Kuwait',
+       artist : 'Kauri Jhamat',
+       album : 'Parmish Verma',
+       released : '03-03-2023',
+       music : 'https://s320.djpunjab.is/data/320/53389/301586/Kuwait%20-%20Kauri%20Jhamat.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53386/300x700/Khalaare-GURJ-SIDHU.jpg',
+       name : 'Khalaare',
+       artist : 'GURJ SIDHU',
+       album : 'Mani Longia Music',
+       released : '03-03-2023',
+       music : 'https://s320.djpunjab.is/data/320/53386/301583/Khalaare%20-%20GURJ%20SIDHU.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53384/300x700/6-6-Foot-Arjan-Dhillon.jpg',
+       name : '6-6 Foot',
+       artist : 'Arjan Dhillon',
+       album : 'Panj-aab Records',
+       released : '03-03-2023',
+       music : 'https://s320.djpunjab.is/data/320/53384/301581/6-6%20Foot%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53374/300x700/After-Math-Sabi-Bhinder.jpg',
+       name : 'After Math',
+       artist : 'Sabi Bhinder',
+       album : 'Sabi Bhinder',
+       released : '01-03-2023',
+       music : 'https://s320.djpunjab.is/data/320/53374/301571/After%20Math%20-%20Sabi%20Bhinder.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53358/300x700/Gaddiyan-Kaaliyan-Gurp-Sandhu.jpg',
        name : 'Gaddiyan Kaaliyan',
        artist : 'Gurp Sandhu',

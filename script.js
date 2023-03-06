@@ -22,6 +22,22 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53403/300x700/Legacy-Gursharan.jpg',
+       name : 'Legacy',
+       artist : 'Gursharan',
+       album : 'Vinatge Records',
+       released : '05-03-2023',
+       music : 'https://s320.djpunjab.is/data/320/53403/301605/Legacy%20-%20Gursharan.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53401/300x700/AKH-DA-SHIKAAR-Akhil.jpg',
+       name : 'AKH DA SHIKAAR',
+       artist : 'Akhil',
+       album : 'Akhil Music',
+       released : '04-03-2023',
+       music : 'https://s320.djpunjab.is/data/320/53401/301603/AKH%20DA%20SHIKAAR%20-%20Akhil.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53392/300x700/Salute-Arjan-Dhillon.jpg',
        name : 'Salute',
        artist : 'Arjan Dhillon',

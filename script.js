@@ -22,6 +22,46 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53415/300x700/LKLG-Sikander-Kahlon.jpg',
+       name : 'LKLG',
+       artist : 'Sikander Kahlon Ft. Levl9ne',
+       album : 'Quake World',
+       released : '08-03-2023',
+       music : 'https://s320.djpunjab.is/data/320/53415/301617/LKLG%20-%20Sikander%20Kahlon.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53414/300x700/Dilawara-The-Prophec.jpg',
+       name : 'Dilawara',
+       artist : 'The Prophec',
+       album : 'Ezu',
+       released : '08-03-2023',
+       music : 'https://s320.djpunjab.is/data/320/53414/301616/Dilawara%20-%20The%20Prophec.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53412/300x700/Daru-Ekam-Taggar.jpg',
+       name : 'Daru',
+       artist : 'Ekam Taggar',
+       album : 'Vlc',
+       released : '08-03-2023',
+       music : 'https://s320.djpunjab.is/data/320/53412/301614/Daru%20-%20Ekam%20Taggar.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53410/300x700/Outta-Reach-Prince-Narula.jpg',
+       name : 'Outta Reach',
+       artist : 'Prince Narula',
+       album : 'Jaymeet',
+       released : '08-03-2023',
+       music : 'https://s320.djpunjab.is/data/320/53410/301612/Outta%20Reach%20-%20Prince%20Narula.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53408/300x700/Ittar-Jasmine-Sandlas.jpg',
+       name : 'Ittar',
+       artist : 'Jasmine Sandlas',
+       album : 'B Praak',
+       released : '08-03-2023',
+       music : 'https://s320.djpunjab.is/data/320/53408/301610/Ittar%20-%20Jasmine%20Sandlas.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53403/300x700/Legacy-Gursharan.jpg',
        name : 'Legacy',
        artist : 'Gursharan',

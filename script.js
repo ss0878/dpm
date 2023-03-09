@@ -2156,6 +2156,22 @@ const music_list = [
          album : 'Desi Junction',
          released : '12-01-2022',
          music : 'https://s320.djpunjab.is/data/320/51273/299107/Diamond%20Koka%20-%20Gurnam%20Bhullar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51248/300x700/All-Ace-Prem-Dhillon.jpg',
+         name : 'All Ace',
+         artist : 'Prem Dhillon',
+         album : 'Prem Dhillon Music',
+         released : '06-01-2022',
+         music : 'https://s320.djpunjab.is/data/320/51248/299082/All%20Ace%20-%20Prem%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51247/300x700/Black-Effect-Jordan-Sandhu.jpg',
+         name : 'Black Effect',
+         artist : 'Jordan Sandhu',
+         album : 'Times Music',
+         released : '06-01-2022',
+         music : 'https://s320.djpunjab.is/data/320/51247/299081/Black%20Effect%20-%20Jordan%20Sandhu.mp3'
             }
 	
 	

@@ -2460,9 +2460,377 @@ const music_list = [
          album : 'Arjan Dhillon Music',
          released : '27-09-2021',
          music : 'https://s320.djpunjab.is/data/320/50711/298479/Kalli%20Sohni%20-%20Arjan%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50699/300x700/Shinin-Tegi-Pannu.jpg',
+         name : 'Shinin',
+         artist : 'Tegi Pannu',
+         album : 'Collab Creations',
+         released : '25-09-2021',
+         music : 'https://s320.djpunjab.is/data/320/50699/298445/Shinin%20-%20Tegi%20Pannu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50697/300x700/Churi-Khan-Bhaini.jpg',
+         name : 'Churi',
+         artist : 'Khan Bhaini',
+         album : 'Collab Creations',
+         released : '23-09-2021',
+         music : 'https://s320.djpunjab.is/data/320/50697/298443/Churi%20-%20Khan%20Bhaini.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50653/300x700/Hanji-Hanji-Navaan-Sandhu.jpg',
+         name : 'Hanji Hanji',
+         artist : 'Navaan Sandhu',
+         album : 'B Major Records',
+         released : '10-09-2021',
+         music : 'https://s320.djpunjab.is/data/320/50653/298382/Hanji%20Hanji%20-%20Navaan%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50647/300x700/Click-That-B-Kickin-It-(Yaar-Jatt-De)-Karan-Aujla.jpg',
+         name : 'Click That B Kickin It',
+         artist : 'Karan Aujla',
+         album : 'Speed Records',
+         released : '09-09-2021',
+         music : 'https://s320.djpunjab.is/data/320/50647/298376/Click%20That%20B%20Kickin%20It%20(Yaar%20Jatt%20De)%20-%20Karan%20Aujla.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50621/300x700/Jailaan-(Moosa-Jatt)-Sidhu-Moose-Wala.jpg',
+         name : 'Jailaan (Moosa Jatt)',
+         artist : 'Sidhu Moose Wala',
+         album : 'Times Music',
+         released : '02-09-2021',
+         music : 'https://s320.djpunjab.is/data/320/50621/298351/Jailaan%20(Moosa%20Jatt)%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50606/300x700/Mi-Amor-Fateh.jpg',
+         name : 'Mi Amor',
+         artist : 'Fateh',
+         album : 'WinWin Records',
+         released : '28-08-2021',
+         music : 'https://s320.djpunjab.is/data/320/50606/298327/Mi%20Amor%20-%20Fateh.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50600/300x700/Shah-Ji-Prem-Dhillon.jpg',
+         name : 'Shah Ji',
+         artist : 'Prem Dhillon',
+         album : 'Prem Dhillon Music',
+         released : '27-08-2021',
+         music : 'https://s320.djpunjab.is/data/320/50600/298318/Shah%20Ji%20-%20Prem%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50581/300x700/Schedule-Tegi-Pannu.jpg',
+         name : 'Schedule',
+         artist : 'Tegi Pannu',
+         album : 'Collab Creations',
+         released : '21-08-2021',
+         music : 'https://s320.djpunjab.is/data/320/50581/298268/Schedule%20-%20Tegi%20Pannu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50579/300x700/Lover-Diljit-Dosanjh.jpg',
+         name : 'Lover',
+         artist : 'Diljit Dosanjh',
+         album : 'Diljit Dosanjh Music',
+         released : '21-08-2021',
+         music : 'https://s320.djpunjab.is/data/320/50579/298266/Lover%20-%20Diljit%20Dosanjh.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50556/300x700/NA-NA-Mickey-Singh.jpg',
+         name : 'NA NA',
+         artist : 'Mickey Singh',
+         album : 'TreeHouse V.H.T',
+         released : '17-08-2021',
+         music : 'https://s320.djpunjab.is/data/320/50556/298241/NA%20NA%20-%20Mickey%20Singh.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50533/300x700/My-Rulez-Arjan-Dhillon.jpg',
+         name : 'My Rulez',
+         artist : 'Arjan Dhillon',
+         album : 'White Hill Music',
+         released : '10-08-2021',
+         music : 'https://s320.djpunjab.is/data/320/50533/298219/My%20Rulez%20-%20Arjan%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50532/300x700/Celebrity-Killer-Sidhu-Moose-Wala.jpg',
+         name : 'Celebrity Kille',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala Music',
+         released : '09-08-2021',
+         music : 'https://s320.djpunjab.is/data/320/50532/298218/Celebrity%20Killer%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50514/300x700/Yaar-Jatt-De-Karan-Aujla.jpg',
+         name : 'Yaar Jatt',
+         artist : 'Karan Aujla',
+         album : 'Karan Aujla Music',
+         released : '05-08-2021',
+         music : 'https://s320.djpunjab.is/data/320/50514/298192/Yaar%20Jatt%20De%20-%20Karan%20Aujla.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50457/300x700/GOAT-Sidhu-Moose-Wala.jpg',
+         name : 'GOAT',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala Music',
+         released : '25-07-2021',
+         music : 'https://s320.djpunjab.is/data/320/50457/298135/GOAT%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50441/300x700/Power-Sidhu-Moose-Wala.jpg',
+         name : 'Power',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala Music',
+         released : '21-07-2021',
+         music : 'https://s320.djpunjab.is/data/320/50441/298119/Power%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50438/300x700/Mastani-Varinder-Brar.jpg',
+         name : 'Mastani',
+         artist : 'Varinder Brar',
+         album : 'White Hill Music',
+         released : '21-07-2021',
+         music : 'https://s320.djpunjab.is/data/320/50438/298116/Mastani%20-%20Varinder%20Brar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50423/300x700/IDGAF-Sidhu-Moose-Wala.jpg',
+         name : 'IDGAF',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala Music',
+         released : '21-07-2021',
+         music : 'https://s320.djpunjab.is/data/320/50423/298101/IDGAF%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50418/300x700/Ma-Belle-AP-Dhillon.jpg',
+         name : 'Ma Belle',
+         artist : 'AP Dhillon',
+         album : 'Run-Up Records',
+         released : '16-07-2021',
+         music : 'https://s320.djpunjab.is/data/320/50418/298096/Ma%20Belle%20-%20AP%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50416/300x700/Loud-Ranjit-Bawa.jpg',
+         name : 'Loud',
+         artist : 'Ranjit Bawa',
+         album : 'Speed Records',
+         released : '16-07-2021',
+         music : 'https://s320.djpunjab.is/data/320/50416/298093/Loud%20-%20Ranjit%20Bawa.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50413/300x700/295-Sidhu-Moose-Wala.jpg',
+         name : '295',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala Music',
+         released : '14-07-2021',
+         music : 'https://s320.djpunjab.is/data/320/50413/298090/295%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50412/300x700/Shartan-Mankirat-Pannu.jpg',
+         name : 'Shartan',
+         artist : 'Khan Bhaini Mankirat Pannu',
+         album : 'Thuglife Records',
+         released : '14-07-2021',
+         music : 'https://s320.djpunjab.is/data/320/50412/298089/Shartan%20-%20Mankirat%20Pannu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50404/300x700/Calaboose-Sidhu-Moose-Wala.jpg',
+         name : 'Calaboose',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala Music',
+         released : '10-07-2021',
+         music : 'https://s320.djpunjab.is/data/320/50404/298080/Calaboose%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50398/300x700/Koi-Na-Nseeb.jpg',
+         name : 'Koi Na',
+         artist : 'Nseeb',
+         album : '4N Recrods Inc',
+         released : '09-07-2021',
+         music : 'https://s320.djpunjab.is/data/320/50398/298074/Koi%20Na%20-%20Nseeb.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50393/300x700/Built-Different-Sidhu-Moose-Wala.jpg',
+         name : 'Calaboose',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala Music',
+         released : '08-07-2021',
+         music : 'https://s320.djpunjab.is/data/320/50393/298069/Built%20Different%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50391/300x700/Chu-Gon-Do-Karan-Aujla.jpg',
+         name : 'Chu Gon Do',
+         artist : 'Karan Aujla',
+         album : 'Speed Records',
+         released : '07-07-2021',
+         music : 'https://s320.djpunjab.is/data/320/50391/298067/Chu%20Gon%20Do%20-%20Karan%20Aujla.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50389/300x700/Balle-Balle-Nirvair-Pannu.jpg',
+         name : 'Balle Balle',
+         artist : 'Nirvair Pannu',
+         album : 'Juke Dock',
+         released : '07-07-2021',
+         music : 'https://s320.djpunjab.is/data/320/50389/298065/Balle%20Balle%20-%20Nirvair%20Pannu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50383/300x700/Pehli-Peshi-Arjan-Dhillon.jpg',
+         name : 'Pehli Peshi',
+         artist : 'Arjan Dhillon',
+         album : 'Brown Studios',
+         released : '06-07-2021',
+         music : 'https://s320.djpunjab.is/data/320/50383/298060/Pehli%20Peshi%20-%20Arjan%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50376/300x700/G-Shit-Sidhu-Moose-Wala.jpg',
+         name : 'G Shit',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala Music',
+         released : '04-07-2021',
+         music : 'https://s320.djpunjab.is/data/320/50376/298052/G%20Shit%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50366/300x700/Umbrella-Diljit-Dosanjh.jpg',
+         name : 'Umbrella',
+         artist : 'Diljit Dosanjh',
+         album : 'Double Up Entertainment',
+         released : '02-07-2021',
+         music : 'https://s320.djpunjab.is/data/320/50366/298042/Umbrella%20-%20Diljit%20Dosanjh.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50364/300x700/Aroma-Sidhu-Moose-Wala.jpg',
+         name : 'Aroma',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala Music',
+         released : '02-07-2021',
+         music : 'https://s320.djpunjab.is/data/320/50364/298039/Aroma%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50354/300x700/Midnight-Mob-Nseeb.jpg',
+         name : 'Midnight Mob',
+         artist : 'Nseeb',
+         album : 'Nseeb Music',
+         released : '30-06-2021',
+         music : 'https://s320.djpunjab.is/data/320/50354/298030/Midnight%20Mob%20-%20Nseeb.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50349/300x700/The-Real-Men-Gopi-Waraich.jpg',
+         name : 'The Real Men',
+         artist : 'Gopi Waraich',
+         album : 'Vehli Janta Records',
+         released : '29-06-2021',
+         music : 'https://s320.djpunjab.is/data/320/50349/298017/The%20Real%20Men%20-%20Gopi%20Waraich.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50331/300x700/Malwa-Block-Sidhu-Moose-Wala.jpg',
+         name : 'Malwa Block',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala Music',
+         released : '23-06-2021',
+         music : 'https://s320.djpunjab.is/data/320/50331/297967/Malwa%20Block%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50311/300x700/Mere-Wala-Jatt-Prem-Dhillon.jpg',
+         name : 'Mere Wala Jatt',
+         artist : 'Prem Dhillon',
+         album : 'Speed Records',
+         released : '19-06-2021',
+         music : 'https://s320.djpunjab.is/data/320/50311/297947/Mere%20Wala%20Jatt%20-%20Prem%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50299/300x700/Signed-To-God-Sidhu-Moose-Wala.jpg',
+         name : 'Signed To God',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala Music',
+         released : '16-06-2021',
+         music : 'https://s320.djpunjab.is/data/320/50299/297935/Signed%20To%20God%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50295/300x700/Surma-Khan-Bhaini.jpg',
+         name : 'Surma',
+         artist : 'Khan Bhaini',
+         album : 'Speed Records',
+         released : '15-06-2021',
+         music : 'https://s320.djpunjab.is/data/320/50295/297931/Surma%20-%20Khan%20Bhaini.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50269/300x700/Me-And-My-Girlfriend-Sidhu-Moose-Wala.jpg',
+         name : 'Me And My Girlfriend',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala Music',
+         released : '07-06-2021',
+         music : 'https://s320.djpunjab.is/data/320/50269/297905/Me%20And%20My%20Girlfriend%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50244/300x700/Brown-Shortie-Sidhu-Moose-Wala.jpg',
+         name : 'Brown Shortie',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala Music',
+         released : '29-05-2021',
+         music : 'https://s320.djpunjab.is/data/320/50244/297880/Brown%20Shortie%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50237/300x700/80-90-Te-Garry-Sandhu.jpg',
+         name : '80-90 Te',
+         artist : 'Garry Sandhu',
+         album : '4N Records Inc',
+         released : '27-05-2021',
+         music : 'https://s320.djpunjab.is/data/320/50237/297873/80-90%20Te%20-%20Garry%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50223/300x700/Us-Sidhu-Moose-Wala.jpg',
+         name : 'Us',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala Music',
+         released : '23-05-2021',
+         music : 'https://s320.djpunjab.is/data/320/50223/297859/Us%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50216/300x700/Racks-And-Rounds-Sidhu-Moose-Wala.jpg',
+         name : 'Racks And Rounds',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala Music',
+         released : '21-05-2021',
+         music : 'https://s320.djpunjab.is/data/320/50216/297852/Racks%20And%20Rounds%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50209/300x700/UNFUCKWITHABLE-Sidhu-Moose-Wala.jpg',
+         name : 'UNFUCKWITHABLE',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala Music',
+         released : '18-05-2021',
+         music : 'https://s320.djpunjab.is/data/320/50209/297839/UNFUCKWITHABLE%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50207/300x700/Jodi-Sajjan-Adeeb.jpg',
+         name : 'Jodi',
+         artist : 'Sajjan Adeeb',
+         album : 'Leaf Record',
+         released : '17-05-2021',
+         music : 'https://s320.djpunjab.is/data/320/50207/297837/Jodi%20-%20Sajjan%20Adeeb.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50206/300x700/Ishq-Shipra-Goyal.jpg',
+         name : 'Ishq',
+         artist : 'Shipra Goyal',
+         album : 'Fresh Media Records',
+         released : '17-05-2021',
+         music : 'https://s320.djpunjab.is/data/320/50206/297836/Ishq%20-%20Shipra%20Goyal.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50203/300x700/Burberry-Sidhu-Moose-Wala.jpg',
+         name : 'Burberry',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala Music',
+         released : '17-05-2021',
+         music : 'https://s320.djpunjab.is/data/320/50203/297833/Burberry%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50200/300x700/Bitch-Im-Back-Sidhu-Moose-Wala.jpg',
+         name : 'Bitch Im Back',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala Music',
+         released : '17-05-2021',
+         music : 'https://s320.djpunjab.is/data/320/50200/297829/Bitch%20Im%20Back%20-%20Sidhu%20Moose%20Wala.mp3'
             }
 	
-	
+	/* https://djpunjab.is/page/newlatest.php?page=158 */
 ];
 
 loadTrack(track_index);

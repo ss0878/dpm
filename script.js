@@ -2172,6 +2172,294 @@ const music_list = [
          album : 'Times Music',
          released : '06-01-2022',
          music : 'https://s320.djpunjab.is/data/320/51247/299081/Black%20Effect%20-%20Jordan%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51239/300x700/Janaza-Wazir-Patar.jpg',
+         name : 'Janaza',
+         artist : 'Wazir Patar',
+         album : 'Wazir Patar Music',
+         released : '04-01-2022',
+         music : 'https://s320.djpunjab.is/data/320/51239/299073/Janaza%20-%20Wazir%20Patar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51228/300x700/Kul-Milake-Jatt-Gurnam-Bhullar.jpg',
+         name : 'Kul Milake Jatt',
+         artist : 'Gurnam Bhullar',
+         album : 'Desi Junction',
+         released : '03-01-2022',
+         music : 'https://s320.djpunjab.is/data/320/51228/299062/Kul%20Milake%20Jatt%20-%20Gurnam%20Bhullar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51216/300x700/2022-FLOW-Sikander-Kahlon.jpg',
+         name : '2022 FLOW',
+         artist : 'Sikander Kahlon',
+         album : 'Sikander Kahlon Music',
+         released : '01-01-2022',
+         music : 'https://s320.djpunjab.is/data/320/51216/299050/2022%20FLOW%20-%20Sikander%20Kahlon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51203/300x700/Khaab-AP-Dhillon.jpg',
+         name : 'Khaab',
+         artist : 'AP Dhillon',
+         album : 'AP Dhillon Music',
+         released : '30-12-2021',
+         music : 'https://s320.djpunjab.is/data/320/51203/299037/Khaab%20-%20AP%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51191/300x700/Payback-Pavitar-Lassoi.jpg',
+         name : 'Payback',
+         artist : 'Pavitar Lassoi',
+         album : 'PB Studios',
+         released : '29-12-2021',
+         music : 'https://s320.djpunjab.is/data/320/51191/299024/Payback%20-%20Pavitar%20Lassoi.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51180/300x700/To-The-Warrior-Nseeb.jpg',
+         name : 'To The Warrior',
+         artist : 'Nseeb FT. Tarsem Jasar',
+         album : 'NseeB Music',
+         released : '28-12-2021',
+         music : 'https://s320.djpunjab.is/data/320/51180/299013/To%20The%20Warrior%20-%20Nseeb.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51164/300x700/Unforgettable-Diljit-Dosanjh.jpg',
+         name : 'Unforgettable',
+         artist : 'Diljit Dosanjh',
+         album : 'Double Up Entertainment',
+         released : '24-12-2021',
+         music : 'https://s320.djpunjab.is/data/320/51164/298997/Unforgettable%20-%20Diljit%20Dosanjh.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51140/300x700/Too-Much-Garry-Sandhu.jpg',
+         name : 'Too Much',
+         artist : 'Garry Sandhu',
+         album : 'Fresh Media Records',
+         released : '21-12-2021',
+         music : 'https://s320.djpunjab.is/data/320/51140/298966/Too%20Much%20-%20Garry%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51134/300x700/Sira-Dilpreet-Dhillon.jpg',
+         name : 'Sira',
+         artist : 'Dilpreet Dhillon',
+         album : 'Times Music',
+         released : '20-12-2021',
+         music : 'https://s320.djpunjab.is/data/320/51134/298960/Sira%20-%20Dilpreet%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51096/300x700/Tom-Ford-Amantej-Hundal.jpg',
+         name : 'Tom Ford',
+         artist : 'Amantej Hundal',
+         album : 'PB 26 Records',
+         released : '16-12-2021',
+         music : 'https://s320.djpunjab.is/data/320/51096/298918/Tom%20Ford%20-%20Amantej%20Hundal.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51095/300x700/What-Ve--Diljit-Dosanjh.jpg',
+         name : 'What Ve',
+         artist : 'Diljit Dosanjh',
+         album : 'Diljit Dosanjh Music',
+         released : '16-12-2021',
+         music : 'https://s320.djpunjab.is/data/320/51095/298917/What%20Ve%20-%20Diljit%20Dosanjh.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/51021/300x700/Lakh-Rupiya-Veer-Sandhu.jpg',
+         name : 'Lakh Rupiya',
+         artist : 'Veer Sandhu',
+         album : 'Mediaone Network',
+         released : '08-12-2021',
+         music : 'https://s320.djpunjab.is/data/320/51021/298839/Lakh%20Rupiya%20-%20Veer%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50970/300x700/Pehchan-Ranjit-Bawa.jpg',
+         name : 'Pehchan',
+         artist : 'Ranjit Bawa',
+         album : 'Ranjit Bawa Music',
+         released : '02-12-2021',
+         music : 'https://s320.djpunjab.is/data/320/50970/298769/Pehchan%20-%20Ranjit%20Bawa.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50930/300x700/Spaceship-AP-Dhillon.jpg',
+         name : 'Spaceship',
+         artist : 'AP Dhillon',
+         album : 'Run-Up Records',
+         released : '23-11-2021',
+         music : 'https://s320.djpunjab.is/data/320/50930/298717/Spaceship%20-%20AP%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50930/300x700/Spaceship-AP-Dhillon.jpg',
+         name : 'Tere Te',
+         artist : 'AP Dhillon',
+         album : 'Run-Up Records',
+         released : '23-11-2021',
+         music : 'https://s320.djpunjab.is/data/320/50929/298716/Tere%20Te%20-%20AP%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50930/300x700/Spaceship-AP-Dhillon.jpg',
+         name : 'Majhe Ale',
+         artist : 'AP Dhillon FT Shinda, Gurinder',
+         album : 'Run-Up Records',
+         released : '23-11-2021',
+         music : 'https://s320.djpunjab.is/data/320/50928/298715/Majhe%20Aale%20-%20AP%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50930/300x700/Spaceship-AP-Dhillon.jpg',
+         name : 'War',
+         artist : 'AP Dhillon FT Shinda, Gurinder',
+         album : 'Run-Up Records',
+         released : '23-11-2021',
+         music : 'https://s320.djpunjab.is/data/320/50927/298714/War%20-%20AP%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50930/300x700/Spaceship-AP-Dhillon.jpg',
+         name : 'Desires',
+         artist : 'AP Dhillon FT Shinda, Gurinder',
+         album : 'Run-Up Records',
+         released : '23-11-2021',
+         music : 'https://s320.djpunjab.is/data/320/50926/298713/Desires%20-%20AP%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50930/300x700/Spaceship-AP-Dhillon.jpg',
+         name : 'Against All Odds',
+         artist : 'AP Dhillon FT Shinda, Gurinder',
+         album : 'Run-Up Records',
+         released : '23-11-2021',
+         music : 'https://s320.djpunjab.is/data/320/50925/298712/Against%20All%20Odds%20-%20AP%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50908/300x700/Satisfy-Sidhu-Moose-Wala.jpg',
+         name : 'Satisfy',
+         artist : 'Sidhu Moose Wala Ft. Shooter',
+         album : '5911 Records',
+         released : '17-11-2021',
+         music : 'https://s320.djpunjab.is/data/320/50908/298695/Satisfy%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50901/300x700/Rahiye-Hasde-Khan-Bhaini.jpg',
+         name : 'Rahiye Hasde',
+         artist : 'Khan Bhaini',
+         album : 'Sycostyle Music',
+         released : '16-11-2021',
+         music : 'https://s320.djpunjab.is/data/320/50901/298688/Rahiye%20Hasde%20-%20Khan%20Bhaini.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50899/300x700/Galbaat-Arjan-Dhillon.jpg',
+         name : 'Galbaat',
+         artist : 'Arjan Dhillon',
+         album : 'Brown Studios',
+         released : '15-11-2021',
+         music : 'https://s320.djpunjab.is/data/320/50899/298686/Galbaat%20-%20Arjan%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50889/300x700/Waare-Waare-Navaan-Sandhu.jpg',
+         name : 'Waare Waare',
+         artist : 'Navaan Sandhu',
+         album : 'Navaan Sandhu Music',
+         released : '12-11-2021',
+         music : 'https://s320.djpunjab.is/data/320/50889/298676/Waare%20Waare%20-%20Navaan%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50886/300x700/My-Talk-Nseeb.jpg',
+         name : 'My Talk',
+         artist : 'Nseeb',
+         album : 'NseeB Music',
+         released : '12-11-2021',
+         music : 'https://s320.djpunjab.is/data/320/50886/298673/My%20Talk%20-%20Nseeb.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50864/300x700/Gangwar-Sabi-Bhinder.jpg',
+         name : 'Gangwar',
+         artist : 'Sabi Bhinder',
+         album : 'Jatt Life Studios',
+         released : '08-11-2021',
+         music : 'https://s320.djpunjab.is/data/320/50864/298646/Gangwar%20-%20Sabi%20Bhinder.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50863/300x700/Jawani-Khan-Bhaini.jpg',
+         name : 'Jawani',
+         artist : 'Khan Bhaini',
+         album : 'Khan Bhaini Music',
+         released : '07-11-2021',
+         music : 'https://s320.djpunjab.is/data/320/50863/298645/Jawani%20-%20Khan%20Bhaini.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50861/300x700/Dabde-Ni-Ammy-Virk.jpg',
+         name : 'Dabde Ni',
+         artist : 'Ammy Virk',
+         album : 'Burfi Music',
+         released : '07-11-2021',
+         music : 'https://s320.djpunjab.is/data/320/50861/298643/Dabde%20Ni%20-%20Ammy%20Virk.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50847/300x700/Mashup-Amantej-Hundal.jpg',
+         name : 'Mashup',
+         artist : 'Amantej Hundal',
+         album : 'PB 26 Records',
+         released : '01-11-2021',
+         music : 'https://s320.djpunjab.is/data/320/50847/298629/Mashup%20-%20Amantej%20Hundal.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50792/300x700/Koke-Arjan-Dhillon.jpg',
+         name : 'Koke',
+         artist : 'Arjan Dhillon',
+         album : 'Blue Beat Studios',
+         released : '17-10-2021',
+         music : 'https://s320.djpunjab.is/data/320/50792/298574/Koke%20-%20Arjan%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50786/300x700/Kingpin-Tarsem-Jassar.jpg',
+         name : 'Kingpin',
+         artist : 'Tarsem Jassar',
+         album : 'Vehli Janta Records',
+         released : '15-10-2021',
+         music : 'https://s320.djpunjab.is/data/320/50786/298568/Kingpin%20-%20Tarsem%20Jassar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50785/300x700/Fully-Loaded-Tegi-Pannu.jpg',
+         name : 'Fully Loaded',
+         artist : 'Tegi Pannu',
+         album : 'Collab Creations',
+         released : '15-10-2021',
+         music : 'https://s320.djpunjab.is/data/320/50785/298567/Fully%20Loaded%20-%20Tegi%20Pannu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50775/300x700/12-Bande-Varinder-Brar.jpg',
+         name : '12 Bande',
+         artist : 'Varinder Brar',
+         album : 'Varinder Brar Music',
+         released : '12-10-2021',
+         music : 'https://s320.djpunjab.is/data/320/50775/298559/12%20Bande%20-%20Varinder%20Brar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50770/300x700/Taaz-Navaan-Sandhu.jpg',
+         name : 'Taaz',
+         artist : 'Navaan Sandhu',
+         album : 'Legacy Records',
+         released : '10-10-2021',
+         music : 'https://s320.djpunjab.is/data/320/50770/298554/Taaz%20-%20Navaan%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50753/300x700/Jaan-Arjan-Dhillon.jpg',
+         name : 'Jaan',
+         artist : 'Arjan Dhillon',
+         album : 'Arjan Dhillon Music',
+         released : '05-10-2021',
+         music : 'https://s320.djpunjab.is/data/320/50753/298537/Jaan%20-%20Arjan%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50713/300x700/Stand-Navaan-Sandhu.jpg',
+         name : 'Stand',
+         artist : 'Navaan Sandhu',
+         album : 'Navaan Sandhu Music',
+         released : '27-09-2021',
+         music : 'https://s320.djpunjab.is/data/320/50713/298484/Stand%20-%20Navaan%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50711/300x700/Kalli-Sohni-Arjan-Dhillon.jpg',
+         name : 'Kalli Sohni',
+         artist : 'Arjan Dhillon',
+         album : 'Arjan Dhillon Music',
+         released : '27-09-2021',
+         music : 'https://s320.djpunjab.is/data/320/50711/298479/Kalli%20Sohni%20-%20Arjan%20Dhillon.mp3'
             }
 	
 	

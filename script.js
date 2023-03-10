@@ -22,6 +22,14 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53429/300x700/Rebel-Inderpal-Moga.jpg',
+       name : 'Rebel',
+       artist : 'Inderpal Moga Ft. Fateh',
+       album : 'WinWin Records',
+       released : '10-03-2023',
+       music : 'https://s320.djpunjab.is/data/320/53429/301631/Rebel%20-%20Inderpal%20Moga.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53414/300x700/Dilawara-The-Prophec.jpg',
        name : 'Dilawara',
        artist : 'The Prophec',

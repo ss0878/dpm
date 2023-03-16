@@ -22,6 +22,14 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53470/300x700/Ahhi-Kuj-Khatteya-Gurtaj.jpg',
+       name : 'Ahhi Kuj Khatteya',
+       artist : 'Gurtaj',
+       album : 'The Landers Music',
+       released : '16-03-2023',
+       music : 'https://s320.djpunjab.is/data/320/53470/301679/Ahhi%20Kuj%20Khatteya%20-%20Gurtaj.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53429/300x700/Rebel-Inderpal-Moga.jpg',
        name : 'Rebel',
        artist : 'Inderpal Moga Ft. Fateh',

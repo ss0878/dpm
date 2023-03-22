@@ -23,7 +23,7 @@ let updateTimer;
 const music_list = [
        {
        img : 'https://i1.sndcdn.com/artworks-mf7Xi2K5jBV7DPqH-4VW06g-t500x500.jpg',
-       name : 'Charged Up (Uddna Sapp)',
+       name : 'Charged Up(Uddna Sapp)',
        artist : 'Jxggi',
        album : 'Jxggi Music',
        released : '22-03-2023',

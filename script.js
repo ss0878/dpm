@@ -22,7 +22,7 @@ let updateTimer;
 
 const music_list = [
        {
-       img : 'https://cover.djpunjab.is/53501/300x700/Charged-Up-(Uddna-Sapp)-Jxggi.jpg',
+       img : 'https://i1.sndcdn.com/artworks-mf7Xi2K5jBV7DPqH-4VW06g-t500x500.jpg',
        name : 'Charged Up (Uddna Sapp)',
        artist : 'Jxggi',
        album : 'Jxggi Music',

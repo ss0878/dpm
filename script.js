@@ -22,6 +22,30 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53501/300x700/Charged-Up-(Uddna-Sapp)-Jxggi.jpg',
+       name : 'Charged Up (Uddna Sapp)',
+       artist : 'Jxggi',
+       album : 'Jxggi Music',
+       released : '22-03-2023',
+       music : 'https://s320.djpunjab.is/data/320/53501/301714/Charged%20Up%20(Uddna%20Sapp)%20-%20Jxggi.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53485/300x700/Challa-Gurdas-Maan.jpg',
+       name : 'Challa (2023)',
+       artist : 'Gurdas Maan Ft. Diljit Dosanjh',
+       album : 'Ikky',
+       released : '19-03-2023',
+       music : 'https://s320.djpunjab.is/data/320/53485/301698/Challa%20-%20Gurdas%20Maan.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53484/300x700/Night-Out-Arjan-Dhillon.jpg',
+       name : 'Night Out',
+       artist : 'Arjan Dhillon',
+       album : 'Panj-aab Records',
+       released : '19-03-2023',
+       music : 'https://s320.djpunjab.is/data/320/53484/301697/Night%20Out%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53470/300x700/Ahhi-Kuj-Khatteya-Gurtaj.jpg',
        name : 'Ahhi Kuj Khatteya',
        artist : 'Gurtaj',
@@ -1452,14 +1476,6 @@ const music_list = [
          album : 'Tpz Records',
          released : '09-08-2022',
          music : 'https://s320.djpunjab.is/data/320/52283/300260/Wrangler%20-%20Tarsem%20Jassar.mp3'
-            },
-            {
-         img : 'https://cover.djpunjab.is/52272/300x700/Mulk-Amrinder-Gill.jpg',
-         name : 'Mulk',
-         artist : 'Amrinder Gill',
-         album : 'Rhthm Boyz',
-         released : '06-08-2022',
-         music : 'https://s320.djpunjab.is/data/320/52272/300245/Mulk%20-%20Amrinder%20Gill.mp3'
             },
             {
          img : 'https://cover.djpunjab.is/52268/300x700/Summer-High-AP-Dhillon.jpg',

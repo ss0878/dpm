@@ -22,6 +22,14 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53512/300x700/Thaa-Varinder-Brar.jpg',
+       name : 'Thaa',
+       artist : 'Varinder Brar',
+       album : 'Varinder Brar',
+       released : '25-03-2023',
+       music : 'https://s320.djpunjab.is/data/320/53512/301728/Thaa%20-%20Varinder%20Brar.mp3'
+        },
+	{
        img : 'https://i1.sndcdn.com/artworks-mf7Xi2K5jBV7DPqH-4VW06g-t500x500.jpg',
        name : 'Charged Up(Uddna Sapp)',
        artist : 'Jxggi',

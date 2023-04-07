@@ -2892,9 +2892,137 @@ const music_list = [
          album : 'Sidhu Moose Wala Music',
          released : '17-05-2021',
          music : 'https://s320.djpunjab.is/data/320/50200/297829/Bitch%20Im%20Back%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50190/300x700/Deaf-N-Dumb-Himmat-Sandhu.jpg',
+         name : 'Deaf N Dumb',
+         artist : 'Himmat Sandhu',
+         album : 'Himmat Sandhu Music',
+         released : '13-05-2021',
+         music : 'https://s320.djpunjab.is/data/320/50190/297818/Deaf%20N%20Dumb%20-%20Himmat%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50182/300x700/Teri-Meri-Kulbir-Jhinjer.jpg',
+         name : 'Teri Meri',
+         artist : 'Kulbir Jhinjer',
+         album : 'Juke Dock',
+         released : '12-05-2021',
+         music : 'https://s320.djpunjab.is/data/320/50182/297810/Teri%20Meri%20-%20Kulbir%20Jhinjer.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50180/300x700/Kingdom-Gagan-Kokri.jpg',
+         name : 'Kingdom',
+         artist : 'Gagan Kokri',
+         album : 'Saga Music',
+         released : '12-05-2021',
+         music : 'https://s320.djpunjab.is/data/320/50180/297808/Kingdom%20-%20Gagan%20Kokri.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50132/300x700/Badle-Sukh-Sandhu.jpg',
+         name : 'Badle',
+         artist : 'Sukh Sandhu',
+         album : 'Mavee Records',
+         released : '2-05-2021',
+         music : 'https://s320.djpunjab.is/data/320/50132/297759/Badle%20-%20Sukh%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50123/300x700/Notorious-Wazir-Patar.jpg',
+         name : 'Notorious',
+         artist : 'Wazir Patar',
+         album : 'Wazir Patar Music',
+         released : '1-05-2021',
+         music : 'https://s320.djpunjab.is/data/320/50123/297749/Notorious%20-%20Wazir%20Patar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50111/300x700/Be-Ready-Ninja.jpg',
+         name : 'Be Ready',
+         artist : 'Ninja',
+         album : 'Happy Raikoti',
+         released : '27-04-2021',
+         music : 'https://s320.djpunjab.is/data/320/50111/297737/Be%20Ready%20-%20Ninja.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50110/300x700/Chan-Vekhya-Harnoor.jpg',
+         name : 'Chan Vekhya',
+         artist : 'Harnoor',
+         album : 'Jatt Life Studios',
+         released : '26-04-2021',
+         music : 'https://s320.djpunjab.is/data/320/50110/297736/Chan%20Vekhya%20-%20Harnoor.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50098/300x700/Yaar-Arjan-Dhillon.jpg',
+         name : 'Yaar',
+         artist : 'Arjan Dhillon',
+         album : 'Brown Studios',
+         released : '23-04-2021',
+         music : 'https://s320.djpunjab.is/data/320/50098/297724/Yaar%20-%20Arjan%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50077/300x700/Mitha-Mitha-Amrit-Maan.jpg',
+         name : 'Mitha Mitha',
+         artist : 'Amrit Maan',
+         album : 'Speed Records',
+         released : '17-04-2021',
+         music : 'https://s320.djpunjab.is/data/320/50077/297703/Mitha%20Mitha%20-%20Amrit%20Maan.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50071/300x700/Insane-AP-Dhillon.jpg',
+         name : 'Insane',
+         artist : 'AP Dhillon',
+         album : 'Run-Up Records',
+         released : '17-04-2021',
+         music : 'https://s320.djpunjab.is/data/320/50071/297697/Insane%20-%20AP%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50040/300x700/Pehredaariyan-Himmat-Sandhu.jpg',
+         name : 'Pehredaariyan',
+         artist : 'Himmat Sandhu',
+         album : 'White Hill Music',
+         released : '11-04-2021',
+         music : 'https://s320.djpunjab.is/data/320/50040/297665/Pehredaariyan%20-%20Himmat%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50032/300x700/Agg-Att-Koka-Kehar-Gurnam-Bhullar.jpg',
+         name : 'Agg Att Koka Kehar',
+         artist : 'Gurnam Bhullar',
+         album : 'Desi Junction',
+         released : '09-04-2021',
+         music : 'https://s320.djpunjab.is/data/320/50032/297657/Agg%20Att%20Koka%20Kehar%20-%20Gurnam%20Bhullar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50022/300x700/Few-Days-Karan-Aujla.jpg',
+         name : 'Few Days',
+         artist : 'Karan Aujla',
+         album : 'Rehaan Records',
+         released : '06-04-2021',
+         music : 'https://s320.djpunjab.is/data/320/50022/297647/Few%20Days%20-%20Karan%20Aujla.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50021/300x700/El-Jatt-Varinder-Brar.jpg',
+         name : 'El Jatt',
+         artist : 'Varinder Brar',
+         album : 'Varinder Brar Music',
+         released : '06-04-2021',
+         music : 'https://s320.djpunjab.is/data/320/50021/297646/El%20Jatt%20-%20Varinder%20Brar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50015/300x700/Aapna-Hi-Shehar-Wazir-Patar.jpg',
+         name : 'Aapna Hi Shehar',
+         artist : 'Wazir Patar',
+         album : 'Wazir Patar Music',
+         released : '05-04-2021',
+         music : 'https://s320.djpunjab.is/data/320/50015/297640/Aapna%20Hi%20Shehar%20-%20Wazir%20Patar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/50006/300x700/Chahal-Saab-Gurchahal.jpg',
+         name : 'Chahal Saab',
+         artist : 'Gurchahal',
+         album : 'Sultaan Inc',
+         released : '03-04-2021',
+         music : 'https://s320.djpunjab.is/data/320/50006/297631/Chahal%20Saab%20-%20Gurchahal.mp3'
             }
 	
-	/* https://djpunjab.is/page/newlatest.php?page=158 */
+	/* https://djpunjab.is/page/newlatest.php?page=171 */
 ];
 
 loadTrack(track_index);

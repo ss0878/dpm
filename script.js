@@ -22,6 +22,30 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53573/300x700/Mera-Na-Sidhu-Moose-Wala.jpg',
+       name : 'Mera Na',
+       artist : 'Sidhu Moose Wala',
+       album : 'Steel Banglez',
+       released : '7-4-2023',
+       music : 'https://s320.djpunjab.is/data/320/53573/301799/Mera%20Na%20-%20Sidhu%20Moose%20Wala.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53572/300x700/Routine-Gur-Sidhu.jpg',
+       name : 'Routine',
+       artist : 'Gur Sidhu Ft. Jasmine',
+       album : 'Brown town Music',
+       released : '7-4-2023',
+       music : 'https://s320.djpunjab.is/data/320/53572/301798/Routine%20-%20Gur%20Sidhu.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53561/300x700/Rutbaa-Jordan-Sandhu.jpg',
+       name : 'Rutbaa',
+       artist : 'Jordan Sandhu',
+       album : 'Orrange Studioz',
+       released : '5-4-2023',
+       music : 'https://s320.djpunjab.is/data/320/53561/301787/Rutbaa%20-%20Jordan%20Sandhu.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53512/300x700/Thaa-Varinder-Brar.jpg',
        name : 'Thaa',
        artist : 'Varinder Brar',

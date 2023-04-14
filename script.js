@@ -22,6 +22,70 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53614/300x700/Kise-Naal-Ni-Bolda-Arjan-Dhillon.jpg',
+       name : 'Kise Naal Ni Bolda',
+       artist : 'Arjan Dhillon',
+       album : 'Panj-abb Records',
+       released : '14-4-2023',
+       music : 'https://s320.djpunjab.is/data/320/53614/301840/Kise%20Naal%20Ni%20Bolda%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53608/300x700/Kunndhi-Muchhh-Ammy-Virk.jpg',
+       name : 'Kunndhi Muchhh',
+       artist : 'Ammy Virk',
+       album : 'Rhythm Boyz',
+       released : '12-4-2023',
+       music : 'https://s320.djpunjab.is/data/320/53608/301834/Kunndhi%20Muchhh%20-%20Ammy%20Virk.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53607/300x700/Colourfull-Roban-Bal.jpg',
+       name : 'Colourfull',
+       artist : 'Roban Bal',
+       album : 'Collab Music',
+       released : '12-4-2023',
+       music : 'https://s320.djpunjab.is/data/320/53607/301833/Colourfull%20-%20Roban%20Bal.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53603/300x700/Not-Mine-Pav-Dharia.jpg',
+       name : 'Not Mine',
+       artist : 'Pav Dharia',
+       album : 'Pav Dharia Music',
+       released : '12-4-2023',
+       music : 'https://s320.djpunjab.is/data/320/53603/301829/Not%20Mine%20-%20Pav%20Dharia.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53600/300x700/Showstopper-Jerry.jpg',
+       name : 'Showstopper',
+       artist : 'Jerry',
+       album : 'Jerry Music',
+       released : '12-4-2023',
+       music : 'https://s320.djpunjab.is/data/320/53600/301826/Showstopper%20-%20Jerry.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53596/300x700/Minna-Minna-Garry-Sandhu.jpg',
+       name : 'Minna Minna',
+       artist : 'Garry Sandhu',
+       album : 'Fresh Media Records',
+       released : '10-4-2023',
+       music : 'https://s320.djpunjab.is/data/320/53596/301822/Minna%20Minna%20-%20Garry%20Sandhu.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53584/300x700/Rise-N-Shine-Mankirt-Aulakh.jpg',
+       name : 'Rise N Shine',
+       artist : 'Mankirt Aulakh',
+       album : 'Orrange Studioz',
+       released : '09-4-2023',
+       music : 'https://s320.djpunjab.is/data/320/53584/301810/Rise%20N%20Shine%20-%20Mankirt%20Aulakh.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53575/300x700/Gang-Inderpal-Moga.jpg',
+       name : 'Gang',
+       artist : 'Inderpal Moga',
+       album : 'Chani Nattan',
+       released : '08-4-2023',
+       music : 'https://s320.djpunjab.is/data/320/53575/301801/Gang%20-%20Inderpal%20Moga.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53573/300x700/Mera-Na-Sidhu-Moose-Wala.jpg',
        name : 'Mera Na',
        artist : 'Sidhu Moose Wala',

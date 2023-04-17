@@ -22,6 +22,30 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53633/300x700/Pinda-Aale-G-Sidhu.jpg',
+       name : 'Pinda Aale',
+       artist : 'G Sidhu Ft Naseeb',
+       album : 'G Sidhu Production',
+       released : '17-4-2023',
+       music : 'https://s320.djpunjab.is/data/320/53633/301859/Pinda%20Aale%20-%20G%20Sidhu.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53631/300x700/My-Name-Jassi-Likhari.jpg',
+       name : 'My Name',
+       artist : 'Jassi Likhari',
+       album : 'Jassi Likhari Music',
+       released : '16-4-2023',
+       music : 'https://s320.djpunjab.is/data/320/53631/301857/My%20Name%20-%20Jassi%20Likhari.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53620/300x700/Muchh-ft-Simar-Kaur-Dilpreet-Dhillon.jpg',
+       name : 'Muchh',
+       artist : 'Dilpreet Dhillon Ft Simar Kaur',
+       album : 'Orrange Studioz',
+       released : '15-4-2023',
+       music : 'https://s320.djpunjab.is/data/320/53620/301846/Muchh%20Ft%20Simar%20Kaur%20-%20Dilpreet%20Dhillon.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53614/300x700/Kise-Naal-Ni-Bolda-Arjan-Dhillon.jpg',
        name : 'Kise Naal Ni Bolda',
        artist : 'Arjan Dhillon',

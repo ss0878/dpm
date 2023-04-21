@@ -22,6 +22,14 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53659/300x700/All-Sorted-Guri-Singh.jpg',
+       name : 'All Sorted',
+       artist : 'Guri Singh',
+       album : 'The Landers',
+       released : '21-4-2023',
+       music : 'https://s320.djpunjab.is/data/320/53659/301885/All%20Sorted%20-%20Guri%20Singh.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53633/300x700/Pinda-Aale-G-Sidhu.jpg',
        name : 'Pinda Aale',
        artist : 'G Sidhu Ft Naseeb',

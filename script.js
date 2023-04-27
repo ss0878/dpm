@@ -22,6 +22,30 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53699/300x700/Death-Row-Ninja.jpg',
+       name : 'Death Row',
+       artist : 'Ninja',
+       album : 'Khaki Entertainmnet',
+       released : '27-4-2023',
+       music : 'https://s320.djpunjab.is/data/320/53699/301925/Death%20Row%20-%20Ninja.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53696/300x700/Busy-Getting-Paid-Ammy-Virk.jpg',
+       name : 'Busy Getting Paid',
+       artist : 'Ammy Virk Ft. Divine',
+       album : 'Universal Music India',
+       released : '26-4-2023',
+       music : 'https://s320.djpunjab.is/data/320/53696/301922/Busy%20Getting%20Paid%20-%20Ammy%20Virk.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53695/300x700/Suba-Punjab-Sarrb.jpg',
+       name : 'Suba Punjab',
+       artist : 'Sarrb Ft. Azadd',
+       album : 'Times Music',
+       released : '26-4-2023',
+       music : 'https://s320.djpunjab.is/data/320/53695/301921/Suba%20Punjab%20-%20Sarrb.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53659/300x700/All-Sorted-Guri-Singh.jpg',
        name : 'All Sorted',
        artist : 'Guri Singh',

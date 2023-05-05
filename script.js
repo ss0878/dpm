@@ -22,6 +22,54 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53726/300x700/Waaka-Nirvair-Pannu.jpg',
+       name : 'Waaka',
+       artist : 'Nirvair Pannu',
+       album : 'Juke Dock',
+       released : '5-5-2023',
+       music : 'https://s320.djpunjab.is/data/320/53726/301956/Waaka%20-%20Nirvair%20Pannu.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53722/300x700/Hard-Knock-Life-Deep-Jandu.jpg',
+       name : 'Hard Knock Life',
+       artist : 'Deep Jandu',
+       album : 'True Rebellion Music',
+       released : '4-5-2023',
+       music : 'https://s320.djpunjab.is/data/320/53722/301948/Hard%20Knock%20Life%20-%20Deep%20Jandu.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53723/300x700/Never-Before-Jordan-Sandhu.jpg',
+       name : 'Jutti',
+       artist : 'Jordan Sandhu',
+       album : 'Never Before',
+       released : '4-5-2023',
+       music : 'https://p320.djpunjab.is/data/320/53723/301951/Jutti%20-%20Jordan%20Sandhu.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53723/300x700/Never-Before-Jordan-Sandhu.jpg',
+       name : 'Najaare',
+       artist : 'Jordan Sandhu',
+       album : 'Never Before',
+       released : '4-5-2023',
+       music : 'https://p320.djpunjab.is/data/320/53723/301950/Najaare%20-%20Jordan%20Sandhu.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53723/300x700/Never-Before-Jordan-Sandhu.jpg',
+       name : 'Rank 1',
+       artist : 'Jordan Sandhu',
+       album : 'Never Before',
+       released : '4-5-2023',
+       music : 'https://p320.djpunjab.is/data/320/53723/301949/Rank%201%20-%20Jordan%20Sandhu.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53716/300x700/We-Made-It-Parmish-Verma.jpg',
+       name : 'We Made It',
+       artist : 'Parmish Verma',
+       album : 'Parmish Verma Films',
+       released : '3-5-2023',
+       music : 'https://s320.djpunjab.is/data/320/53716/301942/We%20Made%20It%20-%20Parmish%20Verma.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53699/300x700/Death-Row-Ninja.jpg',
        name : 'Death Row',
        artist : 'Ninja',

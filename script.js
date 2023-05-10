@@ -22,6 +22,46 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53748/300x700/Kath-Ft.-Sidhu-Moose-Wala-AI-Sidhu-Moose-Wala.jpg',
+       name : 'Kath',
+       artist : 'Sidhu Moose Wala Ft. AI',
+       album : 'MRA',
+       released : '10-5-2023',
+       music : 'https://s320.djpunjab.is/data/320/53748/301978/Kath%20Ft.%20Sidhu%20Moose%20Wala%20AI%20-%20Sidhu%20Moose%20Wala.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53745/300x700/Jatta-Ve-The-Landers.jpg',
+       name : 'Jatta Ve',
+       artist : 'The Landers',
+       album : 'Koinage Records',
+       released : '10-5-2023',
+       music : 'https://s320.djpunjab.is/data/320/53745/301975/Jatta%20Ve%20-%20The%20Landers.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53744/300x700/Picture-Perfect-Navaan-Sandhu.jpg',
+       name : 'Picture Perfect',
+       artist : 'Navaan Sandhu',
+       album : 'Navaan Sandhu',
+       released : '9-5-2023',
+       music : 'https://s320.djpunjab.is/data/320/53744/301974/Picture%20Perfect%20-%20Navaan%20Sandhu.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53742/300x700/OMG-Amrit-Maan.jpg',
+       name : 'OMG',
+       artist : 'Amrit Maan',
+       album : 'Amrit Maan',
+       released : '8-5-2023',
+       music : 'https://s320.djpunjab.is/data/320/53742/301972/OMG%20-%20Amrit%20Maan.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53738/300x700/No-F**ks-Given-Freestyle-Sidhu-Moose-Wala.jpg',
+       name : 'No F**ks Given Freestyle',
+       artist : 'Sidhu Moose Wala',
+       album : 'Shah',
+       released : '8-5-2023',
+       music : 'https://s320.djpunjab.is/data/320/53738/301968/No%20F**ks%20Given%20Freestyle%20-%20Sidhu%20Moose%20Wala.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53726/300x700/Waaka-Nirvair-Pannu.jpg',
        name : 'Waaka',
        artist : 'Nirvair Pannu',

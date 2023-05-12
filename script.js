@@ -22,6 +22,54 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53761/300x700/Case-Himmat-Sandhu.jpg',
+       name : 'Case',
+       artist : 'Himmat Sandhu',
+       album : 'Desi Junction',
+       released : '12-5-2023',
+       music : 'https://s320.djpunjab.is/data/320/53761/301991/Case%20-%20Himmat%20Sandhu.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53760/300x700/Bottle-Kaptaan.jpg',
+       name : 'Bottle',
+       artist : 'Kaptaan',
+       album : 'Yellow Chilli Music',
+       released : '12-5-2023',
+       music : 'https://s320.djpunjab.is/data/320/53760/301990/Bottle%20-%20Kaptaan.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53759/300x700/Over-The-Top-Gagan-Kooner.jpg',
+       name : 'Over The Top',
+       artist : 'Gagan Kooner',
+       album : 'Top Notch Studio',
+       released : '12-5-2023',
+       music : 'https://s320.djpunjab.is/data/320/53759/301989/Over%20The%20Top%20-%20Gagan%20Kooner.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53754/300x700/Up-To-Date-Kunwarr.jpg',
+       name : 'Up To Date',
+       artist : 'Kunwarr',
+       album : 'Big Bang Records Pvt Ltd',
+       released : '11-5-2023',
+       music : 'https://s320.djpunjab.is/data/320/53754/301984/Up%20To%20Date%20-%20Kunwarr.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53752/300x700/All-Day-All-Nite-Babbal-Rai.jpg',
+       name : 'All Day All Nite',
+       artist : 'Babbal Rai',
+       album : 'EVP Creations',
+       released : '11-5-2023',
+       music : 'https://s320.djpunjab.is/data/320/53752/301982/All%20Day%20All%20Nite%20-%20Babbal%20Rai.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53750/300x700/Mann-Di-Ni-Tu-Zehr-Vibe.jpg',
+       name : 'Mann Di Ni Tu',
+       artist : 'Zehr Vibe',
+       album : 'Jatt Life Studios',
+       released : '11-5-2023',
+       music : 'https://s320.djpunjab.is/data/320/53750/301980/Mann%20Di%20Ni%20Tu%20-%20Zehr%20Vibe.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53748/300x700/Kath-Ft.-Sidhu-Moose-Wala-AI-Sidhu-Moose-Wala.jpg',
        name : 'Kath',
        artist : 'Sidhu Moose Wala Ft. AI',

@@ -22,6 +22,30 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://lq.djjohal.com/covers/729913/Hussan%20Illahi.jpg',
+       name : 'Hussan Illahi',
+       artist : 'Wazir Patar',
+       album : 'Back To School',
+       released : '12-5-2023',
+       music : 'https://hd1.djjohal.com/320/516203/Hussan%20Illahi%20-%20Wazir%20Patar%20(DJJOhAL.Com).mp3'
+        },
+	{
+       img : 'https://lq.djjohal.com/covers/729913/Hussan%20Illahi.jpg',
+       name : 'Hustle Evuryday',
+       artist : 'Wazir Patar',
+       album : 'Back To School',
+       released : '12-5-2023',
+       music : 'https://hd1.djjohal.com/320/516204/Hustle%20Evuryday%20-%20Wazir%20Patar%20(DJJOhAL.Com).mp3'
+        },
+	{
+       img : 'https://lq.djjohal.com/covers/729913/Hussan%20Illahi.jpg',
+       name : 'Ind - Suzuki',
+       artist : 'Wazir Patar',
+       album : 'Back To School',
+       released : '12-5-2023',
+       music : 'https://hd1.djjohal.com/320/516205/Ind%20%20Suzuki%20-%20Wazir%20Patar%20(DJJOhAL.Com).mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53761/300x700/Case-Himmat-Sandhu.jpg',
        name : 'Case',
        artist : 'Himmat Sandhu',

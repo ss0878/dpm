@@ -22,6 +22,22 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53776/300x700/Sly-Pav-Dharia.jpg',
+       name : 'Sly',
+       artist : 'Pav Dharia',
+       album : 'Pav Dharia',
+       released : '16-5-2023',
+       music : 'https://s320.djpunjab.is/data/320/53776/302009/Sly%20-%20Pav%20Dharia.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53772/300x700/Baddie-Lakhi-Ghuman.jpg',
+       name : 'Baddie',
+       artist : 'Lakhi Ghuman',
+       album : 'Noble Music',
+       released : '15-5-2023',
+       music : 'https://s320.djpunjab.is/data/320/53772/302002/Baddie%20-%20Lakhi%20Ghuman.mp3'
+        },
+	{
        img : 'https://lq.djjohal.com/covers/729913/Hussan%20Illahi.jpg',
        name : 'Hussan Illahi',
        artist : 'Wazir Patar',

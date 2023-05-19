@@ -22,6 +22,22 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53790/300x700/Stick-Talk-Shooter-Kahlon.jpg',
+       name : 'Stick Talk',
+       artist : 'Shooter Kahlon',
+       album : 'Saga Music',
+       released : '18-5-2023',
+       music : 'https://s320.djpunjab.is/data/320/53790/302023/Stick%20Talk%20-%20Shooter%20Kahlon.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53782/300x700/Cloud-9-Maninder-Buttar.jpg',
+       name : 'Cloud 9',
+       artist : 'Maninder Buttar',
+       album : 'Maninder Buttar',
+       released : '18-5-2023',
+       music : 'https://s320.djpunjab.is/data/320/53782/302015/Cloud%209%20-%20Maninder%20Buttar.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53776/300x700/Sly-Pav-Dharia.jpg',
        name : 'Sly',
        artist : 'Pav Dharia',

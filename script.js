@@ -406,6 +406,30 @@ const music_list = [
        music : 'https://s320.djpunjab.is/data/320/53512/301728/Thaa%20-%20Varinder%20Brar.mp3'
         },
 	{
+       img : 'https://cover.djpunjab.is/53503/300x700/Intro-EP-Pavitar-Lassoi.jpg',
+       name : 'Bhabiye',
+       artist : 'Pavitar Lassoi',
+       album : 'Intro EP',
+       released : '23-03-2023',
+       music : 'https://p320.djpunjab.is/data/320/53503/301716/Bhabiye%20-%20Pavitar%20Lassoi.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53503/300x700/Intro-EP-Pavitar-Lassoi.jpg',
+       name : 'Intro',
+       artist : 'Pavitar Lassoi',
+       album : 'Intro EP',
+       released : '23-03-2023',
+       music : 'https://p320.djpunjab.is/data/320/53503/301717/Intro%20-%20Pavitar%20Lassoi.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53503/300x700/Intro-EP-Pavitar-Lassoi.jpg',
+       name : 'Slip',
+       artist : 'Pavitar Lassoi',
+       album : 'Intro EP',
+       released : '23-03-2023',
+       music : 'https://p320.djpunjab.is/data/320/53503/301717/Intro%20-%20Pavitar%20Lassoi.mp3'
+        },
+	{
        img : 'https://i1.sndcdn.com/artworks-mf7Xi2K5jBV7DPqH-4VW06g-t500x500.jpg',
        name : 'Charged Up(Uddna Sapp)',
        artist : 'Jxggi',

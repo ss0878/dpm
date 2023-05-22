@@ -22,20 +22,60 @@ let updateTimer;
 
 const music_list = [
        {
-       img : 'https://cover.djpunjab.is/53790/300x700/Stick-Talk-Shooter-Kahlon.jpg',
-       name : 'Stick Talk',
-       artist : 'Shooter Kahlon',
-       album : 'Saga Music',
-       released : '18-5-2023',
-       music : 'https://s320.djpunjab.is/data/320/53790/302023/Stick%20Talk%20-%20Shooter%20Kahlon.mp3'
+       img : 'https://cover.djpunjab.is/53792/300x700/Still-Rollin-Shubh.jpg',
+       name : 'Cheques',
+       artist : 'Shubh',
+       album : 'Still Rollin',
+       released : '19-5-2023',
+       music : 'https://p320.djpunjab.is/data/320/53792/302025/Cheques%20-%20Shubh.mp3'
         },
 	{
-       img : 'https://cover.djpunjab.is/53782/300x700/Cloud-9-Maninder-Buttar.jpg',
-       name : 'Cloud 9',
-       artist : 'Maninder Buttar',
-       album : 'Maninder Buttar',
-       released : '18-5-2023',
-       music : 'https://s320.djpunjab.is/data/320/53782/302015/Cloud%209%20-%20Maninder%20Buttar.mp3'
+       img : 'https://cover.djpunjab.is/53792/300x700/Still-Rollin-Shubh.jpg',
+       name : 'Dior',
+       artist : 'Shubh',
+       album : 'Still Rollin',
+       released : '19-5-2023',
+       music : 'https://p320.djpunjab.is/data/320/53792/302026/Dior%20-%20Shubh.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53792/300x700/Still-Rollin-Shubh.jpg',
+       name : 'Ice',
+       artist : 'Shubh',
+       album : 'Still Rollin',
+       released : '19-5-2023',
+       music : 'https://p320.djpunjab.is/data/320/53792/302027/Ice%20-%20Shubh.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53792/300x700/Still-Rollin-Shubh.jpg',
+       name : 'OG',
+       artist : 'Shubh',
+       album : 'Still Rollin',
+       released : '19-5-2023',
+       music : 'https://p320.djpunjab.is/data/320/53792/302028/OG%20-%20Shubh.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53792/300x700/Still-Rollin-Shubh.jpg',
+       name : 'Ruthless',
+       artist : 'Shubh',
+       album : 'Still Rollin',
+       released : '19-5-2023',
+       music : 'https://p320.djpunjab.is/data/320/53792/302029/Ruthless%20-%20Shubh.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53792/300x700/Still-Rollin-Shubh.jpg',
+       name : 'Still Rollin',
+       artist : 'Shubh',
+       album : 'Still Rollin',
+       released : '19-5-2023',
+       music : 'https://p320.djpunjab.is/data/320/53792/302030/Still%20Rollin%20-%20Shubh.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53792/300x700/Still-Rollin-Shubh.jpg',
+       name : 'The Flow (Outro)',
+       artist : 'Shubh',
+       album : 'Still Rollin',
+       released : '19-5-2023',
+       music : 'https://p320.djpunjab.is/data/320/53792/302031/The%20Flow%20(Outro)%20-%20Shubh.mp3'
         },
 	{
        img : 'https://cover.djpunjab.is/53776/300x700/Sly-Pav-Dharia.jpg',

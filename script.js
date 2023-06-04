@@ -22,6 +22,14 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://lq.djjohal.com/covers/730028/Taur.jpg',
+       name : 'Taur',
+       artist : 'Dilpreet Dhillon',
+       album : 'Dilpreet Dhillon',
+       released : '01-6-2023',
+       music : 'https://hd1.djjohal.com/320/516383/Taur%20-%20Dilpreet%20Dhillon%20(DJJOhAL.Com).mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53792/300x700/Still-Rollin-Shubh.jpg',
        name : 'Cheques',
        artist : 'Shubh',

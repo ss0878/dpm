@@ -22,14 +22,6 @@ let updateTimer;
 
 const music_list = [
        {
-       img : 'https://i.scdn.co/image/ab67616d0000b273a90a3cbabaee190af2f972bf',
-       name : 'Obsessed',
-       artist : 'Riar Saab',
-       album : 'Riar Saab',
-       released : '20-5-2023',
-       music : 'https://audio.jukehost.co.uk/heRQtmUYIbNr6AcBjhoJRBwyyMuDAJE4'
-        },
-	{
        img : 'https://cover.djpunjab.is/53792/300x700/Still-Rollin-Shubh.jpg',
        name : 'Cheques',
        artist : 'Shubh',
@@ -84,6 +76,14 @@ const music_list = [
        album : 'Still Rollin',
        released : '19-5-2023',
        music : 'https://p320.djpunjab.is/data/320/53792/302031/The%20Flow%20(Outro)%20-%20Shubh.mp3'
+        },
+	{
+       img : 'https://i.scdn.co/image/ab67616d0000b273a90a3cbabaee190af2f972bf',
+       name : 'Obsessed',
+       artist : 'Riar Saab',
+       album : 'Riar Saab',
+       released : '18-5-2023',
+       music : 'https://audio.jukehost.co.uk/heRQtmUYIbNr6AcBjhoJRBwyyMuDAJE4'
         },
 	{
        img : 'https://cover.djpunjab.is/53776/300x700/Sly-Pav-Dharia.jpg',

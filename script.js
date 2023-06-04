@@ -22,6 +22,14 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://i.scdn.co/image/ab67616d0000b273a90a3cbabaee190af2f972bf',
+       name : 'Obsessed',
+       artist : 'Riar Saab',
+       album : 'Riar Saab',
+       released : '20-5-2023',
+       music : 'https://audio.jukehost.co.uk/heRQtmUYIbNr6AcBjhoJRBwyyMuDAJE4'
+        },
+	{
        img : 'https://cover.djpunjab.is/53792/300x700/Still-Rollin-Shubh.jpg',
        name : 'Cheques',
        artist : 'Shubh',

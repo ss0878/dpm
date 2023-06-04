@@ -1054,6 +1054,14 @@ const music_list = [
         music : 'https://s320.djpunjab.is/data/320/52965/301056/Poh%20Da%20Mahina%20-%20Kirat%20Gill.mp3'
            },
           {
+        img : 'https://i.imgur.com/KwqGmqO.jpg',
+        name : 'LoveSick',
+        artist : 'Sidhu Moosewala x Noor Jehan',
+        album : 'Sidhu Moosewala',
+        released : '30-12-2022',
+        music : 'https://audio.jukehost.co.uk/AKXxfTNSamBHPNLYbGwxnRdMYs3XQMID'
+           },
+          {
         img : 'https://cover.djpunjab.is/52964/300x700/Hirni-Navaan-Sandhu.jpg',
         name : 'Hirni',
         artist : 'Navaan Sandhu',

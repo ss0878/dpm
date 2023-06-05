@@ -30,6 +30,38 @@ const music_list = [
        music : 'https://hd1.djjohal.com/320/516383/Taur%20-%20Dilpreet%20Dhillon%20(DJJOhAL.Com).mp3'
         },
 	{
+       img : 'https://cover.djpunjab.is/53845/300x300/SWITCHIN-LANES-Tegi-Pannu.jpg',
+       name : 'On Sight',
+       artist : 'Tegi Pannu',
+       album : 'Tegi Pannu',
+       released : '27-5-2023',
+       music : 'https://p320.djpunjab.is/data/320/53845/302111/ON%20SIGHT%20-%20Tegi%20Pannu.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53845/300x300/SWITCHIN-LANES-Tegi-Pannu.jpg',
+       name : 'SWITCHIN LANES',
+       artist : 'Tegi Pannu',
+       album : 'Tegi Pannu',
+       released : '27-5-2023',
+       music : 'https://p320.djpunjab.is/data/320/53845/302112/SWITCHIN%20LANES%20-%20Tegi%20Pannu.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53845/300x300/SWITCHIN-LANES-Tegi-Pannu.jpg',
+       name : 'MAKING MOVES',
+       artist : 'Tegi Pannu',
+       album : 'Tegi Pannu',
+       released : '27-5-2023',
+       music : 'https://p320.djpunjab.is/data/320/53845/302109/MAKING%20MOVES%20-%20Tegi%20Pannu.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53845/300x300/SWITCHIN-LANES-Tegi-Pannu.jpg',
+       name : 'Links',
+       artist : 'Tegi Pannu',
+       album : 'Tegi Pannu',
+       released : '27-5-2023',
+       music : 'https://p320.djpunjab.is/data/320/53845/302108/LINKS%20-%20Tegi%20Pannu.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53792/300x700/Still-Rollin-Shubh.jpg',
        name : 'Cheques',
        artist : 'Shubh',

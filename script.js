@@ -166,6 +166,14 @@ const music_list = [
        music : 'https://hd1.djjohal.com/320/516205/Ind%20%20Suzuki%20-%20Wazir%20Patar%20(DJJOhAL.Com).mp3'
         },
 	{
+       img : 'https://i.scdn.co/image/ab67616d0000b273a7d54abae927c5e6091396f4',
+       name : 'Sirhind Hood',
+       artist : 'Azaad 4L',
+       album : 'Azaad 4L',
+       released : '12-5-2023',
+       music : 'https://audio.jukehost.co.uk/NPXoZhufhOnUTFlvNcK8BsbzqQyZbggb'
+        },
+	{
        img : 'https://cover.djpunjab.is/53761/300x700/Case-Himmat-Sandhu.jpg',
        name : 'Case',
        artist : 'Himmat Sandhu',

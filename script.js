@@ -3513,8 +3513,6 @@ function reset(){
     curr_time.textContent = "00:00";
     total_duration.textContent = "00:00";
     seek_slider.value = 0;
-    playTrack();
-    notification();
 }
 function randomTrack(){
     isRandom ? pauseRandom() : playRandom(); 
@@ -3619,21 +3617,17 @@ if ( 'mediaSession' in navigator ) {
   
 	navigator.mediaSession.setActionHandler('pause', () => {
 	  pauseTrack();
-      notification();
 	});
 	navigator.mediaSession.setActionHandler('play', () => {
 	  playTrack();
-      notification();
 	});
 	navigator.mediaSession.setActionHandler('previoustrack', () => {
 	  //find the index of the audio src in our srcs array to know what src to set next
 	  prevTrack();
-      notification();
 	});
 	navigator.mediaSession.setActionHandler('nexttrack', () => {
 	  //find the index of the audio src in our srcs array to know what src to set next
 	  nextTrack();
-      notification();
 	});
 	let defaultSkipTime = 5; /* Time to skip in seconds by default */
 
@@ -3641,14 +3635,12 @@ if ( 'mediaSession' in navigator ) {
   	const skipTime = event.seekOffset || defaultSkipTime;
   	curr_track.currentTime = Math.max(curr_track.currentTime - skipTime, 0);
   	updatePositionState();
-      notification();
 	});
 
 	navigator.mediaSession.setActionHandler('seekforward', function(event) {
   	const skipTime = event.seekOffset || defaultSkipTime;
   	curr_track.currentTime = Math.min(curr_track.currentTime + skipTime, curr_track.duration);
   	updatePositionState();
-      notification();
 	});
   }
 }

@@ -2,6 +2,8 @@ let now_playing = document.querySelector('.now-playing');
 let track_art = document.querySelector('.track-art');
 let track_name = document.querySelector('.track-name');
 let track_artist = document.querySelector('.track-artist');
+let track_released = document.querySelector('.track-released');
+
 
 let playpause_btn = document.querySelector('.playpause-track');
 let next_btn = document.querySelector('.next-track');
@@ -3477,6 +3479,7 @@ function loadTrack(track_index){
     track_art.style.backgroundImage = "url(" + music_list[track_index].img + ")";
     track_name.textContent = music_list[track_index].name;
     track_artist.textContent = music_list[track_index].artist;
+    track_released.textContent = music_list[track_index].released;
     now_playing.textContent = "Playing music " + (track_index + 1) + " of " + music_list.length;
 
     updateTimer = setInterval(setUpdate, 1000);
@@ -3593,13 +3596,15 @@ function setUpdate(){
     }
 }
 function notification(){
+    sessionimg = music_list[track_index].img;
 if ( 'mediaSession' in navigator ) {
 	navigator.mediaSession.metadata = new MediaMetadata({
 	  title: track_name.textContent,
-		  artist: track_artist.textContent,
+		artist: track_artist.textContent,
 		album: 'Dope Music',
+        
           	artwork: [
-            { src: 'https://cdn-icons-png.flaticon.com/512/9280/9280598.png', sizes: 'auto', type: 'image/png' }/*,
+            { src: sessionimg, sizes: 'auto', type: 'auto' }/*,
                   { src: 'https://www.dropbox.com/s/9s99pr2e5lv2b4j/1.png?dl=1', sizes: '128x128', type: 'image/png' },
                    { src: 'https://assets.codepen.io/4358584/1.300.jpg', sizes: '192x192', type: 'image/png' },
                    { src: 'https://assets.codepen.io/4358584/1.300.jpg', sizes: '256x256', type: 'image/png' },

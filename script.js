@@ -3513,6 +3513,8 @@ function reset(){
     curr_time.textContent = "00:00";
     total_duration.textContent = "00:00";
     seek_slider.value = 0;
+    playTrack();
+    notification();
 }
 function randomTrack(){
     isRandom ? pauseRandom() : playRandom(); 

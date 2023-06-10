@@ -41,22 +41,6 @@ const music_list = [
         },
 	{
        img : 'https://pagaljatt.com/siteuploads/thumb/sft2/701_7.webp',
-       name : 'MOMENTS',
-       artist : 'Gurinder Gill',
-       album : 'Hard Choices',
-       released : 'Jun-10-2023',
-       music : 'https://pagaljatt.com/files/download/type/320/id/699'
-        },
-	{
-       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/701_7.webp',
-       name : 'LONESTAR',
-       artist : 'Gurinder Gill',
-       album : 'Hard Choices',
-       released : 'Jun-10-2023',
-       music : 'https://pagaljatt.com/files/download/type/320/id/698'
-        },
-	{
-       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/701_7.webp',
        name : 'FOREVER',
        artist : 'Gurinder Gill',
        album : 'Hard Choices',

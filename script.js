@@ -24,6 +24,14 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/701_7.webp',
+       name : 'WAKE UP',
+       artist : 'Gurinder Gill',
+       album : 'Hard Choices',
+       released : 'Jun-10-2023',
+       music : 'https://pagaljatt.com/files/download/type/320/id/701'
+        },
+	{
        img : 'https://cover.djpunjab.is/53886/300x700/Pagh-Naal-Fateh.jpg',
        name : 'Pagh Naal',
        artist : 'Fateh',

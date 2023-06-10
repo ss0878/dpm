@@ -80,6 +80,30 @@ const music_list = [
        music : 'https://pagaljatt.com/files/download/type/320/id/695'
         },
 	{
+       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/706_7.webp',
+       name : 'Stolen',
+       artist : 'Harman Kang',
+       album : 'I Love You But Im Not In Love',
+       released : 'Jun-10-2023',
+       music : 'https://pagaljatt.com/files/download/type/320/id/706'
+        },
+	{
+       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/706_7.webp',
+       name : 'Flight Mode',
+       artist : 'Harman Kang',
+       album : 'I Love You But Im Not In Love',
+       released : 'Jun-10-2023',
+       music : 'https://pagaljatt.com/files/download/type/320/id/705'
+        },
+	{
+       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/706_7.webp',
+       name : 'FROZEN FEELINGS',
+       artist : 'Harman Kang',
+       album : 'I Love You But Im Not In Love',
+       released : 'Jun-10-2023',
+       music : 'https://pagaljatt.com/files/download/type/320/id/704'
+        },
+	{
        img : 'https://cover.djpunjab.is/53886/300x700/Pagh-Naal-Fateh.jpg',
        name : 'Pagh Naal',
        artist : 'Fateh',

@@ -24,11 +24,19 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53869/300x700/Mumble-Nirvair-Pannu.jpg',
+       name : 'Mumble',
+       artist : 'Nirvair Pannu',
+       album : 'Nirvair Pannu',
+       released : 'Jun-7-2023',
+       music : 'https://s320.djpunjab.is/data/320/53869/302137/Mumble%20-%20Nirvair%20Pannu.mp3'
+        },
+	{
        img : 'https://lq.djjohal.com/covers/730028/Taur.jpg',
        name : 'Taur',
        artist : 'Dilpreet Dhillon',
        album : 'Dilpreet Dhillon',
-       released : '01-6-2023',
+       released : 'Jun-1-2023',
        music : 'https://hd1.djjohal.com/320/516383/Taur%20-%20Dilpreet%20Dhillon%20(DJJOhAL.Com).mp3'
         },
 	{

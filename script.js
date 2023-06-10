@@ -32,6 +32,54 @@ const music_list = [
        music : 'https://pagaljatt.com/files/download/type/320/id/701'
         },
 	{
+       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/701_7.webp',
+       name : 'NETWORK',
+       artist : 'Gurinder Gill',
+       album : 'Hard Choices',
+       released : 'Jun-10-2023',
+       music : 'https://pagaljatt.com/files/download/type/320/id/700'
+        },
+	{
+       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/701_7.webp',
+       name : 'MOMENTS',
+       artist : 'Gurinder Gill',
+       album : 'Hard Choices',
+       released : 'Jun-10-2023',
+       music : 'https://pagaljatt.com/files/download/type/320/id/699'
+        },
+	{
+       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/701_7.webp',
+       name : 'LONESTAR',
+       artist : 'Gurinder Gill',
+       album : 'Hard Choices',
+       released : 'Jun-10-2023',
+       music : 'https://pagaljatt.com/files/download/type/320/id/698'
+        },
+	{
+       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/701_7.webp',
+       name : 'FOREVER',
+       artist : 'Gurinder Gill',
+       album : 'Hard Choices',
+       released : 'Jun-10-2023',
+       music : 'https://pagaljatt.com/files/download/type/320/id/697'
+        },
+	{
+       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/701_7.webp',
+       name : 'BREATHE',
+       artist : 'Gurinder Gill',
+       album : 'Hard Choices',
+       released : 'Jun-10-2023',
+       music : 'https://pagaljatt.com/files/download/type/320/id/696'
+        },
+	{
+       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/701_7.webp',
+       name : '4 BAKYIAN',
+       artist : 'Gurinder Gill',
+       album : 'Hard Choices',
+       released : 'Jun-10-2023',
+       music : 'https://pagaljatt.com/files/download/type/320/id/695'
+        },
+	{
        img : 'https://cover.djpunjab.is/53886/300x700/Pagh-Naal-Fateh.jpg',
        name : 'Pagh Naal',
        artist : 'Fateh',

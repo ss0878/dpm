@@ -24,12 +24,44 @@ let updateTimer;
 
 const music_list = [
        {
+       img : 'https://cover.djpunjab.is/53886/300x700/Pagh-Naal-Fateh.jpg',
+       name : 'Pagh Naal',
+       artist : 'Fateh',
+       album : 'Fateh',
+       released : 'Jun-9-2023',
+       music : 'https://s320.djpunjab.is/data/320/53886/302158/Pagh%20Naal%20-%20Fateh.mp3'
+        },
+	{
+       img : 'https://lq.djjohal.com/covers/730072/I%20Don%60t%20Care.jpg',
+       name : 'I Don`t Care',
+       artist : 'Guri Singh',
+       album : 'The Landers',
+       released : 'Jun-7-2023',
+       music : 'https://hd1.djjohal.com/320/516427/I%20Dont%20Care%20-%20Guri%20Singh%20(DJJOhAL.Com).mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53872/300x700/AFLATOON-Jass-Bajwa.jpg',
+       name : 'Sarpanchi',
+       artist : 'Jass Bajwa',
+       album : 'AFLATOON',
+       released : 'Jun-7-2023',
+       music : 'https://p320.djpunjab.is/data/320/53872/302143/Sarpanchi%20-%20Jass%20Bajwa.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53869/300x700/Mumble-Nirvair-Pannu.jpg',
        name : 'Mumble',
        artist : 'Nirvair Pannu',
        album : 'Nirvair Pannu',
        released : 'Jun-7-2023',
        music : 'https://s320.djpunjab.is/data/320/53869/302137/Mumble%20-%20Nirvair%20Pannu.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53863/300x700/Snack-G.-Sidhu.jpg',
+       name : 'Snack',
+       artist : 'G. Sidhu',
+       album : 'G. Sidhu',
+       released : 'Jun-6-2023',
+       music : 'https://s320.djpunjab.is/data/320/53863/302131/Snack%20-%20G.%20Sidhu.mp3'
         },
 	{
        img : 'https://lq.djjohal.com/covers/730028/Taur.jpg',

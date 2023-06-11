@@ -97,14 +97,6 @@ const music_list = [
         },
 	{
        img : 'https://pagaljatt.com/siteuploads/thumb/sft2/706_7.webp',
-       name : 'Flight Mode',
-       artist : 'Harman Kang',
-       album : 'I Love You But Im Not In Love',
-       released : 'Jun-10-2023',
-       music : 'https://pagaljatt.com/files/download/type/320/id/705'
-        },
-	{
-       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/706_7.webp',
        name : 'FROZEN FEELINGS',
        artist : 'Harman Kang',
        album : 'I Love You But Im Not In Love',

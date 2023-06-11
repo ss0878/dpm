@@ -23,7 +23,31 @@ let updateTimer;
 
 
 const music_list = [
-       {
+	{
+       img : 'https://i1.sndcdn.com/artworks-sQnBDfz3KnKTDlIJ-0D0NtA-t500x500.jpg',
+       name : 'Maula Jatt',
+       artist : 'Rajvatan',
+       album : 'Rajvatan',
+       released : 'Jun-11-2023',
+       music : 'https://audio.jukehost.co.uk/eHqL0Ec5ED4ZxE3q0ELL4XS516BOzMrI'
+        },
+	{
+       img : 'https://i.scdn.co/image/ab67616d0000b273d630d965be637388906c349e',
+       name : 'Clique',
+       artist : 'Rajvatan',
+       album : 'Rajvatan',
+       released : 'Jun-11-2023',
+       music : 'https://audio.jukehost.co.uk/rmjC5Yrqt8Q8F96HYyspR1o61q6DZUIt'
+        },
+	{
+       img : 'https://source.boomplaymusic.com/group10/M00/12/17/9c00732816fa4cdf9209850bf2e7814a_464_464.jpg',
+       name : 'Guroor',
+       artist : 'Rajvatan',
+       album : 'Rajvatan',
+       released : 'Jun-11-2023',
+       music : 'https://audio.jukehost.co.uk/s8xsjBA0RpjbvlFakbtTzW9Tl0qlXYr8'
+        },
+	{
        img : 'https://pagaljatt.com/siteuploads/thumb/sft2/701_7.webp',
        name : 'WAKE UP',
        artist : 'Gurinder Gill',

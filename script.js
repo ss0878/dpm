@@ -24,6 +24,14 @@ let updateTimer;
 
 const music_list = [
 	{
+       img : 'https://cover.djpunjab.is/53918/300x700/True-Stories-AP-Dhillon.jpg',
+       name : 'True Stories',
+       artist : 'AP Dhillon',
+       album : 'AP Dhillon',
+       released : 'Jun-15-2023',
+       music : 'https://s320.djpunjab.is/data/320/53918/302191/True%20Stories%20-%20AP%20Dhillon.mp3'
+        },
+	{
        img : 'https://i1.sndcdn.com/artworks-sQnBDfz3KnKTDlIJ-0D0NtA-t500x500.jpg',
        name : 'Maula Jatt',
        artist : 'Rajvatan',

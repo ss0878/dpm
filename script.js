@@ -24,6 +24,14 @@ let updateTimer;
 
 const music_list = [
 	{
+       img : 'https://cover.djpunjab.is/53946/300x700/WHIPZ-Garry-Sandhu.jpg',
+       name : 'WHIPZ',
+       artist : 'Garry Sandhu',
+       album : 'Fresh Media Records',
+       released : 'Jun-23-2023',
+       music : 'https://s320.djpunjab.is/data/320/53946/302242/WHIPZ%20-%20Garry%20Sandhu.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53918/300x700/True-Stories-AP-Dhillon.jpg',
        name : 'True Stories',
        artist : 'AP Dhillon',

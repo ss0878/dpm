@@ -32,6 +32,38 @@ const music_list = [
        music : 'https://s320.djpunjab.is/data/320/53965/302261/Punjab%20Intro%20-%20Arjan%20Dhillon.mp3'
         },
 	{
+       img : 'https://cover.djpunjab.is/53960/300x700/Koke-Raj-Bhullar.jpg',
+       name : 'Koke',
+       artist : 'Raj Bhullar',
+       album : 'Jatt Land Music',
+       released : 'Jun-26-2023',
+       music : 'https://s320.djpunjab.is/data/320/53960/302256/Koke%20-%20Raj%20Bhullar.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53956/300x700/Whenever-Amrit-Maan.jpg',
+       name : 'Whenever',
+       artist : 'Amrit Maan',
+       album : 'Desi Crew',
+       released : 'Jun-25-2023',
+       music : 'https://s320.djpunjab.is/data/320/53956/302252/Whenever%20-%20Amrit%20Maan.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53953/300x700/Bad-Talk-Navjeet.jpg',
+       name : 'Bad Talk',
+       artist : 'Navjeet',
+       album : 'Times Music',
+       released : 'Jun-23-2023',
+       music : 'https://s320.djpunjab.is/data/320/53953/302249/Bad%20Talk%20-%20Navjeet.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53951/300x700/Dhoor-Ezu.jpg',
+       name : 'Dhoor',
+       artist : 'Ezu',
+       album : 'Vip Records',
+       released : 'Jun-23-2023',
+       music : 'https://s320.djpunjab.is/data/320/53951/302247/Dhoor%20-%20Ezu.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53946/300x700/WHIPZ-Garry-Sandhu.jpg',
        name : 'WHIPZ',
        artist : 'Garry Sandhu',

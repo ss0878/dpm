@@ -48,14 +48,6 @@ const music_list = [
        music : 'https://s320.djpunjab.is/data/320/53960/302256/Koke%20-%20Raj%20Bhullar.mp3'
         },
 	{
-       img : 'https://cover.djpunjab.is/53956/300x700/Whenever-Amrit-Maan.jpg',
-       name : 'Whenever',
-       artist : 'Amrit Maan',
-       album : 'Desi Crew',
-       released : 'Jun-25-2023',
-       music : 'https://s320.djpunjab.is/data/320/53956/302252/Whenever%20-%20Amrit%20Maan.mp3'
-        },
-	{
        img : 'https://cover.djpunjab.is/53953/300x700/Bad-Talk-Navjeet.jpg',
        name : 'Bad Talk',
        artist : 'Navjeet',

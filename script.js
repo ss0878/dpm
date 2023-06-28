@@ -24,12 +24,20 @@ let updateTimer;
 
 const music_list = [
 	{
-       img : 'https://cover.djpunjab.is/53965/300x700/Punjab-Intro-Arjan-Dhillon.jpg',
-       name : 'Punjab Intro',
+       img : 'https://cover.djpunjab.is/53972/300x700/Defender-Deep-Karan.jpg',
+       name : 'Defender',
+       artist : 'Deep Karan',
+       album : 'Deep Karan Music',
+       released : 'Jun-28-2023',
+       music : 'https://s320.djpunjab.is/data/320/53972/302268/Defender%20-%20Deep%20Karan.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53970/300x700/ILzaam-Arjan-Dhillon.jpg',
+       name : 'ILzaam',
        artist : 'Arjan Dhillon',
        album : 'Panj-aab Records',
-       released : 'Jun-26-2023',
-       music : 'https://s320.djpunjab.is/data/320/53965/302261/Punjab%20Intro%20-%20Arjan%20Dhillon.mp3'
+       released : 'Jun-28-2023',
+       music : 'https://s320.djpunjab.is/data/320/53970/302266/ILzaam%20-%20Arjan%20Dhillon.mp3'
         },
 	{
        img : 'https://cover.djpunjab.is/53960/300x700/Koke-Raj-Bhullar.jpg',

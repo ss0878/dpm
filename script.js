@@ -24,6 +24,14 @@ let updateTimer;
 
 const music_list = [
 	{
+       img : 'https://i.imgur.com/9lLkkQo.jpg',
+       name : 'Stay Alive',
+       artist : 'Azaad 4L',
+       album : 'Azaad 4L',
+       released : 'Jun-29-2023',
+       music : 'https://audio.jukehost.co.uk/nHuevBa1hiLa2P81LfHdG9kyLpaAq1Bx'
+        },
+	{
        img : 'https://cover.djpunjab.is/53977/300x700/Unexpected-Ninja.jpg',
        name : 'Unexpected',
        artist : 'Ninja',

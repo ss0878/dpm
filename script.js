@@ -24,6 +24,22 @@ let updateTimer;
 
 const music_list = [
 	{
+       img : 'https://cover.djpunjab.is/53977/300x700/Unexpected-Ninja.jpg',
+       name : 'Unexpected',
+       artist : 'Ninja',
+       album : 'Street Gang Music',
+       released : 'Jun-29-2023',
+       music : 'https://s320.djpunjab.is/data/320/53977/302288/Unexpected%20-%20Ninja.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53974/300x700/Face-2-Face-Khan-Bhaini.jpg',
+       name : 'Face 2 Face',
+       artist : 'Khan Bhaini Ft. Fateh',
+       album : 'Dr Zeus WorldWide',
+       released : 'Jun-29-2023',
+       music : 'https://s320.djpunjab.is/data/320/53974/302285/Face%202%20Face%20-%20Khan%20Bhaini.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53972/300x700/Defender-Deep-Karan.jpg',
        name : 'Defender',
        artist : 'Deep Karan',
@@ -46,14 +62,6 @@ const music_list = [
        album : 'Jatt Land Music',
        released : 'Jun-26-2023',
        music : 'https://s320.djpunjab.is/data/320/53960/302256/Koke%20-%20Raj%20Bhullar.mp3'
-        },
-	{
-       img : 'https://cover.djpunjab.is/53953/300x700/Bad-Talk-Navjeet.jpg',
-       name : 'Bad Talk',
-       artist : 'Navjeet',
-       album : 'Times Music',
-       released : 'Jun-23-2023',
-       music : 'https://s320.djpunjab.is/data/320/53953/302249/Bad%20Talk%20-%20Navjeet.mp3'
         },
 	{
        img : 'https://cover.djpunjab.is/53951/300x700/Dhoor-Ezu.jpg',

@@ -64,6 +64,118 @@ const music_list = [
        music : 'https://s320.djpunjab.is/data/320/53970/302266/ILzaam%20-%20Arjan%20Dhillon.mp3'
         },
 	{
+       img : 'https://cover.djpunjab.is/53973/300x700/Saroor-Arjan-Dhillon.jpg',
+       name : 'Worldwide',
+       artist : 'Arjan Dhillon',
+       album : 'Panj-aab Records',
+       released : 'Jun-28-2023',
+       music : 'https://p320.djpunjab.is/data/320/53973/302277/Worldwide%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53973/300x700/Saroor-Arjan-Dhillon.jpg',
+       name : 'Calculations',
+       artist : 'Arjan Dhillon',
+       album : 'Panj-aab Records',
+       released : 'Jun-28-2023',
+       music : 'https://p320.djpunjab.is/data/320/53973/302280/Calculations%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53973/300x700/Saroor-Arjan-Dhillon.jpg',
+       name : 'Dunia',
+       artist : 'Arjan Dhillon',
+       album : 'Panj-aab Records',
+       released : 'Jun-28-2023',
+       music : 'https://p320.djpunjab.is/data/320/53973/302284/Dunia%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53973/300x700/Saroor-Arjan-Dhillon.jpg',
+       name : 'Her Town',
+       artist : 'Arjan Dhillon',
+       album : 'Panj-aab Records',
+       released : 'Jun-28-2023',
+       music : 'https://p320.djpunjab.is/data/320/53973/302274/Her%20Town%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53973/300x700/Saroor-Arjan-Dhillon.jpg',
+       name : 'Jaan Vaariye',
+       artist : 'Arjan Dhillon',
+       album : 'Panj-aab Records',
+       released : 'Jun-28-2023',
+       music : 'https://p320.djpunjab.is/data/320/53973/302279/Jaan%20Vaariye%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53973/300x700/Saroor-Arjan-Dhillon.jpg',
+       name : 'Lil Bit',
+       artist : 'Arjan Dhillon',
+       album : 'Panj-aab Records',
+       released : 'Jun-28-2023',
+       music : 'https://p320.djpunjab.is/data/320/53973/302272/Lil%20Bit%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53973/300x700/Saroor-Arjan-Dhillon.jpg',
+       name : 'Long Back',
+       artist : 'Arjan Dhillon',
+       album : 'Panj-aab Records',
+       released : 'Jun-28-2023',
+       music : 'https://p320.djpunjab.is/data/320/53973/302275/Long%20Back%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53973/300x700/Saroor-Arjan-Dhillon.jpg',
+       name : 'Mighty Mirza',
+       artist : 'Arjan Dhillon',
+       album : 'Panj-aab Records',
+       released : 'Jun-28-2023',
+       music : 'https://p320.djpunjab.is/data/320/53973/302283/Mighty%20Mirza%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53973/300x700/Saroor-Arjan-Dhillon.jpg',
+       name : 'Panjabi',
+       artist : 'Arjan Dhillon',
+       album : 'Panj-aab Records',
+       released : 'Jun-28-2023',
+       music : 'https://p320.djpunjab.is/data/320/53973/302271/Panjabi%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53973/300x700/Saroor-Arjan-Dhillon.jpg',
+       name : 'Peg',
+       artist : 'Arjan Dhillon',
+       album : 'Panj-aab Records',
+       released : 'Jun-28-2023',
+       music : 'https://p320.djpunjab.is/data/320/53973/302269/Peg%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53973/300x700/Saroor-Arjan-Dhillon.jpg',
+       name : 'Rabb',
+       artist : 'Arjan Dhillon',
+       album : 'Panj-aab Records',
+       released : 'Jun-28-2023',
+       music : 'https://p320.djpunjab.is/data/320/53973/302273/Rabb%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53973/300x700/Saroor-Arjan-Dhillon.jpg',
+       name : 'Range',
+       artist : 'Arjan Dhillon',
+       album : 'Panj-aab Records',
+       released : 'Jun-28-2023',
+       music : 'https://p320.djpunjab.is/data/320/53973/302276/Range%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53973/300x700/Saroor-Arjan-Dhillon.jpg',
+       name : 'Tape 2',
+       artist : 'Arjan Dhillon',
+       album : 'Panj-aab Records',
+       released : 'Jun-28-2023',
+       music : 'https://p320.djpunjab.is/data/320/53973/302270/Tape%202%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
+       img : 'https://cover.djpunjab.is/53973/300x700/Saroor-Arjan-Dhillon.jpg',
+       name : 'Thode Vargia',
+       artist : 'Arjan Dhillon',
+       album : 'Panj-aab Records',
+       released : 'Jun-28-2023',
+       music : 'https://p320.djpunjab.is/data/320/53973/302278/Thode%20Vargia%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
        img : 'https://cover.djpunjab.is/53960/300x700/Koke-Raj-Bhullar.jpg',
        name : 'Koke',
        artist : 'Raj Bhullar',

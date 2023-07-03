@@ -24,6 +24,22 @@ let updateTimer;
 
 const music_list = [
 	{
+       img : 'https://lq.djjohal.com/covers/730215/Case.jpg',
+       name : 'Case',
+       artist : 'Inderpal Moga Ft. Miss Pooja',
+       album : 'Chani Nattan Music',
+       released : 'Jul-1-2023',
+       music : 'https://hd1.djjohal.com/320/516636/Case%20-%20Inderpal%20Moga%20(DJJOhAL.Com).mp3'
+        },
+	{
+       img : 'https://lq.djjohal.com/covers/730213/Tareefan.jpg',
+       name : 'Tareefan',
+       artist : 'Jordan Sandhu',
+       album : 'White Hill Music',
+       released : 'Jul-1-2023',
+       music : 'https://hd1.djjohal.com/320/516634/Tareefan%20-%20Jordan%20Sandhu%20(DJJOhAL.Com).mp3'
+        },
+	{
        img : 'https://i.imgur.com/9lLkkQo.jpg',
        name : 'Stay Alive',
        artist : 'Azaad 4L',
@@ -86,14 +102,6 @@ const music_list = [
        album : 'Panj-aab Records',
        released : 'Jun-28-2023',
        music : 'https://p320.djpunjab.is/data/320/53973/302284/Dunia%20-%20Arjan%20Dhillon.mp3'
-        },
-	{
-       img : 'https://cover.djpunjab.is/53973/300x700/Saroor-Arjan-Dhillon.jpg',
-       name : 'Her Town',
-       artist : 'Arjan Dhillon',
-       album : 'Panj-aab Records',
-       released : 'Jun-28-2023',
-       music : 'https://p320.djpunjab.is/data/320/53973/302274/Her%20Town%20-%20Arjan%20Dhillon.mp3'
         },
 	{
        img : 'https://cover.djpunjab.is/53973/300x700/Saroor-Arjan-Dhillon.jpg',

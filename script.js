@@ -24,20 +24,36 @@ let updateTimer;
 
 const music_list = [
 	{
-       img : 'https://lq.djjohal.com/covers/730215/Case.jpg',
+      img : 'https://cover.djpunjab.is/53994/300x700/Toronto-Waliye-Pavitar-Lassoi.jpg',
+      name : 'Toronto Waliye',
+      artist : 'Pavitar Lassoi',
+      album : 'Jass Records',
+      released : 'Jul-4-2023',
+      music : 'https://s320.djpunjab.is/data/320/53994/302314/Toronto%20Waliye%20-%20Pavitar%20Lassoi.mp3'
+       },
+   {
+      img : 'https://cover.djpunjab.is/53995/300x700/BAD-JATT-Jimmy-Kaler.jpg',
+      name : 'BAD JATT',
+      artist : 'Jimmy Kaler',
+      album : 'Crown Records',
+      released : 'Jul-4-2023',
+      music : 'https://s320.djpunjab.is/data/320/53995/302315/BAD%20JATT%20-%20Jimmy%20Kaler.mp3'
+       },
+   {
+       img : 'https://cover.djpunjab.is/53987/300x700/Case-Inderpal-Moga.jpg',
        name : 'Case',
        artist : 'Inderpal Moga Ft. Miss Pooja',
        album : 'Chani Nattan Music',
        released : 'Jul-1-2023',
-       music : 'https://hd1.djjohal.com/320/516636/Case%20-%20Inderpal%20Moga%20(DJJOhAL.Com).mp3'
+       music : 'https://s320.djpunjab.is/data/320/53987/302303/Case%20-%20Inderpal%20Moga.mp3'
         },
 	{
-       img : 'https://lq.djjohal.com/covers/730213/Tareefan.jpg',
+       img : 'https://cover.djpunjab.is/53989/300x700/Tareefan-Jordan-Sandhu.jpg',
        name : 'Tareefan',
        artist : 'Jordan Sandhu',
        album : 'White Hill Music',
        released : 'Jul-1-2023',
-       music : 'https://hd1.djjohal.com/320/516634/Tareefan%20-%20Jordan%20Sandhu%20(DJJOhAL.Com).mp3'
+       music : 'https://s320.djpunjab.is/data/320/53989/302305/Tareefan%20-%20Jordan%20Sandhu.mp3'
         },
 	{
        img : 'https://i.imgur.com/9lLkkQo.jpg',
@@ -984,7 +1000,7 @@ const music_list = [
        music : 'https://s320.djpunjab.is/data/320/53314/301511/Suit%20Jatti%20De%20-%20Karamvir%20Dhumi.mp3'
         },
 	{
-       img : "https://cover.djpunjab.is/53311/300x700/SPAIN-(Extended-Version)-Jassa-Dhillon.jpg",
+       img : "https://cover.djpunjab.is/53311/300x700/SPAIN-%28Extended-Version%28-Jassa-Dhillon.jpg",
        name : 'SPAIN (Extended Version)',
        artist : 'Jassa Dhillon',
        album : 'Jassa Dhillon Music',
@@ -1176,7 +1192,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/53116/301246/Investigate%20-%20Karan%20Aujla.mp3'
         },
         {
-         img : 'https://cover.djpunjab.is/53114/300x700/Jaan-%20(Slowed%20Version)%20-Arjan-Dhillon.jpg',
+         img : 'https://cover.djpunjab.is/53114/300x700/Jaan-%20%28Slowed%20Version%28%20-Arjan-Dhillon.jpg',
          name : 'Jaan (Slow Version)',
          artist : 'Arjan Dhillon',
          album : 'Arjan Dhillon Music',
@@ -3304,7 +3320,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/50653/298382/Hanji%20Hanji%20-%20Navaan%20Sandhu.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/50647/300x700/Click-That-B-Kickin-It-(Yaar-Jatt-De)-Karan-Aujla.jpg',
+         img : 'https://cover.djpunjab.is/50647/300x700/Click-That-B-Kickin-It-%28Yaar-Jatt-De%28-Karan-Aujla.jpg',
          name : 'Click That B Kickin It',
          artist : 'Karan Aujla',
          album : 'Speed Records',
@@ -3768,15 +3784,231 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/50015/297640/Aapna%20Hi%20Shehar%20-%20Wazir%20Patar.mp3'
             },
             {
+         img : 'https://cover.djpunjab.is/50013/300x700/Khabbi-Seat-Ammy-Virk.jpg',
+         name : 'Khabbi Seat',
+         artist : 'Ammy Virk',
+         album : 'Burfi Music',
+         released : '05-04-2021',
+         music : 'https://s320.djpunjab.is/data/320/50013/297638/Khabbi%20Seat%20-%20Ammy%20Virk.mp3'
+            },
+            {
          img : 'https://cover.djpunjab.is/50006/300x700/Chahal-Saab-Gurchahal.jpg',
          name : 'Chahal Saab',
          artist : 'Gurchahal',
          album : 'Sultaan Inc',
          released : '03-04-2021',
          music : 'https://s320.djpunjab.is/data/320/50006/297631/Chahal%20Saab%20-%20Gurchahal.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49982/300x700/Prahune-Prem-Dhillon.jpg',
+         name : 'Prahune',
+         artist : 'Prem Dhillon Ft. Amrit Maan',
+         album : 'Sidhu Moose Wala Music',
+         released : 'Mar-29-2021',
+         music : 'https://s320.djpunjab.is/data/320/49982/297587/Prahune%20-%20Prem%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49981/300x700/Koka-Ranjit-Bawa.jpg',
+         name : 'Koka',
+         artist : 'Ranjit Bawa',
+         album : 'Brand B',
+         released : 'Mar-29-2021',
+         music : 'https://s320.djpunjab.is/data/320/49981/297586/Koka%20-%20Ranjit%20Bawa.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49975/300x700/Dont-Know-Why-Nirvair-Pannu.jpg',
+         name : 'Dont Know Why',
+         artist : 'Nirvair Pannu',
+         album : 'Single Track Studio',
+         released : 'Mar-27-2021',
+         music : 'https://s320.djpunjab.is/data/320/49975/297580/Dont%20Know%20Why%20-%20Nirvair%20Pannu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49975/300x700/Dont-Know-Why-Nirvair-Pannu.jpg',
+         name : 'Dont Know Why',
+         artist : 'Nirvair Pannu',
+         album : 'Single Track Studio',
+         released : 'Mar-27-2021',
+         music : 'https://s320.djpunjab.is/data/320/49975/297580/Dont%20Know%20Why%20-%20Nirvair%20Pannu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49954/300x700/Ishqan-De-Lekhe-Nseeb.jpg',
+         name : 'Ishqan De Lekhe',
+         artist : 'Nseeb',
+         album : 'Frenzo Harami Music',
+         released : 'Mar-25-2021',
+         music : 'https://s320.djpunjab.is/data/320/49954/297549/Ishqan%20De%20Lekhe%20-%20Nseeb.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49906/300x700/Munda-Takda-Nirvair-Pannu.jpg',
+         name : 'Munda Takda',
+         artist : 'Nirvair Pannu',
+         album : 'Nirvair Pannu Music',
+         released : 'Mar-16-2021',
+         music : 'https://s320.djpunjab.is/data/320/49906/297489/Munda%20Takda%20-%20Nirvair%20Pannu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49901/300x700/Jatt-Naal-Yaari-Jordan-Sandhu.jpg',
+         name : 'Jatt Naal Yaari',
+         artist : 'Jordan Sandhu',
+         album : 'Jordan Sandhu Music',
+         released : 'Mar-15-2021',
+         music : 'https://s320.djpunjab.is/data/320/49901/297484/Jatt%20Naal%20Yaari%20-%20Jordan%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49887/300x700/Ride-Or-Die-Kulbir-Jhinjer.jpg',
+         name : 'Ride Or Die',
+         artist : 'Kulbir Jhinjer',
+         album : 'Leaf Records',
+         released : 'Mar-12-2021',
+         music : 'https://s320.djpunjab.is/data/320/49887/297469/Ride%20Or%20Die%20-%20Kulbir%20Jhinjer.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49878/300x700/Above-All-Jassa-Dhillon.jpg',
+         name : 'Above All',
+         artist : 'Jassa Dhillon',
+         album : 'Browntown Entertainment Ltd',
+         released : 'Mar-12-2021',
+         music : 'https://s320.djpunjab.is/data/320/49878/297460/Above%20All%20-%20Jassa%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49861/300x700/Copyright-Prem-Dhillon.jpg',
+         name : 'Copyright',
+         artist : 'Prem Dhillon',
+         album : 'Times Music',
+         released : 'Mar-8-2021',
+         music : 'https://s320.djpunjab.is/data/320/49861/297443/Copyright%20-%20Prem%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49851/300x700/Mexico-%28Original%28-Karan-Aujla.jpg',
+         name : 'Mexico (Original)',
+         artist : 'Karan Aujla',
+         album : 'Single Track Studio',
+         released : 'Mar-8-2021',
+         music : 'https://s320.djpunjab.is/data/320/49851/297433/Mexico%20(Original)%20-%20Karan%20Aujla.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49849/300x700/Thand-Rakh-Himmat-Sandhu.jpg',
+         name : 'Thand Rakh',
+         artist : 'Himmat Sandhu',
+         album : 'Basant Music',
+         released : 'Mar-5-2021',
+         music : 'https://s320.djpunjab.is/data/320/49849/297431/Thand%20Rakh%20-%20Himmat%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49831/300x700/Riyasat-Navaan-Sandhu.jpg',
+         name : 'Riyasat',
+         artist : 'Navaan Sandhu',
+         album : 'Jatt Life Studios',
+         released : 'Feb-28-2021',
+         music : 'https://s320.djpunjab.is/data/320/49831/297413/Riyasat%20-%20Navaan%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49820/300x700/Aaye-Munde-Varinder-Brar.jpg',
+         name : 'Aaye Munde',
+         artist : 'Varinder Brar Ft. Naseeb',
+         album : 'Varinder Brar Music',
+         released : 'Feb-26-2021',
+         music : 'https://s320.djpunjab.is/data/320/49820/297402/Aaye%20Munde%20-%20Varinder%20Brar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49785/300x700/Jatt-Te-Jawani-Dilpreet-Dhillon.jpg',
+         name : 'Jatt Te Jawani',
+         artist : 'Dilpreet Dhillon Ft. Karan Aujla',
+         album : 'Varinder Brar Music',
+         released : 'Feb-26-2021',
+         music : 'https://s320.djpunjab.is/data/320/49785/297367/Jatt%20Te%20Jawani%20-%20Dilpreet%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49765/300x700/Sin-%28Leaked-Song%28-Sidhu-Moose-Wala.jpg',
+         name : 'Sin (Leaked Song)',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala Music',
+         released : 'Feb-17-2021',
+         music : 'https://s320.djpunjab.is/data/320/49765/297347/Sin%20(Leaked%20Song)%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49747/300x700/Jutti-Arjan-Dhillon.jpg',
+         name : 'Jutti',
+         artist : 'Arjan Dhillon',
+         album : 'Brown Studios',
+         released : 'Feb-14-2021',
+         music : 'https://s320.djpunjab.is/data/320/49747/297329/Jutti%20-%20Arjan%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49743/300x700/Likhari-Arjan-Dhillon.jpg',
+         name : 'Likhari',
+         artist : 'Arjan Dhillon',
+         album : 'Brown Studios',
+         released : 'Feb-14-2021',
+         music : 'https://s320.djpunjab.is/data/320/49743/297325/Likhari%20-%20Arjan%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49733/300x700/Gutt-%28Leaked-Song%28-Arjan-Dhillon.jpg',
+         name : 'Gutt (Leaked Song)',
+         artist : 'Arjan Dhillon',
+         album : 'Brown Studios',
+         released : 'Feb-12-2021',
+         music : 'https://s320.djpunjab.is/data/320/49733/297315/Gutt%20(Leaked%20Song)%20-%20Arjan%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49731/300x700/Raule-Jassa-Dhillon.jpg',
+         name : 'Raule',
+         artist : 'Jassa Dhillon',
+         album : 'Browntown Entertainment Ltd',
+         released : 'Feb-11-2021',
+         music : 'https://s320.djpunjab.is/data/320/49731/297313/Raule%20-%20Jassa%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49696/300x700/Chamqila-Drip-Amar-Singh-Chamkila.jpg',
+         name : 'Chamqila Drip',
+         artist : 'Amar Singh Chamkila',
+         album : 'UnderDoggs Music',
+         released : 'Feb-7-2021',
+         music : 'https://s320.djpunjab.is/data/320/49696/297277/Chamqila%20Drip%20-%20Amar%20Singh%20Chamkila.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49689/300x700/Hukam-Karan-Aujla.jpg',
+         name : 'Hukam',
+         artist : 'Karan Aujla',
+         album : 'Rehaan Records',
+         released : 'Feb-7-2021',
+         music : 'https://s320.djpunjab.is/data/320/49689/297270/Hukam%20-%20Karan%20Aujla.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49616/300x700/Jungle-Nseeb.jpg',
+         name : 'Jungle',
+         artist : 'Nseeb',
+         album : 'Nseeb Music',
+         released : 'Jan-20-2021',
+         music : 'https://s320.djpunjab.is/data/320/49616/297197/Jungle%20-%20Nseeb.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49602/300x700/Black-Life-Navaan-Sandhu.jpg',
+         name : 'Black Life',
+         artist : 'Navaan Sandhu',
+         album : 'Outlaw Records',
+         released : 'Jan-17-2021',
+         music : 'https://s320.djpunjab.is/data/320/49602/297174/Black%20Life%20-%20Navaan%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49566/300x700/Vacation-Nirvair-Pannu.jpg',
+         name : 'Vacation',
+         artist : 'Nirvair Pannu',
+         album : 'Gringo Entertainments',
+         released : 'Jan-11-2021',
+         music : 'https://s320.djpunjab.is/data/320/49566/297129/Vacation%20-%20Nirvair%20Pannu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49550/300x700/ILL-Mindz-Big-Boi-Deep.jpg',
+         name : 'ILL Mindz',
+         artist : 'Big Boi Deep',
+         album : 'Brown Boys Records',
+         released : 'Jan-6-2021',
+         music : 'https://s320.djpunjab.is/data/320/49550/297113/ILL%20Mindz%20-%20Big%20Boi%20Deep.mp3'
             }
 	
-	/* https://djpunjab.is/page/newlatest.php?page=171 */
+	/* https://djpunjab.is/page/newlatest.php?page=214 */
 ];
 
 loadTrack(track_index);
@@ -3923,15 +4155,14 @@ if ( 'mediaSession' in navigator ) {
 		album: 'Dope Music',
         
           	artwork: [
-            { src: sessionimg, sizes: 'auto', type: 'auto' }/*,
-                  { src: 'https://www.dropbox.com/s/9s99pr2e5lv2b4j/1.png?dl=1', sizes: '128x128', type: 'image/png' },
-                   { src: 'https://assets.codepen.io/4358584/1.300.jpg', sizes: '192x192', type: 'image/png' },
-                   { src: 'https://assets.codepen.io/4358584/1.300.jpg', sizes: '256x256', type: 'image/png' },
-                   { src: 'https://assets.codepen.io/4358584/1.300.jpg', sizes: '384x384', type: 'image/png' },
-                   { src: 'https://assets.codepen.io/4358584/1.300.jpg', sizes: '512x512', type: 'image/png' }*/
+                  { src: sessionimg, sizes: '96x96', type: 'auto' },
+                  { src: sessionimg, sizes: '128x128', type: 'auto' },
+                  { src: sessionimg, sizes: '192x192', type: 'auto' },
+                  { src: sessionimg, sizes: '256x256', type: 'auto' },
+                  { src: sessionimg, sizes: '384x384', type: 'auto' },
+                  { src: sessionimg, sizes: '512x512', type: 'auto' }
           ]
-		  //album: track_name.textContent,
-		 // artwork: track_art.style.backgroundImage
+		  
 	});
   
 	navigator.mediaSession.setActionHandler('pause', () => {
@@ -3961,5 +4192,9 @@ if ( 'mediaSession' in navigator ) {
   	curr_track.currentTime = Math.min(curr_track.currentTime + skipTime, curr_track.duration);
   	updatePositionState();
 	});
+
+   
+
+
   }
 }

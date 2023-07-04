@@ -3825,7 +3825,6 @@ function reset(){
     curr_time.textContent = "00:00";
     total_duration.textContent = "00:00";
     seek_slider.value = 0;
-    
     notification(); 
 }
 function randomTrack(){
@@ -3835,10 +3834,12 @@ function randomTrack(){
 function playRandom(){
     isRandom = true;
     randomIcon.classList.add('randomActive');
+    notification();
 }
 function pauseRandom(){
     isRandom = false;
     randomIcon.classList.remove('randomActive');
+    notification();
 }
 function repeatTrack(){
     let current_index = track_index;
@@ -3887,9 +3888,11 @@ function prevTrack(){
 function seekTo(){
     let seekto = curr_track.duration * (seek_slider.value / 100);
     curr_track.currentTime = seekto;
+    notification();
 }
 function setVolume(){
     curr_track.volume = volume_slider.value / 100;
+    notification();
 }
 function setUpdate(){
     let seekPosition = 0;

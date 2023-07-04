@@ -3825,9 +3825,12 @@ function reset(){
     curr_time.textContent = "00:00";
     total_duration.textContent = "00:00";
     seek_slider.value = 0;
+    
+    notification(); 
 }
 function randomTrack(){
-    isRandom ? pauseRandom() : playRandom(); 
+    isRandom ? pauseRandom() : playRandom();
+    notification();
 }
 function playRandom(){
     isRandom = true;
@@ -3840,7 +3843,8 @@ function pauseRandom(){
 function repeatTrack(){
     let current_index = track_index;
     loadTrack(current_index);
-    playTrack(); notification();
+    playTrack(); 
+    notification();
 }
 function playpauseTrack(){
     isPlaying ? pauseTrack() : playTrack(); notification();

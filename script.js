@@ -24,6 +24,14 @@ let updateTimer;
 
 const music_list = [
 	{
+      img : 'https://cover.djpunjab.is/53997/300x700/Suneya-Main-Wazir-Patar.jpg',
+      name : 'Suneya Main',
+      artist : 'Wazir Patar',
+      album : 'Wazir Patar',
+      released : 'Jul-4-2023',
+      music : 'https://s320.djpunjab.is/data/320/53997/302317/Suneya%20Main%20-%20Wazir%20Patar.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/53994/300x700/Toronto-Waliye-Pavitar-Lassoi.jpg',
       name : 'Toronto Waliye',
       artist : 'Pavitar Lassoi',

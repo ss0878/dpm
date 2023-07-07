@@ -24,6 +24,14 @@ let updateTimer;
 
 const music_list = [
 	{
+      img : 'https://cover.djpunjab.is/54008/300x700/Chorni-Sidhu-Moose-Wala.jpg',
+      name : 'Chorni',
+      artist : 'Sidhu Moose Wala Ft. Divine',
+      album : 'Sidhu Moose Wala Music',
+      released : 'Jul-7-2023',
+      music : 'https://s320.djpunjab.is/data/320/54008/302332/Chorni%20-%20Sidhu%20Moose%20Wala.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/53997/300x700/Suneya-Main-Wazir-Patar.jpg',
       name : 'Suneya Main',
       artist : 'Wazir Patar',

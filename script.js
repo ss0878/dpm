@@ -40,6 +40,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54009/302333/Free%20Flow%20-%20Jordan%20Sandhu.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/54011/300x700/Chamikilla-Tegi-Pannu.jpg',
+      name : 'Chamikilla',
+      artist : 'Tegi Pannu',
+      album : 'Tegi Pannu Music',
+      released : 'Jul-8-2023',
+      music : 'https://s320.djpunjab.is/data/320/54011/302335/Chamikilla%20-%20Tegi%20Pannu.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/53997/300x700/Suneya-Main-Wazir-Patar.jpg',
       name : 'Suneya Main',
       artist : 'Wazir Patar',

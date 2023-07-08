@@ -28,8 +28,16 @@ const music_list = [
       name : 'Chorni',
       artist : 'Sidhu Moose Wala Ft. Divine',
       album : 'Sidhu Moose Wala Music',
-      released : 'Jul-7-2023',
-      music : 'https://s320.djpunjab.is/data/320/54008/302332/Chorni%20-%20Sidhu%20Moose%20Wala.mp3'
+      released : 'Jul-8-2023',
+      music : 'https://s320.djpunjab.is/data/320/54008/302337/Chorni%20(Video%20Version)%20-%20Sidhu%20Moose%20Wala.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54009/300x700/Free-Flow-Jordan-Sandhu.jpg',
+      name : 'Free Flow',
+      artist : 'Jordan Sandhu',
+      album : 'Jordan Sandhu',
+      released : 'Jul-8-2023',
+      music : 'https://s320.djpunjab.is/data/320/54009/302333/Free%20Flow%20-%20Jordan%20Sandhu.mp3'
         },
 	{
       img : 'https://cover.djpunjab.is/53997/300x700/Suneya-Main-Wazir-Patar.jpg',

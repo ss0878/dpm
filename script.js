@@ -32,6 +32,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54044/302378/Sigma%20-%20Jxggi.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/54042/300x700/Distance-Gagan-Kokri.jpg',
+      name : 'Distance',
+      artist : 'Gagan Kokri',
+      album : 'Gagan Kokri',
+      released : 'Jul-20-2023',
+      music : 'https://s320.djpunjab.is/data/320/54042/302376/Distance%20-%20Gagan%20Kokri.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54008/300x700/Chorni-Sidhu-Moose-Wala.jpg',
       name : 'Chorni',
       artist : 'Sidhu Moose Wala Ft. Divine',

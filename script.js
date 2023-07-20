@@ -24,6 +24,14 @@ let updateTimer;
 
 const music_list = [
 	{
+      img : 'https://cover.djpunjab.is/54044/300x700/Sigma-Jxggi.jpg',
+      name : 'Sigma',
+      artist : 'Jxggi',
+      album : 'Jxggi',
+      released : 'Jul-20-2023',
+      music : 'https://s320.djpunjab.is/data/320/54044/302378/Sigma%20-%20Jxggi.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54008/300x700/Chorni-Sidhu-Moose-Wala.jpg',
       name : 'Chorni',
       artist : 'Sidhu Moose Wala Ft. Divine',

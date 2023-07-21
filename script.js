@@ -24,6 +24,22 @@ let updateTimer;
 
 const music_list = [
 	{
+      img : 'https://cover.djpunjab.is/54049/300x700/No-Cap-Bars-Jas-Kahlon.jpg',
+      name : 'No Cap Bars',
+      artist : 'Jas Kahlon',
+      album : 'Younghood Creations',
+      released : 'Jul-21-2023',
+      music : 'https://s320.djpunjab.is/data/320/54049/302383/No%20Cap%20Bars%20-%20Jas%20Kahlon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54047/300x700/Tu-Hi-Tu-Ezu.jpg',
+      name : 'Tu Hi Tu',
+      artist : 'Ezu Ft Jay Sean',
+      album : 'Vip Records',
+      released : 'Jul-21-2023',
+      music : 'https://s320.djpunjab.is/data/320/54047/302381/Tu%20Hi%20Tu%20-%20Ezu.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54044/300x700/Sigma-Jxggi.jpg',
       name : 'Sigma',
       artist : 'Jxggi',
@@ -2384,7 +2400,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/52231/300178/Lutt%20Lai%20Giya%20-%20Ranjit%20Bawa.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/52230/300x700/Definitely-(Laazmi)-The-Landers.jpg',
+         img : 'https://cover.djpunjab.is/52230/300x700/Definitely-%28Laazmi%28-The-Landers.jpg',
          name : 'Definitely (Laazmi)',
          artist : 'The Landers',
          album : 'Koinage Records',
@@ -2816,7 +2832,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/51563/299447/Shadow%20-%20Jassa%20Dhillon.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/51545/300x700/Kikli-(Babbar)-Amrit-Maan.jpg',
+         img : 'https://cover.djpunjab.is/51545/300x700/Kikli-%28Babbar%28-Amrit-Maan.jpg',
          name : 'Kikli (Babbar)',
          artist : 'Amrit Maan',
          album : 'Times Music',
@@ -2944,7 +2960,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/51431/299300/Munda%20-%20Arjan%20Dhillon.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/51425/300x700/Madkan-(Up-&-Down)-Kulbir-Jhinjer.jpg',
+         img : 'https://cover.djpunjab.is/51425/300x700/Madkan-%28Up-&-Down%28-Kulbir-Jhinjer.jpg',
          name : 'Madkan (Up & Down)',
          artist : 'Kulbir Jhinjer',
          album : 'Kulbir Jhinjer Music',
@@ -3376,7 +3392,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/50647/298376/Click%20That%20B%20Kickin%20It%20(Yaar%20Jatt%20De)%20-%20Karan%20Aujla.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/50621/300x700/Jailaan-(Moosa-Jatt)-Sidhu-Moose-Wala.jpg',
+         img : 'https://cover.djpunjab.is/50621/300x700/Jailaan-%28Moosa-Jatt%28-Sidhu-Moose-Wala.jpg',
          name : 'Jailaan (Moosa Jatt)',
          artist : 'Sidhu Moose Wala',
          album : 'Times Music',

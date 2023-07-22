@@ -24,6 +24,14 @@ let updateTimer;
 
 const music_list = [
 	{
+      img : 'https://cover.djpunjab.is/54050/300x700/Akhan-Ni-Akhan-Harvi.jpg',
+      name : 'Akhan Ni Akhan',
+      artist : 'Harvi',
+      album : 'Bang Music',
+      released : 'Jul-22-2023',
+      music : 'https://s320.djpunjab.is/data/320/54050/302384/Akhan%20Ni%20Akhan%20-%20Harvi.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54049/300x700/No-Cap-Bars-Jas-Kahlon.jpg',
       name : 'No Cap Bars',
       artist : 'Jas Kahlon',

@@ -249,14 +249,6 @@ const music_list = [
         },
 	{
        img : 'https://cover.djpunjab.is/53973/300x700/Saroor-Arjan-Dhillon.jpg',
-       name : 'Range',
-       artist : 'Arjan Dhillon',
-       album : 'Panj-aab Records',
-       released : 'Jun-28-2023',
-       music : 'https://p320.djpunjab.is/data/320/53973/302276/Range%20-%20Arjan%20Dhillon.mp3'
-        },
-	{
-       img : 'https://cover.djpunjab.is/53973/300x700/Saroor-Arjan-Dhillon.jpg',
        name : 'Tape 2',
        artist : 'Arjan Dhillon',
        album : 'Panj-aab Records',

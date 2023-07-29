@@ -88,6 +88,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54042/302376/Distance%20-%20Gagan%20Kokri.mp3'
         },
 	{
+      img : 'https://lq.djjohal.com/covers/730277/Patti%20Ton%20Patiala.jpg',
+      name : 'Patti Ton Patiala',
+      artist : 'Harkirat Sangha',
+      album : 'Harkirat Sangha',
+      released : 'Jul-20-2023',
+      music : 'https://hd1.djjohal.com/320/516724/Patti%20Ton%20Patiala%20-%20Harkirat%20Sangha%20(DJJOhAL.Com).mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54008/300x700/Chorni-Sidhu-Moose-Wala.jpg',
       name : 'Chorni',
       artist : 'Sidhu Moose Wala Ft. Divine',

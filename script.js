@@ -24,6 +24,22 @@ let updateTimer;
 
 const music_list = [
 	{
+      img : 'https://cover.djpunjab.is/54085/300x700/Let-Me-Know-Nirvair-Pannu.jpg',
+      name : 'Let Me Know',
+      artist : 'Nirvair Pannu',
+      album : 'Juke Dock',
+      released : 'Jul-28-2023',
+      music : 'https://s320.djpunjab.is/data/320/54085/302428/Let%20Me%20Know%20-%20Nirvair%20Pannu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54082/300x700/You-Talking-To-Me-Guru-Randhawa.jpg',
+      name : 'You Talking To Me',
+      artist : 'Guru Randhawa',
+      album : 'T-Series',
+      released : 'Jul-28-2023',
+      music : 'https://s320.djpunjab.is/data/320/54082/302425/You%20Talking%20To%20Me%20-%20Guru%20Randhawa.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54050/300x700/Akhan-Ni-Akhan-Harvi.jpg',
       name : 'Akhan Ni Akhan',
       artist : 'Harvi',

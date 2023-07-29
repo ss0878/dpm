@@ -40,6 +40,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54082/302425/You%20Talking%20To%20Me%20-%20Guru%20Randhawa.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/54057/300x700/FOB-Shah.jpg',
+      name : 'FOB',
+      artist : 'Shah',
+      album : 'Shah',
+      released : 'Jul-23-2023',
+      music : 'https://s320.djpunjab.is/data/320/54057/302391/FOB%20-%20Shah.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54050/300x700/Akhan-Ni-Akhan-Harvi.jpg',
       name : 'Akhan Ni Akhan',
       artist : 'Harvi',

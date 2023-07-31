@@ -24,6 +24,54 @@ let updateTimer;
 
 const music_list = [
 	{
+      img : 'https://cover.djpunjab.is/54095/300x700/Admirin-You-Karan-Aujla.jpg',
+      name : 'Admirin You',
+      artist : 'Karan Aujla',
+      album : 'Karan Aujla Music',
+      released : 'Jul-31-2023',
+      music : 'https://s320.djpunjab.is/data/320/54095/302451/Admirin%20You%20-%20Karan%20Aujla.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54092/300x300/Global-Warning-Amrit-Maan.jpg',
+      name : 'All About Me',
+      artist : 'Amrit Maan',
+      album : 'Global Warming',
+      released : 'Jul-31-2023',
+      music : 'https://p320.djpunjab.is/data/320/54092/302446/All%20About%20Me%20-%20Amrit%20Maan.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54092/300x300/Global-Warning-Amrit-Maan.jpg',
+      name : 'Hobbies',
+      artist : 'Amrit Maan',
+      album : 'Global Warming',
+      released : 'Jul-31-2023',
+      music : 'https://p320.djpunjab.is/data/320/54092/302448/Hobbies%20-%20Amrit%20Maan.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54092/300x300/Global-Warning-Amrit-Maan.jpg',
+      name : 'Journey',
+      artist : 'Amrit Maan',
+      album : 'Global Warming',
+      released : 'Jul-31-2023',
+      music : 'https://p320.djpunjab.is/data/320/54092/302444/Journey%20-%20Amrit%20Maan.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54092/300x300/Global-Warning-Amrit-Maan.jpg',
+      name : 'Known Face',
+      artist : 'Amrit Maan',
+      album : 'Global Warming',
+      released : 'Jul-31-2023',
+      music : 'https://p320.djpunjab.is/data/320/54092/302447/Known%20Face%20-%20Amrit%20Maan.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54092/300x300/Global-Warning-Amrit-Maan.jpg',
+      name : 'Process',
+      artist : 'Amrit Maan',
+      album : 'Global Warming',
+      released : 'Jul-31-2023',
+      music : 'https://p320.djpunjab.is/data/320/54092/302445/Process%20-%20Amrit%20Maan.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54085/300x700/Let-Me-Know-Nirvair-Pannu.jpg',
       name : 'Let Me Know',
       artist : 'Nirvair Pannu',

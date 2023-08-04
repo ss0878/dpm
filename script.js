@@ -24,6 +24,14 @@ let updateTimer;
 
 const music_list = [
 	{
+      img : 'https://cover.djpunjab.is/54102/300x700/Fame-Nirvair-Pannu.jpg',
+      name : 'Fame',
+      artist : 'Nirvair Pannu',
+      album : 'Juke Dock',
+      released : 'Aug-3-2023',
+      music : 'https://s320.djpunjab.is/data/320/54102/302458/Fame%20-%20Nirvair%20Pannu.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54095/300x700/Admirin-You-Karan-Aujla.jpg',
       name : 'Admirin You',
       artist : 'Karan Aujla',

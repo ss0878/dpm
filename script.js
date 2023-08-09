@@ -24,6 +24,14 @@ let updateTimer;
 
 const music_list = [
 	{
+      img : 'https://cover.djpunjab.is/54131/300x700/rubicon-prem-dhillon.webp',
+      name : 'Rubicon',
+      artist : 'Prem Dhillon',
+      album : 'Prem Dhillon',
+      released : 'Aug-9-2023',
+      music : 'https://s320.djpunjab.is/data/320/54131/302488/Rubicon%20-%20Prem%20Dhillon.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54118/300x700/You-Jassa-Dhillon.jpg',
       name : 'You ',
       artist : 'Jassa Dhillon',

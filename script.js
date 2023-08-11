@@ -24,6 +24,30 @@ let updateTimer;
 
 const music_list = [
 	{
+      img : 'https://cover.djpunjab.is/54145/300x700/no-safety-sukha.webp',
+      name : 'No Safety',
+      artist : 'Sukha',
+      album : 'Collab Creations',
+      released : 'Aug-11-2023',
+      music : 'https://s320.djpunjab.is/data/320/54145/302507/No%20Safety%20-%20Sukha.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54142/300x700/with-you-ap-dhillon.webp',
+      name : 'With You',
+      artist : 'AP Dhillon',
+      album : 'Mass Appeal India',
+      released : 'Aug-11-2023',
+      music : 'https://s320.djpunjab.is/data/320/54142/302504/With%20You%20-%20AP%20Dhillon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54141/300x700/ocean-eyes-amrinder-gill.webp',
+      name : 'Ocean Eyes',
+      artist : 'Amrinder Gill',
+      album : 'Rhythm Boys',
+      released : 'Aug-11-2023',
+      music : 'https://s320.djpunjab.is/data/320/54141/302503/Ocean%20Eyes%20-%20Amrinder%20Gill.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54131/300x700/rubicon-prem-dhillon.webp',
       name : 'Rubicon',
       artist : 'Prem Dhillon',

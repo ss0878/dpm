@@ -4201,6 +4201,16 @@ const music_list = [
             }
 	
 	/* https://djpunjab.is/page/newlatest.php?page=214 */
+
+	,
+            {
+         img : 'https://i.scdn.co/image/ab67616d0000b2737d4d6a62eef2d22549a47456',
+         name : 'Haa!',
+         artist : 'Mofolactic',
+         album : 'Mofolactic',
+         released : 'Jan-30-2015',
+         music : 'https://s320.djpunjab.is/data/320/34443/274517/Haa!%20-%20Mofolactic.mp3'
+            }
 ];
 
 loadTrack(track_index);

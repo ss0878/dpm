@@ -24,6 +24,14 @@ let updateTimer;
 
 const music_list = [
 	{
+      img : 'https://cover.djpunjab.is/54149/300x700/larh-pe-yaar-g.-sidhu.webp',
+      name : 'Larh Pe Yaar',
+      artist : 'G. Sidhu',
+      album : 'G Sidhu Productions',
+      released : 'Aug-12-2023',
+      music : 'https://s320.djpunjab.is/data/320/54149/302511/Larh%20Pe%20Yaar%20-%20G.%20Sidhu.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54145/300x700/no-safety-sukha.webp',
       name : 'No Safety',
       artist : 'Sukha',

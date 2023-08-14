@@ -26,7 +26,7 @@ const music_list = [
 	{
       img : 'https://cover.djpunjab.is/54153/300x700/wiseman-sidhu-moose-wala.webp',
       name : 'Wiseman',
-      artist : 'Sidhu Moose Wala',
+      artist : 'Sidhu Moose Wala (AI) Ft. Jashan Brar',
       album : 'Sidhu Moose Wala',
       released : 'Aug-13-2023',
       music : 'https://s320.djpunjab.is/data/320/54153/302515/Wiseman%20-%20Sidhu%20Moose%20Wala.mp3'

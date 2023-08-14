@@ -24,6 +24,14 @@ let updateTimer;
 
 const music_list = [
 	{
+      img : 'https://i1.sndcdn.com/artworks-9g67ki28yn5tVytO-mgBnVw-t500x500.jpg',
+      name : 'ANTHEM',
+      artist : 'Jassi Gosal & Jagan Randhawa',
+      album : 'Hustle Nation',
+      released : 'Aug-13-2023',
+      music : 'https://audio.jukehost.co.uk/TAuJLkqrLFaCsQfTZvVNeb0gOq0Nax65'
+        },
+	{
       img : 'https://cover.djpunjab.is/54153/300x700/wiseman-sidhu-moose-wala.webp',
       name : 'Wiseman',
       artist : 'Sidhu Moose Wala (AI) Ft. Jashan Brar',

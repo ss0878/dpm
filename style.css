@@ -177,7 +177,7 @@ p{
 }
 
 .blob {
-    
+    margin: 25px;
     height: 235px;
     width: 250px;
 	border-radius: 50%;

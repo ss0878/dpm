@@ -66,6 +66,7 @@ body{
     display: flex;
     margin: auto;
     animation: lights 1s 800ms linear infinite;
+    flex-wrap: wrap;
 }
 .track-artist{
     margin-top: 5px;
@@ -81,6 +82,7 @@ body{
     align-items: center;
     margin-bottom: 30px;
     transition: 1s;
+    justify-content: center;
 }
 .active{
     color: black;

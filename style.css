@@ -18,29 +18,31 @@ body{
     padding-top: 20px;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
 }
 .details{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    
 }
 .track-art{
     margin: 25px;
     height: 250px;
-    width: 250px;
-    border: 2px solid #FFFAFA;
+    width: 245px;
+    border: 1px solid #111010;
     background-size: cover;
     background-position: center;
     border-radius: 50%;
     -moz-box-shadow: 0px 6px 5px black;
     -webkit-box-shadow:0px 6px 5px black;
-    box-shadow: 0px 6px 5px #ccc;
+    box-shadow: 0px 6px 5px #948f8f;
     -moz-border-radius:190px;
     -webkit-border-radius:190px;
     border-radius: 190px;
     transition: 1s;
-    animation: animateAvatar 1s linear infinite;   
+    animation: animateAvatar 1s linear infinite;
 }
 @keyframes animateAvatar{
     0%,100%{
@@ -59,12 +61,16 @@ body{
 }
 .track-name{
     font-size: 2.5rem;
-    transition: 1s;
+    transition: 0.2s;
+    display: flex;
+    margin: auto;
+    animation: lights 1s 800ms linear infinite;
 }
 .track-artist{
     margin-top: 5px;
-    font-size: 1.5rem;
     transition: 1s;
+    margin: auto;
+    animation: lights 1s 800ms linear infinite;
 }
 
 
@@ -178,7 +184,7 @@ p{
 
 .blob {
     margin: 25px;
-    height: 235px;
+    height: 250px;
     width: 250px;
 	border-radius: 50%;
     position: absolute;
@@ -189,7 +195,7 @@ p{
 
 @keyframes pulse {
 	0%{
-		transform: scale(.95);
+		transform: scale(.99);
 		box-shadow: 0 0 0 0 rgba(29, 29, 29, 0.7);
 	}
 
@@ -243,8 +249,3 @@ p{
     
   }
   
-  
-  .track-name {
-    margin: auto;
-    animation: lights 1s 800ms linear infinite;
-  }

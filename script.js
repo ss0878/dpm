@@ -472,44 +472,44 @@ const music_list = [
        music : 'https://audio.jukehost.co.uk/s8xsjBA0RpjbvlFakbtTzW9Tl0qlXYr8'
         },
 	{
-       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/701_7.webp',
+       img : 'https://cover.djpunjab.is/53936/300x300/hard-choices-gurinder-gill.webp',
        name : 'WAKE UP',
        artist : 'Gurinder Gill',
        album : 'Hard Choices',
        released : 'Jun-10-2023',
-       music : 'https://pagaljatt.com/files/download/type/320/id/701'
+       music : 'https://p320.djpunjab.is/data/320/53936/302232/WAKE%20UP%20-%20Gurinder%20Gill.mp3'
         },
 	{
-       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/701_7.webp',
+       img : 'https://cover.djpunjab.is/53936/300x300/hard-choices-gurinder-gill.webp',
        name : 'NETWORK',
        artist : 'Gurinder Gill',
        album : 'Hard Choices',
        released : 'Jun-10-2023',
-       music : 'https://pagaljatt.com/files/download/type/320/id/700'
+       music : 'https://p320.djpunjab.is/data/320/53936/302231/NETWORK%20-%20Gurinder%20Gill.mp3'
         },
 	{
-       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/701_7.webp',
+       img : 'https://cover.djpunjab.is/53936/300x300/hard-choices-gurinder-gill.webp',
        name : 'FOREVER',
        artist : 'Gurinder Gill',
        album : 'Hard Choices',
        released : 'Jun-10-2023',
-       music : 'https://pagaljatt.com/files/download/type/320/id/697'
+       music : 'https://p320.djpunjab.is/data/320/53936/302228/FOREVER%20-%20Gurinder%20Gill.mp3'
         },
 	{
-       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/701_7.webp',
+       img : 'https://cover.djpunjab.is/53936/300x300/hard-choices-gurinder-gill.webp',
        name : 'BREATHE',
        artist : 'Gurinder Gill',
        album : 'Hard Choices',
        released : 'Jun-10-2023',
-       music : 'https://pagaljatt.com/files/download/type/320/id/696'
+       music : 'https://p320.djpunjab.is/data/320/53936/302227/BREATHE%20-%20Gurinder%20Gill.mp3'
         },
 	{
-       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/701_7.webp',
+       img : 'https://cover.djpunjab.is/53936/300x300/hard-choices-gurinder-gill.webp',
        name : '4 BAKYIAN',
        artist : 'Gurinder Gill',
        album : 'Hard Choices',
        released : 'Jun-10-2023',
-       music : 'https://pagaljatt.com/files/download/type/320/id/695'
+       music : 'https://p320.djpunjab.is/data/320/53936/302226/4%20BAKYIAN%20-%20Gurinder%20Gill.mp3'
         },
 	{
        img : 'https://pagaljatt.com/siteuploads/thumb/sft2/706_7.webp',

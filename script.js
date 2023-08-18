@@ -33,18 +33,10 @@ const music_list = [
         },
 	{
       img : 'https://cover.djpunjab.is/54172/300x300/making-memories-karan-aujla.webp',
-      name : 'Girl, I Love You(Euro S Intro)',
-      artist : 'Karan Aujla',
-      album : 'Making Memories',
-      released : 'Aug-13-2023',
-      music : 'https://p320.djpunjab.is/data/320/54172/302541/Girl,%20I%20Love%20You%20(Euro%20S%20Intro)%20-%20Karan%20Aujla.mp3'
-        },
-	{
-      img : 'https://cover.djpunjab.is/54172/300x300/making-memories-karan-aujla.webp',
       name : 'Try Me',
       artist : 'Karan Aujla',
       album : 'Making Memories',
-      released : 'Aug-13-2023',
+      released : 'Aug-18-2023',
       music : 'https://p320.djpunjab.is/data/320/54172/302539/Try%20Me%20-%20Karan%20Aujla.mp3'
         },
 	{
@@ -52,7 +44,7 @@ const music_list = [
       name : 'What',
       artist : 'Karan Aujla',
       album : 'Making Memories',
-      released : 'Aug-13-2023',
+      released : 'Aug-18-2023',
       music : 'https://p320.djpunjab.is/data/320/54172/302534/What%20-%20Karan%20Aujla.mp3'
         },
 	{
@@ -60,7 +52,7 @@ const music_list = [
       name : 'You',
       artist : 'Karan Aujla',
       album : 'Making Memories',
-      released : 'Aug-13-2023',
+      released : 'Aug-18-2023',
       music : 'https://p320.djpunjab.is/data/320/54172/302535/You%20-%20Karan%20Aujla.mp3'
         },
 	{
@@ -68,7 +60,7 @@ const music_list = [
       name : 'Softly',
       artist : 'Karan Aujla',
       album : 'Making Memories',
-      released : 'Aug-13-2023',
+      released : 'Aug-18-2023',
       music : 'https://p320.djpunjab.is/data/320/54172/302540/Softly%20-%20Karan%20Aujla.mp3'
         },
 	{
@@ -76,7 +68,7 @@ const music_list = [
       name : 'Champions Anthem',
       artist : 'Karan Aujla',
       album : 'Making Memories',
-      released : 'Aug-13-2023',
+      released : 'Aug-18-2023',
       music : 'https://p320.djpunjab.is/data/320/54172/302536/Champions%20Anthem%20-%20Karan%20Aujla.mp3'
         },
 	{
@@ -84,7 +76,7 @@ const music_list = [
       name : 'Bachke Bachke',
       artist : 'Karan Aujla(feat. Yarah)',
       album : 'Making Memories',
-      released : 'Aug-13-2023',
+      released : 'Aug-18-2023',
       music : 'https://p320.djpunjab.is/data/320/54172/302538/Bachke%20Bachke%20(feat.%20Yarah)%20-%20Karan%20Aujla.mp3'
         },
 	{
@@ -92,7 +84,7 @@ const music_list = [
       name : 'Admirin You',
       artist : 'Karan Aujla(feat. Preston Pablo)',
       album : 'Making Memories',
-      released : 'Aug-13-2023',
+      released : 'Aug-18-2023',
       music : 'https://p320.djpunjab.is/data/320/54172/302542/Admirin%20You%20(feat.%20Preston%20Pablo)%20-%20Karan%20Aujla.mp3'
         },
 	{

@@ -24,6 +24,14 @@ let updateTimer;
 
 const music_list = [
 	{
+      img : 'https://cover.djpunjab.is/54180/300x700/all-talk-khan-bhaini.webp',
+      name : 'All Talk',
+      artist : 'Khan Bhaini',
+      album : 'Bang Music',
+      released : 'Aug-18-2023',
+      music : 'https://s320.djpunjab.is/data/320/54180/302550/All%20Talk%20-%20Khan%20Bhaini.mp3'
+        },
+   {
       img : 'https://cover.djpunjab.is/54173/300x700/one-love-shubh.webp',
       name : 'One Love',
       artist : 'Shubh',

@@ -24,6 +24,54 @@ let updateTimer;
 
 const music_list = [
 	{
+      img : 'https://cover.djpunjab.is/54195/300x700/do-or-die-jassa-dhillon.webp',
+      name : 'Do Or Die',
+      artist : 'Jassa Dhillon',
+      album : 'Jassa Dhillon Music',
+      released : 'Aug-23-2023',
+      music : 'https://s320.djpunjab.is/data/320/54195/302571/Do%20Or%20Die%20-%20Jassa%20Dhillon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54190/300x700/naveezy-navaan-sandhu.webp',
+      name : 'Dinar',
+      artist : 'Navaan Sandhu',
+      album : 'Naveezy',
+      released : 'Aug-22-2023',
+      music : 'https://p320.djpunjab.is/data/320/54190/302563/Dinar%20-%20Navaan%20Sandhu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54190/300x700/naveezy-navaan-sandhu.webp',
+      name : 'Jail',
+      artist : 'Navaan Sandhu',
+      album : 'Naveezy',
+      released : 'Aug-22-2023',
+      music : 'https://p320.djpunjab.is/data/320/54190/302562/Jail%20-%20Navaan%20Sandhu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54190/300x700/naveezy-navaan-sandhu.webp',
+      name : 'Kach Wangu',
+      artist : 'Navaan Sandhu',
+      album : 'Naveezy',
+      released : 'Aug-22-2023',
+      music : 'https://p320.djpunjab.is/data/320/54190/302564/Kach%20Wangu%20-%20Navaan%20Sandhu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54190/300x700/naveezy-navaan-sandhu.webp',
+      name : 'My Prime',
+      artist : 'Navaan Sandhu',
+      album : 'Naveezy',
+      released : 'Aug-22-2023',
+      music : 'https://p320.djpunjab.is/data/320/54190/302561/My%20Prime%20-%20Navaan%20Sandhu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54190/300x700/naveezy-navaan-sandhu.webp',
+      name : 'Naveezy',
+      artist : 'Navaan Sandhu',
+      album : 'Naveezy',
+      released : 'Aug-22-2023',
+      music : 'https://p320.djpunjab.is/data/320/54190/302560/Naveezy%20-%20Navaan%20Sandhu.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54180/300x700/all-talk-khan-bhaini.webp',
       name : 'All Talk',
       artist : 'Khan Bhaini',

@@ -40,6 +40,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54207/302583/Agla%20(Kayia%20Layi)%20-%20Aman%20Yaar.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/54204/300x700/naa-lai-ke-sunny-randhawa.webp',
+      name : 'Naa Lai Ke',
+      artist : 'Sunny Randhawa',
+      album : 'Street Gang Music',
+      released : 'Aug-24-2023',
+      music : 'https://s320.djpunjab.is/data/320/54204/302580/Naa%20Lai%20Ke%20-%20Sunny%20Randhawa.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54195/300x700/do-or-die-jassa-dhillon.webp',
       name : 'Do Or Die',
       artist : 'Jassa Dhillon',

@@ -48,6 +48,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54204/302580/Naa%20Lai%20Ke%20-%20Sunny%20Randhawa.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/54201/300x700/gen-y-sukhpall-channi.webp',
+      name : 'GEN Y',
+      artist : 'Sukhpall Channi',
+      album : 'Parmish Verma Films',
+      released : 'Aug-24-2023',
+      music : 'https://s320.djpunjab.is/data/320/54201/302577/GEN%20Y%20-%20Sukhpall%20Channi.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54195/300x700/do-or-die-jassa-dhillon.webp',
       name : 'Do Or Die',
       artist : 'Jassa Dhillon',

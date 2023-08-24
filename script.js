@@ -32,6 +32,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54205/302581/Lifestyle%20-%20Harkirat%20Sangha.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/54207/300x700/agla-%26kayia-layi%26-aman-yaar.webp',
+      name : 'Agla (Kayia Layi)',
+      artist : 'Aman Yaar Ft. Bohemia',
+      album : 'Bohemia Music',
+      released : 'Aug-24-2023',
+      music : 'https://s320.djpunjab.is/data/320/54207/302583/Agla%20(Kayia%20Layi)%20-%20Aman%20Yaar.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54195/300x700/do-or-die-jassa-dhillon.webp',
       name : 'Do Or Die',
       artist : 'Jassa Dhillon',

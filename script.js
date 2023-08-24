@@ -4334,9 +4334,249 @@ const music_list = [
          album : 'Brown Boys Records',
          released : 'Jan-6-2021',
          music : 'https://s320.djpunjab.is/data/320/49550/297113/ILL%20Mindz%20-%20Big%20Boi%20Deep.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49534/300x700/2021-flow-sikander-kahlon.webp',
+         name : '2021 Flow',
+         artist : 'Sikander Kahlon',
+         album : 'Sikander Kahlon Music',
+         released : 'Jan-3-2021',
+         music : 'https://s320.djpunjab.is/data/320/49534/297097/2021%20Flow%20-%20Sikander%20Kahlon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49510/300x700/moonlight-harnoor.webp',
+         name : 'Moonlight',
+         artist : 'Harnoor',
+         album : 'Jatt Life Studios',
+         released : 'Dec-28-2020',
+         music : 'https://s320.djpunjab.is/data/320/49510/297073/Moonlight%20-%20Harnoor.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49500/300x700/panjab-%26my-motherland%26-sidhu-moose-wala.webp',
+         name : 'Panjab',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala',
+         released : 'Dec-26-2020',
+         music : 'https://s320.djpunjab.is/data/320/49500/297063/Panjab%20(My%20Motherland)%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49463/300x700/mexico-koka-karan-aujla.webp',
+         name : 'Mexico Koka',
+         artist : 'Karan Aujla',
+         album : 'Karan Aujla',
+         released : 'Dec-22-2020',
+         music : 'https://s320.djpunjab.is/data/320/49463/297016/Mexico%20Koka%20-%20Karan%20Aujla.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49405/300x700/jattiye-nirvair-pannu.webp',
+         name : 'Jattiye',
+         artist : 'Nirvair Pannu',
+         album : 'Snappy',
+         released : 'Dec-15-2020',
+         music : 'https://s320.djpunjab.is/data/320/49405/296954/Jattiye%20-%20Nirvair%20Pannu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49315/300x700/foreigns-ap-dhillon.webp',
+         name : 'Foreigns',
+         artist : 'AP Dhillon Ft. Gurinder Gill',
+         album : 'Run-Up Records',
+         released : 'Nov-29-2020',
+         music : 'https://s320.djpunjab.is/data/320/49315/296864/Foreigns%20-%20AP%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49305/300x700/sun-fer-khan-bhaini.webp',
+         name : 'Sun Fer',
+         artist : 'Khan Bhaini',
+         album : 'Single Track Studio',
+         released : 'Nov-26-2020',
+         music : 'https://s320.djpunjab.is/data/320/49305/296849/Sun%20Fer%20-%20Khan%20Bhaini.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49299/300x700/daru-sasti-arjan-dhillon.webp',
+         name : 'Daru Sasti',
+         artist : 'Arjan Dhillon',
+         album : 'Brown Studios',
+         released : 'Nov-25-2020',
+         music : 'https://s320.djpunjab.is/data/320/49299/296843/Daru%20Sasti%20-%20Arjan%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49297/300x700/city-of-gold-nirvair-pannu.webp',
+         name : 'City Of Gold',
+         artist : 'Nirvair Pannu',
+         album : 'Juke Dock',
+         released : 'Nov-25-2020',
+         music : 'https://s320.djpunjab.is/data/320/49297/296841/City%20Of%20Gold%20-%20Nirvair%20Pannu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49284/300x700/mull-pyar-da-arjan-dhillon.webp',
+         name : 'Mull Pyar Da',
+         artist : 'Arjan Dhillon',
+         album : 'Brown Studios',
+         released : 'Nov-24-2020',
+         music : 'https://s320.djpunjab.is/data/320/49284/296828/Mull%20Pyar%20Da%20-%20Arjan%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49283/300x700/gucci-da-sapp-kulbir-jhinjer.webp',
+         name : 'Gucci Da Sapp',
+         artist : 'Kulbir Jhinjer',
+         album : 'Leaf Record',
+         released : 'Nov-24-2020',
+         music : 'https://s320.djpunjab.is/data/320/49283/296827/Gucci%20Da%20Sapp%20-%20Kulbir%20Jhinjer.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49261/300x700/majha-block-prem-dhillon.webp',
+         name : 'Majha Block',
+         artist : 'Prem Dhillon',
+         album : 'Prem Dhillon',
+         released : 'Nov-29-2020',
+         music : 'https://s320.djpunjab.is/data/320/49261/296805/Majha%20Block%20-%20Prem%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49173/300x700/bai-bai-gulab-sidhu.webp',
+         name : 'Bai Bai',
+         artist : 'Gulab Sidhu',
+         album : '5911 Records',
+         released : 'Nov-6-2020',
+         music : 'https://s320.djpunjab.is/data/320/49173/296717/Bai%20Bai%20-%20Gulab%20Sidhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49154/300x700/waalian-harnoor.webp',
+         name : 'Waalian',
+         artist : 'Harnoor',
+         album : 'Jatt Life Studios',
+         released : 'Nov-4-2020',
+         music : 'https://s320.djpunjab.is/data/320/49154/296698/Waalian%20-%20Harnoor.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49151/300x700/pyar-hogya-jassa-dhillon.webp',
+         name : 'Pyar Hogya',
+         artist : 'Jassa Dhillon',
+         album : 'Brown Town Music',
+         released : 'Nov-4-2020',
+         music : 'https://s320.djpunjab.is/data/320/49151/296695/Pyar%20Hogya%20-%20Jassa%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49138/300x700/info-jordan-sandhu.webp',
+         name : 'Info',
+         artist : 'Jordan Sandhu',
+         album : 'Saga Music',
+         released : 'Nov-2-2020',
+         music : 'https://s320.djpunjab.is/data/320/49138/296682/Info%20-%20Jordan%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49136/300x700/muscle-caran-tarsem-jassar.webp',
+         name : 'Muscle Caran',
+         artist : 'Tarsem Jassar',
+         album : 'Vehli Janta Records',
+         released : 'Nov-1-2020',
+         music : 'https://s320.djpunjab.is/data/320/49136/296670/Muscle%20Caran%20-%20Tarsem%20Jassar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49105/300x700/raunda-wala-tarsem-jassar.webp',
+         name : 'Raunda Wala',
+         artist : 'Tarsem Jassar',
+         album : 'Vehli Janta Records',
+         released : 'Oct-28-2020',
+         music : 'https://s320.djpunjab.is/data/320/49105/296639/Raunda%20Wala%20-%20Tarsem%20Jassar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49101/300x700/bachalo-akhil.webp',
+         name : 'Bachalo',
+         artist : 'Akhil',
+         album : 'White Hill Music',
+         released : 'Oct-27-2020',
+         music : 'https://s320.djpunjab.is/data/320/49101/296635/Bachalo%20-%20Akhil.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49086/300x700/adhiya-karan-aujla.webp',
+         name : 'Adhiya',
+         artist : 'Karan Aujla',
+         album : 'Street Gang Music',
+         released : 'Oct-22-2020',
+         music : 'https://s320.djpunjab.is/data/320/49086/296609/Adhiya%20-%20Karan%20Aujla.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49080/300x700/2020-raxstar.webp',
+         name : '2020',
+         artist : 'Raxstar',
+         album : 'Dream Warriors',
+         released : 'Oct-22-2020',
+         music : 'https://s320.djpunjab.is/data/320/49080/296603/2020%20-%20Raxstar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49077/300x700/bad-sidhu-moose-wala.webp',
+         name : 'Bad',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala Music',
+         released : 'Oct-21-2020',
+         music : 'https://s320.djpunjab.is/data/320/49077/296600/Bad%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49075/300x700/welcome-to-my-hood-diljit-dosanjh.webp',
+         name : 'Welcome To My Hood',
+         artist : 'Diljit Dosanjh',
+         album : 'Diljit Dosanjh Music',
+         released : 'Oct-21-2020',
+         music : 'https://s320.djpunjab.is/data/320/49075/296598/Welcome%20To%20My%20Hood%20-%20Diljit%20Dosanjh.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49047/300x700/kala-jaadu-arjan-dhillon.webp',
+         name : 'Kala Jaadu',
+         artist : 'Arjan Dhillon',
+         album : 'Brown Studios',
+         released : 'Oct-19-2020',
+         music : 'https://s320.djpunjab.is/data/320/49047/296570/Kala%20Jaadu%20-%20Arjan%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49028/300x700/my-fellas-arjan-dhillon.webp',
+         name : 'My Fellas',
+         artist : 'Arjan Dhillon',
+         album : 'Sony Music India',
+         released : 'Oct-19-2020',
+         music : 'https://s320.djpunjab.is/data/320/49028/296550/My%20Fellas%20-%20Arjan%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/49005/300x700/mutiyaare-ni-jassa-dhillon.webp',
+         name : 'Mutiyaare Ni',
+         artist : 'Jassa Dhillon',
+         album : 'YRF',
+         released : 'Oct-6-2020',
+         music : 'https://s320.djpunjab.is/data/320/49005/296527/Mutiyaare%20Ni%20-%20Jassa%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48991/300x700/bai-bai-arjan-dhillon.webp',
+         name : 'Bai Bai',
+         artist : 'Arjan Dhillon',
+         album : 'Sony Music India',
+         released : 'Oct-3-2020',
+         music : 'https://s320.djpunjab.is/data/320/48991/296513/Bai%20Bai%20-%20Arjan%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48889/300x700/about-me-jordan-sandhu.webp',
+         name : 'About Me',
+         artist : 'Jordan Sandhu',
+         album : 'B Major',
+         released : 'Sep-16-2020',
+         music : 'https://s320.djpunjab.is/data/320/48889/296380/About%20Me%20-%20Jordan%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48834/300x700/villagers-varinder-brar.webp',
+         name : 'Villagers',
+         artist : 'Varinder Brar',
+         album : 'Varinder Brar Music',
+         released : 'Sep-6-2020',
+         music : 'https://s320.djpunjab.is/data/320/48834/296325/Villagers%20-%20Varinder%20Brar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48818/300x700/game-shooter-kahlon.webp',
+         name : 'Game',
+         artist : 'Shooter Kahlon',
+         album : '5911 Records',
+         released : 'Sep-3-2020',
+         music : 'https://s320.djpunjab.is/data/320/48818/296300/Game%20-%20Shooter%20Kahlon.mp3'
             }
 	
-	/* https://djpunjab.is/page/newlatest.php?page=214 */
+	/* https://djpunjab.is/page/newlatest.php?page=257 */
 
 	,
             {

@@ -24,6 +24,14 @@ let updateTimer;
 
 const music_list = [
 	{
+      img : 'https://cover.djpunjab.is/54217/300x700/ruthless-raaj-sohal.webp',
+      name : 'Ruthless',
+      artist : 'Raaj Sohal',
+      album : 'Ghost Productions',
+      released : 'Aug-25-2023',
+      music : 'https://s320.djpunjab.is/data/320/54217/302593/Ruthless%20-%20Raaj%20Sohal.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54205/300x700/lifestyle-harkirat-sangha.webp',
       name : 'Lifestyle',
       artist : 'Harkirat Sangha',

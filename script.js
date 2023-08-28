@@ -24,6 +24,14 @@ let updateTimer;
 
 const music_list = [
 	{
+      img : 'https://cover.djpunjab.is/54222/300x700/close-akhil.webp',
+      name : 'Close',
+      artist : 'Akhil',
+      album : 'Speed Records',
+      released : 'Aug-28-2023',
+      music : 'https://s320.djpunjab.is/data/320/54222/302598/Close%20-%20Akhil.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54217/300x700/ruthless-raaj-sohal.webp',
       name : 'Ruthless',
       artist : 'Raaj Sohal',

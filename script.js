@@ -24,6 +24,22 @@ let updateTimer;
 
 const music_list = [
 	{
+      img : 'https://cover.djpunjab.is/54232/300x700/palpita-diljit-dosanjh.webp',
+      name : 'Palpita',
+      artist : 'Diljit Dosanjh',
+      album : 'Sony Music',
+      released : 'Aug-31-2023',
+      music : 'https://s320.djpunjab.is/data/320/54232/302615/Palpita%20-%20Diljit%20Dosanjh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54229/300x700/duleep-singh-ranjit-bawa.webp',
+      name : 'Duleep Singh',
+      artist : 'Ranjit Bawa',
+      album : 'Ranjit Bawa',
+      released : 'Aug-30-2023',
+      music : 'https://s320.djpunjab.is/data/320/54229/302612/Duleep%20Singh%20-%20Ranjit%20Bawa.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54222/300x700/close-akhil.webp',
       name : 'Close',
       artist : 'Akhil',

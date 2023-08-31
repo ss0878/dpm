@@ -40,6 +40,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54229/302612/Duleep%20Singh%20-%20Ranjit%20Bawa.mp3'
         },
 	{
+      img : 'https://lq.djjohal.com/covers/730488/Nimm%20Thalle.jpg',
+      name : 'Nimm Thalle',
+      artist : 'Jordan Sandhu',
+      album : 'Times Music',
+      released : 'Aug-30-2023',
+      music : 'https://hd1.djjohal.com/320/517014/Nimm%20Thalle%20-%20Jordan%20Sandhu%20(DJJOhAL.Com).mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54222/300x700/close-akhil.webp',
       name : 'Close',
       artist : 'Akhil',

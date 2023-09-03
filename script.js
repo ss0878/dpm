@@ -24,6 +24,14 @@ let updateTimer;
 
 const music_list = [
 	{
+      img : 'https://i1.sndcdn.com/artworks-PSlX4Cj4VCnSuPyM-AdShzg-t500x500.jpg',
+      name : 'DARK DRIP',
+      artist : 'Wazir Patar',
+      album : 'Street Knowledge',
+      released : 'Sep-1-2023',
+      music : 'https://audio.jukehost.co.uk/YEIPrfcczLANjn9K4XoHoy6kBKCVgODK'
+        },
+	{
       img : 'https://cover.djpunjab.is/54232/300x700/palpita-diljit-dosanjh.webp',
       name : 'Palpita',
       artist : 'Diljit Dosanjh',

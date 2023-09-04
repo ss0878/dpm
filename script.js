@@ -25,11 +25,75 @@ let updateTimer;
 const music_list = [
 	{
       img : 'https://i1.sndcdn.com/artworks-PSlX4Cj4VCnSuPyM-AdShzg-t500x500.jpg',
+      name : 'Bread And Butter',
+      artist : 'Wazir Patar',
+      album : 'Street Knowledge',
+      released : 'Sep-4-2023',
+      music : 'https://djpunjab.com.se/download/bread-and-butter-wazir-patar-mp3-song-download?q=320'
+        },
+	{
+      img : 'https://i1.sndcdn.com/artworks-PSlX4Cj4VCnSuPyM-AdShzg-t500x500.jpg',
+      name : 'Immortal',
+      artist : 'Wazir Patar',
+      album : 'Street Knowledge',
+      released : 'Sep-4-2023',
+      music : 'https://djpunjab.com.se/download/immortal-wazir-patar-ar-paisley-mp3-song-download?q=320'
+        },
+	{
+      img : 'https://i1.sndcdn.com/artworks-PSlX4Cj4VCnSuPyM-AdShzg-t500x500.jpg',
+      name : 'Streetwise',
+      artist : 'Wazir Patar',
+      album : 'Street Knowledge',
+      released : 'Sep-4-2023',
+      music : 'https://djpunjab.com.se/download/streetwise-wazir-patar-mp3-song-download?q=320'
+        },
+	{
+      img : 'https://i1.sndcdn.com/artworks-PSlX4Cj4VCnSuPyM-AdShzg-t500x500.jpg',
+      name : 'Black Heart',
+      artist : 'Wazir Patar',
+      album : 'Street Knowledge',
+      released : 'Sep-4-2023',
+      music : 'https://djpunjab.com.se/download/black-heart-wazir-patar-mp3-song-download?q=320'
+        },
+	{
+      img : 'https://i1.sndcdn.com/artworks-PSlX4Cj4VCnSuPyM-AdShzg-t500x500.jpg',
+      name : 'Mere Hisse De Phull',
+      artist : 'Wazir Patar',
+      album : 'Street Knowledge',
+      released : 'Sep-4-2023',
+      music : 'https://djpunjab.com.se/download/mere-hisse-de-phull-wazir-patar-kiran-sandhu-mp3-song-download?q=320'
+        },
+	{
+      img : 'https://i1.sndcdn.com/artworks-PSlX4Cj4VCnSuPyM-AdShzg-t500x500.jpg',
+      name : 'Sandookh',
+      artist : 'Wazir Patar',
+      album : 'Street Knowledge',
+      released : 'Sep-4-2023',
+      music : 'https://djpunjab.com.se/download/sandookh-wazir-patar-mp3-song-download?q=320'
+        },
+	{
+      img : 'https://i1.sndcdn.com/artworks-PSlX4Cj4VCnSuPyM-AdShzg-t500x500.jpg',
+      name : 'Waqbi',
+      artist : 'Wazir Patar',
+      album : 'Street Knowledge',
+      released : 'Sep-4-2023',
+      music : 'https://djpunjab.com.se/download/waqbi-wazir-patar-mp3-song-download?q=320'
+        },
+	{
+      img : 'https://i1.sndcdn.com/artworks-PSlX4Cj4VCnSuPyM-AdShzg-t500x500.jpg',
       name : 'DARK DRIP',
       artist : 'Wazir Patar',
       album : 'Street Knowledge',
-      released : 'Sep-1-2023',
-      music : 'https://audio.jukehost.co.uk/YEIPrfcczLANjn9K4XoHoy6kBKCVgODK'
+      released : 'Sep-4-2023',
+      music : 'https://djpunjab.com.se/download/dark-drip-wazir-patar-mp3-song-download?q=320'
+        },
+	{
+      img : 'https://i1.sndcdn.com/artworks-PSlX4Cj4VCnSuPyM-AdShzg-t500x500.jpg',
+      name : 'Eve Teaser',
+      artist : 'Wazir Patar',
+      album : 'Street Knowledge',
+      released : 'Sep-4-2023',
+      music : 'https://djpunjab.com.se/download/eve-teaser-wazir-patar-sikander-kahlon-mp3-song-download?q=320'
         },
 	{
       img : 'https://cover.djpunjab.is/54232/300x700/palpita-diljit-dosanjh.webp',

@@ -4718,9 +4718,49 @@ const music_list = [
          album : '5911 Records',
          released : 'Sep-3-2020',
          music : 'https://s320.djpunjab.is/data/320/48818/296300/Game%20-%20Shooter%20Kahlon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48798/300x700/koka-vs-coca-karan-aujla.webp',
+         name : 'Koka Vs Coca',
+         artist : 'Karan Aujla',
+         album : 'Navrattan Music',
+         released : 'Aug-29-2020',
+         music : 'https://s320.djpunjab.is/data/320/48798/296280/Koka%20Vs%20Coca%20-%20Karan%20Aujla.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48797/300x700/radkan-te-madkan-rajvir-jawanda.webp',
+         name : 'Radkan Te Madkan',
+         artist : 'Rajvir Jawanda',
+         album : 'Rajvir Jawanda Music',
+         released : 'Aug-29-2020',
+         music : 'https://s320.djpunjab.is/data/320/48797/296279/Radkan%20Te%20Madkan%20-%20Rajvir%20Jawanda.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48733/300x700/my-block-ft.-byg-byrd-sidhu-moose-wala.webp',
+         name : 'My Block',
+         artist : 'Sidhu Moose Wala Ft. Byg Byrd',
+         album : 'Sidhu Moose Wala',
+         released : 'Aug-20-2020',
+         music : 'https://s320.djpunjab.is/data/320/48733/296207/My%20Block%20Ft.%20Byg%20Byrd%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48675/300x700/kurta-pajama-nirvair-pannu.webp',
+         name : 'Kurta Pajama',
+         artist : 'Nirvair Pannu',
+         album : 'R Nait Music',
+         released : 'Aug-7-2020',
+         music : 'https://s320.djpunjab.is/data/320/48675/296142/Kurta%20Pajama%20-%20Nirvair%20Pannu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48655/300x700/munde-desi-nseeb.webp',
+         name : 'Munde Desi',
+         artist : 'Nseeb',
+         album : 'Nseeb Music',
+         released : 'Aug-4-2020',
+         music : 'https://s320.djpunjab.is/data/320/48655/296122/Munde%20Desi%20-%20Nseeb.mp3'
             }
 	
-	/* https://djpunjab.is/page/newlatest.php?page=257 */
+	/* https://djpunjab.is/page/newlatest.php?page=267 */
 
 	,
             {

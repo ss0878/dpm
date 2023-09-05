@@ -29,7 +29,7 @@ const music_list = [
       artist : 'Wazir Patar',
       album : 'Street Knowledge',
       released : 'Sep-4-2023',
-      music : 'https://djpunjab.com.se/download/bread-and-butter-wazir-patar-mp3-song-download?q=320'
+      music : 'https://hd1.djjohal.com/320/517030/Bread%20And%20Butter%20-%20Wazir%20Patar%20(DJJOhAL.Com).mp3'
         },
 	{
       img : 'https://i1.sndcdn.com/artworks-PSlX4Cj4VCnSuPyM-AdShzg-t500x500.jpg',
@@ -37,7 +37,7 @@ const music_list = [
       artist : 'Wazir Patar',
       album : 'Street Knowledge',
       released : 'Sep-4-2023',
-      music : 'https://djpunjab.com.se/download/immortal-wazir-patar-ar-paisley-mp3-song-download?q=320'
+      music : 'https://hd1.djjohal.com/320/517034/Immortal%20-%20Wazir%20Patar%20(DJJOhAL.Com).mp3'
         },
 	{
       img : 'https://i1.sndcdn.com/artworks-PSlX4Cj4VCnSuPyM-AdShzg-t500x500.jpg',
@@ -45,7 +45,7 @@ const music_list = [
       artist : 'Wazir Patar',
       album : 'Street Knowledge',
       released : 'Sep-4-2023',
-      music : 'https://djpunjab.com.se/download/streetwise-wazir-patar-mp3-song-download?q=320'
+      music : 'https://hd1.djjohal.com/320/517042/Streetwise%20-%20Wazir%20Patar%20(DJJOhAL.Com).mp3'
         },
 	{
       img : 'https://i1.sndcdn.com/artworks-PSlX4Cj4VCnSuPyM-AdShzg-t500x500.jpg',
@@ -53,7 +53,7 @@ const music_list = [
       artist : 'Wazir Patar',
       album : 'Street Knowledge',
       released : 'Sep-4-2023',
-      music : 'https://djpunjab.com.se/download/black-heart-wazir-patar-mp3-song-download?q=320'
+      music : 'https://hd1.djjohal.com/320/517029/Black%20Heart%20-%20Wazir%20Patar%20(DJJOhAL.Com).mp3'
         },
 	{
       img : 'https://i1.sndcdn.com/artworks-PSlX4Cj4VCnSuPyM-AdShzg-t500x500.jpg',
@@ -61,7 +61,7 @@ const music_list = [
       artist : 'Wazir Patar',
       album : 'Street Knowledge',
       released : 'Sep-4-2023',
-      music : 'https://djpunjab.com.se/download/mere-hisse-de-phull-wazir-patar-kiran-sandhu-mp3-song-download?q=320'
+      music : 'https://hd1.djjohal.com/320/517037/Mere%20Hisse%20De%20Phull%20-%20Wazir%20Patar%20(DJJOhAL.Com).mp3'
         },
 	{
       img : 'https://i1.sndcdn.com/artworks-PSlX4Cj4VCnSuPyM-AdShzg-t500x500.jpg',
@@ -69,7 +69,7 @@ const music_list = [
       artist : 'Wazir Patar',
       album : 'Street Knowledge',
       released : 'Sep-4-2023',
-      music : 'https://djpunjab.com.se/download/sandookh-wazir-patar-mp3-song-download?q=320'
+      music : 'https://hd1.djjohal.com/320/517040/Sandookh%20-%20Wazir%20Patar%20(DJJOhAL.Com).mp3'
         },
 	{
       img : 'https://i1.sndcdn.com/artworks-PSlX4Cj4VCnSuPyM-AdShzg-t500x500.jpg',
@@ -77,7 +77,7 @@ const music_list = [
       artist : 'Wazir Patar',
       album : 'Street Knowledge',
       released : 'Sep-4-2023',
-      music : 'https://djpunjab.com.se/download/waqbi-wazir-patar-mp3-song-download?q=320'
+      music : 'https://hd1.djjohal.com/320/517044/Waqbi%20-%20Wazir%20Patar%20(DJJOhAL.Com).mp3'
         },
 	{
       img : 'https://i1.sndcdn.com/artworks-PSlX4Cj4VCnSuPyM-AdShzg-t500x500.jpg',
@@ -85,7 +85,7 @@ const music_list = [
       artist : 'Wazir Patar',
       album : 'Street Knowledge',
       released : 'Sep-4-2023',
-      music : 'https://djpunjab.com.se/download/dark-drip-wazir-patar-mp3-song-download?q=320'
+      music : 'https://hd1.djjohal.com/320/517031/Dark%20Drip%20-%20Wazir%20Patar%20(DJJOhAL.Com).mp3'
         },
 	{
       img : 'https://i1.sndcdn.com/artworks-PSlX4Cj4VCnSuPyM-AdShzg-t500x500.jpg',
@@ -93,7 +93,7 @@ const music_list = [
       artist : 'Wazir Patar',
       album : 'Street Knowledge',
       released : 'Sep-4-2023',
-      music : 'https://djpunjab.com.se/download/eve-teaser-wazir-patar-sikander-kahlon-mp3-song-download?q=320'
+      music : 'https://hd1.djjohal.com/320/517033/Eve%20Teaser%20-%20Wazir%20Patar%20(DJJOhAL.Com).mp3'
         },
 	{
       img : 'https://cover.djpunjab.is/54232/300x700/palpita-diljit-dosanjh.webp',

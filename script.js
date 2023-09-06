@@ -24,6 +24,14 @@ let updateTimer;
 
 const music_list = [
 	{
+      img : 'https://cover.djpunjab.is/54244/300x700/po-prem-dhillon.webp',
+      name : 'PO',
+      artist : 'Prem Dhillon',
+      album : 'Prem Dhillon Music',
+      released : 'Sep-6-2023',
+      music : 'https://s320.djpunjab.is/data/320/54244/302632/PO%20-%20Prem%20Dhillon.mp3'
+        },
+	{
       img : 'https://i1.sndcdn.com/artworks-PSlX4Cj4VCnSuPyM-AdShzg-t500x500.jpg',
       name : 'Bread And Butter',
       artist : 'Wazir Patar',

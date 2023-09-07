@@ -4742,9 +4742,105 @@ const music_list = [
          album : 'Nseeb Music',
          released : 'Aug-4-2020',
          music : 'https://s320.djpunjab.is/data/320/48655/296122/Munde%20Desi%20-%20Nseeb.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48605/300x700/haan-haige-aa-karan-aujla.webp',
+         name : 'Haan Haige Aa',
+         artist : 'Karan Aujla',
+         album : 'Rehaan Records',
+         released : 'Jul-26-2020',
+         music : 'https://s320.djpunjab.is/data/320/48605/296057/Haan%20Haige%20Aa%20-%20Karan%20Aujla.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48602/300x700/dilpreet-dhillon-is-back-dilpreet-dhillon.webp',
+         name : 'Haan Haige Aa',
+         artist : 'Karan Aujla',
+         album : 'Rehaan Records',
+         released : 'Jul-26-2020',
+         music : 'https://s320.djpunjab.is/data/320/48605/296057/Haan%20Haige%20Aa%20-%20Karan%20Aujla.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48570/300x700/hustler-tarsem-jassar.webp',
+         name : 'Hustler',
+         artist : 'Tarsem Jassar',
+         album : 'Vehli Janta Records',
+         released : 'Jul-19-2020',
+         music : 'https://s320.djpunjab.is/data/320/48570/296007/Hustler%20-%20Tarsem%20Jassar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48565/300x700/defend-jordan-sandhu.webp',
+         name : 'Defend',
+         artist : 'Jordan Sandhu',
+         album : 'Jordan Sandhu Music',
+         released : 'Jul-18-2020',
+         music : 'https://s320.djpunjab.is/data/320/48565/296002/Defend%20-%20Jordan%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48554/300x700/bloodline-tarsem-jassar.webp',
+         name : 'Bloodline',
+         artist : 'Tarsem Jassar',
+         album : 'Vehli Janta Records',
+         released : 'Jul-14-2020',
+         music : 'https://s320.djpunjab.is/data/320/48554/295991/Bloodline%20-%20Tarsem%20Jassar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48531/300x700/yaar-mere-tarsem-jassar.webp',
+         name : 'Yaar Mere',
+         artist : 'Tarsem Jassar Ft. Kulbir Jhinjer',
+         album : 'Vehli Janta Records',
+         released : 'Jul-14-2020',
+         music : 'https://s320.djpunjab.is/data/320/48531/295968/Yaar%20Mere%20-%20Tarsem%20Jassar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48511/300x700/prohibited-sabi-bhinder.webp',
+         name : 'Prohibited',
+         artist : 'Sabi Bhinder',
+         album : 'Jatt Life Studios',
+         released : 'Jul-6-2020',
+         music : 'https://s320.djpunjab.is/data/320/48511/295948/Prohibited%20-%20Sabi%20Bhinder.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48509/300x700/paapi-rangrez-sidhu.webp',
+         name : 'Paapi',
+         artist : 'Rangrez Sidhu Ft. Sidhu Moosewala',
+         album : 'Sidhu Moose Wala Music',
+         released : 'Jul-6-2020',
+         music : 'https://s320.djpunjab.is/data/320/48509/295946/Paapi%20-%20Rangrez%20Sidhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48506/300x700/my-pride-tarsem-jassar.webp',
+         name : 'My Pride',
+         artist : 'Tarsem Jassar Ft. Fateh',
+         album : 'Vehli Janta Records',
+         released : 'Jul-4-2020',
+         music : 'https://s320.djpunjab.is/data/320/48506/295943/My%20Pride%20-%20Tarsem%20Jassar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48497/300x700/folk-touch-%26leaked-song%26-jassa-dhillon.webp',
+         name : 'Folk Touch',
+         artist : 'Jassa Dhillon',
+         album : 'Jassa Dhillon Music',
+         released : 'Jul-3-2020',
+         music : 'https://s320.djpunjab.is/data/320/48497/295934/Folk%20Touch%20(Leaked%20Song)%20-%20Jassa%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48457/300x700/baby-you-jassie-gill.webp',
+         name : 'Baby You',
+         artist : 'Jassie Gill',
+         album : 'Humble Music',
+         released : 'Jun-28-2020',
+         music : 'https://s320.djpunjab.is/data/320/48457/295894/Baby%20You%20-%20Jassie%20Gill.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48441/300x700/so-far-karan-aujla.webp',
+         name : 'So Far',
+         artist : 'Karan Aujla',
+         album : 'Karan Aujla',
+         released : 'Jun-25-2020',
+         music : 'https://s320.djpunjab.is/data/320/48441/295878/So%20Far%20-%20Karan%20Aujla.mp3'
             }
 	
-	/* https://djpunjab.is/page/newlatest.php?page=267 */
+	/* https://djpunjab.is/page/newlatest.php?page=274 */
 
 	,
             {

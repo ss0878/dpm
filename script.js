@@ -1847,30 +1847,6 @@ const music_list = [
         released : '10-01-2023',
         music : 'https://s320.djpunjab.is/data/320/53017/301108/Long%20Route%20-%20Amar%20Sehmbi.mp3'
          },
-         {
-        img : 'https://cover.djpunjab.is/53016/300x700/Jawani-Simar-Doraha.jpg',
-        name : 'Jawani',
-        artist : 'Simar Doraha',
-        album : 'Urban Pendu Records',
-        released : '10-01-2023',
-        music : 'https://s320.djpunjab.is/data/320/53016/301107/Jawani%20-%20Simar%20Doraha.mp3'
-          },
-          {
-        img : 'https://cover.djpunjab.is/53013/300x700/Ikki-Na-Dukki-Vicky.jpg',
-        name : 'Ikki Na Dukki',
-        artist : 'Vicky',
-        album : 'Times Music',
-        released : '09-01-2023',
-        music : 'https://s320.djpunjab.is/data/320/53013/301104/Ikki%20Na%20Dukki%20-%20Vicky.mp3'
-           },
-           {
-        img : 'https://cover.djpunjab.is/52994/300x700/Chaklo-Chaklo-Mani-Longia.jpg',
-        name : 'Chaklo Chaklo',
-        artist : 'Mani Longia',
-        album : 'Mani Longia Music',
-        released : '06-01-2023',
-        music : 'https://s320.djpunjab.is/data/320/52994/301085/Chaklo%20Chaklo%20-%20Mani%20Longia.mp3'
-            },
             {
 	img : 'https://cover.djpunjab.is/52993/300x700/Laado-Gill-Armaan.jpg',
 	name : 'Laado Gill',

@@ -4838,9 +4838,49 @@ const music_list = [
          album : 'Karan Aujla',
          released : 'Jun-25-2020',
          music : 'https://s320.djpunjab.is/data/320/48441/295878/So%20Far%20-%20Karan%20Aujla.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48435/300x700/next-level-varinder-brar.webp',
+         name : 'Next Level',
+         artist : 'Varinder Brar',
+         album : 'Varinder Brar Music',
+         released : 'Jun-24-2020',
+         music : 'https://s320.djpunjab.is/data/320/48435/295872/Next%20Level%20-%20Varinder%20Brar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48428/300x700/crown-prince-jazzy-b.webp',
+         name : 'Crown Prince',
+         artist : 'Jazzy B Ft. Bohemia',
+         album : 'Tips Music',
+         released : 'Jun-22-2020',
+         music : 'https://s320.djpunjab.is/data/320/48428/295865/Crown%20Prince%20-%20Jazzy%20B.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48428/300x700/crown-prince-jazzy-b.webp',
+         name : 'Crown Prince',
+         artist : 'Jazzy B Ft. Bohemia',
+         album : 'Tips Music',
+         released : 'Jun-22-2020',
+         music : 'https://s320.djpunjab.is/data/320/48428/295865/Crown%20Prince%20-%20Jazzy%20B.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48398/300x700/sick-tone-navaan-sandhu.webp',
+         name : 'Sick Tone',
+         artist : 'Navaan Sandhu',
+         album : 'Collab Creations',
+         released : 'Jun-17-2020',
+         music : 'https://s320.djpunjab.is/data/320/48398/295833/Sick%20Tone%20-%20Navaan%20Sandhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48394/300x700/faraar-jassa-dhillon.webp',
+         name : 'Faraar',
+         artist : 'Jassa Dhillon',
+         album : 'Brown Town Music',
+         released : 'Jun-16-2020',
+         music : 'https://s320.djpunjab.is/data/320/48394/295831/Faraar%20-%20Jassa%20Dhillon.mp3'
             }
 	
-	/* https://djpunjab.is/page/newlatest.php?page=274 */
+	/* https://djpunjab.is/page/newlatest.php?page=280 */
 
 	,
             {

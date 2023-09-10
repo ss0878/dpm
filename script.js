@@ -24,6 +24,14 @@ let updateTimer;
 
 const music_list = [
 	{
+      img : 'https://cover.djpunjab.is/54248/300x700/scars-ap-dhillon.webp',
+      name : 'Scars',
+      artist : 'AP Dhillon',
+      album : 'Run-Up Records',
+      released : 'Sep-8-2023',
+      music : 'https://s320.djpunjab.is/data/320/54248/302636/Scars%20-%20AP%20Dhillon.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54244/300x700/po-prem-dhillon.webp',
       name : 'PO',
       artist : 'Prem Dhillon',

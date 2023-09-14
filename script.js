@@ -5039,6 +5039,7 @@ function setUpdate(){
         curr_time.textContent = currentMinutes + ":" + currentSeconds;
         total_duration.textContent = durationMinutes + ":" + durationSeconds;
     }
+    notification();
 }
 function notification(){
     sessionimg = music_list[track_index].img;

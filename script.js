@@ -24,6 +24,46 @@ let updateTimer;
 
 const music_list = [
 	{
+      img : 'https://cover.djpunjab.is/54285/300x700/meharma-garry-sandhu.webp',
+      name : 'Meharma',
+      artist : 'Garry Sandhu',
+      album : 'Fresh Media Records',
+      released : 'Sep-14-2023',
+      music : 'https://s320.djpunjab.is/data/320/54285/302673/Meharma%20-%20Garry%20Sandhu.mp3'
+        },
+   {
+      img : 'https://cover.djpunjab.is/54284/300x700/lip-shade-arjan-dhillon.webp',
+      name : 'Lip Shade',
+      artist : 'Arjan Dhillon',
+      album : 'Brown Studios',
+      released : 'Sep-14-2023',
+      music : 'https://s320.djpunjab.is/data/320/54284/302672/Lip%20Shade%20-%20Arjan%20Dhillon.mp3'
+        },
+   {
+      img : 'https://cover.djpunjab.is/54279/300x700/kashni-akh-gurneet-dosanjh.webp',
+      name : 'Kashni Akh',
+      artist : 'Gurneet Dosanjh',
+      album : 'White Hill Music',
+      released : 'Sep-13-2023',
+      music : 'https://s320.djpunjab.is/data/320/54279/302667/Kashni%20Akh%20-%20Gurneet%20Dosanjh.mp3'
+        },
+   {
+      img : 'https://cover.djpunjab.is/54274/300x700/lambo-flow-parmish-verma.webp',
+      name : 'Lambo Flow',
+      artist : 'Parmish Verma',
+      album : 'VYRL Punjabi',
+      released : 'Sep-12-2023',
+      music : 'https://s320.djpunjab.is/data/320/54274/302662/Lambo%20Flow%20-%20Parmish%20Verma.mp3'
+        },
+   {
+      img : 'https://cover.djpunjab.is/54265/300x700/lifestyle-gurtaj.webp',
+      name : 'Lifestyle',
+      artist : 'Gurtaj',
+      album : 'Bless Studios',
+      released : 'Sep-10-2023',
+      music : 'https://s320.djpunjab.is/data/320/54265/302653/Lifestyle%20-%20Gurtaj.mp3'
+        },
+   {
       img : 'https://cover.djpunjab.is/54248/300x700/scars-ap-dhillon.webp',
       name : 'Scars',
       artist : 'AP Dhillon',
@@ -5079,13 +5119,15 @@ if ( 'mediaSession' in navigator ) {
 	navigator.mediaSession.setActionHandler('seekbackward', function(event) {
   	const skipTime = event.seekOffset || defaultSkipTime;
   	curr_track.currentTime = Math.max(curr_track.currentTime - skipTime, 0);
-  	updatePositionState();
+  	setUpdate();
+   updatePositionState();
 	});
 
 	navigator.mediaSession.setActionHandler('seekforward', function(event) {
   	const skipTime = event.seekOffset || defaultSkipTime;
   	curr_track.currentTime = Math.min(curr_track.currentTime + skipTime, curr_track.duration);
-  	updatePositionState();
+  	setUpdate();
+   updatePositionState();
 	});
 
    

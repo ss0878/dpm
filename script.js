@@ -4977,12 +4977,16 @@ function playTrack(){
     isPlaying = true;
     track_art.classList.add('rotate');
     playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
+    setUpdate();
+    updatePositionState();
 }
 function pauseTrack(){
     curr_track.pause();
     isPlaying = false;
     track_art.classList.remove('rotate');
     playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-5x"></i>';
+    setUpdate();
+    updatePositionState();
 }
 function nextTrack(){
     if(track_index < music_list.length - 1 && isRandom === false){

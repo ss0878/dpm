@@ -17,14 +17,6 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54284/302672/Lip%20Shade%20-%20Arjan%20Dhillon.mp3'
         },
    {
-      img : 'https://cover.djpunjab.is/54279/300x700/kashni-akh-gurneet-dosanjh.webp',
-      name : 'Kashni Akh',
-      artist : 'Gurneet Dosanjh',
-      album : 'White Hill Music',
-      released : 'Sep-13-2023',
-      music : 'https://s320.djpunjab.is/data/320/54279/302667/Kashni%20Akh%20-%20Gurneet%20Dosanjh.mp3'
-        },
-   {
       img : 'https://cover.djpunjab.is/54274/300x700/lambo-flow-parmish-verma.webp',
       name : 'Lambo Flow',
       artist : 'Parmish Verma',

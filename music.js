@@ -1,6 +1,38 @@
 const music_list = [
     
     {
+      img : 'https://cover.djpunjab.is/54321/300x700/kaato-ranvir-rv.webp',
+      name : 'Kaato',
+      artist : 'Ranvir RV',
+      album : 'Ranvir RV Music',
+      released : 'Sep-21-2023',
+      music : 'https://s320.djpunjab.is/data/320/54321/302711/Kaato%20-%20Ranvir%20RV.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54317/300x700/malwain-ranjit-bawa.webp',
+      name : 'Malwain',
+      artist : 'Ranjit Bawa',
+      album : 'Ranjit Bawa Music',
+      released : 'Sep-21-2023',
+      music : 'https://s320.djpunjab.is/data/320/54317/302707/Malwain%20-%20Ranjit%20Bawa.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54310/300x700/talk-of-the-town-prem-dhillon.webp',
+      name : 'Talk Of The Town',
+      artist : 'Prem Dhillon',
+      album : 'Times Music',
+      released : 'Sep-20-2023',
+      music : 'https://s320.djpunjab.is/data/320/54310/302698/Talk%20Of%20The%20Town%20-%20Prem%20Dhillon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54305/300x700/zulfaan-jordan-sandhu.webp',
+      name : 'Zulfaan',
+      artist : 'Jordan Sandhu',
+      album : 'Legacy Records',
+      released : 'Sep-19-2023',
+      music : 'https://s320.djpunjab.is/data/320/54305/302693/Zulfaan%20-%20Jordan%20Sandhu.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54285/300x700/meharma-garry-sandhu.webp',
       name : 'Meharma',
       artist : 'Garry Sandhu',

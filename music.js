@@ -410,11 +410,19 @@ const music_list = [
         },
 	{
       img : 'https://cover.djpunjab.is/54118/300x700/You-Jassa-Dhillon.jpg',
-      name : 'You ',
+      name : 'You',
       artist : 'Jassa Dhillon',
       album : 'Jassa Dhillon Production',
       released : 'Aug-6-2023',
       music : 'https://s320.djpunjab.is/data/320/54118/302475/You%20-%20Jassa%20Dhillon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54110/300x700/mexico-hunar-sidhu.webp',
+      name : 'Mexico',
+      artist : 'Hunar Sidhu',
+      album : 'Melo Music',
+      released : 'Aug-4-2023',
+      music : 'https://s320.djpunjab.is/data/320/54110/302466/Mexico%20-%20Hunar%20Sidhu.mp3'
         },
 	{
       img : 'https://cover.djpunjab.is/54102/300x700/Fame-Nirvair-Pannu.jpg',

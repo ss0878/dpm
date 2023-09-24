@@ -1,6 +1,30 @@
 const music_list = [
     
     {
+      img : 'https://cover.djpunjab.is/54326/300x700/bir-rass-harvi.webp',
+      name : 'BIR RASS',
+      artist : 'Harvi Ft. Veer Sandhu',
+      album : 'Bang Music',
+      released : 'Sep-22-2023',
+      music : 'https://s320.djpunjab.is/data/320/54326/302716/BIR%20RASS%20-%20Harvi.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54324/300x700/jutti-deep-jandu.webp',
+      name : 'Jutti',
+      artist : 'Deep Jandu Ft. Surjit Khan',
+      album : 'Deep Jandu',
+      released : 'Sep-22-2023',
+      music : 'https://s320.djpunjab.is/data/320/54324/302714/Jutti%20-%20Deep%20Jandu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54323/300x700/ayee-harnoor.webp',
+      name : 'Ayee',
+      artist : 'Harnoor Ft. Jass Dhillon',
+      album : 'Harnoor Music',
+      released : 'Sep-22-2023',
+      music : 'https://s320.djpunjab.is/data/320/54323/302713/Ayee%20-%20Harnoor.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54321/300x700/kaato-ranvir-rv.webp',
       name : 'Kaato',
       artist : 'Ranvir RV',

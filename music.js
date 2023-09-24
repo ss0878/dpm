@@ -17,6 +17,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54324/302714/Jutti%20-%20Deep%20Jandu.mp3'
         },
 	{
+      img : 'https://lq.djjohal.com/covers/730627/Trap%20O%20Trap.jpg',
+      name : 'Trap O Trap',
+      artist : 'Guri Lahoria',
+      album : 'Grand Studio',
+      released : 'Sep-22-2023',
+      music : 'https://hd1.djjohal.com/320/517251/Trap%20O%20Trap%20-%20Guri%20Lahoria%20(DJJOhAL.Com).mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54323/300x700/ayee-harnoor.webp',
       name : 'Ayee',
       artist : 'Harnoor Ft. Jass Dhillon',

@@ -1,6 +1,14 @@
 const music_list = [
     
     {
+      img : 'https://cover.djpunjab.is/54337/300x700/10---4-veer-sandhu.webp',
+      name : '10 - 4',
+      artist : 'Veer Sandhu',
+      album : 'Veer Sandhu Music',
+      released : 'Sep-25-2023',
+      music : 'https://s320.djpunjab.is/data/320/54337/302727/10%20-%204%20-%20Veer%20Sandhu.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54326/300x700/bir-rass-harvi.webp',
       name : 'BIR RASS',
       artist : 'Harvi Ft. Veer Sandhu',

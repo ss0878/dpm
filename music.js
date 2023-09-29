@@ -1,6 +1,86 @@
 const music_list = [
     
     {
+      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.webp',
+      name : 'Amiri',
+      artist : 'Diljit Dosanjh',
+      album : 'Ghost',
+      released : 'Sep-29-2023',
+      music : 'https://p320.djpunjab.is/data/320/54347/302740/Amiri%20-%20Diljit%20Dosanjh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.webp',
+      name : 'Bad Habits',
+      artist : 'Diljit Dosanjh',
+      album : 'Ghost',
+      released : 'Sep-29-2023',
+      music : 'https://p320.djpunjab.is/data/320/54347/302748/Bad%20Habits%20-%20Diljit%20Dosanjh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.webp',
+      name : 'Case',
+      artist : 'Diljit Dosanjh',
+      album : 'Ghost',
+      released : 'Sep-29-2023',
+      music : 'https://p320.djpunjab.is/data/320/54347/302751/Case%20-%20Diljit%20Dosanjh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.webp',
+      name : 'Cry Later',
+      artist : 'Diljit Dosanjh',
+      album : 'Ghost',
+      released : 'Sep-29-2023',
+      music : 'https://p320.djpunjab.is/data/320/54347/302752/Cry%20Later%20-%20Diljit%20Dosanjh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.webp',
+      name : 'Daytona',
+      artist : 'Diljit Dosanjh',
+      album : 'Ghost',
+      released : 'Sep-29-2023',
+      music : 'https://p320.djpunjab.is/data/320/54347/302744/Daytona%20-%20Diljit%20Dosanjh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.webp',
+      name : 'Feel My Love',
+      artist : 'Diljit Dosanjh',
+      album : 'Ghost',
+      released : 'Sep-29-2023',
+      music : 'https://p320.djpunjab.is/data/320/54347/302741/Feel%20My%20Love%20-%20Diljit%20Dosanjh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.webp',
+      name : 'Ghost',
+      artist : 'Diljit Dosanjh',
+      album : 'Ghost',
+      released : 'Sep-29-2023',
+      music : 'https://p320.djpunjab.is/data/320/54347/302738/Ghost%20-%20Diljit%20Dosanjh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.webp',
+      name : 'Icon',
+      artist : 'Diljit Dosanjh',
+      album : 'Ghost',
+      released : 'Sep-29-2023',
+      music : 'https://p320.djpunjab.is/data/320/54347/302745/Icon%20-%20Diljit%20Dosanjh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.webp',
+      name : 'Jatt Vailly',
+      artist : 'Diljit Dosanjh',
+      album : 'Ghost',
+      released : 'Sep-29-2023',
+      music : 'https://p320.djpunjab.is/data/320/54347/302750/Jatt%20Vailly%20-%20Diljit%20Dosanjh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.webp',
+      name : 'Lalkara',
+      artist : 'Diljit Dosanjh',
+      album : 'Ghost',
+      released : 'Sep-29-2023',
+      music : 'https://p320.djpunjab.is/data/320/54347/302749/Lalkara%20-%20Diljit%20Dosanjh.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54337/300x700/10---4-veer-sandhu.webp',
       name : '10 - 4',
       artist : 'Veer Sandhu',

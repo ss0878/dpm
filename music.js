@@ -1,7 +1,7 @@
 const music_list = [
     
     {
-      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.webp',
+      img : 'https://lq.djjohal.com/covers/730657/Whatcha%20Doin.jpg',
       name : 'Amiri',
       artist : 'Diljit Dosanjh',
       album : 'Ghost',
@@ -17,7 +17,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54347/302748/Bad%20Habits%20-%20Diljit%20Dosanjh.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.webp',
+      img : 'https://lq.djjohal.com/covers/730657/Whatcha%20Doin.jpg',
       name : 'Case',
       artist : 'Diljit Dosanjh',
       album : 'Ghost',
@@ -33,7 +33,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54347/302752/Cry%20Later%20-%20Diljit%20Dosanjh.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.webp',
+      img : 'https://lq.djjohal.com/covers/730657/Whatcha%20Doin.jpg',
       name : 'Daytona',
       artist : 'Diljit Dosanjh',
       album : 'Ghost',
@@ -49,7 +49,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54347/302741/Feel%20My%20Love%20-%20Diljit%20Dosanjh.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.webp',
+      img : 'https://lq.djjohal.com/covers/730657/Whatcha%20Doin.jpg',
       name : 'Ghost',
       artist : 'Diljit Dosanjh',
       album : 'Ghost',
@@ -65,7 +65,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54347/302745/Icon%20-%20Diljit%20Dosanjh.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.webp',
+      img : 'https://lq.djjohal.com/covers/730657/Whatcha%20Doin.jpg',
       name : 'Jatt Vailly',
       artist : 'Diljit Dosanjh',
       album : 'Ghost',

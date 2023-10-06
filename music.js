@@ -97,6 +97,14 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54347/302749/Lalkara%20-%20Diljit%20Dosanjh.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/54338/300x700/clockin-nijjar.webp',
+      name : 'Clockin',
+      artist : 'Nijjar',
+      album : 'Nijjar Inc',
+      released : 'Sep-25-2023',
+      music : 'https://s320.djpunjab.is/data/320/54338/302728/Clockin%20-%20Nijjar.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54337/300x700/10---4-veer-sandhu.webp',
       name : '10 - 4',
       artist : 'Veer Sandhu',

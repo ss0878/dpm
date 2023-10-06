@@ -1,6 +1,22 @@
 const music_list = [
     
     {
+      img : 'https://cover.djpunjab.is/54382/300x700/mood-the-landers.webp',
+      name : 'Mood',
+      artist : 'The Landers',
+      album : 'The Landers Music',
+      released : 'Oct-6-2023',
+      music : 'https://s320.djpunjab.is/data/320/54382/302836/Mood%20-%20The%20Landers.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54361/300x700/ak-cantalian-himmat-sandhu.webp',
+      name : 'AK Cantalian',
+      artist : 'Himmat Sandhu',
+      album : 'HQ Entertainment',
+      released : 'Oct-2-2023',
+      music : 'https://s320.djpunjab.is/data/320/54361/302801/AK%20Cantalian%20-%20Himmat%20Sandhu.mp3'
+        },
+	{
       img : 'https://lq.djjohal.com/covers/730657/Whatcha%20Doin.jpg',
       name : 'Amiri',
       artist : 'Diljit Dosanjh',

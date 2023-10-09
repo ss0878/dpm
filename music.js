@@ -17,6 +17,22 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54361/302801/AK%20Cantalian%20-%20Himmat%20Sandhu.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/54360/300x300/still-sharry-maan.webp',
+      name : 'Downtown',
+      artist : 'Sharry Maan',
+      album : 'Sharry Maan Music',
+      released : 'Oct-2-2023',
+      music : 'https://p320.djpunjab.is/data/320/54360/302798/Downtown%20-%20Sharry%20Maan.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54360/300x300/still-sharry-maan.webp',
+      name : 'Rado',
+      artist : 'Sharry Maan',
+      album : 'Sharry Maan Music',
+      released : 'Oct-2-2023',
+      music : 'https://p320.djpunjab.is/data/320/54360/302791/Rado%20-%20Sharry%20Maan.mp3'
+        },
+	{
       img : 'https://lq.djjohal.com/covers/730657/Whatcha%20Doin.jpg',
       name : 'Amiri',
       artist : 'Diljit Dosanjh',

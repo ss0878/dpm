@@ -1,6 +1,22 @@
 const music_list = [
     
     {
+      img : 'https://cover.djpunjab.is/54422/300x700/malki-ekam-sudhar.webp',
+      name : 'Malki',
+      artist : 'Ekam Sudhar',
+      album : 'Ekam Sudhar',
+      released : 'Oct-11-2023',
+      music : 'https://s320.djpunjab.is/data/128/54422/302887/Malki%20-%20Ekam%20Sudhar.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54408/300x700/pakhe-chalde-jass-bajwa.webp',
+      name : 'Pakhe Chalde',
+      artist : 'Jass Bajwa',
+      album : 'Jass Bajwa',
+      released : 'Oct-10-2023',
+      music : 'https://s320.djpunjab.is/data/320/54408/302873/Pakhe%20Chalde%20-%20Jass%20Bajwa.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54382/300x700/mood-the-landers.webp',
       name : 'Mood',
       artist : 'The Landers',

@@ -1,6 +1,14 @@
 const music_list = [
     
     {
+      img : 'https://cover.djpunjab.is/54431/300x700/embroidery-g-sidhu.webp',
+      name : 'Embroidery',
+      artist : 'G Sidhu',
+      album : 'G Sidhu Productions',
+      released : 'Oct-13-2023',
+      music : 'https://s320.djpunjab.is/data/320/54431/302896/Embroidery%20-%20G%20Sidhu.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54422/300x700/malki-ekam-sudhar.webp',
       name : 'Malki',
       artist : 'Ekam Sudhar',

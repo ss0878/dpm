@@ -1,6 +1,14 @@
 const music_list = [
     
     {
+      img : 'https://i.imgur.com/ZrbjxlL.png',
+      name : 'Debate',
+      artist : 'Azaad 4L',
+      album : 'Azaad 4L',
+      released : 'Oct-18-2023',
+      music : 'https://audio.jukehost.co.uk/x9cvi8UQq9THyQXulcgtRBCQHROhMsy3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54431/300x700/embroidery-g-sidhu.webp',
       name : 'Embroidery',
       artist : 'G Sidhu',

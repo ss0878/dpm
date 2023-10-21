@@ -185,13 +185,3 @@ p{
     }
     
 }
-
-.blob {
-    margin: 25px;
-    height: 250px;
-    width: 250px;
-	border-radius: 50%;
-    position: absolute;
-    margin-bottom: 57px;
-	animation: pulse 1s infinite;
-}

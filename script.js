@@ -212,9 +212,9 @@ if ( 'mediaSession' in navigator ) {
   	setUpdate();
    updatePositionState();
 	});
-
-   
-
-
   }
+}
+
+function downloadTrack(){
+    open(music_list[track_index].music);
 }

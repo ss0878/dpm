@@ -90,7 +90,15 @@ body{
 }
 
 
-
+.downloadbutton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: 1s;
+    justify-content: right;
+    margin-right: 30px;
+    
+}
 
 
 .repeat-track,

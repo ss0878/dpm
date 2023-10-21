@@ -1,6 +1,14 @@
 const music_list = [
     
     {
+      img : 'https://cover.djpunjab.is/54450/300x700/befikre-varinder-brar.webp',
+      name : 'Befikre',
+      artist : 'Varinder Brar',
+      album : 'Varinder Brar',
+      released : 'Oct-20-2023',
+      music : 'https://s320.djpunjab.is/data/320/54450/302915/Befikre%20-%20Varinder%20Brar.mp3'
+        },
+	{
       img : 'https://i.imgur.com/ZrbjxlL.png',
       name : 'Debate',
       artist : 'Azaad 4L',

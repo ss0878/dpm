@@ -8,6 +8,7 @@ let track_released = document.querySelector('.track-released');
 let playpause_btn = document.querySelector('.playpause-track');
 let next_btn = document.querySelector('.next-track');
 let prev_btn = document.querySelector('.prev-track');
+let download_btn = document.querySelector('.download-track');
 
 let seek_slider = document.querySelector('.seek_slider');
 let volume_slider = document.querySelector('.volume_slider');
@@ -24,14 +25,13 @@ let updateTimer;
 
 
 
+
 loadTrack(track_index);
 
 function loadTrack(track_index){
     clearInterval(updateTimer);
     reset();
 
-    curr_track.src = music_list[track_index].music;
-    curr_track.load();
 
     track_art.style.backgroundImage = "url(" + music_list[track_index].img + ")";
     track_name.textContent = music_list[track_index].name;
@@ -101,7 +101,6 @@ function playTrack(){
     track_art.classList.add('rotate');
     playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
     setUpdate();
-    updatePositionState();
 }
 function pauseTrack(){
     curr_track.pause();
@@ -109,7 +108,6 @@ function pauseTrack(){
     track_art.classList.remove('rotate');
     playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-5x"></i>';
     setUpdate();
-    updatePositionState();
 }
 function nextTrack(){
     if(track_index < music_list.length - 1 && isRandom === false){
@@ -134,6 +132,10 @@ function prevTrack(){
     playTrack();
     notification();
 }
+function downloadTrack(){
+    open(music_list[track_index].music);
+}
+
 function seekTo(){
     let seekto = curr_track.duration * (seek_slider.value / 100);
     curr_track.currentTime = seekto;
@@ -212,9 +214,17 @@ if ( 'mediaSession' in navigator ) {
   	setUpdate();
    updatePositionState();
 	});
+
+   
+
+
   }
 }
 
 function downloadTrack(){
     open(music_list[track_index].music);
 }
+
+
+
+

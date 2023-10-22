@@ -4,6 +4,8 @@ body{
     font-weight: bold;
     color: whitesmoke;
 }
+
+
 .player{
     height: 95vh;
     display: flex;
@@ -40,16 +42,19 @@ body{
     box-shadow: 0px 6px 5px #948f8f;
     -moz-border-radius:190px;
     -webkit-border-radius:190px;
-    border-radius: 190px;
-    transition: 1s;
-    animation: animateAvatar 1s linear infinite;
+    box-shadow: 0 20px 5px 5px rgba(0,0,0,0.2);
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
 }
-@keyframes animateAvatar{
+
+@keyframes animate {
     0%,100%{
-        transform: scale(1);
+        border-radius: 60% 40% 30% 50%/70% 60% 70% 40%;
+        transform: scale(.80);
     }
     50%{
-        transform: scale(1.03);
+        border-radius: 70% 60% 70% 40%/60% 40% 30% 70%;
+        transform: scale(1.05);
     }
 }
 
@@ -89,7 +94,6 @@ body{
     color: black;
 }
 
-
 .downloadbutton{
     display: flex;
     flex-direction: row;
@@ -99,6 +103,7 @@ body{
     margin-right: 30px;
     
 }
+
 
 
 .repeat-track,
@@ -181,8 +186,9 @@ p{
     transition: 1s;
 }
 .rotate{
-    animation: rotation 10s infinite linear;
+    animation: rotation 7s infinite linear;
 }
+
 @keyframes rotation{
     
     from{
@@ -193,3 +199,5 @@ p{
     }
     
 }
+
+

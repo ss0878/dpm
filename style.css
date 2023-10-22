@@ -96,12 +96,10 @@ body{
 }
 
 .downloadbutton{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    transition: 1s;
-    justify-content: right;
-    margin-right: 30px;
+    position: absolute;
+    margin-left: 350px;
+    padding: 0px;
+    font-size: xx-large;
     
 }
 

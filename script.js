@@ -23,6 +23,7 @@ let isRandom = false;
 let updateTimer;
 
 
+totalMusic = document.querySelector(".total-music-list"),
 
 
 
@@ -32,6 +33,8 @@ function loadTrack(track_index){
     clearInterval(updateTimer);
     reset();
 
+    curr_track.src = music_list[track_index].music;
+    curr_track.load();
 
     track_art.style.backgroundImage = "url(" + music_list[track_index].img + ")";
     track_name.textContent = music_list[track_index].name;
@@ -132,9 +135,6 @@ function prevTrack(){
     playTrack();
     notification();
 }
-function downloadTrack(){
-    open(music_list[track_index].music);
-}
 
 function seekTo(){
     let seekto = curr_track.duration * (seek_slider.value / 100);
@@ -221,10 +221,9 @@ if ( 'mediaSession' in navigator ) {
   }
 }
 
+
+
+
 function downloadTrack(){
     open(music_list[track_index].music);
 }
-
-
-
-

@@ -1,6 +1,14 @@
 const music_list = [
     
     {
+      img : 'https://lq.djjohal.com/covers/730792/Perfect.jpg',
+      name : 'Perfect',
+      artist : 'Jordan Sandhu',
+      album : 'Mxrci Season',
+      released : 'Oct-20-2023',
+      music : 'https://hd1.djjohal.com/320/517531/Perfect%20-%20Jordan%20Sandhu%20(DJJOhAL.Com).mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54450/300x700/befikre-varinder-brar.webp',
       name : 'Befikre',
       artist : 'Varinder Brar',

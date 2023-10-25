@@ -1,6 +1,30 @@
 const music_list = [
     
     {
+      img : 'https://cover.djpunjab.is/54483/300x300/limitless-prem-dhillon.webp',
+      name : 'Back Of Car',
+      artist : 'Prem Dhillon',
+      album : 'Limitless',
+      released : 'Oct-25-2023',
+      music : 'https://p320.djpunjab.is/data/320/54483/302969/Back%20Of%20Car%20-%20Prem%20Dhillon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54479/300x700/strap-zehr-vibe.webp',
+      name : 'STRAP',
+      artist : 'Zehr Vibe',
+      album : 'Jatt Life Studios',
+      released : 'Oct-25-2023',
+      music : 'https://s320.djpunjab.is/data/320/54479/302965/STRAP%20-%20Zehr%20Vibe.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54475/300x700/sardaar-munde-ammy-virk.webp',
+      name : 'Sardaar Munde',
+      artist : 'Ammy Virk',
+      album : 'Ammy Virk',
+      released : 'Oct-25-2023',
+      music : 'https://s320.djpunjab.is/data/320/54475/302961/Sardaar%20Munde%20-%20Ammy%20Virk.mp3'
+        },
+	{
       img : 'https://lq.djjohal.com/covers/730792/Perfect.jpg',
       name : 'Perfect',
       artist : 'Jordan Sandhu',

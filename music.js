@@ -9,6 +9,30 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54483/302969/Back%20Of%20Car%20-%20Prem%20Dhillon.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/54483/300x300/limitless-prem-dhillon.webp',
+      name : 'Badberry',
+      artist : 'Prem Dhillon',
+      album : 'Limitless',
+      released : 'Oct-25-2023',
+      music : 'https://p320.djpunjab.is/data/320/54483/302970/Badberry%20-%20Prem%20Dhillon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54483/300x300/limitless-prem-dhillon.webp',
+      name : 'IDGS',
+      artist : 'Prem Dhillon',
+      album : 'Limitless',
+      released : 'Oct-25-2023',
+      music : 'https://p320.djpunjab.is/data/320/54483/302972/IDGS%20-%20Prem%20Dhillon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54483/300x300/limitless-prem-dhillon.webp',
+      name : 'Sit Down',
+      artist : 'Prem Dhillon',
+      album : 'Limitless',
+      released : 'Oct-25-2023',
+      music : 'https://p320.djpunjab.is/data/320/54483/302973/Sit%20Down%20-%20Prem%20Dhillon.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54479/300x700/strap-zehr-vibe.webp',
       name : 'STRAP',
       artist : 'Zehr Vibe',

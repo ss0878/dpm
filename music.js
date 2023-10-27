@@ -1,7 +1,39 @@
 const music_list = [
     
     {
-      img : 'https://cover.djpunjab.is/54483/300x300/limitless-prem-dhillon.webp',
+      img : 'https://cover.djpunjab.is/54499/300x700/gabru-da-naam-ninja.jpg',
+      name : 'Gabru Da Naam',
+      artist : 'Ninja Ft Deep Jandu',
+      album : 'Saga Music',
+      released : 'Oct-27-2023',
+      music : 'https://s320.djpunjab.is/data/320/54499/302991/Gabru%20Da%20Naam%20-%20Ninja.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54495/300x700/nai-reesa-inderpal-moga.jpg',
+      name : 'Nai Reesa',
+      artist : 'Inderpal Moga',
+      album : 'Chani Nattan',
+      released : 'Oct-27-2023',
+      music : 'https://s320.djpunjab.is/data/320/54495/302987/Nai%20Reesa%20-%20Inderpal%20Moga.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54494/300x700/hass-hass-diljit-dosanjh.jpg',
+      name : 'Hass Hass',
+      artist : 'Diljit Dosanjh',
+      album : 'Warner Music India',
+      released : 'Oct-27-2023',
+      music : 'https://s320.djpunjab.is/data/320/54494/302986/Hass%20Hass%20-%20Diljit%20Dosanjh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54487/300x700/off-roading-khan-bhaini.jpg',
+      name : 'Off Roading',
+      artist : 'Khan Bhaini',
+      album : 'Khan Bhaini Music',
+      released : 'Oct-26-2023',
+      music : 'https://s320.djpunjab.is/data/320/54487/302979/Off%20Roading%20-%20Khan%20Bhaini.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54483/300x300/limitless-prem-dhillon.jpg',
       name : 'Back Of Car',
       artist : 'Prem Dhillon',
       album : 'Limitless',
@@ -9,7 +41,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54483/302969/Back%20Of%20Car%20-%20Prem%20Dhillon.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54483/300x300/limitless-prem-dhillon.webp',
+      img : 'https://cover.djpunjab.is/54483/300x300/limitless-prem-dhillon.jpg',
       name : 'Badberry',
       artist : 'Prem Dhillon',
       album : 'Limitless',
@@ -17,7 +49,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54483/302970/Badberry%20-%20Prem%20Dhillon.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54483/300x300/limitless-prem-dhillon.webp',
+      img : 'https://cover.djpunjab.is/54483/300x300/limitless-prem-dhillon.jpg',
       name : 'IDGS',
       artist : 'Prem Dhillon',
       album : 'Limitless',
@@ -25,7 +57,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54483/302972/IDGS%20-%20Prem%20Dhillon.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54483/300x300/limitless-prem-dhillon.webp',
+      img : 'https://cover.djpunjab.is/54483/300x300/limitless-prem-dhillon.jpg',
       name : 'Sit Down',
       artist : 'Prem Dhillon',
       album : 'Limitless',
@@ -33,7 +65,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54483/302973/Sit%20Down%20-%20Prem%20Dhillon.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54479/300x700/strap-zehr-vibe.webp',
+      img : 'https://cover.djpunjab.is/54479/300x700/strap-zehr-vibe.jpg',
       name : 'STRAP',
       artist : 'Zehr Vibe',
       album : 'Jatt Life Studios',
@@ -41,7 +73,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54479/302965/STRAP%20-%20Zehr%20Vibe.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54475/300x700/sardaar-munde-ammy-virk.webp',
+      img : 'https://cover.djpunjab.is/54475/300x700/sardaar-munde-ammy-virk.jpg',
       name : 'Sardaar Munde',
       artist : 'Ammy Virk',
       album : 'Ammy Virk',
@@ -57,7 +89,7 @@ const music_list = [
       music : 'https://hd1.djjohal.com/320/517531/Perfect%20-%20Jordan%20Sandhu%20(DJJOhAL.Com).mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54450/300x700/befikre-varinder-brar.webp',
+      img : 'https://cover.djpunjab.is/54450/300x700/befikre-varinder-brar.jpg',
       name : 'Befikre',
       artist : 'Varinder Brar',
       album : 'Varinder Brar',
@@ -73,7 +105,7 @@ const music_list = [
       music : 'https://audio.jukehost.co.uk/x9cvi8UQq9THyQXulcgtRBCQHROhMsy3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54431/300x700/embroidery-g-sidhu.webp',
+      img : 'https://cover.djpunjab.is/54431/300x700/embroidery-g-sidhu.jpg',
       name : 'Embroidery',
       artist : 'G Sidhu',
       album : 'G Sidhu Productions',
@@ -81,7 +113,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54431/302896/Embroidery%20-%20G%20Sidhu.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54422/300x700/malki-ekam-sudhar.webp',
+      img : 'https://cover.djpunjab.is/54422/300x700/malki-ekam-sudhar.jpg',
       name : 'Malki',
       artist : 'Ekam Sudhar',
       album : 'Ekam Sudhar',
@@ -89,7 +121,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/128/54422/302887/Malki%20-%20Ekam%20Sudhar.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54408/300x700/pakhe-chalde-jass-bajwa.webp',
+      img : 'https://cover.djpunjab.is/54408/300x700/pakhe-chalde-jass-bajwa.jpg',
       name : 'Pakhe Chalde',
       artist : 'Jass Bajwa',
       album : 'Jass Bajwa',
@@ -97,7 +129,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54408/302873/Pakhe%20Chalde%20-%20Jass%20Bajwa.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54382/300x700/mood-the-landers.webp',
+      img : 'https://cover.djpunjab.is/54382/300x700/mood-the-landers.jpg',
       name : 'Mood',
       artist : 'The Landers',
       album : 'The Landers Music',
@@ -105,7 +137,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54382/302836/Mood%20-%20The%20Landers.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54361/300x700/ak-cantalian-himmat-sandhu.webp',
+      img : 'https://cover.djpunjab.is/54361/300x700/ak-cantalian-himmat-sandhu.jpg',
       name : 'AK Cantalian',
       artist : 'Himmat Sandhu',
       album : 'HQ Entertainment',
@@ -113,7 +145,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54361/302801/AK%20Cantalian%20-%20Himmat%20Sandhu.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54360/300x300/still-sharry-maan.webp',
+      img : 'https://cover.djpunjab.is/54360/300x300/still-sharry-maan.jpg',
       name : 'Downtown',
       artist : 'Sharry Maan',
       album : 'Sharry Maan Music',
@@ -121,7 +153,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54360/302798/Downtown%20-%20Sharry%20Maan.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54360/300x300/still-sharry-maan.webp',
+      img : 'https://cover.djpunjab.is/54360/300x300/still-sharry-maan.jpg',
       name : 'Rado',
       artist : 'Sharry Maan',
       album : 'Sharry Maan Music',
@@ -137,7 +169,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54347/302740/Amiri%20-%20Diljit%20Dosanjh.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.webp',
+      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.jpg',
       name : 'Bad Habits',
       artist : 'Diljit Dosanjh',
       album : 'Ghost',
@@ -153,7 +185,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54347/302751/Case%20-%20Diljit%20Dosanjh.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.webp',
+      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.jpg',
       name : 'Cry Later',
       artist : 'Diljit Dosanjh',
       album : 'Ghost',
@@ -169,7 +201,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54347/302744/Daytona%20-%20Diljit%20Dosanjh.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.webp',
+      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.jpg',
       name : 'Feel My Love',
       artist : 'Diljit Dosanjh',
       album : 'Ghost',
@@ -185,7 +217,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54347/302738/Ghost%20-%20Diljit%20Dosanjh.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.webp',
+      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.jpg',
       name : 'Icon',
       artist : 'Diljit Dosanjh',
       album : 'Ghost',
@@ -201,7 +233,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54347/302750/Jatt%20Vailly%20-%20Diljit%20Dosanjh.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.webp',
+      img : 'https://cover.djpunjab.is/54347/300x300/ghost-diljit-dosanjh.jpg',
       name : 'Lalkara',
       artist : 'Diljit Dosanjh',
       album : 'Ghost',
@@ -209,7 +241,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54347/302749/Lalkara%20-%20Diljit%20Dosanjh.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54338/300x700/clockin-nijjar.webp',
+      img : 'https://cover.djpunjab.is/54338/300x700/clockin-nijjar.jpg',
       name : 'Clockin',
       artist : 'Nijjar',
       album : 'Nijjar Inc',
@@ -217,7 +249,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54338/302728/Clockin%20-%20Nijjar.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54337/300x700/10---4-veer-sandhu.webp',
+      img : 'https://cover.djpunjab.is/54337/300x700/10---4-veer-sandhu.jpg',
       name : '10 - 4',
       artist : 'Veer Sandhu',
       album : 'Veer Sandhu Music',
@@ -225,7 +257,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54337/302727/10%20-%204%20-%20Veer%20Sandhu.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54326/300x700/bir-rass-harvi.webp',
+      img : 'https://cover.djpunjab.is/54326/300x700/bir-rass-harvi.jpg',
       name : 'BIR RASS',
       artist : 'Harvi Ft. Veer Sandhu',
       album : 'Bang Music',
@@ -233,7 +265,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54326/302716/BIR%20RASS%20-%20Harvi.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54324/300x700/jutti-deep-jandu.webp',
+      img : 'https://cover.djpunjab.is/54324/300x700/jutti-deep-jandu.jpg',
       name : 'Jutti',
       artist : 'Deep Jandu Ft. Surjit Khan',
       album : 'Deep Jandu',
@@ -249,7 +281,7 @@ const music_list = [
       music : 'https://hd1.djjohal.com/320/517251/Trap%20O%20Trap%20-%20Guri%20Lahoria%20(DJJOhAL.Com).mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54323/300x700/ayee-harnoor.webp',
+      img : 'https://cover.djpunjab.is/54323/300x700/ayee-harnoor.jpg',
       name : 'Ayee',
       artist : 'Harnoor Ft. Jass Dhillon',
       album : 'Harnoor Music',
@@ -257,7 +289,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54323/302713/Ayee%20-%20Harnoor.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54321/300x700/kaato-ranvir-rv.webp',
+      img : 'https://cover.djpunjab.is/54321/300x700/kaato-ranvir-rv.jpg',
       name : 'Kaato',
       artist : 'Ranvir RV',
       album : 'Ranvir RV Music',
@@ -265,7 +297,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54321/302711/Kaato%20-%20Ranvir%20RV.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54317/300x700/malwain-ranjit-bawa.webp',
+      img : 'https://cover.djpunjab.is/54317/300x700/malwain-ranjit-bawa.jpg',
       name : 'Malwain',
       artist : 'Ranjit Bawa',
       album : 'Ranjit Bawa Music',
@@ -273,7 +305,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54317/302707/Malwain%20-%20Ranjit%20Bawa.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54310/300x700/talk-of-the-town-prem-dhillon.webp',
+      img : 'https://cover.djpunjab.is/54310/300x700/talk-of-the-town-prem-dhillon.jpg',
       name : 'Talk Of The Town',
       artist : 'Prem Dhillon',
       album : 'Times Music',
@@ -281,7 +313,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54310/302698/Talk%20Of%20The%20Town%20-%20Prem%20Dhillon.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54305/300x700/zulfaan-jordan-sandhu.webp',
+      img : 'https://cover.djpunjab.is/54305/300x700/zulfaan-jordan-sandhu.jpg',
       name : 'Zulfaan',
       artist : 'Jordan Sandhu',
       album : 'Legacy Records',
@@ -289,7 +321,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54305/302693/Zulfaan%20-%20Jordan%20Sandhu.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54285/300x700/meharma-garry-sandhu.webp',
+      img : 'https://cover.djpunjab.is/54285/300x700/meharma-garry-sandhu.jpg',
       name : 'Meharma',
       artist : 'Garry Sandhu',
       album : 'Fresh Media Records',
@@ -297,7 +329,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54285/302673/Meharma%20-%20Garry%20Sandhu.mp3'
         },
    {
-      img : 'https://cover.djpunjab.is/54284/300x700/lip-shade-arjan-dhillon.webp',
+      img : 'https://cover.djpunjab.is/54284/300x700/lip-shade-arjan-dhillon.jpg',
       name : 'Lip Shade',
       artist : 'Arjan Dhillon',
       album : 'Brown Studios',
@@ -305,7 +337,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54284/302672/Lip%20Shade%20-%20Arjan%20Dhillon.mp3'
         },
    {
-      img : 'https://cover.djpunjab.is/54279/300x700/kashni-akh-gurneet-dosanjh.webp',
+      img : 'https://cover.djpunjab.is/54279/300x700/kashni-akh-gurneet-dosanjh.jpg',
       name : 'Kashni Akh',
       artist : 'Gurneet Dosanjh',
       album : 'White Hill Music',
@@ -313,7 +345,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54279/302667/Kashni%20Akh%20-%20Gurneet%20Dosanjh.mp3'
         },
    {
-      img : 'https://cover.djpunjab.is/54274/300x700/lambo-flow-parmish-verma.webp',
+      img : 'https://cover.djpunjab.is/54274/300x700/lambo-flow-parmish-verma.jpg',
       name : 'Lambo Flow',
       artist : 'Parmish Verma',
       album : 'VYRL Punjabi',
@@ -321,7 +353,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54274/302662/Lambo%20Flow%20-%20Parmish%20Verma.mp3'
         },
    {
-      img : 'https://cover.djpunjab.is/54248/300x700/scars-ap-dhillon.webp',
+      img : 'https://cover.djpunjab.is/54248/300x700/scars-ap-dhillon.jpg',
       name : 'Lifestyle',
       artist : 'AP Dhillon',
       album : 'Run-Up Records',
@@ -329,7 +361,7 @@ const music_list = [
       music : 'https://hd1.djjohal.com/320/517082/Lifestyle%20-%20AP%20Dhillon%20(DJJOhAL.Com).mp3'
         },
    {
-      img : 'https://cover.djpunjab.is/54248/300x700/scars-ap-dhillon.webp',
+      img : 'https://cover.djpunjab.is/54248/300x700/scars-ap-dhillon.jpg',
       name : 'Scars',
       artist : 'AP Dhillon',
       album : 'Run-Up Records',
@@ -337,7 +369,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54248/302636/Scars%20-%20AP%20Dhillon.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54244/300x700/po-prem-dhillon.webp',
+      img : 'https://cover.djpunjab.is/54244/300x700/po-prem-dhillon.jpg',
       name : 'PO',
       artist : 'Prem Dhillon',
       album : 'Prem Dhillon Music',
@@ -417,7 +449,7 @@ const music_list = [
       music : 'https://hd1.djjohal.com/320/517033/Eve%20Teaser%20-%20Wazir%20Patar%20(DJJOhAL.Com).mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54232/300x700/palpita-diljit-dosanjh.webp',
+      img : 'https://cover.djpunjab.is/54232/300x700/palpita-diljit-dosanjh.jpg',
       name : 'Palpita',
       artist : 'Diljit Dosanjh',
       album : 'Sony Music',
@@ -425,7 +457,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54232/302615/Palpita%20-%20Diljit%20Dosanjh.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54229/300x700/duleep-singh-ranjit-bawa.webp',
+      img : 'https://cover.djpunjab.is/54229/300x700/duleep-singh-ranjit-bawa.jpg',
       name : 'Duleep Singh',
       artist : 'Ranjit Bawa',
       album : 'Ranjit Bawa',
@@ -441,7 +473,7 @@ const music_list = [
       music : 'https://hd1.djjohal.com/320/517014/Nimm%20Thalle%20-%20Jordan%20Sandhu%20(DJJOhAL.Com).mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54222/300x700/close-akhil.webp',
+      img : 'https://cover.djpunjab.is/54222/300x700/close-akhil.jpg',
       name : 'Close',
       artist : 'Akhil',
       album : 'Speed Records',
@@ -449,7 +481,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54222/302598/Close%20-%20Akhil.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54217/300x700/ruthless-raaj-sohal.webp',
+      img : 'https://cover.djpunjab.is/54217/300x700/ruthless-raaj-sohal.jpg',
       name : 'Ruthless',
       artist : 'Raaj Sohal',
       album : 'Ghost Productions',
@@ -457,7 +489,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54217/302593/Ruthless%20-%20Raaj%20Sohal.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54205/300x700/lifestyle-harkirat-sangha.webp',
+      img : 'https://cover.djpunjab.is/54205/300x700/lifestyle-harkirat-sangha.jpg',
       name : 'Lifestyle',
       artist : 'Harkirat Sangha',
       album : 'Harkirat Sangha Music',
@@ -465,7 +497,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54205/302581/Lifestyle%20-%20Harkirat%20Sangha.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54207/300x700/agla-%26kayia-layi%26-aman-yaar.webp',
+      img : 'https://cover.djpunjab.is/54207/300x700/agla-%26kayia-layi%26-aman-yaar.jpg',
       name : 'Agla (Kayia Layi)',
       artist : 'Aman Yaar Ft. Bohemia',
       album : 'Bohemia Music',
@@ -473,7 +505,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54207/302583/Agla%20(Kayia%20Layi)%20-%20Aman%20Yaar.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54204/300x700/naa-lai-ke-sunny-randhawa.webp',
+      img : 'https://cover.djpunjab.is/54204/300x700/naa-lai-ke-sunny-randhawa.jpg',
       name : 'Naa Lai Ke',
       artist : 'Sunny Randhawa',
       album : 'Street Gang Music',
@@ -481,7 +513,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54204/302580/Naa%20Lai%20Ke%20-%20Sunny%20Randhawa.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54201/300x700/gen-y-sukhpall-channi.webp',
+      img : 'https://cover.djpunjab.is/54201/300x700/gen-y-sukhpall-channi.jpg',
       name : 'GEN Y',
       artist : 'Sukhpall Channi',
       album : 'Parmish Verma Films',
@@ -489,7 +521,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54201/302577/GEN%20Y%20-%20Sukhpall%20Channi.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54195/300x700/do-or-die-jassa-dhillon.webp',
+      img : 'https://cover.djpunjab.is/54195/300x700/do-or-die-jassa-dhillon.jpg',
       name : 'Do Or Die',
       artist : 'Jassa Dhillon',
       album : 'Jassa Dhillon Music',
@@ -497,7 +529,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54195/302571/Do%20Or%20Die%20-%20Jassa%20Dhillon.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54190/300x700/naveezy-navaan-sandhu.webp',
+      img : 'https://cover.djpunjab.is/54190/300x700/naveezy-navaan-sandhu.jpg',
       name : 'Dinar',
       artist : 'Navaan Sandhu',
       album : 'Naveezy',
@@ -505,7 +537,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54190/302563/Dinar%20-%20Navaan%20Sandhu.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54190/300x700/naveezy-navaan-sandhu.webp',
+      img : 'https://cover.djpunjab.is/54190/300x700/naveezy-navaan-sandhu.jpg',
       name : 'Jail',
       artist : 'Navaan Sandhu',
       album : 'Naveezy',
@@ -513,7 +545,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54190/302562/Jail%20-%20Navaan%20Sandhu.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54190/300x700/naveezy-navaan-sandhu.webp',
+      img : 'https://cover.djpunjab.is/54190/300x700/naveezy-navaan-sandhu.jpg',
       name : 'Kach Wangu',
       artist : 'Navaan Sandhu',
       album : 'Naveezy',
@@ -521,7 +553,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54190/302564/Kach%20Wangu%20-%20Navaan%20Sandhu.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54190/300x700/naveezy-navaan-sandhu.webp',
+      img : 'https://cover.djpunjab.is/54190/300x700/naveezy-navaan-sandhu.jpg',
       name : 'My Prime',
       artist : 'Navaan Sandhu',
       album : 'Naveezy',
@@ -529,7 +561,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54190/302561/My%20Prime%20-%20Navaan%20Sandhu.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54190/300x700/naveezy-navaan-sandhu.webp',
+      img : 'https://cover.djpunjab.is/54190/300x700/naveezy-navaan-sandhu.jpg',
       name : 'Naveezy',
       artist : 'Navaan Sandhu',
       album : 'Naveezy',
@@ -537,7 +569,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54190/302560/Naveezy%20-%20Navaan%20Sandhu.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54180/300x700/all-talk-khan-bhaini.webp',
+      img : 'https://cover.djpunjab.is/54180/300x700/all-talk-khan-bhaini.jpg',
       name : 'All Talk',
       artist : 'Khan Bhaini',
       album : 'Bang Music',
@@ -545,7 +577,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54180/302550/All%20Talk%20-%20Khan%20Bhaini.mp3'
         },
    {
-      img : 'https://cover.djpunjab.is/54173/300x700/one-love-shubh.webp',
+      img : 'https://cover.djpunjab.is/54173/300x700/one-love-shubh.jpg',
       name : 'One Love',
       artist : 'Shubh',
       album : 'Shubh Music',
@@ -553,7 +585,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54173/302543/One%20Love%20-%20Shubh.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54172/300x300/making-memories-karan-aujla.webp',
+      img : 'https://cover.djpunjab.is/54172/300x300/making-memories-karan-aujla.jpg',
       name : 'Try Me',
       artist : 'Karan Aujla',
       album : 'Making Memories',
@@ -561,7 +593,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54172/302539/Try%20Me%20-%20Karan%20Aujla.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54172/300x300/making-memories-karan-aujla.webp',
+      img : 'https://cover.djpunjab.is/54172/300x300/making-memories-karan-aujla.jpg',
       name : 'What',
       artist : 'Karan Aujla',
       album : 'Making Memories',
@@ -569,7 +601,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54172/302534/What%20-%20Karan%20Aujla.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54172/300x300/making-memories-karan-aujla.webp',
+      img : 'https://cover.djpunjab.is/54172/300x300/making-memories-karan-aujla.jpg',
       name : 'You',
       artist : 'Karan Aujla',
       album : 'Making Memories',
@@ -577,7 +609,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54172/302535/You%20-%20Karan%20Aujla.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54172/300x300/making-memories-karan-aujla.webp',
+      img : 'https://cover.djpunjab.is/54172/300x300/making-memories-karan-aujla.jpg',
       name : 'Softly',
       artist : 'Karan Aujla',
       album : 'Making Memories',
@@ -585,7 +617,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54172/302540/Softly%20-%20Karan%20Aujla.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54172/300x300/making-memories-karan-aujla.webp',
+      img : 'https://cover.djpunjab.is/54172/300x300/making-memories-karan-aujla.jpg',
       name : 'Champions Anthem',
       artist : 'Karan Aujla',
       album : 'Making Memories',
@@ -593,7 +625,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54172/302536/Champions%20Anthem%20-%20Karan%20Aujla.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54172/300x300/making-memories-karan-aujla.webp',
+      img : 'https://cover.djpunjab.is/54172/300x300/making-memories-karan-aujla.jpg',
       name : 'Bachke Bachke',
       artist : 'Karan Aujla(feat. Yarah)',
       album : 'Making Memories',
@@ -601,7 +633,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54172/302538/Bachke%20Bachke%20(feat.%20Yarah)%20-%20Karan%20Aujla.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54172/300x300/making-memories-karan-aujla.webp',
+      img : 'https://cover.djpunjab.is/54172/300x300/making-memories-karan-aujla.jpg',
       name : 'Admirin You',
       artist : 'Karan Aujla(feat. Preston Pablo)',
       album : 'Making Memories',
@@ -617,7 +649,7 @@ const music_list = [
       music : 'https://audio.jukehost.co.uk/TAuJLkqrLFaCsQfTZvVNeb0gOq0Nax65'
         },
 	{
-      img : 'https://cover.djpunjab.is/54153/300x700/wiseman-sidhu-moose-wala.webp',
+      img : 'https://cover.djpunjab.is/54153/300x700/wiseman-sidhu-moose-wala.jpg',
       name : 'Wiseman',
       artist : 'Sidhu Moose Wala (AI) Ft. Jashan Brar',
       album : 'Sidhu Moose Wala',
@@ -625,7 +657,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54153/302515/Wiseman%20-%20Sidhu%20Moose%20Wala.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54149/300x700/larh-pe-yaar-g.-sidhu.webp',
+      img : 'https://cover.djpunjab.is/54149/300x700/larh-pe-yaar-g.-sidhu.jpg',
       name : 'Larh Pe Yaar',
       artist : 'G. Sidhu',
       album : 'G Sidhu Productions',
@@ -633,7 +665,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54149/302511/Larh%20Pe%20Yaar%20-%20G.%20Sidhu.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54145/300x700/no-safety-sukha.webp',
+      img : 'https://cover.djpunjab.is/54145/300x700/no-safety-sukha.jpg',
       name : 'No Safety',
       artist : 'Sukha',
       album : 'Collab Creations',
@@ -641,7 +673,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54145/302507/No%20Safety%20-%20Sukha.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54142/300x700/with-you-ap-dhillon.webp',
+      img : 'https://cover.djpunjab.is/54142/300x700/with-you-ap-dhillon.jpg',
       name : 'With You',
       artist : 'AP Dhillon',
       album : 'Mass Appeal India',
@@ -649,7 +681,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54142/302504/With%20You%20-%20AP%20Dhillon.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54141/300x700/ocean-eyes-amrinder-gill.webp',
+      img : 'https://cover.djpunjab.is/54141/300x700/ocean-eyes-amrinder-gill.jpg',
       name : 'Ocean Eyes',
       artist : 'Amrinder Gill',
       album : 'Rhythm Boys',
@@ -657,7 +689,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54141/302503/Ocean%20Eyes%20-%20Amrinder%20Gill.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54131/300x700/rubicon-prem-dhillon.webp',
+      img : 'https://cover.djpunjab.is/54131/300x700/rubicon-prem-dhillon.jpg',
       name : 'Rubicon',
       artist : 'Prem Dhillon',
       album : 'Prem Dhillon',
@@ -673,7 +705,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54118/302475/You%20-%20Jassa%20Dhillon.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54110/300x700/mexico-hunar-sidhu.webp',
+      img : 'https://cover.djpunjab.is/54110/300x700/mexico-hunar-sidhu.jpg',
       name : 'Mexico',
       artist : 'Hunar Sidhu',
       album : 'Melo Music',
@@ -1057,7 +1089,7 @@ const music_list = [
        music : 'https://audio.jukehost.co.uk/s8xsjBA0RpjbvlFakbtTzW9Tl0qlXYr8'
         },
 	{
-       img : 'https://cover.djpunjab.is/53936/300x300/hard-choices-gurinder-gill.webp',
+       img : 'https://cover.djpunjab.is/53936/300x300/hard-choices-gurinder-gill.jpg',
        name : 'WAKE UP',
        artist : 'Gurinder Gill',
        album : 'Hard Choices',
@@ -1065,7 +1097,7 @@ const music_list = [
        music : 'https://p320.djpunjab.is/data/320/53936/302232/WAKE%20UP%20-%20Gurinder%20Gill.mp3'
         },
 	{
-       img : 'https://cover.djpunjab.is/53936/300x300/hard-choices-gurinder-gill.webp',
+       img : 'https://cover.djpunjab.is/53936/300x300/hard-choices-gurinder-gill.jpg',
        name : 'NETWORK',
        artist : 'Gurinder Gill',
        album : 'Hard Choices',
@@ -1073,7 +1105,7 @@ const music_list = [
        music : 'https://p320.djpunjab.is/data/320/53936/302231/NETWORK%20-%20Gurinder%20Gill.mp3'
         },
 	{
-       img : 'https://cover.djpunjab.is/53936/300x300/hard-choices-gurinder-gill.webp',
+       img : 'https://cover.djpunjab.is/53936/300x300/hard-choices-gurinder-gill.jpg',
        name : 'FOREVER',
        artist : 'Gurinder Gill',
        album : 'Hard Choices',
@@ -1081,7 +1113,7 @@ const music_list = [
        music : 'https://p320.djpunjab.is/data/320/53936/302228/FOREVER%20-%20Gurinder%20Gill.mp3'
         },
 	{
-       img : 'https://cover.djpunjab.is/53936/300x300/hard-choices-gurinder-gill.webp',
+       img : 'https://cover.djpunjab.is/53936/300x300/hard-choices-gurinder-gill.jpg',
        name : 'BREATHE',
        artist : 'Gurinder Gill',
        album : 'Hard Choices',
@@ -1089,7 +1121,7 @@ const music_list = [
        music : 'https://p320.djpunjab.is/data/320/53936/302227/BREATHE%20-%20Gurinder%20Gill.mp3'
         },
 	{
-       img : 'https://cover.djpunjab.is/53936/300x300/hard-choices-gurinder-gill.webp',
+       img : 'https://cover.djpunjab.is/53936/300x300/hard-choices-gurinder-gill.jpg',
        name : '4 BAKYIAN',
        artist : 'Gurinder Gill',
        album : 'Hard Choices',
@@ -1097,7 +1129,7 @@ const music_list = [
        music : 'https://p320.djpunjab.is/data/320/53936/302226/4%20BAKYIAN%20-%20Gurinder%20Gill.mp3'
         },
 	{
-       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/706_7.webp',
+       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/706_7.jpg',
        name : 'Stolen',
        artist : 'Harman Kang',
        album : 'I Love You But Im Not In Love',
@@ -1105,7 +1137,7 @@ const music_list = [
        music : 'https://pagaljatt.com/files/download/type/320/id/706'
         },
 	{
-       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/706_7.webp',
+       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/706_7.jpg',
        name : 'FROZEN FEELINGS',
        artist : 'Harman Kang',
        album : 'I Love You But Im Not In Love',
@@ -4785,7 +4817,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49550/297113/ILL%20Mindz%20-%20Big%20Boi%20Deep.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49534/300x700/2021-flow-sikander-kahlon.webp',
+         img : 'https://cover.djpunjab.is/49534/300x700/2021-flow-sikander-kahlon.jpg',
          name : '2021 Flow',
          artist : 'Sikander Kahlon',
          album : 'Sikander Kahlon Music',
@@ -4793,7 +4825,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49534/297097/2021%20Flow%20-%20Sikander%20Kahlon.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49510/300x700/moonlight-harnoor.webp',
+         img : 'https://cover.djpunjab.is/49510/300x700/moonlight-harnoor.jpg',
          name : 'Moonlight',
          artist : 'Harnoor',
          album : 'Jatt Life Studios',
@@ -4801,7 +4833,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49510/297073/Moonlight%20-%20Harnoor.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49500/300x700/panjab-%26my-motherland%26-sidhu-moose-wala.webp',
+         img : 'https://cover.djpunjab.is/49500/300x700/panjab-%26my-motherland%26-sidhu-moose-wala.jpg',
          name : 'Panjab',
          artist : 'Sidhu Moose Wala',
          album : 'Sidhu Moose Wala',
@@ -4809,7 +4841,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49500/297063/Panjab%20(My%20Motherland)%20-%20Sidhu%20Moose%20Wala.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49463/300x700/mexico-koka-karan-aujla.webp',
+         img : 'https://cover.djpunjab.is/49463/300x700/mexico-koka-karan-aujla.jpg',
          name : 'Mexico Koka',
          artist : 'Karan Aujla',
          album : 'Karan Aujla',
@@ -4817,7 +4849,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49463/297016/Mexico%20Koka%20-%20Karan%20Aujla.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49405/300x700/jattiye-nirvair-pannu.webp',
+         img : 'https://cover.djpunjab.is/49405/300x700/jattiye-nirvair-pannu.jpg',
          name : 'Jattiye',
          artist : 'Nirvair Pannu',
          album : 'Snappy',
@@ -4825,7 +4857,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49405/296954/Jattiye%20-%20Nirvair%20Pannu.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49315/300x700/foreigns-ap-dhillon.webp',
+         img : 'https://cover.djpunjab.is/49315/300x700/foreigns-ap-dhillon.jpg',
          name : 'Foreigns',
          artist : 'AP Dhillon Ft. Gurinder Gill',
          album : 'Run-Up Records',
@@ -4833,7 +4865,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49315/296864/Foreigns%20-%20AP%20Dhillon.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49305/300x700/sun-fer-khan-bhaini.webp',
+         img : 'https://cover.djpunjab.is/49305/300x700/sun-fer-khan-bhaini.jpg',
          name : 'Sun Fer',
          artist : 'Khan Bhaini',
          album : 'Single Track Studio',
@@ -4841,7 +4873,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49305/296849/Sun%20Fer%20-%20Khan%20Bhaini.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49299/300x700/daru-sasti-arjan-dhillon.webp',
+         img : 'https://cover.djpunjab.is/49299/300x700/daru-sasti-arjan-dhillon.jpg',
          name : 'Daru Sasti',
          artist : 'Arjan Dhillon',
          album : 'Brown Studios',
@@ -4849,7 +4881,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49299/296843/Daru%20Sasti%20-%20Arjan%20Dhillon.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49297/300x700/city-of-gold-nirvair-pannu.webp',
+         img : 'https://cover.djpunjab.is/49297/300x700/city-of-gold-nirvair-pannu.jpg',
          name : 'City Of Gold',
          artist : 'Nirvair Pannu',
          album : 'Juke Dock',
@@ -4857,7 +4889,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49297/296841/City%20Of%20Gold%20-%20Nirvair%20Pannu.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49284/300x700/mull-pyar-da-arjan-dhillon.webp',
+         img : 'https://cover.djpunjab.is/49284/300x700/mull-pyar-da-arjan-dhillon.jpg',
          name : 'Mull Pyar Da',
          artist : 'Arjan Dhillon',
          album : 'Brown Studios',
@@ -4865,7 +4897,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49284/296828/Mull%20Pyar%20Da%20-%20Arjan%20Dhillon.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49283/300x700/gucci-da-sapp-kulbir-jhinjer.webp',
+         img : 'https://cover.djpunjab.is/49283/300x700/gucci-da-sapp-kulbir-jhinjer.jpg',
          name : 'Gucci Da Sapp',
          artist : 'Kulbir Jhinjer',
          album : 'Leaf Record',
@@ -4873,7 +4905,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49283/296827/Gucci%20Da%20Sapp%20-%20Kulbir%20Jhinjer.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49261/300x700/majha-block-prem-dhillon.webp',
+         img : 'https://cover.djpunjab.is/49261/300x700/majha-block-prem-dhillon.jpg',
          name : 'Majha Block',
          artist : 'Prem Dhillon',
          album : 'Prem Dhillon',
@@ -4881,7 +4913,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49261/296805/Majha%20Block%20-%20Prem%20Dhillon.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49173/300x700/bai-bai-gulab-sidhu.webp',
+         img : 'https://cover.djpunjab.is/49173/300x700/bai-bai-gulab-sidhu.jpg',
          name : 'Bai Bai',
          artist : 'Gulab Sidhu',
          album : '5911 Records',
@@ -4889,7 +4921,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49173/296717/Bai%20Bai%20-%20Gulab%20Sidhu.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49154/300x700/waalian-harnoor.webp',
+         img : 'https://cover.djpunjab.is/49154/300x700/waalian-harnoor.jpg',
          name : 'Waalian',
          artist : 'Harnoor',
          album : 'Jatt Life Studios',
@@ -4897,7 +4929,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49154/296698/Waalian%20-%20Harnoor.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49151/300x700/pyar-hogya-jassa-dhillon.webp',
+         img : 'https://cover.djpunjab.is/49151/300x700/pyar-hogya-jassa-dhillon.jpg',
          name : 'Pyar Hogya',
          artist : 'Jassa Dhillon',
          album : 'Brown Town Music',
@@ -4905,7 +4937,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49151/296695/Pyar%20Hogya%20-%20Jassa%20Dhillon.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49138/300x700/info-jordan-sandhu.webp',
+         img : 'https://cover.djpunjab.is/49138/300x700/info-jordan-sandhu.jpg',
          name : 'Info',
          artist : 'Jordan Sandhu',
          album : 'Saga Music',
@@ -4913,7 +4945,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49138/296682/Info%20-%20Jordan%20Sandhu.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49136/300x700/muscle-caran-tarsem-jassar.webp',
+         img : 'https://cover.djpunjab.is/49136/300x700/muscle-caran-tarsem-jassar.jpg',
          name : 'Muscle Caran',
          artist : 'Tarsem Jassar',
          album : 'Vehli Janta Records',
@@ -4921,7 +4953,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49136/296670/Muscle%20Caran%20-%20Tarsem%20Jassar.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49105/300x700/raunda-wala-tarsem-jassar.webp',
+         img : 'https://cover.djpunjab.is/49105/300x700/raunda-wala-tarsem-jassar.jpg',
          name : 'Raunda Wala',
          artist : 'Tarsem Jassar',
          album : 'Vehli Janta Records',
@@ -4929,7 +4961,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49105/296639/Raunda%20Wala%20-%20Tarsem%20Jassar.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49101/300x700/bachalo-akhil.webp',
+         img : 'https://cover.djpunjab.is/49101/300x700/bachalo-akhil.jpg',
          name : 'Bachalo',
          artist : 'Akhil',
          album : 'White Hill Music',
@@ -4937,7 +4969,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49101/296635/Bachalo%20-%20Akhil.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49086/300x700/adhiya-karan-aujla.webp',
+         img : 'https://cover.djpunjab.is/49086/300x700/adhiya-karan-aujla.jpg',
          name : 'Adhiya',
          artist : 'Karan Aujla',
          album : 'Street Gang Music',
@@ -4945,7 +4977,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49086/296609/Adhiya%20-%20Karan%20Aujla.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49080/300x700/2020-raxstar.webp',
+         img : 'https://cover.djpunjab.is/49080/300x700/2020-raxstar.jpg',
          name : '2020',
          artist : 'Raxstar',
          album : 'Dream Warriors',
@@ -4953,7 +4985,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49080/296603/2020%20-%20Raxstar.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49077/300x700/bad-sidhu-moose-wala.webp',
+         img : 'https://cover.djpunjab.is/49077/300x700/bad-sidhu-moose-wala.jpg',
          name : 'Bad',
          artist : 'Sidhu Moose Wala',
          album : 'Sidhu Moose Wala Music',
@@ -4961,7 +4993,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49077/296600/Bad%20-%20Sidhu%20Moose%20Wala.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49075/300x700/welcome-to-my-hood-diljit-dosanjh.webp',
+         img : 'https://cover.djpunjab.is/49075/300x700/welcome-to-my-hood-diljit-dosanjh.jpg',
          name : 'Welcome To My Hood',
          artist : 'Diljit Dosanjh',
          album : 'Diljit Dosanjh Music',
@@ -4969,7 +5001,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49075/296598/Welcome%20To%20My%20Hood%20-%20Diljit%20Dosanjh.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49047/300x700/kala-jaadu-arjan-dhillon.webp',
+         img : 'https://cover.djpunjab.is/49047/300x700/kala-jaadu-arjan-dhillon.jpg',
          name : 'Kala Jaadu',
          artist : 'Arjan Dhillon',
          album : 'Brown Studios',
@@ -4977,7 +5009,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49047/296570/Kala%20Jaadu%20-%20Arjan%20Dhillon.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49028/300x700/my-fellas-arjan-dhillon.webp',
+         img : 'https://cover.djpunjab.is/49028/300x700/my-fellas-arjan-dhillon.jpg',
          name : 'My Fellas',
          artist : 'Arjan Dhillon',
          album : 'Sony Music India',
@@ -4985,7 +5017,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49028/296550/My%20Fellas%20-%20Arjan%20Dhillon.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/49005/300x700/mutiyaare-ni-jassa-dhillon.webp',
+         img : 'https://cover.djpunjab.is/49005/300x700/mutiyaare-ni-jassa-dhillon.jpg',
          name : 'Mutiyaare Ni',
          artist : 'Jassa Dhillon',
          album : 'YRF',
@@ -4993,7 +5025,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/49005/296527/Mutiyaare%20Ni%20-%20Jassa%20Dhillon.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48991/300x700/bai-bai-arjan-dhillon.webp',
+         img : 'https://cover.djpunjab.is/48991/300x700/bai-bai-arjan-dhillon.jpg',
          name : 'Bai Bai',
          artist : 'Arjan Dhillon',
          album : 'Sony Music India',
@@ -5001,7 +5033,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48991/296513/Bai%20Bai%20-%20Arjan%20Dhillon.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48889/300x700/about-me-jordan-sandhu.webp',
+         img : 'https://cover.djpunjab.is/48889/300x700/about-me-jordan-sandhu.jpg',
          name : 'About Me',
          artist : 'Jordan Sandhu',
          album : 'B Major',
@@ -5009,7 +5041,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48889/296380/About%20Me%20-%20Jordan%20Sandhu.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48834/300x700/villagers-varinder-brar.webp',
+         img : 'https://cover.djpunjab.is/48834/300x700/villagers-varinder-brar.jpg',
          name : 'Villagers',
          artist : 'Varinder Brar',
          album : 'Varinder Brar Music',
@@ -5017,7 +5049,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48834/296325/Villagers%20-%20Varinder%20Brar.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48818/300x700/game-shooter-kahlon.webp',
+         img : 'https://cover.djpunjab.is/48818/300x700/game-shooter-kahlon.jpg',
          name : 'Game',
          artist : 'Shooter Kahlon',
          album : '5911 Records',
@@ -5025,7 +5057,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48818/296300/Game%20-%20Shooter%20Kahlon.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48798/300x700/koka-vs-coca-karan-aujla.webp',
+         img : 'https://cover.djpunjab.is/48798/300x700/koka-vs-coca-karan-aujla.jpg',
          name : 'Koka Vs Coca',
          artist : 'Karan Aujla',
          album : 'Navrattan Music',
@@ -5033,7 +5065,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48798/296280/Koka%20Vs%20Coca%20-%20Karan%20Aujla.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48797/300x700/radkan-te-madkan-rajvir-jawanda.webp',
+         img : 'https://cover.djpunjab.is/48797/300x700/radkan-te-madkan-rajvir-jawanda.jpg',
          name : 'Radkan Te Madkan',
          artist : 'Rajvir Jawanda',
          album : 'Rajvir Jawanda Music',
@@ -5041,7 +5073,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48797/296279/Radkan%20Te%20Madkan%20-%20Rajvir%20Jawanda.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48733/300x700/my-block-ft.-byg-byrd-sidhu-moose-wala.webp',
+         img : 'https://cover.djpunjab.is/48733/300x700/my-block-ft.-byg-byrd-sidhu-moose-wala.jpg',
          name : 'My Block',
          artist : 'Sidhu Moose Wala Ft. Byg Byrd',
          album : 'Sidhu Moose Wala',
@@ -5049,7 +5081,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48733/296207/My%20Block%20Ft.%20Byg%20Byrd%20-%20Sidhu%20Moose%20Wala.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48675/300x700/kurta-pajama-nirvair-pannu.webp',
+         img : 'https://cover.djpunjab.is/48675/300x700/kurta-pajama-nirvair-pannu.jpg',
          name : 'Kurta Pajama',
          artist : 'Nirvair Pannu',
          album : 'R Nait Music',
@@ -5057,7 +5089,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48675/296142/Kurta%20Pajama%20-%20Nirvair%20Pannu.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48655/300x700/munde-desi-nseeb.webp',
+         img : 'https://cover.djpunjab.is/48655/300x700/munde-desi-nseeb.jpg',
          name : 'Munde Desi',
          artist : 'Nseeb',
          album : 'Nseeb Music',
@@ -5065,7 +5097,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48655/296122/Munde%20Desi%20-%20Nseeb.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48605/300x700/haan-haige-aa-karan-aujla.webp',
+         img : 'https://cover.djpunjab.is/48605/300x700/haan-haige-aa-karan-aujla.jpg',
          name : 'Haan Haige Aa',
          artist : 'Karan Aujla',
          album : 'Rehaan Records',
@@ -5073,7 +5105,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48605/296057/Haan%20Haige%20Aa%20-%20Karan%20Aujla.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48602/300x700/dilpreet-dhillon-is-back-dilpreet-dhillon.webp',
+         img : 'https://cover.djpunjab.is/48602/300x700/dilpreet-dhillon-is-back-dilpreet-dhillon.jpg',
          name : 'Haan Haige Aa',
          artist : 'Karan Aujla',
          album : 'Rehaan Records',
@@ -5081,7 +5113,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48605/296057/Haan%20Haige%20Aa%20-%20Karan%20Aujla.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48570/300x700/hustler-tarsem-jassar.webp',
+         img : 'https://cover.djpunjab.is/48570/300x700/hustler-tarsem-jassar.jpg',
          name : 'Hustler',
          artist : 'Tarsem Jassar',
          album : 'Vehli Janta Records',
@@ -5089,7 +5121,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48570/296007/Hustler%20-%20Tarsem%20Jassar.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48565/300x700/defend-jordan-sandhu.webp',
+         img : 'https://cover.djpunjab.is/48565/300x700/defend-jordan-sandhu.jpg',
          name : 'Defend',
          artist : 'Jordan Sandhu',
          album : 'Jordan Sandhu Music',
@@ -5097,7 +5129,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48565/296002/Defend%20-%20Jordan%20Sandhu.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48554/300x700/bloodline-tarsem-jassar.webp',
+         img : 'https://cover.djpunjab.is/48554/300x700/bloodline-tarsem-jassar.jpg',
          name : 'Bloodline',
          artist : 'Tarsem Jassar',
          album : 'Vehli Janta Records',
@@ -5105,7 +5137,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48554/295991/Bloodline%20-%20Tarsem%20Jassar.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48531/300x700/yaar-mere-tarsem-jassar.webp',
+         img : 'https://cover.djpunjab.is/48531/300x700/yaar-mere-tarsem-jassar.jpg',
          name : 'Yaar Mere',
          artist : 'Tarsem Jassar Ft. Kulbir Jhinjer',
          album : 'Vehli Janta Records',
@@ -5113,7 +5145,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48531/295968/Yaar%20Mere%20-%20Tarsem%20Jassar.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48511/300x700/prohibited-sabi-bhinder.webp',
+         img : 'https://cover.djpunjab.is/48511/300x700/prohibited-sabi-bhinder.jpg',
          name : 'Prohibited',
          artist : 'Sabi Bhinder',
          album : 'Jatt Life Studios',
@@ -5121,7 +5153,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48511/295948/Prohibited%20-%20Sabi%20Bhinder.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48509/300x700/paapi-rangrez-sidhu.webp',
+         img : 'https://cover.djpunjab.is/48509/300x700/paapi-rangrez-sidhu.jpg',
          name : 'Paapi',
          artist : 'Rangrez Sidhu Ft. Sidhu Moosewala',
          album : 'Sidhu Moose Wala Music',
@@ -5129,7 +5161,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48509/295946/Paapi%20-%20Rangrez%20Sidhu.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48506/300x700/my-pride-tarsem-jassar.webp',
+         img : 'https://cover.djpunjab.is/48506/300x700/my-pride-tarsem-jassar.jpg',
          name : 'My Pride',
          artist : 'Tarsem Jassar Ft. Fateh',
          album : 'Vehli Janta Records',
@@ -5137,7 +5169,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48506/295943/My%20Pride%20-%20Tarsem%20Jassar.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48497/300x700/folk-touch-%26leaked-song%26-jassa-dhillon.webp',
+         img : 'https://cover.djpunjab.is/48497/300x700/folk-touch-%26leaked-song%26-jassa-dhillon.jpg',
          name : 'Folk Touch',
          artist : 'Jassa Dhillon',
          album : 'Jassa Dhillon Music',
@@ -5145,7 +5177,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48497/295934/Folk%20Touch%20(Leaked%20Song)%20-%20Jassa%20Dhillon.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48457/300x700/baby-you-jassie-gill.webp',
+         img : 'https://cover.djpunjab.is/48457/300x700/baby-you-jassie-gill.jpg',
          name : 'Baby You',
          artist : 'Jassie Gill',
          album : 'Humble Music',
@@ -5153,7 +5185,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48457/295894/Baby%20You%20-%20Jassie%20Gill.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48441/300x700/so-far-karan-aujla.webp',
+         img : 'https://cover.djpunjab.is/48441/300x700/so-far-karan-aujla.jpg',
          name : 'So Far',
          artist : 'Karan Aujla',
          album : 'Karan Aujla',
@@ -5161,7 +5193,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48441/295878/So%20Far%20-%20Karan%20Aujla.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48435/300x700/next-level-varinder-brar.webp',
+         img : 'https://cover.djpunjab.is/48435/300x700/next-level-varinder-brar.jpg',
          name : 'Next Level',
          artist : 'Varinder Brar',
          album : 'Varinder Brar Music',
@@ -5169,7 +5201,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48435/295872/Next%20Level%20-%20Varinder%20Brar.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48428/300x700/crown-prince-jazzy-b.webp',
+         img : 'https://cover.djpunjab.is/48428/300x700/crown-prince-jazzy-b.jpg',
          name : 'Crown Prince',
          artist : 'Jazzy B Ft. Bohemia',
          album : 'Tips Music',
@@ -5177,7 +5209,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48428/295865/Crown%20Prince%20-%20Jazzy%20B.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48428/300x700/crown-prince-jazzy-b.webp',
+         img : 'https://cover.djpunjab.is/48428/300x700/crown-prince-jazzy-b.jpg',
          name : 'Crown Prince',
          artist : 'Jazzy B Ft. Bohemia',
          album : 'Tips Music',
@@ -5185,7 +5217,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48428/295865/Crown%20Prince%20-%20Jazzy%20B.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48398/300x700/sick-tone-navaan-sandhu.webp',
+         img : 'https://cover.djpunjab.is/48398/300x700/sick-tone-navaan-sandhu.jpg',
          name : 'Sick Tone',
          artist : 'Navaan Sandhu',
          album : 'Collab Creations',
@@ -5193,7 +5225,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/48398/295833/Sick%20Tone%20-%20Navaan%20Sandhu.mp3'
             },
             {
-         img : 'https://cover.djpunjab.is/48394/300x700/faraar-jassa-dhillon.webp',
+         img : 'https://cover.djpunjab.is/48394/300x700/faraar-jassa-dhillon.jpg',
          name : 'Faraar',
          artist : 'Jassa Dhillon',
          album : 'Brown Town Music',

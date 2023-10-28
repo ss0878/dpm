@@ -1129,22 +1129,6 @@ const music_list = [
        music : 'https://p320.djpunjab.is/data/320/53936/302226/4%20BAKYIAN%20-%20Gurinder%20Gill.mp3'
         },
 	{
-       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/706_7.jpg',
-       name : 'Stolen',
-       artist : 'Harman Kang',
-       album : 'I Love You But Im Not In Love',
-       released : 'Jun-10-2023',
-       music : 'https://pagaljatt.com/files/download/type/320/id/706'
-        },
-	{
-       img : 'https://pagaljatt.com/siteuploads/thumb/sft2/706_7.jpg',
-       name : 'FROZEN FEELINGS',
-       artist : 'Harman Kang',
-       album : 'I Love You But Im Not In Love',
-       released : 'Jun-10-2023',
-       music : 'https://pagaljatt.com/files/download/type/320/id/704'
-        },
-	{
        img : 'https://cover.djpunjab.is/53886/300x700/Pagh-Naal-Fateh.jpg',
        name : 'Pagh Naal',
        artist : 'Fateh',

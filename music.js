@@ -1,6 +1,14 @@
 const music_list = [
     
     {
+      img : 'https://cover.djpunjab.is/54518/300x700/lahore-nish-kang.jpg',
+      name : 'Lahore',
+      artist : 'Nish Kang',
+      album : 'Group B Records',
+      released : 'Oct-31-2023',
+      music : 'https://s320.djpunjab.is/data/320/54518/303033/Lahore%20-%20Nish%20Kang.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54499/300x700/gabru-da-naam-ninja.jpg',
       name : 'Gabru Da Naam',
       artist : 'Ninja Ft Deep Jandu',

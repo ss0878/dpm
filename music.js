@@ -1,6 +1,14 @@
 const music_list = [
     
     {
+      img : 'https://lq.djjohal.com/covers/730924/Semi%20-%20Auto.jpg',
+      name : 'Semi - Auto',
+      artist : 'Jordan Sandhu',
+      album : 'Jordan Sandhu Music',
+      released : 'Nov-6-2023',
+      music : 'https://hd1.djjohal.com/320/517736/Semi%20%20Auto%20-%20Jordan%20Sandhu%20(DJJOhAL.Com).mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54545/300x700/clip-shah.jpg',
       name : 'Clip',
       artist : 'Shah',

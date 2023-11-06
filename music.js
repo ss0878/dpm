@@ -1,6 +1,22 @@
 const music_list = [
     
     {
+      img : 'https://cover.djpunjab.is/54545/300x700/clip-shah.jpg',
+      name : 'Clip',
+      artist : 'Shah',
+      album : 'Punk Records',
+      released : 'Nov-5-2023',
+      music : 'https://s320.djpunjab.is/data/320/54545/303067/Clip%20-%20Shah.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54543/300x700/mere-bina-the-prophec.jpg',
+      name : 'Mere Bina',
+      artist : 'The Prophec',
+      album : 'KSHMR Music',
+      released : 'Nov-5-2023',
+      music : 'https://s320.djpunjab.is/data/320/54543/303065/Mere%20Bina%20-%20The%20Prophec.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54518/300x700/lahore-nish-kang.jpg',
       name : 'Lahore',
       artist : 'Nish Kang',

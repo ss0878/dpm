@@ -5247,9 +5247,113 @@ const music_list = [
          album : 'Brown Town Music',
          released : 'Jun-16-2020',
          music : 'https://s320.djpunjab.is/data/320/48394/295831/Faraar%20-%20Jassa%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48370/300x700/dabde-ni-dilpreet-dhillon.jpg',
+         name : 'Dabde Ni',
+         artist : 'Dilpreet Dhillon',
+         album : 'Intense Global Ent',
+         released : 'Jun-12-2020',
+         music : 'https://s320.djpunjab.is/data/320/48370/295807/Dabde%20Ni%20-%20Dilpreet%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48366/300x700/bambiha-bole-sidhu-moose-wala.jpg',
+         name : 'Bambiha Bole',
+         artist : 'Sidhu Moose Wala Ft. Amrit Maan',
+         album : 'Sidhu Moose Wala',
+         released : 'Jun-11-2020',
+         music : 'https://s320.djpunjab.is/data/320/48366/295803/Bambiha%20Bole%20-%20Sidhu%20Moose%20Wala.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48531/300x700/yaar-mere-tarsem-jassar.jpg',
+         name : 'Yaar Mere',
+         artist : 'Tarsem Jassar Ft Kulbir Jhinjer',
+         album : 'Vehli Janta Records',
+         released : 'Jun-9-2020',
+         music : 'https://s320.djpunjab.is/data/320/48531/295968/Yaar%20Mere%20-%20Tarsem%20Jassar.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48520/300x700/mitha-bolke-nirvair-pannu.jpg',
+         name : 'Mitha Bolke',
+         artist : 'Nirvair Pannu',
+         album : 'Juck Dock',
+         released : 'Jun-7-2020',
+         music : 'https://s320.djpunjab.is/data/320/48520/295957/Mitha%20Bolke%20-%20Nirvair%20Pannu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48511/300x700/prohibited-sabi-bhinder.jpg',
+         name : 'Prohibited',
+         artist : 'Sabi Bhinder',
+         album : 'Jatt Life Studios',
+         released : 'Jun-6-2020',
+         music : 'https://s320.djpunjab.is/data/320/48511/295948/Prohibited%20-%20Sabi%20Bhinder.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48509/300x700/paapi-rangrez-sidhu.jpg',
+         name : 'Paapi',
+         artist : 'Rangrez Sidhu Ft. Sidhu Moosewala',
+         album : 'Sidhu Moosewala Music',
+         released : 'Jun-6-2020',
+         music : 'https://s320.djpunjab.is/data/320/48509/295946/Paapi%20-%20Rangrez%20Sidhu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48495/300x700/munde-pind-de-parmish-verma.jpg',
+         name : 'Munde Pind De',
+         artist : 'Parmish Verma',
+         album : 'Gringo Entertainments',
+         released : 'Jun-3-2020',
+         music : 'https://s320.djpunjab.is/data/320/48495/295932/Munde%20Pind%20De%20-%20Parmish%20Verma.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48317/300x700/bandook-nirvair-pannu.jpg',
+         name : 'Bandook',
+         artist : 'Nirvair Pannu',
+         album : 'Juke Dock',
+         released : 'Jun-1-2020',
+         music : 'https://s320.djpunjab.is/data/320/48317/295723/Bandook%20-%20Nirvair%20Pannu.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48290/300x700/let-em-play-karan-aujla.jpg',
+         name : 'Let Em Play',
+         artist : 'Nirvair Pannu',
+         album : 'Rehaan Records',
+         released : 'May-28-2020',
+         music : 'https://s320.djpunjab.is/data/320/48290/295684/Let%20Em%20Play%20-%20Karan%20Aujla.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48258/300x700/gal-dil-di-%26garage-remix%26-soni-pabla.jpg',
+         name : 'Gal Dil Di (Garage Remix)',
+         artist : 'Soni Pabla',
+         album : 'Planet Recordz Inc',
+         released : 'May-24-2020',
+         music : 'https://s320.djpunjab.is/data/320/48258/295652/Gal%20Dil%20Di%20(Garage%20Remix)%20-%20Soni%20Pabla.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48246/300x700/badmashi-prem-dhillon.jpg',
+         name : 'Badmashi',
+         artist : 'Prem Dhillon',
+         album : 'Old Skool Studios',
+         released : 'May-21-2020',
+         music : 'https://s320.djpunjab.is/data/320/48246/295640/Badmashi%20-%20Prem%20Dhillon.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48238/300x700/nit-khair-manga-%26re-mastered%26-nusrat-fateh-ali-khan.jgp',
+         name : 'Nit Khair Manga (Re-Mastered)',
+         artist : 'Nusrat Fateh Ali Khan',
+         album : 'DesiFrenzy',
+         released : 'May-19-2020',
+         music : 'https://s320.djpunjab.is/data/320/48238/295615/Nit%20Khair%20Manga%20(Re-Mastered)%20-%20Nusrat%20Fateh%20Ali%20Khan.mp3'
+            },
+            {
+         img : 'https://cover.djpunjab.is/48236/300x700/mere-22-varinder-brar.jpg',
+         name : 'Mere 22',
+         artist : 'Varinder Brar',
+         album : 'Varinder Brar Music',
+         released : 'May-19-2020',
+         music : 'https://s320.djpunjab.is/data/320/48236/295613/Mere%2022%20-%20Varinder%20Brar.mp3'
             }
 	
-	/* https://djpunjab.is/page/newlatest.php?page=280 */
+	/* https://djpunjab.is/page/newlatest.php?page=301 */
 
 	,
             {

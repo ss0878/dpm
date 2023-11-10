@@ -1,6 +1,14 @@
 const music_list = [
     
     {
+      img : 'https://i.imgur.com/wIjTH3V.jpg',
+      name : 'Behind Bars',
+      artist : 'Azaad 4L Ft. Santali Beats',
+      album : 'Azaad 4L',
+      released : 'Nov-10-2023',
+      music : 'https://audio.jukehost.co.uk/RnQxYWQwEkWzVzyAvl5FTrkCj54AuAYE'
+        },
+	{
       img : 'https://cover.djpunjab.is/54549/300x700/semi---auto-jordan-sandhu.jpg',
       name : 'Semi - Auto',
       artist : 'Jordan Sandhu',

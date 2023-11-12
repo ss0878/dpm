@@ -9,6 +9,30 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54584/303127/Watch%20Out%20-%20Sidhu%20Moose%20Wala.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/54580/300x700/esntls-11-nirvair-pannu.jpg',
+      name : 'Hype',
+      artist : 'Nirvair Pannu',
+      album : 'Nirvair Pannu',
+      released : 'Nov-11-2023',
+      music : 'https://p320.djpunjab.is/data/320/54580/303106/Hype%20-%20Nirvair%20Pannu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54580/300x700/esntls-11-nirvair-pannu.jpg',
+      name : 'Gucci',
+      artist : 'Nirvair Pannu',
+      album : 'Nirvair Pannu',
+      released : 'Nov-11-2023',
+      music : 'https://p320.djpunjab.is/data/320/54580/303107/Gucci%20-%20Nirvair%20Pannu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54580/300x700/esntls-11-nirvair-pannu.jpg',
+      name : 'Kam Jattan De',
+      artist : 'Nirvair Pannu',
+      album : 'Nirvair Pannu',
+      released : 'Nov-11-2023',
+      music : 'https://p320.djpunjab.is/data/320/54580/303108/Kam%20Jattan%20De%20-%20Nirvair%20Pannu.mp3'
+        },
+	{
       img : 'https://i.imgur.com/wIjTH3V.jpg',
       name : 'Behind Bars',
       artist : 'Azaad 4L Ft. Santali Beats',

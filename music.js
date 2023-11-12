@@ -1,6 +1,14 @@
 const music_list = [
     
     {
+      img : 'https://cover.djpunjab.is/54584/300x700/watch-out-sidhu-moose-wala.jpg',
+      name : 'Watch Out',
+      artist : 'Sidhu Moose Wala',
+      album : 'Sidhu Moose Wala',
+      released : 'Nov-12-2023',
+      music : 'https://s320.djpunjab.is/data/320/54584/303127/Watch%20Out%20-%20Sidhu%20Moose%20Wala.mp3'
+        },
+	{
       img : 'https://i.imgur.com/wIjTH3V.jpg',
       name : 'Behind Bars',
       artist : 'Azaad 4L Ft. Santali Beats',

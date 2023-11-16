@@ -1,6 +1,14 @@
 const music_list = [
     
     {
+      img : 'https://cover.djpunjab.is/54602/300x700/tyaar-hoi-c-sabba.jpg',
+      name : 'Tyaar Hoi C',
+      artist : 'Sabba',
+      album : 'One Take Worldwide',
+      released : 'Nov-14-2023',
+      music : 'https://s320.djpunjab.is/data/320/54602/303156/Tyaar%20Hoi%20C%20-%20Sabba.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54584/300x700/watch-out-sidhu-moose-wala.jpg',
       name : 'Watch Out',
       artist : 'Sidhu Moose Wala',

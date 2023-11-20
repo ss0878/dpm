@@ -1,6 +1,14 @@
 const music_list = [
     
     {
+      img : 'https://cover.djpunjab.is/54628/300x700/arjan-vailly-%26animal-movie%26-bhupinder-babbal.jpg',
+      name : 'Arjan Vailly (Animal Movie)',
+      artist : 'Bhupinder Babbal',
+      album : 'Bhupinder Babbal',
+      released : 'Nov-18-2023',
+      music : 'https://s320.djpunjab.is/data/320/54628/303182/Arjan%20Vailly%20(Animal%20Movie)%20-%20Bhupinder%20Babbal.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54602/300x700/tyaar-hoi-c-sabba.jpg',
       name : 'Tyaar Hoi C',
       artist : 'Sabba',

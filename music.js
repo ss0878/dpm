@@ -2,7 +2,7 @@ const music_list = [
     
     {
       img : 'https://cover.djpunjab.is/54628/300x700/arjan-vailly-%26animal-movie%26-bhupinder-babbal.jpg',
-      name : 'Arjan Vailly (Animal Movie)',
+      name : 'Arjan Vailly (Animal)',
       artist : 'Bhupinder Babbal',
       album : 'Bhupinder Babbal',
       released : 'Nov-18-2023',

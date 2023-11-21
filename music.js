@@ -1,6 +1,14 @@
 const music_list = [
     
     {
+      img : 'https://cover.djpunjab.is/54650/300x700/vairiyan-de-vairi-satti-lohakhera.jpg',
+      name : 'Vairiyan De Vairi',
+      artist : 'Satti Lohakhera Ft KS Makhan',
+      album : 'Satti Lohakhera Music',
+      released : 'Nov-21-2023',
+      music : 'https://s320.djpunjab.is/data/320/54650/303204/Vairiyan%20De%20Vairi%20-%20Satti%20Lohakhera.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54628/300x700/arjan-vailly-%26animal-movie%26-bhupinder-babbal.jpg',
       name : 'Arjan Vailly (Animal)',
       artist : 'Bhupinder Babbal',

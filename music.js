@@ -1,6 +1,22 @@
 const music_list = [
     
-    {
+   {
+      img : 'https://cover.djpunjab.is/54681/300x700/ghar-bharte-arjan-dhillon.jpg',
+      name : 'Ghar Bharte',
+      artist : 'Arjan Dhillon',
+      album : 'Brown Music',
+      released : 'Nov-24-2023',
+      music : 'https://s320.djpunjab.is/data/320/54681/303235/Ghar%20Bharte%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54676/300x700/challa-jordan-sandhu.jpg',
+      name : 'Challa',
+      artist : 'Jordan Sandhu',
+      album : 'Jordan Sandhu',
+      released : 'Nov-24-2023',
+      music : 'https://s320.djpunjab.is/data/320/54676/303230/Challa%20-%20Jordan%20Sandhu.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54650/300x700/vairiyan-de-vairi-satti-lohakhera.jpg',
       name : 'Vairiyan De Vairi',
       artist : 'Satti Lohakhera Ft KS Makhan',

@@ -1,6 +1,14 @@
 const music_list = [
     
    {
+      img : 'https://i.imgur.com/kHM7dgY.jpg',
+      name : 'Scenario',
+      artist : 'Azaad 4L',
+      album : 'Azaad 4L',
+      released : 'Nov-28-2023',
+      music : 'https://audio.jukehost.co.uk/GuI5Fvd7pWPerXVFSH8SqGcyilIi47dK'
+        },
+	{
       img : 'https://cover.djpunjab.is/54681/300x700/ghar-bharte-arjan-dhillon.jpg',
       name : 'Ghar Bharte',
       artist : 'Arjan Dhillon',

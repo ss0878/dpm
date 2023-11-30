@@ -6,7 +6,7 @@ const music_list = [
       artist : 'Azaad 4L',
       album : 'Azaad 4L',
       released : 'Nov-28-2023',
-      music : 'https://audio.jukehost.co.uk/GuI5Fvd7pWPerXVFSH8SqGcyilIi47dK'
+      music : 'https://audio.jukehost.co.uk/CMPmAXkLrn2CeFPtm4ztfHReOK2pKHg9'
         },
 	{
       img : 'https://cover.djpunjab.is/54681/300x700/ghar-bharte-arjan-dhillon.jpg',

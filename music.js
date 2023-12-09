@@ -33,6 +33,22 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54762/303380/Shkeeni%20-%20Babbal%20Rai.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/54746/300x700/set-ho-gia-parmish-verma.jpg',
+      name : 'Set Ho Gia',
+      artist : 'Parmish Verma',
+      album : 'Times Music',
+      released : 'Dec-03-2023',
+      music : 'https://s320.djpunjab.is/data/320/54746/303364/Set%20Ho%20Gia%20-%20Parmish%20Verma.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54685/300x700/cetrizine-lakhi-ghuman.jpg',
+      name : 'Cetrizine',
+      artist : 'Lakhi Ghuman',
+      album : 'Noble Music',
+      released : 'Nov-25-2023',
+      music : 'https://s320.djpunjab.is/data/320/54685/303239/Cetrizine%20-%20Lakhi%20Ghuman.mp3'
+        },
+	{
       img : 'https://i.imgur.com/kHM7dgY.jpg',
       name : 'Scenario',
       artist : 'Azaad 4L',
@@ -63,6 +79,14 @@ const music_list = [
       album : 'Jordan Sandhu',
       released : 'Nov-24-2023',
       music : 'https://s320.djpunjab.is/data/320/54676/303230/Challa%20-%20Jordan%20Sandhu.mp3'
+        },
+	{
+      img : 'https://lq.djjohal.com/covers/731015/8%20ASLE.jpg',
+      name : '8 ASLE',
+      artist : 'Sukha',
+      album : 'Sukha Music',
+      released : 'Nov-20-2023',
+      music : 'https://hd1.djjohal.com/320/517867/8%20ASLE%20-%20Sukha%20(DJJOhAL.Com).mp3'
         },
 	{
       img : 'https://cover.djpunjab.is/54650/300x700/vairiyan-de-vairi-satti-lohakhera.jpg',

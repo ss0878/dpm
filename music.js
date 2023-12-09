@@ -1,6 +1,38 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/54781/300x700/perfect-jodi-the-landers.jpg',
+      name : 'Perfect Jodi',
+      artist : 'The Landers',
+      album : 'The Landers',
+      released : 'Dec-09-2023',
+      music : 'https://s320.djpunjab.is/data/320/54781/303431/Perfect%20Jodi%20-%20The%20Landers.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54771/300x700/big-plays-jxggi.jpg',
+      name : 'Big Plays',
+      artist : 'Jxggi',
+      album : 'Jxggi',
+      released : 'Dec-07-2023',
+      music : 'https://s320.djpunjab.is/data/320/54771/303404/Big%20Plays%20-%20Jxggi.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54763/300x700/kaka-inderpal-moga.jpg',
+      name : 'Kaka',
+      artist : 'Inderpal Moga',
+      album : 'Chani Nattan Music',
+      released : 'Dec-06-2023',
+      music : 'https://s320.djpunjab.is/data/320/54763/303381/Kaka%20-%20Inderpal%20Moga.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54762/300x700/shkeeni-babbal-rai.jpg',
+      name : 'Shkeeni',
+      artist : 'Babbal Rai',
+      album : 'Babbal Rai',
+      released : 'Dec-05-2023',
+      music : 'https://s320.djpunjab.is/data/320/54762/303380/Shkeeni%20-%20Babbal%20Rai.mp3'
+        },
+	{
       img : 'https://i.imgur.com/kHM7dgY.jpg',
       name : 'Scenario',
       artist : 'Azaad 4L',

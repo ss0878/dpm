@@ -17,20 +17,20 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54872/303557/No%20Debts%20-%20Arjan%20Dhillon.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/54781/300x700/perfect-jodi-the-landers.jpg',
-      name : 'Perfect Jodi',
-      artist : 'The Landers',
-      album : 'The Landers',
-      released : 'Dec-09-2023',
-      music : 'https://s320.djpunjab.is/data/320/54781/303431/Perfect%20Jodi%20-%20The%20Landers.mp3'
-        },
-	{
       img : 'https://cover.djpunjab.is/54863/300x700/4.10-divine.jpg',
       name : '4.10',
       artist : 'Divine',
       album : 'Divine',
       released : 'Dec-28-2023',
       music : 'https://s320.djpunjab.is/data/320/54863/303548/4.10%20-%20Divine.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54781/300x700/perfect-jodi-the-landers.jpg',
+      name : 'Perfect Jodi',
+      artist : 'The Landers',
+      album : 'The Landers',
+      released : 'Dec-09-2023',
+      music : 'https://s320.djpunjab.is/data/320/54781/303431/Perfect%20Jodi%20-%20The%20Landers.mp3'
         },
 	{
       img : 'https://cover.djpunjab.is/54771/300x700/big-plays-jxggi.jpg',

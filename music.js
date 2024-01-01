@@ -1,6 +1,14 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/54873/300x700/chah-pindan-di-arjan-dhillon.jpg',
+      name : 'Chah Pindan Di',
+      artist : 'Arjan Dhillon',
+      album : 'Panj-aab Records',
+      released : 'Dec-29-2023',
+      music : 'https://s320.djpunjab.is/data/320/54873/303558/Chah%20Pindan%20Di%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54781/300x700/perfect-jodi-the-landers.jpg',
       name : 'Perfect Jodi',
       artist : 'The Landers',

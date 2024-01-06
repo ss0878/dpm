@@ -1,6 +1,38 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/54902/300x300/leo-ep-shubh.jpg',
+      name : 'Hood Anthem',
+      artist : 'Shubh',
+      album : 'Leo EP',
+      released : 'Jan-05-2024',
+      music : 'https://p320.djpunjab.is/data/320/54902/303589/Hood%20Anthem%20-%20Shubh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54902/300x300/leo-ep-shubh.jpg',
+      name : 'King Shit',
+      artist : 'Shubh',
+      album : 'Leo EP',
+      released : 'Jan-05-2024',
+      music : 'https://p320.djpunjab.is/data/320/54902/303590/King%20Shit%20-%20Shubh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54902/300x300/leo-ep-shubh.jpg',
+      name : 'Safety Off',
+      artist : 'Shubh',
+      album : 'Leo EP',
+      released : 'Jan-05-2024',
+      music : 'https://p320.djpunjab.is/data/320/54902/303588/Safety%20Off%20-%20Shubh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54902/300x300/leo-ep-shubh.jpg',
+      name : 'You And Me',
+      artist : 'Shubh',
+      album : 'Leo EP',
+      released : 'Jan-05-2024',
+      music : 'https://p320.djpunjab.is/data/320/54902/303587/You%20And%20Me%20-%20Shubh.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54873/300x700/chah-pindan-di-arjan-dhillon.jpg',
       name : 'Chah Pindan Di',
       artist : 'Arjan Dhillon',

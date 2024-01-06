@@ -33,6 +33,14 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/54902/303587/You%20And%20Me%20-%20Shubh.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/54892/300x700/lahore-harkirat-sangha.jpg',
+      name : 'Lahore',
+      artist : 'Harkirat Sangha',
+      album : 'Harkirat Sangha Music',
+      released : 'Jan-04-2024',
+      music : 'https://s320.djpunjab.is/data/320/54892/303577/Lahore%20-%20Harkirat%20Sangha.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54873/300x700/chah-pindan-di-arjan-dhillon.jpg',
       name : 'Chah Pindan Di',
       artist : 'Arjan Dhillon',

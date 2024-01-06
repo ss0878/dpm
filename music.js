@@ -41,6 +41,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54892/303577/Lahore%20-%20Harkirat%20Sangha.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/54876/300x700/big-pockets-parmveer.jpg',
+      name : 'Big Pockets',
+      artist : 'Parmveer',
+      album : 'Boss Life Studios',
+      released : 'Dec-31-2023',
+      music : 'https://s320.djpunjab.is/data/320/54876/303561/Big%20Pockets%20-%20Parmveer.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54873/300x700/chah-pindan-di-arjan-dhillon.jpg',
       name : 'Chah Pindan Di',
       artist : 'Arjan Dhillon',

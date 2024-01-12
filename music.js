@@ -9,6 +9,30 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54929/303620/Mind%20Map%20-%20Jordan%20Sandhu.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/54921/300x700/5-pm-in-mohali-ellde-fazilka.jpg',
+      name : '5 PM In Mohali',
+      artist : 'Ellde Fazilka',
+      album : 'Ellde Fazilka',
+      released : 'Jan-10-2024',
+      music : 'https://s320.djpunjab.is/data/320/54921/303612/5%20PM%20In%20Mohali%20-%20Ellde%20Fazilka.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54920/300x700/33-khan-bhaini.jpg',
+      name : '33',
+      artist : 'Khan Bhaini',
+      album : 'Khan Bhaini',
+      released : 'Jan-10-2024',
+      music : 'https://s320.djpunjab.is/data/320/54920/303611/33%20-%20Khan%20Bhaini.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54918/300x700/executioner-wazir-patar.jpg',
+      name : 'Executioner Wazir',
+      artist : 'Wazir Patar',
+      album : 'Wazir Patar',
+      released : 'Jan-10-2024',
+      music : 'https://s320.djpunjab.is/data/320/54918/303609/Executioner%20-%20Wazir%20Patar.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54902/300x300/leo-ep-shubh.jpg',
       name : 'Hood Anthem',
       artist : 'Shubh',

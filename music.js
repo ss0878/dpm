@@ -1,6 +1,14 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/54929/300x700/mind-map-jordan-sandhu.jpg',
+      name : 'Mind Map',
+      artist : 'Jordan Sandhu',
+      album : 'Rebelhood Studio',
+      released : 'Jan-12-2024',
+      music : 'https://s320.djpunjab.is/data/320/54929/303620/Mind%20Map%20-%20Jordan%20Sandhu.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54902/300x300/leo-ep-shubh.jpg',
       name : 'Hood Anthem',
       artist : 'Shubh',

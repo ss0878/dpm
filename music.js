@@ -1,6 +1,14 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/54937/300x700/see-my-hype-roop-bhullar.jpg',
+      name : 'SEE MY HYPE',
+      artist : 'Roop Bhullar Ft. Wazir Patar',
+      album : 'Roop Bhullar',
+      released : 'Jan-14-2024',
+      music : 'https://s320.djpunjab.is/data/320/54937/303630/SEE%20MY%20HYPE%20-%20Roop%20Bhullar.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/54929/300x700/mind-map-jordan-sandhu.jpg',
       name : 'Mind Map',
       artist : 'Jordan Sandhu',

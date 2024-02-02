@@ -1,12 +1,52 @@
 const music_list = [
     
    {
-      img : 'https://cover.djpunjab.is/54937/300x700/see-my-hype-roop-bhullar.jpg',
-      name : 'SEE MY HYPE',
-      artist : 'Roop Bhullar Ft. Wazir Patar',
-      album : 'Roop Bhullar',
-      released : 'Jan-14-2024',
-      music : 'https://s320.djpunjab.is/data/320/54937/303630/SEE%20MY%20HYPE%20-%20Roop%20Bhullar.mp3'
+      img : 'https://cover.djpunjab.is/55030/300x700/drippy-sidhu-moose-wala.jpg',
+      name : 'Drippy',
+      artist : 'Sidhu Moose Wala',
+      album : 'Sidhu Moose Wala',
+      released : 'Feb-2-2024',
+      music : 'https://s320.djpunjab.is/data/320/55030/303757/Drippy%20-%20Sidhu%20Moose%20Wala.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55015/300x700/45-wazir-patar.jpg',
+      name : '45',
+      artist : 'Wazir Patar',
+      album : 'Speed Records',
+      released : 'Jan-28-2024',
+      music : 'https://s320.djpunjab.is/data/320/55015/303728/45%20-%20Wazir%20Patar.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54996/300x700/okay-the-kidd.jpg',
+      name : 'Okay',
+      artist : 'The Kidd',
+      album : 'Sony Music Ent',
+      released : 'Jan-24-2024',
+      music : 'https://s320.djpunjab.is/data/320/54996/303709/Okay%20-%20The%20Kidd.mp3'
+        },
+	{
+      img : 'https://i1.sndcdn.com/artworks-VNXYLUt5FGahOS7H-osZlaw-t500x500.jpg',
+      name : '100 Million',
+      artist : 'Karan Aujla',
+      album : 'Mass Appeal India',
+      released : 'Jan-17-2024',
+      music : 'https://s320.djpunjab.is/data/320/54966/303670/100%20Million%20-%20Karan%20Aujla.mp3'
+        },
+	{
+      img : 'https://i1.sndcdn.com/artworks-VNXYLUt5FGahOS7H-osZlaw-t500x500.jpg',
+      name : '100 Million',
+      artist : 'Karan Aujla',
+      album : 'Mass Appeal India',
+      released : 'Jan-17-2024',
+      music : 'https://s320.djpunjab.is/data/320/54966/303670/100%20Million%20-%20Karan%20Aujla.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/54959/300x700/the-jatts-varinder-brar.jpg',
+      name : 'The Jatts',
+      artist : 'Varinder Brar',
+      album : 'Times Music',
+      released : 'Jan-17-2024',
+      music : 'https://s320.djpunjab.is/data/320/54959/303656/The%20Jatts%20-%20Varinder%20Brar.mp3'
         },
 	{
       img : 'https://cover.djpunjab.is/54929/300x700/mind-map-jordan-sandhu.jpg',
@@ -34,7 +74,7 @@ const music_list = [
         },
 	{
       img : 'https://cover.djpunjab.is/54918/300x700/executioner-wazir-patar.jpg',
-      name : 'Executioner Wazir',
+      name : 'Executioner',
       artist : 'Wazir Patar',
       album : 'Wazir Patar',
       released : 'Jan-10-2024',

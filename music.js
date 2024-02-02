@@ -9,6 +9,38 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/55030/303757/Drippy%20-%20Sidhu%20Moose%20Wala.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/55028/300x700/chobar-arjan-dhillon.jpg',
+      name : 'Youth Flow',
+      artist : 'Arjan Dhillon',
+      album : 'Chobar',
+      released : 'Feb-1-2024',
+      music : 'https://p320.djpunjab.is/data/320/55028/303745/Youth%20Flow%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55028/300x700/chobar-arjan-dhillon.jpg',
+      name : 'Glorious',
+      artist : 'Arjan Dhillon',
+      album : 'Chobar',
+      released : 'Feb-1-2024',
+      music : 'https://p320.djpunjab.is/data/320/55028/303741/Glorious%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55028/300x700/chobar-arjan-dhillon.jpg',
+      name : 'Hot Shit',
+      artist : 'Arjan Dhillon',
+      album : 'Chobar',
+      released : 'Feb-1-2024',
+      music : 'https://p320.djpunjab.is/data/320/55028/303742/Hot%20Shit%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55028/300x700/chobar-arjan-dhillon.jpg',
+      name : 'Vigde',
+      artist : 'Arjan Dhillon',
+      album : 'Chobar',
+      released : 'Feb-1-2024',
+      music : 'https://p320.djpunjab.is/data/320/55028/303753/Vigde%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/55015/300x700/45-wazir-patar.jpg',
       name : '45',
       artist : 'Wazir Patar',

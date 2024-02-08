@@ -1,6 +1,30 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/55056/300x700/estrellas-wazir-patar.jpg',
+      name : 'Gangsta Shit',
+      artist : 'Wazir Patar',
+      album : 'Speed Records',
+      released : 'Feb-7-2024',
+      music : 'https://p320.djpunjab.is/data/320/55056/303817/Gangsta%20Shit%20-%20Wazir%20Patar.mp3'
+        },
+	{
+      img : 'https://lq.djjohal.com/covers/731569/Ballin.jpg',
+      name : 'Ballin',
+      artist : 'Karan Aujla',
+      album : 'Karan Aujla',
+      released : 'Feb-6-2024',
+      music : 'https://s320.djpunjab.is/data/320/55041/303768/Ballin%20-%20Karan%20Aujla.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55034/300x700/g-lad-veer-sandhu.jpg',
+      name : 'G Lad',
+      artist : 'Veer Sandhu',
+      album : 'Legacy Records',
+      released : 'Feb-4-2024',
+      music : 'https://s320.djpunjab.is/data/320/55034/303761/G%20Lad%20-%20Veer%20Sandhu.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/55030/300x700/drippy-sidhu-moose-wala.jpg',
       name : 'Drippy',
       artist : 'Sidhu Moose Wala',

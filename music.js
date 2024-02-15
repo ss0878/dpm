@@ -1,6 +1,30 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/55073/300x700/bijli-ninja.jpg',
+      name : 'Bijli',
+      artist : 'Ninja',
+      album : 'White Hill Music',
+      released : 'Feb-12-2024',
+      music : 'https://s320.djpunjab.is/data/320/55073/303836/Bijli%20-%20Ninja.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55067/300x700/putt-jattan-de-mankirt-aulakh.jpg',
+      name : 'Putt Jattan De',
+      artist : 'Mankirt Aulakh',
+      album : 'Mankirt Aulakh Music',
+      released : 'Feb-9-2024',
+      music : 'https://s320.djpunjab.is/data/320/55067/303830/Putt%20Jattan%20De%20-%20Mankirt%20Aulakh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55065/300x700/magic-diljit-dosanjh.jpg',
+      name : 'Magic',
+      artist : 'Diljit Dosanjh',
+      album : 'Coke Studio Bharat',
+      released : 'Feb-9-2024',
+      music : 'https://s320.djpunjab.is/data/320/55065/303828/Magic%20-%20Diljit%20Dosanjh.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/55056/300x700/estrellas-wazir-patar.jpg',
       name : 'Gangsta Shit',
       artist : 'Wazir Patar',

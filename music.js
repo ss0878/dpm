@@ -1,6 +1,30 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/55131/300x700/new-order-tarsem-jassar.jpg',
+      name : 'Big Hearted',
+      artist : 'Tarsem Jassar',
+      album : 'Tarsem Jassar',
+      released : 'Feb-22-2024',
+      music : 'https://p320.djpunjab.is/data/320/55131/303907/Big%20Hearted%20-%20Tarsem%20Jassar.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55131/300x700/new-order-tarsem-jassar.jpg',
+      name : 'Kingpin The Next Episode',
+      artist : 'Tarsem Jassar',
+      album : 'Tarsem Jassar',
+      released : 'Feb-22-2024',
+      music : 'https://p320.djpunjab.is/data/320/55131/303910/Kingpin%20The%20Next%20Episode%20-%20Tarsem%20Jassar.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55118/300x700/wanga-g-sidhu.jpg',
+      name : 'WANGA',
+      artist : 'G Sidhu',
+      album : 'G Sidhu Productions',
+      released : 'Feb-20-2024',
+      music : 'https://s320.djpunjab.is/data/320/55118/303890/WANGA%20-%20G%20Sidhu.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/55073/300x700/bijli-ninja.jpg',
       name : 'Bijli',
       artist : 'Ninja',

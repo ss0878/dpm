@@ -1,6 +1,14 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/55183/300x700/damn-sure-jassa-dhillon.jpg',
+      name : 'Damn Sure',
+      artist : 'Jassa Dhillon',
+      album : 'Jassa Dhillon',
+      released : 'Mar-7-2024',
+      music : 'https://s320.djpunjab.is/data/320/55183/304015/Damn%20Sure%20-%20Jassa%20Dhillon.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/55131/300x700/new-order-tarsem-jassar.jpg',
       name : 'Big Hearted',
       artist : 'Tarsem Jassar',

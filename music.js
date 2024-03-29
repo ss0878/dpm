@@ -1,6 +1,14 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/55195/300x700/enemy-jordan-sandhu.jpg',
+      name : 'Enemy',
+      artist : 'Jordan Sandhu',
+      album : 'Jordan Sandhu',
+      released : 'Mar-11-2024',
+      music : 'https://s320.djpunjab.is/data/320/55195/304027/Enemy%20-%20Jordan%20Sandhu.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/55183/300x700/damn-sure-jassa-dhillon.jpg',
       name : 'Damn Sure',
       artist : 'Jassa Dhillon',

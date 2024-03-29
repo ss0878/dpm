@@ -1,6 +1,30 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/55292/300x700/bandana-shubh.jpg',
+      name : 'Bandana',
+      artist : 'Shubh',
+      album : 'Shubh',
+      released : 'Mar-28-2024',
+      music : 'https://s320.djpunjab.is/data/320/55292/304198/Bandana%20-%20Shubh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55270/300x700/moonshine-g-sidhu.jpg',
+      name : 'MOONSHINE',
+      artist : 'G Sidhu',
+      album : 'Byg Byrd',
+      released : 'Mar-23-2024',
+      music : 'https://s320.djpunjab.is/data/320/55270/304163/MOONSHINE%20-%20G%20Sidhu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55258/300x700/khutti-diljit-dosanjh.jpg',
+      name : 'Khutti',
+      artist : 'Diljit Dosanjh',
+      album : 'Diljit Dosanjh',
+      released : 'Mar-22-2024',
+      music : 'https://s320.djpunjab.is/data/320/55258/304151/Khutti%20-%20Diljit%20Dosanjh.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/55195/300x700/enemy-jordan-sandhu.jpg',
       name : 'Enemy',
       artist : 'Jordan Sandhu',

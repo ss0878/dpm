@@ -1,6 +1,126 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/55507/300x700/mvp-shubh.jpg',
+      name : 'MVP',
+      artist : 'Shubh',
+      album : 'Shubh',
+      released : 'May-11-2024',
+      music : 'https://s320.djpunjab.is/data/320/55507/304509/MVP%20-%20Shubh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55496/300x700/hollywood-nirvair-pannu.jpg',
+      name : 'Hollywood',
+      artist : 'Nirvair Pannu',
+      album : 'Nirvair Pannu',
+      released : 'May-10-2024',
+      music : 'https://s320.djpunjab.is/data/320/55496/304495/Hollywood%20-%20Nirvair%20Pannu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55495/300x700/goin-off-karan-aujla.jpg',
+      name : 'Goin Off',
+      artist : 'Karan Aujla',
+      album : 'Karan Aujla',
+      released : 'May-9-2024',
+      music : 'https://s320.djpunjab.is/data/320/55495/304494/Goin%20Off%20-%20Karan%20Aujla.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55492/300x700/in-love-guru-randhawa.jpg',
+      name : 'In Love',
+      artist : 'Guru Randhawa Ft Raja Kumari',
+      album : 'Guru Randhawa Ft Raja Kumari',
+      released : 'May-9-2024',
+      music : 'https://s320.djpunjab.is/data/320/55492/304480/In%20Love%20-%20Guru%20Randhawa.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55475/300x700/darshan-ammy-virk.jpg',
+      name : 'Darshan',
+      artist : 'Ammy Virk',
+      album : 'Ammy Virk',
+      released : 'May-6-2024',
+      music : 'https://s320.djpunjab.is/data/320/55475/304455/Darshan%20-%20Ammy%20Virk.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55464/300x700/sangdi-sukha.jpg',
+      name : 'Sangdi',
+      artist : 'Sukha',
+      album : 'Sukha',
+      released : 'May-3-2024',
+      music : 'https://s320.djpunjab.is/data/320/55464/304444/Sangdi%20-%20Sukha.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55432/300x700/unskippable-jordan-sandhu.jpg',
+      name : 'Unskippable',
+      artist : 'Jordan Sandhu',
+      album : 'Jordan Sandhu',
+      released : 'Apr-25-2024',
+      music : 'https://s320.djpunjab.is/data/320/55432/304400/Unskippable%20-%20Jordan%20Sandhu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55401/300x700/busy-doin-nothin-prem-dhillon.jpg',
+      name : 'Busy Doin Nothin',
+      artist : 'Prem Dhillon',
+      album : 'Prem Dhillon',
+      released : 'Apr-19-2024',
+      music : 'https://s320.djpunjab.is/data/320/55401/304350/Busy%20Doin%20Nothin%20-%20Prem%20Dhillon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55369/300x700/shehzaada-bohemia.jpg',
+      name : 'Shehzaada',
+      artist : 'Bohemia',
+      album : 'Bohemia',
+      released : 'Apr-13-2024',
+      music : 'https://s320.djpunjab.is/data/320/55369/304304/Shehzaada%20-%20Bohemia.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55345/300x700/410-sidhu-moose-wala.jpg',
+      name : '410',
+      artist : 'Sidhu Moose Wala',
+      album : 'Sidhu Moose Wala',
+      released : 'Apr-10-2024',
+      music : 'https://s320.djpunjab.is/data/320/55345/304280/410%20-%20Sidhu%20Moose%20Wala.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55342/300x700/hulare-jassa-dhillon.jpg',
+      name : 'Hulare',
+      artist : 'Jassa Dhillon',
+      album : 'Jassa Dhillon',
+      released : 'Apr-8-2024',
+      music : 'https://s320.djpunjab.is/data/320/55342/304277/Hulare%20-%20Jassa%20Dhillon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55325/300x700/thoughts-harnoor.jpg',
+      name : 'Thoughts',
+      artist : 'Harnoor',
+      album : 'Harnoor',
+      released : 'Apr-5-2024',
+      music : 'https://s320.djpunjab.is/data/320/55325/304260/Thoughts%20-%20Harnoor.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55318/300x700/no-chance-davi-singh.jpg',
+      name : 'No Chance',
+      artist : 'Davi Singh',
+      album : 'Davi Singh',
+      released : 'Apr-4-2024',
+      music : 'https://s320.djpunjab.is/data/320/55318/304235/No%20Chance%20-%20Davi%20Singh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55317/300x700/talent-ninja.jpg',
+      name : 'Talent',
+      artist : 'Ninja',
+      album : 'Ninja',
+      released : 'Apr-4-2024',
+      music : 'https://s320.djpunjab.is/data/320/55317/304234/Talent%20-%20Ninja.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55316/300x700/exit-harkirat-sangha.jpg',
+      name : 'Exit',
+      artist : 'Harkirat Sangha',
+      album : 'Harkirat Sangha',
+      released : 'Apr-4-2024',
+      music : 'https://s320.djpunjab.is/data/320/55316/304233/Exit%20-%20Harkirat%20Sangha.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/55292/300x700/bandana-shubh.jpg',
       name : 'Bandana',
       artist : 'Shubh',

@@ -1,6 +1,38 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/55577/300x700/judaa-3-title-track-amrinder-gill.jpg',
+      name : 'Judaa 3',
+      artist : 'Amrinder Gill',
+      album : 'Amrinder Gill',
+      released : 'May-24-2024',
+      music : 'https://s320.djpunjab.is/data/320/55577/304605/Judaa%203%20Title%20Track%20-%20Amrinder%20Gill.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55578/300x700/that-girl-amrinder-gill.jpg',
+      name : 'That Girl',
+      artist : 'Amrinder Gill',
+      album : 'Amrinder Gill',
+      released : 'May-24-2024',
+      music : 'https://s320.djpunjab.is/data/320/55578/304604/That%20Girl%20-%20Amrinder%20Gill.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55543/300x700/gallan-ap-dhillon.jpg',
+      name : 'GALLAN',
+      artist : 'AP Dhillon',
+      album : 'AP Dhillon',
+      released : 'May-17-2024',
+      music : 'https://s320.djpunjab.is/data/320/55543/304560/GALLAN%20-%20AP%20Dhillon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55537/300x700/winning-speech-karan-aujla.jpg',
+      name : 'Winning Speech',
+      artist : 'Karan Aujla',
+      album : 'Karan Aujla',
+      released : 'May-16-2024',
+      music : 'https://s320.djpunjab.is/data/320/55537/304551/Winning%20Speech%20-%20Karan%20Aujla.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/55507/300x700/mvp-shubh.jpg',
       name : 'MVP',
       artist : 'Shubh',

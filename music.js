@@ -1,6 +1,14 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/55585/300x700/og-og-singga.jpg',
+      name : 'OG OG',
+      artist : 'Singga',
+      album : 'Singga',
+      released : 'May-25-2024',
+      music : 'https://s320.djpunjab.is/data/320/55585/304622/OG%20OG%20-%20Singga.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/55577/300x700/judaa-3-title-track-amrinder-gill.jpg',
       name : 'Judaa 3',
       artist : 'Amrinder Gill',

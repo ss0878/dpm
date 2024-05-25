@@ -57,14 +57,6 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/55495/304494/Goin%20Off%20-%20Karan%20Aujla.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/55492/300x700/in-love-guru-randhawa.jpg',
-      name : 'In Love',
-      artist : 'Guru Randhawa Ft Raja Kumari',
-      album : 'Guru Randhawa Ft Raja Kumari',
-      released : 'May-9-2024',
-      music : 'https://s320.djpunjab.is/data/320/55492/304480/In%20Love%20-%20Guru%20Randhawa.mp3'
-        },
-	{
       img : 'https://cover.djpunjab.is/55475/300x700/darshan-ammy-virk.jpg',
       name : 'Darshan',
       artist : 'Ammy Virk',
@@ -95,14 +87,6 @@ const music_list = [
       album : 'Prem Dhillon',
       released : 'Apr-19-2024',
       music : 'https://s320.djpunjab.is/data/320/55401/304350/Busy%20Doin%20Nothin%20-%20Prem%20Dhillon.mp3'
-        },
-	{
-      img : 'https://cover.djpunjab.is/55369/300x700/shehzaada-bohemia.jpg',
-      name : 'Shehzaada',
-      artist : 'Bohemia',
-      album : 'Bohemia',
-      released : 'Apr-13-2024',
-      music : 'https://s320.djpunjab.is/data/320/55369/304304/Shehzaada%20-%20Bohemia.mp3'
         },
 	{
       img : 'https://cover.djpunjab.is/55345/300x700/410-sidhu-moose-wala.jpg',

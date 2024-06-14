@@ -1,6 +1,45 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/55700/300x300/judaa-3-chapter-2-amrinder-gill.jpg',
+      name : 'Goriye',
+      artist : 'Amrinder Gill',
+      album : 'Amrinder Gill',
+      released : 'June-14-2024',
+      music : 'https://p320.djpunjab.is/data/320/55700/304769/Goriye%20-%20Amrinder%20Gill.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55700/300x300/judaa-3-chapter-2-amrinder-gill.jpg',
+      name : 'Sunkissed',
+      artist : 'Amrinder Gill',
+      album : 'Amrinder Gill',
+      released : 'June-14-2024',
+      music : 'https://p320.djpunjab.is/data/320/55700/304768/Sunkissed%20-%20Amrinder%20Gill.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55700/300x300/judaa-3-chapter-2-amrinder-gill.jpg',
+      name : 'Kafka',
+      artist : 'Amrinder Gill',
+      album : 'Amrinder Gill',
+      released : 'June-14-2024',
+      music : 'https://p320.djpunjab.is/data/320/55700/304764/Kafka%20-%20Amrinder%20Gill.mp3'
+        },{
+      img : 'https://cover.djpunjab.is/55700/300x300/judaa-3-chapter-2-amrinder-gill.jpg',
+      name : 'Goriye',
+      artist : 'Amrinder Gill',
+      album : 'Amrinder Gill',
+      released : 'June-14-2024',
+      music : 'https://p320.djpunjab.is/data/320/55700/304769/Goriye%20-%20Amrinder%20Gill.mp3'
+        },
+	{
+      img : 'https://i.imgur.com/qrGyVDv.jpeg',
+      name : 'Jhol',
+      artist : 'Maanu x Annural Khalid',
+      album : 'Maanu x Annural Khalid',
+      released : 'June-14-2024',
+      music : 'https://audio.jukehost.co.uk/3BZXnI7rFCoWIwtNkitKHrlvBT6rQVJP'
+        },
+	{
       img : 'https://cover.djpunjab.is/55686/300x700/still-the-same-himmat-sandhu.jpg',
       name : 'Still The Same',
       artist : 'Himmat Sandhu Ft. Fateh',
@@ -15,6 +54,38 @@ const music_list = [
       album : 'Te G Sandhu',
       released : 'June-11-2024',
       music : 'https://s320.djpunjab.is/data/320/55673/304724/So%20Icey%20-%20Te%20G%20Sandhu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55675/300x700/mercury-harkirat-sangha.jpg',
+      name : 'Akhiyan',
+      artist : 'Harkirat Sangha',
+      album : 'Harkirat Sangha',
+      released : 'June-11-2024',
+      music : 'https://p320.djpunjab.is/data/320/55675/304729/Akhiyan%20-%20Harkirat%20Sangha.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55675/300x700/mercury-harkirat-sangha.jpg',
+      name : 'Chorni',
+      artist : 'Harkirat Sangha',
+      album : 'Harkirat Sangha',
+      released : 'June-11-2024',
+      music : 'https://p320.djpunjab.is/data/320/55675/304726/Chorni%20-%20Harkirat%20Sangha.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55675/300x700/mercury-harkirat-sangha.jpg',
+      name : 'Ma Heeri',
+      artist : 'Harkirat Sangha',
+      album : 'Harkirat Sangha',
+      released : 'June-11-2024',
+      music : 'https://p320.djpunjab.is/data/320/55675/304730/Ma%20Heeri%20-%20Harkirat%20Sangha.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55675/300x700/mercury-harkirat-sangha.jpg',
+      name : 'WARFARE',
+      artist : 'Harkirat Sangha',
+      album : 'Harkirat Sangha',
+      released : 'June-11-2024',
+      music : 'https://p320.djpunjab.is/data/320/55675/304727/WARFARE%20-%20Harkirat%20Sangha.mp3'
         },
 	{
       img : 'https://cover.djpunjab.is/55648/300x700/billori-the-prophec.jpg',
@@ -47,6 +118,14 @@ const music_list = [
       album : 'Singga',
       released : 'May-25-2024',
       music : 'https://s320.djpunjab.is/data/320/55648/304689/Billori%20-%20The%20Prophec.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55580/300x700/the-hood-ninja.jpg',
+      name : 'Khabi Khan',
+      artist : 'Ninja',
+      album : 'Ninja',
+      released : 'May-24-2024',
+      music : 'https://p320.djpunjab.is/data/320/55580/304613/Khabi%20Khan%20-%20Ninja.mp3'
         },
 	{
       img : 'https://cover.djpunjab.is/55577/300x700/judaa-3-title-track-amrinder-gill.jpg',

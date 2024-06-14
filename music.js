@@ -1,12 +1,52 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/55686/300x700/still-the-same-himmat-sandhu.jpg',
+      name : 'Still The Same',
+      artist : 'Himmat Sandhu Ft. Fateh',
+      album : 'Himmat Sandhu',
+      released : 'June-13-2024',
+      music : 'https://s320.djpunjab.is/data/320/55686/304741/Still%20The%20Same%20-%20Himmat%20Sandhu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55673/300x700/so-icey-te-g-sandhu.jpg',
+      name : 'So Icey',
+      artist : 'Te G Sandhu',
+      album : 'Te G Sandhu',
+      released : 'June-11-2024',
+      music : 'https://s320.djpunjab.is/data/320/55673/304724/So%20Icey%20-%20Te%20G%20Sandhu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55648/300x700/billori-the-prophec.jpg',
+      name : 'Billori',
+      artist : 'The Prophec',
+      album : 'The Prophec',
+      released : 'June-7-2024',
+      music : 'https://s320.djpunjab.is/data/320/55673/304724/So%20Icey%20-%20Te%20G%20Sandhu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55621/300x700/dilemma-sidhu-moose-wala.jpg',
+      name : 'Dilemma',
+      artist : 'Sidhu Moose Wala',
+      album : 'Sidhu Moose Wala',
+      released : 'June-1-2024',
+      music : 'https://s320.djpunjab.is/data/320/55621/304662/Dilemma%20-%20Sidhu%20Moose%20Wala.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55613/300x700/u-dnt-even-knw-prem-dhillon.jpg',
+      name : 'U Dnt Even Knw',
+      artist : 'Prem Dhillon',
+      album : 'Prem Dhillon',
+      released : 'May-31-2024',
+      music : 'https://s320.djpunjab.is/data/320/55613/304654/U%20Dnt%20Even%20Knw%20-%20Prem%20Dhillon.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/55585/300x700/og-og-singga.jpg',
       name : 'OG OG',
       artist : 'Singga',
       album : 'Singga',
       released : 'May-25-2024',
-      music : 'https://s320.djpunjab.is/data/320/55585/304622/OG%20OG%20-%20Singga.mp3'
+      music : 'https://s320.djpunjab.is/data/320/55648/304689/Billori%20-%20The%20Prophec.mp3'
         },
 	{
       img : 'https://cover.djpunjab.is/55577/300x700/judaa-3-title-track-amrinder-gill.jpg',

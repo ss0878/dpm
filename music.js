@@ -152,6 +152,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/55543/304560/GALLAN%20-%20AP%20Dhillon.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/55538/300x700/welcome-to-punjab-ep-pari-pandher.jpg',
+      name : 'Hass Ho Giya',
+      artist : 'Pari Pandher',
+      album : 'Pari Pandher',
+      released : 'May-17-2024',
+      music : 'https://p320.djpunjab.is/data/320/55538/304552/Hass%20Ho%20Giya%20-%20Pari%20Pandher.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/55537/300x700/winning-speech-karan-aujla.jpg',
       name : 'Winning Speech',
       artist : 'Karan Aujla',

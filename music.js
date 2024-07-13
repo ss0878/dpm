@@ -544,14 +544,6 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/54966/303670/100%20Million%20-%20Karan%20Aujla.mp3'
         },
 	{
-      img : 'https://i1.sndcdn.com/artworks-VNXYLUt5FGahOS7H-osZlaw-t500x500.jpg',
-      name : '100 Million',
-      artist : 'Karan Aujla',
-      album : 'Mass Appeal India',
-      released : 'Jan-17-2024',
-      music : 'https://s320.djpunjab.is/data/320/54966/303670/100%20Million%20-%20Karan%20Aujla.mp3'
-        },
-	{
       img : 'https://cover.djpunjab.is/54959/300x700/the-jatts-varinder-brar.jpg',
       name : 'The Jatts',
       artist : 'Varinder Brar',

@@ -9,14 +9,6 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/55816/304923/Mitran%20Nu%20-%20The%20Prophec.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/55816/300x700/mitran-nu-the-prophec.jpg',
-      name : 'Mitran Nu',
-      artist : 'The Prophec',
-      album : 'The Prophec',
-      released : 'July-7-2024',
-      music : 'https://s320.djpunjab.is/data/320/55816/304923/Mitran%20Nu%20-%20The%20Prophec.mp3'
-        },
-	{
       img : 'https://cover.djpunjab.is/55814/300x700/be-mine-shubh.jpg',
       name : 'Be Mine',
       artist : 'Shubh',

@@ -1,6 +1,14 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/55757/300x700/dilemma-%28original%29-sidhu-moose-wala.jpg',
+      name : 'Dilemma',
+      artist : 'Sidhu Moose Wala Ft. Stefflon Don',
+      album : 'Sidhu Moose Wala',
+      released : 'June-24-2024',
+      music : 'https://s320.djpunjab.is/data/320/55757/304851/Dilemma%20(Original)%20-%20Sidhu%20Moose%20Wala.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/55722/300x700/jatti-bae-pavitar-lassoi.jpg',
       name : 'Jatti Bae',
       artist : 'Pavitar Lassoi',
@@ -110,14 +118,6 @@ const music_list = [
       album : 'The Prophec',
       released : 'June-7-2024',
       music : 'https://s320.djpunjab.is/data/320/55673/304724/So%20Icey%20-%20Te%20G%20Sandhu.mp3'
-        },
-	{
-      img : 'https://cover.djpunjab.is/55621/300x700/dilemma-sidhu-moose-wala.jpg',
-      name : 'Dilemma',
-      artist : 'Sidhu Moose Wala',
-      album : 'Sidhu Moose Wala',
-      released : 'June-1-2024',
-      music : 'https://s320.djpunjab.is/data/320/55621/304662/Dilemma%20-%20Sidhu%20Moose%20Wala.mp3'
         },
 	{
       img : 'https://cover.djpunjab.is/55613/300x700/u-dnt-even-knw-prem-dhillon.jpg',

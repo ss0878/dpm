@@ -1,6 +1,14 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/55760/300x700/thank-god-jordan-sandhu.jpg',
+      name : 'Thank God',
+      artist : 'Jordan Sandhu',
+      album : 'Jordan Sandhu',
+      released : 'June-25-2024',
+      music : 'https://s320.djpunjab.is/data/320/55760/304854/Thank%20God%20-%20Jordan%20Sandhu.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/55757/300x700/dilemma-%28original%29-sidhu-moose-wala.jpg',
       name : 'Dilemma',
       artist : 'Sidhu Moose Wala Ft. Stefflon Don',

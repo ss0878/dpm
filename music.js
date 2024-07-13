@@ -1,6 +1,14 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/55767/300x700/i-m-good-bhalwaan.jpg',
+      name : 'I M Good',
+      artist : 'Bhalwaan',
+      album : 'Bhalwaan',
+      released : 'June-27-2024',
+      music : 'https://s320.djpunjab.is/data/320/55767/304861/I%20M%20Good%20-%20Bhalwaan.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/55760/300x700/thank-god-jordan-sandhu.jpg',
       name : 'Thank God',
       artist : 'Jordan Sandhu',

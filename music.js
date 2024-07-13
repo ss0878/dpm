@@ -1,6 +1,22 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/55722/300x700/jatti-bae-pavitar-lassoi.jpg',
+      name : 'Jatti Bae',
+      artist : 'Pavitar Lassoi',
+      album : 'Pavitar Lassoi',
+      released : 'June-18-2024',
+      music : 'https://s320.djpunjab.is/data/320/55722/304797/Jatti%20Bae%20-%20Pavitar%20Lassoi.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55720/300x700/car-culture-parmish-verma.jpg',
+      name : 'Car Culture',
+      artist : 'Parmish Verma',
+      album : 'Parmish Verma',
+      released : 'June-18-2024',
+      music : 'https://s320.djpunjab.is/data/320/55720/304795/Car%20Culture%20-%20Parmish%20Verma.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/55700/300x300/judaa-3-chapter-2-amrinder-gill.jpg',
       name : 'Goriye',
       artist : 'Amrinder Gill',

@@ -1,6 +1,78 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/55816/300x700/mitran-nu-the-prophec.jpg',
+      name : 'Mitran Nu',
+      artist : 'The Prophec',
+      album : 'The Prophec',
+      released : 'July-7-2024',
+      music : 'https://s320.djpunjab.is/data/320/55816/304923/Mitran%20Nu%20-%20The%20Prophec.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55816/300x700/mitran-nu-the-prophec.jpg',
+      name : 'Mitran Nu',
+      artist : 'The Prophec',
+      album : 'The Prophec',
+      released : 'July-7-2024',
+      music : 'https://s320.djpunjab.is/data/320/55816/304923/Mitran%20Nu%20-%20The%20Prophec.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55814/300x700/be-mine-shubh.jpg',
+      name : 'Be Mine',
+      artist : 'Shubh',
+      album : 'Shubh',
+      released : 'July-5-2024',
+      music : 'https://s320.djpunjab.is/data/320/55814/304921/Be%20Mine%20-%20Shubh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55812/300x700/bfam-%28brother-from-another-mother%29-tarsem-jassar.jpg',
+      name : 'BFAM (Brother From Another Mother)',
+      artist : 'Tarsem Jassar Ft. Kulbir Jhinjer',
+      album : 'BFAM',
+      released : 'July-5-2024',
+      music : 'https://s320.djpunjab.is/data/320/55812/304919/BFAM%20(Brother%20From%20Another%20Mother)%20-%20Tarsem%20Jassar.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55811/300x700/kassam-garry-sandhu.jpg',
+      name : 'Kassam',
+      artist : 'Garry Sandhu',
+      album : 'Garry Sandhu',
+      released : 'July-5-2024',
+      music : 'https://s320.djpunjab.is/data/320/55811/304918/Kassam%20-%20Garry%20Sandhu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55771/300x700/four-me-ep-karan-aujla.jpg',
+      name : 'WHO THEY',
+      artist : 'Karan Aujla',
+      album : 'Karan Aujla',
+      released : 'June-27-2024',
+      music : 'https://p320.djpunjab.is/data/320/55771/304868/WHO%20THEY%20-%20Karan%20Aujla.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55771/300x700/four-me-ep-karan-aujla.jpg',
+      name : 'Y.D.G',
+      artist : 'Karan Aujla',
+      album : 'Karan Aujla',
+      released : 'June-27-2024',
+      music : 'https://p320.djpunjab.is/data/320/55771/304865/Y.D.G%20-%20Karan%20Aujla.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55771/300x700/four-me-ep-karan-aujla.jpg',
+      name : 'IDK HOW',
+      artist : 'Karan Aujla',
+      album : 'Karan Aujla',
+      released : 'June-27-2024',
+      music : 'https://p320.djpunjab.is/data/320/55771/304867/IDK%20HOW%20-%20Karan%20Aujla.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55771/300x700/four-me-ep-karan-aujla.jpg',
+      name : 'ANTIDOTE',
+      artist : 'Karan Aujla',
+      album : 'Karan Aujla',
+      released : 'June-27-2024',
+      music : 'https://p320.djpunjab.is/data/320/55771/304866/ANTIDOTE%20-%20Karan%20Aujla.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/55767/300x700/i-m-good-bhalwaan.jpg',
       name : 'I M Good',
       artist : 'Bhalwaan',

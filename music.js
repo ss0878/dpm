@@ -1,6 +1,38 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/55904/300x700/bexley-road-baggh-e-smg.jpg',
+      name : 'Bexley Road',
+      artist : 'Baggh E SMG',
+      album : 'Baggh E SMG',
+      released : 'July-21-2024',
+      music : 'https://s320.djpunjab.is/data/320/55904/305028/Bexley%20Road%20-%20Baggh%20E%20SMG.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55891/300x700/aa-ja-diljaaniya-amrinder-gill.jpg',
+      name : 'Aa Ja Diljaaniya',
+      artist : 'Amrinder Gill',
+      album : 'Amrinder Gill',
+      released : 'July-19-2024',
+      music : 'https://s320.djpunjab.is/data/320/55891/305006/Aa%20Ja%20Diljaaniya%20-%20Amrinder%20Gill.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55890/300x700/mystic-eyes-prem-dhillon.jpg',
+      name : 'Mystic Eyes',
+      artist : 'Prem Dhillon',
+      album : 'Prem Dhillon',
+      released : 'July-19-2024',
+      music : 'https://s320.djpunjab.is/data/320/55890/305005/Mystic%20Eyes%20-%20Prem%20Dhillon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55883/300x700/balgari-harvi.jpg',
+      name : 'Balgari',
+      artist : 'Harvi',
+      album : 'Harvi',
+      released : 'July-19-2024',
+      music : 'https://s320.djpunjab.is/data/320/55883/304998/Balgari%20-%20Harvi.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/55816/300x700/mitran-nu-the-prophec.jpg',
       name : 'Mitran Nu',
       artist : 'The Prophec',

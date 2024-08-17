@@ -1,6 +1,62 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/56019/300x700/old-money-ap-dhillon.jpg',
+      name : 'Old Money',
+      artist : 'AP Dhillon',
+      album : 'AP Dhillon',
+      released : 'Aug-9-2024',
+      music : 'https://s320.djpunjab.is/data/320/56019/305171/Old%20Money%20-%20AP%20Dhillon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56014/300x700/umraan-lameriyan-juss.jpg',
+      name : 'Umraan Lameriyan',
+      artist : 'Juss',
+      album : 'Juss',
+      released : 'Aug-8-2024',
+      music : 'https://s320.djpunjab.is/data/320/56014/305166/Umraan%20Lameriyan%20-%20Juss.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55972/300x700/tasveeran-amrinder-gill.jpg',
+      name : 'Tasveeran',
+      artist : 'Amrinder Gill',
+      album : 'Amrinder Gill',
+      released : 'Aug-2-2024',
+      music : 'https://s320.djpunjab.is/data/320/55972/305116/Tasveeran%20-%20Amrinder%20Gill.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55967/300x700/blood-report-sartaj-virk.jpg',
+      name : 'Blood Report',
+      artist : 'Sartaj Virk',
+      album : 'Sartaj Virk',
+      released : 'Aug-1-2024',
+      music : 'https://s320.djpunjab.is/data/320/55967/305111/Blood%20Report%20-%20Sartaj%20Virk.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55943/300x700/barks-wazir-patar.jpg',
+      name : 'Barks',
+      artist : 'Wazir Patar Ft. Azad4L',
+      album : 'Wazir Patar Ft. Azad4L',
+      released : 'July-26-2024',
+      music : 'https://s320.djpunjab.is/data/320/55943/305067/Barks%20-%20Wazir%20Patar.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55939/300x700/muhammad-ali-diljit-dosanjh.jpg',
+      name : 'Muhammad Ali',
+      artist : 'Diljit Dosanjh',
+      album : 'Diljit Dosanjh',
+      released : 'July-26-2024',
+      music : 'https://s320.djpunjab.is/data/320/55939/305063/Muhammad%20Ali%20-%20Diljit%20Dosanjh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/55933/300x700/punjab-gur-sidhu.jpg',
+      name : 'Punjab',
+      artist : 'Gur Sidhu',
+      album : 'Gur Sidhu',
+      released : 'July-25-2024',
+      music : 'https://s320.djpunjab.is/data/320/55933/305057/Punjab%20-%20Gur%20Sidhu.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/55904/300x700/bexley-road-baggh-e-smg.jpg',
       name : 'Bexley Road',
       artist : 'Baggh E SMG',

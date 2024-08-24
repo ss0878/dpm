@@ -1,6 +1,22 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/56066/300x700/east-to-west-inderpal-moga.jpg',
+      name : 'Block Boys',
+      artist : 'Inderpal Moga',
+      album : 'Inderpal Moga',
+      released : 'Aug-19-2024',
+      music : 'https://p320.djpunjab.is/data/320/56066/305221/Block%20Boys%20-%20Inderpal%20Moga.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56066/300x700/east-to-west-inderpal-moga.jpg',
+      name : 'Mehndi',
+      artist : 'Inderpal Moga',
+      album : 'Inderpal Moga',
+      released : 'Aug-19-2024',
+      music : 'https://p320.djpunjab.is/data/320/56066/305227/Mehndi%20-%20Inderpal%20Moga.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56019/300x700/old-money-ap-dhillon.jpg',
       name : 'Old Money',
       artist : 'AP Dhillon',

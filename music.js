@@ -1,6 +1,14 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/56174/300x700/tareef-ranjit-bawa.jpg',
+      name : 'Tareef',
+      artist : 'Ranjit Bawa',
+      album : 'Ranjit Bawa',
+      released : 'Sep-5-2024',
+      music : 'https://s320.djpunjab.is/data/320/56174/305430/Tareef%20-%20Ranjit%20Bawa.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56066/300x700/east-to-west-inderpal-moga.jpg',
       name : 'Block Boys',
       artist : 'Inderpal Moga',

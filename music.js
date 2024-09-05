@@ -9,6 +9,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/56174/305430/Tareef%20-%20Ranjit%20Bawa.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/56160/300x700/vibe-pavitar-lassoi.jpg',
+      name : 'Vibe',
+      artist : 'Pavitar Lassoi',
+      album : 'Pavitar Lassoi',
+      released : 'Sep-3-2024',
+      music : 'https://s320.djpunjab.is/data/320/56160/305398/Vibe%20-%20Pavitar%20Lassoi.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56066/300x700/east-to-west-inderpal-moga.jpg',
       name : 'Block Boys',
       artist : 'Inderpal Moga',

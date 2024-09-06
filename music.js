@@ -17,6 +17,22 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/56160/305398/Vibe%20-%20Pavitar%20Lassoi.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/56131/300x700/bhau-prem-dhillon.jpg',
+      name : 'Bhau',
+      artist : 'Prem Dhillon',
+      album : 'Prem Dhillon',
+      released : 'Aug-30-2024',
+      music : 'https://s320.djpunjab.is/data/320/56131/305350/Bhau%20-%20Prem%20Dhillon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56129/300x700/attach-sidhu-moose-wala.jpg',
+      name : 'Attach',
+      artist : 'Sidhu Moose Wala',
+      album : 'Sidhu Moose Wala',
+      released : 'Aug-29-2024',
+      music : 'https://s320.djpunjab.is/data/320/56129/305340/Attach%20-%20Sidhu%20Moose%20Wala.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56066/300x700/east-to-west-inderpal-moga.jpg',
       name : 'Block Boys',
       artist : 'Inderpal Moga',

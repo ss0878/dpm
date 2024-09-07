@@ -9,6 +9,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/56174/305430/Tareef%20-%20Ranjit%20Bawa.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/56171/300x700/magical-nimrat-khaira.jpg',
+      name : 'Baby',
+      artist : 'Nimrat Khaira',
+      album : 'Nimrat Khaira',
+      released : 'Sep-4-2024',
+      music : 'https://p320.djpunjab.is/data/320/56171/305427/Baby%20-%20Nimrat%20Khaira.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56160/300x700/vibe-pavitar-lassoi.jpg',
       name : 'Vibe',
       artist : 'Pavitar Lassoi',

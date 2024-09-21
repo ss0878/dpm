@@ -9,6 +9,14 @@ const music_list = [
       music : 'https://hd1.djjohal.com/320/520265/DASS%20JATTA%20FtGurlez%20Akhtar%20-%20Sukha%20(DJJOhAL.Com).mp3'
         },
 	{
+      img : 'https://https://i1.sndcdn.com/artworks-vyey7Saq9unNAVVI-ePsyqg-t500x500.jpg',
+      name : 'HEY LUV',
+      artist : 'Sukha',
+      album : 'Sukha',
+      released : 'Sep-10-2024',
+      music : 'https://hd1.djjohal.com/320/520267/HEY%20LUV%20-%20Sukha%20(DJJOhAL.Com).mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56174/300x700/tareef-ranjit-bawa.jpg',
       name : 'Tareef',
       artist : 'Ranjit Bawa',

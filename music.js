@@ -1,7 +1,7 @@
 const music_list = [
     
    {
-      img : 'https://https://i1.sndcdn.com/artworks-vyey7Saq9unNAVVI-ePsyqg-t500x500.jpg',
+      img : 'https://i1.sndcdn.com/artworks-vyey7Saq9unNAVVI-ePsyqg-t500x500.jpg',
       name : 'DASS JATTA',
       artist : 'Sukha Ft.Gurlez Akhtar',
       album : 'Sukha Ft.Gurlez Akhtar',
@@ -9,7 +9,7 @@ const music_list = [
       music : 'https://hd1.djjohal.com/320/520265/DASS%20JATTA%20FtGurlez%20Akhtar%20-%20Sukha%20(DJJOhAL.Com).mp3'
         },
 	{
-      img : 'https://https://i1.sndcdn.com/artworks-vyey7Saq9unNAVVI-ePsyqg-t500x500.jpg',
+      img : 'https://i1.sndcdn.com/artworks-vyey7Saq9unNAVVI-ePsyqg-t500x500.jpg',
       name : 'HEY LUV',
       artist : 'Sukha',
       album : 'Sukha',

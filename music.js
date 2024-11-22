@@ -1,6 +1,22 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/56445/300x700/lucky-garry-sandhu.jpg',
+      name : 'Lucky',
+      artist : 'Garry Sandhu',
+      album : 'Garry Sandhu',
+      released : 'Oct-25-2024',
+      music : 'https://s320.djpunjab.is/data/320/56445/305842/Lucky%20-%20Garry%20Sandhu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56392/300x700/hold-on-tegi-pannu.jpg',
+      name : 'Sifar Safar',
+      artist : 'Karan Aujla',
+      album : 'Tegi Pannu',
+      released : 'Oct-18-2024',
+      music : 'https://s320.djpunjab.is/data/320/56396/305777/Sifar%20Safar%20-%20Karan%20Aujla.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56392/300x700/hold-on-tegi-pannu.jpg',
       name : 'Hold On',
       artist : 'Tegi Pannu',

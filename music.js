@@ -1,6 +1,38 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/56392/300x700/hold-on-tegi-pannu.jpg',
+      name : 'Hold On',
+      artist : 'Tegi Pannu',
+      album : 'Tegi Pannu',
+      released : 'Oct-18-2024',
+      music : 'https://s320.djpunjab.is/data/320/56392/305754/Hold%20On%20-%20Tegi%20Pannu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56360/300x700/road-rage-ammy-virk.jpg',
+      name : 'Road Rage',
+      artist : 'Ammy Virk',
+      album : 'Ammy Virk',
+      released : 'Oct-11-2024',
+      music : 'https://s320.djpunjab.is/data/320/56360/305690/Road%20Rage%20-%20Ammy%20Virk.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56331/300x700/sadgi-ranjit-bawa.jpg',
+      name : 'Sadgi',
+      artist : 'Ranjit Bawa',
+      album : 'Ranjit Bawa',
+      released : 'Oct-4-2024',
+      music : 'https://s320.djpunjab.is/data/320/56331/305633/Sadgi%20-%20Ranjit%20Bawa.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56329/300x700/parlour-te-amrinder-gill.jpg',
+      name : 'Parlour Te',
+      artist : 'Amrinder Gill',
+      album : 'Amrinder Gill',
+      released : 'Oct-3-2024',
+      music : 'https://s320.djpunjab.is/data/320/56329/305631/Parlour%20Te%20-%20Amrinder%20Gill.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56325/300x300/tere-bina-na-guzara-e-josh-brar.jpg',
       name : 'Tere Bina Na Guzara E',
       artist : 'Josh Brar',

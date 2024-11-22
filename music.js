@@ -1,6 +1,14 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/56526/300x700/mtcd-wazir-patar.jpg',
+      name : 'MTCD',
+      artist : 'Wazir Patar',
+      album : 'Wazir Patar',
+      released : 'Nov-13-2024',
+      music : 'https://s320.djpunjab.is/data/320/56526/305980/MTCD%20-%20Wazir%20Patar.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56506/300x700/hundo-sukha.jpg',
       name : 'HUNDO',
       artist : 'Sukha Ft. Inderpal Moga',

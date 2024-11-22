@@ -1,6 +1,14 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/56575/300x700/4-da-gang-ep-prem-dhillon.jpg',
+      name : 'BADBOY',
+      artist : 'Prem Dhillon',
+      album : 'Prem Dhillon',
+      released : 'Nov-22-2024',
+      music : 'https://p320.djpunjab.is/data/320/56575/306039/BADBOY%20-%20Prem%20Dhillon.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56566/300x700/darling-jatt-di-amrinder-gill.jpg',
       name : 'Darling Jatt Di',
       artist : 'Amrinder Gill',

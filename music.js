@@ -1,6 +1,22 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/56213/300x700/rollin-loud-prem-dhillon.jpg',
+      name : 'Rollin Loud',
+      artist : 'Prem Dhillon',
+      album : 'Prem Dhillon',
+      released : 'Sep-13-2024',
+      music : 'https://s320.djpunjab.is/data/320/56213/305472/Rollin%20Loud%20-%20Prem%20Dhillon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56212/300x700/downtown-sabi-bhinder.jpg',
+      name : 'Downtown',
+      artist : 'Sabi Bhinder',
+      album : 'Sabi Bhinder',
+      released : 'Sep-12-2024',
+      music : 'https://s320.djpunjab.is/data/320/56212/305471/Downtown%20-%20Sabi%20Bhinder.mp3'
+        },
+	{
       img : 'https://i1.sndcdn.com/artworks-vyey7Saq9unNAVVI-ePsyqg-t500x500.jpg',
       name : 'DASS JATTA',
       artist : 'Sukha Ft.Gurlez Akhtar',

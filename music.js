@@ -1,6 +1,22 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/56566/300x700/darling-jatt-di-amrinder-gill.jpg',
+      name : 'Darling Jatt Di',
+      artist : 'Amrinder Gill',
+      album : 'Amrinder Gill',
+      released : 'Nov-21-2024',
+      music : 'https://s320.djpunjab.is/data/320/56566/306027/Darling%20Jatt%20Di%20-%20Amrinder%20Gill.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56545/300x700/wavy-karan-aujla.jpg',
+      name : 'Wavy',
+      artist : 'Karan Aujla',
+      album : 'Karan Aujla',
+      released : 'Nov-16-2024',
+      music : 'https://s320.djpunjab.is/data/320/56545/306006/Wavy%20-%20Karan%20Aujla.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56526/300x700/mtcd-wazir-patar.jpg',
       name : 'MTCD',
       artist : 'Wazir Patar',

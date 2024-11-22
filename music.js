@@ -1,6 +1,22 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/56506/300x700/hundo-sukha.jpg',
+      name : 'HUNDO',
+      artist : 'Sukha Ft. Inderpal Moga',
+      album : 'Sukha',
+      released : 'Nov-7-2024',
+      music : 'https://s320.djpunjab.is/data/320/56498/305922/Karnatak%20-%20Harkirat%20Sangha.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56498/300x700/karnatak-harkirat-sangha.jpg',
+      name : 'Karnatak',
+      artist : 'Harkirat Sangha',
+      album : 'Harkirat Sangha',
+      released : 'Nov-7-2024',
+      music : 'https://s320.djpunjab.is/data/320/56498/305922/Karnatak%20-%20Harkirat%20Sangha.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56445/300x700/lucky-garry-sandhu.jpg',
       name : 'Lucky',
       artist : 'Garry Sandhu',

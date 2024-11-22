@@ -57,7 +57,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/56445/305842/Lucky%20-%20Garry%20Sandhu.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/56392/300x700/hold-on-tegi-pannu.jpg',
+      img : 'https://cover.djpunjab.is/56396/300x700/sifar-safar-karan-aujla.jpg',
       name : 'Sifar Safar',
       artist : 'Karan Aujla',
       album : 'Tegi Pannu',

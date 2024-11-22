@@ -1,6 +1,30 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/56263/300x700/ki-vekhdey-the-landers.jpg',
+      name : 'Ki Vekhdey',
+      artist : 'The Landers',
+      album : 'The Landers',
+      released : 'Sep-20-2024',
+      music : 'https://s320.djpunjab.is/data/320/56263/305544/Ki%20Vekhdey%20-%20The%20Landers.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56250/300x700/i-wish-ninja.jpg',
+      name : 'I Wish',
+      artist : 'Ninja',
+      album : 'Ninja',
+      released : 'Sep-18-2024',
+      music : 'https://s320.djpunjab.is/data/320/56250/305531/I%20Wish%20-%20Ninja.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56225/300x700/drama-umair-butt.jpg',
+      name : 'Drama',
+      artist : 'Umair Butt',
+      album : 'Umair Butt',
+      released : 'Sep-15-2024',
+      music : 'https://s320.djpunjab.is/data/320/56225/305484/Drama%20-%20Umair%20Butt.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56213/300x700/rollin-loud-prem-dhillon.jpg',
       name : 'Rollin Loud',
       artist : 'Prem Dhillon',

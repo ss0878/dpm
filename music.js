@@ -1,6 +1,14 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/56325/300x300/tere-bina-na-guzara-e-josh-brar.jpg',
+      name : 'Tere Bina Na Guzara E',
+      artist : 'Josh Brar',
+      album : 'Josh Brar',
+      released : 'Oct-3-2024',
+      music : 'https://s320.djpunjab.is/data/320/56325/305613/Tere%20Bina%20Na%20Guzara%20E%20-%20Josh%20Brar.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56263/300x700/ki-vekhdey-the-landers.jpg',
       name : 'Ki Vekhdey',
       artist : 'The Landers',

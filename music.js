@@ -38,7 +38,7 @@ const music_list = [
       artist : 'Sukha Ft. Inderpal Moga',
       album : 'Sukha',
       released : 'Nov-7-2024',
-      music : 'https://s320.djpunjab.is/data/320/56498/305922/Karnatak%20-%20Harkirat%20Sangha.mp3'
+      music : 'https://s320.djpunjab.is/data/320/56506/305933/HUNDO%20-%20Sukha.mp3'
         },
 	{
       img : 'https://cover.djpunjab.is/56498/300x700/karnatak-harkirat-sangha.jpg',

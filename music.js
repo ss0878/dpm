@@ -1,12 +1,36 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/56612/300x700/tangy-jassa-dhillon.jpg',
+      name : 'Tangy',
+      artist : 'Jassa Dhillon',
+      album : 'Jassa Dhillon',
+      released : 'Nov-29-2024',
+      music : 'https://s320.djpunjab.is/data/320/56612/306109/Tangy%20-%20Jassa%20Dhillon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56602/300x700/khalipan-nirvair-pannu.jpg',
+      name : 'Khalipan',
+      artist : 'Nirvair Pannu',
+      album : 'Nirvair Pannu',
+      released : 'Nov-28-2024',
+      music : 'https://s320.djpunjab.is/data/320/56602/306099/Khalipan%20-%20Nirvair%20Pannu.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56575/300x700/4-da-gang-ep-prem-dhillon.jpg',
       name : 'BADBOY',
       artist : 'Prem Dhillon',
       album : 'Prem Dhillon',
       released : 'Nov-22-2024',
       music : 'https://p320.djpunjab.is/data/320/56575/306039/BADBOY%20-%20Prem%20Dhillon.mp3'
+        },
+	{
+      img : 'https://lq.djjohal.com/covers/732881/Fly%20Karke.jpg',
+      name : 'Fly Karke',
+      artist : 'SABBA',
+      album : 'SABBA',
+      released : 'Nov-21-2024',
+      music : 'https://hd1.djjohal.com/320/520554/Fly%20Karke%20-%20SABBA%20(DJJOhAL.Com).mp3'
         },
 	{
       img : 'https://cover.djpunjab.is/56566/300x700/darling-jatt-di-amrinder-gill.jpg',

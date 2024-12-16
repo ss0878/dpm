@@ -1,6 +1,38 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/56698/300x700/don-diljit-dosanjh.jpg',
+      name : 'Don',
+      artist : 'Diljit Dosanjh',
+      album : 'Diljit Dosanjh',
+      released : 'Dec-13-2024',
+      music : 'https://s320.djpunjab.is/data/320/56698/306255/Don%20-%20Diljit%20Dosanjh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56687/300x700/laavan-jasmine-sandlas.jpg',
+      name : 'LAAVAN',
+      artist : 'Jasmine Sandlas',
+      album : 'Jasmine Sandlas',
+      released : 'Dec-11-2024',
+      music : 'https://s320.djpunjab.is/data/320/56687/306229/LAAVAN%20-%20Jasmine%20Sandlas.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56682/300x700/kurta-pajama-chandra-brar.jpg',
+      name : 'Kurta Pajama',
+      artist : 'Chandra Brar',
+      album : 'Chandra Brar',
+      released : 'Dec-10-2024',
+      music : 'https://s320.djpunjab.is/data/320/56682/306224/Kurta%20Pajama%20-%20Chandra%20Brar.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56681/300x700/powerhouse-amrit-maan.jpg',
+      name : 'POWERHOUSE',
+      artist : 'Amrit Maan Ft. Bhupinder Babbal',
+      album : 'Amrit Maan',
+      released : 'Dec-10-2024',
+      music : 'https://hd1.djjohal.com/320/521674/Powerhouse%20-%20Amrit%20Maan%20%20Bhupinder%20Babbal%20(DJJOhAL.Com).mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56612/300x700/tangy-jassa-dhillon.jpg',
       name : 'Tangy',
       artist : 'Jassa Dhillon',

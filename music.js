@@ -41,6 +41,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/56657/306190/Aaye%20Haaye%20-%20Karan%20Aujla.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/56647/300x700/baari-barsi-watan-sahi.jpg',
+      name : 'Baari Barsi',
+      artist : 'Watan Sahi',
+      album : 'Watan Sahi',
+      released : 'Dec-5-2024',
+      music : 'https://s320.djpunjab.is/data/320/56647/306167/Baari%20Barsi%20-%20Watan%20Sahi.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56612/300x700/tangy-jassa-dhillon.jpg',
       name : 'Tangy',
       artist : 'Jassa Dhillon',

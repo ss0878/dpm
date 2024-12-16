@@ -33,6 +33,14 @@ const music_list = [
       music : 'https://hd1.djjohal.com/320/521674/Powerhouse%20-%20Amrit%20Maan%20%20Bhupinder%20Babbal%20(DJJOhAL.Com).mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/56657/300x700/aaye-haaye-karan-aujla.jpg',
+      name : 'Aaye Haaye',
+      artist : 'Karan Aujla',
+      album : 'Karan Aujla',
+      released : 'Dec-6-2024',
+      music : 'https://s320.djpunjab.is/data/320/56657/306190/Aaye%20Haaye%20-%20Karan%20Aujla.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56612/300x700/tangy-jassa-dhillon.jpg',
       name : 'Tangy',
       artist : 'Jassa Dhillon',

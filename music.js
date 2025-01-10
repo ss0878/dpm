@@ -1,6 +1,38 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/56805/300x700/ferozi-chunni-pavitar-lassoi.jpg',
+      name : 'Ferozi Chunni',
+      artist : 'Pavitar Lassoi',
+      album : 'Pavitar Lassoi',
+      released : 'Jan-10-2024',
+      music : 'https://s320.djpunjab.is/data/320/56805/306377/Ferozi%20Chunni%20-%20Pavitar%20Lassoi.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56776/300x700/barkat-ranjit-bawa.jpg',
+      name : 'Barkat',
+      artist : 'Ranjit Bawa',
+      album : 'Ranjit Bawa',
+      released : 'Jan-5-2024',
+      music : 'https://s320.djpunjab.is/data/320/56776/306341/Barkat%20-%20Ranjit%20Bawa.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56774/300x700/2025-flow-sikander-kahlon.jpg',
+      name : '2025 FLOW',
+      artist : 'Sikander Kahlon',
+      album : 'Sikander Kahlon',
+      released : 'Jan-3-2024',
+      music : 'https://s320.djpunjab.is/data/320/56774/306339/2025%20FLOW%20-%20Sikander%20Kahlon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56766/300x700/khayal-parry-sidhu.jpg',
+      name : 'Khayal',
+      artist : 'Parry Sidhu',
+      album : 'Parry Sidhu',
+      released : 'Dec-30-2024',
+      music : 'https://s320.djpunjab.is/data/320/56766/306331/Khayal%20-%20Parry%20Sidhu.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56698/300x700/don-diljit-dosanjh.jpg',
       name : 'Don',
       artist : 'Diljit Dosanjh',

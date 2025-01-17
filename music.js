@@ -1,6 +1,38 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/56841/300x700/puch-dil-nu-khan-bhaini.jpg',
+      name : 'Puch Dil Nu',
+      artist : 'Khan Bhaini',
+      album : 'Khan Bhaini',
+      released : 'Jan-15-2024',
+      music : 'https://s320.djpunjab.is/data/320/56841/306428/Puch%20Dil%20Nu%20-%20Khan%20Bhaini.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56835/300x700/ishq-goriya-ft.-shubh-gurinder-gill.jpg',
+      name : 'Ishq Goriya',
+      artist : 'Gurinder Gill Ft. Shubh',
+      album : 'Gurinder Gill Ft. Shubh',
+      released : 'Jan-15-2024',
+      music : 'https://s320.djpunjab.is/data/320/56835/306422/Ishq%20Goriya%20Ft.%20Shubh%20-%20Gurinder%20Gill.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56825/300x700/mulaqaat-jassa-dhillon.jpg',
+      name : 'Mulaqaat',
+      artist : 'Jassa Dhillon',
+      album : 'Jassa Dhillon',
+      released : 'Jan-11-2024',
+      music : 'https://s320.djpunjab.is/data/320/56825/306402/Mulaqaat%20-%20Jassa%20Dhillon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56824/300x700/kalli-nu-nav-dolorain.jpg',
+      name : 'Kalli Nu',
+      artist : 'Nav Dolorain',
+      album : 'Nav Dolorain',
+      released : 'Jan-11-2024',
+      music : 'https://s320.djpunjab.is/data/320/56824/306401/Kalli%20Nu%20-%20Nav%20Dolorain.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56805/300x700/ferozi-chunni-pavitar-lassoi.jpg',
       name : 'Ferozi Chunni',
       artist : 'Pavitar Lassoi',

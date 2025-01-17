@@ -1,6 +1,14 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/56852/300x700/pecha-wazir-patar.jpg',
+      name : 'Pecha',
+      artist : 'Wazir Patar',
+      album : 'Wazir Patar',
+      released : 'Jan-16-2024',
+      music : 'https://s320.djpunjab.is/data/320/56852/306444/Pecha%20-%20Wazir%20Patar.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56841/300x700/puch-dil-nu-khan-bhaini.jpg',
       name : 'Puch Dil Nu',
       artist : 'Khan Bhaini',

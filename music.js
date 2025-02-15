@@ -1,6 +1,30 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/56909/300x700/we-good-tyson-sidhu.jpg',
+      name : 'We Good',
+      artist : 'Tyson Sidhu',
+      album : 'Tyson Sidhu',
+      released : 'Jan-24-2024',
+      music : 'https://s320.djpunjab.is/data/320/56909/306530/We%20Good%20-%20Tyson%20Sidhu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56901/300x700/lock-sidhu-moose-wala.jpg',
+      name : 'Lock',
+      artist : 'Sidhu Moose Wala',
+      album : 'Sidhu Moose Wala',
+      released : 'Jan-23-2024',
+      music : 'https://s320.djpunjab.is/data/320/56901/306522/Lock%20-%20Sidhu%20Moose%20Wala.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56889/300x700/kaali-ghodi-gagan-kooner.jpg',
+      name : 'Kaali Ghodi',
+      artist : 'Gagan Kooner',
+      album : 'Gagan Kooner',
+      released : 'Jan-21-2024',
+      music : 'https://s320.djpunjab.is/data/320/56889/306510/Kaali%20Ghodi%20-%20Gagan%20Kooner.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56852/300x700/pecha-wazir-patar.jpg',
       name : 'Pecha',
       artist : 'Wazir Patar',

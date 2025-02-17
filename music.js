@@ -17,6 +17,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/56967/306612/Pull%20Up%20-%20The%20Prophec.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/56965/300x300/advisory-ep-diljit-dosanjh.jpg',
+      name : 'Tension',
+      artist : 'Diljit Dosanjh',
+      album : 'Diljit Dosanjh',
+      released : 'Feb-6-2024',
+      music : 'https://p320.djpunjab.is/data/320/56965/306601/Tension%20-%20Diljit%20Dosanjh.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56957/300x700/main-hi-kyon-wazir-patar.jpg',
       name : 'Main Hi Kyon',
       artist : 'Wazir Patar',

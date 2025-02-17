@@ -1,6 +1,30 @@
 const music_list = [
     
    {
+      img : 'https://cover.djpunjab.is/57006/300x700/so-it-goes-arnaaz-gill.jpg',
+      name : 'SO IT GOES',
+      artist : 'Arnaaz Gill',
+      album : 'Arnaaz Gill',
+      released : 'Feb-15-2024',
+      music : 'https://s320.djpunjab.is/data/320/57006/306664/SO%20IT%20GOES%20-%20Arnaaz%20Gill.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56967/300x700/pull-up-the-prophec.jpg',
+      name : 'Pull Up',
+      artist : 'The Prophec Ft. Ezu',
+      album : 'The Prophec Ft. Ezu',
+      released : 'Feb-7-2024',
+      music : 'https://s320.djpunjab.is/data/320/56967/306612/Pull%20Up%20-%20The%20Prophec.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56957/300x700/main-hi-kyon-wazir-patar.jpg',
+      name : 'Main Hi Kyon',
+      artist : 'Wazir Patar',
+      album : 'Wazir Patar',
+      released : 'Feb-6-2024',
+      music : 'https://s320.djpunjab.is/data/320/56957/306593/Main%20Hi%20Kyon%20-%20Wazir%20Patar.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56909/300x700/we-good-tyson-sidhu.jpg',
       name : 'We Good',
       artist : 'Tyson Sidhu',

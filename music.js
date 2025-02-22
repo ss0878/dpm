@@ -1,6 +1,31 @@
 const music_list = [
     
-   {
+   
+{
+      img : 'https://cover.djpunjab.is/57038/300x700/scary-hours-karan-aujla.jpg',
+      name : 'Scary Hours',
+      artist : 'Karan Aujla',
+      album : 'Karan Aujla',
+      released : 'Feb-22-2024',
+      music : 'https://s320.djpunjab.is/data/320/57038/306725/Scary%20Hours%20-%20Karan%20Aujla.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57034/300x700/lifestyle-tegi-pannu.jpg',
+      name : 'LIFESTYLE',
+      artist : 'Tegi Pannu',
+      album : 'Tegi Pannu',
+      released : 'Feb-22-2024',
+      music : 'https://s320.djpunjab.is/data/320/57034/306721/LIFESTYLE%20-%20Tegi%20Pannu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57031/300x700/unscripted-ep-prem-dhillon.jpg',
+      name : 'Apsara',
+      artist : 'Prem Dhillon',
+      album : 'Prem Dhillon',
+      released : 'Feb-22-2024',
+      music : 'https://p320.djpunjab.is/data/320/57031/306709/Apsara%20-%20Prem%20Dhillon.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57006/300x700/so-it-goes-arnaaz-gill.jpg',
       name : 'SO IT GOES',
       artist : 'Arnaaz Gill',

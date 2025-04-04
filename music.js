@@ -6,7 +6,7 @@ const music_list = [
       name : '48 Rhymes',
       artist : 'Karan Aujla',
       album : 'Karan Aujla',
-      released : 'April-4-2024',
+      released : 'April-4-2025',
       music : 'https://s320.djpunjab.is/data/320/57254/307058/48%20Rhymes%20-%20Karan%20Aujla.mp3'
         },
 	{
@@ -14,15 +14,55 @@ const music_list = [
       name : '12 Bore',
       artist : 'Ninja',
       album : 'Ninja',
-      released : 'April-2-2024',
+      released : 'April-2-2025',
       music : 'https://s320.djpunjab.is/data/320/57246/307050/12%20Bore%20-%20Ninja.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57171/300x700/nice-day-in-the-pind-inderpal-moga.jpg',
+      name : 'BROWN BROWN RANG',
+      artist : 'Inderpal Moga',
+      album : 'Inderpal Moga',
+      released : 'Mar-18-2025',
+      music : 'https://p320.djpunjab.is/data/320/57171/306920/COOLIN%20-%20Inderpal%20Moga.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57171/300x700/nice-day-in-the-pind-inderpal-moga.jpg',
+      name : 'BROWN BROWN RANG',
+      artist : 'Inderpal Moga Ft. Jazzy B',
+      album : 'Inderpal Moga',
+      released : 'Mar-18-2025',
+      music : 'https://p320.djpunjab.is/data/320/57171/306920/COOLIN%20-%20Inderpal%20Moga.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57171/300x700/nice-day-in-the-pind-inderpal-moga.jpg',
+      name : 'GANGSTA LUV',
+      artist : 'Inderpal Moga',
+      album : 'Inderpal Moga',
+      released : 'Mar-18-2025',
+      music : 'https://p320.djpunjab.is/data/320/57171/306911/GANGSTA%20LUV%20-%20Inderpal%20Moga.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57171/300x700/nice-day-in-the-pind-inderpal-moga.jpg',
+      name : 'HUNDO',
+      artist : 'Inderpal Moga (feat. Mxrci)',
+      album : 'Inderpal Moga',
+      released : 'Mar-18-2025',
+      music : 'https://p320.djpunjab.is/data/320/57171/306917/HUNDO%20(feat.%20Mxrci)%20-%20Inderpal%20Moga.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57171/300x700/nice-day-in-the-pind-inderpal-moga.jpg',
+      name : 'HUNDO',
+      artist : 'Inderpal Moga (feat. Mxrci)',
+      album : 'Inderpal Moga',
+      released : 'Mar-18-2025',
+      music : 'https://p320.djpunjab.is/data/320/57171/306917/HUNDO%20(feat.%20Mxrci)%20-%20Inderpal%20Moga.mp3'
         },
 	{
       img : 'https://cover.djpunjab.is/57066/300x700/tell-me-karan-aujla.jpg',
       name : 'Tell Me',
       artist : 'Karan Aujla Ft.One Republic',
       album : 'Karan Aujla',
-      released : 'Feb-28-2024',
+      released : 'Feb-28-2025',
       music : 'https://s320.djpunjab.is/data/320/57066/306753/Tell%20Me%20-%20Karan%20Aujla.mp3'
         },
 	{
@@ -30,7 +70,7 @@ const music_list = [
       name : 'Scary Hours',
       artist : 'Karan Aujla',
       album : 'Karan Aujla',
-      released : 'Feb-22-2024',
+      released : 'Feb-22-2025',
       music : 'https://s320.djpunjab.is/data/320/57038/306725/Scary%20Hours%20-%20Karan%20Aujla.mp3'
         },
 	{
@@ -38,7 +78,7 @@ const music_list = [
       name : 'LIFESTYLE',
       artist : 'Tegi Pannu',
       album : 'Tegi Pannu',
-      released : 'Feb-22-2024',
+      released : 'Feb-22-2025',
       music : 'https://s320.djpunjab.is/data/320/57034/306721/LIFESTYLE%20-%20Tegi%20Pannu.mp3'
         },
 	{
@@ -46,7 +86,7 @@ const music_list = [
       name : 'Apsara',
       artist : 'Prem Dhillon',
       album : 'Prem Dhillon',
-      released : 'Feb-22-2024',
+      released : 'Feb-22-2025',
       music : 'https://p320.djpunjab.is/data/320/57031/306709/Apsara%20-%20Prem%20Dhillon.mp3'
         },
 	{
@@ -54,7 +94,7 @@ const music_list = [
       name : 'SO IT GOES',
       artist : 'Arnaaz Gill',
       album : 'Arnaaz Gill',
-      released : 'Feb-15-2024',
+      released : 'Feb-15-2025',
       music : 'https://s320.djpunjab.is/data/320/57006/306664/SO%20IT%20GOES%20-%20Arnaaz%20Gill.mp3'
         },
 	{
@@ -62,7 +102,7 @@ const music_list = [
       name : 'Pull Up',
       artist : 'The Prophec Ft. Ezu',
       album : 'The Prophec Ft. Ezu',
-      released : 'Feb-7-2024',
+      released : 'Feb-7-2025',
       music : 'https://s320.djpunjab.is/data/320/56967/306612/Pull%20Up%20-%20The%20Prophec.mp3'
         },
 	{
@@ -70,7 +110,7 @@ const music_list = [
       name : 'Tension',
       artist : 'Diljit Dosanjh',
       album : 'Diljit Dosanjh',
-      released : 'Feb-6-2024',
+      released : 'Feb-6-2025',
       music : 'https://p320.djpunjab.is/data/320/56965/306601/Tension%20-%20Diljit%20Dosanjh.mp3'
         },
 	{
@@ -78,7 +118,7 @@ const music_list = [
       name : 'Main Hi Kyon',
       artist : 'Wazir Patar',
       album : 'Wazir Patar',
-      released : 'Feb-6-2024',
+      released : 'Feb-6-2025',
       music : 'https://s320.djpunjab.is/data/320/56957/306593/Main%20Hi%20Kyon%20-%20Wazir%20Patar.mp3'
         },
 	{
@@ -86,7 +126,7 @@ const music_list = [
       name : 'We Good',
       artist : 'Tyson Sidhu',
       album : 'Tyson Sidhu',
-      released : 'Jan-24-2024',
+      released : 'Jan-24-2025',
       music : 'https://s320.djpunjab.is/data/320/56909/306530/We%20Good%20-%20Tyson%20Sidhu.mp3'
         },
 	{
@@ -94,7 +134,7 @@ const music_list = [
       name : 'Lock',
       artist : 'Sidhu Moose Wala',
       album : 'Sidhu Moose Wala',
-      released : 'Jan-23-2024',
+      released : 'Jan-23-2025',
       music : 'https://s320.djpunjab.is/data/320/56901/306522/Lock%20-%20Sidhu%20Moose%20Wala.mp3'
         },
 	{
@@ -102,7 +142,7 @@ const music_list = [
       name : 'Kaali Ghodi',
       artist : 'Gagan Kooner',
       album : 'Gagan Kooner',
-      released : 'Jan-21-2024',
+      released : 'Jan-21-2025',
       music : 'https://s320.djpunjab.is/data/320/56889/306510/Kaali%20Ghodi%20-%20Gagan%20Kooner.mp3'
         },
 	{
@@ -110,7 +150,7 @@ const music_list = [
       name : 'Pecha',
       artist : 'Wazir Patar',
       album : 'Wazir Patar',
-      released : 'Jan-16-2024',
+      released : 'Jan-16-2025',
       music : 'https://s320.djpunjab.is/data/320/56852/306444/Pecha%20-%20Wazir%20Patar.mp3'
         },
 	{
@@ -118,7 +158,7 @@ const music_list = [
       name : 'Puch Dil Nu',
       artist : 'Khan Bhaini',
       album : 'Khan Bhaini',
-      released : 'Jan-15-2024',
+      released : 'Jan-15-2025',
       music : 'https://s320.djpunjab.is/data/320/56841/306428/Puch%20Dil%20Nu%20-%20Khan%20Bhaini.mp3'
         },
 	{
@@ -126,7 +166,7 @@ const music_list = [
       name : 'Ishq Goriya',
       artist : 'Gurinder Gill Ft. Shubh',
       album : 'Gurinder Gill Ft. Shubh',
-      released : 'Jan-15-2024',
+      released : 'Jan-15-2025',
       music : 'https://s320.djpunjab.is/data/320/56835/306422/Ishq%20Goriya%20Ft.%20Shubh%20-%20Gurinder%20Gill.mp3'
         },
 	{
@@ -134,7 +174,7 @@ const music_list = [
       name : 'Mulaqaat',
       artist : 'Jassa Dhillon',
       album : 'Jassa Dhillon',
-      released : 'Jan-11-2024',
+      released : 'Jan-11-2025',
       music : 'https://s320.djpunjab.is/data/320/56825/306402/Mulaqaat%20-%20Jassa%20Dhillon.mp3'
         },
 	{
@@ -142,7 +182,7 @@ const music_list = [
       name : 'Kalli Nu',
       artist : 'Nav Dolorain',
       album : 'Nav Dolorain',
-      released : 'Jan-11-2024',
+      released : 'Jan-11-2025',
       music : 'https://s320.djpunjab.is/data/320/56824/306401/Kalli%20Nu%20-%20Nav%20Dolorain.mp3'
         },
 	{
@@ -150,7 +190,7 @@ const music_list = [
       name : 'Ferozi Chunni',
       artist : 'Pavitar Lassoi',
       album : 'Pavitar Lassoi',
-      released : 'Jan-10-2024',
+      released : 'Jan-10-2025',
       music : 'https://s320.djpunjab.is/data/320/56805/306377/Ferozi%20Chunni%20-%20Pavitar%20Lassoi.mp3'
         },
 	{
@@ -158,7 +198,7 @@ const music_list = [
       name : 'Barkat',
       artist : 'Ranjit Bawa',
       album : 'Ranjit Bawa',
-      released : 'Jan-5-2024',
+      released : 'Jan-5-2025',
       music : 'https://s320.djpunjab.is/data/320/56776/306341/Barkat%20-%20Ranjit%20Bawa.mp3'
         },
 	{
@@ -166,7 +206,7 @@ const music_list = [
       name : '2025 FLOW',
       artist : 'Sikander Kahlon',
       album : 'Sikander Kahlon',
-      released : 'Jan-3-2024',
+      released : 'Jan-3-2025',
       music : 'https://s320.djpunjab.is/data/320/56774/306339/2025%20FLOW%20-%20Sikander%20Kahlon.mp3'
         },
 	{

@@ -18,7 +18,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/57246/307050/12%20Bore%20-%20Ninja.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/57246/300x700/12-bore-ninja.jpg',
+      img : 'https://cover.djpunjab.is/57220/300x700/by-any-means-sukha.jpg',
       name : 'Day N Night',
       artist : 'Sukha',
       album : 'Sukha',
@@ -26,7 +26,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/57220/307004/Day%20N%20Night%20-%20Sukha.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/57246/300x700/12-bore-ninja.jpg',
+      img : 'https://cover.djpunjab.is/57220/300x700/by-any-means-sukha.jpg',
       name : 'Dil Dardeh',
       artist : 'Sukha Ft. Prophec',
       album : 'Sukha',
@@ -34,7 +34,7 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/57220/307017/Dil%20Dardeh%20-%20Sukha.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/57246/300x700/12-bore-ninja.jpg',
+      img : 'https://cover.djpunjab.is/57220/300x700/by-any-means-sukha.jpg',
       name : 'On The Loose',
       artist : 'Sukha',
       album : 'Sukha',

@@ -2,6 +2,22 @@ const music_list = [
     
    
 {
+      img : 'https://cover.djpunjab.is/57254/300x700/48-rhymes-karan-aujla.jpg',
+      name : '48 Rhymes',
+      artist : 'Karan Aujla',
+      album : 'Karan Aujla',
+      released : 'April-4-2024',
+      music : 'https://s320.djpunjab.is/data/320/57254/307058/48%20Rhymes%20-%20Karan%20Aujla.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57246/300x700/12-bore-ninja.jpg',
+      name : '12 Bore',
+      artist : 'Ninja',
+      album : 'Ninja',
+      released : 'April-2-2024',
+      music : 'https://s320.djpunjab.is/data/320/57246/307050/12%20Bore%20-%20Ninja.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57066/300x700/tell-me-karan-aujla.jpg',
       name : 'Tell Me',
       artist : 'Karan Aujla Ft.One Republic',

@@ -27,7 +27,7 @@ const music_list = [
         },
 	{
       img : 'https://cover.djpunjab.is/57171/300x700/nice-day-in-the-pind-inderpal-moga.jpg',
-      name : 'BROWN BROWN RANG',
+      name : 'COOLIN',
       artist : 'Inderpal Moga Ft. Jazzy B',
       album : 'Inderpal Moga',
       released : 'Mar-18-2025',
@@ -6615,14 +6615,6 @@ const music_list = [
          album : 'Varinder Brar Music',
          released : 'Jun-24-2020',
          music : 'https://s320.djpunjab.is/data/320/48435/295872/Next%20Level%20-%20Varinder%20Brar.mp3'
-            },
-            {
-         img : 'https://cover.djpunjab.is/48428/300x700/crown-prince-jazzy-b.jpg',
-         name : 'Crown Prince',
-         artist : 'Jazzy B Ft. Bohemia',
-         album : 'Tips Music',
-         released : 'Jun-22-2020',
-         music : 'https://s320.djpunjab.is/data/320/48428/295865/Crown%20Prince%20-%20Jazzy%20B.mp3'
             },
             {
          img : 'https://cover.djpunjab.is/48428/300x700/crown-prince-jazzy-b.jpg',

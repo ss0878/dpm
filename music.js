@@ -18,6 +18,38 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/57246/307050/12%20Bore%20-%20Ninja.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/57170/300x700/prime-nirvair-pannu.jpg',
+      name : 'Akhiyan',
+      artist : 'Nirvair Pannu',
+      album : 'Nirvair Pannu',
+      released : 'Mar-18-2025',
+      music : 'https://p320.djpunjab.is/data/320/57170/306908/Akhiyan%20-%20Nirvair%20Pannu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57170/300x700/prime-nirvair-pannu.jpg',
+      name : 'Jawani',
+      artist : 'Nirvair Pannu',
+      album : 'Nirvair Pannu',
+      released : 'Mar-18-2025',
+      music : 'https://p320.djpunjab.is/data/320/57170/306898/Jawani%20-%20Nirvair%20Pannu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57170/300x700/prime-nirvair-pannu.jpg',
+      name : 'Rabb Nal Gall',
+      artist : 'Nirvair Pannu',
+      album : 'Nirvair Pannu',
+      released : 'Mar-18-2025',
+      music : 'https://p320.djpunjab.is/data/320/57170/306894/Rabb%20Nal%20Gall%20-%20Nirvair%20Pannu.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57170/300x700/prime-nirvair-pannu.jpg',
+      name : 'Trucker',
+      artist : 'Nirvair Pannu',
+      album : 'Nirvair Pannu',
+      released : 'Mar-18-2025',
+      music : 'https://p320.djpunjab.is/data/320/57170/306905/Trucker%20-%20Nirvair%20Pannu.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57171/300x700/nice-day-in-the-pind-inderpal-moga.jpg',
       name : 'BROWN BROWN RANG',
       artist : 'Inderpal Moga',

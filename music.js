@@ -106,14 +106,6 @@ const music_list = [
       music : 'https://p320.djpunjab.is/data/320/57171/306917/HUNDO%20(feat.%20Mxrci)%20-%20Inderpal%20Moga.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/57171/300x700/nice-day-in-the-pind-inderpal-moga.jpg',
-      name : 'HUNDO',
-      artist : 'Inderpal Moga (feat. Mxrci)',
-      album : 'Inderpal Moga',
-      released : 'Mar-18-2025',
-      music : 'https://p320.djpunjab.is/data/320/57171/306917/HUNDO%20(feat.%20Mxrci)%20-%20Inderpal%20Moga.mp3'
-        },
-	{
       img : 'https://cover.djpunjab.is/57066/300x700/tell-me-karan-aujla.jpg',
       name : 'Tell Me',
       artist : 'Karan Aujla Ft.One Republic',

@@ -2,6 +2,30 @@ const music_list = [
     
    
 {
+      img : 'https://cover.djpunjab.is/57580/300x700/moose-print-ep-sidhu-moose-wala.jpg',
+      name : 'Take Notes',
+      artist : 'Sidhu Moose Wala',
+      album : 'Sidhu Moose Wala',
+      released : 'June-11-2025',
+      music : 'https://p320.djpunjab.is/data/320/57580/307524/Take%20Notes%20-%20Sidhu%20Moose%20Wala.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57580/300x700/moose-print-ep-sidhu-moose-wala.jpg',
+      name : 'Neal',
+      artist : 'Sidhu Moose Wala',
+      album : 'Sidhu Moose Wala',
+      released : 'June-11-2025',
+      music : 'https://p320.djpunjab.is/data/320/57580/307522/Neal%20-%20Sidhu%20Moose%20Wala.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57552/300x700/superstar-jaskaran.jpg',
+      name : 'Superstar',
+      artist : 'Jaskaran',
+      album : 'Jaskaran',
+      released : 'June-4-2025',
+      music : 'https://s320.djpunjab.is/data/320/57552/307476/Superstar%20-%20Jaskaran.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57512/300x700/awara-munde-jagan-randhawa.jpg',
       name : 'Awara Munde',
       artist : 'Jagan Randhawa',

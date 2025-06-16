@@ -26,7 +26,7 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/57552/307476/Superstar%20-%20Jaskaran.mp3'
         },
 	{
-      img : 'https://cover.djpunjab.is/57538/300x700/fyi-(for-your-information)-ep-jordan-sandhu.jpg',
+      img : 'https://i.imgur.com/8XTdZtK.png',
       name : 'Banda Bamb',
       artist : 'Jordan Sandhu',
       album : 'Jordan Sandhu',

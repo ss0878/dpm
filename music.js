@@ -2,12 +2,52 @@ const music_list = [
     
    
 {
+      img : 'https://cover.djpunjab.is/57433/300x700/nazare-king-sunny.jpg',
+      name : 'NAZARE',
+      artist : 'King Sunny Ft. Deep Jandu',
+      album : 'King Sunny',
+      released : 'May-9-2025',
+      music : 'https://s320.djpunjab.is/data/320/57433/307319/NAZARE%20-%20King%20Sunny.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57415/300x700/stfu-ap-dhillon.jpg',
+      name : 'STFU',
+      artist : 'AP Dhillon',
+      album : 'AP Dhillon',
+      released : 'May-2-2025',
+      music : 'https://s320.djpunjab.is/data/320/57415/307298/STFU%20-%20AP%20Dhillon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57398/300x700/strong-enough-saabi-bhinder.jpg',
+      name : 'Strong Enough',
+      artist : 'Saabi Bhinder',
+      album : 'Saabi Bhinder',
+      released : 'April-29-2025',
+      music : 'https://s320.djpunjab.is/data/320/57398/307271/Strong%20Enough%20-%20Saabi%20Bhinder.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57374/300x700/punjab-vekh-ke-thiarajxtt.jpg',
+      name : 'Punjab Vekh Ke',
+      artist : 'thiarajxtt Ft. Gulab Sidhu',
+      album : 'thiarajxtt',
+      released : 'April-24-2025',
+      music : 'https://s320.djpunjab.is/data/320/57374/307212/Punjab%20Vekh%20Ke%20-%20thiarajxtt.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57339/300x700/supreme-shubh.jpg',
       name : 'Supreme',
       artist : 'Shubh',
       album : 'Shubh',
       released : 'April-18-2025',
       music : 'https://s320.djpunjab.is/data/320/57339/307166/Supreme%20-%20Shubh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57326/300x700/2-4-kam-laddi-chhajla.jpg',
+      name : '2-4 KAM',
+      artist : 'Laddi Chhajla',
+      album : 'Laddi Chhajla',
+      released : 'April-16-2025',
+      music : 'https://s320.djpunjab.is/data/320/57326/307153/2-4%20KAM%20-%20Laddi%20Chhajla.mp3'
         },
 	{
       img : 'https://cover.djpunjab.is/57254/300x700/48-rhymes-karan-aujla.jpg',

@@ -2,6 +2,30 @@ const music_list = [
     
    
 {
+      img : 'https://cover.djpunjab.is/57512/300x700/awara-munde-jagan-randhawa.jpg',
+      name : 'Awara Munde',
+      artist : 'Jagan Randhawa',
+      album : 'Jagan Randhawa',
+      released : 'May-24-2025',
+      music : 'https://s320.djpunjab.is/data/320/57512/307414/Awara%20Munde%20-%20Jagan%20Randhawa.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57501/300x700/queen-armaan-gill.jpg',
+      name : 'Queen',
+      artist : 'Armaan Gill',
+      album : 'Armaan Gill',
+      released : 'May-23-2025',
+      music : 'https://s320.djpunjab.is/data/320/57501/307403/Queen%20-%20Armaan%20Gill.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57475/300x700/tarifaan-terriyaaa-jassie-gill.jpg',
+      name : 'Tarifaan Terriyaaa',
+      artist : 'Jassie Gill',
+      album : 'Jassie Gill',
+      released : 'May-16-2025',
+      music : 'https://s320.djpunjab.is/data/320/57475/307371/Tarifaan%20Terriyaaa%20-%20Jassie%20Gill.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57444/300x700/courtside-karan-aujla.jpg',
       name : 'Courtside',
       artist : 'Karan Aujla',

@@ -2,6 +2,14 @@ const music_list = [
     
    
 {
+      img : 'https://cover.djpunjab.is/57444/300x700/courtside-karan-aujla.jpg',
+      name : 'Courtside',
+      artist : 'Karan Aujla',
+      album : 'Karan Aujla',
+      released : 'May-11-2025',
+      music : 'https://s320.djpunjab.is/data/320/57444/307337/Courtside%20-%20Karan%20Aujla.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57433/300x700/nazare-king-sunny.jpg',
       name : 'NAZARE',
       artist : 'King Sunny Ft. Deep Jandu',

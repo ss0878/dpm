@@ -2,6 +2,14 @@ const music_list = [
     
    
 {
+      img : 'https://cover.djpunjab.is/57339/300x700/supreme-shubh.jpg',
+      name : 'Supreme',
+      artist : 'Shubh',
+      album : 'Shubh',
+      released : 'April-18-2025',
+      music : 'https://s320.djpunjab.is/data/320/57339/307166/Supreme%20-%20Shubh.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57254/300x700/48-rhymes-karan-aujla.jpg',
       name : '48 Rhymes',
       artist : 'Karan Aujla',

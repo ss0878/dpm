@@ -26,6 +26,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/57552/307476/Superstar%20-%20Jaskaran.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/57538/300x700/fyi-(for-your-information)-ep-jordan-sandhu.jpg',
+      name : 'Banda Bamb',
+      artist : 'Jordan Sandhu',
+      album : 'Jordan Sandhu',
+      released : 'May-31-2025',
+      music : 'https://p320.djpunjab.is/data/320/57538/307459/Banda%20Bamb%20-%20Jordan%20Sandhu.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57512/300x700/awara-munde-jagan-randhawa.jpg',
       name : 'Awara Munde',
       artist : 'Jagan Randhawa',
@@ -88,6 +96,14 @@ const music_list = [
       album : 'thiarajxtt',
       released : 'April-24-2025',
       music : 'https://s320.djpunjab.is/data/320/57374/307212/Punjab%20Vekh%20Ke%20-%20thiarajxtt.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57379/300x700/rise-n-thrive-ammy-virk.jpg',
+      name : 'Booster',
+      artist : 'Ammy Virk',
+      album : 'Ammy Virk',
+      released : 'April-25-2025',
+      music : 'https://p320.djpunjab.is/data/320/57379/307233/Booster%20-%20Ammy%20Virk.mp3'
         },
 	{
       img : 'https://cover.djpunjab.is/57339/300x700/supreme-shubh.jpg',

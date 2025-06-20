@@ -2,6 +2,22 @@ const music_list = [
     
    
 {
+      img : 'https://cover.djpunjab.is/57648/300x700/pb1-wazir-patar.jpg',
+      name : 'PB1',
+      artist : 'Wazir Patar',
+      album : 'Wazir Patar',
+      released : 'June-20-2025',
+      music : 'https://s320.djpunjab.is/data/320/57648/307607/PB1%20-%20Wazir%20Patar.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57642/300x700/aar-ya-paar-tarsem-jassar.jpg',
+      name : 'Aar Ya Paar',
+      artist : 'Tarsem Jassar',
+      album : 'Tarsem Jassar',
+      released : 'June-19-2025',
+      music : 'https://s320.djpunjab.is/data/320/57642/307595/Aar%20Ya%20Paar%20-%20Tarsem%20Jassar.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57580/300x700/moose-print-ep-sidhu-moose-wala.jpg',
       name : 'Take Notes',
       artist : 'Sidhu Moose Wala',

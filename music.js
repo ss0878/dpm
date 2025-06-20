@@ -60,8 +60,8 @@ const music_list = [
 	{
       img : 'https://cover.djpunjab.is/57501/300x700/queen-armaan-gill.jpg',
       name : 'Queen',
-      artist : 'Armaan Gill',
-      album : 'Armaan Gill',
+      artist : 'Armaan Gill & Arnaaz Gill',
+      album : 'Armaan Gill & Arnaaz Gill',
       released : 'May-23-2025',
       music : 'https://s320.djpunjab.is/data/320/57501/307403/Queen%20-%20Armaan%20Gill.mp3'
         },

@@ -276,8 +276,8 @@ const music_list = [
 	{
       img : 'https://cover.djpunjab.is/57006/300x700/so-it-goes-arnaaz-gill.jpg',
       name : 'SO IT GOES',
-      artist : 'Arnaaz Gill',
-      album : 'Arnaaz Gill',
+      artist : 'Armaan Gill & Arnaaz Gill',
+      album : 'Armaan Gill & Arnaaz Gill',
       released : 'Feb-15-2025',
       music : 'https://s320.djpunjab.is/data/320/57006/306664/SO%20IT%20GOES%20-%20Arnaaz%20Gill.mp3'
         },
@@ -402,6 +402,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/56766/306331/Khayal%20-%20Parry%20Sidhu.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/56707/300x700/over-and-over-armaan-gill.jpg',
+      name : 'OVER AND OVER',
+      artist : 'Armaan Gill & Arnaaz Gill',
+      album : 'Armaan Gill & Arnaaz Gill',
+      released : 'Dec-17-2024',
+      music : 'https://s320.djpunjab.is/data/320/56707/306269/OVER%20AND%20OVER%20-%20Armaan%20Gill.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/56698/300x700/don-diljit-dosanjh.jpg',
       name : 'Don',
       artist : 'Diljit Dosanjh',
@@ -520,6 +528,14 @@ const music_list = [
       album : 'Harkirat Sangha',
       released : 'Nov-7-2024',
       music : 'https://s320.djpunjab.is/data/320/56498/305922/Karnatak%20-%20Harkirat%20Sangha.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/56463/300x700/only-you-armaan-gill.jpg',
+      name : 'Only You',
+      artist : 'Armaan Gill & Arnaaz Gill',
+      album : 'Armaan Gill & Arnaaz Gill',
+      released : 'Oct-29-2024',
+      music : 'https://s320.djpunjab.is/data/320/56463/305869/Only%20You%20-%20Armaan%20Gill.mp3'
         },
 	{
       img : 'https://cover.djpunjab.is/56445/300x700/lucky-garry-sandhu.jpg',

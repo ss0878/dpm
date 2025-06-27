@@ -2,6 +2,14 @@ const music_list = [
     
    
 {
+      img : 'https://cover.djpunjab.is/57670/300x700/ruthless-diljit-dosanjh.jpg',
+      name : 'Ruthless',
+      artist : 'Diljit Dosanjh',
+      album : 'Diljit Dosanjh',
+      released : 'June-25-2025',
+      music : 'https://s320.djpunjab.is/data/320/57670/307646/Ruthless%20-%20Diljit%20Dosanjh.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57648/300x700/pb1-wazir-patar.jpg',
       name : 'PB1',
       artist : 'Wazir Patar',

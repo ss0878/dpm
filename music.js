@@ -2,6 +2,54 @@ const music_list = [
     
    
 {
+      img : 'https://cover.djpunjab.is/57691/300x700/m4-inderpal-moga.jpg',
+      name : 'M4',
+      artist : 'Inderpal Moga',
+      album : 'Inderpal Moga',
+      released : 'June-30-2025',
+      music : 'https://s320.djpunjab.is/data/320/57691/307696/M4%20-%20Inderpal%20Moga.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57692/300x700/4-shots-ep-tarsem-jassar.jpg',
+      name : 'HIGH EARNINGS',
+      artist : 'Tarsem Jassar',
+      album : 'Tarsem Jassar',
+      released : 'June-29-2025',
+      music : 'https://p320.djpunjab.is/data/320/57692/307698/HIGH%20EARNINGS%20-%20Tarsem%20Jassar.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57692/300x700/4-shots-ep-tarsem-jassar.jpg',
+      name : 'ARHE SO JADHE',
+      artist : 'Tarsem Jassar Ft. Wazir Patar',
+      album : 'Tarsem Jassar',
+      released : 'June-29-2025',
+      music : 'https://p320.djpunjab.is/data/320/57692/307700/ARHE%20SO%20JADHE%20-%20Tarsem%20Jassar.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57692/300x700/4-shots-ep-tarsem-jassar.jpg',
+      name : '2 WAYS',
+      artist : 'Tarsem Jassar Ft. Azad4L',
+      album : 'Tarsem Jassar',
+      released : 'June-29-2025',
+      music : 'https://p320.djpunjab.is/data/320/57692/307697/2%20WAYS%20-%20Tarsem%20Jassar.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57692/300x700/4-shots-ep-tarsem-jassar.jpg',
+      name : 'DWC (DONT WORRY CHICK)',
+      artist : 'Tarsem Jassar',
+      album : 'Tarsem Jassar',
+      released : 'June-29-2025',
+      music : 'https://p320.djpunjab.is/data/320/57692/307699/DWC%20(DONT%20WORRY%20CHICK)%20-%20Tarsem%20Jassar.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57673/300x700/at-peace-karan-aujla.jpg',
+      name : 'At Peace',
+      artist : 'Karan Aujla',
+      album : 'Karan Aujla',
+      released : 'June-26-2025',
+      music : 'https://s320.djpunjab.is/data/320/57673/307649/At%20Peace%20-%20Karan%20Aujla.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57670/300x700/ruthless-diljit-dosanjh.jpg',
       name : 'Ruthless',
       artist : 'Diljit Dosanjh',

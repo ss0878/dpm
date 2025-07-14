@@ -10,6 +10,22 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/57792/307869/Kikran%20De%20Phull%20-%20Arjan%20Dhillon.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/57765/300x700/maan-taan-inderpal-moga.jpg',
+      name : 'Maan Taan',
+      artist : 'Inderpal Moga',
+      album : 'Inderpal Moga',
+      released : 'July-10-2025',
+      music : 'https://s320.djpunjab.is/data/320/57765/307826/Maan%20Taan%20-%20Inderpal%20Moga.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57764/300x700/back-gear-roop-bhullar.jpg',
+      name : 'Back Gear',
+      artist : 'Roop Bhullar Ft.Inderpal Moga',
+      album : 'Inderpal Moga',
+      released : 'July-10-2025',
+      music : 'https://s320.djpunjab.is/data/320/57764/307825/Back%20Gear%20-%20Roop%20Bhullar.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57691/300x700/m4-inderpal-moga.jpg',
       name : 'M4',
       artist : 'Inderpal Moga',

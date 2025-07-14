@@ -26,6 +26,22 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/57764/307825/Back%20Gear%20-%20Roop%20Bhullar.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/57756/300x700/peak-jawani-the-landers.jpg',
+      name : 'Peak Jawani',
+      artist : 'The Landers',
+      album : 'The Landers',
+      released : 'July-10-2025',
+      music : 'https://s320.djpunjab.is/data/320/57756/307817/Peak%20Jawani%20-%20The%20Landers.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57723/300x700/shoes-off-prem-dhillon..jpg',
+      name : 'Shoes Off',
+      artist : 'Prem Dhillon',
+      album : 'Prem Dhillon',
+      released : 'July-3-2025',
+      music : 'https://s320.djpunjab.is/data/320/57723/307741/Shoes%20Off%20-%20Prem%20Dhillon.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57691/300x700/m4-inderpal-moga.jpg',
       name : 'M4',
       artist : 'Inderpal Moga',

@@ -2,6 +2,14 @@ const music_list = [
     
    
 {
+      img : 'https://cover.djpunjab.is/57792/300x700/kikran-de-phull-arjan-dhillon.jpg',
+      name : 'Kikran De Phull',
+      artist : 'Arjan Dhillon',
+      album : 'Arjan Dhillon',
+      released : 'July-14-2025',
+      music : 'https://s320.djpunjab.is/data/320/57792/307869/Kikran%20De%20Phull%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57691/300x700/m4-inderpal-moga.jpg',
       name : 'M4',
       artist : 'Inderpal Moga',

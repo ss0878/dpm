@@ -2,6 +2,46 @@ const music_list = [
     
    
 {
+      img : 'https://cover.djpunjab.is/57826/300x700/rafale-warga-pavitar-lassoi.jpg',
+      name : 'Rafale Warga',
+      artist : 'Pavitar Lassoi',
+      album : 'Pavitar Lassoi',
+      released : 'July-18-2025',
+      music : 'https://s320.djpunjab.is/data/320/57826/307911/Rafale%20Warga%20-%20Pavitar%20Lassoi.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57839/300x700/heer-prem-dhillon.jpg',
+      name : 'Heer',
+      artist : 'Prem Dhillon',
+      album : 'Prem Dhillon',
+      released : 'July-20-2025',
+      music : 'https://s320.djpunjab.is/data/320/57839/307936/Heer%20-%20Prem%20Dhillon.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57821/300x700/together-shubh.jpg',
+      name : 'Together',
+      artist : 'Shubh',
+      album : 'Shubh',
+      released : 'July-18-2025',
+      music : 'https://s320.djpunjab.is/data/320/57821/307906/Together%20-%20Shubh.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57830/300x700/two-of-a-kind-armaan-gill.jpg',
+      name : 'DOORIYAN',
+      artist : 'Armaan Gill Ft. Arnaaz Gill',
+      album : 'TWO OF A KIND',
+      released : 'July-18-2025',
+      music : 'https://p320.djpunjab.is/data/320/57830/307920/DOORIYAN%20-%20Armaan%20Gill.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57815/300x700/thodi-si-daaru-ap-dhillon.jpg',
+      name : 'Thodi Si Daaru',
+      artist : 'AP Dhillon',
+      album : 'AP Dhillon',
+      released : 'July-17-2025',
+      music : 'https://s320.djpunjab.is/data/320/57815/307900/Thodi%20Si%20Daaru%20-%20AP%20Dhillon.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57792/300x700/kikran-de-phull-arjan-dhillon.jpg',
       name : 'Kikran De Phull',
       artist : 'Arjan Dhillon',

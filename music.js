@@ -2,6 +2,30 @@ const music_list = [
     
    
 {
+      img : 'https://cover.djpunjab.is/57888/300x700/flowers-harnoor.jpg',
+      name : 'Flowers',
+      artist : 'Harnoor',
+      album : 'Harnoor',
+      released : 'Aug-1-2025',
+      music : 'https://s320.djpunjab.is/data/320/57888/308022/Flowers%20-%20Harnoor.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57887/300x700/mf-gabhru-karan-aujla.jpg',
+      name : 'Mf Gabhru',
+      artist : 'Karan Aujla',
+      album : 'Karan Aujla',
+      released : 'Aug-1-2025',
+      music : 'https://s320.djpunjab.is/data/320/57887/308021/Mf%20Gabhru%20-%20Karan%20Aujla.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57882/300x700/judge-amrinder-gill.jpg',
+      name : 'Judge',
+      artist : 'Amrinder Gill',
+      album : 'Amrinder Gill',
+      released : 'Aug-1-2025',
+      music : 'https://s320.djpunjab.is/data/320/57882/308016/Judge%20-%20Amrinder%20Gill.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57826/300x700/rafale-warga-pavitar-lassoi.jpg',
       name : 'Rafale Warga',
       artist : 'Pavitar Lassoi',

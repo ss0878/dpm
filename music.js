@@ -2,6 +2,14 @@ const music_list = [
     
    
 {
+      img : 'https://cover.djpunjab.is/57897/300x700/non-stop-khan-bhaini.jpg',
+      name : 'Non Stop',
+      artist : 'Khan Bhaini',
+      album : 'Khan Bhaini',
+      released : 'Aug-4-2025',
+      music : 'https://s320.djpunjab.is/data/320/57897/308031/Non%20Stop%20-%20Khan%20Bhaini.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57888/300x700/flowers-harnoor.jpg',
       name : 'Flowers',
       artist : 'Harnoor',

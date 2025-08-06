@@ -10,6 +10,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/57897/308031/Non%20Stop%20-%20Khan%20Bhaini.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/57890/300x700/mean-sukhan-verma.jpg',
+      name : 'Mean',
+      artist : 'Sukhan Verma',
+      album : 'Sukhan Verma',
+      released : 'Aug-1-2025',
+      music : 'https://s320.djpunjab.is/data/320/57890/308024/Mean%20-%20Sukhan%20Verma.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57888/300x700/flowers-harnoor.jpg',
       name : 'Flowers',
       artist : 'Harnoor',

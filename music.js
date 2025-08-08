@@ -10,6 +10,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/57916/308059/NO%20MIDMAN%20-%20Navaan%20Sandhu.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/57905/300x700/ppl-singga.jpg',
+      name : 'PPL',
+      artist : 'Singga',
+      album : 'Singga',
+      released : 'Aug-7-2025',
+      music : 'https://s320.djpunjab.is/data/320/57905/308044/PPL%20-%20Singga.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57897/300x700/non-stop-khan-bhaini.jpg',
       name : 'Non Stop',
       artist : 'Khan Bhaini',

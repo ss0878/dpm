@@ -2,6 +2,14 @@ const music_list = [
     
    
 {
+      img : 'https://cover.djpunjab.is/57921/300x700/pind-to-playlist-ep-kulwinder-billa.jpg',
+      name : 'Koka Zulf',
+      artist : 'Kulwinder Billa',
+      album : 'Kulwinder Billa',
+      released : 'Aug-8-2025',
+      music : 'https://p320.djpunjab.is/data/320/57921/308066/Koka%20Zulf%20-%20Kulwinder%20Billa.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57916/300x700/no-midman-navaan-sandhu.jpg',
       name : 'NO MIDMAN',
       artist : 'Navaan Sandhu',

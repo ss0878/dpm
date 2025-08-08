@@ -2,6 +2,14 @@ const music_list = [
     
    
 {
+      img : 'https://cover.djpunjab.is/57916/300x700/no-midman-navaan-sandhu.jpg',
+      name : 'NO MIDMAN',
+      artist : 'Navaan Sandhu',
+      album : 'Navaan Sandhu',
+      released : 'Aug-8-2025',
+      music : 'https://s320.djpunjab.is/data/320/57916/308059/NO%20MIDMAN%20-%20Navaan%20Sandhu.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57897/300x700/non-stop-khan-bhaini.jpg',
       name : 'Non Stop',
       artist : 'Khan Bhaini',

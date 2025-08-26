@@ -2,6 +2,14 @@ const music_list = [
     
    
 {
+      img : 'https://cover.djpunjab.is/58038/300x700/balenci-shubh.jpg',
+      name : 'Balenci',
+      artist : 'Shubh',
+      album : 'Shubh',
+      released : 'Aug-23-2025',
+      music : 'https://s320.djpunjab.is/data/320/58038/308257/Balenci%20-%20Shubh.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57921/300x700/pind-to-playlist-ep-kulwinder-billa.jpg',
       name : 'Koka Zulf',
       artist : 'Kulwinder Billa',

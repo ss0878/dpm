@@ -10,6 +10,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/58038/308257/Balenci%20-%20Shubh.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/58031/300x700/mohabbat-arjan-dhillon.jpg',
+      name : 'MOHABBAT',
+      artist : 'Arjan Dhillon',
+      album : 'Arjan Dhillon',
+      released : 'Aug-21-2025',
+      music : 'https://s320.djpunjab.is/data/320/58031/308240/MOHABBAT%20-%20Arjan%20Dhillon.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57921/300x700/pind-to-playlist-ep-kulwinder-billa.jpg',
       name : 'Koka Zulf',
       artist : 'Kulwinder Billa',

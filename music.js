@@ -58,6 +58,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/58031/308240/MOHABBAT%20-%20Arjan%20Dhillon.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/58010/300x700/nirvairness-nirvair-pannu.jpg',
+      name : 'Gerha',
+      artist : 'Nirvair Pannu',
+      album : 'Nirvair Pannu',
+      released : 'Aug-18-2025',
+      music : 'https://p320.djpunjab.is/data/320/58010/308198/Gerha%20-%20Nirvair%20Pannu.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/58000/300x700/say-less-varinder-brar.jpg',
       name : 'Say Less',
       artist : 'Varinder Brar',

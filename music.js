@@ -10,6 +10,46 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/58038/308257/Balenci%20-%20Shubh.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/58033/300x700/p-pop-culture-karan-aujla.jpg',
+      name : 'Daytona',
+      artist : 'Karan Aujla',
+      album : 'P-POP CULTURE',
+      released : 'Aug-22-2025',
+      music : 'https://p320.djpunjab.is/data/320/58033/308254/Daytona%20-%20Karan%20Aujla.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/58033/300x700/p-pop-culture-karan-aujla.jpg',
+      name : 'For A Reason',
+      artist : 'Karan Aujla',
+      album : 'P-POP CULTURE',
+      released : 'Aug-22-2025',
+      music : 'https://p320.djpunjab.is/data/320/58033/308244/For%20A%20Reason%20-%20Karan%20Aujla.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/58033/300x700/p-pop-culture-karan-aujla.jpg',
+      name : 'Ima Do My Thiiing',
+      artist : 'Karan Aujla',
+      album : 'P-POP CULTURE',
+      released : 'Aug-22-2025',
+      music : 'https://p320.djpunjab.is/data/320/58033/308250/Ima%20Do%20My%20Thiiing%20-%20Karan%20Aujla.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/58033/300x700/p-pop-culture-karan-aujla.jpg',
+      name : 'P-POP CULTURE',
+      artist : 'Karan Aujla',
+      album : 'P-POP CULTURE',
+      released : 'Aug-22-2025',
+      music : 'https://p320.djpunjab.is/data/320/58033/308253/P-POP%20CULTURE%20-%20Karan%20Aujla.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/58033/300x700/p-pop-culture-karan-aujla.jpg',
+      name : 'Youre U Tho',
+      artist : 'Karan Aujla',
+      album : 'P-POP CULTURE',
+      released : 'Aug-22-2025',
+      music : 'https://p320.djpunjab.is/data/320/58033/308242/Youre%20U%20Tho%20-%20Karan%20Aujla.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/58031/300x700/mohabbat-arjan-dhillon.jpg',
       name : 'MOHABBAT',
       artist : 'Arjan Dhillon',

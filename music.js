@@ -18,6 +18,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/58031/308240/MOHABBAT%20-%20Arjan%20Dhillon.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/58000/300x700/say-less-varinder-brar.jpg',
+      name : 'Say Less',
+      artist : 'Varinder Brar',
+      album : 'Varinder Brar',
+      released : 'Aug-15-2025',
+      music : 'https://s320.djpunjab.is/data/320/58000/308180/Say%20Less%20-%20Varinder%20Brar.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57921/300x700/pind-to-playlist-ep-kulwinder-billa.jpg',
       name : 'Koka Zulf',
       artist : 'Kulwinder Billa',

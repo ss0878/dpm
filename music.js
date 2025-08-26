@@ -26,6 +26,22 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/58000/308180/Say%20Less%20-%20Varinder%20Brar.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/57998/300x700/knockout-darsh-dhaliwal.jpg',
+      name : 'Knockout',
+      artist : 'Darsh Dhaliwal',
+      album : 'Darsh Dhaliwal',
+      released : 'Aug-15-2025',
+      music : 'https://s320.djpunjab.is/data/320/57998/308178/Knockout%20-%20Darsh%20Dhaliwal.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57971/300x700/her-nishawn-bhullar.jpg',
+      name : 'Her',
+      artist : 'Nishawn Bhullar',
+      album : 'Nishawn Bhullar',
+      released : 'Aug-13-2025',
+      music : 'https://s320.djpunjab.is/data/320/57971/308143/Her%20-%20Nishawn%20Bhullar.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57921/300x700/pind-to-playlist-ep-kulwinder-billa.jpg',
       name : 'Koka Zulf',
       artist : 'Kulwinder Billa',

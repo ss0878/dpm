@@ -42,6 +42,14 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/57971/308143/Her%20-%20Nishawn%20Bhullar.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/57938/300x700/don-julio-shipra-goyal.jpg',
+      name : 'DON JULIO',
+      artist : 'Shipra Goyal',
+      album : 'Shipra Goyal',
+      released : 'Aug-9-2025',
+      music : 'https://s320.djpunjab.is/data/320/57938/308089/DON%20JULIO%20-%20Shipra%20Goyal.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57921/300x700/pind-to-playlist-ep-kulwinder-billa.jpg',
       name : 'Koka Zulf',
       artist : 'Kulwinder Billa',

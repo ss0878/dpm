@@ -12,11 +12,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
-
 </head>
 <body>
    <div class="player">
        <div class="wrapper glass">
+        <div class="playlist-toggle" onclick="togglePlaylist()">
+            <i class="fa fa-list" aria-hidden="true"></i>
+        </div>
         <div class="downloadbutton">
         <div class="download-track" onclick="downloadTrack()">
         <i class="fa fa-cloud-download" aria-hidden="true"></i>
@@ -65,6 +67,28 @@
              <div id="wave">
                 </div>
             </div> 
+       </div>
+       
+       <!-- Playlist Section -->
+       <div class="playlist-container glass" id="playlist-container">
+           <div class="playlist-header">
+               <div class="playlist-title">
+                   <h2>Playlist</h2>
+                   <span id="song-counter" class="song-counter">0 songs</span>
+               </div>
+               <div class="close-playlist" onclick="togglePlaylist()">
+                   <i class="fa fa-times" aria-hidden="true"></i>
+               </div>
+           </div>
+           <div class="playlist-search">
+               <input type="text" id="playlist-search-input" placeholder="Search songs or artists...">
+               <button id="playlist-search-button" onclick="searchPlaylist()">
+                   <i class="fa fa-search" aria-hidden="true"></i>
+               </button>
+           </div>
+           <div class="playlist-songs" id="playlist-songs">
+               <!-- Songs will be dynamically added here from script.js -->
+           </div>
        </div>
    </div>
 </body>

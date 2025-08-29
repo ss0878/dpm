@@ -90,6 +90,22 @@ const music_list = [
       music : 'https://s320.djpunjab.is/data/320/57971/308143/Her%20-%20Nishawn%20Bhullar.mp3'
         },
 	{
+      img : 'https://cover.djpunjab.is/57954/300x700/wzr-tank-ep-wazir-patar.jpg',
+      name : 'A Day In Merc',
+      artist : 'Wazir Patar Ft. Azaad4L',
+      album : 'WZR TANK EP',
+      released : 'Aug-11-2025',
+      music : 'https://p320.djpunjab.is/data/320/57954/308120/A%20Day%20In%20Merc%20-%20Wazir%20Patar.mp3'
+        },
+	{
+      img : 'https://cover.djpunjab.is/57954/300x700/wzr-tank-ep-wazir-patar.jpg',
+      name : 'Wzr Tank',
+      artist : 'Wazir Patar Ft. Azaad4L',
+      album : 'WZR TANK EP',
+      released : 'Aug-11-2025',
+      music : 'https://p320.djpunjab.is/data/320/57954/308119/Wzr%20Tank%20-%20Wazir%20Patar.mp3'
+        },
+	{
       img : 'https://cover.djpunjab.is/57938/300x700/don-julio-shipra-goyal.jpg',
       name : 'DON JULIO',
       artist : 'Shipra Goyal',

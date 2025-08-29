@@ -276,7 +276,7 @@ const music_list = [
 	{
       img : 'https://cover.djpunjab.is/57692/300x700/4-shots-ep-tarsem-jassar.jpg',
       name : '2 WAYS',
-      artist : 'Tarsem Jassar Ft. Azad4L',
+      artist : 'Tarsem Jassar Ft. Azaad4L',
       album : 'Tarsem Jassar',
       released : 'June-29-2025',
       music : 'https://p320.djpunjab.is/data/320/57692/307697/2%20WAYS%20-%20Tarsem%20Jassar.mp3'
@@ -1044,8 +1044,8 @@ const music_list = [
 	{
       img : 'https://cover.djpunjab.is/55943/300x700/barks-wazir-patar.jpg',
       name : 'Barks',
-      artist : 'Wazir Patar Ft. Azad4L',
-      album : 'Wazir Patar Ft. Azad4L',
+      artist : 'Wazir Patar Ft. Azaad4L',
+      album : 'Wazir Patar Ft. Azaad4L',
       released : 'July-26-2024',
       music : 'https://s320.djpunjab.is/data/320/55943/305067/Barks%20-%20Wazir%20Patar.mp3'
         },
@@ -3411,7 +3411,7 @@ const music_list = [
 	{
        img : 'https://cover.djpunjab.is/53695/300x700/Suba-Punjab-Sarrb.jpg',
        name : 'Suba Punjab',
-       artist : 'Sarrb Ft. Azadd',
+       artist : 'Sarrb Ft. Azaad',
        album : 'Times Music',
        released : '26-4-2023',
        music : 'https://s320.djpunjab.is/data/320/53695/301921/Suba%20Punjab%20-%20Sarrb.mp3'

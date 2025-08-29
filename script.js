@@ -21,12 +21,16 @@ let track_index = 0;
 let isPlaying = false;
 let isRandom = false;
 let updateTimer;
+let playlistContainer = document.getElementById('playlist-container');
+let playlistSongs = document.getElementById('playlist-songs');
 
 
-totalMusic = document.querySelector(".total-music-list"),
+totalMusic = document.querySelector(".total-music-list");
 
+// Initialize the playlist
+initPlaylist();
 
-
+// Load the first track
 loadTrack(track_index);
 
 function loadTrack(track_index){
@@ -45,6 +49,7 @@ function loadTrack(track_index){
     updateTimer = setInterval(setUpdate, 1000);
 
     curr_track.addEventListener('ended', nextTrack);
+    updateActivePlaylistItem();
     random_bg_color();
     notification();
 }
@@ -227,3 +232,111 @@ if ( 'mediaSession' in navigator ) {
 function downloadTrack(){
     open(music_list[track_index].music);
 }
+
+// Playlist Functions
+function initPlaylist(searchQuery = '') {
+    // Clear existing content
+    playlistSongs.innerHTML = '';
+    
+    // Filter songs based on search query if provided
+    const filteredSongs = searchQuery ? 
+        music_list.filter(song => 
+            song.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
+            song.artist.toLowerCase().includes(searchQuery.toLowerCase())
+        ) : 
+        music_list;
+    
+    // Update song counter
+    const songCounter = document.getElementById('song-counter');
+    if (songCounter) {
+        if (searchQuery && filteredSongs.length !== music_list.length) {
+            songCounter.textContent = `${filteredSongs.length} of ${music_list.length} songs`;
+        } else {
+            songCounter.textContent = `${music_list.length} songs`;
+        }
+    }
+    
+    // Display message if no songs match the search
+    if (filteredSongs.length === 0) {
+        const noResults = document.createElement('div');
+        noResults.className = 'no-search-results';
+        noResults.textContent = 'No songs found matching your search.';
+        playlistSongs.appendChild(noResults);
+        return;
+    }
+    
+    // Create playlist items for each filtered song
+    filteredSongs.forEach((song, filteredIndex) => {
+        // Find the original index in the music_list array
+        const originalIndex = music_list.findIndex(s => s.name === song.name && s.artist === song.artist);
+        
+        const playlistItem = document.createElement('div');
+        playlistItem.className = 'playlist-song';
+        if (originalIndex === track_index) {
+            playlistItem.classList.add('active');
+        }
+        
+        playlistItem.innerHTML = `
+            <img src="${song.img}" alt="${song.name}" class="playlist-song-img">
+            <div class="playlist-song-info">
+                <div class="playlist-song-name">${song.name}</div>
+                <div class="playlist-song-artist">${song.artist}</div>
+            </div>
+        `;
+        
+        // Add click event to play the song
+        playlistItem.addEventListener('click', () => {
+            track_index = originalIndex;
+            loadTrack(track_index);
+            playTrack();
+            togglePlaylist();
+        });
+        
+        playlistSongs.appendChild(playlistItem);
+    });
+}
+
+function togglePlaylist() {
+    if (playlistContainer.style.display === 'flex') {
+        playlistContainer.style.display = 'none';
+    } else {
+        playlistContainer.style.display = 'flex';
+        updateActivePlaylistItem();
+    }
+}
+
+function updateActivePlaylistItem() {
+    // Remove active class from all items
+    const playlistItems = document.querySelectorAll('.playlist-song');
+    playlistItems.forEach((item, index) => {
+        if (index === track_index) {
+            item.classList.add('active');
+        } else {
+            item.classList.remove('active');
+        }
+    });
+}
+
+function searchPlaylist() {
+    const searchInput = document.getElementById('playlist-search-input');
+    const searchQuery = searchInput.value.trim();
+    initPlaylist(searchQuery);
+}
+
+// Add event listener for search input to search as you type
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('playlist-search-input');
+    if (searchInput) {
+        searchInput.addEventListener('input', function() {
+            const searchQuery = this.value.trim();
+            initPlaylist(searchQuery);
+        });
+        
+        // Add event listener for Enter key in search input
+        searchInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                searchPlaylist();
+            }
+        });
+    }
+});

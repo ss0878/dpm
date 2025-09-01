@@ -1390,7 +1390,7 @@ const music_list = [
          artist : 'Maanu x Annural Khalid',
          album : 'Maanu x Annural Khalid',
          released : 'June-14-2024',
-         music : 'https://audio.jukehost.co.uk/3BZXnI7rFCoWIwtNkitKHrlvBT6rQVJP'
+         music : 'https://www.dropbox.com/scl/fi/8l7nsvlycuzx1h85fh9fj/Jhol-Maanu-Annural-Khalid.mp3?rlkey=ssp7vwgyg20jmiew8xoiz7jhp&dl=1'
            },
       {
          img : 'https://cover.djpunjab.is/55686/300x700/still-the-same-himmat-sandhu.jpg',
@@ -4382,7 +4382,7 @@ const music_list = [
            artist : 'Sidhu Moosewala x Noor Jehan',
            album : 'Sidhu Moosewala',
            released : '30-12-2022',
-           music : 'https://audio.jukehost.co.uk/AKXxfTNSamBHPNLYbGwxnRdMYs3XQMID'
+           music : 'https://www.dropbox.com/scl/fi/7mrpbrkw1tzpyh8682nnj/Sidhu-Moosewala-x-Noor-Jehan-LoveSick-Prod.-SXCK.mp3?rlkey=t75n1l791k6n39tfah26ihotv&dl=1'
               },
              {
            img : 'https://cover.djpunjab.is/52964/300x700/Hirni-Navaan-Sandhu.jpg',

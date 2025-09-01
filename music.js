@@ -3270,7 +3270,7 @@ const music_list = [
        artist : 'Azaad 4L',
        album : 'Azaad 4L',
        released : '12-5-2023',
-       music : 'https://audio.jukehost.co.uk/NPXoZhufhOnUTFlvNcK8BsbzqQyZbggb'
+       music : 'https://www.dropbox.com/scl/fi/9h3sv6tb97vcpfuizjwdq/Azaad-4L-Sirhind-Hood.mp3?rlkey=u5vktfghzsziylg7203ofqpuh&dl=1'
         },
 	{
        img : 'https://cover.djpunjab.is/53761/300x700/Case-Himmat-Sandhu.jpg',

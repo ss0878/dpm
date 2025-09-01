@@ -4497,6 +4497,14 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/52750/300802/Sifat%20-%20Nirvair%20Pannu.mp3'
             },
             {
+         img : 'https://i.scdn.co/image/ab67616d0000b273ab074d938d64ca92190d94fc',
+         name : 'G-Eyez',
+         artist : 'Azaad 4L',
+         album : 'Azaad 4L',
+         released : '23-11-2022',
+         music : 'https://www.dropbox.com/scl/fi/d6pq4ph1sxhr2f5l27dx7/Azaad-4L-G-Eyez-Prod.Kartoos.mp3?rlkey=zskamlie8asez4jvwid6lbs31&dl=1'
+            },
+            {
          img : 'https://cover.djpunjab.is/52745/300x700/So-Mean-Navaan-Sandhu.jpg',
          name : 'So Mean',
          artist : 'Navaan Sandhu',

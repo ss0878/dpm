@@ -407,7 +407,7 @@ const music_list = [
         artist : 'Azaad 4L',
         album : 'Estb. 1998',
         released : 'May-22-2025',
-        music : 'https://cdnsongs.com/dren/music/data/Punjabi/2O25O5/Estb_l998/32O/l998.mp3/l998.mp3'
+        music : 'https://www.dropbox.com/scl/fi/a7f0niycdx9jx9vfad5m3/Azaad-4L-1998.mp3?rlkey=bsnsd0lajlyvt7kqrjx9xfcqz&dl=1'
            },
       {
          img : 'https://cover.mr-jatt.im/thumb/513128/Bereham-1.jpg',
@@ -415,7 +415,7 @@ const music_list = [
          artist : 'Azaad 4L',
          album : 'Estb. 1998',
          released : 'May-22-2025',
-         music : 'https://cdnsongs.com/dren/music/data/Punjabi/202505/Estb_1998/320/Bereham.mp3/Bereham.mp3'
+         music : 'https://www.dropbox.com/scl/fi/m1srj0f2uh7wyljllhjpb/Azaad-4L-Bereham.mp3?rlkey=hzgp0zmobpjgjej7obtjswwvs&dl=1'
             },
             {
          img : 'https://cover.mr-jatt.im/thumb/513128/Bereham-1.jpg',
@@ -423,7 +423,7 @@ const music_list = [
          artist : 'Azaad 4L',
          album : 'Estb. 1998',
          released : 'May-22-2025',
-         music : 'https://cdnsongs.com/dren/music/data/Punjabi/202505/Estb_1998/320/Rise_Again.mp3/Rise%20Again.mp3'
+         music : 'https://www.dropbox.com/scl/fi/5ab0ly1ugmwqj8wchnb3a/Azaad-4L-Rise-Again.mp3?rlkey=g6nqefntans35vh96pg30f4hy&dl=1'
             },
             {
          img : 'https://cover.mr-jatt.im/thumb/513128/Bereham-1.jpg',
@@ -431,7 +431,7 @@ const music_list = [
          artist : 'Azaad 4L',
          album : 'Estb. 1998',
          released : 'May-22-2025',
-         music : 'https://cdnsongs.com/dren/music/data/Punjabi/202505/Estb_1998/320/Bar_n_Bore.mp3/Bar%20n%20Bore.mp3'
+         music : 'https://www.dropbox.com/scl/fi/wo0a0qsf9pnvjqhpnsts1/Azaad-4L-Bar-n-Bore.mp3?rlkey=q33t0uj5m21nxarsndionx66u&dl=1'
             },
       {
          img : 'https://cover.djpunjab.is/57475/300x700/tarifaan-terriyaaa-jassie-gill.jpg',

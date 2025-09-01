@@ -2790,7 +2790,7 @@ const music_list = [
          artist : 'Jassi Gosal & Jagan Randhawa',
          album : 'Hustle Nation',
          released : 'Aug-13-2023',
-         music : 'https://audio.jukehost.co.uk/TAuJLkqrLFaCsQfTZvVNeb0gOq0Nax65'
+         music : 'https://hd1.djjohal.com/320/517076/Anthem%20-%20Jassi%20Gosal%20&%20Jagan%20Randhawa%20(DJJOhAL.Com).mp3'
            },
       {
          img : 'https://cover.djpunjab.is/54153/300x700/wiseman-sidhu-moose-wala.jpg',

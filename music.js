@@ -3214,7 +3214,7 @@ const music_list = [
           artist : 'Rajvatan',
           album : 'Rajvatan',
           released : 'Jun-11-2023',
-          music : 'https://audio.jukehost.co.uk/eHqL0Ec5ED4ZxE3q0ELL4XS516BOzMrI'
+          music : 'https://www.dropbox.com/scl/fi/5qbmql4y0qa1mp54212p4/Maula-Jatt-Rajvatan-Ranbir-Jhajj-Humble-Kid.mp3?rlkey=lhu1b3ydsca45e5lsenhoy7rt&dl=1'
            },
       {
           img : 'https://i.scdn.co/image/ab67616d0000b273d630d965be637388906c349e',
@@ -3222,15 +3222,7 @@ const music_list = [
           artist : 'Rajvatan',
           album : 'Rajvatan',
           released : 'Jun-11-2023',
-          music : 'https://audio.jukehost.co.uk/rmjC5Yrqt8Q8F96HYyspR1o61q6DZUIt'
-           },
-      {
-          img : 'https://source.boomplaymusic.com/group10/M00/12/17/9c00732816fa4cdf9209850bf2e7814a_464_464.jpg',
-          name : 'Guroor',
-          artist : 'Rajvatan',
-          album : 'Rajvatan',
-          released : 'Jun-11-2023',
-          music : 'https://audio.jukehost.co.uk/s8xsjBA0RpjbvlFakbtTzW9Tl0qlXYr8'
+          music : 'https://www.dropbox.com/scl/fi/8t1az16mmjn2trszpodoq/Rajvatan-Clique-Dhruv-G-Ranbir-Jhajj.mp3?rlkey=zetthyg4qs9u1px1z2u35inly&dl=1'
            },
       {
           img : 'https://cover.djpunjab.is/53936/300x300/hard-choices-gurinder-gill.jpg',
@@ -3422,7 +3414,7 @@ const music_list = [
           artist : 'Riar Saab',
           album : 'Riar Saab',
           released : '18-5-2023',
-          music : 'https://audio.jukehost.co.uk/heRQtmUYIbNr6AcBjhoJRBwyyMuDAJE4'
+          music : 'https://p320.djpunjab.is/data/320/54696/303257/Obsessed%20-%20Riar%20Saab.mp3'
            },
       {
           img : 'https://cover.djpunjab.is/53776/300x700/Sly-Pav-Dharia.jpg',

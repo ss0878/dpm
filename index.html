@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Dope Punjabi Music</title>
     <link rel="stylesheet" href="style.css">
     <script src="music.js" defer></script>
@@ -12,13 +12,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="theme-toggle" onclick="toggleTheme()">
+            <i class="fa fa-moon-o" aria-hidden="true" id="theme-icon"></i>
+        </div>
    <div class="player">
+       <div class="keyboard-shortcuts-info">
+           <button class="shortcuts-button" onclick="toggleShortcutsTooltip()"><i class="fas fa-keyboard"></i></button>
+           <div class="shortcuts-tooltip">
+               <h3>Keyboard Shortcuts</h3>
+               <ul>
+                   <li><span>Space</span> - Play/Pause</li>
+                   <li><span>←</span> - Previous Track</li>
+                   <li><span>→</span> - Next Track</li>
+                   <li><span>↑</span> - Volume Up</li>
+                   <li><span>↓</span> - Volume Down</li>
+                   <li><span>M</span> - Mute/Unmute</li>
+                   <li><span>R</span> - Toggle Repeat</li>
+                   <li><span>S</span> - Toggle Shuffle</li>
+                   <li><span>P</span> - Toggle Playlist</li>
+               </ul>
+           </div>
+       </div>
        <div class="wrapper glass">
         <div class="playlist-toggle" onclick="togglePlaylist()">
             <i class="fa fa-list" aria-hidden="true"></i>
         </div>
+        
         <div class="downloadbutton">
         <div class="download-track" onclick="downloadTrack()">
         <i class="fa fa-cloud-download" aria-hidden="true"></i>
@@ -72,12 +94,12 @@
        <!-- Playlist Section -->
        <div class="playlist-container glass" id="playlist-container">
            <div class="playlist-header">
+               <div class="close-playlist" onclick="togglePlaylist()">
+                   <i class="fa fa-times" aria-hidden="true"></i>
+               </div>
                <div class="playlist-title">
                    <h2>Playlist</h2>
                    <span id="song-counter" class="song-counter">0 songs</span>
-               </div>
-               <div class="close-playlist" onclick="togglePlaylist()">
-                   <i class="fa fa-times" aria-hidden="true"></i>
                </div>
            </div>
            <div class="playlist-search">
@@ -85,6 +107,15 @@
                <button id="playlist-search-button" onclick="searchPlaylist()">
                    <i class="fa fa-search" aria-hidden="true"></i>
                </button>
+           </div>
+           <div class="playlist-filters">
+               <div class="filter-label">Filter by:</div>
+               <div class="artist-filter">
+                   <select id="artist-filter-select" onchange="filterByArtist()">
+                       <option value="">All Artists</option>
+                       <!-- Artist options will be populated dynamically -->
+                   </select>
+               </div>
            </div>
            <div class="playlist-songs" id="playlist-songs">
                <!-- Songs will be dynamically added here from script.js -->

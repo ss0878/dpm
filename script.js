@@ -27,15 +27,129 @@ let playlistSongs = document.getElementById('playlist-songs');
 
 totalMusic = document.querySelector(".total-music-list");
 
-// Initialize the playlist
-initPlaylist();
+// Initialize the volume slider CSS variable
+document.documentElement.style.setProperty('--volume-before-width', '99%');
+
 
 // Load the first track
 loadTrack(track_index);
 
+// Function to toggle keyboard shortcuts tooltip
+function toggleShortcutsTooltip() {
+    const tooltip = document.querySelector('.shortcuts-tooltip');
+    tooltip.classList.toggle('show');
+    
+    // Close tooltip when clicking outside
+    if (tooltip.classList.contains('show')) {
+        setTimeout(() => {
+            document.addEventListener('click', closeTooltipOnClickOutside);
+        }, 10);
+    } else {
+        document.removeEventListener('click', closeTooltipOnClickOutside);
+    }
+}
+
+// Function to close tooltip when clicking outside
+function closeTooltipOnClickOutside(event) {
+    const tooltip = document.querySelector('.shortcuts-tooltip');
+    const button = document.querySelector('.shortcuts-button');
+    
+    if (!tooltip.contains(event.target) && !button.contains(event.target)) {
+        tooltip.classList.remove('show');
+        document.removeEventListener('click', closeTooltipOnClickOutside);
+    }
+}
+
+// Theme toggle functionality
+function toggleTheme() {
+    const body = document.body;
+    const themeIcon = document.getElementById('theme-icon');
+    
+    if (body.getAttribute('data-theme') === 'dark') {
+        body.removeAttribute('data-theme');
+        themeIcon.className = 'fa fa-moon-o';
+        localStorage.setItem('theme', 'light');
+    } else {
+        body.setAttribute('data-theme', 'dark');
+        themeIcon.className = 'fa fa-sun-o';
+        localStorage.setItem('theme', 'dark');
+    }
+}
+
+// Load saved theme on page load
+function loadSavedTheme() {
+    const savedTheme = localStorage.getItem('theme');
+    const themeIcon = document.getElementById('theme-icon');
+    
+    if (savedTheme === 'dark') {
+        document.body.setAttribute('data-theme', 'dark');
+        themeIcon.className = 'fa fa-sun-o';
+    } else {
+        themeIcon.className = 'fa fa-moon-o';
+    }
+}
+
+// Add keyboard shortcuts for playback control
+document.addEventListener('keydown', function(event) {
+    // Space bar - Play/Pause
+    if (event.code === 'Space' && document.activeElement.tagName !== 'INPUT') {
+        event.preventDefault();
+        playpauseTrack();
+    }
+    // Right arrow - Next track
+    else if (event.code === 'ArrowRight' && document.activeElement.tagName !== 'INPUT') {
+        nextTrack();
+    }
+    // Left arrow - Previous track
+    else if (event.code === 'ArrowLeft' && document.activeElement.tagName !== 'INPUT') {
+        prevTrack();
+    }
+    // Up arrow - Volume up
+    else if (event.code === 'ArrowUp' && document.activeElement.tagName !== 'INPUT') {
+        event.preventDefault();
+        let currentVolume = volume_slider.value / 100;
+        let newVolume = Math.min(1, currentVolume + 0.1);
+        volume_slider.value = newVolume * 100;
+        setVolume();
+    }
+    // Down arrow - Volume down
+    else if (event.code === 'ArrowDown' && document.activeElement.tagName !== 'INPUT') {
+        event.preventDefault();
+        let currentVolume = volume_slider.value / 100;
+        let newVolume = Math.max(0, currentVolume - 0.1);
+        volume_slider.value = newVolume * 100;
+        setVolume();
+    }
+    // M key - Mute/Unmute
+    else if (event.code === 'KeyM' && document.activeElement.tagName !== 'INPUT') {
+        if (volume_slider.value > 0) {
+            volume_slider.dataset.lastVolume = volume_slider.value;
+            volume_slider.value = 0;
+        } else {
+            volume_slider.value = volume_slider.dataset.lastVolume || 80;
+        }
+        setVolume();
+    }
+    // R key - Toggle repeat
+    else if (event.code === 'KeyR' && document.activeElement.tagName !== 'INPUT') {
+        repeatTrack();
+    }
+    // S key - Toggle shuffle
+    else if (event.code === 'KeyS' && document.activeElement.tagName !== 'INPUT') {
+        randomTrack();
+    }
+    // P key - Toggle playlist
+    else if (event.code === 'KeyP' && document.activeElement.tagName !== 'INPUT') {
+        togglePlaylist();
+    }
+});
+
 function loadTrack(track_index){
     clearInterval(updateTimer);
     reset();
+    
+    // Add loading animation class
+    document.querySelector('.wrapper').classList.add('track-loading');
 
     curr_track.src = music_list[track_index].music;
     curr_track.load();
@@ -51,34 +165,221 @@ function loadTrack(track_index){
     curr_track.addEventListener('ended', nextTrack);
     updateActivePlaylistItem();
     random_bg_color();
+    
+    // Remove loading animation when track is ready to play
+    curr_track.addEventListener('canplay', function() {
+        setTimeout(() => {
+            document.querySelector('.wrapper').classList.remove('track-loading');
+        }, 500); // Short delay for visual effect
+    });
+    
     notification();
 }
 
 
 function random_bg_color(){
-    let hex = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e'];
-    let a;
+    // Use the track art element directly instead of creating a new image
+    // This avoids CORS issues since the image is already loaded in the DOM
+    setTimeout(() => {
+        try {
+            // First, add a class to trigger the transition animation
+            document.body.classList.add('bg-transitioning');
+            
+            // Create a small canvas for color extraction
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            
+            // Get computed style of track art to extract the background image URL
+            const trackArtStyle = getComputedStyle(track_art);
+            const backgroundImage = trackArtStyle.backgroundImage;
+            
+            // If we can't get the background image, use the direct URL from music_list
+            if (!backgroundImage || backgroundImage === 'none') {
+                extractColorsFromURL(music_list[track_index].img);
+                return;
+            }
+            
+            // Extract the URL from the backgroundImage CSS property
+            // Format is typically: url("http://example.com/image.jpg")
+            const urlMatch = backgroundImage.match(/url\(["']?([^"')]+)["']?\)/);
+            if (urlMatch && urlMatch[1]) {
+                extractColorsFromURL(urlMatch[1]);
+            } else {
+                // Fallback to the URL from music_list
+                extractColorsFromURL(music_list[track_index].img);
+            }
+        } catch (e) {
+            console.error('Error in color extraction:', e);
+            fallbackRandomColor();
+        }
+    }, 300); // Small delay to ensure track art is loaded
+}
+function reset(){
+    curr_time.textContent = "00:00";
+    total_duration.textContent = "00:00";
+    seek_slider.value = 0;
+    notification();
+}
 
-    function populate(a){
-        for(let i=0; i<6; i++){
+// Store extracted colors globally for color loop animations
+let extractedColors = {
+    primary: null,
+    secondary: null,
+    accent: null
+};
+
+function extractColorsFromURL(url) {
+    const img = new Image();
+    img.crossOrigin = 'Anonymous';
+    img.onload = function() {
+        // Create a canvas to draw the image
+        const canvas = document.createElement('canvas');
+        const ctx = canvas.getContext('2d');
+        
+        // Set canvas size to match image
+        canvas.width = img.width;
+        canvas.height = img.height;
+        
+        // Draw the image on the canvas
+        ctx.drawImage(img, 0, 0);
+        
+        // Get colors from different parts of the image
+        const topLeftColor = getAverageColor(ctx, 0, 0, img.width / 3, img.height / 3);
+        const centerColor = getAverageColor(ctx, img.width / 3, img.height / 3, img.width / 3, img.height / 3);
+        const bottomRightColor = getAverageColor(ctx, img.width * 2/3, img.height * 2/3, img.width / 3, img.height / 3);
+        
+        // Store extracted colors for animation
+        extractedColors.primary = topLeftColor;
+        extractedColors.secondary = bottomRightColor;
+        extractedColors.accent = centerColor;
+        
+        // Create a gradient with the extracted colors
+        const angle = 'to right';
+        const gradient = `linear-gradient(${angle}, ${topLeftColor}, ${bottomRightColor})`;
+        
+        // Apply the gradient to the body
+        document.body.style.background = gradient;
+        
+        // Remove the transition class after animation completes
+        setTimeout(() => {
+            document.body.classList.remove('bg-transitioning');
+            
+            // If music is playing, ensure the playing-music class is applied
+            if (isPlaying) {
+                document.body.classList.add('playing-music');
+            }
+        }, 1500);
+    };
+    
+    img.onerror = function() {
+        console.error('Error loading image for color extraction');
+        fallbackRandomColor();
+    };
+    
+    img.src = url;
+}
+
+function getAverageColor(ctx, x, y, width, height) {
+    // Get image data from the specified region
+    const imageData = ctx.getImageData(x, y, width, height);
+    const data = imageData.data;
+    
+    let r = 0, g = 0, b = 0;
+    const pixelCount = data.length / 4;
+    
+    // Sum all RGB values
+    for (let i = 0; i < data.length; i += 4) {
+        r += data[i];
+        g += data[i + 1];
+        b += data[i + 2];
+    }
+    
+    // Calculate average
+    r = Math.floor(r / pixelCount);
+    g = Math.floor(g / pixelCount);
+    b = Math.floor(b / pixelCount);
+    
+    // Add some brightness to ensure colors aren't too dark
+    const brightness = 1.2;
+    r = Math.min(255, Math.floor(r * brightness));
+    g = Math.min(255, Math.floor(g * brightness));
+    b = Math.min(255, Math.floor(b * brightness));
+    
+    return `rgb(${r}, ${g}, ${b})`;
+}
+
+function fallbackRandomColor() {
+    // Generate random colors for fallback
+    let hex = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e'];
+    
+    function populate(a) {
+        for(let i=0; i<6; i++) {
             let x = Math.round(Math.random() * 14);
             let y = hex[x];
             a += y;
         }
         return a;
     }
+    
     let Color1 = populate('#');
     let Color2 = populate('#');
     var angle = 'to right';
-
+    
     let gradient = 'linear-gradient(' + angle + ',' + Color1 + ', ' + Color2 + ")";
     document.body.style.background = gradient;
+    
+    // Remove the transition class after animation completes
+    setTimeout(() => {
+        document.body.classList.remove('bg-transitioning');
+    }, 1500);
 }
-function reset(){
-    curr_time.textContent = "00:00";
-    total_duration.textContent = "00:00";
-    seek_slider.value = 0;
-    notification(); 
+
+// Color animation variables
+let colorLoopInterval;
+let colorShiftActive = false;
+
+function startColorLoop() {
+    if (colorShiftActive) return; // Already running
+    colorShiftActive = true;
+    
+    // Initial color extraction from current track art
+    if (isPlaying) {
+        // Add the playing-music class if not already added
+        if (!document.body.classList.contains('playing-music')) {
+            document.body.classList.add('playing-music');
+        }
+        
+        // Start color shifting if we have extracted colors
+        if (extractedColors.primary && extractedColors.secondary) {
+            // Clear any existing interval
+            if (colorLoopInterval) clearInterval(colorLoopInterval);
+            
+            // Set up the color loop interval that runs while music is playing
+            colorLoopInterval = setInterval(() => {
+                if (!isPlaying || !colorShiftActive) {
+                    clearInterval(colorLoopInterval);
+                    return;
+                }
+                
+                // Apply subtle variations to the background while keeping the main colors
+                const currentTime = new Date().getTime() / 1000;
+                const pulseValue = Math.sin(currentTime) * 0.2 + 0.8; // Value between 0.6 and 1.0
+                
+                // Adjust the background-size CSS property for a subtle pulsing effect
+                document.body.style.backgroundSize = `${150 + pulseValue * 50}% ${150 + pulseValue * 50}%`;
+            }, 100); // Update every 100ms for smooth animation
+        }
+    }
+}
+
+function stopColorLoop() {
+    colorShiftActive = false;
+    document.body.classList.remove('playing-music');
+    
+    if (colorLoopInterval) {
+        clearInterval(colorLoopInterval);
+        colorLoopInterval = null;
+    }
 }
 function randomTrack(){
     isRandom ? pauseRandom() : playRandom();
@@ -107,15 +408,19 @@ function playTrack(){
     curr_track.play();
     isPlaying = true;
     track_art.classList.add('rotate');
+    document.body.classList.add('playing-music');
     playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
     setUpdate();
+    startColorLoop();
 }
 function pauseTrack(){
     curr_track.pause();
     isPlaying = false;
     track_art.classList.remove('rotate');
+    document.body.classList.remove('playing-music');
     playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-5x"></i>';
     setUpdate();
+    stopColorLoop();
 }
 function nextTrack(){
     if(track_index < music_list.length - 1 && isRandom === false){
@@ -147,7 +452,12 @@ function seekTo(){
     notification();
 }
 function setVolume(){
-    curr_track.volume = volume_slider.value / 100;
+    const volumeValue = volume_slider.value;
+    curr_track.volume = volumeValue / 100;
+    
+    // Update the CSS variable for the volume slider animation
+    document.documentElement.style.setProperty('--volume-before-width', `${volumeValue}%`);
+    
     notification();
 }
 function setUpdate(){
@@ -155,6 +465,9 @@ function setUpdate(){
     if(!isNaN(curr_track.duration)){
         seekPosition = curr_track.currentTime * (100 / curr_track.duration);
         seek_slider.value = seekPosition;
+        
+        // Update the CSS variable for the progress bar animation
+        document.documentElement.style.setProperty('--seek-before-width', `${seekPosition}%`);
 
         let currentMinutes = Math.floor(curr_track.currentTime / 60);
         let currentSeconds = Math.floor(curr_track.currentTime - currentMinutes * 60);
@@ -234,33 +547,93 @@ function downloadTrack(){
 }
 
 // Playlist Functions
-function initPlaylist(searchQuery = '') {
+let currentSearchQuery = '';
+let currentArtistFilter = '';
+
+// Function to populate artist filter dropdown
+function populateArtistFilter() {
+    const artistSelect = document.getElementById('artist-filter-select');
+    if (!artistSelect) return;
+    
+    // Clear existing options except the first one (All Artists)
+    while (artistSelect.options.length > 1) {
+        artistSelect.remove(1);
+    }
+    
+    // Get unique artists from music list (case-insensitive)
+    const artistMap = {};
+    music_list.forEach(song => {
+        // Use lowercase as key for case-insensitive comparison
+        const artistKey = song.artist.toLowerCase();
+        // Store the original case version (first occurrence)
+        if (!artistMap[artistKey]) {
+            artistMap[artistKey] = song.artist;
+        }
+    });
+    
+    // Convert map to array and sort alphabetically
+    const artists = Object.values(artistMap).sort();
+    
+    // Add artist options to select
+    artists.forEach(artist => {
+        const option = document.createElement('option');
+        option.value = artist;
+        option.textContent = artist;
+        artistSelect.appendChild(option);
+    });
+}
+
+// Function to filter by artist
+function filterByArtist() {
+    const artistSelect = document.getElementById('artist-filter-select');
+    if (!artistSelect) return;
+    
+    currentArtistFilter = artistSelect.value;
+    initPlaylist(currentSearchQuery, currentArtistFilter);
+}
+
+function initPlaylist(searchQuery = '', artistFilter = '') {
+    // Update current filters
+    currentSearchQuery = searchQuery;
+    currentArtistFilter = artistFilter;
+    
     // Clear existing content
     playlistSongs.innerHTML = '';
     
-    // Filter songs based on search query if provided
-    const filteredSongs = searchQuery ? 
-        music_list.filter(song => 
+    // Filter songs based on search query and artist filter
+    let filteredSongs = music_list;
+    
+    // Apply search query filter if provided
+    if (searchQuery) {
+        filteredSongs = filteredSongs.filter(song => 
             song.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
             song.artist.toLowerCase().includes(searchQuery.toLowerCase())
-        ) : 
-        music_list;
+        );
+    }
+    
+    // Apply artist filter if provided (case-insensitive)
+    if (artistFilter) {
+        const artistFilterLower = artistFilter.toLowerCase();
+        filteredSongs = filteredSongs.filter(song => 
+            song.artist.toLowerCase() === artistFilterLower
+        );
+    }
     
     // Update song counter
     const songCounter = document.getElementById('song-counter');
     if (songCounter) {
-        if (searchQuery && filteredSongs.length !== music_list.length) {
+        if ((searchQuery || artistFilter) && filteredSongs.length !== music_list.length) {
             songCounter.textContent = `${filteredSongs.length} of ${music_list.length} songs`;
         } else {
             songCounter.textContent = `${music_list.length} songs`;
         }
     }
     
-    // Display message if no songs match the search
+    // Display message if no songs match the filters
     if (filteredSongs.length === 0) {
         const noResults = document.createElement('div');
         noResults.className = 'no-search-results';
-        noResults.textContent = 'No songs found matching your search.';
+        noResults.textContent = 'No songs found matching your criteria.';
         playlistSongs.appendChild(noResults);
         return;
     }
@@ -297,10 +670,10 @@ function initPlaylist(searchQuery = '') {
 }
 
 function togglePlaylist() {
-    if (playlistContainer.style.display === 'flex') {
-        playlistContainer.style.display = 'none';
+    if (playlistContainer.classList.contains('show')) {
+        playlistContainer.classList.remove('show');
     } else {
-        playlistContainer.style.display = 'flex';
+        playlistContainer.classList.add('show');
         updateActivePlaylistItem();
     }
 }
@@ -320,16 +693,26 @@ function updateActivePlaylistItem() {
 function searchPlaylist() {
     const searchInput = document.getElementById('playlist-search-input');
     const searchQuery = searchInput.value.trim();
-    initPlaylist(searchQuery);
+    initPlaylist(searchQuery, currentArtistFilter);
 }
 
-// Add event listener for search input to search as you type
+// Add event listeners when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
+    // Load saved theme
+    loadSavedTheme();
+    
+    // Initialize the playlist
+    initPlaylist();
+    
+    // Populate artist filter dropdown
+    populateArtistFilter();
+    
+    // Add event listener for search input to search as you type
     const searchInput = document.getElementById('playlist-search-input');
     if (searchInput) {
         searchInput.addEventListener('input', function() {
             const searchQuery = this.value.trim();
-            initPlaylist(searchQuery);
+            initPlaylist(searchQuery, currentArtistFilter);
         });
         
         // Add event listener for Enter key in search input
@@ -338,5 +721,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 searchPlaylist();
             }
         });
+    }
+    
+    // Add event listener for artist filter
+    const artistSelect = document.getElementById('artist-filter-select');
+    if (artistSelect) {
+        artistSelect.addEventListener('change', filterByArtist);
     }
 });

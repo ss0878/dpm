@@ -34,6 +34,14 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/58089/308349/Alcatraz%20-%20Jazzy%20B.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/58079/300x700/patt-sutteya-reloaded-(feat.-offgrid)-big-boi-deep.jpg',
+         name : 'Patt Sutteya Reloaded (feat. Offgrid)',
+         artist : 'Big Boi Deep',
+         album : 'Big Boi Deep',
+         released : 'Sep-3-2025',
+         music : 'https://s320.djpunjab.is/data/320/58079/308339/Patt%20Sutteya%20Reloaded%20(feat.%20Offgrid)%20-%20Big%20Boi%20Deep.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58038/300x700/balenci-shubh.jpg',
          name : 'Balenci',
          artist : 'Shubh',

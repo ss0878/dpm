@@ -26,6 +26,14 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/58113/308395/Stories%20-%20Rob%20C.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/58089/300x700/alcatraz-jazzy-b.jpg',
+         name : 'Alcatraz',
+         artist : 'Jazzy B',
+         album : 'Jazzy B',
+         released : 'Sep-5-2025',
+         music : 'https://s320.djpunjab.is/data/320/58089/308349/Alcatraz%20-%20Jazzy%20B.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58038/300x700/balenci-shubh.jpg',
          name : 'Balenci',
          artist : 'Shubh',

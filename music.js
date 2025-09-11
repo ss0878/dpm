@@ -34,7 +34,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/58089/308349/Alcatraz%20-%20Jazzy%20B.mp3'
            },
     {
-         img : 'https://cover.djpunjab.is/58079/300x700/patt-sutteya-reloaded-(feat.-offgrid)-big-boi-deep.jpg',
+         img : 'https://cover.djpunjab.is/58079/300x700/patt-sutteya-reloaded-%26feat.-offgrid%26-big-boi-deep.jpg',
          name : 'Patt Sutteya Reloaded (feat. Offgrid)',
          artist : 'Big Boi Deep',
          album : 'Big Boi Deep',

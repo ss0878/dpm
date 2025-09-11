@@ -35,6 +35,14 @@ const music_list = [
            },
     {
          img : 'https://cover.djpunjab.is/58079/300x700/patt-sutteya-reloaded-%26feat.-offgrid%26-big-boi-deep.jpg',
+         name : 'Never Backdown (feat. Offgrid)',
+         artist : 'Big Boi Deep',
+         album : 'Big Boi Deep',
+         released : 'Sep-3-2025',
+         music : 'https://s320.djpunjab.is/data/320/58084/308344/Never%20Backdown%20(feat.%20Offgrid)%20-%20Big%20Boi%20Deep.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58079/300x700/patt-sutteya-reloaded-%26feat.-offgrid%26-big-boi-deep.jpg',
          name : 'Patt Sutteya Reloaded (feat. Offgrid)',
          artist : 'Big Boi Deep',
          album : 'Big Boi Deep',

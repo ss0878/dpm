@@ -42,6 +42,14 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/58079/308339/Patt%20Sutteya%20Reloaded%20(feat.%20Offgrid)%20-%20Big%20Boi%20Deep.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/58066/300x700/tang-suit-sembhy-k.jpg',
+         name : 'Tang Suit',
+         artist : 'Sembhy K',
+         album : 'Sembhy K',
+         released : 'Aug-30-2025',
+         music : 'https://s320.djpunjab.is/data/320/58066/308314/Tang%20Suit%20-%20Sembhy%20K.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58038/300x700/balenci-shubh.jpg',
          name : 'Balenci',
          artist : 'Shubh',

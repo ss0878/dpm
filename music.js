@@ -18,6 +18,14 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/58137/308433/Moti%20-%20Sobit.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/58113/300x300/stories-rob-c.jpg',
+         name : 'Stories',
+         artist : 'Rob C',
+         album : 'Rob C',
+         released : 'Sep-6-2025',
+         music : 'https://s320.djpunjab.is/data/320/58113/308395/Stories%20-%20Rob%20C.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58038/300x700/balenci-shubh.jpg',
          name : 'Balenci',
          artist : 'Shubh',

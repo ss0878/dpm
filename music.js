@@ -2,6 +2,22 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58136/300x700/if-you-knew-her-sukha.jpg',
+         name : 'If You Knew Her',
+         artist : 'Sukha',
+         album : 'Sukha',
+         released : 'Sep-11-2025',
+         music : 'https://s320.djpunjab.is/data/320/58136/308432/If%20You%20Knew%20Her%20-%20Sukha.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58137/300x700/moti-sobit.jpg',
+         name : 'Moti',
+         artist : 'Sobit',
+         album : 'Sobit',
+         released : 'Sep-11-2025',
+         music : 'https://s320.djpunjab.is/data/320/58137/308433/Moti%20-%20Sobit.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58038/300x700/balenci-shubh.jpg',
          name : 'Balenci',
          artist : 'Shubh',

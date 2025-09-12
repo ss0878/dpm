@@ -15,9 +15,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="theme-toggle" onclick="toggleTheme()">
-            <i class="fa fa-moon-o" aria-hidden="true" id="theme-icon"></i>
-        </div>
    <div class="player">
        <div class="keyboard-shortcuts-info">
            <button class="shortcuts-button" onclick="toggleShortcutsTooltip()"><i class="fas fa-keyboard"></i></button>
@@ -69,24 +66,32 @@
            </div>
 
            <div class="buttons">
-               <div class="random-track" onclick="randomTrack()">
-                   <i class="fas fa-random fa-2x" title="random"></i>
+               <div class="main-controls">
+                   <div class="prev-track" onclick="prevTrack()">
+                        <i class="fa fa-step-backward fa-2x"></i>
+                    </div>
+                    <div class="playpause-track" onclick="playpauseTrack()">
+                        <i class="fa fa-play-circle fa-5x"></i>
+                    </div>
+                    <div class="next-track" onclick="nextTrack()">
+                        <i class="fa fa-step-forward fa-2x"></i>
+                    </div>
                </div>
-               <div class="prev-track" onclick="prevTrack()">
-                    <i class="fa fa-step-backward fa-2x"></i>
-                </div>
-                <div class="playpause-track" onclick="playpauseTrack()">
-                    <i class="fa fa-play-circle fa-5x"></i>
-                </div>
-                <div class="next-track" onclick="nextTrack()">
-                    <i class="fa fa-step-forward fa-2x"></i>
-                </div>
-                <div class="repeat-track" onclick="repeatTrack()">
-                    <i class="fa fa-repeat fa-2x" title="repeat"></i>
-                </div>
+               <div class="secondary-controls">
+                   <div class="random-track" onclick="randomTrack()">
+                       <i class="fas fa-random fa-2x" title="random"></i>
+                   </div>
+                   <div class="repeat-track" onclick="repeatTrack()">
+                       <i class="fa fa-repeat fa-2x" title="repeat"></i>
+                   </div>
+               </div>
            </div>
 
              <div id="wave">
+                </div>
+                
+                <div class="theme-toggle" onclick="toggleTheme()">
+                    <i class="fa fa-moon-o" aria-hidden="true" id="theme-icon"></i>
                 </div>
             </div> 
        </div>

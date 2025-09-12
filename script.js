@@ -20,6 +20,7 @@ let curr_track = document.createElement('audio');
 let track_index = 0;
 let isPlaying = false;
 let isRandom = false;
+let isRepeat = 0; // 0: off, 1: repeat all, 2: repeat one
 let updateTimer;
 let playlistContainer = document.getElementById('playlist-container');
 let playlistSongs = document.getElementById('playlist-songs');
@@ -33,6 +34,24 @@ document.documentElement.style.setProperty('--volume-before-width', '99%');
 
 // Load the first track
 loadTrack(track_index);
+
+// Add event listener for track end to handle repeat functionality
+curr_track.addEventListener('ended', function() {
+    if (isRepeat === 2) { // Repeat one
+        curr_track.currentTime = 0;
+        playTrack();
+    } else if (isRepeat === 1) { // Repeat all
+        nextTrack();
+    } else if (isRandom) { // Random mode
+        nextTrack();
+    } else { // Normal mode - stop at end of playlist
+        if (track_index < music_list.length - 1) {
+            nextTrack();
+        } else {
+            pauseTrack();
+        }
+    }
+});
 
 // Function to toggle keyboard shortcuts tooltip
 function toggleShortcutsTooltip() {
@@ -396,10 +415,30 @@ function pauseRandom(){
     notification();
 }
 function repeatTrack(){
-    let current_index = track_index;
-    loadTrack(current_index);
-    playTrack(); 
-    notification();
+    const repeatIcon = document.querySelector('.repeat-track i');
+    
+    // Cycle through repeat modes: 0 (off) -> 1 (repeat all) -> 2 (repeat one) -> 0
+    isRepeat = (isRepeat + 1) % 3;
+    
+    // Update visual state
+    repeatIcon.classList.remove('repeatActive', 'repeatOneActive');
+    
+    switch(isRepeat) {
+        case 0: // Off
+            repeatIcon.style.color = '';
+            repeatIcon.title = 'Repeat: Off';
+            break;
+        case 1: // Repeat All
+            repeatIcon.classList.add('repeatActive');
+            repeatIcon.style.color = '#3774ff';
+            repeatIcon.title = 'Repeat: All';
+            break;
+        case 2: // Repeat One
+            repeatIcon.classList.add('repeatOneActive');
+            repeatIcon.style.color = '#ff6b6b';
+            repeatIcon.title = 'Repeat: One';
+            break;
+    }
 }
 function playpauseTrack(){
     isPlaying ? pauseTrack() : playTrack(); notification();
@@ -412,6 +451,8 @@ function playTrack(){
     playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
     setUpdate();
     startColorLoop();
+    updatePlaybackState('playing');
+    updatePositionState();
 }
 function pauseTrack(){
     curr_track.pause();
@@ -421,6 +462,7 @@ function pauseTrack(){
     playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-5x"></i>';
     setUpdate();
     stopColorLoop();
+    updatePlaybackState('paused');
 }
 function nextTrack(){
     if(track_index < music_list.length - 1 && isRandom === false){
@@ -481,9 +523,40 @@ function setUpdate(){
 
         curr_time.textContent = currentMinutes + ":" + currentSeconds;
         total_duration.textContent = durationMinutes + ":" + durationSeconds;
+        
+        // Update media session position state for Apple devices
+        updatePositionState();
     }
-    notification();
+    if(isPlaying){
+        updateTimer = setTimeout(setUpdate, 1000);
+    }
 }
+// Function to update media session position state
+function updatePositionState() {
+    if ('mediaSession' in navigator && 'setPositionState' in navigator.mediaSession) {
+        try {
+            navigator.mediaSession.setPositionState({
+                duration: curr_track.duration || 0,
+                playbackRate: curr_track.playbackRate || 1,
+                position: curr_track.currentTime || 0
+            });
+        } catch (error) {
+            console.log('Error updating position state:', error);
+        }
+    }
+}
+
+// Function to update media session playback state
+function updatePlaybackState(state) {
+    if ('mediaSession' in navigator) {
+        try {
+            navigator.mediaSession.playbackState = state;
+        } catch (error) {
+            console.log('Error updating playback state:', error);
+        }
+    }
+}
+
 function notification(){
     sessionimg = music_list[track_index].img;
 if ( 'mediaSession' in navigator ) {
@@ -493,12 +566,12 @@ if ( 'mediaSession' in navigator ) {
 		album: 'Dope Music',
         
           	artwork: [
-                  { src: sessionimg, sizes: '96x96', type: 'auto' },
-                  { src: sessionimg, sizes: '128x128', type: 'auto' },
-                  { src: sessionimg, sizes: '192x192', type: 'auto' },
-                  { src: sessionimg, sizes: '256x256', type: 'auto' },
-                  { src: sessionimg, sizes: '384x384', type: 'auto' },
-                  { src: sessionimg, sizes: '512x512', type: 'auto' }
+                  { src: sessionimg, sizes: '96x96', type: 'image/jpeg' },
+                  { src: sessionimg, sizes: '128x128', type: 'image/jpeg' },
+                  { src: sessionimg, sizes: '192x192', type: 'image/jpeg' },
+                  { src: sessionimg, sizes: '256x256', type: 'image/jpeg' },
+                  { src: sessionimg, sizes: '384x384', type: 'image/jpeg' },
+                  { src: sessionimg, sizes: '512x512', type: 'image/jpeg' }
           ]
 		  
 	});
@@ -510,32 +583,36 @@ if ( 'mediaSession' in navigator ) {
 	  playTrack();
 	});
 	navigator.mediaSession.setActionHandler('previoustrack', () => {
-	  //find the index of the audio src in our srcs array to know what src to set next
 	  prevTrack();
 	});
 	navigator.mediaSession.setActionHandler('nexttrack', () => {
-	  //find the index of the audio src in our srcs array to know what src to set next
 	  nextTrack();
 	});
-	let defaultSkipTime = 5; /* Time to skip in seconds by default */
+	
+	// Add seekto handler for better Apple compatibility
+	navigator.mediaSession.setActionHandler('seekto', (event) => {
+		if (event.seekTime) {
+			curr_track.currentTime = event.seekTime;
+			updatePositionState();
+		}
+	});
+	
+	let defaultSkipTime = 10; /* Time to skip in seconds by default */
 
 	navigator.mediaSession.setActionHandler('seekbackward', function(event) {
-  	const skipTime = event.seekOffset || defaultSkipTime;
-  	curr_track.currentTime = Math.max(curr_track.currentTime - skipTime, 0);
-  	setUpdate();
-   updatePositionState();
+  		const skipTime = event.seekOffset || defaultSkipTime;
+  		curr_track.currentTime = Math.max(curr_track.currentTime - skipTime, 0);
+  		updatePositionState();
 	});
 
 	navigator.mediaSession.setActionHandler('seekforward', function(event) {
-  	const skipTime = event.seekOffset || defaultSkipTime;
-  	curr_track.currentTime = Math.min(curr_track.currentTime + skipTime, curr_track.duration);
-  	setUpdate();
-   updatePositionState();
+  		const skipTime = event.seekOffset || defaultSkipTime;
+  		curr_track.currentTime = Math.min(curr_track.currentTime + skipTime, curr_track.duration);
+  		updatePositionState();
 	});
 
-   
-
-
+	// Update position state when metadata is set
+	updatePositionState();
   }
 }
 

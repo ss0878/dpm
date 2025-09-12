@@ -2,6 +2,22 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58142/300x700/without-me-ap-dhillon.jpg',
+         name : 'Without Me',
+         artist : 'AP Dhillon',
+         album : 'AP Dhillon',
+         released : 'Sep-12-2025',
+         music : 'https://s320.djpunjab.is/data/320/58142/308438/Without%20Me%20-%20AP%20Dhillon.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58143/300x700/strings-attached-jxggi.jpg',
+         name : 'Strings Attached',
+         artist : 'Jxggi',
+         album : 'Jxggi',
+         released : 'Sep-12-2025',
+         music : 'https://s320.djpunjab.is/data/320/58143/308439/Strings%20Attached%20-%20Jxggi.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58136/300x700/if-you-knew-her-sukha.jpg',
          name : 'If You Knew Her',
          artist : 'Sukha',

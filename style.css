@@ -3,25 +3,29 @@
     --volume-before-width: 99%;
     
     /* Light theme variables */
-    --bg-color: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57);
-    --glass-bg: rgba(255, 255, 255, 0.25);
-    --glass-border: rgba(255, 255, 255, 0.18);
+    --bg-color: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --glass-bg: rgba(255, 255, 255, 0.15);
+    --glass-border: rgba(255, 255, 255, 0.2);
     --text-color: #ffffff;
-    --text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
-    --button-bg: rgba(255, 255, 255, 0.2);
-    --slider-bg: rgba(131, 169, 255, 0.3);
-    --playlist-bg: rgba(0, 0, 0, 0.8);
+    --text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    --button-bg: rgba(255, 255, 255, 0.1);
+    --slider-bg: rgba(131, 169, 255, 0.2);
+    --playlist-bg: rgba(0, 0, 0, 0.3);
+    --accent-color: #667eea;
+    --secondary-accent: #764ba2;
 }
 
 [data-theme="dark"] {
-    --bg-color: linear-gradient(45deg, #2c3e50, #34495e, #2c3e50, #34495e, #2c3e50);
-    --glass-bg: rgba(0, 0, 0, 0.4);
+    --bg-color: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    --glass-bg: rgba(0, 0, 0, 0.25);
     --glass-border: rgba(255, 255, 255, 0.1);
-    --text-color: #ecf0f1;
-    --text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.9);
-    --button-bg: rgba(0, 0, 0, 0.3);
-    --slider-bg: rgba(52, 73, 94, 0.5);
-    --playlist-bg: rgba(0, 0, 0, 0.9);
+    --text-color: #ffffff;
+    --text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    --button-bg: rgba(255, 255, 255, 0.05);
+    --slider-bg: rgba(30, 60, 114, 0.3);
+    --playlist-bg: rgba(0, 0, 0, 0.4);
+    --accent-color: #2a5298;
+    --secondary-accent: #1e3c72;
 }
 
 @keyframes gradientShift {
@@ -48,10 +52,12 @@ body{
     overflow-x: hidden;
     transition: background 1.5s ease-in-out;
     text-shadow: var(--text-shadow);
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    place-items: center;
     position: relative;
 }
 
@@ -156,6 +162,12 @@ body.playing-music {
     animation: bg-pulse 8s infinite alternate;
 }
 
+body.playing-music .playlist-container {
+    backdrop-filter: blur(30px) saturate(1.3);
+    -webkit-backdrop-filter: blur(30px) saturate(1.3);
+    background: rgba(0, 0, 0, 0.5);
+}
+
 @keyframes bg-pulse {
     0% {
         background-position: 0% 50%;
@@ -196,34 +208,49 @@ body.playing-music {
 
 
 .player{
-    min-height: 100vh;
-    display: flex;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+        "content"
+        "playlist";
+    grid-template-rows: 1fr auto;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
     position: relative;
-    padding: 10px;
+    padding: clamp(10px, 2vw, 20px);
     box-sizing: border-box;
+    gap: 20px;
 }
 .wrapper{
+    grid-area: content;
     border: 1px solid transparent;
-    padding: 20px;
-    border-radius: 28px;
+    padding: clamp(15px, 3vw, 30px);
+    border-radius: clamp(20px, 4vw, 35px);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    width: 90%;
-    max-width: 450px;
+    width: min(95vw, 500px);
+    height: auto;
+    max-height: 85vh;
     margin: 0 auto;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .glass{
     background: var(--glass-bg);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border-radius: 28px;
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border-radius: clamp(20px, 4vw, 35px);
     border: 1px solid var(--glass-border);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    box-shadow: 
+        0 8px 32px 0 rgba(0, 0, 0, 0.37),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1),
+        0 0 0 1px rgba(255, 255, 255, 0.05);
     transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
 }
 .details{
     display: flex;
@@ -300,37 +327,59 @@ body.playing-music {
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
 }
 .track-name{
-    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-size: clamp(1.6rem, 5.5vw, 3rem);
     width: 100%;
-    transition: 0.2s;
+    transition: all 0.3s ease;
     text-align: center;
     display: flex;
     margin: auto;
-    animation: lights 1s 800ms linear infinite;
+    font-weight: 700;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0 10px;
+    padding: 0 15px;
     box-sizing: border-box;
-    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.9);
+    text-shadow: var(--text-shadow);
+    letter-spacing: -0.02em;
+    line-height: 1.2;
 }
 .track-artist{
-    margin-top: 5px;
-    transition: 1s;
+    margin-top: 8px;
+    transition: all 0.3s ease;
     margin: auto;
-    animation: lights 1s 800ms linear infinite;
-    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.9);
+    font-size: clamp(1rem, 3.5vw, 1.5rem);
+    font-weight: 500;
+    opacity: 0.85;
+    text-shadow: var(--text-shadow);
+    letter-spacing: 0.01em;
 }
 
 
 .buttons{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    gap: clamp(10px, 2vw, 20px);
+    padding: 15px 0;
+}
+
+.main-controls {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    flex-wrap: wrap;
-    gap: 5px;
+    gap: clamp(15px, 3vw, 25px);
+}
+
+.secondary-controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(20px, 4vw, 35px);
 }
 
 /* Playlist Styles */
@@ -349,28 +398,33 @@ body.playing-music {
 }
 
 .playlist-container {
+    grid-area: playlist;
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(0.95);
-    width: 90%;
-    max-width: 450px;
+    transform: translate(-50%, -50%);
+    width: min(95vw, 500px);
+    height: auto;
     max-height: 85vh;
-    padding: 20px;
+    padding: clamp(15px, 3vw, 30px);
     display: flex;
     flex-direction: column;
     z-index: 100;
     overflow: hidden;
-    border-radius: 28px;
+    border-radius: clamp(20px, 4vw, 35px);
+    border: 1px solid var(--glass-border);
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(25px) saturate(1.2);
+    -webkit-backdrop-filter: blur(25px) saturate(1.2);
     opacity: 0;
     visibility: hidden;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .playlist-container.show {
-    transform: translate(-50%, -50%) scale(1);
     opacity: 1;
     visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
 }
 
 .playlist-header {
@@ -559,7 +613,7 @@ body.playing-music {
 
 .theme-toggle{
     position: absolute;
-    top: 20px;
+    bottom: 20px;
     left: 20px;
     padding: 10px;
     font-size: 24px;
@@ -570,16 +624,19 @@ body.playing-music {
     cursor: pointer;
     transition: all 0.3s ease;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     width: 50px;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 10;
 }
 
 .theme-toggle:hover {
     transform: scale(1.1);
     background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .downloadbutton{
@@ -606,9 +663,19 @@ body.playing-music {
 .playpause-track,
 .prev-track,
 .next-track{
-    padding: clamp(15px, 3vw, 25px);
-    opacity: 0.8;
-    transition: all 0.3s ease;
+    padding: clamp(18px, 4vw, 28px);
+    opacity: 0.85;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border-radius: 50%;
+    background: var(--button-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    min-width: 44px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .repeat-track:hover,
 .random-track:hover,
@@ -616,7 +683,9 @@ body.playing-music {
 .prev-track:hover,
 .next-track:hover{
     opacity: 1.0;
-    transform: scale(1.1);
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 .slider_container{
     display: flex;
@@ -733,6 +802,16 @@ p{
     color: black;
     transition: 1s;
 }
+
+.repeatActive{
+    color: #3774ff !important;
+    transition: 0.3s ease;
+}
+
+.repeatOneActive{
+    color: #ff6b6b !important;
+    transition: 0.3s ease;
+}
 .rotate{
     animation: rotation 7s infinite linear;
 }
@@ -748,128 +827,674 @@ p{
 
 /* Media Queries for Responsive Design */
 @media screen and (max-width: 768px) {
+    .player {
+        padding: clamp(15px, 3vw, 25px);
+    }
+    
     .wrapper {
-        padding: 15px;
-        width: 95%;
-        max-width: 400px;
-    }
-    
-    .track-name {
-        font-size: clamp(1.2rem, 4vw, 2rem);
-    }
-    
-    .buttons {
-        gap: 0;
-    }
-    
-    .slider_container {
-        margin: 15px 0;
-    }
-    
-    .seek_slider {
-        width: 90%;
-    }
-    
-    .playlist-container {
+        padding: clamp(20px, 4vw, 30px);
+        width: min(98vw, 450px);
         max-height: 90vh;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .wrapper {
-        padding: 10px;
-        border-radius: 24px;
-        width: 98%;
     }
     
     .track-art {
-        margin: 15px auto;
-        height: min(200px, 55vw);
-        width: min(200px, 55vw);
+        height: min(220px, 50vw);
+        width: min(220px, 50vw);
+        margin: 20px auto;
+    }
+    
+    .track-name {
+        font-size: clamp(1.4rem, 5vw, 2.2rem);
+        padding: 0 20px;
     }
     
     .buttons {
-        padding: 0 5px;
+        gap: clamp(8px, 2vw, 15px);
+    }
+    
+    .main-controls {
+        gap: clamp(10px, 2.5vw, 20px);
+    }
+    
+    .secondary-controls {
+        gap: clamp(15px, 3vw, 25px);
+        margin: 25px 0;
     }
     
     .repeat-track,
     .random-track,
     .prev-track,
     .next-track {
-        padding: clamp(8px, 2vw, 12px);
+        min-width: 50px;
+        min-height: 50px;
+        padding: clamp(20px, 4vw, 30px);
+    }
+    
+    .slider_container {
+        margin: 20px 0;
+        padding: 0 10px;
+    }
+    
+    .seek_slider {
+        width: 85%;
+    }
+    
+    .theme-toggle {
+        bottom: 20px;
+        left: 20px;
+        width: 48px;
+        height: 48px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .player {
+        padding: 10px;
+        gap: 15px;
+    }
+    
+    .wrapper {
+        padding: clamp(15px, 4vw, 25px);
+        border-radius: clamp(20px, 5vw, 30px);
+        width: min(96vw, 400px);
+        max-height: 88vh;
+    }
+    
+    .track-art {
+        margin: 15px auto;
+        height: min(180px, 45vw);
+        width: min(180px, 45vw);
+    }
+    
+    .track-name {
+        font-size: clamp(1.2rem, 4.5vw, 1.8rem);
+        padding: 0 15px;
+    }
+    
+    .track-artist {
+        font-size: clamp(0.9rem, 3vw, 1.2rem);
+    }
+    
+    .buttons {
+        gap: clamp(6px, 1.5vw, 10px);
+        padding: 10px 5px;
+        margin: 20px 0;
+    }
+    
+    .main-controls {
+        gap: clamp(8px, 2vw, 15px);
+    }
+    
+    .secondary-controls {
+        gap: clamp(12px, 2.5vw, 20px);
+    }
+    
+    .repeat-track,
+    .random-track,
+    .prev-track,
+    .next-track {
+        min-width: 44px;
+        min-height: 44px;
+        padding: clamp(12px, 3vw, 18px);
+    }
+    
+    .playpause-track {
+        min-width: 60px;
+        min-height: 60px;
     }
     
     .playpause-track i {
-        font-size: 4em;
+        font-size: clamp(3em, 8vw, 4em);
     }
     
-    .playlist-container {
-        width: 98%;
-        padding: 12px;
-        border-radius: 20px;
+    .slider_container {
+        margin: 15px 0;
+        padding: 0 5px;
     }
     
-    .playlist-songs {
-        max-height: calc(80vh - 100px);
+    .seek_slider {
+        width: 80%;
+        height: 8px;
     }
     
-    .playlist-song {
-        padding: 8px;
-        margin-bottom: 6px;
-    }
-    
-    .playlist-song-img {
-        width: 40px;
-        height: 40px;
-        margin-right: 10px;
+    .volume_slider {
+        width: clamp(50px, 25%, 100px);
+        height: 8px;
     }
     
     .current-time, .total-duration {
-        padding: 5px;
+        padding: 8px;
+        font-size: clamp(0.8rem, 2.5vw, 1rem);
     }
     
     .downloadbutton {
-        top: 10px;
-        right: 10px;
-        font-size: x-large;
+        top: 15px;
+        right: 15px;
+        font-size: clamp(18px, 4vw, 24px);
     }
     
     .playlist-toggle {
-        top: 10px;
-        left: 10px;
-        font-size: 20px;
+        top: 15px;
+        left: 15px;
+        font-size: clamp(18px, 4vw, 24px);
+    }
+    
+    .theme-toggle {
+        bottom: 15px;
+        left: 15px;
+        width: 44px;
+        height: 44px;
+        font-size: clamp(18px, 4vw, 22px);
+    }
+    
+    .playlist-container {
+        width: min(98vw, 450px);
+        max-height: 90vh;
+        padding: clamp(10px, 2vw, 20px);
+    }
+}
+
+/* Landscape orientation on mobile devices */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+    .player {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "content playlist";
+        padding: clamp(5px, 1.5vw, 10px);
+        gap: clamp(10px, 3vw, 20px);
+    }
+    
+    .wrapper {
+        max-height: 96vh;
+        padding: clamp(8px, 2vw, 15px);
+        width: min(98vw, 450px);
+    }
+    
+    .track-art {
+        height: min(100px, 22vw);
+        width: min(100px, 22vw);
+        margin: clamp(5px, 1.5vw, 10px) auto;
+    }
+    
+    .track-name {
+        font-size: clamp(0.9rem, 2.8vw, 1.2rem);
+        margin: clamp(4px, 1vw, 8px) 0 clamp(2px, 0.5vw, 4px) 0;
+        padding: 0 clamp(5px, 1.5vw, 10px);
+        line-height: 1.1;
+    }
+    
+    .track-artist {
+        font-size: clamp(0.75rem, 2.2vw, 0.95rem);
+        margin-top: clamp(2px, 0.5vw, 4px);
+    }
+    
+    .buttons {
+        gap: clamp(3px, 0.8vw, 6px);
+        margin: clamp(8px, 2vw, 15px) 0;
+        padding: clamp(4px, 1vw, 8px) 0;
+    }
+    
+    .main-controls {
+        gap: clamp(4px, 1.2vw, 8px);
+    }
+    
+    .secondary-controls {
+        gap: clamp(6px, 1.5vw, 12px);
+        margin: clamp(8px, 2vw, 15px) 0;
+    }
+    
+    .repeat-track,
+    .random-track,
+    .prev-track,
+    .next-track {
+        min-width: clamp(30px, 8vw, 36px);
+        min-height: clamp(30px, 8vw, 36px);
+        padding: clamp(6px, 1.5vw, 12px);
+        font-size: clamp(12px, 3vw, 16px);
+    }
+    
+    .playpause-track {
+        min-width: clamp(40px, 10vw, 48px);
+        min-height: clamp(40px, 10vw, 48px);
+    }
+    
+    .playpause-track i {
+        font-size: clamp(2.2em, 5.5vw, 2.8em);
+    }
+    
+    .slider_container {
+        margin: clamp(6px, 1.5vw, 10px) 0;
+        padding: 0 clamp(2px, 0.5vw, 5px);
+    }
+    
+    .seek_slider {
+        width: clamp(70%, 75%, 85%);
+        height: clamp(5px, 1.2vw, 8px);
+    }
+    
+    .volume_slider {
+        width: clamp(40px, 15%, 80px);
+        height: clamp(5px, 1.2vw, 8px);
+    }
+    
+    .current-time, .total-duration {
+        padding: clamp(2px, 0.8vw, 6px);
+        font-size: clamp(0.7rem, 2vw, 0.9rem);
+    }
+    
+    .downloadbutton, .playlist-toggle {
+        font-size: clamp(14px, 3vw, 18px);
+        padding: clamp(6px, 1.5vw, 10px);
+        top: clamp(5px, 1.5vw, 10px);
+    }
+    
+    .downloadbutton {
+        right: clamp(5px, 1.5vw, 10px);
+    }
+    
+    .playlist-toggle {
+        left: clamp(5px, 1.5vw, 10px);
+    }
+    
+    .theme-toggle {
+        bottom: clamp(5px, 1.5vw, 10px);
+        left: clamp(5px, 1.5vw, 10px);
+        width: clamp(32px, 8vw, 40px);
+        height: clamp(32px, 8vw, 40px);
+        font-size: clamp(14px, 3.5vw, 18px);
+    }
+    
+    .playlist-container {
+        width: min(98vw, 400px);
+        max-height: 92vh;
+        padding: clamp(5px, 1.5vw, 12px);
+    }
+    
+    .playlist-song {
+        padding: clamp(6px, 1.5vw, 10px);
+        font-size: clamp(0.75rem, 2.2vw, 0.9rem);
+        line-height: 1.2;
+    }
+}
+
+/* Ultra-narrow landscape devices */
+@media screen and (max-height: 400px) and (orientation: landscape) and (max-width: 800px) {
+    .player {
+        padding: clamp(3px, 1vw, 8px);
+        gap: clamp(8px, 2vw, 15px);
+    }
+    
+    .wrapper {
+        max-height: 98vh;
+        padding: clamp(5px, 1.5vw, 12px);
+        width: min(99vw, 400px);
+    }
+    
+    .track-art {
+        height: min(80px, 18vw);
+        width: min(80px, 18vw);
+        margin: clamp(3px, 1vw, 8px) auto;
+    }
+    
+    .track-name {
+        font-size: clamp(0.8rem, 2.5vw, 1.1rem);
+        margin: clamp(2px, 0.5vw, 5px) 0 clamp(1px, 0.3vw, 3px) 0;
+        padding: 0 clamp(3px, 1vw, 8px);
+        line-height: 1.0;
+    }
+    
+    .track-artist {
+        font-size: clamp(0.7rem, 2vw, 0.85rem);
+        margin-top: clamp(1px, 0.3vw, 3px);
+    }
+    
+    .buttons {
+        gap: clamp(2px, 0.5vw, 4px);
+        margin: clamp(5px, 1.5vw, 10px) 0;
+        padding: clamp(2px, 0.8vw, 5px) 0;
+    }
+    
+    .main-controls {
+        gap: clamp(3px, 1vw, 6px);
+    }
+    
+    .secondary-controls {
+        gap: clamp(4px, 1.2vw, 8px);
+        margin: clamp(5px, 1.5vw, 10px) 0;
+    }
+    
+    .repeat-track,
+    .random-track,
+    .prev-track,
+    .next-track {
+        min-width: clamp(26px, 6vw, 32px);
+        min-height: clamp(26px, 6vw, 32px);
+        padding: clamp(4px, 1.2vw, 8px);
+        font-size: clamp(10px, 2.5vw, 14px);
+    }
+    
+    .playpause-track {
+        min-width: clamp(34px, 8vw, 42px);
+        min-height: clamp(34px, 8vw, 42px);
+    }
+    
+    .playpause-track i {
+        font-size: clamp(1.8em, 4.5vw, 2.4em);
+    }
+    
+    .slider_container {
+        margin: clamp(4px, 1.2vw, 8px) 0;
+        padding: 0 clamp(1px, 0.3vw, 3px);
+    }
+    
+    .seek_slider {
+        width: clamp(65%, 70%, 80%);
+        height: clamp(4px, 1vw, 6px);
+    }
+    
+    .volume_slider {
+        width: clamp(30px, 12%, 60px);
+        height: clamp(4px, 1vw, 6px);
+    }
+    
+    .current-time, .total-duration {
+        padding: clamp(1px, 0.5vw, 4px);
+        font-size: clamp(0.6rem, 1.8vw, 0.8rem);
+    }
+    
+    .downloadbutton, .playlist-toggle {
+        font-size: clamp(12px, 2.5vw, 16px);
+        padding: clamp(4px, 1.2vw, 8px);
+        top: clamp(3px, 1vw, 8px);
+    }
+    
+    .downloadbutton {
+        right: clamp(3px, 1vw, 8px);
+    }
+    
+    .playlist-toggle {
+        left: clamp(3px, 1vw, 8px);
+    }
+    
+    .theme-toggle {
+        bottom: clamp(3px, 1vw, 8px);
+        left: clamp(3px, 1vw, 8px);
+        width: clamp(28px, 6vw, 36px);
+        height: clamp(28px, 6vw, 36px);
+        font-size: clamp(12px, 3vw, 16px);
+    }
+    
+    .playlist-container {
+        width: min(99vw, 350px);
+        max-height: 94vh;
+        padding: clamp(3px, 1vw, 8px);
+    }
+    
+    .playlist-song {
+        padding: clamp(4px, 1.2vw, 8px);
+        font-size: clamp(0.65rem, 2vw, 0.8rem);
+        line-height: 1.1;
+    }
+    
+    .playlist-header h2 {
+        font-size: clamp(0.9rem, 3vw, 1.2rem);
+        margin: clamp(3px, 1vw, 8px) 0;
+    }
+    
+    #playlist-search-input {
+        font-size: clamp(0.65rem, 2vw, 0.8rem);
+        padding: clamp(4px, 1.2vw, 8px);
+    }
+    
+    #playlist-search-button {
+        font-size: clamp(10px, 2.5vw, 14px);
+        padding: clamp(4px, 1.2vw, 8px);
     }
 }
 
 /* Small phones */
 @media screen and (max-width: 300px) {
+    .player {
+        padding: 5px;
+        gap: 10px;
+    }
+    
+    .wrapper {
+        padding: clamp(8px, 3vw, 15px);
+        width: min(98vw, 280px);
+        max-height: 92vh;
+        border-radius: clamp(15px, 4vw, 25px);
+    }
+    
     .track-art {
-        height: min(180px, 50vw);
-        width: min(180px, 50vw);
-        margin: 10px auto;
+        height: min(150px, 45vw);
+        width: min(150px, 45vw);
+        margin: 8px auto;
+    }
+    
+    .track-name {
+        font-size: clamp(0.9rem, 3.5vw, 1.4rem);
+        padding: 0 8px;
+        line-height: 1.2;
+    }
+    
+    .track-artist {
+        font-size: clamp(0.75rem, 2.8vw, 0.95rem);
+        margin-top: 2px;
     }
     
     .buttons {
-        gap: 0;
+        gap: clamp(2px, 0.5vw, 5px);
+        margin: 12px 0;
+        padding: 5px 0;
+    }
+    
+    .main-controls {
+        gap: clamp(4px, 1vw, 8px);
+    }
+    
+    .secondary-controls {
+        gap: clamp(8px, 1.5vw, 12px);
+        margin: 15px 0;
     }
     
     .repeat-track,
     .random-track,
     .prev-track,
     .next-track {
-        padding: clamp(5px, 1.5vw, 10px);
+        min-width: 36px;
+        min-height: 36px;
+        padding: clamp(8px, 2vw, 12px);
+        font-size: clamp(14px, 3.5vw, 18px);
+    }
+    
+    .playpause-track {
+        min-width: 50px;
+        min-height: 50px;
     }
     
     .playpause-track i {
-        font-size: 3.5em;
+        font-size: clamp(2.8em, 7vw, 3.2em);
+    }
+    
+    .slider_container {
+        margin: 10px 0;
+        padding: 0 2px;
+    }
+    
+    .seek_slider {
+        width: 75%;
+        height: 6px;
+    }
+    
+    .volume_slider {
+        width: clamp(40px, 20%, 80px);
+        height: 6px;
+    }
+    
+    .current-time, .total-duration {
+        padding: 4px;
+        font-size: clamp(0.7rem, 2.2vw, 0.85rem);
+    }
+    
+    .downloadbutton, .playlist-toggle {
+        font-size: clamp(16px, 3.5vw, 20px);
+        padding: clamp(8px, 2vw, 12px);
+    }
+    
+    .theme-toggle {
+        width: 36px;
+        height: 36px;
+        font-size: clamp(16px, 3.5vw, 20px);
+        bottom: 10px;
+        left: 10px;
+    }
+    
+    .playlist-container {
+        width: min(98vw, 280px);
+        max-height: 88vh;
+        padding: clamp(8px, 2vw, 15px);
+    }
+    
+    .playlist-song {
+        padding: clamp(8px, 2vw, 12px);
+        font-size: clamp(0.8rem, 2.5vw, 0.9rem);
+    }
+}
+
+/* Ultra-skinny devices (Galaxy Fold, etc.) */
+@media screen and (max-width: 280px) {
+    .player {
+        padding: 3px;
+        gap: 8px;
+    }
+    
+    .wrapper {
+        padding: clamp(5px, 2vw, 10px);
+        width: min(99vw, 270px);
+        max-height: 94vh;
+        border-radius: clamp(12px, 3vw, 20px);
+    }
+    
+    .track-art {
+        height: min(130px, 42vw);
+        width: min(130px, 42vw);
+        margin: 5px auto;
     }
     
     .track-name {
-        font-size: clamp(1rem, 3.5vw, 1.8rem);
+        font-size: clamp(0.8rem, 3.2vw, 1.2rem);
+        padding: 0 5px;
+        line-height: 1.1;
     }
     
     .track-artist {
-        font-size: 0.9rem;
+        font-size: clamp(0.7rem, 2.5vw, 0.85rem);
+        margin-top: 1px;
+    }
+    
+    .buttons {
+        gap: 1px;
+        margin: 8px 0;
+        padding: 3px 0;
+    }
+    
+    .main-controls {
+        gap: clamp(2px, 0.8vw, 5px);
+    }
+    
+    .secondary-controls {
+        gap: clamp(5px, 1.2vw, 8px);
+        margin: 10px 0;
+    }
+    
+    .repeat-track,
+    .random-track,
+    .prev-track,
+    .next-track {
+        min-width: 32px;
+        min-height: 32px;
+        padding: clamp(6px, 1.5vw, 10px);
+        font-size: clamp(12px, 3vw, 16px);
+    }
+    
+    .playpause-track {
+        min-width: 44px;
+        min-height: 44px;
+    }
+    
+    .playpause-track i {
+        font-size: clamp(2.4em, 6.5vw, 2.8em);
+    }
+    
+    .slider_container {
+        margin: 8px 0;
+        padding: 0 1px;
+    }
+    
+    .seek_slider {
+        width: 70%;
+        height: 5px;
+    }
+    
+    .volume_slider {
+        width: clamp(35px, 18%, 70px);
+        height: 5px;
+    }
+    
+    .current-time, .total-duration {
+        padding: 2px;
+        font-size: clamp(0.65rem, 2vw, 0.75rem);
+    }
+    
+    .downloadbutton, .playlist-toggle {
+        font-size: clamp(14px, 3.2vw, 18px);
+        padding: clamp(6px, 1.5vw, 10px);
+        top: 8px;
+    }
+    
+    .downloadbutton {
+        right: 8px;
+    }
+    
+    .playlist-toggle {
+        left: 8px;
+    }
+    
+    .theme-toggle {
+        width: 32px;
+        height: 32px;
+        font-size: clamp(14px, 3.2vw, 18px);
+        bottom: 8px;
+        left: 8px;
+    }
+    
+    .playlist-container {
+        width: min(99vw, 270px);
+        max-height: 90vh;
+        padding: clamp(5px, 1.5vw, 10px);
+    }
+    
+    .playlist-song {
+        padding: clamp(6px, 1.5vw, 10px);
+        font-size: clamp(0.75rem, 2.2vw, 0.85rem);
+        line-height: 1.2;
+    }
+    
+    .playlist-header h2 {
+        font-size: clamp(1rem, 3.5vw, 1.3rem);
+        margin: clamp(5px, 1.5vw, 10px) 0;
+    }
+    
+    #playlist-search-input {
+        font-size: clamp(0.75rem, 2.2vw, 0.85rem);
+        padding: clamp(6px, 1.5vw, 10px);
+    }
+    
+    #playlist-search-button {
+        font-size: clamp(12px, 3vw, 16px);
+        padding: clamp(6px, 1.5vw, 10px);
     }
 }
 

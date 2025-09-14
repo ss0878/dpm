@@ -6,8 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Dope Punjabi Music</title>
     <link rel="stylesheet" href="style.css">
-    <script src="music.js" defer></script>
     <script src="script.js" defer></script>
+    <script>
+        // Lazy load music.js after page load
+        window.addEventListener('load', function() {
+            const musicScript = document.createElement('script');
+            musicScript.src = 'music.js';
+            musicScript.async = true;
+            document.head.appendChild(musicScript);
+        });
+    </script>
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/875/875590.png" type="image/x-icon">  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -90,8 +98,15 @@
              <div id="wave">
                 </div>
                 
-                <div class="theme-toggle" onclick="toggleTheme()">
-                    <i class="fa fa-moon-o" aria-hidden="true" id="theme-icon"></i>
+                <div class="theme-slider-container">
+                    <input type="checkbox" id="theme-checkbox" class="theme-checkbox">
+                    <label for="theme-checkbox" class="theme-slider">
+                        <span class="slider-track">
+                            <span class="slider-thumb"></span>
+                            <i class="fa fa-sun-o sun-icon"></i>
+                            <i class="fa fa-moon-o moon-icon"></i>
+                        </span>
+                    </label>
                 </div>
             </div> 
        </div>

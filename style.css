@@ -28,6 +28,21 @@
     --secondary-accent: #1e3c72;
 }
 
+/* Performance Optimizations */
+* {
+    box-sizing: border-box;
+}
+
+.player, .wrapper, .glass {
+    will-change: transform;
+    contain: layout style paint;
+}
+
+.track-art img {
+    will-change: auto;
+    contain: layout style;
+}
+
 @keyframes gradientShift {
     0% {
         background-position: 0% 50%;
@@ -611,32 +626,84 @@ body.playing-music .playlist-container {
     color: black;
 }
 
-.theme-toggle{
+/* Theme Slider Styles */
+.theme-slider-container {
     position: absolute;
     bottom: 20px;
     left: 20px;
-    padding: 10px;
-    font-size: 24px;
-    background: var(--button-bg);
-    border: 1px solid var(--glass-border);
-    border-radius: 50%;
-    color: var(--text-color);
-    cursor: pointer;
-    transition: all 0.3s ease;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     z-index: 10;
 }
 
-.theme-toggle:hover {
-    transform: scale(1.1);
-    background: rgba(255, 255, 255, 0.3);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+.theme-checkbox {
+    display: none;
+}
+
+.theme-slider {
+    display: block;
+    cursor: pointer;
+}
+
+.slider-track {
+    position: relative;
+    width: 50px;
+    height: 24px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slider-thumb {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(135deg, #fff 0%, #f0f0f0 100%);
+    border-radius: 50%;
+    left: 3px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.sun-icon, .moon-icon {
+    font-size: 10px;
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+.sun-icon {
+    color: #ffd700;
+    opacity: 1;
+}
+
+.moon-icon {
+    color: #87ceeb;
+    opacity: 0.5;
+}
+
+.theme-checkbox:checked + .theme-slider .slider-thumb {
+    transform: translateX(26px);
+}
+
+.theme-checkbox:checked + .theme-slider .sun-icon {
+    opacity: 0.5;
+}
+
+.theme-checkbox:checked + .theme-slider .moon-icon {
+    opacity: 1;
+    color: #b0c4de;
+}
+
+.theme-slider:hover .slider-track {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .downloadbutton{
@@ -829,12 +896,17 @@ p{
 @media screen and (max-width: 768px) {
     .player {
         padding: clamp(15px, 3vw, 25px);
+        min-height: 100vh;
+        min-height: 100dvh; /* Dynamic viewport height for mobile */
     }
     
     .wrapper {
-        padding: clamp(20px, 4vw, 30px);
-        width: min(98vw, 450px);
-        max-height: 90vh;
+        padding: clamp(15px, 3vw, 25px);
+        width: min(95vw, 450px);
+        max-height: 85vh;
+        max-height: 85dvh; /* Better mobile viewport handling */
+        overflow-y: auto;
+        margin: 0 auto;
     }
     
     .track-art {
@@ -879,26 +951,62 @@ p{
         width: 85%;
     }
     
-    .theme-toggle {
-        bottom: 20px;
-        left: 20px;
-        width: 48px;
-        height: 48px;
-        font-size: 22px;
+    .theme-slider-container {
+        bottom: 15px;
+        left: 15px;
+        transform: scale(0.9);
+    }
+}
+
+/* Extra small devices */
+@media screen and (max-width: 320px) {
+    .wrapper {
+        width: min(90vw, 300px);
+        padding: 10px;
+        border-radius: 15px;
+        max-height: 75vh;
+        max-height: 75dvh;
+    }
+    
+    .track-art {
+        height: min(150px, 40vw);
+        width: min(150px, 40vw);
+        margin: 10px auto;
+    }
+    
+    .track-name {
+        font-size: clamp(1rem, 4vw, 1.4rem);
+        padding: 0 10px;
+    }
+    
+    .buttons {
+        gap: 5px;
+        padding: 8px 3px;
+    }
+    
+    .theme-slider-container {
+        bottom: 10px;
+        left: 10px;
+        transform: scale(0.8);
     }
 }
 
 @media screen and (max-width: 480px) {
     .player {
-        padding: 10px;
-        gap: 15px;
+        padding: 8px;
+        gap: 12px;
+        min-height: 100vh;
+        min-height: 100dvh;
     }
     
     .wrapper {
-        padding: clamp(15px, 4vw, 25px);
-        border-radius: clamp(20px, 5vw, 30px);
-        width: min(96vw, 400px);
-        max-height: 88vh;
+        padding: clamp(12px, 3vw, 20px);
+        border-radius: clamp(15px, 4vw, 25px);
+        width: min(92vw, 380px);
+        max-height: 80vh;
+        max-height: 80dvh;
+        overflow-y: auto;
+        margin: 0 auto;
     }
     
     .track-art {
@@ -1497,5 +1605,4 @@ p{
         padding: clamp(6px, 1.5vw, 10px);
     }
 }
-
 

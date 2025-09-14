@@ -31,9 +31,29 @@ totalMusic = document.querySelector(".total-music-list");
 // Initialize the volume slider CSS variable
 document.documentElement.style.setProperty('--volume-before-width', '99%');
 
+// Music loading state
+let musicLoaded = false;
+let musicLoadPromise = new Promise((resolve) => {
+    if (typeof music_list !== 'undefined') {
+        musicLoaded = true;
+        resolve();
+    } else {
+        const checkMusic = setInterval(() => {
+            if (typeof music_list !== 'undefined') {
+                musicLoaded = true;
+                clearInterval(checkMusic);
+                resolve();
+            }
+        }, 100);
+    }
+});
 
-// Load the first track
-loadTrack(track_index);
+// Load the first track after music is available
+musicLoadPromise.then(() => {
+    loadTrack(track_index);
+    populateArtistFilter();
+    initPlaylist();
+});
 
 // Add event listener for track end to handle repeat functionality
 curr_track.addEventListener('ended', function() {
@@ -82,30 +102,31 @@ function closeTooltipOnClickOutside(event) {
 // Theme toggle functionality
 function toggleTheme() {
     const body = document.body;
-    const themeIcon = document.getElementById('theme-icon');
+    const themeCheckbox = document.getElementById('theme-checkbox');
     
-    if (body.getAttribute('data-theme') === 'dark') {
-        body.removeAttribute('data-theme');
-        themeIcon.className = 'fa fa-moon-o';
-        localStorage.setItem('theme', 'light');
-    } else {
+    if (themeCheckbox.checked) {
         body.setAttribute('data-theme', 'dark');
-        themeIcon.className = 'fa fa-sun-o';
         localStorage.setItem('theme', 'dark');
+    } else {
+        body.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
     }
 }
 
 // Load saved theme on page load
 function loadSavedTheme() {
     const savedTheme = localStorage.getItem('theme');
-    const themeIcon = document.getElementById('theme-icon');
+    const themeCheckbox = document.getElementById('theme-checkbox');
     
     if (savedTheme === 'dark') {
         document.body.setAttribute('data-theme', 'dark');
-        themeIcon.className = 'fa fa-sun-o';
+        themeCheckbox.checked = true;
     } else {
-        themeIcon.className = 'fa fa-moon-o';
+        themeCheckbox.checked = false;
     }
+    
+    // Add event listener to checkbox
+    themeCheckbox.addEventListener('change', toggleTheme);
 }
 
 // Add keyboard shortcuts for playback control

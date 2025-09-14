@@ -3,11 +3,11 @@ const music_list = [
    
    {
          img : 'https://cover.djpunjab.is/58157/300x700/haseen-ep-talwiinder.jpg',
-         name : 'Haseen DNB',
+         name : 'Haseen Remix',
          artist : 'Talwiinder',
          album : 'Talwiinder',
          released : 'Sep-13-2025',
-         music : 'https://p320.djpunjab.is/data/320/58157/308459/Haseen%20Dnb%20-%20Talwiinder.mp3'
+         music : 'https://p320.djpunjab.is/data/320/58157/308457/Haseen%20(Remix)%20-%20Talwiinder.mp3'
            },
     {
          img : 'https://cover.djpunjab.is/58145/300x700/tenu-ki-pata-diljit-dosanjh.jpg',

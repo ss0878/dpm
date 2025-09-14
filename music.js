@@ -2,6 +2,14 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58145/300x700/tenu-ki-pata-diljit-dosanjh.jpg',
+         name : 'Tenu Ki Pata',
+         artist : 'Diljit Dosanjh',
+         album : 'Diljit Dosanjh',
+         released : 'Sep-13-2025',
+         music : 'https://s320.djpunjab.is/data/320/58145/308444/Tenu%20Ki%20Pata%20-%20Diljit%20Dosanjh.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58142/300x700/without-me-ap-dhillon.jpg',
          name : 'Without Me',
          artist : 'AP Dhillon',

@@ -28,21 +28,6 @@
     --secondary-accent: #1e3c72;
 }
 
-/* Performance Optimizations */
-* {
-    box-sizing: border-box;
-}
-
-.player, .wrapper, .glass {
-    will-change: transform;
-    contain: layout style paint;
-}
-
-.track-art img {
-    will-change: auto;
-    contain: layout style;
-}
-
 @keyframes gradientShift {
     0% {
         background-position: 0% 50%;
@@ -234,6 +219,8 @@ body.playing-music .playlist-container {
     justify-content: center;
     position: relative;
     padding: clamp(10px, 2vw, 20px);
+    padding-left: clamp(10px, 2vw, 20px);
+    padding-right: clamp(10px, 2vw, 20px);
     box-sizing: border-box;
     gap: 20px;
 }
@@ -247,6 +234,8 @@ body.playing-music .playlist-container {
     height: auto;
     max-height: 85vh;
     margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     display: flex;
     flex-direction: column;
@@ -422,6 +411,8 @@ body.playing-music .playlist-container {
     height: auto;
     max-height: 85vh;
     padding: clamp(15px, 3vw, 30px);
+    padding-left: clamp(15px, 3vw, 30px);
+    padding-right: clamp(15px, 3vw, 30px);
     display: flex;
     flex-direction: column;
     z-index: 100;
@@ -626,84 +617,32 @@ body.playing-music .playlist-container {
     color: black;
 }
 
-/* Theme Slider Styles */
-.theme-slider-container {
+.theme-toggle{
     position: absolute;
     bottom: 20px;
     left: 20px;
+    padding: 10px;
+    font-size: 24px;
+    background: var(--button-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 50%;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     z-index: 10;
 }
 
-.theme-checkbox {
-    display: none;
-}
-
-.theme-slider {
-    display: block;
-    cursor: pointer;
-}
-
-.slider-track {
-    position: relative;
-    width: 50px;
-    height: 24px;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    transition: all 0.3s ease;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 4px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.slider-thumb {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: linear-gradient(135deg, #fff 0%, #f0f0f0 100%);
-    border-radius: 50%;
-    left: 3px;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    z-index: 2;
-}
-
-.sun-icon, .moon-icon {
-    font-size: 10px;
-    transition: all 0.3s ease;
-    z-index: 1;
-}
-
-.sun-icon {
-    color: #ffd700;
-    opacity: 1;
-}
-
-.moon-icon {
-    color: #87ceeb;
-    opacity: 0.5;
-}
-
-.theme-checkbox:checked + .theme-slider .slider-thumb {
-    transform: translateX(26px);
-}
-
-.theme-checkbox:checked + .theme-slider .sun-icon {
-    opacity: 0.5;
-}
-
-.theme-checkbox:checked + .theme-slider .moon-icon {
-    opacity: 1;
-    color: #b0c4de;
-}
-
-.theme-slider:hover .slider-track {
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+.theme-toggle:hover {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .downloadbutton{
@@ -896,17 +835,14 @@ p{
 @media screen and (max-width: 768px) {
     .player {
         padding: clamp(15px, 3vw, 25px);
-        min-height: 100vh;
-        min-height: 100dvh; /* Dynamic viewport height for mobile */
+        padding-left: clamp(15px, 3vw, 25px);
+        padding-right: clamp(15px, 3vw, 25px);
     }
     
     .wrapper {
-        padding: clamp(15px, 3vw, 25px);
-        width: min(95vw, 450px);
-        max-height: 85vh;
-        max-height: 85dvh; /* Better mobile viewport handling */
-        overflow-y: auto;
-        margin: 0 auto;
+        padding: clamp(20px, 4vw, 30px);
+        width: min(98vw, 450px);
+        max-height: 90vh;
     }
     
     .track-art {
@@ -951,62 +887,28 @@ p{
         width: 85%;
     }
     
-    .theme-slider-container {
-        bottom: 15px;
-        left: 15px;
-        transform: scale(0.9);
-    }
-}
-
-/* Extra small devices */
-@media screen and (max-width: 320px) {
-    .wrapper {
-        width: min(90vw, 300px);
-        padding: 10px;
-        border-radius: 15px;
-        max-height: 75vh;
-        max-height: 75dvh;
-    }
-    
-    .track-art {
-        height: min(150px, 40vw);
-        width: min(150px, 40vw);
-        margin: 10px auto;
-    }
-    
-    .track-name {
-        font-size: clamp(1rem, 4vw, 1.4rem);
-        padding: 0 10px;
-    }
-    
-    .buttons {
-        gap: 5px;
-        padding: 8px 3px;
-    }
-    
-    .theme-slider-container {
-        bottom: 10px;
-        left: 10px;
-        transform: scale(0.8);
+    .theme-toggle {
+        bottom: 20px;
+        left: 20px;
+        width: 48px;
+        height: 48px;
+        font-size: 22px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .player {
-        padding: 8px;
-        gap: 12px;
-        min-height: 100vh;
-        min-height: 100dvh;
+        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 15px;
     }
     
     .wrapper {
-        padding: clamp(12px, 3vw, 20px);
-        border-radius: clamp(15px, 4vw, 25px);
-        width: min(92vw, 380px);
-        max-height: 80vh;
-        max-height: 80dvh;
-        overflow-y: auto;
-        margin: 0 auto;
+        padding: clamp(15px, 4vw, 25px);
+        border-radius: clamp(20px, 5vw, 30px);
+        width: min(96vw, 400px);
+        max-height: 88vh;
     }
     
     .track-art {
@@ -1100,6 +1002,8 @@ p{
         width: min(98vw, 450px);
         max-height: 90vh;
         padding: clamp(10px, 2vw, 20px);
+        padding-left: clamp(10px, 2vw, 20px);
+        padding-right: clamp(10px, 2vw, 20px);
     }
 }
 
@@ -1110,6 +1014,8 @@ p{
         grid-template-columns: 1fr 1fr;
         grid-template-areas: "content playlist";
         padding: clamp(5px, 1.5vw, 10px);
+        padding-left: clamp(5px, 1.5vw, 10px);
+        padding-right: clamp(5px, 1.5vw, 10px);
         gap: clamp(10px, 3vw, 20px);
     }
     
@@ -1217,6 +1123,8 @@ p{
         width: min(98vw, 400px);
         max-height: 92vh;
         padding: clamp(5px, 1.5vw, 12px);
+        padding-left: clamp(5px, 1.5vw, 12px);
+        padding-right: clamp(5px, 1.5vw, 12px);
     }
     
     .playlist-song {
@@ -1230,6 +1138,8 @@ p{
 @media screen and (max-height: 400px) and (orientation: landscape) and (max-width: 800px) {
     .player {
         padding: clamp(3px, 1vw, 8px);
+        padding-left: clamp(3px, 1vw, 8px);
+        padding-right: clamp(3px, 1vw, 8px);
         gap: clamp(8px, 2vw, 15px);
     }
     
@@ -1337,6 +1247,8 @@ p{
         width: min(99vw, 350px);
         max-height: 94vh;
         padding: clamp(3px, 1vw, 8px);
+        padding-left: clamp(3px, 1vw, 8px);
+        padding-right: clamp(3px, 1vw, 8px);
     }
     
     .playlist-song {
@@ -1365,6 +1277,8 @@ p{
 @media screen and (max-width: 300px) {
     .player {
         padding: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
         gap: 10px;
     }
     
@@ -1463,6 +1377,8 @@ p{
         width: min(98vw, 280px);
         max-height: 88vh;
         padding: clamp(8px, 2vw, 15px);
+        padding-left: clamp(8px, 2vw, 15px);
+        padding-right: clamp(8px, 2vw, 15px);
     }
     
     .playlist-song {
@@ -1475,6 +1391,8 @@ p{
 @media screen and (max-width: 280px) {
     .player {
         padding: 3px;
+        padding-left: 3px;
+        padding-right: 3px;
         gap: 8px;
     }
     
@@ -1582,6 +1500,8 @@ p{
         width: min(99vw, 270px);
         max-height: 90vh;
         padding: clamp(5px, 1.5vw, 10px);
+        padding-left: clamp(5px, 1.5vw, 10px);
+        padding-right: clamp(5px, 1.5vw, 10px);
     }
     
     .playlist-song {
@@ -1605,4 +1525,154 @@ p{
         padding: clamp(6px, 1.5vw, 10px);
     }
 }
+
+/* Samsung Galaxy Z Fold (unfolded) - 7.6" display */
+@media screen and (min-width: 1768px) and (max-width: 2208px) and (min-height: 1768px) {
+    .player {
+        width: min(60vw, 600px);
+        padding: clamp(25px, 3vw, 40px);
+        padding-left: clamp(25px, 3vw, 40px);
+        padding-right: clamp(25px, 3vw, 40px);
+    }
+    
+    .wrapper {
+        gap: clamp(20px, 2.5vw, 35px);
+    }
+    
+    .track-art {
+        width: clamp(200px, 25vw, 300px);
+        height: clamp(200px, 25vw, 300px);
+    }
+    
+    .playlist-container {
+        width: min(50vw, 500px);
+        max-height: 70vh;
+    }
+}
+
+/* Samsung Galaxy Z Fold (folded) and similar narrow devices */
+@media screen and (max-width: 884px) and (min-height: 1792px) {
+    .player {
+        width: min(95vw, 350px);
+        padding: clamp(15px, 4vw, 25px);
+        padding-left: clamp(15px, 4vw, 25px);
+        padding-right: clamp(15px, 4vw, 25px);
+    }
+    
+    .wrapper {
+        gap: clamp(15px, 3vw, 25px);
+    }
+    
+    .track-art {
+        width: clamp(120px, 30vw, 180px);
+        height: clamp(120px, 30vw, 180px);
+    }
+    
+    .track-name {
+        font-size: clamp(1.1rem, 4vw, 1.4rem);
+    }
+    
+    .track-artist {
+        font-size: clamp(0.9rem, 3.5vw, 1.1rem);
+    }
+    
+    .buttons {
+        gap: clamp(15px, 4vw, 25px);
+    }
+    
+    .main-controls button {
+        width: clamp(45px, 12vw, 60px);
+        height: clamp(45px, 12vw, 60px);
+        font-size: clamp(18px, 5vw, 24px);
+    }
+    
+    .playlist-container {
+        width: min(90vw, 320px);
+        max-height: 85vh;
+    }
+}
+
+/* Samsung S20 Ultra and similar ultra-wide devices */
+@media screen and (min-width: 412px) and (max-width: 915px) and (min-height: 869px) and (max-height: 915px) {
+    .player {
+        width: min(90vw, 380px);
+        padding: clamp(18px, 3.5vw, 28px);
+        padding-left: clamp(18px, 3.5vw, 28px);
+        padding-right: clamp(18px, 3.5vw, 28px);
+    }
+    
+    .wrapper {
+        gap: clamp(18px, 3vw, 28px);
+    }
+    
+    .track-art {
+        width: clamp(140px, 32vw, 200px);
+        height: clamp(140px, 32vw, 200px);
+    }
+    
+    .buttons {
+        gap: clamp(18px, 4vw, 28px);
+    }
+    
+    .playlist-container {
+        width: min(85vw, 360px);
+        max-height: 80vh;
+    }
+}
+
+/* Aspect ratio based queries for modern devices */
+@media screen and (min-aspect-ratio: 18/9) {
+    .player {
+        width: min(85vw, 420px);
+    }
+    
+    .wrapper {
+        gap: clamp(16px, 2.8vw, 26px);
+    }
+    
+    .track-art {
+        width: clamp(130px, 28vw, 190px);
+        height: clamp(130px, 28vw, 190px);
+    }
+}
+
+@media screen and (min-aspect-ratio: 20/9) {
+    .player {
+        width: min(80vw, 400px);
+    }
+    
+    .track-art {
+        width: clamp(120px, 26vw, 170px);
+        height: clamp(120px, 26vw, 170px);
+    }
+    
+    .buttons {
+        gap: clamp(14px, 3.5vw, 24px);
+    }
+}
+
+/* Ultra-tall devices (like unfolded Z Fold) */
+@media screen and (min-aspect-ratio: 4/3) and (orientation: portrait) and (min-height: 1000px) {
+    .player {
+        width: min(75vw, 350px);
+        padding: clamp(20px, 3.5vw, 30px);
+        padding-left: clamp(20px, 3.5vw, 30px);
+        padding-right: clamp(20px, 3.5vw, 30px);
+    }
+    
+    .wrapper {
+        gap: clamp(20px, 3vw, 30px);
+    }
+    
+    .track-art {
+        width: clamp(150px, 30vw, 220px);
+        height: clamp(150px, 30vw, 220px);
+    }
+    
+    .playlist-container {
+        width: min(70vw, 400px);
+        max-height: 75vh;
+    }
+}
+
 

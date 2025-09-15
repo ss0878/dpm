@@ -31,29 +31,9 @@ totalMusic = document.querySelector(".total-music-list");
 // Initialize the volume slider CSS variable
 document.documentElement.style.setProperty('--volume-before-width', '99%');
 
-// Music loading state
-let musicLoaded = false;
-let musicLoadPromise = new Promise((resolve) => {
-    if (typeof music_list !== 'undefined') {
-        musicLoaded = true;
-        resolve();
-    } else {
-        const checkMusic = setInterval(() => {
-            if (typeof music_list !== 'undefined') {
-                musicLoaded = true;
-                clearInterval(checkMusic);
-                resolve();
-            }
-        }, 100);
-    }
-});
 
-// Load the first track after music is available
-musicLoadPromise.then(() => {
-    loadTrack(track_index);
-    populateArtistFilter();
-    initPlaylist();
-});
+// Load the first track
+loadTrack(track_index);
 
 // Add event listener for track end to handle repeat functionality
 curr_track.addEventListener('ended', function() {
@@ -102,31 +82,30 @@ function closeTooltipOnClickOutside(event) {
 // Theme toggle functionality
 function toggleTheme() {
     const body = document.body;
-    const themeCheckbox = document.getElementById('theme-checkbox');
+    const themeIcon = document.getElementById('theme-icon');
     
-    if (themeCheckbox.checked) {
-        body.setAttribute('data-theme', 'dark');
-        localStorage.setItem('theme', 'dark');
-    } else {
+    if (body.getAttribute('data-theme') === 'dark') {
         body.removeAttribute('data-theme');
+        themeIcon.className = 'fa fa-moon-o';
         localStorage.setItem('theme', 'light');
+    } else {
+        body.setAttribute('data-theme', 'dark');
+        themeIcon.className = 'fa fa-sun-o';
+        localStorage.setItem('theme', 'dark');
     }
 }
 
 // Load saved theme on page load
 function loadSavedTheme() {
     const savedTheme = localStorage.getItem('theme');
-    const themeCheckbox = document.getElementById('theme-checkbox');
+    const themeIcon = document.getElementById('theme-icon');
     
     if (savedTheme === 'dark') {
         document.body.setAttribute('data-theme', 'dark');
-        themeCheckbox.checked = true;
+        themeIcon.className = 'fa fa-sun-o';
     } else {
-        themeCheckbox.checked = false;
+        themeIcon.className = 'fa fa-moon-o';
     }
-    
-    // Add event listener to checkbox
-    themeCheckbox.addEventListener('change', toggleTheme);
 }
 
 // Add keyboard shortcuts for playback control
@@ -204,6 +183,7 @@ function loadTrack(track_index){
 
     curr_track.addEventListener('ended', nextTrack);
     updateActivePlaylistItem();
+    updateNextSongPreview();
     random_bg_color();
     
     // Remove loading animation when track is ready to play
@@ -214,6 +194,43 @@ function loadTrack(track_index){
     });
     
     notification();
+}
+
+// Function to update next song preview
+function updateNextSongPreview() {
+    const nextSongArtwork = document.querySelector('.next-song-artwork');
+    const nextSongTitle = document.querySelector('.next-song-title');
+    const nextSongArtist = document.querySelector('.next-song-artist');
+    const nextSongPreview = document.querySelector('.next-song-preview');
+    
+    let nextIndex;
+    
+    // Determine next song index based on current mode
+    if (isRandom) {
+        // For random mode, generate a random next song (excluding current)
+        do {
+            nextIndex = Math.floor(Math.random() * music_list.length);
+        } while (nextIndex === track_index && music_list.length > 1);
+    } else {
+        // For normal/repeat mode, get next song in sequence
+        nextIndex = (track_index + 1) % music_list.length;
+    }
+    
+    // Hide preview if we're at the last song and not in repeat mode
+    if (!isRandom && !isRepeat && track_index === music_list.length - 1) {
+        nextSongPreview.style.display = 'none';
+        return;
+    }
+    
+    // Show and update the preview
+    nextSongPreview.style.display = 'flex';
+    
+    if (nextIndex < music_list.length) {
+        const nextSong = music_list[nextIndex];
+        nextSongArtwork.style.backgroundImage = `url(${nextSong.img})`;
+        nextSongTitle.textContent = nextSong.name;
+        nextSongArtist.textContent = nextSong.artist;
+    }
 }
 
 
@@ -428,11 +445,13 @@ function randomTrack(){
 function playRandom(){
     isRandom = true;
     randomIcon.classList.add('randomActive');
+    updateNextSongPreview();
     notification();
 }
 function pauseRandom(){
     isRandom = false;
     randomIcon.classList.remove('randomActive');
+    updateNextSongPreview();
     notification();
 }
 function repeatTrack(){
@@ -460,6 +479,7 @@ function repeatTrack(){
             repeatIcon.title = 'Repeat: One';
             break;
     }
+    updateNextSongPreview();
 }
 function playpauseTrack(){
     isPlaying ? pauseTrack() : playTrack(); notification();

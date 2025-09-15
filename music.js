@@ -2,6 +2,22 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58163/300x700/punjab-aale-g-sidhu.jpg',
+         name : 'Punjab Aale',
+         artist : 'G Sidhu',
+         album : 'G Sidhu',
+         released : 'Sep-15-2025',
+         music : 'https://s320.djpunjab.is/data/320/58163/308466/Punjab%20Aale%20-%20G%20Sidhu.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58161/300x700/hammer-ninja.jpg',
+         name : 'Hammer',
+         artist : 'Ninja',
+         album : 'Ninja',
+         released : 'Sep-15-2025',
+         music : 'https://s320.djpunjab.is/data/320/58161/308464/Hammer%20-%20Ninja.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58157/300x700/haseen-ep-talwiinder.jpg',
          name : 'Haseen Remix',
          artist : 'Talwiinder',

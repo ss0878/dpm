@@ -28,6 +28,21 @@
     --secondary-accent: #1e3c72;
 }
 
+/* Performance Optimizations */
+* {
+    box-sizing: border-box;
+}
+
+.player, .wrapper, .glass {
+    will-change: transform;
+    contain: layout style paint;
+}
+
+.track-art img {
+    will-change: auto;
+    contain: layout style;
+}
+
 @keyframes gradientShift {
     0% {
         background-position: 0% 50%;

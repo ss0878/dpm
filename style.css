@@ -1,3 +1,4 @@
+
 :root {
     --seek-before-width: 0%;
     --volume-before-width: 99%;
@@ -366,7 +367,7 @@ body.playing-music .playlist-container {
     margin-bottom: 25px;
     margin-top: 20px;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    gap: clamp(10px, 2vw, 20px);
+    gap: 0;
     padding: 15px 0;
 }
 
@@ -934,7 +935,7 @@ p{
     }
     
     .buttons {
-        gap: clamp(8px, 2vw, 15px);
+        gap: 0;
     }
     
     .main-controls {
@@ -1004,7 +1005,7 @@ p{
     }
     
     .buttons {
-        gap: clamp(6px, 1.5vw, 10px);
+        gap: 0;
         padding: 10px 5px;
         margin: 20px 0;
     }
@@ -1205,7 +1206,7 @@ p{
     }
     
     .buttons {
-        gap: clamp(3px, 0.8vw, 6px);
+        gap: 0;
         margin: clamp(8px, 2vw, 15px) 0;
         padding: clamp(4px, 1vw, 8px) 0;
     }
@@ -1412,7 +1413,7 @@ p{
     }
     
     .buttons {
-        gap: clamp(2px, 0.5vw, 4px);
+        gap: 0;
         margin: clamp(5px, 1.5vw, 10px) 0;
         padding: clamp(2px, 0.8vw, 5px) 0;
     }
@@ -1551,7 +1552,7 @@ p{
     }
     
     .buttons {
-        gap: clamp(2px, 0.5vw, 5px);
+        gap: 0;
         margin: 12px 0;
         padding: 5px 0;
     }
@@ -1665,7 +1666,7 @@ p{
     }
     
     .buttons {
-        gap: 1px;
+        gap: 0;
         margin: 8px 0;
         padding: 3px 0;
     }
@@ -1918,5 +1919,3 @@ p{
         max-height: 75vh;
     }
 }
-
-

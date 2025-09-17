@@ -183,7 +183,7 @@ function loadTrack(track_index){
 
     curr_track.addEventListener('ended', nextTrack);
     updateActivePlaylistItem();
-    updateNextSongPreview();
+    updateSongNavigationPreview();
     random_bg_color();
     
     // Remove loading animation when track is ready to play
@@ -196,14 +196,17 @@ function loadTrack(track_index){
     notification();
 }
 
-// Function to update next song preview
-function updateNextSongPreview() {
+// Function to update song navigation preview (both previous and next)
+function updateSongNavigationPreview() {
+    const prevSongArtwork = document.querySelector('.prev-song-artwork');
+    const prevSongTitle = document.querySelector('.prev-song-title');
+    const prevSongArtist = document.querySelector('.prev-song-artist');
     const nextSongArtwork = document.querySelector('.next-song-artwork');
     const nextSongTitle = document.querySelector('.next-song-title');
     const nextSongArtist = document.querySelector('.next-song-artist');
-    const nextSongPreview = document.querySelector('.next-song-preview');
+    const songNavigationPreview = document.querySelector('.song-navigation-preview');
     
-    let nextIndex;
+    let nextIndex, prevIndex;
     
     // Determine next song index based on current mode
     if (isRandom) {
@@ -216,21 +219,42 @@ function updateNextSongPreview() {
         nextIndex = (track_index + 1) % music_list.length;
     }
     
-    // Hide preview if we're at the last song and not in repeat mode
-    if (!isRandom && !isRepeat && track_index === music_list.length - 1) {
-        nextSongPreview.style.display = 'none';
-        return;
+    // Determine previous song index
+    if (isRandom) {
+        // For random mode, generate a random previous song (excluding current)
+        do {
+            prevIndex = Math.floor(Math.random() * music_list.length);
+        } while (prevIndex === track_index && music_list.length > 1);
+    } else {
+        // For normal/repeat mode, get previous song in sequence
+        prevIndex = track_index === 0 ? music_list.length - 1 : track_index - 1;
     }
     
-    // Show and update the preview
-    nextSongPreview.style.display = 'flex';
+    // Show the navigation preview
+    songNavigationPreview.style.display = 'flex';
     
+    // Update next song section
     if (nextIndex < music_list.length) {
         const nextSong = music_list[nextIndex];
         nextSongArtwork.style.backgroundImage = `url(${nextSong.img})`;
         nextSongTitle.textContent = nextSong.name;
         nextSongArtist.textContent = nextSong.artist;
     }
+    
+    // Update previous song section
+    if (prevIndex >= 0 && prevIndex < music_list.length) {
+        const prevSong = music_list[prevIndex];
+        prevSongArtwork.style.backgroundImage = `url(${prevSong.img})`;
+        prevSongTitle.textContent = prevSong.name;
+        prevSongArtist.textContent = prevSong.artist;
+    }
+    
+    // Add click functionality for navigation
+    const prevSongSection = document.querySelector('.prev-song-section');
+    const nextSongSection = document.querySelector('.next-song-section');
+    
+    prevSongSection.onclick = () => prevTrack();
+    nextSongSection.onclick = () => nextTrack();
 }
 
 
@@ -445,13 +469,13 @@ function randomTrack(){
 function playRandom(){
     isRandom = true;
     randomIcon.classList.add('randomActive');
-    updateNextSongPreview();
+    updateSongNavigationPreview();
     notification();
 }
 function pauseRandom(){
     isRandom = false;
     randomIcon.classList.remove('randomActive');
-    updateNextSongPreview();
+    updateSongNavigationPreview();
     notification();
 }
 function repeatTrack(){
@@ -479,7 +503,7 @@ function repeatTrack(){
             repeatIcon.title = 'Repeat: One';
             break;
     }
-    updateNextSongPreview();
+    updateSongNavigationPreview();
 }
 function playpauseTrack(){
     isPlaying ? pauseTrack() : playTrack(); notification();

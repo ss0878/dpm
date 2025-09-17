@@ -42,11 +42,33 @@
                 <div class="total-duration">00:00</div>
            </div>
 
-           <div class="slider_container">
-               <i class="fa fa-volume-down"></i>
-                <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
-                <i class="fa fa-volume-up"></i>
-           </div>
+           <!-- Song Navigation Preview -->
+            <div class="song-navigation-preview">
+                <!-- Previous Song Section -->
+                <div class="prev-song-section">
+                    <div class="prev-song-artwork"></div>
+                    <div class="prev-song-details">
+                        <div class="prev-song-label">Previous:</div>
+                        <div class="prev-song-info">
+                            <div class="prev-song-title">Song Title</div>
+                            <div class="prev-song-artist">Artist Name</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Next Song Section -->
+                <div class="next-song-section">
+                    <div class="next-song-artwork"></div>
+                    <div class="next-song-details">
+                        <div class="next-song-label">Next:</div>
+                        <div class="next-song-info">
+                            <div class="next-song-title">Song Title</div>
+                            <div class="next-song-artist">Artist Name</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
 
            <div class="buttons">
                <div class="main-controls">
@@ -70,8 +92,7 @@
                </div>
            </div>
 
-             <div id="wave">
-                </div>
+             
                 
                 <div class="theme-toggle" onclick="toggleTheme()">
                     <i class="fa fa-moon-o" aria-hidden="true" id="theme-icon"></i>
@@ -103,17 +124,7 @@
                 </div>
             </div>
             
-            <!-- Next Song Preview -->
-            <div class="next-song-preview">
-                <div class="next-song-artwork"></div>
-                <div class="next-song-details">
-                    <div class="next-song-label">Next Song:</div>
-                    <div class="next-song-info">
-                        <div class="next-song-title">Song Title</div>
-                        <div class="next-song-artist">Artist Name</div>
-                    </div>
-                </div>
-            </div>
+            
        </div>
        
        <!-- Playlist Section -->

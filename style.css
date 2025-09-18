@@ -546,6 +546,18 @@ body.playing-music .playlist-container {
     max-width: 140px;
 }
 
+.prev-song-duration,
+.next-song-duration {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    opacity: 0.8;
+    font-weight: 400;
+    margin-top: 2px;
+    display: flex;
+    justify-content: flex-end;
+    white-space: inherit;
+}
+
 .playlist-container.show {
     opacity: 1;
     visibility: visible;
@@ -1150,6 +1162,12 @@ p{
         max-width: 120px; /* Reduced width to fit side by side */
     }
     
+    .prev-song-duration,
+    .next-song-duration {
+        font-size: 0.55rem; /* Smaller font for mobile */
+        max-width: 120px; /* Reduced width to fit side by side */
+    }
+    
     .theme-toggle {
         bottom: 15px;
         left: 15px;
@@ -1283,6 +1301,12 @@ p{
      .next-song-artist {
          max-width: 120px;
          font-size: 0.6rem;
+     }
+     
+     .prev-song-duration,
+     .next-song-duration {
+         font-size: 0.55rem;
+         max-width: 120px;
      }
     
     .track-art {
@@ -1872,6 +1896,12 @@ p{
     .prev-song-artist,
     .next-song-artist {
         font-size: 0.6rem;
+        max-width: 120px;
+    }
+    
+    .prev-song-duration,
+    .next-song-duration {
+        font-size: 0.55rem;
         max-width: 120px;
     }
     

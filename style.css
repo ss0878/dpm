@@ -1116,37 +1116,38 @@ p{
         font-size: 0.8rem;
         gap: 8px;
         border-radius: 10px;
-        flex-direction: column;
+        flex-direction: row; /* Changed to row for side-by-side layout */
     }
     
     .prev-song-section,
     .next-song-section {
         padding: 6px;
-        gap: 8px;
+        gap: 6px; /* Reduced gap to save space */
+        flex: 1; /* Equal width distribution */
     }
     
     .prev-song-artwork,
     .next-song-artwork {
-        width: 35px;
-        height: 35px;
+        width: 32px; /* Slightly smaller for mobile */
+        height: 32px;
         border-radius: 6px;
     }
     
     .prev-song-label,
     .next-song-label {
-        font-size: 0.65rem;
+        font-size: 0.6rem; /* Smaller font for mobile */
     }
     
     .prev-song-title,
     .next-song-title {
-        font-size: 0.75rem;
-        max-width: 160px;
+        font-size: 0.7rem; /* Smaller font for mobile */
+        max-width: 120px; /* Reduced width to fit side by side */
     }
     
     .prev-song-artist,
     .next-song-artist {
-        font-size: 0.7rem;
-        max-width: 160px;
+        font-size: 0.65rem; /* Smaller font for mobile */
+        max-width: 120px; /* Reduced width to fit side by side */
     }
     
     .theme-toggle {

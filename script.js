@@ -25,6 +25,9 @@ let updateTimer;
 let playlistContainer = document.getElementById('playlist-container');
 let playlistSongs = document.getElementById('playlist-songs');
 
+// Wake Lock variables
+let wakeLock = null;
+
 
 totalMusic = document.querySelector(".total-music-list");
 
@@ -34,6 +37,17 @@ document.documentElement.style.setProperty('--volume-before-width', '99%');
 
 // Load the first track
 loadTrack(track_index);
+
+// Add event listener for page visibility changes to handle wake lock
+document.addEventListener('visibilitychange', function() {
+    if (document.visibilityState === 'visible' && isPlaying) {
+        // Re-request wake lock when page becomes visible and music is playing
+        requestWakeLock();
+    } else if (document.visibilityState === 'hidden') {
+        // Wake lock is automatically released when page becomes hidden
+        wakeLock = null;
+    }
+});
 
 // Add event listener for track end to handle repeat functionality
 curr_track.addEventListener('ended', function() {
@@ -163,6 +177,33 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
+// Function to request wake lock to prevent device from sleeping
+async function requestWakeLock() {
+    try {
+        if ('wakeLock' in navigator) {
+            wakeLock = await navigator.wakeLock.request('screen');
+            console.log('Wake lock acquired');
+            
+            // Listen for wake lock release (e.g., when tab becomes inactive)
+            wakeLock.addEventListener('release', () => {
+                console.log('Wake lock released');
+                wakeLock = null;
+            });
+        }
+    } catch (err) {
+        console.log('Wake lock request failed:', err);
+    }
+}
+
+// Function to release wake lock
+function releaseWakeLock() {
+    if (wakeLock) {
+        wakeLock.release();
+        wakeLock = null;
+        console.log('Wake lock manually released');
+    }
+}
+
 function loadTrack(track_index){
     clearInterval(updateTimer);
     reset();
@@ -196,14 +237,29 @@ function loadTrack(track_index){
     notification();
 }
 
+// Function to format duration from seconds to mm:ss format
+function formatDuration(seconds) {
+    if (isNaN(seconds) || seconds < 0) return "0:00";
+    
+    const minutes = Math.floor(seconds / 60);
+    const remainingSeconds = Math.floor(seconds % 60);
+    
+    const formattedMinutes = minutes < 10 ? "0" + minutes : minutes;
+    const formattedSeconds = remainingSeconds < 10 ? "0" + remainingSeconds : remainingSeconds;
+    
+    return formattedMinutes + ":" + formattedSeconds;
+}
+
 // Function to update song navigation preview (both previous and next)
 function updateSongNavigationPreview() {
     const prevSongArtwork = document.querySelector('.prev-song-artwork');
     const prevSongTitle = document.querySelector('.prev-song-title');
     const prevSongArtist = document.querySelector('.prev-song-artist');
+    const prevSongDuration = document.querySelector('.prev-song-duration');
     const nextSongArtwork = document.querySelector('.next-song-artwork');
     const nextSongTitle = document.querySelector('.next-song-title');
     const nextSongArtist = document.querySelector('.next-song-artist');
+    const nextSongDuration = document.querySelector('.next-song-duration');
     const songNavigationPreview = document.querySelector('.song-navigation-preview');
     
     let nextIndex, prevIndex;
@@ -239,6 +295,15 @@ function updateSongNavigationPreview() {
         nextSongArtwork.style.backgroundImage = `url(${nextSong.img})`;
         nextSongTitle.textContent = nextSong.name;
         nextSongArtist.textContent = nextSong.artist;
+        
+        // Get duration for next song
+        const nextAudio = new Audio(nextSong.music);
+        nextAudio.addEventListener('loadedmetadata', function() {
+            nextSongDuration.textContent = formatDuration(nextAudio.duration);
+        });
+        nextAudio.addEventListener('error', function() {
+            nextSongDuration.textContent = "0:00";
+        });
     }
     
     // Update previous song section
@@ -247,6 +312,15 @@ function updateSongNavigationPreview() {
         prevSongArtwork.style.backgroundImage = `url(${prevSong.img})`;
         prevSongTitle.textContent = prevSong.name;
         prevSongArtist.textContent = prevSong.artist;
+        
+        // Get duration for previous song
+        const prevAudio = new Audio(prevSong.music);
+        prevAudio.addEventListener('loadedmetadata', function() {
+            prevSongDuration.textContent = formatDuration(prevAudio.duration);
+        });
+        prevAudio.addEventListener('error', function() {
+            prevSongDuration.textContent = "0:00";
+        });
     }
     
     // Add click functionality for navigation
@@ -518,6 +592,9 @@ function playTrack(){
     startColorLoop();
     updatePlaybackState('playing');
     updatePositionState();
+    
+    // Request wake lock when music starts playing
+    requestWakeLock();
 }
 function pauseTrack(){
     curr_track.pause();
@@ -528,6 +605,9 @@ function pauseTrack(){
     setUpdate();
     stopColorLoop();
     updatePlaybackState('paused');
+    
+    // Release wake lock when music is paused
+    releaseWakeLock();
 }
 function nextTrack(){
     if(track_index < music_list.length - 1 && isRandom === false){

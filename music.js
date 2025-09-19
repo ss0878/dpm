@@ -2,6 +2,14 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58174/300x700/love-panjab-jordan-sandhu.jpg',
+         name : 'Love Panjab',
+         artist : 'Jordan Sandhu',
+         album : 'Jordan Sandhu',
+         released : 'Sep-19-2025',
+         music : 'https://s320.djpunjab.is/data/320/58174/308477/Love%20Panjab%20-%20Jordan%20Sandhu.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58176/300x700/house-navior-navaan-sandhu.jpg',
          name : 'Dapper Dan',
          artist : 'Navaan Sandhu',
@@ -24,14 +32,6 @@ const music_list = [
          album : 'House Navior',
          released : 'Sep-19-2025',
          music : 'https://p320.djpunjab.is/data/320/58176/308484/Eyes%20On%20Us%20-%20Navaan%20Sandhu.mp3'
-           },
-    {
-         img : 'https://cover.djpunjab.is/58174/300x700/love-panjab-jordan-sandhu.jpg',
-         name : 'Love Panjab',
-         artist : 'Jordan Sandhu',
-         album : 'Jordan Sandhu',
-         released : 'Sep-19-2025',
-         music : 'https://s320.djpunjab.is/data/320/58174/308477/Love%20Panjab%20-%20Jordan%20Sandhu.mp3'
            },
     {
          img : 'https://cover.djpunjab.is/58161/300x700/hammer-ninja.jpg',

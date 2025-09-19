@@ -2,6 +2,30 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58176/300x700/house-navior-navaan-sandhu.jpg',
+         name : 'Dapper Dan',
+         artist : 'Navaan Sandhu',
+         album : 'House Navior',
+         released : 'Sep-19-2025',
+         music : 'https://p320.djpunjab.is/data/320/58176/308490/Dapper%20Dan%20-%20Navaan%20Sandhu.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58176/300x700/house-navior-navaan-sandhu.jpg',
+         name : 'Culture Clicks',
+         artist : 'Navaan Sandhu',
+         album : 'House Navior',
+         released : 'Sep-19-2025',
+         music : 'https://p320.djpunjab.is/data/320/58176/308492/Culture%20Clicks%20-%20Navaan%20Sandhu.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58176/300x700/house-navior-navaan-sandhu.jpg',
+         name : 'Eyes On Us',
+         artist : 'Navaan Sandhu',
+         album : 'House Navior',
+         released : 'Sep-19-2025',
+         music : 'https://p320.djpunjab.is/data/320/58176/308484/Eyes%20On%20Us%20-%20Navaan%20Sandhu.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58174/300x700/love-panjab-jordan-sandhu.jpg',
          name : 'Love Panjab',
          artist : 'Jordan Sandhu',
@@ -160,6 +184,14 @@ const music_list = [
          album : 'P-POP CULTURE',
          released : 'Aug-22-2025',
          music : 'https://p320.djpunjab.is/data/320/58033/308242/Youre%20U%20Tho%20-%20Karan%20Aujla.mp3'
+           },
+      {
+         img : 'https://cover.djpunjab.is/58033/300x700/p-pop-culture-karan-aujla.jpg',
+         name : 'I Really Do...',
+         artist : 'Karan Aujla',
+         album : 'P-POP CULTURE',
+         released : 'Aug-22-2025',
+         music : 'https://p320.djpunjab.is/data/320/58033/308245/I%20Really%20Do...%20-%20Karan%20Aujla.mp3'
            },
       {
          img : 'https://cover.djpunjab.is/58031/300x700/mohabbat-arjan-dhillon.jpg',

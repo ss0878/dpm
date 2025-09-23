@@ -528,16 +528,16 @@ body.playing-music .playlist-container {
 .next-song-title {
     font-weight: 500;
     line-height: 1.2;
-    white-space: nowrap;
+    white-space: wrap;
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 140px;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .prev-song-artist,
 .next-song-artist {
-    font-size: 0.65rem;
+    font-size: 0.7rem;
     color: var(--text-secondary);
     line-height: 1.1;
     white-space: nowrap;
@@ -836,13 +836,31 @@ body.playing-music .playlist-container {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    height: 6px;
+    height: 4px;
     background: var(--slider-bg);
-    -webkit-transition: .2s;
-    transition: all .2s ease;
-    border-radius: 10px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    border-radius: 20px;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
+}
+
+.seek_slider {
+    height: 3px;
+    border-radius: 25px;
+}
+
+.seek_slider:hover {
+    height: 6px;
+    transform: scaleY(1.5);
+    transition: all 0.2s ease;
+}
+
+.seek_slider:active {
+    height: 8px;
+    transform: scaleY(2);
+    transition: all 0.1s ease;
 }
 
 .volume_slider::before {
@@ -853,10 +871,10 @@ body.playing-music .playlist-container {
     width: var(--volume-before-width, 99%);
     height: 100%;
     background: linear-gradient(90deg, #83a9ff, #3774ff);
-    border-radius: 10px;
+    border-radius: 20px;
     z-index: 2;
-    transition: width 0.1s ease;
-    box-shadow: 0 0 5px rgba(55, 116, 255, 0.5);
+    transition: all 0.2s ease;
+    box-shadow: 0 0 8px rgba(55, 116, 255, 0.4);
 }
 
 .seek_slider::before {
@@ -867,38 +885,87 @@ body.playing-music .playlist-container {
     width: var(--seek-before-width, 0%);
     height: 100%;
     background: linear-gradient(90deg, #83a9ff, #3774ff);
-    border-radius: 10px;
+    border-radius: 25px;
     z-index: 2;
-    transition: width 0.1s ease;
-    box-shadow: 0 0 5px rgba(55, 116, 255, 0.5);
+    transition: all 0.2s ease;
+    box-shadow: 0 0 8px rgba(55, 116, 255, 0.4);
+    animation: pulse 2s infinite;
 }
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 8px rgba(55, 116, 255, 0.4);
+    }
+    50% {
+        box-shadow: 0 0 15px rgba(55, 116, 255, 0.7);
+    }
+    100% {
+        box-shadow: 0 0 8px rgba(55, 116, 255, 0.4);
+    }
+}
+
+.seek_slider:hover::before {
+    box-shadow: 0 0 15px rgba(55, 116, 255, 0.8);
+    animation: none;
+}
+
 .seek_slider::-webkit-slider-thumb,
 .volume_slider::-webkit-slider-thumb{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     background: white;
-    border: 3px solid #3774ff;
+    border: 2px solid #3774ff;
     cursor: pointer;
     border-radius: 100%;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+    transition: all 0.2s ease;
+    z-index: 3;
+    position: relative;
 }
+
+.seek_slider::-webkit-slider-thumb {
+    width: 14px;
+    height: 14px;
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.seek_slider:hover::-webkit-slider-thumb {
+    opacity: 1;
+    width: 18px;
+    height: 18px;
+    transform: scale(1.2);
+    box-shadow: 0 4px 12px rgba(55, 116, 255, 0.5);
+}
+
+.seek_slider:active::-webkit-slider-thumb {
+    transform: scale(1.4);
+    box-shadow: 0 6px 20px rgba(55, 116, 255, 0.7);
+}
+
+.volume_slider::-webkit-slider-thumb:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(55, 116, 255, 0.4);
+}
+
 .seek_slider:hover,
 .volume_slider:hover{
     opacity: 1.0;
-    transition: 0.9s;
-    background: #285ea6;
+    transition: all 0.2s ease;
 }
+
 .seek_slider{
     width: 85%;
     max-width: 400px;
-    transition: 0.3s;
+    transition: all 0.3s ease;
 }
+
 .volume_slider{
     width: clamp(60px, 30%, 120px);
-    transition: 0.3s;
+    transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
 }

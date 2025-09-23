@@ -50,22 +50,36 @@ document.addEventListener('visibilitychange', function() {
 });
 
 // Add event listener for track end to handle repeat functionality
-curr_track.addEventListener('ended', function() {
-    if (isRepeat === 2) { // Repeat one
-        curr_track.currentTime = 0;
-        playTrack();
-    } else if (isRepeat === 1) { // Repeat all
-        nextTrack();
-    } else if (isRandom) { // Random mode
-        nextTrack();
-    } else { // Normal mode - stop at end of playlist
+function nextTrack() {
+    if (isRepeat === 2) {
+        // Repeat one track
+        loadTrack(track_index);
+    } else if (isRandom) {
+        let randomIndex;
+        do {
+            randomIndex = Math.floor(Math.random() * music_list.length);
+        } while (randomIndex === track_index && music_list.length > 1);
+        track_index = randomIndex;
+        loadTrack(track_index);
+    } else {
+        // Normal or Repeat All
         if (track_index < music_list.length - 1) {
-            nextTrack();
+            track_index++;
+            loadTrack(track_index);
+        } else if (isRepeat === 1) {
+            // Repeat all from start
+            track_index = 0;
+            loadTrack(track_index);
         } else {
+            // End of playlist
             pauseTrack();
+            return;
         }
     }
-});
+
+    playTrack(); // Start playing the next track
+}
+
 
 // Function to toggle keyboard shortcuts tooltip
 function toggleShortcutsTooltip() {

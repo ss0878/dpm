@@ -2,6 +2,14 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58215/300x700/that-girl-param.jpg',
+         name : 'That Girl',
+         artist : 'Param',
+         album : 'Param',
+         released : 'Sep-26-2025',
+         music : 'https://s320.djpunjab.is/data/320/58215/308575/That%20Girl%20-%20Param.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58174/300x700/love-panjab-jordan-sandhu.jpg',
          name : 'Love Panjab',
          artist : 'Jordan Sandhu',

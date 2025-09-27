@@ -2,6 +2,22 @@ const music_list = [
     
    
    {
+         img : 'https://i.imgur.com/Fc33EyQ.jpeg',
+         name : 'Business',
+         artist : 'Azaad 4L',
+         album : 'Azaad 4L',
+         released : 'Sep-27-2025',
+         music : 'https://www.dropbox.com/scl/fi/j7p1xnv3cmynmlmxukuz3/Business-Azaad-4L-Santali.mp3?rlkey=jtdpooguuldc8rrmifhkblxz7&dl=1'
+           },
+    {
+         img : 'https://i.imgur.com/rDklUdC.png',
+         name : 'Brass',
+         artist : 'Azaad 4L',
+         album : 'Azaad 4L',
+         released : 'Sep-27-2025',
+         music : 'https://www.dropbox.com/scl/fi/h0bho46ofdjnvp8ir78bm/Brass-Azaad-4L-Santali.mp3?rlkey=hgo37uttwet5kqolwki7alkgd&dl=1'
+           },
+    {
          img : 'https://cover.djpunjab.is/58215/300x700/that-girl-param.jpg',
          name : 'That Girl',
          artist : 'Param',

@@ -2,20 +2,20 @@ const music_list = [
     
    
    {
-         img : 'https://i.imgur.com/Fc33EyQ.jpeg',
+         img : 'https://cover.djpunjab.is/58238/300x700/brass-azaad-4l.jpg',
          name : 'Business',
          artist : 'Azaad 4L',
          album : 'Azaad 4L',
          released : 'Sep-27-2025',
-         music : 'https://www.dropbox.com/scl/fi/j7p1xnv3cmynmlmxukuz3/Business-Azaad-4L-Santali.mp3?rlkey=jtdpooguuldc8rrmifhkblxz7&dl=1'
+         music : 'https://cdnsongs.com/dren/music/data/Single_Track/202509/Business/320/Business_1.mp3/Business.mp3'
            },
     {
-         img : 'https://i.imgur.com/rDklUdC.png',
+         img : 'https://cover.djpunjab.is/58238/300x700/brass-azaad-4l.jpg',
          name : 'Brass',
          artist : 'Azaad 4L',
          album : 'Azaad 4L',
          released : 'Sep-27-2025',
-         music : 'https://www.dropbox.com/scl/fi/h0bho46ofdjnvp8ir78bm/Brass-Azaad-4L-Santali.mp3?rlkey=hgo37uttwet5kqolwki7alkgd&dl=1'
+         music : 'https://s320.djpunjab.is/data/320/58238/308655/Brass%20-%20Azaad%204L.mp3'
            },
     {
          img : 'https://cover.djpunjab.is/58215/300x700/that-girl-param.jpg',

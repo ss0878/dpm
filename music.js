@@ -2,6 +2,22 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58246/300x700/mid-march-manaan.jpg',
+         name : 'Mid March',
+         artist : 'Manaan',
+         album : 'Manaan',
+         released : 'Sep-30-2025',
+         music : 'https://s320.djpunjab.is/data/320/58246/308663/Mid%20March%20-%20Manaan.mp3'
+           },
+    {
+         img : 'https://cover.mr-jatt.im/thumb/514759/One-In-A-Million-1.jpg',
+         name : 'One In A Million',
+         artist : 'Jordan Sandhu',
+         album : 'Jordan Sandhu',
+         released : 'Sep-27-2025',
+         music : 'https://cdnsongs.com/dren/music/data/Single_Track/202509/One_In_A_Million/320/One_In_A_Million_1.mp3/One%20In%20A%20Million.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58238/300x700/brass-azaad-4l.jpg',
          name : 'Business',
          artist : 'Azaad 4L',

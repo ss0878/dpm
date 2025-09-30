@@ -50,14 +50,14 @@ body{
     color: var(--text-color);
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow: hidden;
     transition: background 1.5s ease-in-out;
     text-shadow: var(--text-shadow);
     height: 100vh;
     width: 100vw;
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     place-items: center;
     position: relative;
 }
@@ -212,10 +212,9 @@ body{
     justify-content: center;
     position: relative;
     padding: clamp(10px, 2vw, 20px);
-    padding-left: clamp(10px, 2vw, 20px);
-    padding-right: clamp(10px, 2vw, 20px);
     box-sizing: border-box;
-    gap: 20px;
+    gap: clamp(10px, 2vh, 20px);
+    overflow: hidden;
 }
 .wrapper{
     grid-area: content;
@@ -225,15 +224,15 @@ body{
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     width: min(95vw, 500px);
     height: auto;
-    max-height: 85vh;
+    max-height: 90vh;
     margin: 0 auto;
-    margin-left: auto;
-    margin-right: auto;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 15px;
+    gap: clamp(10px, 2vh, 15px);
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .glass{
@@ -255,12 +254,12 @@ body{
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    
+    width: 100%;
 }
 .track-art{
-    margin: 20px auto;
-    height: min(250px, 60vw);
-    width: min(250px, 60vw);
+    margin: clamp(10px, 3vh, 20px) auto;
+    height: min(220px, 40vh, 50vw);
+    width: min(220px, 40vh, 50vw);
     border: 1px solid rgba(17, 16, 16, 0.5);
     background-size: cover;
     background-position: center;
@@ -320,12 +319,12 @@ body{
 
 
 .now-playing{
-    font-size: 1rem;
+    font-size: clamp(0.8rem, 2vw, 1rem);
     transition: 1s;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
 }
 .track-name{
-    font-size: clamp(1.6rem, 5.5vw, 3rem);
+    font-size: clamp(1.4rem, 4vw, 2.5rem);
     width: 100%;
     transition: all 0.3s ease;
     text-align: center;
@@ -341,24 +340,24 @@ body{
     line-height: 1.2;
 }
 .track-artist{
-    margin-top: 8px;
+    margin-top: 5px;
     transition: all 0.3s ease;
     margin: auto;
-    font-size: clamp(1rem, 3.5vw, 1.5rem);
+    font-size: clamp(0.9rem, 3vw, 1.3rem);
     font-weight: 500;
     opacity: 0.85;
     text-shadow: var(--text-shadow);
     letter-spacing: 0.01em;
 }
 
-
 .buttons{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 25px;
-    margin-top: 20px;
+    margin-bottom: clamp(15px, 3vh, 25px);
+    margin-top: clamp(10px, 2vh, 20px);
+    width: 100%;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     gap: 0;
     padding: 15px 0;
@@ -800,8 +799,8 @@ body{
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    min-width: 44px;
-    min-height: 44px;
+    min-width: clamp(40px, 8vw, 44px);
+    min-height: clamp(40px, 8vw, 44px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -821,14 +820,14 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 10px 0;
+    margin: clamp(5px, 2vh, 10px) 0;
 }
 .seek_slider,
 .volume_slider{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    height: 4px;
+    height: clamp(3px, 1vh, 4px);
     background: var(--slider-bg);
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
@@ -1030,20 +1029,24 @@ p{
     }
     
     .wrapper {
-        padding: clamp(20px, 4vw, 30px);
-        width: min(98vw, 450px);
+        padding: clamp(12px, 2.5vw, 25px);
+        width: min(95vw, 600px);
         max-height: 90vh;
     }
     
     .track-art {
-        height: min(220px, 50vw);
-        width: min(220px, 50vw);
-        margin: 20px auto;
+        height: min(200px, 40vh, 45vw);
+        width: min(200px, 40vh, 45vw);
+        margin: clamp(8px, 2vh, 15px) auto;
     }
     
     .track-name {
-        font-size: clamp(1.4rem, 5vw, 2.2rem);
+        font-size: clamp(1.2rem, 3.5vw, 2rem);
         padding: 0 20px;
+    }
+    
+    .track-artist {
+        font-size: clamp(0.8rem, 2.5vw, 1.1rem);
     }
     
     .buttons {
@@ -1260,11 +1263,26 @@ p{
     
     .wrapper {
         flex: 1;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: min(40%, 300px) 1fr;
+        gap: clamp(10px, 2vw, 20px);
         max-width: 60%;
+        width: min(95vw, 1200px);
+        padding: clamp(10px, 2vw, 20px);
+        max-height: 95vh;
+        overflow-y: auto;
+    }
+    
+    .details {
+        grid-column: 1;
+    }
+    
+    .slider_container, .buttons {
+        grid-column: 2;
+    }
+    
+    .buttons {
+        margin-top: 0;
     }
     
     .landscape-controls {
@@ -1478,6 +1496,50 @@ p{
 }
 
 /* Ultra-narrow landscape devices */
+@media (max-height: 350px) and (orientation: landscape) {
+    .player {
+        padding: clamp(3px, 0.8vw, 8px);
+    }
+    
+    .wrapper {
+        grid-template-columns: min(30%, 200px) 1fr;
+        gap: clamp(5px, 1vw, 10px);
+        padding: clamp(5px, 1vw, 10px);
+    }
+    
+    .track-art {
+        height: min(100px, 20vh, 18vw);
+        width: min(100px, 20vh, 18vw);
+        margin: clamp(2px, 0.5vh, 5px) auto;
+    }
+    
+    .track-name {
+        font-size: clamp(0.9rem, 2.5vw, 1.2rem);
+        padding: 0 5px;
+    }
+    
+    .track-artist {
+        font-size: clamp(0.6rem, 1.8vw, 0.8rem);
+    }
+    
+    .now-playing {
+        font-size: clamp(0.6rem, 1.5vw, 0.8rem);
+    }
+    
+    .repeat-track,
+    .random-track,
+    .prev-track,
+    .next-track {
+        min-width: clamp(28px, 7vw, 32px);
+        min-height: clamp(28px, 7vw, 32px);
+    }
+    
+    .playpause-track {
+        min-width: clamp(34px, 9vw, 40px);
+        min-height: clamp(34px, 9vw, 40px);
+    }
+}
+
 @media screen and (max-height: 400px) and (orientation: landscape) and (max-width: 800px) {
     .player {
         display: flex;
@@ -1489,15 +1551,18 @@ p{
         padding-right: clamp(3px, 1vw, 8px);
         gap: clamp(8px, 2vw, 15px);
         height: 100vh;
+        overflow: hidden;
     }
     
     .wrapper {
         flex: 1;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: min(35%, 250px) 1fr;
+        gap: clamp(8px, 1.5vw, 15px);
+        padding: clamp(8px, 1.5vw, 15px);
         max-width: 60%;
+        max-height: 100vh;
+        overflow-y: auto;
     }
     
     .landscape-controls {
@@ -2047,32 +2112,7 @@ p{
 }
 
 /* Samsung S20 Ultra and similar ultra-wide devices */
-@media screen and (min-width: 412px) and (max-width: 915px) and (min-height: 869px) and (max-height: 915px) {
-    .player {
-        width: min(90vw, 380px);
-        padding: clamp(18px, 3.5vw, 28px);
-        padding-left: clamp(18px, 3.5vw, 28px);
-        padding-right: clamp(18px, 3.5vw, 28px);
-    }
-    
-    .wrapper {
-        gap: clamp(18px, 3vw, 28px);
-    }
-    
-    .track-art {
-        width: clamp(140px, 32vw, 200px);
-        height: clamp(140px, 32vw, 200px);
-    }
-    
-    .buttons {
-        gap: clamp(18px, 4vw, 28px);
-    }
-    
-    .playlist-container {
-        width: min(85vw, 360px);
-        max-height: 80vh;
-    }
-}
+
 
 /* Aspect ratio based queries for modern devices */
 @media screen and (min-aspect-ratio: 18/9) {

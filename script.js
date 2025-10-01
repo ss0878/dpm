@@ -933,6 +933,13 @@ function updateActivePlaylistItem() {
     playlistItems.forEach((item, index) => {
         if (index === track_index) {
             item.classList.add('active');
+            // Scroll to center the active item with smooth behavior
+            setTimeout(() => {
+                item.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center'
+                });
+            }, 100); // Small delay to ensure DOM is updated
         } else {
             item.classList.remove('active');
         }

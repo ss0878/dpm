@@ -2112,7 +2112,32 @@ p{
 }
 
 /* Samsung S20 Ultra and similar ultra-wide devices */
-
+@media screen and (min-width: 412px) and (max-width: 915px) and (min-height: 869px) and (max-height: 915px) {
+    .player {
+        
+        padding: clamp(18px, 3.5vw, 28px);
+        padding-left: clamp(18px, 3.5vw, 28px);
+        padding-right: clamp(18px, 3.5vw, 28px);
+    }
+    
+    .wrapper {
+        gap: clamp(18px, 3vw, 28px);
+    }
+    
+    .track-art {
+        width: clamp(40px, 32vw, 200px);
+        height: clamp(40px, 32vw, 200px);
+    }
+    
+    .buttons {
+        gap: clamp(18px, 4vw, 28px);
+    }
+    
+    .playlist-container {
+        width: min(85vw, 360px);
+        max-height: 80vh;
+    }
+}
 
 /* Aspect ratio based queries for modern devices */
 @media screen and (min-aspect-ratio: 18/9) {

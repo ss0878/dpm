@@ -96,6 +96,11 @@ function initializePullToRefresh() {
     function handleTouchStart(e) {
         if (!pullToRefreshEnabled || isRefreshing) return;
         
+        // Disable pull-to-refresh when playlist is open
+        if (playlistContainer && playlistContainer.classList.contains('show')) {
+            return;
+        }
+        
         startY = e.touches[0].clientY;
         currentY = startY;
         
@@ -136,6 +141,11 @@ function initializePullToRefresh() {
     function handleMouseStart(e) {
         if (!pullToRefreshEnabled || isRefreshing) return;
         
+        // Disable pull-to-refresh when playlist is open
+        if (playlistContainer && playlistContainer.classList.contains('show')) {
+            return;
+        }
+        
         startY = e.clientY;
         currentY = startY;
         
@@ -173,6 +183,11 @@ function initializePullToRefresh() {
     // Pointer events for hybrid devices
     function handlePointerStart(e) {
         if (!pullToRefreshEnabled || isRefreshing || e.pointerType === 'mouse') return;
+        
+        // Disable pull-to-refresh when playlist is open
+        if (playlistContainer && playlistContainer.classList.contains('show')) {
+            return;
+        }
         
         startY = e.clientY;
         currentY = startY;
@@ -1320,4 +1335,34 @@ document.addEventListener('DOMContentLoaded', function() {
     if (artistSelect) {
         artistSelect.addEventListener('change', filterByArtist);
     }
+    
+    // Initialize scroll-to-top functionality
+    initializeScrollToTop();
 });
+
+// Scroll to Top Functionality
+function initializeScrollToTop() {
+    const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+    const playlistSongs = document.getElementById('playlist-songs');
+    
+    if (!scrollToTopBtn || !playlistSongs) return;
+    
+    // Show/hide button based on scroll position
+    playlistSongs.addEventListener('scroll', function() {
+        if (this.scrollTop > 200) {
+            scrollToTopBtn.classList.add('show');
+        } else {
+            scrollToTopBtn.classList.remove('show');
+        }
+    });
+}
+
+function scrollToTop() {
+    const playlistSongs = document.getElementById('playlist-songs');
+    if (playlistSongs) {
+        playlistSongs.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+}

@@ -38,6 +38,272 @@ document.documentElement.style.setProperty('--volume-before-width', '99%');
 // Load the first track
 loadTrack(track_index);
 
+// Pull-to-Refresh Functionality
+let pullToRefreshEnabled = true;
+let startY = 0;
+let currentY = 0;
+let pullDistance = 0;
+let isRefreshing = false;
+let isPulling = false;
+let refreshThreshold = 80;
+
+function initializePullToRefresh() {
+    const pullToRefreshElement = document.getElementById('pullToRefresh');
+    const refreshIcon = document.getElementById('refreshIcon');
+    const refreshText = document.getElementById('refreshText');
+    
+    if (!pullToRefreshElement || !refreshIcon || !refreshText) {
+        console.warn('Pull-to-refresh elements not found');
+        return;
+    }
+    
+    // Cross-browser compatibility checks
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+    const isAndroid = /Android/.test(navigator.userAgent);
+    
+    // Adjust threshold based on device
+    if (isMobile) {
+        refreshThreshold = isIOS ? 70 : 80; // iOS needs slightly less threshold
+    }
+    
+    // Prevent iOS bounce effect
+    if (isIOS) {
+        document.body.style.webkitOverflowScrolling = 'touch';
+        document.body.style.overscrollBehaviorY = 'contain';
+    }
+    
+    // Touch event listeners for mobile devices
+    const touchOptions = { passive: false };
+    document.addEventListener('touchstart', handleTouchStart, touchOptions);
+    document.addEventListener('touchmove', handleTouchMove, touchOptions);
+    document.addEventListener('touchend', handleTouchEnd, touchOptions);
+    
+    // Mouse event listeners for desktop testing (with feature detection)
+    if (!isMobile) {
+        document.addEventListener('mousedown', handleMouseStart, { passive: false });
+        document.addEventListener('mousemove', handleMouseMove, { passive: false });
+        document.addEventListener('mouseup', handleMouseEnd, { passive: false });
+    }
+    
+    // Pointer events for hybrid devices
+    if (window.PointerEvent) {
+        document.addEventListener('pointerdown', handlePointerStart, { passive: false });
+        document.addEventListener('pointermove', handlePointerMove, { passive: false });
+        document.addEventListener('pointerup', handlePointerEnd, { passive: false });
+    }
+    
+    function handleTouchStart(e) {
+        if (!pullToRefreshEnabled || isRefreshing) return;
+        
+        startY = e.touches[0].clientY;
+        currentY = startY;
+        
+        // Only enable pull-to-refresh when at the top of the page
+        if (window.scrollY === 0 || document.documentElement.scrollTop === 0) {
+            isPulling = true;
+        }
+    }
+    
+    function handleTouchMove(e) {
+        if (!isPulling || !pullToRefreshEnabled || isRefreshing) return;
+        
+        currentY = e.touches[0].clientY;
+        pullDistance = Math.max(0, currentY - startY);
+        
+        // Prevent default scrolling when pulling down
+        if (pullDistance > 0 && (window.scrollY === 0 || document.documentElement.scrollTop === 0)) {
+            e.preventDefault();
+            updatePullToRefreshUI(pullDistance);
+        }
+    }
+    
+    function handleTouchEnd(e) {
+        if (!isPulling || !pullToRefreshEnabled) return;
+        
+        isPulling = false;
+        
+        if (pullDistance >= refreshThreshold && !isRefreshing) {
+            triggerRefresh();
+        } else {
+            resetPullToRefresh();
+        }
+        
+        pullDistance = 0;
+    }
+    
+    // Mouse events for desktop testing
+    function handleMouseStart(e) {
+        if (!pullToRefreshEnabled || isRefreshing) return;
+        
+        startY = e.clientY;
+        currentY = startY;
+        
+        if (window.scrollY === 0 || document.documentElement.scrollTop === 0) {
+            isPulling = true;
+        }
+    }
+    
+    function handleMouseMove(e) {
+        if (!isPulling || !pullToRefreshEnabled || isRefreshing) return;
+        
+        currentY = e.clientY;
+        pullDistance = Math.max(0, currentY - startY);
+        
+        if (pullDistance > 0 && (window.scrollY === 0 || document.documentElement.scrollTop === 0)) {
+            e.preventDefault();
+            updatePullToRefreshUI(pullDistance);
+        }
+    }
+    
+    function handleMouseEnd(e) {
+        if (!isPulling || !pullToRefreshEnabled) return;
+        
+        isPulling = false;
+        
+        if (pullDistance >= refreshThreshold && !isRefreshing) {
+            triggerRefresh();
+        } else {
+            resetPullToRefresh();
+        }
+        
+        pullDistance = 0;
+    }
+    
+    // Pointer events for hybrid devices
+    function handlePointerStart(e) {
+        if (!pullToRefreshEnabled || isRefreshing || e.pointerType === 'mouse') return;
+        
+        startY = e.clientY;
+        currentY = startY;
+        
+        if (window.scrollY === 0 || document.documentElement.scrollTop === 0) {
+            isPulling = true;
+        }
+    }
+    
+    function handlePointerMove(e) {
+        if (!isPulling || !pullToRefreshEnabled || isRefreshing || e.pointerType === 'mouse') return;
+        
+        currentY = e.clientY;
+        pullDistance = Math.max(0, currentY - startY);
+        
+        if (pullDistance > 0 && (window.scrollY === 0 || document.documentElement.scrollTop === 0)) {
+            e.preventDefault();
+            updatePullToRefreshUI(pullDistance);
+        }
+    }
+    
+    function handlePointerEnd(e) {
+        if (!isPulling || !pullToRefreshEnabled || e.pointerType === 'mouse') return;
+        
+        isPulling = false;
+        
+        if (pullDistance >= refreshThreshold && !isRefreshing) {
+            triggerRefresh();
+        } else {
+            resetPullToRefresh();
+        }
+        
+        pullDistance = 0;
+    }
+    
+    function updatePullToRefreshUI(distance) {
+        const progress = Math.min(distance / refreshThreshold, 1);
+        const translateY = Math.min(distance * 0.5, refreshThreshold * 0.5);
+        
+        pullToRefreshElement.style.transform = `translateY(${translateY - 100}%)`;
+        pullToRefreshElement.classList.add('visible');
+        
+        // Update progress indicator
+        pullToRefreshElement.style.setProperty('--pull-progress', `${progress * 100}%`);
+        
+        // Update icon rotation based on pull progress
+        refreshIcon.style.transform = `rotate(${progress * 180}deg)`;
+        
+        // Add haptic feedback simulation at threshold
+        if (progress >= 1 && !pullToRefreshElement.classList.contains('haptic')) {
+            pullToRefreshElement.classList.add('haptic');
+            
+            // Trigger actual haptic feedback if available
+            if (navigator.vibrate) {
+                navigator.vibrate(50);
+            }
+            
+            // Remove haptic class after animation
+            setTimeout(() => {
+                pullToRefreshElement.classList.remove('haptic');
+            }, 100);
+        }
+        
+        // Update text based on progress
+        if (progress >= 1) {
+            refreshText.textContent = 'Release to refresh';
+            pullToRefreshElement.classList.add('bounce');
+        } else {
+            refreshText.textContent = 'Pull to refresh';
+            pullToRefreshElement.classList.remove('bounce');
+        }
+    }
+    
+    function triggerRefresh() {
+        if (isRefreshing) return;
+        
+        isRefreshing = true;
+        pullToRefreshElement.classList.add('refreshing');
+        pullToRefreshElement.style.transform = 'translateY(0)';
+        refreshIcon.classList.add('spinning');
+        refreshText.textContent = 'Refreshing...';
+        
+        // Simulate refresh action - you can customize this
+        performRefreshAction().then(() => {
+            setTimeout(() => {
+                resetPullToRefresh();
+                isRefreshing = false;
+            }, 1000);
+        });
+    }
+    
+    function resetPullToRefresh() {
+        pullToRefreshElement.classList.remove('visible', 'refreshing', 'bounce');
+        pullToRefreshElement.style.transform = 'translateY(-100%)';
+        refreshIcon.classList.remove('spinning');
+        refreshIcon.style.transform = 'rotate(0deg)';
+        refreshText.textContent = 'Pull to refresh';
+    }
+    
+    async function performRefreshAction() {
+        // Refresh the current track's background
+        if (typeof random_bg_color === 'function') {
+            random_bg_color();
+        }
+        
+        // Update the now playing information
+        if (typeof updateNowPlaying === 'function') {
+            updateNowPlaying();
+        }
+        
+        // Refresh playlist if it's open
+        const playlistContainer = document.getElementById('playlist-container');
+        if (playlistContainer && playlistContainer.classList.contains('show')) {
+            if (typeof loadPlaylist === 'function') {
+                loadPlaylist();
+            }
+        }
+        
+        // Simulate network delay
+        return new Promise(resolve => {
+            setTimeout(resolve, 500);
+        });
+    }
+}
+
+// Initialize pull-to-refresh when DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+    // Small delay to ensure all elements are rendered
+    setTimeout(initializePullToRefresh, 100);
+});
+
 // Clear cache and reset session state on page load/refresh
 window.addEventListener('load', function() {
     // Clear session-specific cache but preserve theme preference

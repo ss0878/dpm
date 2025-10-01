@@ -38,6 +38,61 @@ document.documentElement.style.setProperty('--volume-before-width', '99%');
 // Load the first track
 loadTrack(track_index);
 
+// Clear cache and reset session state on page load/refresh
+window.addEventListener('load', function() {
+    // Clear session-specific cache but preserve theme preference
+    const savedTheme = localStorage.getItem('theme');
+    
+    // Clear session storage completely
+    sessionStorage.clear();
+    
+    // Reset any runtime variables
+    if (wakeLock) {
+        releaseWakeLock();
+    }
+    
+    // Reset track state
+    if (updateTimer) {
+        clearInterval(updateTimer);
+    }
+    
+    // Clear application cache if available (for older browsers)
+    if (window.applicationCache) {
+        try {
+            window.applicationCache.swapCache();
+        } catch (e) {
+            console.log('Application cache swap failed:', e);
+        }
+    }
+    
+    // Clear service worker caches if available
+    if ('caches' in window) {
+        caches.keys().then(function(cacheNames) {
+            cacheNames.forEach(function(cacheName) {
+                if (cacheName.includes('music-player-cache')) {
+                    caches.delete(cacheName);
+                }
+            });
+        });
+    }
+    
+    // Force reload of media resources
+    const mediaElements = document.querySelectorAll('audio, video');
+    mediaElements.forEach(function(media) {
+        const currentSrc = media.src;
+        if (currentSrc) {
+            media.src = currentSrc + (currentSrc.includes('?') ? '&' : '?') + 'cache=' + new Date().getTime();
+        }
+    });
+    
+    // Restore only the theme preference
+    if (savedTheme) {
+        localStorage.setItem('theme', savedTheme);
+    }
+    
+    console.log('Session cache cleared and state reset');
+});
+
 // Add event listener for page visibility changes to handle wake lock
 document.addEventListener('visibilitychange', function() {
     if (document.visibilityState === 'visible' && isPlaying) {
@@ -224,6 +279,9 @@ function loadTrack(track_index){
     
     // Add loading animation class
     document.querySelector('.wrapper').classList.add('track-loading');
+    
+    // Add transition class for smooth background change
+    document.body.classList.add('bg-transitioning');
 
     curr_track.src = music_list[track_index].music;
     curr_track.load();
@@ -239,7 +297,13 @@ function loadTrack(track_index){
     curr_track.addEventListener('ended', nextTrack);
     updateActivePlaylistItem();
     updateSongNavigationPreview();
-    random_bg_color();
+    
+    // Extract colors from album art for background
+    if (music_list[track_index].img) {
+        extractColorsFromURL(music_list[track_index].img);
+    } else {
+        random_bg_color();
+    }
     
     // Remove loading animation when track is ready to play
     curr_track.addEventListener('canplay', function() {
@@ -435,11 +499,11 @@ function extractColorsFromURL(url) {
         extractedColors.secondary = bottomRightColor;
         extractedColors.accent = centerColor;
         
-        // Create a gradient with the extracted colors
-        const angle = 'to right';
-        const gradient = `linear-gradient(${angle}, ${topLeftColor}, ${bottomRightColor})`;
+        // Create a more dynamic gradient with the extracted colors
+        const angle = Math.random() > 0.5 ? '135deg' : '45deg';
+        const gradient = `linear-gradient(${angle}, ${topLeftColor}, ${centerColor}, ${bottomRightColor})`;
         
-        // Apply the gradient to the body
+        // Apply the gradient to the body with enhanced transition
         document.body.style.background = gradient;
         
         // Remove the transition class after animation completes
@@ -491,7 +555,7 @@ function getAverageColor(ctx, x, y, width, height) {
 }
 
 function fallbackRandomColor() {
-    // Generate random colors for fallback
+    // Generate random colors for fallback with enhanced visual appeal
     let hex = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e'];
     
     function populate(a) {
@@ -505,15 +569,16 @@ function fallbackRandomColor() {
     
     let Color1 = populate('#');
     let Color2 = populate('#');
-    var angle = 'to right';
+    let Color3 = populate('#');
+    let angle = Math.random() > 0.5 ? '135deg' : '45deg';
     
-    let gradient = 'linear-gradient(' + angle + ',' + Color1 + ', ' + Color2 + ")";
+    let gradient = `linear-gradient(${angle}, ${Color1}, ${Color2}, ${Color3})`;
     document.body.style.background = gradient;
     
-    // Remove the transition class after animation completes
+    // Remove the transition class after animation completes with longer duration
     setTimeout(() => {
         document.body.classList.remove('bg-transitioning');
-    }, 1500);
+    }, 2000);
 }
 
 // Color animation variables
@@ -547,8 +612,13 @@ function startColorLoop() {
                 const currentTime = new Date().getTime() / 1000;
                 const pulseValue = Math.sin(currentTime) * 0.2 + 0.8; // Value between 0.6 and 1.0
                 
-                // Adjust the background-size CSS property for a subtle pulsing effect
+                // Create a dynamic pulsing effect that responds to the music
                 document.body.style.backgroundSize = `${150 + pulseValue * 50}% ${150 + pulseValue * 50}%`;
+                
+                // Subtle shift in background position for more dynamic feel
+                const shiftX = Math.sin(currentTime * 0.5) * 5;
+                const shiftY = Math.cos(currentTime * 0.5) * 5;
+                document.body.style.backgroundPosition = `${50 + shiftX}% ${50 + shiftY}%`;
             }, 100); // Update every 100ms for smooth animation
         }
     }

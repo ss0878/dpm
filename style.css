@@ -41,6 +41,35 @@
     }
 }
 
+@keyframes smoothTransition {
+    0% {
+        opacity: 0.7;
+        transform: scale(1.05);
+        filter: blur(5px);
+    }
+    50% {
+        opacity: 0.85;
+        filter: blur(3px);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        filter: blur(0px);
+    }
+}
+
+@keyframes pulseBackground {
+    0% {
+        background-size: 150% 150%;
+    }
+    50% {
+        background-size: 170% 170%;
+    }
+    100% {
+        background-size: 150% 150%;
+    }
+}
+
 body{
     font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
     background: var(--bg-color);
@@ -51,7 +80,7 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    transition: background 1.5s ease-in-out;
+    transition: all 2s cubic-bezier(0.19, 1, 0.22, 1);
     text-shadow: var(--text-shadow);
     height: 100vh;
     width: 100vw;
@@ -60,6 +89,14 @@ body{
     justify-content: center;
     place-items: center;
     position: relative;
+}
+
+body.bg-transitioning {
+    animation: smoothTransition 1.2s ease-out forwards, pulseBackground 8s ease-in-out infinite;
+}
+
+body.playing-music {
+    animation: gradientShift 20s ease infinite, pulseBackground 15s ease-in-out infinite;
 }
 
 /* Keyboard Shortcuts Tooltip */
@@ -2140,35 +2177,7 @@ p{
 }
 
 /* Aspect ratio based queries for modern devices */
-@media screen and (min-aspect-ratio: 18/9) {
-    .player {
-        width: min(85vw, 420px);
-    }
-    
-    .wrapper {
-        gap: clamp(16px, 2.8vw, 26px);
-    }
-    
-    .track-art {
-        width: clamp(130px, 28vw, 190px);
-        height: clamp(130px, 28vw, 190px);
-    }
-}
 
-@media screen and (min-aspect-ratio: 20/9) {
-    .player {
-        width: min(80vw, 400px);
-    }
-    
-    .track-art {
-        width: clamp(120px, 26vw, 170px);
-        height: clamp(120px, 26vw, 170px);
-    }
-    
-    .buttons {
-        gap: clamp(14px, 3.5vw, 24px);
-    }
-}
 
 /* Ultra-tall devices (like unfolded Z Fold) */
 @media screen and (min-aspect-ratio: 4/3) and (orientation: portrait) and (min-height: 1000px) {
@@ -2192,4 +2201,168 @@ p{
         width: min(70vw, 400px);
         max-height: 75vh;
     }
+}
+
+/* Pull-to-Refresh Styles */
+.pull-to-refresh {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+    backdrop-filter: blur(10px);
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1000;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.pull-to-refresh.visible {
+    transform: translateY(0);
+}
+
+.pull-to-refresh.refreshing {
+    transform: translateY(0);
+    background: linear-gradient(135deg, rgba(76, 175, 80, 0.2), rgba(76, 175, 80, 0.1));
+}
+
+.refresh-icon {
+    font-size: 24px;
+    color: var(--primary-color, #fff);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.refresh-icon.spinning {
+    animation: spin 1s linear infinite;
+    color: #4CAF50;
+}
+
+.refresh-text {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--primary-color, #fff);
+    transition: color 0.3s ease;
+}
+
+.pull-to-refresh.refreshing .refresh-text {
+    color: #4CAF50;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes pullBounce {
+    0% { transform: translateY(-100%); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+.pull-to-refresh.bounce {
+    animation: pullBounce 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* Enhanced visual feedback animations */
+@keyframes pullGlow {
+    0% { box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); }
+    50% { box-shadow: 0 4px 30px rgba(76, 175, 80, 0.3), 0 0 20px rgba(76, 175, 80, 0.2); }
+    100% { box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); }
+}
+
+@keyframes refreshPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.pull-to-refresh.refreshing {
+    animation: pullGlow 2s ease-in-out infinite;
+}
+
+.pull-to-refresh.refreshing .refresh-icon {
+    animation: spin 1s linear infinite, refreshPulse 1.5s ease-in-out infinite;
+}
+
+/* Haptic feedback simulation with subtle vibration effect */
+@keyframes hapticFeedback {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-1px); }
+    50% { transform: translateX(1px); }
+    75% { transform: translateX(-1px); }
+    100% { transform: translateX(0); }
+}
+
+.pull-to-refresh.haptic {
+    animation: hapticFeedback 0.1s ease-in-out;
+}
+
+/* Progress indicator */
+.pull-to-refresh::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #4CAF50, #81C784);
+    border-radius: 0 0 20px 20px;
+    transition: width 0.3s ease;
+    width: 0%;
+}
+
+.pull-to-refresh.visible::before {
+    width: var(--pull-progress, 0%);
+}
+
+.pull-to-refresh.refreshing::before {
+    width: 100%;
+    animation: progressShimmer 1.5s ease-in-out infinite;
+}
+
+@keyframes progressShimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+}
+
+/* Mobile-specific pull-to-refresh adjustments */
+@media screen and (max-width: 768px) {
+    .pull-to-refresh {
+        height: 70px;
+        border-radius: 0 0 15px 15px;
+    }
+    
+    .refresh-icon {
+        font-size: 20px;
+    }
+    
+    .refresh-text {
+        font-size: 12px;
+    }
+}
+
+/* Dark theme adjustments */
+body.dark-theme .pull-to-refresh {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2));
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+body.dark-theme .pull-to-refresh.refreshing {
+    background: linear-gradient(135deg, rgba(76, 175, 80, 0.3), rgba(76, 175, 80, 0.2));
+}
+
+/* Prevent overscroll bounce on iOS */
+body {
+    overscroll-behavior-y: contain;
+}
+
+/* Smooth scrolling for better UX */
+html {
+    scroll-behavior: smooth;
 }

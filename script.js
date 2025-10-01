@@ -337,14 +337,27 @@ function updateSongNavigationPreview() {
         });
     }
     
+    // Store indices for direct playback
+    window.previewNextIndex = nextIndex;
+    window.previewPrevIndex = prevIndex;
+    
     // Add click functionality for navigation
     const prevSongSection = document.querySelector('.prev-song-section');
     const nextSongSection = document.querySelector('.next-song-section');
     
-    prevSongSection.onclick = () => prevTrack();
-    nextSongSection.onclick = () => nextTrack();
+    prevSongSection.onclick = () => playPreviewTrack(window.previewPrevIndex);
+    nextSongSection.onclick = () => playPreviewTrack(window.previewNextIndex);
 }
 
+
+// Function to play a specific track from preview
+function playPreviewTrack(index) {
+    if (index >= 0 && index < music_list.length) {
+        track_index = index;
+        loadTrack(track_index);
+        playTrack();
+    }
+}
 
 function random_bg_color(){
     // Use the track art element directly instead of creating a new image

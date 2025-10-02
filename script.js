@@ -1347,22 +1347,86 @@ function initializeScrollToTop() {
     
     if (!scrollToTopBtn || !playlistSongs) return;
     
-    // Show/hide button based on scroll position
+    let scrollTimeout;
+    
+    // Show/hide button based on scroll position with enhanced responsiveness
     playlistSongs.addEventListener('scroll', function() {
-        if (this.scrollTop > 200) {
+        // Clear existing timeout
+        clearTimeout(scrollTimeout);
+        
+        // Show button immediately when scrolling past threshold
+        if (this.scrollTop > 100) {
             scrollToTopBtn.classList.add('show');
         } else {
             scrollToTopBtn.classList.remove('show');
         }
+        
+        // Add a subtle pulse effect during active scrolling
+        scrollToTopBtn.style.transform = scrollToTopBtn.classList.contains('show') 
+            ? 'translateY(0) scale(1.02)' 
+            : 'translateY(30px) scale(0.8)';
+        
+        // Reset transform after scrolling stops
+        scrollTimeout = setTimeout(() => {
+            if (scrollToTopBtn.classList.contains('show')) {
+                scrollToTopBtn.style.transform = 'translateY(0) scale(1)';
+            }
+        }, 150);
     });
+}
+
+function scrollPlaylistToTop() {
+    const playlistSongs = document.getElementById('playlist-songs');
+    
+    if (!playlistSongs) return;
+    
+    // Immediate and precise scroll to top
+    playlistSongs.scrollTop = 0;
+    
+    // Add visual feedback to the playlist title
+    const playlistTitle = document.querySelector('.playlist-title');
+    if (playlistTitle) {
+        playlistTitle.style.transform = 'translateY(0) scale(0.98)';
+        setTimeout(() => {
+            playlistTitle.style.transform = 'translateY(-1px) scale(1)';
+        }, 100);
+    }
 }
 
 function scrollToTop() {
     const playlistSongs = document.getElementById('playlist-songs');
-    if (playlistSongs) {
-        playlistSongs.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
+    const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+    
+    if (!playlistSongs) return;
+    
+    // Add active state animation for better visual feedback
+    if (scrollToTopBtn) {
+        scrollToTopBtn.style.transform = 'translateY(-1px) scale(0.95)';
+        setTimeout(() => {
+            scrollToTopBtn.style.transform = 'translateY(0) scale(1)';
+        }, 100);
     }
+    
+    // Enhanced smooth scroll with custom easing
+    const startPosition = playlistSongs.scrollTop;
+    const startTime = performance.now();
+    const duration = 600; // Slightly longer for smoother animation
+    
+    function easeOutCubic(t) {
+        return 1 - Math.pow(1 - t, 3);
+    }
+    
+    function animateScroll(currentTime) {
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        const easedProgress = easeOutCubic(progress);
+        
+        playlistSongs.scrollTop = startPosition * (1 - easedProgress);
+        
+        if (progress < 1) {
+            requestAnimationFrame(animateScroll);
+        }
+    }
+    
+    requestAnimationFrame(animateScroll);
 }

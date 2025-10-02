@@ -2,6 +2,14 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58258/300x700/lova-akhil.jpg',
+         name : 'LOVA',
+         artist : 'Akhil',
+         album : 'Akhil',
+         released : 'Oct-2-2025',
+         music : 'https://s320.djpunjab.is/data/320/58258/308693/LOVA%20-%20Akhil.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58246/300x700/mid-march-manaan.jpg',
          name : 'Mid March',
          artist : 'Manaan',
@@ -4339,8 +4347,8 @@ const music_list = [
            {
             img : 'https://cover.djpunjab.is/53116/300x700/Investigate-Karan-Aujia.jpg',
             name : 'Investigate',
-            artist : 'Karan Aujia',
-            album : 'Karan Aujia Music',
+            artist : 'Karan Aujla',
+            album : 'Karan Aujla Music',
             released : '25-01-2023',
             music : 'https://s320.djpunjab.is/data/320/53116/301246/Investigate%20-%20Karan%20Aujla.mp3'
            },

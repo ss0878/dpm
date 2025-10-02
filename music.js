@@ -10,6 +10,14 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/58258/308693/LOVA%20-%20Akhil.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/58255/300x700/love-sick-yuvraj.jpg',
+         name : 'Love Sick',
+         artist : 'Yuvraj',
+         album : 'Yuvraj',
+         released : 'Oct-1-2025',
+         music : 'https://s320.djpunjab.is/data/320/58255/308690/Love%20Sick%20-%20Yuvraj.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58246/300x700/mid-march-manaan.jpg',
          name : 'Mid March',
          artist : 'Manaan',

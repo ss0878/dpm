@@ -988,23 +988,44 @@ function pauseTrack(){
     releaseWakeLock();
 }
 function nextTrack(){
-    if(track_index < music_list.length - 1 && isRandom === false){
-        track_index += 1;
-    }else if(track_index < music_list.length - 1 && isRandom === true){
-        let random_index = Number.parseInt(Math.random() * music_list.length);
-        track_index = random_index;
-    }else{
-        track_index = 0;
+    if (isRandom) {
+        // Use the next song index from the preview container for synchronization
+        if (typeof window.previewNextIndex !== 'undefined' && window.previewNextIndex >= 0) {
+            track_index = window.previewNextIndex;
+        } else {
+            // Fallback to random generation if preview index is not available
+            let random_index = Number.parseInt(Math.random() * music_list.length);
+            track_index = random_index;
+        }
+    } else {
+        // Normal sequential mode
+        if(track_index < music_list.length - 1){
+            track_index += 1;
+        } else {
+            track_index = 0;
+        }
     }
     loadTrack(track_index);
     playTrack();
     notification();
 }
 function prevTrack(){
-    if(track_index > 0){
-        track_index -= 1;
-    }else{
-        track_index = music_list.length -1;
+    if (isRandom) {
+        // Use the previous song index from the preview container for synchronization
+        if (typeof window.previewPrevIndex !== 'undefined' && window.previewPrevIndex >= 0) {
+            track_index = window.previewPrevIndex;
+        } else {
+            // Fallback to random generation if preview index is not available
+            let random_index = Number.parseInt(Math.random() * music_list.length);
+            track_index = random_index;
+        }
+    } else {
+        // Normal sequential mode
+        if(track_index > 0){
+            track_index -= 1;
+        } else {
+            track_index = music_list.length - 1;
+        }
     }
     loadTrack(track_index);
     playTrack();

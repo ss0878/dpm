@@ -2,6 +2,22 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58264/300x700/tere-naal-pyar-ho-gya-nirvair-pannu.jpg',
+         name : 'Tere Naal Pyar Ho Gya',
+         artist : 'Nirvair Pannu',
+         album : 'Nirvair Pannu',
+         released : 'Oct-3-2025',
+         music : 'https://s320.djpunjab.is/data/320/58264/308699/Tere%20Naal%20Pyar%20Ho%20Gya%20-%20Nirvair%20Pannu.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58262/300x700/step-in-armaan-bedil.jpg',
+         name : 'Step In',
+         artist : 'Armaan Bedil',
+         album : 'Armaan Bedil',
+         released : 'Oct-3-2025',
+         music : 'https://s320.djpunjab.is/data/320/58262/308697/Step%20In%20-%20Armaan%20Bedil.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58258/300x700/lova-akhil.jpg',
          name : 'LOVA',
          artist : 'Akhil',

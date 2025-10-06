@@ -2,6 +2,22 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58277/300x700/hawa-vich-g-khan.jpg',
+         name : 'HAWA VICH',
+         artist : 'G Khan',
+         album : 'G Khan',
+         released : 'Oct-6-2025',
+         music : 'https://s320.djpunjab.is/data/320/58277/308712/HAWA%20VICH%20-%20G%20Khan.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58274/300x700/puchhe-je-tejay.jpg',
+         name : 'Puchhe Je',
+         artist : 'TEJAY',
+         album : 'TEJAY',
+         released : 'Oct-6-2025',
+         music : 'https://s320.djpunjab.is/data/320/58274/308709/Puchhe%20Je%20-%20TEJAY.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58264/300x700/tere-naal-pyar-ho-gya-nirvair-pannu.jpg',
          name : 'Tere Naal Pyar Ho Gya',
          artist : 'Nirvair Pannu',
@@ -1052,7 +1068,7 @@ const music_list = [
       {
          img : 'https://cover.djpunjab.is/56681/300x700/powerhouse-amrit-maan.jpg',
          name : 'POWERHOUSE',
-         artist : 'Amrit Maan Ft. Bhupinder Babbal',
+         artist : 'Amrit Maan FT. Bhupinder Babbal',
          album : 'Amrit Maan',
          released : 'Dec-10-2024',
          music : 'https://hd1.djjohal.com/320/521674/Powerhouse%20-%20Amrit%20Maan%20%20Bhupinder%20Babbal%20(DJJOhAL.Com).mp3'
@@ -2987,7 +3003,7 @@ const music_list = [
       {
          img : 'https://cover.djpunjab.is/54172/300x300/making-memories-karan-aujla.jpg',
          name : 'Bachke Bachke',
-         artist : 'Karan Aujla(feat. Yarah)',
+         artist : 'Karan Aujla (feat. Yarah)',
          album : 'Making Memories',
          released : 'Aug-18-2023',
          music : 'https://p320.djpunjab.is/data/320/54172/302538/Bachke%20Bachke%20(feat.%20Yarah)%20-%20Karan%20Aujla.mp3'
@@ -2995,7 +3011,7 @@ const music_list = [
       {
          img : 'https://cover.djpunjab.is/54172/300x300/making-memories-karan-aujla.jpg',
          name : 'Admirin You',
-         artist : 'Karan Aujla(feat. Preston Pablo)',
+         artist : 'Karan Aujla (feat. Preston Pablo)',
          album : 'Making Memories',
          released : 'Aug-18-2023',
          music : 'https://p320.djpunjab.is/data/320/54172/302542/Admirin%20You%20(feat.%20Preston%20Pablo)%20-%20Karan%20Aujla.mp3'

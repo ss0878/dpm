@@ -2,6 +2,14 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58301/300x700/look-after-karan-randhawa.jpg',
+         name : 'Look After',
+         artist : 'Karan Randhawa',
+         album : 'Karan Randhawa',
+         released : 'Oct-10-2025',
+         music : 'https://s320.djpunjab.is/data/320/58301/308748/Look%20After%20-%20Karan%20Randhawa.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58277/300x700/hawa-vich-g-khan.jpg',
          name : 'HAWA VICH',
          artist : 'G Khan',

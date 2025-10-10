@@ -444,7 +444,7 @@ const music_list = [
       {
          img : 'https://cover.djpunjab.is/57830/300x700/two-of-a-kind-armaan-gill.jpg',
          name : 'DOORIYAN',
-         artist : 'Armaan Gill Ft. Arnaaz Gill',
+         artist : 'Armaan Gill & Arnaaz Gill',
          album : 'TWO OF A KIND',
          released : 'July-18-2025',
          music : 'https://p320.djpunjab.is/data/320/57830/307920/DOORIYAN%20-%20Armaan%20Gill.mp3'
@@ -2347,7 +2347,7 @@ const music_list = [
       {
          img : 'https://i.imgur.com/wIjTH3V.jpg',
          name : 'Behind Bars',
-         artist : 'Azaad 4L Ft. Santali Beats',
+         artist : 'Azaad 4L Ft. Santali',
          album : 'Azaad 4L',
          released : 'Nov-10-2023',
          music : 'https://www.dropbox.com/scl/fi/o48p6rx3gpmzz0qcymvxv/Azaad-4L-Behind-Bars-Santali-Beats-Mantaj-Sidhu.mp3?rlkey=m6wihe68sqp2ag6by2i1g12xt&dl=1'

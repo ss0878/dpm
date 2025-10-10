@@ -860,8 +860,8 @@ const music_list = [
       {
               img : 'https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/12/68/19/126819e4-ecb9-87fa-7ded-7d400226eb9e/199282964558_cover.jpg/1200x630bb.jpg',
               name : 'Nishan',
-              artist : 'Azaad 4L | Santali',
-              album : 'Azaad 4L | Santali',
+              artist : 'Azaad 4L FT. Santali',
+              album : 'Azaad 4L FT. Santali',
               released : 'Mar-13-2025',
               music : 'https://www.dropbox.com/scl/fi/svf01o8n9x8ld0fbbjim3/Azaad-4L-Nishan-Santali-Mantaj-Sidhu.mp3?rlkey=5aycbpb4waii609gxlkabra8e&dl=1'
             },
@@ -1116,8 +1116,8 @@ const music_list = [
       {
               img : 'https://cover.djpunjab.is/56602/300x700/khalipan-nirvair-pannu.jpg',
               name : 'Azaad Anthem',
-              artist : 'Azaad 4L / Santali',
-              album : 'Azaad 4L / Santali',
+              artist : 'Azaad 4L FT. Santali',
+              album : 'Azaad 4L FT. Santali',
               released : 'Nov-23-2024',
               music : 'https://www.dropbox.com/scl/fi/s4f3xynms2x6wudeotxhi/Azaad-4L-Azaad-Anthem-Santali-Att-Society.mp3?rlkey=9n5peu9fqplnoslzsrfl256pd&dl=1'
             },

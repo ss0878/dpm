@@ -293,17 +293,24 @@ function initializePullToRefresh() {
             random_bg_color();
         }
         
-        // Update the now playing information
-        if (typeof updateNowPlaying === 'function') {
-            updateNowPlaying();
-        }
+        // Reload the current track to refresh all information
+        loadTrack(track_index);
         
         // Refresh playlist if it's open
         const playlistContainer = document.getElementById('playlist-container');
         if (playlistContainer && playlistContainer.classList.contains('show')) {
-            if (typeof loadPlaylist === 'function') {
-                loadPlaylist();
-            }
+            // Refresh the playlist with current search and filter settings
+            initPlaylist(currentSearchQuery, currentArtistFilter);
+            // Update active playlist item highlighting
+            updateActivePlaylistItem();
+        }
+        
+        // Update song navigation preview
+        updateSongNavigationPreview();
+        
+        // Refresh theme
+        if (typeof loadSavedTheme === 'function') {
+            loadSavedTheme();
         }
         
         // Simulate network delay
@@ -988,6 +995,18 @@ function pauseTrack(){
     releaseWakeLock();
 }
 function nextTrack(){
+    // Check if artist focus mode is active
+    if (isArtistFocusMode) {
+        const nextArtistTrackIndex = getNextArtistTrack();
+        if (nextArtistTrackIndex !== null) {
+            track_index = nextArtistTrackIndex;
+            loadTrack(track_index);
+            playTrack();
+            notification();
+            return;
+        }
+    }
+    
     if (isRandom) {
         // Use the next song index from the preview container for synchronization
         if (typeof window.previewNextIndex !== 'undefined' && window.previewNextIndex >= 0) {
@@ -1010,6 +1029,18 @@ function nextTrack(){
     notification();
 }
 function prevTrack(){
+    // Check if artist focus mode is active
+    if (isArtistFocusMode) {
+        const prevArtistTrackIndex = getPrevArtistTrack();
+        if (prevArtistTrackIndex !== null) {
+            track_index = prevArtistTrackIndex;
+            loadTrack(track_index);
+            playTrack();
+            notification();
+            return;
+        }
+    }
+    
     if (isRandom) {
         // Use the previous song index from the preview container for synchronization
         if (typeof window.previewPrevIndex !== 'undefined' && window.previewPrevIndex >= 0) {
@@ -1171,6 +1202,64 @@ function downloadTrack(){
 let currentSearchQuery = '';
 let currentArtistFilter = '';
 
+// Artist-focused playback state
+let isArtistFocusMode = false;
+let focusedArtist = '';
+let artistFocusedTracks = [];
+
+// Function to normalize artist names for deduplication
+function normalizeArtistName(artistName) {
+    if (!artistName) return '';
+    
+    // Convert to lowercase for comparison
+    let normalized = artistName.toLowerCase().trim();
+    
+    // Remove common featuring patterns and everything after them
+    const featuringPatterns = [
+        /\s+(ft\.?|feat\.?|featuring)\s+.*/i,
+        /\s+x\s+.*/i,
+        /\s+&\s+.*/i,
+        /\s+,\s+.*/i,
+        /\s+\(.*(feat|ft).*\).*/i
+    ];
+    
+    for (const pattern of featuringPatterns) {
+        normalized = normalized.replace(pattern, '');
+    }
+    
+    // Remove extra whitespace
+    normalized = normalized.trim();
+    
+    return normalized;
+}
+
+// Function to get the primary artist name (for display)
+function getPrimaryArtistName(artistName) {
+    if (!artistName) return '';
+    
+    // Keep original case but extract primary artist
+    let primary = artistName.trim();
+    
+    // Extract everything before featuring patterns
+    const featuringPatterns = [
+        /\s+(ft\.?|feat\.?|featuring)\s+.*/i,
+        /\s+x\s+.*/i,
+        /\s+&\s+.*/i,
+        /\s+,\s+.*/i,
+        /\s+\(.*(feat|ft).*\).*/i
+    ];
+    
+    for (const pattern of featuringPatterns) {
+        const match = primary.match(pattern);
+        if (match) {
+            primary = primary.substring(0, match.index).trim();
+            break;
+        }
+    }
+    
+    return primary;
+}
+
 // Function to populate artist filter dropdown
 function populateArtistFilter() {
     const artistSelect = document.getElementById('artist-filter-select');
@@ -1181,25 +1270,43 @@ function populateArtistFilter() {
         artistSelect.remove(1);
     }
     
-    // Get unique artists from music list (case-insensitive)
-    const artistMap = {};
+    // Create a map to store normalized artists and their information
+    const artistMap = new Map();
+    
     music_list.forEach(song => {
-        // Use lowercase as key for case-insensitive comparison
-        const artistKey = song.artist.toLowerCase();
-        // Store the original case version (first occurrence)
-        if (!artistMap[artistKey]) {
-            artistMap[artistKey] = song.artist;
+        const originalArtist = song.artist;
+        const normalizedArtist = normalizeArtistName(originalArtist);
+        const primaryArtist = getPrimaryArtistName(originalArtist);
+        
+        if (normalizedArtist && !artistMap.has(normalizedArtist)) {
+            artistMap.set(normalizedArtist, {
+                displayName: primaryArtist,
+                originalName: originalArtist,
+                normalizedName: normalizedArtist,
+                variations: [originalArtist]
+            });
+        } else if (normalizedArtist && artistMap.has(normalizedArtist)) {
+            // Add this variation to the existing entry
+            const existing = artistMap.get(normalizedArtist);
+            if (!existing.variations.includes(originalArtist)) {
+                existing.variations.push(originalArtist);
+            }
         }
     });
     
-    // Convert map to array and sort alphabetically
-    const artists = Object.values(artistMap).sort();
+    // Convert map to array and sort alphabetically by display name
+    const artists = Array.from(artistMap.values()).sort((a, b) => 
+        a.displayName.localeCompare(b.displayName)
+    );
     
     // Add artist options to select
-    artists.forEach(artist => {
+    artists.forEach(artistInfo => {
         const option = document.createElement('option');
-        option.value = artist;
-        option.textContent = artist;
+        option.value = artistInfo.normalizedName;
+        option.textContent = artistInfo.displayName;
+        // Store additional info as data attributes
+        option.setAttribute('data-original', artistInfo.originalName);
+        option.setAttribute('data-variations', JSON.stringify(artistInfo.variations));
         artistSelect.appendChild(option);
     });
 }
@@ -1232,12 +1339,12 @@ function initPlaylist(searchQuery = '', artistFilter = '') {
         );
     }
     
-    // Apply artist filter if provided (case-insensitive)
+    // Apply artist filter if provided (using normalized comparison)
     if (artistFilter) {
-        const artistFilterLower = artistFilter.toLowerCase();
-        filteredSongs = filteredSongs.filter(song => 
-            song.artist.toLowerCase() === artistFilterLower
-        );
+        filteredSongs = filteredSongs.filter(song => {
+            const songNormalizedArtist = normalizeArtistName(song.artist);
+            return songNormalizedArtist === artistFilter;
+        });
     }
     
     // Update song counter
@@ -1274,17 +1381,45 @@ function initPlaylist(searchQuery = '', artistFilter = '') {
             <img src="${song.img}" alt="${song.name}" class="playlist-song-img">
             <div class="playlist-song-info">
                 <div class="playlist-song-name">${song.name}</div>
-                <div class="playlist-song-artist">${song.artist}</div>
+                <div class="playlist-song-artist song-artist">${song.artist}</div>
             </div>
         `;
         
+        // Add data attribute for artist focus highlighting
+        if (isArtistFocusMode && song.artist === focusedArtist) {
+            playlistItem.setAttribute('data-artist-focused', 'true');
+        }
+        
         // Add click event to play the song
-        playlistItem.addEventListener('click', () => {
-            track_index = originalIndex;
-            loadTrack(track_index);
-            playTrack();
-            togglePlaylist();
+        playlistItem.addEventListener('click', (event) => {
+            // Prevent event bubbling for nested elements
+            event.stopPropagation();
+            
+            // Check if user clicked on artist name to enable artist focus mode
+            const clickedElement = event.target;
+            const isArtistClick = clickedElement.classList.contains('song-artist') || 
+                                clickedElement.closest('.song-artist');
+            
+            if (isArtistClick) {
+                // Enable artist focus mode
+                enableArtistFocusMode(song.artist);
+            } else {
+                // Regular song selection
+                track_index = originalIndex;
+                loadTrack(track_index);
+                playTrack();
+                togglePlaylist();
+            }
         });
+        
+        // Add separate click handler for artist element to ensure it's always clickable
+        const artistElement = playlistItem.querySelector('.song-artist');
+        if (artistElement) {
+            artistElement.addEventListener('click', (event) => {
+                event.stopPropagation();
+                enableArtistFocusMode(song.artist);
+            });
+        }
         
         playlistSongs.appendChild(playlistItem);
     });
@@ -1450,4 +1585,184 @@ function scrollToTop() {
     }
     
     requestAnimationFrame(animateScroll);
+}
+
+
+
+
+
+
+// Artist Focus Mode Functions
+function enableArtistFocusMode(artist) {
+    isArtistFocusMode = true;
+    focusedArtist = artist;
+    
+    // Normalize the focused artist name for comparison
+    const normalizedFocusedArtist = normalizeArtistName(artist);
+    
+    // Filter tracks by the selected artist using normalized comparison
+    artistFocusedTracks = music_list.filter(song => 
+        normalizeArtistName(song.artist) === normalizedFocusedArtist
+    );
+    
+    if (artistFocusedTracks.length === 0) {
+        console.warn('No tracks found for artist:', artist);
+        disableArtistFocusMode();
+        return;
+    }
+    
+    // Update UI to show artist focus mode
+    updateArtistFocusUI();
+    
+    // Update song navigation preview to reflect artist focus mode
+    updateSongNavigationPreview();
+    
+    // Show notification with primary artist name
+    const primaryArtistName = getPrimaryArtistName(artist);
+    showArtistFocusNotification(primaryArtistName);
+    
+    // Start playing the first track by this artist using normalized comparison
+    const firstTrackIndex = music_list.findIndex(song => 
+        normalizeArtistName(song.artist) === normalizedFocusedArtist
+    );
+    if (firstTrackIndex !== -1) {
+        track_index = firstTrackIndex;
+        loadTrack(track_index);
+        playTrack();
+    }
+    
+    // Update playlist to highlight focused artist
+    initPlaylist(currentSearchQuery, currentArtistFilter);
+}
+
+function disableArtistFocusMode() {
+    isArtistFocusMode = false;
+    focusedArtist = '';
+    artistFocusedTracks = [];
+    
+    // Update UI to remove artist focus indicators
+    updateArtistFocusUI();
+    
+    // Update song navigation preview to reflect normal mode
+    updateSongNavigationPreview();
+    
+    // Refresh playlist
+    initPlaylist(currentSearchQuery, currentArtistFilter);
+}
+
+function updateArtistFocusUI() {
+    const playlistHeader = document.querySelector('.playlist-header');
+    const existingIndicator = document.querySelector('.artist-focus-indicator');
+    
+    if (isArtistFocusMode && focusedArtist) {
+        // Add or update artist focus indicator
+        if (!existingIndicator) {
+            const indicator = document.createElement('div');
+            indicator.className = 'artist-focus-indicator';
+            indicator.innerHTML = `
+                <span class="focus-text">Playing: ${focusedArtist}</span>
+                <button class="clear-focus-btn" onclick="disableArtistFocusMode()">
+                    <i class="fas fa-times"></i>
+                </button>
+            `;
+            playlistHeader.appendChild(indicator);
+        } else {
+            existingIndicator.querySelector('.focus-text').textContent = `Playing: ${focusedArtist}`;
+        }
+        
+        // Add focused class to playlist container
+        playlistContainer.classList.add('artist-focused');
+    } else {
+        // Remove artist focus indicator
+        if (existingIndicator) {
+            existingIndicator.remove();
+        }
+        
+        // Remove focused class from playlist container
+        playlistContainer.classList.remove('artist-focused');
+    }
+}
+
+function showArtistFocusNotification(artist) {
+    // Create notification element
+    const notification = document.createElement('div');
+    notification.className = 'artist-focus-notification';
+    notification.innerHTML = `
+        <i class="fas fa-user-music"></i>
+        <span>Now playing only ${artist} tracks</span>
+    `;
+    
+    // Add to body
+    document.body.appendChild(notification);
+    
+    // Animate in
+    setTimeout(() => {
+        notification.classList.add('show');
+    }, 100);
+    
+    // Remove after 3 seconds
+    setTimeout(() => {
+        notification.classList.remove('show');
+        setTimeout(() => {
+            if (notification.parentNode) {
+                notification.parentNode.removeChild(notification);
+            }
+        }, 300);
+    }, 3000);
+}
+
+function getNextArtistTrack() {
+    if (!isArtistFocusMode || artistFocusedTracks.length === 0) {
+        return null;
+    }
+    
+    const currentSong = music_list[track_index];
+    const currentIndexInArtistTracks = artistFocusedTracks.findIndex(song => 
+        song.name === currentSong.name && song.artist === currentSong.artist
+    );
+    
+    if (currentIndexInArtistTracks === -1) {
+        // Current song is not by the focused artist, play first artist track
+        const normalizedFocusedArtist = normalizeArtistName(focusedArtist);
+        return music_list.findIndex(song => 
+            normalizeArtistName(song.artist) === normalizedFocusedArtist
+        );
+    }
+    
+    // Get next track by the same artist
+    const nextArtistTrackIndex = (currentIndexInArtistTracks + 1) % artistFocusedTracks.length;
+    const nextArtistTrack = artistFocusedTracks[nextArtistTrackIndex];
+    
+    return music_list.findIndex(song => 
+        song.name === nextArtistTrack.name && song.artist === nextArtistTrack.artist
+    );
+}
+
+function getPrevArtistTrack() {
+    if (!isArtistFocusMode || artistFocusedTracks.length === 0) {
+        return null;
+    }
+    
+    const currentSong = music_list[track_index];
+    const currentIndexInArtistTracks = artistFocusedTracks.findIndex(song => 
+        song.name === currentSong.name && song.artist === currentSong.artist
+    );
+    
+    if (currentIndexInArtistTracks === -1) {
+        // Current song is not by the focused artist, play last artist track
+        const lastArtistTrack = artistFocusedTracks[artistFocusedTracks.length - 1];
+        return music_list.findIndex(song => 
+            song.name === lastArtistTrack.name && song.artist === lastArtistTrack.artist
+        );
+    }
+    
+    // Get previous track by the same artist
+    const prevArtistTrackIndex = currentIndexInArtistTracks === 0 
+        ? artistFocusedTracks.length - 1 
+        : currentIndexInArtistTracks - 1;
+    const prevArtistTrack = artistFocusedTracks[prevArtistTrackIndex];
+    
+    return music_list.findIndex(song => 
+        song.name === prevArtistTrack.name && song.artist === prevArtistTrack.artist
+    );
 }

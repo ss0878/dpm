@@ -492,7 +492,7 @@ const music_list = [
       {
          img : 'https://cover.djpunjab.is/57764/300x700/back-gear-roop-bhullar.jpg',
          name : 'Back Gear',
-         artist : 'Roop Bhullar Ft.Inderpal Moga',
+         artist : 'Roop Bhullar Ft. Inderpal Moga',
          album : 'Inderpal Moga',
          released : 'July-10-2025',
          music : 'https://s320.djpunjab.is/data/320/57764/307825/Back%20Gear%20-%20Roop%20Bhullar.mp3'
@@ -3035,7 +3035,7 @@ const music_list = [
       {
          img : 'https://cover.djpunjab.is/54153/300x700/wiseman-sidhu-moose-wala.jpg',
          name : 'Wiseman',
-         artist : 'Sidhu Moose Wala (AI) Ft. Jashan Brar',
+         artist : 'Sidhu Moose Wala Ft. Jashan Brar (AI)',
          album : 'Sidhu Moose Wala',
          released : 'Aug-13-2023',
          music : 'https://s320.djpunjab.is/data/320/54153/302515/Wiseman%20-%20Sidhu%20Moose%20Wala.mp3'
@@ -4619,7 +4619,7 @@ const music_list = [
              {
            img : 'https://i.imgur.com/KwqGmqO.jpg',
            name : 'LoveSick',
-           artist : 'Sidhu Moosewala x Noor Jehan',
+           artist : 'Sidhu Moose wala FT.  Noor Jehan',
            album : 'Sidhu Moosewala',
            released : '30-12-2022',
            music : 'https://www.dropbox.com/scl/fi/7mrpbrkw1tzpyh8682nnj/Sidhu-Moosewala-x-Noor-Jehan-LoveSick-Prod.-SXCK.mp3?rlkey=t75n1l791k6n39tfah26ihotv&dl=1'
@@ -6651,7 +6651,7 @@ const music_list = [
                {
             img : 'https://cover.djpunjab.is/50412/300x700/Shartan-Mankirat-Pannu.jpg',
             name : 'Shartan',
-            artist : 'Khan Bhaini Mankirat Pannu',
+            artist : 'Khan Bhaini Ft. Mankirat Pannu',
             album : 'Thuglife Records',
             released : '14-07-2021',
             music : 'https://s320.djpunjab.is/data/320/50412/298089/Shartan%20-%20Mankirat%20Pannu.mp3'

@@ -868,7 +868,7 @@ const music_list = [
       {
          img : 'https://cover.djpunjab.is/57066/300x700/tell-me-karan-aujla.jpg',
          name : 'Tell Me',
-         artist : 'Karan Aujla Ft.One Republic',
+         artist : 'Karan Aujla Ft. One Republic',
          album : 'Karan Aujla',
          released : 'Feb-28-2025',
          music : 'https://s320.djpunjab.is/data/320/57066/306753/Tell%20Me%20-%20Karan%20Aujla.mp3'

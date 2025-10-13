@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Dope Punjabi Music</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bandwidth-styles.css">
     <script src="music.js" defer></script>
     <script src="script.js" defer></script>
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/875/875590.png" type="image/x-icon">  
@@ -15,14 +16,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-   <!-- Pull-to-Refresh Indicator -->
-   <div class="pull-to-refresh" id="pullToRefresh">
-       <i class="fa fa-refresh refresh-icon" id="refreshIcon"></i>
-       <span class="refresh-text" id="refreshText">Pull to refresh</span>
-   </div>
+
 
    <div class="player">
-       <div class="wrapper glass">
+       <div class="wrapper glass frosted-glass">
         <div class="playlist-toggle" onclick="togglePlaylist()">
             <i class="fa fa-list" aria-hidden="true"></i>
         </div>
@@ -80,6 +77,9 @@
 
            <div class="buttons">
                <div class="main-controls">
+                   <div class="random-track" onclick="randomTrack()">
+                       <i class="fas fa-random fa-2x" title="random"></i>
+                   </div>
                    <div class="prev-track" onclick="prevTrack()">
                         <i class="fa fa-step-backward fa-2x"></i>
                     </div>
@@ -89,14 +89,22 @@
                     <div class="next-track" onclick="nextTrack()">
                         <i class="fa fa-step-forward fa-2x"></i>
                     </div>
-               </div>
-               <div class="secondary-controls">
-                   <div class="random-track" onclick="randomTrack()">
-                       <i class="fas fa-random fa-2x" title="random"></i>
-                   </div>
-                   <div class="repeat-track" onclick="repeatTrack()">
+                    <div class="repeat-track" onclick="repeatTrack()">
                        <i class="fa fa-repeat fa-2x" title="repeat"></i>
                    </div>
+               </div>
+           </div>
+           
+           <div class="bandwidth-button" onclick="toggleBandwidthOptions()">
+               <i class="fas fa-signal"></i>
+           </div>
+           
+           <div class="bandwidth-selector">
+               <div class="bandwidth-label">Quality:</div>
+               <div class="bandwidth-options">
+                   <div class="bandwidth-option" data-quality="high" onclick="changeBandwidth('high')">High</div>
+                   <div class="bandwidth-option" data-quality="medium" onclick="changeBandwidth('medium')">Medium</div>
+                   <div class="bandwidth-option" data-quality="low" onclick="changeBandwidth('low')">Low</div>
                </div>
            </div>
 

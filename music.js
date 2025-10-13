@@ -2,6 +2,14 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58306/300x700/badnam-rana-brass.jpg',
+         name : 'Badnam',
+         artist : 'Rana Brass',
+         album : 'Rana Brass',
+         released : 'Oct-13-2025',
+         music : 'https://s320.djpunjab.is/data/320/58306/308762/Badnam%20-%20Rana%20Brass.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58301/300x700/look-after-karan-randhawa.jpg',
          name : 'Look After',
          artist : 'Karan Randhawa',

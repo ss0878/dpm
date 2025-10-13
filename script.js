@@ -24,6 +24,7 @@ let isRepeat = 0; // 0: off, 1: repeat all, 2: repeat one
 let updateTimer;
 let playlistContainer = document.getElementById('playlist-container');
 let playlistSongs = document.getElementById('playlist-songs');
+let currentBandwidth = 'high'; // Default bandwidth setting
 
 // Wake Lock variables
 let wakeLock = null;
@@ -35,296 +36,93 @@ totalMusic = document.querySelector(".total-music-list");
 document.documentElement.style.setProperty('--volume-before-width', '99%');
 
 
-// Load the first track
-loadTrack(track_index);
+// Function to change audio bandwidth
+function changeBandwidth(quality) {
+    // Store the current time and playing state
+    const currentTime = curr_track.currentTime;
+    const wasPlaying = !curr_track.paused;
+    
+    // Update the current bandwidth setting
+    currentBandwidth = quality;
+    
+    // Update visual indicators
+    updateBandwidthUI();
+    
+    // Hide the bandwidth selector after selection
+    document.querySelector('.bandwidth-selector').classList.remove('show');
+    
+    // Get the current track's URL and modify it based on quality
+    const currentTrack = music_list[track_index];
+    const newUrl = getQualityUrl(currentTrack.music, quality);
+    
+    // Update the audio source
+    curr_track.src = newUrl;
+    
+    // Load the new audio source
+    curr_track.load();
+    
+    // Restore playback position and state
+    curr_track.addEventListener('loadedmetadata', function onLoaded() {
+        curr_track.currentTime = currentTime;
+        if (wasPlaying) {
+            curr_track.play();
+        }
+        curr_track.removeEventListener('loadedmetadata', onLoaded);
+    });
+}
 
-// Pull-to-Refresh Functionality
-let pullToRefreshEnabled = true;
-let startY = 0;
-let currentY = 0;
-let pullDistance = 0;
-let isRefreshing = false;
-let isPulling = false;
-let refreshThreshold = 80;
+// Function to convert URL to different quality versions
+function getQualityUrl(url, quality) {
+    // Extract the base URL and file name
+    const urlParts = url.split('/');
+    const fileName = urlParts[urlParts.length - 1];
+    
+    // Create the new URL based on quality
+    let newUrl;
+    if (quality === 'high') {
+        newUrl = url.replace(/\/data\/\d+\//, '/data/320/');
+    } else if (quality === 'medium') {
+        newUrl = url.replace(/\/data\/\d+\//, '/data/128/');
+    } else if (quality === 'low') {
+        newUrl = url.replace(/\/data\/\d+\//, '/data/48/');
+    } else {
+        // Default to high quality if invalid option
+        newUrl = url.replace(/\/data\/\d+\//, '/data/320/');
+    }
+    
+    return newUrl;
+}
 
-function initializePullToRefresh() {
-    const pullToRefreshElement = document.getElementById('pullToRefresh');
-    const refreshIcon = document.getElementById('refreshIcon');
-    const refreshText = document.getElementById('refreshText');
+// Function to toggle bandwidth options visibility
+function toggleBandwidthOptions() {
+    const bandwidthSelector = document.querySelector('.bandwidth-selector');
+    bandwidthSelector.classList.toggle('show');
+}
+
+// Function to update the UI to reflect current bandwidth selection
+function updateBandwidthUI() {
+    // Remove active class from all options
+    const options = document.querySelectorAll('.bandwidth-option');
+    options.forEach(option => {
+        option.classList.remove('active');
+    });
     
-    if (!pullToRefreshElement || !refreshIcon || !refreshText) {
-        console.warn('Pull-to-refresh elements not found');
-        return;
-    }
-    
-    // Cross-browser compatibility checks
-    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
-    const isAndroid = /Android/.test(navigator.userAgent);
-    
-    // Adjust threshold based on device
-    if (isMobile) {
-        refreshThreshold = isIOS ? 70 : 80; // iOS needs slightly less threshold
-    }
-    
-    // Prevent iOS bounce effect
-    if (isIOS) {
-        document.body.style.webkitOverflowScrolling = 'touch';
-        document.body.style.overscrollBehaviorY = 'contain';
-    }
-    
-    // Touch event listeners for mobile devices
-    const touchOptions = { passive: false };
-    document.addEventListener('touchstart', handleTouchStart, touchOptions);
-    document.addEventListener('touchmove', handleTouchMove, touchOptions);
-    document.addEventListener('touchend', handleTouchEnd, touchOptions);
-    
-    // Mouse event listeners for desktop testing (with feature detection)
-    if (!isMobile) {
-        document.addEventListener('mousedown', handleMouseStart, { passive: false });
-        document.addEventListener('mousemove', handleMouseMove, { passive: false });
-        document.addEventListener('mouseup', handleMouseEnd, { passive: false });
-    }
-    
-    // Pointer events for hybrid devices
-    if (window.PointerEvent) {
-        document.addEventListener('pointerdown', handlePointerStart, { passive: false });
-        document.addEventListener('pointermove', handlePointerMove, { passive: false });
-        document.addEventListener('pointerup', handlePointerEnd, { passive: false });
-    }
-    
-    function handleTouchStart(e) {
-        if (!pullToRefreshEnabled || isRefreshing) return;
-        
-        // Disable pull-to-refresh when playlist is open
-        if (playlistContainer && playlistContainer.classList.contains('show')) {
-            return;
-        }
-        
-        startY = e.touches[0].clientY;
-        currentY = startY;
-        
-        // Only enable pull-to-refresh when at the top of the page
-        if (window.scrollY === 0 || document.documentElement.scrollTop === 0) {
-            isPulling = true;
-        }
-    }
-    
-    function handleTouchMove(e) {
-        if (!isPulling || !pullToRefreshEnabled || isRefreshing) return;
-        
-        currentY = e.touches[0].clientY;
-        pullDistance = Math.max(0, currentY - startY);
-        
-        // Prevent default scrolling when pulling down
-        if (pullDistance > 0 && (window.scrollY === 0 || document.documentElement.scrollTop === 0)) {
-            e.preventDefault();
-            updatePullToRefreshUI(pullDistance);
-        }
-    }
-    
-    function handleTouchEnd(e) {
-        if (!isPulling || !pullToRefreshEnabled) return;
-        
-        isPulling = false;
-        
-        if (pullDistance >= refreshThreshold && !isRefreshing) {
-            triggerRefresh();
-        } else {
-            resetPullToRefresh();
-        }
-        
-        pullDistance = 0;
-    }
-    
-    // Mouse events for desktop testing
-    function handleMouseStart(e) {
-        if (!pullToRefreshEnabled || isRefreshing) return;
-        
-        // Disable pull-to-refresh when playlist is open
-        if (playlistContainer && playlistContainer.classList.contains('show')) {
-            return;
-        }
-        
-        startY = e.clientY;
-        currentY = startY;
-        
-        if (window.scrollY === 0 || document.documentElement.scrollTop === 0) {
-            isPulling = true;
-        }
-    }
-    
-    function handleMouseMove(e) {
-        if (!isPulling || !pullToRefreshEnabled || isRefreshing) return;
-        
-        currentY = e.clientY;
-        pullDistance = Math.max(0, currentY - startY);
-        
-        if (pullDistance > 0 && (window.scrollY === 0 || document.documentElement.scrollTop === 0)) {
-            e.preventDefault();
-            updatePullToRefreshUI(pullDistance);
-        }
-    }
-    
-    function handleMouseEnd(e) {
-        if (!isPulling || !pullToRefreshEnabled) return;
-        
-        isPulling = false;
-        
-        if (pullDistance >= refreshThreshold && !isRefreshing) {
-            triggerRefresh();
-        } else {
-            resetPullToRefresh();
-        }
-        
-        pullDistance = 0;
-    }
-    
-    // Pointer events for hybrid devices
-    function handlePointerStart(e) {
-        if (!pullToRefreshEnabled || isRefreshing || e.pointerType === 'mouse') return;
-        
-        // Disable pull-to-refresh when playlist is open
-        if (playlistContainer && playlistContainer.classList.contains('show')) {
-            return;
-        }
-        
-        startY = e.clientY;
-        currentY = startY;
-        
-        if (window.scrollY === 0 || document.documentElement.scrollTop === 0) {
-            isPulling = true;
-        }
-    }
-    
-    function handlePointerMove(e) {
-        if (!isPulling || !pullToRefreshEnabled || isRefreshing || e.pointerType === 'mouse') return;
-        
-        currentY = e.clientY;
-        pullDistance = Math.max(0, currentY - startY);
-        
-        if (pullDistance > 0 && (window.scrollY === 0 || document.documentElement.scrollTop === 0)) {
-            e.preventDefault();
-            updatePullToRefreshUI(pullDistance);
-        }
-    }
-    
-    function handlePointerEnd(e) {
-        if (!isPulling || !pullToRefreshEnabled || e.pointerType === 'mouse') return;
-        
-        isPulling = false;
-        
-        if (pullDistance >= refreshThreshold && !isRefreshing) {
-            triggerRefresh();
-        } else {
-            resetPullToRefresh();
-        }
-        
-        pullDistance = 0;
-    }
-    
-    function updatePullToRefreshUI(distance) {
-        const progress = Math.min(distance / refreshThreshold, 1);
-        const translateY = Math.min(distance * 0.5, refreshThreshold * 0.5);
-        
-        pullToRefreshElement.style.transform = `translateY(${translateY - 100}%)`;
-        pullToRefreshElement.classList.add('visible');
-        
-        // Update progress indicator
-        pullToRefreshElement.style.setProperty('--pull-progress', `${progress * 100}%`);
-        
-        // Update icon rotation based on pull progress
-        refreshIcon.style.transform = `rotate(${progress * 180}deg)`;
-        
-        // Add haptic feedback simulation at threshold
-        if (progress >= 1 && !pullToRefreshElement.classList.contains('haptic')) {
-            pullToRefreshElement.classList.add('haptic');
-            
-            // Trigger actual haptic feedback if available
-            if (navigator.vibrate) {
-                navigator.vibrate(50);
-            }
-            
-            // Remove haptic class after animation
-            setTimeout(() => {
-                pullToRefreshElement.classList.remove('haptic');
-            }, 100);
-        }
-        
-        // Update text based on progress
-        if (progress >= 1) {
-            refreshText.textContent = 'Release to refresh';
-            pullToRefreshElement.classList.add('bounce');
-        } else {
-            refreshText.textContent = 'Pull to refresh';
-            pullToRefreshElement.classList.remove('bounce');
-        }
-    }
-    
-    function triggerRefresh() {
-        if (isRefreshing) return;
-        
-        isRefreshing = true;
-        pullToRefreshElement.classList.add('refreshing');
-        pullToRefreshElement.style.transform = 'translateY(0)';
-        refreshIcon.classList.add('spinning');
-        refreshText.textContent = 'Refreshing...';
-        
-        // Simulate refresh action - you can customize this
-        performRefreshAction().then(() => {
-            setTimeout(() => {
-                resetPullToRefresh();
-                isRefreshing = false;
-            }, 1000);
-        });
-    }
-    
-    function resetPullToRefresh() {
-        pullToRefreshElement.classList.remove('visible', 'refreshing', 'bounce');
-        pullToRefreshElement.style.transform = 'translateY(-100%)';
-        refreshIcon.classList.remove('spinning');
-        refreshIcon.style.transform = 'rotate(0deg)';
-        refreshText.textContent = 'Pull to refresh';
-    }
-    
-    async function performRefreshAction() {
-        // Refresh the current track's background
-        if (typeof random_bg_color === 'function') {
-            random_bg_color();
-        }
-        
-        // Reload the current track to refresh all information
-        loadTrack(track_index);
-        
-        // Refresh playlist if it's open
-        const playlistContainer = document.getElementById('playlist-container');
-        if (playlistContainer && playlistContainer.classList.contains('show')) {
-            // Refresh the playlist with current search and filter settings
-            initPlaylist(currentSearchQuery, currentArtistFilter);
-            // Update active playlist item highlighting
-            updateActivePlaylistItem();
-        }
-        
-        // Update song navigation preview
-        updateSongNavigationPreview();
-        
-        // Refresh theme
-        if (typeof loadSavedTheme === 'function') {
-            loadSavedTheme();
-        }
-        
-        // Simulate network delay
-        return new Promise(resolve => {
-            setTimeout(resolve, 500);
-        });
+    // Add active class to selected option
+    const selectedOption = document.querySelector(`.bandwidth-option[data-quality="${currentBandwidth}"]`);
+    if (selectedOption) {
+        selectedOption.classList.add('active');
     }
 }
 
-// Initialize pull-to-refresh when DOM is loaded
+// Load the first track
+loadTrack(track_index);
+
+// Initialize bandwidth UI
 document.addEventListener('DOMContentLoaded', function() {
-    // Small delay to ensure all elements are rendered
-    setTimeout(initializePullToRefresh, 100);
+    updateBandwidthUI();
 });
+
+
 
 // Clear cache and reset session state on page load/refresh
 window.addEventListener('load', function() {
@@ -571,7 +369,9 @@ function loadTrack(track_index){
     // Add transition class for smooth background change
     document.body.classList.add('bg-transitioning');
 
-    curr_track.src = music_list[track_index].music;
+    // Load new track with current bandwidth setting
+    const trackUrl = getQualityUrl(music_list[track_index].music, currentBandwidth);
+    curr_track.src = trackUrl;
     curr_track.load();
 
     track_art.style.backgroundImage = "url(" + music_list[track_index].img + ")";

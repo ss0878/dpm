@@ -2,6 +2,14 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58310/300x700/diva-divrose.jpg',
+         name : 'Diva',
+         artist : 'Divrose',
+         album : 'Divrose',
+         released : 'Oct-14-2025',
+         music : 'https://s320.djpunjab.is/data/320/58310/308766/Diva%20-%20Divrose.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58306/300x700/badnam-rana-brass.jpg',
          name : 'Badnam',
          artist : 'Rana Brass',
@@ -7705,7 +7713,7 @@ const music_list = [
             music : 'https://s320.djpunjab.is/data/320/48246/295640/Badmashi%20-%20Prem%20Dhillon.mp3'
                },
                {
-            img : 'https://cover.djpunjab.is/48238/300x700/nit-khair-manga-%26re-mastered%26-nusrat-fateh-ali-khan.jgp',
+            img : 'https://cover.djpunjab.is/48238/300x700/nit-khair-manga-%26re-mastered%26-nusrat-fateh-ali-khan.jpg',
             name : 'Nit Khair Manga (Re-Mastered)',
             artist : 'Nusrat Fateh Ali Khan',
             album : 'DesiFrenzy',

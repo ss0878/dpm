@@ -7609,15 +7609,15 @@ const music_list = [
             music : 'https://s320.djpunjab.is/data/320/48655/296122/Munde%20Desi%20-%20Nseeb.mp3'
                },
                {
-            img : 'https://cover.djpunjab.is/48605/300x700/haan-haige-aa-karan-aujla.jpg',
-            name : 'Haan Haige Aa',
-            artist : 'Karan Aujla',
-            album : 'Rehaan Records',
-            released : 'Jul-26-2020',
-            music : 'https://s320.djpunjab.is/data/320/48605/296057/Haan%20Haige%20Aa%20-%20Karan%20Aujla.mp3'
+            img : 'https://cover.djpunjab.is/48648/300x700/doctor-sidhu-moose-wala.jpg',
+            name : 'Munde Desi',
+            artist : 'Sidhu Moose Wala',
+            album : 'Sidhu Moose Wala',
+            released : 'Aug-3-2020',
+            music : 'https://s320.djpunjab.is/data/320/48648/296115/Doctor%20-%20Sidhu%20Moose%20Wala.mp3'
                },
                {
-            img : 'https://cover.djpunjab.is/48602/300x700/dilpreet-dhillon-is-back-dilpreet-dhillon.jpg',
+            img : 'https://cover.djpunjab.is/48605/300x700/haan-haige-aa-karan-aujla.jpg',
             name : 'Haan Haige Aa',
             artist : 'Karan Aujla',
             album : 'Rehaan Records',
@@ -7697,6 +7697,14 @@ const music_list = [
             music : 'https://s320.djpunjab.is/data/320/48457/295894/Baby%20You%20-%20Jassie%20Gill.mp3'
                },
                {
+            img : 'https://cover.djpunjab.is/48453/300x700/vail-ft.-nimrat-khaira-mankirt-aulakh.jpg',
+            name : 'Vail',
+            artist : 'Mankirt Aulakh Ft. Nimrat Khaira',
+            album : 'Mankirt Aulakh',
+            released : 'Jun-27-2020',
+            music : 'https://s320.djpunjab.is/data/320/48453/295890/Vail%20Ft.%20Nimrat%20Khaira%20-%20Mankirt%20Aulakh.mp3'
+               },
+               {
             img : 'https://cover.djpunjab.is/48441/300x700/so-far-karan-aujla.jpg',
             name : 'So Far',
             artist : 'Karan Aujla',
@@ -7769,6 +7777,22 @@ const music_list = [
             music : 'https://s320.djpunjab.is/data/320/48520/295957/Mitha%20Bolke%20-%20Nirvair%20Pannu.mp3'
                },
                {
+            img : 'https://cover.djpunjab.is/48519/300x700/coming-home-garry-sandhu.jpg',
+            name : 'Coming Home',
+            artist : 'Garry Sandhu',
+            album : 'Garry Sandhu',
+            released : 'Jun-7-2020',
+            music : 'https://s320.djpunjab.is/data/320/48519/295956/Coming%20Home%20-%20Garry%20Sandhu.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/48338/300x700/putt-sardara-de-jazzy-b.jpg',
+            name : 'Putt Sardara De',
+            artist : 'Jazzy B Ft. Big Byd',
+            album : 'Jatt Life Studios',
+            released : 'Jun-6-2020',
+            music : 'https://s320.djpunjab.is/data/320/48338/295751/Putt%20Sardara%20De%20-%20Jazzy%20B.mp3'
+               },
+               {
             img : 'https://cover.djpunjab.is/48511/300x700/prohibited-sabi-bhinder.jpg',
             name : 'Prohibited',
             artist : 'Sabi Bhinder',
@@ -7803,7 +7827,7 @@ const music_list = [
                {
             img : 'https://cover.djpunjab.is/48290/300x700/let-em-play-karan-aujla.jpg',
             name : 'Let Em Play',
-            artist : 'Nirvair Pannu',
+            artist : 'Karan Aujla',
             album : 'Rehaan Records',
             released : 'May-28-2020',
             music : 'https://s320.djpunjab.is/data/320/48290/295684/Let%20Em%20Play%20-%20Karan%20Aujla.mp3'
@@ -7839,9 +7863,105 @@ const music_list = [
             album : 'Varinder Brar Music',
             released : 'May-19-2020',
             music : 'https://s320.djpunjab.is/data/320/48236/295613/Mere%2022%20-%20Varinder%20Brar.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/48207/300x700/life-akhil.jpg',
+            name : 'Life (Live)',
+            artist : 'Akhil Ft. Gunazar',
+            album : 'Akhil Ft. Gunazar',
+            released : 'May-15-2020',
+            music : 'https://s320.djpunjab.is/data/320/48207/295583/Life%20-%20Akhil.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/48193/300x700/salute-nirvair-pannu.jpg',
+            name : 'Salute',
+            artist : 'Nirvair Pannu',
+            album : 'Nirvair Pannu',
+            released : 'May-14-2020',
+            music : 'https://s320.djpunjab.is/data/320/48193/295569/Salute%20-%20Nirvair%20Pannu.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/48177/300x700/vigad-gaya-gippy-grewal.jpg',
+            name : 'Vigad Gaya',
+            artist : 'Gippy Grewal',
+            album : 'Gippy Grewal',
+            released : 'May-13-2020',
+            music : 'https://s320.djpunjab.is/data/320/48177/295553/Vigad%20Gaya%20-%20Gippy%20Grewal.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/48159/300x700/jail-sidhu-moose-wala.jpg',
+            name : 'Jail (leak)',
+            artist : 'Sidhu Moose Wala',
+            album : 'Sidhu Moose Wala',
+            released : 'May-13-2020',
+            music : 'https://s320.djpunjab.is/data/320/48159/295535/Jail%20-%20Sidhu%20Moose%20Wala.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/48136/300x700/frenzy-xo-dj-frenzy.jpg',
+            name : 'Frenzy Xo',
+            artist : 'Dj Frenzy',
+            album : 'Dj Frenzy',
+            released : 'May-9-2020',
+            music : 'https://s320.djpunjab.is/data/320/48136/295502/Frenzy%20Xo%20-%20Dj%20Frenzy.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/48127/300x700/2-asle-navaan-sandhu.jpg',
+            name : '2 Asle',
+            artist : 'Navaan Sandhu',
+            album : 'Navaan Sandhu',
+            released : 'May-8-2020',
+            music : 'https://s320.djpunjab.is/data/320/48127/295493/2%20Asle%20-%20Navaan%20Sandhu.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/48116/300x700/jatt-garry-sandhu.jpg',
+            name : 'Jatt',
+            artist : 'Garry Sandhu',
+            album : 'Garry Sandhu',
+            released : 'May-7-2020',
+            music : 'https://s320.djpunjab.is/data/320/48116/295482/Jatt%20-%20Garry%20Sandhu.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/48079/300x700/frenzy-fire-vol-1-dj-frenzy.jpg',
+            name : 'Frenzy Fire Vol 1',
+            artist : 'Dj Frenzy',
+            album : 'Dj Frenzy',
+            released : 'May-1-2020',
+            music : 'https://s320.djpunjab.is/data/320/48079/295445/Frenzy%20Fire%20Vol%201%20-%20Dj%20Frenzy.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/48053/300x700/bapu-naal-pyar-singga.jpg',
+            name : 'Bapu Naal Pyar',
+            artist : 'Singga',
+            album : 'Singga',
+            released : 'April-29-2020',
+            music : 'https://s320.djpunjab.is/data/320/48053/295417/Bapu%20Naal%20Pyar%20-%20Singga.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/48028/300x700/jatt-hunde-aa-prem-dhillon.jpg',
+            name : 'Jatt Hunde Aa',
+            artist : 'Prem Dhillon',
+            album : 'Prem Dhillon',
+            released : 'April-25-2020',
+            music : 'https://s320.djpunjab.is/data/320/48028/295392/Jatt%20Hunde%20Aa%20-%20Prem%20Dhillon.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47984/300x700/nishana-jazzy-b.jpg',
+            name : 'Nishana',
+            artist : 'Jazzy B Ft. Bohemia',
+            album : 'Jazzy B Ft. Bohemia',
+            released : 'April-20-2020',
+            music : 'https://s320.djpunjab.is/data/320/47984/295347/Nishana%20-%20Jazzy%20B.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47977/300x700/sheikh-full-song-karan-aujla.jpg',
+            name : 'Sheikh',
+            artist : 'Karan Aujla',
+            album : 'Karan Aujla',
+            released : 'April-19-2020',
+            music : 'https://s320.djpunjab.is/data/320/47977/295340/Sheikh%20Full%20Song%20-%20Karan%20Aujla.mp3'
                }
       
-      /* https://djpunjab.is/page/newlatest.php?page=301 */
+      /* https://djpunjab.is/page/newlatest.php?page=483 */
    
       ,
                {

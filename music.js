@@ -2034,9 +2034,9 @@ const music_list = [
            },
            {
               img : 'https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/91/2e/98/912e98d0-136d-d16b-2e62-470ad8a7aedb/859785597638_cover.jpg/600x600bf-60.jpg',
-              name : 'Azaad 4L',
-              artist : 'Way To Hell',
-              album : 'Way To Hell',
+              name : 'Way To Hell',
+              artist : 'Azaad 4L',
+              album : 'Azaad 4L',
               released : 'Mar-18-2024',
               music : 'https://www.dropbox.com/scl/fi/qnnp1astazijjrpsy8iva/Azaad-4L-Way-To-Hell-Santali-Beats.mp3?rlkey=hwj6kh7l4bdcdtuqgsm5fvvf7&dl=1'
                 },

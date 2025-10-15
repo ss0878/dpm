@@ -2,6 +2,38 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58312/300x300/aura-diljit-dosanjh.jpg',
+         name : 'God Bless',
+         artist : 'Diljit Dosanjh',
+         album : 'Aura',
+         released : 'Oct-15-2025',
+         music : 'https://p320.djpunjab.is/data/320/58312/308777/God%20Bless%20-%20Diljit%20Dosanjh.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58312/300x300/aura-diljit-dosanjh.jpg',
+         name : 'Kufar',
+         artist : 'Diljit Dosanjh',
+         album : 'Aura',
+         released : 'Oct-15-2025',
+         music : 'https://p320.djpunjab.is/data/320/58312/308771/Kufar%20-%20Diljit%20Dosanjh.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58312/300x300/aura-diljit-dosanjh.jpg',
+         name : 'Senorita',
+         artist : 'Diljit Dosanjh',
+         album : 'Aura',
+         released : 'Oct-15-2025',
+         music : 'https://p320.djpunjab.is/data/320/58312/308769/Senorita%20-%20Diljit%20Dosanjh.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58312/300x300/aura-diljit-dosanjh.jpg',
+         name : 'Balle Balle',
+         artist : 'Diljit Dosanjh',
+         album : 'Aura',
+         released : 'Oct-15-2025',
+         music : 'https://p320.djpunjab.is/data/320/58312/308773/Balle%20Balle%20-%20Diljit%20Dosanjh.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58310/300x700/diva-divrose.jpg',
          name : 'Diva',
          artist : 'Divrose',

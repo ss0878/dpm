@@ -34,6 +34,70 @@ const music_list = [
          music : 'https://p320.djpunjab.is/data/320/58312/308773/Balle%20Balle%20-%20Diljit%20Dosanjh.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/58302/300x700/the-simpsons-cheema-y.jpg',
+         name : 'Tutor',
+         artist : 'Cheema Y',
+         album : 'Cheema Y',
+         released : 'Oct-14-2025',
+         music : 'https://p320.djpunjab.is/data/320/58302/308751/Tutor%20-%20Cheema%20Y.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58302/300x700/the-simpsons-cheema-y.jpg',
+         name : 'Mogambo',
+         artist : 'Cheema Y',
+         album : 'Cheema Y',
+         released : 'Oct-14-2025',
+         music : 'https://p320.djpunjab.is/data/320/58302/308749/Mogambo%20-%20Cheema%20Y.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58302/300x700/the-simpsons-cheema-y.jpg',
+         name : 'DXB',
+         artist : 'Cheema Y',
+         album : 'Cheema Y',
+         released : 'Oct-14-2025',
+         music : 'https://p320.djpunjab.is/data/320/58302/308753/DXB%20-%20Cheema%20Y.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58302/300x700/the-simpsons-cheema-y.jpg',
+         name : 'Haji Mastan',
+         artist : 'Cheema Y',
+         album : 'Cheema Y',
+         released : 'Oct-14-2025',
+         music : 'https://p320.djpunjab.is/data/320/58302/308752/Haji%20Mastan%20-%20Cheema%20Y.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58302/300x700/the-simpsons-cheema-y.jpg',
+         name : '23',
+         artist : 'Cheema Y',
+         album : 'Cheema Y',
+         released : 'Oct-14-2025',
+         music : 'https://p320.djpunjab.is/data/320/58302/308757/23%20-%20Cheema%20Y.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58302/300x700/the-simpsons-cheema-y.jpg',
+         name : 'Ranjhea',
+         artist : 'Cheema Y',
+         album : 'Cheema Y',
+         released : 'Oct-14-2025',
+         music : 'https://p320.djpunjab.is/data/320/58302/308750/Ranjhea%20-%20Cheema%20Y.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58302/300x700/the-simpsons-cheema-y.jpg',
+         name : 'Supari',
+         artist : 'Cheema Y',
+         album : 'Cheema Y',
+         released : 'Oct-14-2025',
+         music : 'https://p320.djpunjab.is/data/320/58302/308756/Supari%20-%20Cheema%20Y.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58302/300x700/the-simpsons-cheema-y.jpg',
+         name : 'Bucks N Fame',
+         artist : 'Cheema Y',
+         album : 'Cheema Y',
+         released : 'Oct-14-2025',
+         music : 'https://p320.djpunjab.is/data/320/58302/308755/Bucks%20N%20Fame%20-%20Cheema%20Y.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58310/300x700/diva-divrose.jpg',
          name : 'Diva',
          artist : 'Divrose',

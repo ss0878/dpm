@@ -5,8 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Dope Punjabi Music</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://cdn-icons-png.flaticon.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://cdn-icons-png.flaticon.com">
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="bandwidth-styles.css">
+    <link rel="preload" href="bandwidth-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="bandwidth-styles.css"></noscript>
     <script src="music.js" defer></script>
     <script src="script.js" defer></script>
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/875/875590.png" type="image/x-icon">  
@@ -98,12 +108,14 @@
                </div>
            </div>
            
-           <div class="bandwidth-button" onclick="toggleBandwidthOptions()">
+           <div class="bandwidth-button" onclick="toggleBandwidthOptions()" aria-haspopup="dialog" aria-controls="bandwidth-selector">
                <i class="fas fa-signal"></i>
            </div>
+           <!-- Click-to-close backdrop for bandwidth selector -->
+           <div class="bandwidth-overlay" onclick="closeBandwidthOptions()" aria-hidden="true"></div>
            
-           <div class="bandwidth-selector">
-               <div class="bandwidth-label">Quality:</div>
+           <div class="bandwidth-selector" id="bandwidth-selector" role="dialog" aria-modal="true" aria-label="Select streaming quality" tabindex="-1">
+               <div class="bandwidth-label">Select Quality</div>
                <div class="bandwidth-options">
                    <div class="bandwidth-option" data-quality="high" onclick="changeBandwidth('high')">High</div>
                    <div class="bandwidth-option" data-quality="medium" onclick="changeBandwidth('medium')">Medium</div>

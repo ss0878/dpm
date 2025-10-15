@@ -122,6 +122,14 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/58301/308748/Look%20After%20-%20Karan%20Randhawa.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/58301/300x700/look-after-karan-randhawa.jpg',
+         name : 'Pariyan Vargi',
+         artist : 'Gulab Sidhu',
+         album : 'Gulab Sidhu',
+         released : 'Oct-7-2025',
+         music : 'https://s320.djpunjab.is/data/320/58286/308730/Pariyan%20Vargi%20-%20Gulab%20Sidhu.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58277/300x700/hawa-vich-g-khan.jpg',
          name : 'HAWA VICH',
          artist : 'G Khan',

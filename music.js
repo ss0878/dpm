@@ -3171,7 +3171,7 @@ const music_list = [
       {
          img : 'https://cover.djpunjab.is/54149/300x700/larh-pe-yaar-g.-sidhu.jpg',
          name : 'Larh Pe Yaar',
-         artist : 'G. Sidhu',
+         artist : 'G Sidhu',
          album : 'G Sidhu Productions',
          released : 'Aug-12-2023',
          music : 'https://s320.djpunjab.is/data/320/54149/302511/Larh%20Pe%20Yaar%20-%20G.%20Sidhu.mp3'
@@ -3667,8 +3667,8 @@ const music_list = [
            {
                img : 'https://cover.djpunjab.is/53863/300x700/Snack-G.-Sidhu.jpg',
                name : 'Snack',
-               artist : 'G. Sidhu',
-               album : 'G. Sidhu',
+               artist : 'G Sidhu',
+               album : 'G Sidhu',
                released : 'Jun-6-2023',
                music : 'https://s320.djpunjab.is/data/320/53863/302131/Snack%20-%20G.%20Sidhu.mp3'
                 },

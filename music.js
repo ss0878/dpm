@@ -7959,6 +7959,46 @@ const music_list = [
             album : 'Karan Aujla',
             released : 'April-19-2020',
             music : 'https://s320.djpunjab.is/data/320/47977/295340/Sheikh%20Full%20Song%20-%20Karan%20Aujla.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47932/300x700/lifestyle-amrit-maan.jpg',
+            name : 'Lifestyle',
+            artist : 'Amrit Maan',
+            album : 'Amrit Maan',
+            released : 'April-11-2020',
+            music : 'https://s320.djpunjab.is/data/320/47932/295272/Lifestyle%20-%20Amrit%20Maan.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47929/300x700/8-cylinder-sidhu-moose-wala.jpg',
+            name : '8 Cylinder',
+            artist : 'Sidhu Moose Wala',
+            album : 'Sidhu Moose Wala',
+            released : 'April-11-2020',
+            music : 'https://s320.djpunjab.is/data/320/47929/295269/8%20Cylinder%20-%20Sidhu%20Moose%20Wala.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47903/300x700/911-sidhu-moose-wala.jpg',
+            name : '911',
+            artist : 'Sidhu Moose Wala',
+            album : 'Sidhu Moose Wala',
+            released : 'April-11-2020',
+            music : 'https://s320.djpunjab.is/data/320/47903/295243/911%20-%20Sidhu%20Moose%20Wala.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47897/300x700/pabb-hauli-garry-sandhu.jpg',
+            name : 'Pabb Hauli',
+            artist : 'Garry Sandhu Ft. Pav Dharia',
+            album : 'Garry Sandhu Ft. Pav Dharia',
+            released : 'April-6-2020',
+            music : 'https://s320.djpunjab.is/data/320/47897/295237/Pabb%20Hauli%20-%20Garry%20Sandhu.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47897/300x700/pabb-hauli-garry-sandhu.jpg',
+            name : 'Pabb Hauli',
+            artist : 'Garry Sandhu Ft. Pav Dharia',
+            album : 'Garry Sandhu Ft. Pav Dharia',
+            released : 'April-6-2020',
+            music : 'https://s320.djpunjab.is/data/320/47897/295237/Pabb%20Hauli%20-%20Garry%20Sandhu.mp3'
                }
       
       /* https://djpunjab.is/page/newlatest.php?page=483 */

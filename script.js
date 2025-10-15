@@ -26,6 +26,7 @@ let updateTimer;
 let playlistContainer = document.getElementById('playlist-container');
 let playlistSongs = document.getElementById('playlist-songs');
 let currentBandwidth = 'high'; // Default bandwidth setting
+let playlistOutsideClickHandlerBound = false;
 
 // Wake Lock variables
 let wakeLock = null;
@@ -1289,10 +1290,33 @@ function initPlaylist(searchQuery = '', artistFilter = '') {
 function togglePlaylist() {
     if (playlistContainer.classList.contains('show')) {
         playlistContainer.classList.remove('show');
+        if (playlistOutsideClickHandlerBound) {
+            document.removeEventListener('mousedown', closePlaylistOnClickOutside);
+            playlistOutsideClickHandlerBound = false;
+        }
     } else {
         playlistContainer.classList.add('show');
         updateActivePlaylistItem();
+        if (!playlistOutsideClickHandlerBound) {
+            // Defer binding to avoid closing from the same opening click
+            setTimeout(() => {
+                document.addEventListener('mousedown', closePlaylistOnClickOutside);
+                playlistOutsideClickHandlerBound = true;
+            }, 0);
+        }
     }
+}
+
+// Close playlist when clicking outside of its container
+function closePlaylistOnClickOutside(event) {
+    if (!playlistContainer || !playlistContainer.classList.contains('show')) return;
+    const target = event.target;
+    // If click occurred inside the playlist container, ignore
+    if (playlistContainer.contains(target)) return;
+    // Otherwise close the playlist
+    playlistContainer.classList.remove('show');
+    document.removeEventListener('mousedown', closePlaylistOnClickOutside);
+    playlistOutsideClickHandlerBound = false;
 }
 
 function updateActivePlaylistItem() {
@@ -1318,6 +1342,34 @@ function searchPlaylist() {
     const searchInput = document.getElementById('playlist-search-input');
     const searchQuery = searchInput.value.trim();
     initPlaylist(searchQuery, currentArtistFilter);
+}
+
+// Open playlist filtered by a specific artist without changing playback
+function openPlaylistForArtist(artistName) {
+    if (!artistName) return;
+    // Normalize artist for filtering
+    const normalized = normalizeArtistName(artistName);
+
+    // Sync the artist filter dropdown if present
+    const artistSelect = document.getElementById('artist-filter-select');
+    if (artistSelect) {
+        artistSelect.value = normalized;
+    }
+
+    // Initialize playlist with only artist filter (reset search for clarity)
+    initPlaylist('', normalized);
+
+    // Ensure playlist view is shown
+    if (!playlistContainer.classList.contains('show')) {
+        playlistContainer.classList.add('show');
+        updateActivePlaylistItem();
+        if (!playlistOutsideClickHandlerBound) {
+            setTimeout(() => {
+                document.addEventListener('mousedown', closePlaylistOnClickOutside);
+                playlistOutsideClickHandlerBound = true;
+            }, 0);
+        }
+    }
 }
 
 // Add event listeners when DOM is loaded
@@ -1355,6 +1407,18 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initialize scroll-to-top functionality
     initializeScrollToTop();
+
+    // Clicking main page artist opens playlist filtered by that artist
+    if (track_artist) {
+        track_artist.style.cursor = 'pointer';
+        track_artist.title = 'View all songs by this artist';
+        track_artist.addEventListener('click', function(e) {
+            e.preventDefault();
+            const artistText = track_artist.textContent ? track_artist.textContent.trim() : '';
+            if (!artistText) return;
+            openPlaylistForArtist(artistText);
+        });
+    }
 });
 
 // Scroll to Top Functionality

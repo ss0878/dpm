@@ -33,50 +33,61 @@
     right: 20px;
     display: none;
     flex-direction: column;
-    padding: 10px;
-    border-radius: 10px;
-    background: var(--glass-bg);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    gap: 10px;
+    padding: 12px 14px;
+    border-radius: 14px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px) saturate(1.1);
+    -webkit-backdrop-filter: blur(10px) saturate(1.1);
     z-index: 99;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.15);
     box-sizing: border-box;
+    will-change: transform, opacity;
 }
 
 .bandwidth-selector.show {
     display: flex;
+    animation: bwPopupIn 180ms ease-out;
 }
 
 .bandwidth-label {
-    font-size: 14px;
-    margin-bottom: 5px;
-    font-weight: 500;
+    font-size: 0.9rem;
+    font-weight: 600;
     color: var(--text-color);
+    text-shadow: var(--text-shadow);
 }
 
 .bandwidth-options {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 8px;
 }
 
 .bandwidth-option {
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 8px 12px;
+    border-radius: 10px;
     cursor: pointer;
     font-weight: 500;
     color: var(--text-color);
-    transition: background 0.2s ease;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .bandwidth-option:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-1px);
 }
 
 .bandwidth-option.active {
-    background: var(--primary-color);
+    background: var(--accent-color);
     color: white;
+    border-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.25);
 }
 
 /* Responsive adjustments */
@@ -91,6 +102,8 @@
     .bandwidth-selector {
         bottom: 60px;
         right: 15px;
+        padding: 10px 12px;
+        border-radius: 12px;
     }
 }
 
@@ -106,7 +119,7 @@
     cursor: pointer;
     transition: all 0.3s ease;
     background: rgba(255, 255, 255, 0.1);
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     font-weight: 500;
     color: var(--text-color);
 }
@@ -128,6 +141,7 @@
     margin-left: 5px;
     font-size: 0.6rem;
     letter-spacing: -2px;
+    
 }
 
 .bandwidth-option[data-quality="medium"]::after {
@@ -147,28 +161,55 @@
 /* Media queries for responsive design */
 @media screen and (max-width: 768px) {
     .bandwidth-selector {
-        padding: 4px;
+        padding: 8px 10px;
     }
     
     .bandwidth-option {
-        padding: 4px 8px;
-        font-size: 0.75rem;
+        padding: 6px 10px;
+        font-size: 0.8rem;
     }
 }
 
 @media screen and (max-width: 480px) {
     .bandwidth-selector {
-        padding: 3px;
+        padding: 6px 8px;
         margin: 8px 0;
     }
     
     .bandwidth-label {
-        font-size: 0.8rem;
+        font-size: 0.85rem;
         margin-right: 5px;
     }
     
     .bandwidth-option {
-        padding: 3px 6px;
-        font-size: 0.7rem;
+        padding: 5px 8px;
+        font-size: 0.75rem;
     }
+}
+
+/* Backdrop overlay for outside-click close */
+.bandwidth-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    z-index: 98;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+.bandwidth-overlay.show {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+@keyframes bwPopupIn {
+    from { opacity: 0; transform: translateY(6px) scale(0.98); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
 }

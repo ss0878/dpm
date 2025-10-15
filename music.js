@@ -596,8 +596,8 @@ const music_list = [
       {
          img : 'https://cover.djpunjab.is/57781/300x700/no-turning-back-ep-chinna.jpg',
          name : 'Convo',
-         artist : 'Chinna',
-         album : 'Chinna',
+         artist : 'Cheema Y',
+         album : 'Cheema Y',
          released : 'July-13-2025',
          music : 'https://p320.djpunjab.is/data/320/57781/307855/Convo%20-%20Chinna.mp3'
            },

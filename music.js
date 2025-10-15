@@ -7610,7 +7610,7 @@ const music_list = [
                },
                {
             img : 'https://cover.djpunjab.is/48648/300x700/doctor-sidhu-moose-wala.jpg',
-            name : 'Munde Desi',
+            name : 'Doctor',
             artist : 'Sidhu Moose Wala',
             album : 'Sidhu Moose Wala',
             released : 'Aug-3-2020',

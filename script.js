@@ -3,6 +3,7 @@ let track_art = document.querySelector('.track-art');
 let track_name = document.querySelector('.track-name-text');
 let track_artist = document.querySelector('.track-artist-text');
 let track_released = document.querySelector('.track-released');
+let trackArtPreloadLink = null;
 
 
 let playpause_btn = document.querySelector('.playpause-track');
@@ -49,7 +50,7 @@ function changeBandwidth(quality) {
     updateBandwidthUI();
     
     // Hide the bandwidth selector after selection
-    document.querySelector('.bandwidth-selector').classList.remove('show');
+    closeBandwidthOptions();
     
     // Get the current track's URL and modify it based on quality
     const currentTrack = music_list[track_index];
@@ -93,10 +94,41 @@ function getQualityUrl(url, quality) {
     return newUrl;
 }
 
-// Function to toggle bandwidth options visibility
+// Bandwidth selector open/close with outside-click handling
+let bandwidthOpen = false;
+function openBandwidthOptions() {
+    const selector = document.querySelector('.bandwidth-selector');
+    const overlay = document.querySelector('.bandwidth-overlay');
+    selector.classList.add('show');
+    if (overlay) overlay.classList.add('show');
+    // Delay attaching to avoid immediate close from the opening click
+    setTimeout(() => document.addEventListener('click', closeBandwidthOnClickOutside), 10);
+    bandwidthOpen = true;
+}
+
+function closeBandwidthOptions() {
+    const selector = document.querySelector('.bandwidth-selector');
+    const overlay = document.querySelector('.bandwidth-overlay');
+    selector.classList.remove('show');
+    if (overlay) overlay.classList.remove('show');
+    document.removeEventListener('click', closeBandwidthOnClickOutside);
+    bandwidthOpen = false;
+}
+
 function toggleBandwidthOptions() {
-    const bandwidthSelector = document.querySelector('.bandwidth-selector');
-    bandwidthSelector.classList.toggle('show');
+    if (bandwidthOpen) {
+        closeBandwidthOptions();
+    } else {
+        openBandwidthOptions();
+    }
+}
+
+function closeBandwidthOnClickOutside(e) {
+    const selector = document.querySelector('.bandwidth-selector');
+    const button = document.querySelector('.bandwidth-button');
+    if (!selector.contains(e.target) && !button.contains(e.target)) {
+        closeBandwidthOptions();
+    }
 }
 
 // Function to update the UI to reflect current bandwidth selection
@@ -330,6 +362,12 @@ document.addEventListener('keydown', function(event) {
     else if (event.code === 'KeyP' && document.activeElement.tagName !== 'INPUT') {
         togglePlaylist();
     }
+    // Escape - Close bandwidth selector if open
+    else if (event.code === 'Escape') {
+        if (typeof bandwidthOpen !== 'undefined' && bandwidthOpen) {
+            closeBandwidthOptions();
+        }
+    }
 });
 
 // Function to request wake lock to prevent device from sleeping
@@ -370,11 +408,32 @@ function loadTrack(track_index){
     document.body.classList.add('bg-transitioning');
 
     // Load new track with current bandwidth setting
+    curr_track.preload = 'metadata';
     const trackUrl = getQualityUrl(music_list[track_index].music, currentBandwidth);
     curr_track.src = trackUrl;
     curr_track.load();
 
-    track_art.style.backgroundImage = "url(" + music_list[track_index].img + ")";
+    // Preload album art and set background only after image is decoded
+    const imgUrl = music_list[track_index].img;
+    if (trackArtPreloadLink) {
+        try { document.head.removeChild(trackArtPreloadLink); } catch (e) {}
+    }
+    trackArtPreloadLink = document.createElement('link');
+    trackArtPreloadLink.rel = 'preload';
+    trackArtPreloadLink.as = 'image';
+    trackArtPreloadLink.href = imgUrl;
+    trackArtPreloadLink.setAttribute('fetchpriority', 'high');
+    document.head.appendChild(trackArtPreloadLink);
+
+    const img = new Image();
+    img.decoding = 'async';
+    img.src = imgUrl;
+    img.onload = () => {
+        track_art.style.backgroundImage = `url(${imgUrl})`;
+    };
+    img.onerror = () => {
+        track_art.style.backgroundImage = '';
+    };
     track_name.textContent = music_list[track_index].name;
     track_artist.textContent = music_list[track_index].artist;
     track_released.textContent = "Release Date:  " + music_list[track_index].released;
@@ -464,6 +523,7 @@ function updateSongNavigationPreview() {
         
         // Get duration for next song
         const nextAudio = new Audio(nextSong.music);
+        nextAudio.preload = 'metadata';
         nextAudio.addEventListener('loadedmetadata', function() {
             nextSongDuration.textContent = formatDuration(nextAudio.duration);
         });
@@ -481,6 +541,7 @@ function updateSongNavigationPreview() {
         
         // Get duration for previous song
         const prevAudio = new Audio(prevSong.music);
+        prevAudio.preload = 'metadata';
         prevAudio.addEventListener('loadedmetadata', function() {
             prevSongDuration.textContent = formatDuration(prevAudio.duration);
         });

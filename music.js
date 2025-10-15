@@ -155,6 +155,14 @@ const music_list = [
            },
     {
          img : 'https://cover.djpunjab.is/58176/300x700/house-navior-navaan-sandhu.jpg',
+         name : 'Deewane',
+         artist : 'Navaan Sandhu',
+         album : 'House Navior',
+         released : 'Sep-19-2025',
+         music : 'https://p320.djpunjab.is/data/320/58176/308489/Deewane%20-%20Navaan%20Sandhu.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58176/300x700/house-navior-navaan-sandhu.jpg',
          name : 'Dapper Dan',
          artist : 'Navaan Sandhu',
          album : 'House Navior',

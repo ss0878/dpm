@@ -2,6 +2,62 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58320/300x300/my-name-is-street-wazir-patar.jpg',
+         name : 'Munde MarsO Aaye (Intro)',
+         artist : 'Wazir Patar',
+         album : 'My Name Is Street',
+         released : 'Oct-16-2025',
+         music : 'https://p320.djpunjab.is/data/320/58320/308787/Munde%20MarsO%20Aaye%20(Intro)%20-%20Wazir%20Patar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58320/300x300/my-name-is-street-wazir-patar.jpg',
+         name : 'Ambar Dream',
+         artist : 'Wazir Patar',
+         album : 'My Name Is Street',
+         released : 'Oct-16-2025',
+         music : 'https://p320.djpunjab.is/data/320/58320/308790/Ambar%20Dream%20-%20Wazir%20Patar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58320/300x300/my-name-is-street-wazir-patar.jpg',
+         name : 'BMX',
+         artist : 'Wazir Patar',
+         album : 'My Name Is Street',
+         released : 'Oct-16-2025',
+         music : 'https://p320.djpunjab.is/data/320/58320/308794/Bmx%20-%20Wazir%20Patar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58320/300x300/my-name-is-street-wazir-patar.jpg',
+         name : 'Jaan',
+         artist : 'Wazir Patar',
+         album : 'My Name Is Street',
+         released : 'Oct-16-2025',
+         music : 'https://p320.djpunjab.is/data/320/58320/308798/Jaan%20-%20Wazir%20Patar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58320/300x300/my-name-is-street-wazir-patar.jpg',
+         name : 'Sham Di Laali',
+         artist : 'Wazir Patar',
+         album : 'My Name Is Street',
+         released : 'Oct-16-2025',
+         music : 'https://p320.djpunjab.is/data/320/58320/308791/Sham%20Di%20Laali%20-%20Wazir%20Patar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58320/300x300/my-name-is-street-wazir-patar.jpg',
+         name : 'Straight Up',
+         artist : 'Wazir Patar',
+         album : 'My Name Is Street',
+         released : 'Oct-16-2025',
+         music : 'https://p320.djpunjab.is/data/320/58320/308789/Straight%20Up%20-%20Wazir%20Patar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58320/300x300/my-name-is-street-wazir-patar.jpg',
+         name : 'U Mine M Urs',
+         artist : 'Wazir Patar',
+         album : 'My Name Is Street',
+         released : 'Oct-16-2025',
+         music : 'https://p320.djpunjab.is/data/320/58320/308797/U%20Mine%20M%20Urs%20-%20Wazir%20Patar.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58312/300x300/aura-diljit-dosanjh.jpg',
          name : 'God Bless',
          artist : 'Diljit Dosanjh',

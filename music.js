@@ -178,7 +178,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/58301/308748/Look%20After%20-%20Karan%20Randhawa.mp3'
            },
     {
-         img : 'https://cover.djpunjab.is/58301/300x700/look-after-karan-randhawa.jpg',
+         img : 'https://cover.djpunjab.is/58286/300x700/pariyan-vargi-gulab-sidhu.jpg',
          name : 'Pariyan Vargi',
          artist : 'Gulab Sidhu',
          album : 'Gulab Sidhu',

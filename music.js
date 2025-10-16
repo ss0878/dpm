@@ -186,6 +186,22 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/58286/308730/Pariyan%20Vargi%20-%20Gulab%20Sidhu.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/58278/300x700/home-rule-ep-guru-randhawa.jpg',
+         name : 'MAJHAIL',
+         artist : 'Guru Randhawa',
+         album : 'Home Rule EP',
+         released : 'Oct-6-2025',
+         music : 'https://p320.djpunjab.is/data/320/58278/308713/MAJHAIL%20-%20Guru%20Randhawa.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58278/300x700/home-rule-ep-guru-randhawa.jpg',
+         name : 'AYA LARIYE',
+         artist : 'Guru Randhawa',
+         album : 'Home Rule EP',
+         released : 'Oct-6-2025',
+         music : 'https://p320.djpunjab.is/data/320/58278/308716/AYA%20LARIYE%20-%20Guru%20Randhawa.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58277/300x700/hawa-vich-g-khan.jpg',
          name : 'HAWA VICH',
          artist : 'G Khan',

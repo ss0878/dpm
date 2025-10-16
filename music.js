@@ -1162,6 +1162,62 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/56889/306510/Kaali%20Ghodi%20-%20Gagan%20Kooner.mp3'
            },
       {
+         img : 'https://cover.djpunjab.is/56865/300x700/sicario-shubh.jpg',
+         name : 'Aura',
+         artist : 'Shubh',
+         album : 'Sicario',
+         released : 'Jan-17-2025',
+         music : 'https://p320.djpunjab.is/data/320/56865/306461/Aura%20-%20Shubh.mp3'
+           },
+      {
+         img : 'https://cover.djpunjab.is/56865/300x700/sicario-shubh.jpg',
+         name : 'Bars',
+         artist : 'Shubh',
+         album : 'Sicario',
+         released : 'Jan-17-2025',
+         music : 'https://p320.djpunjab.is/data/320/56865/306463/Bars%20-%20Shubh.mp3'
+           },
+      {
+         img : 'https://cover.djpunjab.is/56865/300x700/sicario-shubh.jpg',
+         name : 'Buckle Up',
+         artist : 'Shubh',
+         album : 'Sicario',
+         released : 'Jan-17-2025',
+         music : 'https://p320.djpunjab.is/data/320/56865/306458/Buckle%20Up%20-%20Shubh.mp3'
+           },
+      {
+         img : 'https://cover.djpunjab.is/56865/300x700/sicario-shubh.jpg',
+         name : 'Carti',
+         artist : 'Shubh',
+         album : 'Sicario',
+         released : 'Jan-17-2025',
+         music : 'https://p320.djpunjab.is/data/320/56865/306457/Carti%20-%20Shubh.mp3'
+           },
+      {
+         img : 'https://cover.djpunjab.is/56865/300x700/sicario-shubh.jpg',
+         name : 'Fell For You',
+         artist : 'Shubh',
+         album : 'Sicario',
+         released : 'Jan-17-2025',
+         music : 'https://p320.djpunjab.is/data/320/56865/306460/Fell%20For%20You%20-%20Shubh.mp3'
+           },
+      {
+         img : 'https://cover.djpunjab.is/56865/300x700/sicario-shubh.jpg',
+         name : 'Reckless',
+         artist : 'Shubh',
+         album : 'Sicario',
+         released : 'Jan-17-2025',
+         music : 'https://p320.djpunjab.is/data/320/56865/306465/Reckless%20-%20Shubh.mp3'
+           },
+      {
+         img : 'https://cover.djpunjab.is/56865/300x700/sicario-shubh.jpg',
+         name : 'Top G',
+         artist : 'Shubh',
+         album : 'Sicario',
+         released : 'Jan-17-2025',
+         music : 'https://p320.djpunjab.is/data/320/56865/306462/Top%20G%20-%20Shubh.mp3'
+           },
+      {
          img : 'https://cover.djpunjab.is/56852/300x700/pecha-wazir-patar.jpg',
          name : 'Pecha',
          artist : 'Wazir Patar',

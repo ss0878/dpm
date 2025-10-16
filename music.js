@@ -7993,15 +7993,215 @@ const music_list = [
             music : 'https://s320.djpunjab.is/data/320/47897/295237/Pabb%20Hauli%20-%20Garry%20Sandhu.mp3'
                },
                {
-            img : 'https://cover.djpunjab.is/47897/300x700/pabb-hauli-garry-sandhu.jpg',
-            name : 'Pabb Hauli',
-            artist : 'Garry Sandhu Ft. Pav Dharia',
-            album : 'Garry Sandhu Ft. Pav Dharia',
-            released : 'April-6-2020',
-            music : 'https://s320.djpunjab.is/data/320/47897/295237/Pabb%20Hauli%20-%20Garry%20Sandhu.mp3'
+            img : 'https://cover.djpunjab.is/47813/300x700/punjaban-rajvir-jawanda.jpg',
+            name : 'Punjaban',
+            artist : 'Rajvir Jawanda',
+            album : 'Rajvir Jawanda',
+            released : 'Mar-18-2020',
+            music : 'https://s320.djpunjab.is/data/320/47813/295137/Punjaban%20-%20Rajvir%20Jawanda.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47811/300x700/tibbeyan-da-putt-sidhu-moose-wala.jpg',
+            name : 'Tibbeyan Da Putt',
+            artist : 'Sidhu Moose Wala',
+            album : 'Sidhu Moose Wala',
+            released : 'Mar-17-2020',
+            music : 'https://s320.djpunjab.is/data/320/47811/295135/Tibbeyan%20Da%20Putt%20-%20Sidhu%20Moose%20Wala.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47778/300x700/truckan-wale-sidhu-moose-wala.jpg',
+            name : 'Truckan Wale',
+            artist : 'Sidhu Moose Wala',
+            album : 'Sidhu Moose Wala',
+            released : 'Mar-11-2020',
+            music : 'https://s320.djpunjab.is/data/320/47778/295093/Truckan%20Wale%20-%20Sidhu%20Moose%20Wala.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47778/300x700/truckan-wale-sidhu-moose-wala.jpg',
+            name : 'Truckan Wale',
+            artist : 'Sidhu Moose Wala',
+            album : 'Sidhu Moose Wala',
+            released : 'Mar-11-2020',
+            music : 'https://s320.djpunjab.is/data/320/47778/295093/Truckan%20Wale%20-%20Sidhu%20Moose%20Wala.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47706/300x700/barood-sidhu-moose-wala.jpg',
+            name : 'Barood',
+            artist : 'Sidhu Moose Wala',
+            album : 'Sidhu Moose Wala',
+            released : 'Feb-26-2020',
+            music : 'https://s320.djpunjab.is/data/320/47706/295011/Barood%20-%20Sidhu%20Moose%20Wala.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47699/300x700/red-eyes-karan-aujla.jpg',
+            name : 'Red Eyes',
+            artist : 'Karan Aujla',
+            album : 'Karan Aujla',
+            released : 'Feb-25-2020',
+            music : 'https://s320.djpunjab.is/data/320/47699/295004/Red%20Eyes%20-%20Karan%20Aujla.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47691/300x700/flex-sidhu-moose-wala.jpg',
+            name : 'Flex',
+            artist : 'Sidhu Moose Wala',
+            album : 'Sidhu Moose Wala',
+            released : 'Feb-23-2020',
+            music : 'https://s320.djpunjab.is/data/320/47691/294996/Flex%20-%20Sidhu%20Moose%20Wala.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47676/300x700/weekend-nseeb.jpg',
+            name : 'Weekend',
+            artist : 'Nseeb',
+            album : 'Nseeb',
+            released : 'Feb-20-2020',
+            music : 'https://s320.djpunjab.is/data/320/47676/294973/Weekend%20-%20Nseeb.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47675/300x700/low-rider-jassa-dhillon.jpg',
+            name : 'Low Rider',
+            artist : 'Jassa Dhillon',
+            album : 'Jassa Dhillon',
+            released : 'Feb-20-2020',
+            music : 'https://s320.djpunjab.is/data/320/47675/294972/Low%20Rider%20-%20Jassa%20Dhillon.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47643/300x700/sherni-banke-navaan-sandhu.jpg',
+            name : 'Sherni Banke',
+            artist : 'Navaan Sandhu',
+            album : 'Navaan Sandhu',
+            released : 'Feb-14-2020',
+            music : 'https://s320.djpunjab.is/data/320/47643/294925/Sherni%20Banke%20-%20Navaan%20Sandhu.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47637/300x700/phulkari-baani-sandhu.jpg',
+            name : 'Phulkari',
+            artist : 'Baani Sandhu Ft. Dilpreet Dhillon',
+            album : 'Baani Sandhu Ft. Dilpreet Dhillon',
+            released : 'Feb-13-2020',
+            music : 'https://s320.djpunjab.is/data/320/47637/294919/Phulkari%20-%20Baani%20Sandhu.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47631/300x700/shopping-gagan-kokri.jpg',
+            name : 'Shopping',
+            artist : 'Gagan Kokri',
+            album : 'Gagan Kokri',
+            released : 'Feb-13-2020',
+            music : 'https://s320.djpunjab.is/data/320/47631/294912/Shopping%20-%20Gagan%20Kokri.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47628/300x700/awaaz-gurnazar-chattha.jpg',
+            name : 'Awaaz',
+            artist : 'Gurnazar Chattha',
+            album : 'Gurnazar Chattha',
+            released : 'Feb-13-2020',
+            music : 'https://s320.djpunjab.is/data/320/47628/294909/Awaaz%20-%20Gurnazar%20Chattha.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47557/300x700/rdx-%26original%26-tarsem-jassar.jpg',
+            name : 'RDX (Original)',
+            artist : 'Tarsem Jassar',
+            album : 'Tarsem Jassar',
+            released : 'Feb-3-2020',
+            music : 'https://s320.djpunjab.is/data/320/47557/294816/RDX%20(Original)%20-%20Tarsem%20Jassar.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47556/300x700/mashoor-ho-giya-jordan-sandhu.jpg',
+            name : 'Mashoor Ho Giya',
+            artist : 'Jordan Sandhu',
+            album : 'Jordan Sandhu',
+            released : 'Feb-3-2020',
+            music : 'https://s320.djpunjab.is/data/320/47556/294815/Mashoor%20Ho%20Giya%20-%20Jordan%20Sandhu.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47543/300x700/wedding-song-sharry-mann.jpg',
+            name : 'Wedding Song',
+            artist : 'Sharry Mann',
+            album : 'Sharry Mann',
+            released : 'Jan-31-2020',
+            music : 'https://s320.djpunjab.is/data/320/47543/294802/Wedding%20Song%20-%20Sharry%20Mann.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47530/300x700/stacks-nseeb.jpg',
+            name : 'Stacks',
+            artist : 'Nseeb',
+            album : 'Nseeb',
+            released : 'Jan-30-2020',
+            music : 'https://s320.djpunjab.is/data/320/47530/294789/Stacks%20-%20Nseeb.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47481/300x700/mutiyare-ni-jassa-dhillon.jpg',
+            name : 'Mutiyare Ni',
+            artist : 'Jassa Dhillon',
+            album : 'Jassa Dhillon',
+            released : 'Jan-24-2020',
+            music : 'https://s320.djpunjab.is/data/320/47481/294722/Mutiyare%20Ni%20-%20Jassa%20Dhillon.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47472/300x700/stranger-diljit-dosanjh.jpg',
+            name : 'Stranger',
+            artist : 'Diljit Dosanjh',
+            album : 'Diljit Dosanjh',
+            released : 'Jan-21-2020',
+            music : 'https://s320.djpunjab.is/data/320/47472/294697/Stranger%20-%20Diljit%20Dosanjh.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47450/300x700/jhanjar-%26original%26-karan-aujla.jpg',
+            name : 'Jhanjar',
+            artist : 'Karan Aujla',
+            album : 'Karan Aujla',
+            released : 'Jan-21-2020',
+            music : 'https://s320.djpunjab.is/data/320/47450/294654/Jhanjar%20(Original)%20-%20Karan%20Aujla.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47428/300x700/kitho-the-prophec.jpg',
+            name : 'Kitho',
+            artist : 'The Prophec',
+            album : 'The Prophec',
+            released : 'Jan-17-2020',
+            music : 'https://s320.djpunjab.is/data/320/47428/294632/Kitho%20-%20The%20Prophec.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47388/300x700/old-skool-ft.-sidhu-moose-wala-prem-dhillon.jpg',
+            name : 'Old Skool',
+            artist : 'Prem Dhillon Ft. Sidhu Moose Wala',
+            album : 'Prem Dhillon Ft. Sidhu Moose Wala',
+            released : 'Jan-10-2020',
+            music : 'https://s320.djpunjab.is/data/320/47388/294583/Old%20Skool%20Ft.%20Sidhu%20Moose%20Wala%20-%20Prem%20Dhillon.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47264/300x700/naagmani-khan-bhaini.jpg',
+            name : 'Naagmani',
+            artist : 'Khan Bhaini',
+            album : 'Khan Bhaini',
+            released : 'Dec-20-2020',
+            music : 'https://s320.djpunjab.is/data/320/47264/294387/Naagmani%20-%20Khan%20Bhaini.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47256/300x700/kalla-sohna-nai-akhil.jpg',
+            name : 'Kalla Sohna Nai',
+            artist : 'Akhil',
+            album : 'Akhil',
+            released : 'Dec-20-2020',
+            music : 'https://s320.djpunjab.is/data/320/47256/294374/Kalla%20Sohna%20Nai%20-%20Akhil.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47247/300x700/tu-hi-das-de-simar-panag.jpg',
+            name : 'Tu Hi Das De',
+            artist : 'Simar Panag',
+            album : 'Simar Panag',
+            released : 'Dec-19-2020',
+            music : 'https://s320.djpunjab.is/data/320/47247/294365/Tu%20Hi%20Das%20De%20-%20Simar%20Panag.mp3'
+               },
+               {
+            img : 'https://cover.djpunjab.is/47212/300x700/mitra-ne-dil-mangeya-rajvir-jawanda.jpg',
+            name : 'Mitra Ne Dil Mangeya',
+            artist : 'Rajvir Jawanda',
+            album : 'Rajvir Jawanda',
+            released : 'Dec-15-2020',
+            music : 'https://s320.djpunjab.is/data/320/47212/294320/Mitra%20Ne%20Dil%20Mangeya%20-%20Rajvir%20Jawanda.mp3'
                }
       
-      /* https://djpunjab.is/page/newlatest.php?page=483 */
+      /* https://djpunjab.is/page/newlatest.php?page=512 */
    
       ,
                {

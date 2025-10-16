@@ -1450,6 +1450,14 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/56445/305842/Lucky%20-%20Garry%20Sandhu.mp3'
            },
       {
+         img : 'https://cover.djpunjab.is/56421/300x700/superstar-bilal-saeed.jpg',
+         name : 'Cold Hearted',
+         artist : 'Bilal Saeed',
+         album : 'SuperStar',
+         released : 'Oct-24-2024',
+         music : 'https://p320.djpunjab.is/data/320/56421/305817/Cold%20Hearted%20-%20Bilal%20Saeed.mp3'
+           },
+      {
          img : 'https://cover.djpunjab.is/56396/300x700/sifar-safar-karan-aujla.jpg',
          name : 'Sifar Safar',
          artist : 'Karan Aujla',

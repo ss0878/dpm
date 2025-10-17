@@ -159,57 +159,64 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Clear cache and reset session state on page load/refresh
 window.addEventListener('load', function() {
-    // Clear session-specific cache but preserve theme preference
-    const savedTheme = localStorage.getItem('theme');
-    
-    // Clear session storage completely
-    sessionStorage.clear();
-    
-    // Reset any runtime variables
-    if (wakeLock) {
-        releaseWakeLock();
-    }
-    
-    // Reset track state
-    if (updateTimer) {
-        clearInterval(updateTimer);
-    }
-    
-    // Clear application cache if available (for older browsers)
-    if (window.applicationCache) {
-        try {
-            window.applicationCache.swapCache();
-        } catch (e) {
-            console.log('Application cache swap failed:', e);
+    // Detect if this navigation is a reload
+    const isReload = (() => {
+        const navEntries = performance && performance.getEntriesByType ? performance.getEntriesByType('navigation') : [];
+        if (navEntries && navEntries.length > 0) {
+            return navEntries[0].type === 'reload';
         }
-    }
-    
-    // Clear service worker caches if available
-    if ('caches' in window) {
-        caches.keys().then(function(cacheNames) {
-            cacheNames.forEach(function(cacheName) {
-                if (cacheName.includes('music-player-cache')) {
-                    caches.delete(cacheName);
-                }
-            });
+        // Legacy fallback
+        return performance && performance.navigation && performance.navigation.type === 1;
+    })();
+
+    // Register service worker (supported on modern major browsers)
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./sw.js').then((reg) => {
+            // If this is a reload, signal the SW to bypass caches briefly
+            if (isReload) {
+                const sendReloadSignal = () => {
+                    if (navigator.serviceWorker.controller) {
+                        navigator.serviceWorker.controller.postMessage({ type: 'reload' });
+                    } else if (reg.active) {
+                        reg.active.postMessage({ type: 'reload' });
+                    }
+                };
+                // SW may not be immediately active; try once ready
+                navigator.serviceWorker.ready.then(() => sendReloadSignal());
+                // Also attempt immediately
+                sendReloadSignal();
+            }
+        }).catch((err) => {
+            console.log('Service worker registration failed:', err);
         });
     }
-    
-    // Force reload of media resources
-    const mediaElements = document.querySelectorAll('audio, video');
-    mediaElements.forEach(function(media) {
-        const currentSrc = media.src;
-        if (currentSrc) {
-            media.src = currentSrc + (currentSrc.includes('?') ? '&' : '?') + 'cache=' + new Date().getTime();
+
+    if (isReload) {
+        // Clear Cache Storage to remove any stale SW-managed caches
+        if ('caches' in window) {
+            caches.keys().then((cacheNames) => Promise.all(cacheNames.map((name) => caches.delete(name))));
         }
-    });
-    
-    // Restore only the theme preference
-    if (savedTheme) {
-        localStorage.setItem('theme', savedTheme);
+
+        // Light-touch session reset while preserving theme preference
+        const savedTheme = localStorage.getItem('theme');
+        try { sessionStorage.clear(); } catch {}
+        if (wakeLock) { releaseWakeLock(); }
+        if (updateTimer) { clearInterval(updateTimer); }
+        if (savedTheme) { localStorage.setItem('theme', savedTheme); }
+
+        // Force reload of media elements only on reload (avoid extra cost on first load)
+        const mediaElements = document.querySelectorAll('audio, video');
+        const ts = Date.now();
+        mediaElements.forEach((media) => {
+            const currentSrc = media.currentSrc || media.src;
+            if (currentSrc) {
+                const sep = currentSrc.includes('?') ? '&' : '?';
+                media.src = currentSrc + sep + 'v=' + ts;
+            }
+        });
+
+        console.log('Cache cleared for reload and state refreshed');
     }
-    
-    console.log('Session cache cleared and state reset');
 });
 
 // Add event listener for page visibility changes to handle wake lock
@@ -287,7 +294,7 @@ function toggleTheme() {
     const themeIcon = document.getElementById('theme-icon');
     
     if (body.getAttribute('data-theme') === 'dark') {
-        body.removeAttribute('data-theme');
+        body.setAttribute('data-theme', 'light');
         themeIcon.className = 'fa fa-moon-o';
         localStorage.setItem('theme', 'light');
     } else {
@@ -301,12 +308,33 @@ function toggleTheme() {
 function loadSavedTheme() {
     const savedTheme = localStorage.getItem('theme');
     const themeIcon = document.getElementById('theme-icon');
-    
+    const mediaQuery = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
+    const prefersDark = mediaQuery && mediaQuery.matches;
+
     if (savedTheme === 'dark') {
         document.body.setAttribute('data-theme', 'dark');
         themeIcon.className = 'fa fa-sun-o';
-    } else {
+    } else if (savedTheme === 'light') {
+        document.body.setAttribute('data-theme', 'light');
         themeIcon.className = 'fa fa-moon-o';
+    } else {
+        // No manual override, follow system preference via CSS media query
+        document.body.removeAttribute('data-theme');
+        themeIcon.className = prefersDark ? 'fa fa-sun-o' : 'fa fa-moon-o';
+
+        // Update icon on system theme changes when in auto mode
+        const handleSchemeChange = (e) => {
+            if (!localStorage.getItem('theme')) {
+                themeIcon.className = e.matches ? 'fa fa-sun-o' : 'fa fa-moon-o';
+            }
+        };
+        if (mediaQuery) {
+            if (typeof mediaQuery.addEventListener === 'function') {
+                mediaQuery.addEventListener('change', handleSchemeChange);
+            } else if (typeof mediaQuery.addListener === 'function') {
+                mediaQuery.addListener(handleSchemeChange);
+            }
+        }
     }
 }
 
@@ -442,7 +470,18 @@ function loadTrack(track_index){
 
     updateTimer = setInterval(setUpdate, 1000);
 
-    curr_track.addEventListener('ended', nextTrack);
+    // Reset playback position for a clean start on new sessions
+    try { curr_track.currentTime = 0; } catch {}
+
+    // Ensure a single end handler to avoid duplicate calls
+    curr_track.onended = nextTrack;
+
+    // Update media session position once metadata is available
+    curr_track.addEventListener('loadedmetadata', function() {
+        updatePositionState();
+        updatePlaybackState('paused');
+    });
+
     updateActivePlaylistItem();
     updateSongNavigationPreview();
     
@@ -614,7 +653,7 @@ function reset(){
     curr_time.textContent = "00:00";
     total_duration.textContent = "00:00";
     seek_slider.value = 0;
-    notification();
+    try { curr_track.currentTime = 0; } catch {}
 }
 
 // Store extracted colors globally for color loop animations
@@ -1018,6 +1057,13 @@ if ( 'mediaSession' in navigator ) {
 	});
 	navigator.mediaSession.setActionHandler('play', () => {
 	  playTrack();
+	});
+	// Explicit stop resets position to start for the current track
+	navigator.mediaSession.setActionHandler('stop', () => {
+	  pauseTrack();
+	  try { curr_track.currentTime = 0; } catch {}
+	  updatePositionState();
+	  updatePlaybackState('paused');
 	});
 	navigator.mediaSession.setActionHandler('previoustrack', () => {
 	  prevTrack();

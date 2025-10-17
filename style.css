@@ -8,8 +8,10 @@
     --glass-bg: rgba(255, 255, 255, 0.15);
     --glass-border: rgba(255, 255, 255, 0.2);
     --text-color: #ffffff;
+    --text-secondary: rgba(255, 255, 255, 0.85);
     --text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
     --button-bg: rgba(255, 255, 255, 0.1);
+    --button-bg-hover: rgba(255, 255, 255, 0.25);
     --slider-bg: rgba(131, 169, 255, 0.2);
     --playlist-bg: rgba(0, 0, 0, 0.3);
     --accent-color: #667eea;
@@ -23,13 +25,35 @@
     --frost-glow: rgba(255, 255, 255, 0.05);
 }
 
+[data-theme="light"] {
+    --bg-color: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --glass-bg: rgba(255, 255, 255, 0.15);
+    --glass-border: rgba(255, 255, 255, 0.2);
+    --text-color: #ffffff;
+    --text-secondary: rgba(255, 255, 255, 0.85);
+    --text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    --button-bg: rgba(255, 255, 255, 0.1);
+    --button-bg-hover: rgba(255, 255, 255, 0.25);
+    --slider-bg: rgba(131, 169, 255, 0.2);
+    --playlist-bg: rgba(0, 0, 0, 0.3);
+    --accent-color: #667eea;
+    --secondary-accent: #764ba2;
+    --frost-bg: rgba(255, 255, 255, 0.08);
+    --frost-border: rgba(255, 255, 255, 0.12);
+    --frost-blur: 15px;
+    --frost-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    --frost-glow: rgba(255, 255, 255, 0.05);
+}
+
 [data-theme="dark"] {
     --bg-color: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
     --glass-bg: rgba(0, 0, 0, 0.25);
     --glass-border: rgba(255, 255, 255, 0.1);
     --text-color: #ffffff;
+    --text-secondary: rgba(255, 255, 255, 0.85);
     --text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
     --button-bg: rgba(255, 255, 255, 0.05);
+    --button-bg-hover: rgba(0, 0, 0, 0.5);
     --slider-bg: rgba(30, 60, 114, 0.3);
     --playlist-bg: rgba(0, 0, 0, 0.4);
     --accent-color: #2a5298;
@@ -41,6 +65,29 @@
     --frost-blur: 20px;
     --frost-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
     --frost-glow: rgba(30, 60, 114, 0.1);
+}
+
+/* Respect system color scheme when no manual override is set */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+        --glass-bg: rgba(0, 0, 0, 0.25);
+        --glass-border: rgba(255, 255, 255, 0.1);
+        --text-color: #ffffff;
+        --text-secondary: rgba(255, 255, 255, 0.85);
+        --text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+        --button-bg: rgba(255, 255, 255, 0.05);
+        --button-bg-hover: rgba(0, 0, 0, 0.5);
+        --slider-bg: rgba(30, 60, 114, 0.3);
+        --playlist-bg: rgba(0, 0, 0, 0.4);
+        --accent-color: #2a5298;
+        --secondary-accent: #1e3c72;
+        --frost-bg: rgba(15, 20, 40, 0.25);
+        --frost-border: rgba(255, 255, 255, 0.08);
+        --frost-blur: 20px;
+        --frost-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+        --frost-glow: rgba(30, 60, 114, 0.1);
+    }
 }
 
 @keyframes gradientShift {
@@ -2556,10 +2603,10 @@ p{
     right: 20px;
     width: 50px;
     height: 50px;
-    background: rgba(255, 255, 255, 0.15);
+    background: var(--button-bg);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid var(--glass-border);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -2568,6 +2615,7 @@ p{
     opacity: 0;
     visibility: hidden;
     transform: translateY(20px);
+    will-change: transform, opacity;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     z-index: 1000;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
@@ -2580,7 +2628,7 @@ p{
 }
 
 .scroll-to-top-btn:hover {
-    background: rgba(255, 255, 255, 0.25);
+    background: var(--button-bg-hover);
     transform: translateY(-2px);
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
 }
@@ -2591,23 +2639,15 @@ p{
 
 .scroll-to-top-btn i {
     font-size: 18px;
-    color: rgba(255, 255, 255, 0.9);
+    color: var(--text-color);
     transition: color 0.3s ease;
 }
 
 .scroll-to-top-btn:hover i {
-    color: rgba(255, 255, 255, 1);
+    color: var(--text-color);
 }
 
-/* Dark theme adjustments */
-[data-theme="dark"] .scroll-to-top-btn {
-    background: rgba(0, 0, 0, 0.3);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-[data-theme="dark"] .scroll-to-top-btn:hover {
-    background: rgba(0, 0, 0, 0.5);
-}
+/* Theme values now come from variables and follow system preference or overrides */
 
 /* Mobile responsive adjustments */
 @media (max-width: 768px) {
@@ -2675,7 +2715,7 @@ p{
         top: auto;
         left: auto;
         width: 100%;
-        height: calc(100vh - 40px);
+        height: calc(95vh - 40px);
         max-height: none;
         opacity: 1;
         visibility: visible;

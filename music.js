@@ -330,6 +330,14 @@ const music_list = [
          music : 'https://p320.djpunjab.is/data/320/58176/308484/Eyes%20On%20Us%20-%20Navaan%20Sandhu.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/58176/300x700/house-navior-navaan-sandhu.jpg',
+         name : 'Regret',
+         artist : 'Navaan Sandhu Ft. Gurinder Gill',
+         album : 'House Navior',
+         released : 'Sep-19-2025',
+         music : 'https://p320.djpunjab.is/data/320/58176/308486/Regret%20-%20Navaan%20Sandhu.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58161/300x700/hammer-ninja.jpg',
          name : 'Hammer',
          artist : 'Ninja',

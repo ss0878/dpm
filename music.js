@@ -2,6 +2,14 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58330/300x700/jawab-jaz-dhami.jpg',
+         name : 'Jawab',
+         artist : 'Jaz Dhami',
+         album : 'Jaz Dhami',
+         released : 'Oct-18-2025',
+         music : 'https://s320.djpunjab.is/data/320/58330/308815/Jawab%20-%20Jaz%20Dhami.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58320/300x300/my-name-is-street-wazir-patar.jpg',
          name : 'Munde MarsO Aaye (Intro)',
          artist : 'Wazir Patar',

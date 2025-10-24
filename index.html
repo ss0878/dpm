@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,15 +31,13 @@
 
    <div class="player">
        <div class="wrapper glass frosted-glass">
-        <div class="playlist-toggle" onclick="togglePlaylist()">
+        <div class="playlist-toggle" role="button" aria-label="Toggle playlist" tabindex="0" onclick="togglePlaylist()" onkeydown="if(event.key==='Enter'||event.key===' ') togglePlaylist()">
             <i class="fa fa-list" aria-hidden="true"></i>
         </div>
         
-        <div class="downloadbutton">
-        <div class="download-track" onclick="downloadTrack()">
-        <i class="fa fa-cloud-download" aria-hidden="true"></i>
-    </div>
-</div>
+        <div class="downloadbutton" role="button" aria-label="Download current track" tabindex="0" onclick="downloadTrack()" onkeydown="if(event.key==='Enter'||event.key===' ') downloadTrack()">
+            <i class="fa fa-cloud-download" aria-hidden="true"></i>
+        </div>
            <div class="details">
                <div class="blob"></div>
                

@@ -1,4 +1,5 @@
 
+
 :root {
     --seek-before-width: 0%;
     --volume-before-width: 99%;
@@ -650,14 +651,44 @@ body.playing-music {
     position: absolute;
     top: 20px;
     left: 20px;
-    cursor: pointer;
+    padding: 10px;
     font-size: 24px;
-    z-index: 10;
+    background: var(--button-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 50%;
+    color: var(--text-color);
+    cursor: pointer;
     transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
 }
 
 .playlist-toggle:hover {
     transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.playlist-toggle:active {
+    transform: scale(0.98);
+}
+
+.playlist-toggle:focus-visible {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 3px rgba(55, 116, 255, 0.3);
+}
+
+.playlist-toggle[aria-disabled="true"] {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
 }
 
 .playlist-container {
@@ -1160,17 +1191,44 @@ body.playing-music {
     position: absolute;
     top: 20px;
     right: 20px;
-    padding: 0px;
-    font-size: xx-large;
-    transition: all .3s ease-in-out;
+    padding: 10px;
+    font-size: 24px;
+    background: var(--button-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 50%;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
 }
 
 .downloadbutton:hover{
-    transition: 0.9s;
-    filter: drop-shadow(.1em .2em .1em black);
-    font-size: 35px;
-    transition: all .2s ease-in-out;
-    
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.downloadbutton:active {
+    transform: scale(0.98);
+}
+
+.downloadbutton:focus-visible {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 3px rgba(55, 116, 255, 0.3);
+}
+
+.downloadbutton[aria-disabled="true"] {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
 }
 
 
@@ -1233,7 +1291,7 @@ body.playing-music {
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border-radius: clamp(15px, 3vw, 25px);
     position: relative;
-    overflow: hidden;
+    
     cursor: pointer;
     min-width: clamp(200px, 40vw, 300px);
     flex: 1;
@@ -1499,12 +1557,17 @@ p{
         width: 85%;
     }
     
-    .theme-toggle {
-        bottom: 20px;
-        left: 20px;
+    .theme-toggle,
+    .playlist-toggle,
+    .downloadbutton {
         width: 48px;
         height: 48px;
         font-size: 22px;
+    }
+    
+    .theme-toggle {
+        bottom: 20px;
+        left: 20px;
     }
 }
 
@@ -1660,12 +1723,17 @@ p{
         max-width: 120px; /* Reduced width to fit side by side */
     }
     
-    .theme-toggle {
-        bottom: 15px;
-        left: 15px;
+    .theme-toggle,
+    .playlist-toggle,
+    .downloadbutton {
         width: 44px;
         height: 44px;
         font-size: clamp(18px, 4vw, 22px);
+    }
+    
+    .theme-toggle {
+        bottom: 15px;
+        left: 15px;
     }
     
     .playlist-container {
@@ -1902,12 +1970,17 @@ p{
         left: clamp(5px, 1.5vw, 10px);
     }
     
-    .theme-toggle {
-        bottom: clamp(5px, 1.5vw, 10px);
-        left: clamp(5px, 1.5vw, 10px);
+    .theme-toggle,
+    .playlist-toggle,
+    .downloadbutton {
         width: clamp(32px, 8vw, 40px);
         height: clamp(32px, 8vw, 40px);
         font-size: clamp(14px, 3.5vw, 18px);
+    }
+
+    .theme-toggle {
+        bottom: clamp(5px, 1.5vw, 10px);
+        left: clamp(5px, 1.5vw, 10px);
     }
     
     .playlist-container {
@@ -2138,12 +2211,17 @@ p{
         left: clamp(3px, 1vw, 8px);
     }
     
-    .theme-toggle {
-        bottom: clamp(3px, 1vw, 8px);
-        left: clamp(3px, 1vw, 8px);
+    .theme-toggle,
+    .playlist-toggle,
+    .downloadbutton {
         width: clamp(28px, 6vw, 36px);
         height: clamp(28px, 6vw, 36px);
         font-size: clamp(12px, 3vw, 16px);
+    }
+
+    .theme-toggle {
+        bottom: clamp(3px, 1vw, 8px);
+        left: clamp(3px, 1vw, 8px);
     }
     
     .playlist-container {
@@ -2268,10 +2346,15 @@ p{
         padding: clamp(8px, 2vw, 12px);
     }
     
-    .theme-toggle {
+    .theme-toggle,
+    .playlist-toggle,
+    .downloadbutton {
         width: 36px;
         height: 36px;
         font-size: clamp(16px, 3.5vw, 20px);
+    }
+
+    .theme-toggle {
         bottom: 10px;
         left: 10px;
     }
@@ -2391,10 +2474,15 @@ p{
         left: 8px;
     }
     
-    .theme-toggle {
+    .theme-toggle,
+    .playlist-toggle,
+    .downloadbutton {
         width: 32px;
         height: 32px;
         font-size: clamp(14px, 3.2vw, 18px);
+    }
+
+    .theme-toggle {
         bottom: 8px;
         left: 8px;
     }

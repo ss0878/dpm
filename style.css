@@ -493,6 +493,7 @@ body.playing-music {
     box-shadow: 0 15px 25px rgba(0,0,0,0.2);
     animation: animate 5s ease-in-out infinite;
     transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    will-change: transform, opacity;
 }
 
 @keyframes animate {
@@ -1484,6 +1485,51 @@ p{
     to{
         transform: rotate(359deg);
     }
+}
+/* Background layer for GIFs: full-viewport, fixed, composited */
+.background-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 400ms ease;
+    will-change: opacity, transform;
+}
+
+/* Player sits above background */
+.player {
+    position: relative;
+    z-index: 1;
+}
+
+/* Low-power mode to reduce GPU load */
+.low-power .background-layer {
+    filter: none;
+    opacity: 0.6;
+    transition-duration: 200ms;
+}
+
+.low-power .track-art {
+    animation-duration: 10s;
+    box-shadow: 0 8px 14px rgba(0,0,0,0.16);
+}
+
+.low-power .rotate {
+    animation: none !important;
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .rotate { animation: none !important; }
+    .track-art { animation: none !important; }
+    .background-layer { transition: none !important; }
 }
 
 /* Media Queries for Responsive Design */

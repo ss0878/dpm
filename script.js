@@ -34,6 +34,23 @@ let wakeLock = null;
 
 totalMusic = document.querySelector(".total-music-list");
 
+// GPU/animation optimization variables
+let backgroundLayerEl = null;
+let colorLoopRafId = null;
+let colorShiftActive = false;
+let lastPulseTs = 0;
+const prefersReducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+function ensureBackgroundLayer() {
+    let el = document.querySelector('.background-layer');
+    if (!el) {
+        el = document.createElement('div');
+        el.className = 'background-layer';
+        document.body.appendChild(el);
+    }
+    return el;
+}
+
 // Initialize the volume slider CSS variable
 document.documentElement.style.setProperty('--volume-before-width', '99%');
 
@@ -153,6 +170,12 @@ loadTrack(track_index);
 // Initialize bandwidth UI
 document.addEventListener('DOMContentLoaded', function() {
     updateBandwidthUI();
+    // Ensure the background GIF layer exists for transform-based animations
+    backgroundLayerEl = ensureBackgroundLayer();
+    // Honor reduced motion preference with low-power mode
+    if (prefersReducedMotion) {
+        document.body.classList.add('low-power');
+    }
 });
 
 
@@ -771,55 +794,57 @@ function fallbackRandomColor() {
 }
 
 // Color animation variables
-let colorLoopInterval;
-let colorShiftActive = false;
-
 function startColorLoop() {
     if (colorShiftActive) return; // Already running
     colorShiftActive = true;
-    
-    // Initial color extraction from current track art
-    if (isPlaying) {
-        // Add the playing-music class if not already added
-        if (!document.body.classList.contains('playing-music')) {
-            document.body.classList.add('playing-music');
-        }
-        
-        // Start color shifting if we have extracted colors
-        if (extractedColors.primary && extractedColors.secondary) {
-            // Clear any existing interval
-            if (colorLoopInterval) clearInterval(colorLoopInterval);
-            
-            // Set up the color loop interval that runs while music is playing
-            colorLoopInterval = setInterval(() => {
-                if (!isPlaying || !colorShiftActive) {
-                    clearInterval(colorLoopInterval);
-                    return;
-                }
-                
-                // Apply subtle variations to the background while keeping the main colors
-                const currentTime = new Date().getTime() / 1000;
-                const pulseValue = Math.sin(currentTime) * 0.2 + 0.8; // Value between 0.6 and 1.0
-                
-                // Create a dynamic pulsing effect that responds to the music
-                document.body.style.backgroundSize = `${150 + pulseValue * 50}% ${150 + pulseValue * 50}%`;
-                
-                // Subtle shift in background position for more dynamic feel
-                const shiftX = Math.sin(currentTime * 0.5) * 5;
-                const shiftY = Math.cos(currentTime * 0.5) * 5;
-                document.body.style.backgroundPosition = `${50 + shiftX}% ${50 + shiftY}%`;
-            }, 100); // Update every 100ms for smooth animation
-        }
+
+    // Skip dynamic motion in low-power or reduced motion mode
+    const lowPower = document.body.classList.contains('low-power') || prefersReducedMotion;
+    if (lowPower) return;
+
+    if (!backgroundLayerEl) backgroundLayerEl = ensureBackgroundLayer();
+    if (!backgroundLayerEl) return;
+
+    // Add the playing-music class if not already added
+    if (!document.body.classList.contains('playing-music')) {
+        document.body.classList.add('playing-music');
     }
+
+    // Animate subtle transform on the background layer using requestAnimationFrame
+    function loop(ts) {
+        if (!isPlaying || !colorShiftActive) {
+            colorLoopRafId = null;
+            return;
+        }
+        // Avoid work when tab is hidden
+        if (document.visibilityState !== 'visible') {
+            colorLoopRafId = requestAnimationFrame(loop);
+            return;
+        }
+        // Throttle updates to ~60ms to reduce GPU work
+        if (!lastPulseTs || ts - lastPulseTs > 60) {
+            const t = ts / 1000;
+            const pulse = Math.sin(t) * 0.02 + 0.98; // scale ~0.96–1.0
+            const shiftX = Math.sin(t * 0.5) * 2;     // px
+            const shiftY = Math.cos(t * 0.5) * 2;     // px
+            backgroundLayerEl.style.transform = `translate(${shiftX}px, ${shiftY}px) scale(${pulse})`;
+            lastPulseTs = ts;
+        }
+        colorLoopRafId = requestAnimationFrame(loop);
+    }
+    colorLoopRafId = requestAnimationFrame(loop);
 }
 
 function stopColorLoop() {
     colorShiftActive = false;
     document.body.classList.remove('playing-music');
-    
-    if (colorLoopInterval) {
-        clearInterval(colorLoopInterval);
-        colorLoopInterval = null;
+    if (colorLoopRafId) {
+        cancelAnimationFrame(colorLoopRafId);
+        colorLoopRafId = null;
+    }
+    lastPulseTs = 0;
+    if (backgroundLayerEl) {
+        backgroundLayerEl.style.transform = '';
     }
 }
 function randomTrack(){

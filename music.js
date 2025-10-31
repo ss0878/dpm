@@ -2,6 +2,22 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58391/300x700/kala-jadoo-armaan-gill.jpg',
+         name : 'KALA JADOO',
+         artist : 'Armaan Gill & Arnaaz Gill',
+         album : 'Armaan Gill & Arnaaz Gill',
+         released : 'Oct-31-2025',
+         music : 'https://s320.djpunjab.is/data/320/58391/308896/KALA%20JADOO%20-%20Armaan%20Gill.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58378/300x700/cant-be-us-prem-dhillon.jpg',
+         name : 'Cant Be Us',
+         artist : 'Prem Dhillon',
+         album : 'Prem Dhillon',
+         released : 'Oct-30-2025',
+         music : 'https://s320.djpunjab.is/data/320/58378/308876/Cant%20Be%20Us%20-%20Prem%20Dhillon.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58330/300x700/jawab-jaz-dhami.jpg',
          name : 'Jawab',
          artist : 'Jaz Dhami',

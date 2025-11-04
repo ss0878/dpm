@@ -2,6 +2,14 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58425/300x700/mahol-gulab-sidhu.jpg',
+         name : 'Mahol',
+         artist : 'Gulab Sidhu',
+         album : 'Gulab Sidhu',
+         released : 'Nov-3-2025',
+         music : 'https://s320.djpunjab.is/data/320/58425/308936/Mahol%20-%20Gulab%20Sidhu.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58391/300x700/kala-jadoo-armaan-gill.jpg',
          name : 'KALA JADOO',
          artist : 'Armaan Gill & Arnaaz Gill',

@@ -2,6 +2,22 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58444/300x700/aavo-ni-saiyoon-maninder-buttar.jpg',
+         name : 'Aavo Ni Saiyoon',
+         artist : 'Maninder Buttar',
+         album : 'Maninder Buttar',
+         released : 'Nov-5-2025',
+         music : 'https://s320.djpunjab.is/data/320/58444/308974/Aavo%20Ni%20Saiyoon%20-%20Maninder%20Buttar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58442/300x700/mera-mahi-param.jpg',
+         name : 'Mera Mahi',
+         artist : 'Param',
+         album : 'Param',
+         released : 'Nov-5-2025',
+         music : 'https://s320.djpunjab.is/data/320/58442/308957/Mera%20Mahi%20-%20Param.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58425/300x700/mahol-gulab-sidhu.jpg',
          name : 'Mahol',
          artist : 'Gulab Sidhu',

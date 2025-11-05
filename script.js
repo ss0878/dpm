@@ -54,6 +54,60 @@ function ensureBackgroundLayer() {
 // Initialize the volume slider CSS variable
 document.documentElement.style.setProperty('--volume-before-width', '99%');
 
+// Haptic feedback function for iPhone lock screen controls
+function triggerHapticFeedback(type = 'light') {
+    // Check if the device supports haptic feedback
+    if ('vibrate' in navigator) {
+        try {
+            // Use different vibration patterns based on feedback type
+            switch (type) {
+                case 'light':
+                    navigator.vibrate(10);
+                    break;
+                case 'medium':
+                    navigator.vibrate(20);
+                    break;
+                case 'heavy':
+                    navigator.vibrate([10, 5, 10]);
+                    break;
+                default:
+                    navigator.vibrate(10);
+            }
+        } catch (error) {
+            console.log('Haptic feedback not supported:', error);
+        }
+    }
+    
+    // iOS specific haptic feedback using Web Audio API for better compatibility
+    if (window.AudioContext || window.webkitAudioContext) {
+        try {
+            const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            oscillator.frequency.value = 200;
+            oscillator.type = 'sine';
+            
+            const duration = type === 'heavy' ? 0.05 : 0.02;
+            const volume = type === 'light' ? 0.1 : 0.2;
+            
+            gainNode.gain.setValueAtTime(volume, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + duration);
+            
+            oscillator.start(audioContext.currentTime);
+            oscillator.stop(audioContext.currentTime + duration);
+            
+            // Close the audio context to free resources
+            setTimeout(() => audioContext.close(), 100);
+        } catch (error) {
+            console.log('Web Audio haptic feedback not supported:', error);
+        }
+    }
+}
+
 
 // Function to change audio bandwidth
 function changeBandwidth(quality) {
@@ -897,6 +951,9 @@ function playTrack(){
     curr_track.play();
     isPlaying = true;
     track_art.classList.add('rotate');
+    
+    // Trigger haptic feedback on iPhone
+    triggerHapticFeedback('light');
     document.body.classList.add('playing-music');
     playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
     setUpdate();
@@ -919,8 +976,14 @@ function pauseTrack(){
     
     // Release wake lock when music is paused
     releaseWakeLock();
+    
+    // Trigger haptic feedback on iPhone
+    triggerHapticFeedback('light');
 }
 function nextTrack(){
+    // Trigger haptic feedback for track skip
+    triggerHapticFeedback('medium');
+    
     // Check if artist focus mode is active
     if (isArtistFocusMode) {
         const nextArtistTrackIndex = getNextArtistTrack();
@@ -955,6 +1018,9 @@ function nextTrack(){
     notification();
 }
 function prevTrack(){
+    // Trigger haptic feedback for track skip
+    triggerHapticFeedback('medium');
+    
     // Check if artist focus mode is active
     if (isArtistFocusMode) {
         const prevArtistTrackIndex = getPrevArtistTrack();
@@ -992,6 +1058,10 @@ function prevTrack(){
 function seekTo(){
     let seekto = curr_track.duration * (seek_slider.value / 100);
     curr_track.currentTime = seekto;
+    
+    // Trigger haptic feedback for seek action
+    triggerHapticFeedback('light');
+    
     notification();
 }
 function setVolume(){
@@ -1060,68 +1130,100 @@ function updatePlaybackState(state) {
 
 function notification(){
     sessionimg = music_list[track_index].img;
-if ( 'mediaSession' in navigator ) {
-	navigator.mediaSession.metadata = new MediaMetadata({
-	  title: track_name.textContent,
-		artist: track_artist.textContent,
-		album: 'Dope Music',
-        
-          	artwork: [
-                  { src: sessionimg, sizes: '96x96', type: 'image/jpeg' },
-                  { src: sessionimg, sizes: '128x128', type: 'image/jpeg' },
-                  { src: sessionimg, sizes: '192x192', type: 'image/jpeg' },
-                  { src: sessionimg, sizes: '256x256', type: 'image/jpeg' },
-                  { src: sessionimg, sizes: '384x384', type: 'image/jpeg' },
-                  { src: sessionimg, sizes: '512x512', type: 'image/jpeg' }
-          ]
-		  
-	});
-  
-	navigator.mediaSession.setActionHandler('pause', () => {
-	  pauseTrack();
-	});
-	navigator.mediaSession.setActionHandler('play', () => {
-	  playTrack();
-	});
-	// Explicit stop resets position to start for the current track
-	navigator.mediaSession.setActionHandler('stop', () => {
-	  pauseTrack();
-	  try { curr_track.currentTime = 0; } catch {}
-	  updatePositionState();
-	  updatePlaybackState('paused');
-	});
-	navigator.mediaSession.setActionHandler('previoustrack', () => {
-	  prevTrack();
-	});
-	navigator.mediaSession.setActionHandler('nexttrack', () => {
-	  nextTrack();
-	});
-	
-	// Add seekto handler for better Apple compatibility
-	navigator.mediaSession.setActionHandler('seekto', (event) => {
-		if (event.seekTime) {
-			curr_track.currentTime = event.seekTime;
-			updatePositionState();
-		}
-	});
-	
-	let defaultSkipTime = 10; /* Time to skip in seconds by default */
-
-	navigator.mediaSession.setActionHandler('seekbackward', function(event) {
-  		const skipTime = event.seekOffset || defaultSkipTime;
-  		curr_track.currentTime = Math.max(curr_track.currentTime - skipTime, 0);
-  		updatePositionState();
-	});
-
-	navigator.mediaSession.setActionHandler('seekforward', function(event) {
-  		const skipTime = event.seekOffset || defaultSkipTime;
-  		curr_track.currentTime = Math.min(curr_track.currentTime + skipTime, curr_track.duration);
-  		updatePositionState();
-	});
-
-	// Update position state when metadata is set
-	updatePositionState();
-  }
+    
+    // Check if Media Session API is available
+    if ('mediaSession' in navigator) {
+        try {
+            // Set up MediaMetadata with enhanced artwork for iPhone lock screen
+            navigator.mediaSession.metadata = new MediaMetadata({
+                title: track_name.textContent,
+                artist: track_artist.textContent,
+                album: 'Dope Punjabi Music',
+                artwork: [
+                    { src: sessionimg, sizes: '96x96', type: 'image/jpeg' },
+                    { src: sessionimg, sizes: '128x128', type: 'image/jpeg' },
+                    { src: sessionimg, sizes: '192x192', type: 'image/jpeg' },
+                    { src: sessionimg, sizes: '256x256', type: 'image/jpeg' },
+                    { src: sessionimg, sizes: '384x384', type: 'image/jpeg' },
+                    { src: sessionimg, sizes: '512x512', type: 'image/jpeg' }
+                ]
+            });
+            
+            // Enhanced action handlers with error handling
+            const actionHandlers = [
+                { action: 'play', handler: () => { try { playTrack(); } catch (e) { console.error('Play handler error:', e); } } },
+                { action: 'pause', handler: () => { try { pauseTrack(); } catch (e) { console.error('Pause handler error:', e); } } },
+                { action: 'stop', handler: () => { 
+                    try { 
+                        pauseTrack(); 
+                        curr_track.currentTime = 0; 
+                        updatePositionState();
+                        updatePlaybackState('paused');
+                    } catch (e) { 
+                        console.error('Stop handler error:', e); 
+                    } 
+                } },
+                { action: 'previoustrack', handler: () => { try { prevTrack(); } catch (e) { console.error('Previous track handler error:', e); } } },
+                { action: 'nexttrack', handler: () => { try { nextTrack(); } catch (e) { console.error('Next track handler error:', e); } } },
+                { action: 'seekto', handler: (event) => { 
+                    try { 
+                        if (event.seekTime !== undefined && !isNaN(event.seekTime)) {
+                            curr_track.currentTime = Math.max(0, Math.min(event.seekTime, curr_track.duration || 0));
+                            updatePositionState();
+                        }
+                    } catch (e) { 
+                        console.error('Seek to handler error:', e); 
+                    } 
+                } },
+                { action: 'seekbackward', handler: (event) => { 
+                    try { 
+                        const skipTime = event.seekOffset || 10;
+                        curr_track.currentTime = Math.max(curr_track.currentTime - skipTime, 0);
+                        updatePositionState();
+                        // Trigger haptic feedback for seek action
+                        triggerHapticFeedback('light');
+                    } catch (e) { 
+                        console.error('Seek backward handler error:', e); 
+                    } 
+                } },
+                { action: 'seekforward', handler: (event) => { 
+                    try { 
+                        const skipTime = event.seekOffset || 10;
+                        const duration = curr_track.duration || 0;
+                        curr_track.currentTime = Math.min(curr_track.currentTime + skipTime, duration);
+                        updatePositionState();
+                        // Trigger haptic feedback for seek action
+                        triggerHapticFeedback('light');
+                    } catch (e) { 
+                        console.error('Seek forward handler error:', e); 
+                    } 
+                } }
+            ];
+            
+            // Set up action handlers with fallback support
+            actionHandlers.forEach(({ action, handler }) => {
+                try {
+                    if (navigator.mediaSession.setActionHandler) {
+                        navigator.mediaSession.setActionHandler(action, handler);
+                    }
+                } catch (error) {
+                    console.warn(`Media Session action '${action}' not supported or failed:`, error);
+                }
+            });
+            
+            // Update position state
+            updatePositionState();
+            
+            // Log successful setup for debugging
+            console.log('Media Session API configured successfully for iPhone lock screen');
+            
+        } catch (error) {
+            console.error('Error setting up Media Session API:', error);
+            console.warn('Media Session features may not be available on this device/browser');
+        }
+    } else {
+        console.warn('Media Session API not available. Lock screen controls will not work.');
+    }
 }
 
 

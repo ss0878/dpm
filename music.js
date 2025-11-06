@@ -10,6 +10,38 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/58450/308990/Bound%20Together%20-%20Davi%20Singh.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/58443/300x700/interstellar-harkirat-sangha.jpg',
+         name : 'Hype Street',
+         artist : 'Harkirat Sangha',
+         album : 'INTERSTELLAR',
+         released : 'Nov-5-2025',
+         music : 'https://p320.djpunjab.is/data/320/58443/308971/Hype%20Street%20-%20Harkirat%20Sangha.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58443/300x700/interstellar-harkirat-sangha.jpg',
+         name : 'Sanghastyle',
+         artist : 'Harkirat Sangha',
+         album : 'INTERSTELLAR',
+         released : 'Nov-5-2025',
+         music : 'https://p320.djpunjab.is/data/320/58443/308960/Sanghastyle%20-%20Harkirat%20Sangha.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58443/300x700/interstellar-harkirat-sangha.jpg',
+         name : 'Testosterone',
+         artist : 'Harkirat Sangha',
+         album : 'INTERSTELLAR',
+         released : 'Nov-5-2025',
+         music : 'https://p320.djpunjab.is/data/320/58443/308961/Testosterone%20-%20Harkirat%20Sangha.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58443/300x700/interstellar-harkirat-sangha.jpg',
+         name : 'Horsepower',
+         artist : 'Harkirat Sangha',
+         album : 'INTERSTELLAR',
+         released : 'Nov-5-2025',
+         music : 'https://p320.djpunjab.is/data/320/58443/308958/Horsepower%20-%20Harkirat%20Sangha.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58444/300x700/aavo-ni-saiyoon-maninder-buttar.jpg',
          name : 'Aavo Ni Saiyoon',
          artist : 'Maninder Buttar',

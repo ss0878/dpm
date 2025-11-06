@@ -2,6 +2,14 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58450/300x700/bound-together-davi-singh.jpg',
+         name : 'Bound Together',
+         artist : 'Davi Singh',
+         album : 'Davi Singh',
+         released : 'Nov-6-2025',
+         music : 'https://s320.djpunjab.is/data/320/58450/308990/Bound%20Together%20-%20Davi%20Singh.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58444/300x700/aavo-ni-saiyoon-maninder-buttar.jpg',
          name : 'Aavo Ni Saiyoon',
          artist : 'Maninder Buttar',

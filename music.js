@@ -42,6 +42,14 @@ const music_list = [
          music : 'https://p320.djpunjab.is/data/320/58443/308958/Horsepower%20-%20Harkirat%20Sangha.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/58443/300x700/interstellar-harkirat-sangha.jpg',
+         name : 'Gaddi Vich Ki Ae',
+         artist : 'Harkirat Sangha',
+         album : 'INTERSTELLAR',
+         released : 'Nov-5-2025',
+         music : 'https://p320.djpunjab.is/data/320/58443/308966/Gaddi%20Vich%20Ki%20Ae%20-%20Harkirat%20Sangha.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58444/300x700/aavo-ni-saiyoon-maninder-buttar.jpg',
          name : 'Aavo Ni Saiyoon',
          artist : 'Maninder Buttar',

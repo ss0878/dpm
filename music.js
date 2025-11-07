@@ -2,6 +2,14 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58462/300x700/changa-fer-milange-arjan-dhillon.jpg',
+         name : 'Changa Fer Milange',
+         artist : 'Arjan Dhillon',
+         album : 'Arjan Dhillon',
+         released : 'Nov-7-2025',
+         music : 'https://s320.djpunjab.is/data/320/58462/309002/Changa%20Fer%20Milange%20-%20Arjan%20Dhillon.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58450/300x700/bound-together-davi-singh.jpg',
          name : 'Bound Together',
          artist : 'Davi Singh',

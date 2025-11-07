@@ -10,6 +10,14 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/58462/309002/Changa%20Fer%20Milange%20-%20Arjan%20Dhillon.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/58455/300x700/hood-rules-ivan-singh.jpg',
+         name : 'HOOD RULES',
+         artist : 'Ivan Singh Ft. Saabi Bhinder',
+         album : 'Ivan Singh Ft. Saabi Bhinder',
+         released : 'Nov-7-2025',
+         music : 'https://s320.djpunjab.is/data/320/58455/308995/HOOD%20RULES%20-%20Ivan%20Singh.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58450/300x700/bound-together-davi-singh.jpg',
          name : 'Bound Together',
          artist : 'Davi Singh',

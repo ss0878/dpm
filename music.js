@@ -2,12 +2,12 @@ const music_list = [
     
    
    {
-         img : 'https://cover.djpunjab.is/58462/300x700/changa-fer-milange-arjan-dhillon.jpg',
-         name : 'Changa Fer Milange',
+         img : 'https://cover.djpunjab.is/58472/300x700/kahli-aa-arjan-dhillon.jpg',
+         name : 'Kahli Aa',
          artist : 'Arjan Dhillon',
          album : 'Arjan Dhillon',
          released : 'Nov-7-2025',
-         music : 'https://s320.djpunjab.is/data/320/58462/309002/Changa%20Fer%20Milange%20-%20Arjan%20Dhillon.mp3'
+         music : 'https://s320.djpunjab.is/data/320/58472/309022/Kahli%20Aa%20-%20Arjan%20Dhillon.mp3'
            },
     {
          img : 'https://cover.djpunjab.is/58455/300x700/hood-rules-ivan-singh.jpg',

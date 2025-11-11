@@ -136,7 +136,8 @@ body{
     font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
     background: var(--bg-color);
     background-size: auto;
-    background-attachment: fixed;
+    /* Avoid iOS Safari rendering glitches with fixed backgrounds */
+    background-attachment: scroll;
     animation: none;
     font-weight: 500;
     color: var(--text-color);
@@ -145,13 +146,31 @@ body{
     overflow: hidden;
     transition: none;
     text-shadow: var(--text-shadow);
-    height: 100vh;
-    width: 100vw;
+    /* Use dynamic viewport height to avoid white bars on iPhone */
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     place-items: center;
     position: relative;
+}
+
+/* Ensure the root also paints the gradient to cover any safe areas */
+html {
+    height: 100%;
+    background: var(--bg-color);
+}
+
+/* Prefer dynamic viewport units where supported */
+@supports (height: 100dvh) {
+    body { height: 100dvh; }
+}
+
+/* iOS fallback to fill available space including safe areas */
+@supports (-webkit-touch-callout: none) {
+    body { height: -webkit-fill-available; }
 }
 
 body.bg-transitioning {
@@ -1491,8 +1510,11 @@ p{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    right: 0;
+    bottom: 0;
+    /* Stretch to viewport via inset edges rather than vh to respect dynamic UI */
+    width: auto;
+    height: auto;
     pointer-events: none;
     z-index: 0;
     background-repeat: no-repeat;
@@ -1501,6 +1523,14 @@ p{
     opacity: 0;
     transition: opacity 400ms ease;
     will-change: opacity, transform;
+}
+
+@supports (height: 100dvh) {
+    .background-layer { height: 100dvh; }
+}
+
+@supports (-webkit-touch-callout: none) {
+    .background-layer { height: -webkit-fill-available; }
 }
 
 /* Player sits above background */

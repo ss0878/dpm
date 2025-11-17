@@ -2,6 +2,14 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58529/300x700/romeo-nirvair-pannu.jpg',
+         name : 'Stubborn',
+         artist : 'Nirvair Pannu',
+         album : 'ROMEO',
+         released : 'Nov-17-2025',
+         music : 'https://p320.djpunjab.is/data/320/58529/309107/Stubborn%20-%20Nirvair%20Pannu.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58472/300x700/kahli-aa-arjan-dhillon.jpg',
          name : 'Kahli Aa',
          artist : 'Arjan Dhillon',

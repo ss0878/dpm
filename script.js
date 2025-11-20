@@ -17,12 +17,15 @@ let curr_time = document.querySelector('.current-time');
 let total_duration = document.querySelector('.total-duration');
 let randomIcon = document.querySelector('.fa-random');
 let curr_track = document.createElement('audio');
+// Cache track durations once discovered to avoid creating extra Audio elements
+const trackDurations = {};
 
 let track_index = 0;
 let isPlaying = false;
 let isRandom = false;
 let isRepeat = 0; // 0: off, 1: repeat all, 2: repeat one
 let updateTimer;
+let timeUpdateHandler = null;
 let playlistContainer = document.getElementById('playlist-container');
 let playlistSongs = document.getElementById('playlist-songs');
 let currentBandwidth = 'high'; // Default bandwidth setting
@@ -40,6 +43,8 @@ let colorLoopRafId = null;
 let colorShiftActive = false;
 let lastPulseTs = 0;
 const prefersReducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+// Detect iOS (including iPadOS with touch on MacIntel)
+const isIOS = /iP(ad|hone|od)/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
 
 function ensureBackgroundLayer() {
     let el = document.querySelector('.background-layer');
@@ -228,6 +233,10 @@ document.addEventListener('DOMContentLoaded', function() {
     backgroundLayerEl = ensureBackgroundLayer();
     // Honor reduced motion preference with low-power mode
     if (prefersReducedMotion) {
+        document.body.classList.add('low-power');
+    }
+    // Default to low-power mode on iOS to reduce CPU/GPU overhead
+    if (isIOS) {
         document.body.classList.add('low-power');
     }
 });
@@ -504,7 +513,16 @@ function releaseWakeLock() {
 }
 
 function loadTrack(track_index){
-    clearInterval(updateTimer);
+    if (updateTimer) {
+        try { clearInterval(updateTimer); } catch {}
+        try { clearTimeout(updateTimer); } catch {}
+        updateTimer = null;
+    }
+    // Detach previous timeupdate handler to avoid duplicates
+    if (timeUpdateHandler) {
+        try { curr_track.removeEventListener('timeupdate', timeUpdateHandler); } catch {}
+        timeUpdateHandler = null;
+    }
     reset();
     
     // Add loading animation class
@@ -545,7 +563,9 @@ function loadTrack(track_index){
     track_released.textContent = "Release Date:  " + music_list[track_index].released;
     now_playing.textContent = "Playing music " + (track_index + 1) + " of " + music_list.length;
 
-    updateTimer = setInterval(setUpdate, 1000);
+    // Use audio timeupdate events instead of timers for progress updates
+    timeUpdateHandler = function() { setUpdate(); };
+    curr_track.addEventListener('timeupdate', timeUpdateHandler);
 
     // Reset playback position for a clean start on new sessions
     try { curr_track.currentTime = 0; } catch {}
@@ -557,6 +577,8 @@ function loadTrack(track_index){
     curr_track.addEventListener('loadedmetadata', function() {
         updatePositionState();
         updatePlaybackState('paused');
+        // Cache duration for previews to avoid extra decoders
+        try { trackDurations[track_index] = curr_track.duration; } catch {}
     });
 
     updateActivePlaylistItem();
@@ -638,15 +660,12 @@ function updateSongNavigationPreview() {
         nextSongTitle.textContent = nextSong.name;
         nextSongArtist.textContent = nextSong.artist;
         
-        // Get duration for next song
-        const nextAudio = new Audio(nextSong.music);
-        nextAudio.preload = 'metadata';
-        nextAudio.addEventListener('loadedmetadata', function() {
-            nextSongDuration.textContent = formatDuration(nextAudio.duration);
-        });
-        nextAudio.addEventListener('error', function() {
-            nextSongDuration.textContent = "0:00";
-        });
+        // Use cached duration if available; avoid creating extra Audio elements on iOS
+        if (typeof trackDurations[nextIndex] === 'number' && isFinite(trackDurations[nextIndex])) {
+            nextSongDuration.textContent = formatDuration(trackDurations[nextIndex]);
+        } else {
+            nextSongDuration.textContent = '\u2026'; // ellipsis placeholder
+        }
     }
     
     // Update previous song section
@@ -656,16 +675,13 @@ function updateSongNavigationPreview() {
         prevSongTitle.textContent = prevSong.name;
         prevSongArtist.textContent = prevSong.artist;
         
-        // Get duration for previous song
-        const prevAudio = new Audio(prevSong.music);
-        prevAudio.preload = 'metadata';
-        prevAudio.addEventListener('loadedmetadata', function() {
-            prevSongDuration.textContent = formatDuration(prevAudio.duration);
-        });
-        prevAudio.addEventListener('error', function() {
-            prevSongDuration.textContent = "0:00";
-        });
-    }
+        // Use cached duration if available; avoid creating extra Audio elements on iOS
+        if (typeof trackDurations[prevIndex] === 'number' && isFinite(trackDurations[prevIndex])) {
+            prevSongDuration.textContent = formatDuration(trackDurations[prevIndex]);
+        } else {
+            prevSongDuration.textContent = '\u2026';
+        }
+}
     
     // Store indices for direct playback
     window.previewNextIndex = nextIndex;
@@ -741,24 +757,31 @@ let extractedColors = {
 };
 
 function extractColorsFromURL(url) {
+    // On iOS or in low-power/reduced-motion, skip heavy canvas work
+    if (isIOS || document.body.classList.contains('low-power') || prefersReducedMotion) {
+        fallbackRandomColor();
+        return;
+    }
     const img = new Image();
     img.crossOrigin = 'Anonymous';
     img.onload = function() {
-        // Create a canvas to draw the image
+        // Create a small canvas to draw the image (downscale to reduce CPU)
         const canvas = document.createElement('canvas');
         const ctx = canvas.getContext('2d');
         
-        // Set canvas size to match image
-        canvas.width = img.width;
-        canvas.height = img.height;
+        // Downscale canvas size for lower processing cost
+        const targetW = Math.max(64, Math.floor(img.width / 8));
+        const targetH = Math.max(64, Math.floor(img.height / 8));
+        canvas.width = targetW;
+        canvas.height = targetH;
         
         // Draw the image on the canvas
-        ctx.drawImage(img, 0, 0);
+        ctx.drawImage(img, 0, 0, targetW, targetH);
         
         // Get colors from different parts of the image
-        const topLeftColor = getAverageColor(ctx, 0, 0, img.width / 3, img.height / 3);
-        const centerColor = getAverageColor(ctx, img.width / 3, img.height / 3, img.width / 3, img.height / 3);
-        const bottomRightColor = getAverageColor(ctx, img.width * 2/3, img.height * 2/3, img.width / 3, img.height / 3);
+        const topLeftColor = getAverageColor(ctx, 0, 0, targetW / 3, targetH / 3);
+        const centerColor = getAverageColor(ctx, targetW / 3, targetH / 3, targetW / 3, targetH / 3);
+        const bottomRightColor = getAverageColor(ctx, targetW * 2/3, targetH * 2/3, targetW / 3, targetH / 3);
         
         // Store extracted colors for animation
         extractedColors.primary = topLeftColor;
@@ -948,21 +971,55 @@ function playpauseTrack(){
     isPlaying ? pauseTrack() : playTrack(); notification();
 }
 function playTrack(){
-    curr_track.play();
-    isPlaying = true;
-    track_art.classList.add('rotate');
-    
-    // Trigger haptic feedback on iPhone
-    triggerHapticFeedback('light');
-    document.body.classList.add('playing-music');
-    playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
-    setUpdate();
-    startColorLoop();
-    updatePlaybackState('playing');
-    updatePositionState();
-    
-    // Request wake lock when music starts playing
-    requestWakeLock();
+    // Attempt to play with promise handling (important on iOS)
+    const playPromise = curr_track.play();
+    if (playPromise && typeof playPromise.then === 'function') {
+        playPromise.then(() => {
+            // Successful start
+            isPlaying = true;
+            track_art.classList.add('rotate');
+            triggerHapticFeedback('light');
+            document.body.classList.add('playing-music');
+            playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
+            setUpdate();
+            startColorLoop();
+            updatePlaybackState('playing');
+            updatePositionState();
+            requestWakeLock();
+        }).catch((err) => {
+            console.warn('Playback start failed, retrying once:', err);
+            // Retry once after a short delay (common iOS quirk when transitioning tracks)
+            setTimeout(() => {
+                curr_track.play().then(() => {
+                    isPlaying = true;
+                    track_art.classList.add('rotate');
+                    triggerHapticFeedback('light');
+                    document.body.classList.add('playing-music');
+                    playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
+                    setUpdate();
+                    startColorLoop();
+                    updatePlaybackState('playing');
+                    updatePositionState();
+                    requestWakeLock();
+                }).catch((e) => {
+                    console.error('Retry playback failed:', e);
+                    updatePlaybackState('paused');
+                });
+            }, 300);
+        });
+    } else {
+        // Fallback if play() does not return a promise
+        isPlaying = true;
+        track_art.classList.add('rotate');
+        triggerHapticFeedback('light');
+        document.body.classList.add('playing-music');
+        playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
+        setUpdate();
+        startColorLoop();
+        updatePlaybackState('playing');
+        updatePositionState();
+        requestWakeLock();
+    }
 }
 function pauseTrack(){
     curr_track.pause();
@@ -1098,9 +1155,7 @@ function setUpdate(){
         // Update media session position state for Apple devices
         updatePositionState();
     }
-    if(isPlaying){
-        updateTimer = setTimeout(setUpdate, 1000);
-    }
+    // Removed timer scheduling; updates now driven by audio timeupdate events
 }
 // Function to update media session position state
 function updatePositionState() {

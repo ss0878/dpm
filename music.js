@@ -2,6 +2,14 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58553/300x700/hitmen-ap-dhillon.jpg',
+         name : 'HITMEN',
+         artist : 'AP Dhillon Ft. Shinda Kahlon',
+         album : 'AP Dhillon Ft. Shinda Kahlon',
+         released : 'Nov-22-2025',
+         music : 'https://s320.djpunjab.is/data/320/58553/309179/HITMEN%20-%20AP%20Dhillon.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58529/300x700/romeo-nirvair-pannu.jpg',
          name : 'Stubborn',
          artist : 'Nirvair Pannu',

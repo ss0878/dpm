@@ -2,6 +2,22 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58561/300x700/no-control-jordan-sandhu.jpg',
+         name : 'No Control',
+         artist : 'Jordan Sandhu',
+         album : 'Jordan Sandhu',
+         released : 'Nov-24-2025',
+         music : 'https://s320.djpunjab.is/data/320/58561/309197/No%20Control%20-%20Jordan%20Sandhu.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58559/300x700/morni-jordan-sandhu.jpg',
+         name : 'Morni',
+         artist : 'Jordan Sandhu',
+         album : 'Jordan Sandhu',
+         released : 'Nov-24-2025',
+         music : 'https://s320.djpunjab.is/data/320/58559/309195/Morni%20-%20Jordan%20Sandhu.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58553/300x700/hitmen-ap-dhillon.jpg',
          name : 'HITMEN',
          artist : 'AP Dhillon Ft. Shinda Kahlon',
@@ -16,6 +32,14 @@ const music_list = [
          album : 'ROMEO',
          released : 'Nov-17-2025',
          music : 'https://p320.djpunjab.is/data/320/58529/309107/Stubborn%20-%20Nirvair%20Pannu.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58529/300x700/romeo-nirvair-pannu.jpg',
+         name : 'Together',
+         artist : 'Nirvair Pannu',
+         album : 'ROMEO',
+         released : 'Nov-17-2025',
+         music : 'https://p320.djpunjab.is/data/320/58529/309111/Together%20-%20Nirvair%20Pannu.mp3'
            },
     {
          img : 'https://cover.djpunjab.is/58472/300x700/kahli-aa-arjan-dhillon.jpg',

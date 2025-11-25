@@ -2,6 +2,14 @@ const music_list = [
     
    
    {
+         img : 'https://raw.githubusercontent.com/ss0878/dpm/refs/heads/main/Music/Poster/Life%20-%20Azaad%204L.jpg',
+         name : 'Life',
+         artist : 'Azaad 4L Ft. Santali',
+         album : 'Azaad 4L Ft. Santali',
+         released : 'Nov-25-2025',
+         music : 'https://github.com/ss0878/dpm/raw/refs/heads/main/Music/MP3/Life%20-%20Azaad%204L%20Ft.%20Santali.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58561/300x700/no-control-jordan-sandhu.jpg',
          name : 'No Control',
          artist : 'Jordan Sandhu',

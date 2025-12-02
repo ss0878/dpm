@@ -2,12 +2,28 @@ const music_list = [
     
    
    {
-         img : 'https://raw.githubusercontent.com/ss0878/dpm/refs/heads/main/Music/Poster/Life%20-%20Azaad%204L.jpg',
+         img : 'https://cover.djpunjab.is/58595/300x700/barota-sidhu-moose-wala.jpg',
+         name : 'Barota',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala',
+         released : 'Nov-29-2025',
+         music : 'https://s320.djpunjab.is/data/320/58595/309245/Barota%20-%20Sidhu%20Moose%20Wala.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58602/300x700/shkini-guru-randhawa.jpg',
+         name : 'SHKINI',
+         artist : 'Guru Randhawa',
+         album : 'Guru Randhawa',
+         released : 'Nov-29-2025',
+         music : 'https://s320.djpunjab.is/data/320/58602/309259/SHKINI%20-%20Guru%20Randhawa.mp3'
+           },
+    {
+         img : 'https://s320.djpunjab.is/data/320/58598/309248/Life%20-%20Azaad%204L.jpg',
          name : 'Life',
          artist : 'Azaad 4L Ft. Santali',
          album : 'Azaad 4L Ft. Santali',
          released : 'Nov-25-2025',
-         music : 'https://github.com/ss0878/dpm/raw/refs/heads/main/Music/MP3/Life%20-%20Azaad%204L%20Ft.%20Santali.mp3'
+         music : 'https://s320.djpunjab.is/data/320/58598/309248/Life%20-%20Azaad%204L.mp3'
            },
     {
          img : 'https://cover.djpunjab.is/58561/300x700/no-control-jordan-sandhu.jpg',

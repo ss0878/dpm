@@ -18,7 +18,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/58602/309259/SHKINI%20-%20Guru%20Randhawa.mp3'
            },
     {
-         img : 'https://s320.djpunjab.is/data/320/58598/309248/Life%20-%20Azaad%204L.jpg',
+         img : 'https://cover.djpunjab.is/58598/300x700/life-azaad-4l.jpg',
          name : 'Life',
          artist : 'Azaad 4L Ft. Santali',
          album : 'Azaad 4L Ft. Santali',

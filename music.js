@@ -2,6 +2,22 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58618/300x700/lost-frequencies-ep-wazir-patar.jpg',
+         name : 'Cali Cali',
+         artist : 'Wazir Patar Ft. Davi Singh',
+         album : 'Lost Frequencies EP',
+         released : 'Dec-3-2025',
+         music : 'https://p320.djpunjab.is/data/320/58618/309283/Cali%20Cali%20-%20Wazir%20Patar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58618/300x700/lost-frequencies-ep-wazir-patar.jpg',
+         name : 'Surma',
+         artist : 'Wazir Patar Ft. Jeona Sandhu',
+         album : 'Lost Frequencies EP',
+         released : 'Dec-3-2025',
+         music : 'https://p320.djpunjab.is/data/320/58618/309281/Surma%20-%20Wazir%20Patar.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58623/300x700/pat-jharh-armaan-gill.jpg',
          name : 'Pat Jharh',
          artist : 'Armaan Gill Ft. Arnaaz Gill',

@@ -2,6 +2,22 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58623/300x700/pat-jharh-armaan-gill.jpg',
+         name : 'Pat Jharh',
+         artist : 'Armaan Gill Ft. Arnaaz Gill',
+         album : 'Armaan Gill Ft. Arnaaz Gill',
+         released : 'Dec-3-2025',
+         music : 'https://s320.djpunjab.is/data/320/58623/309288/Pat%20Jharh%20-%20Armaan%20Gill.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58622/300x700/mainu-lagda-armaan-gill.jpg',
+         name : 'Mainu Lagda',
+         artist : 'Armaan Gill Ft. Arnaaz Gill',
+         album : 'Armaan Gill Ft. Arnaaz Gill',
+         released : 'Dec-3-2025',
+         music : 'https://s320.djpunjab.is/data/320/58622/309287/Mainu%20Lagda%20-%20Armaan%20Gill.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58595/300x700/barota-sidhu-moose-wala.jpg',
          name : 'Barota',
          artist : 'Sidhu Moose Wala',

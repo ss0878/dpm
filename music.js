@@ -2,6 +2,30 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58654/300x700/gal-sun-morniye-the-landers.jpg',
+         name : 'Gal Sun Morniye',
+         artist : 'The Landers',
+         album : 'The Landers',
+         released : 'Dec-7-2025',
+         music : 'https://s320.djpunjab.is/data/320/58654/309319/Gal%20Sun%20Morniye%20-%20The%20Landers.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58669/300x700/the-one-bhalwaan.jpg',
+         name : 'The One',
+         artist : 'Bhalwaan',
+         album : 'Bhalwaan',
+         released : 'Dec-7-2025',
+         music : 'https://s320.djpunjab.is/data/320/58669/309356/The%20One%20-%20Bhalwaan.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58653/300x700/niri-agg-sikander-kahlon.jpg',
+         name : 'Niri Agg',
+         artist : 'Sikander Kahlon',
+         album : 'Sikander Kahlon',
+         released : 'Dec-6-2025',
+         music : 'https://s320.djpunjab.is/data/320/58653/309318/Niri%20Agg%20-%20Sikander%20Kahlon.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58618/300x700/lost-frequencies-ep-wazir-patar.jpg',
          name : 'Cali Cali',
          artist : 'Wazir Patar Ft. Davi Singh',

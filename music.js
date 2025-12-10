@@ -4,7 +4,7 @@ const music_list = [
    {
          img : 'https://cover.djpunjab.is/58685/300x700/hawawan-gurinder-gill.jpg',
          name : 'Hawawan',
-         artist : 'Gurinder Gill',
+         artist : 'Gurinder Gill Ft. Chani Nattan',
          album : 'Gurinder Gill',
          released : 'Dec-10-2025',
          music : 'https://s320.djpunjab.is/data/320/58685/309379/Hawawan%20-%20Gurinder%20Gill.mp3'

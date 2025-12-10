@@ -2,6 +2,14 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58685/300x700/hawawan-gurinder-gill.jpg',
+         name : 'Hawawan',
+         artist : 'Gurinder Gill',
+         album : 'Gurinder Gill',
+         released : 'Dec-10-2025',
+         music : 'https://s320.djpunjab.is/data/320/58685/309379/Hawawan%20-%20Gurinder%20Gill.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58654/300x700/gal-sun-morniye-the-landers.jpg',
          name : 'Gal Sun Morniye',
          artist : 'The Landers',

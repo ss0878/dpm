@@ -2,6 +2,22 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58717/300x700/war-anthem-ninja.jpg',
+         name : 'War Anthem',
+         artist : 'Ninja Ft. Wazir Patar',
+         album : 'Ninja Ft. Wazir Patar',
+         released : 'Dec-15-2025',
+         music : 'https://s320.djpunjab.is/data/320/58717/309418/War%20Anthem%20-%20Ninja.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58715/300x700/jatt-khadh-daa-navi-sran.jpg',
+         name : 'Jatt Khadh Daa',
+         artist : 'Navi Sran',
+         album : 'Navi Sran',
+         released : 'Dec-14-2025',
+         music : 'https://s320.djpunjab.is/data/320/58715/309416/Jatt%20Khadh%20Daa%20-%20Navi%20Sran.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58685/300x700/hawawan-gurinder-gill.jpg',
          name : 'Hawawan',
          artist : 'Gurinder Gill Ft. Chani Nattan',

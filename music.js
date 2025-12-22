@@ -2,6 +2,30 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58759/300x700/shastar-nama-ep-azaad-4l.jpg',
+         name : 'Sade Ta Ohi Ne',
+         artist : 'Azaad 4L',
+         album : 'Azaad 4L',
+         released : 'Dec-22-2025',
+         music : 'https://p320.djpunjab.is/data/320/58759/309485/Sade%20Ta%20Ohi%20Ne%20-%20Azaad%204L.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58759/300x700/shastar-nama-ep-azaad-4l.jpg',
+         name : 'Shastar Nama',
+         artist : 'Azaad 4L',
+         album : 'Azaad 4L',
+         released : 'Dec-22-2025',
+         music : 'https://p320.djpunjab.is/data/320/58759/309486/Shastar%20Nama%20-%20Azaad%204L.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58759/300x700/shastar-nama-ep-azaad-4l.jpg',
+         name : 'Teer',
+         artist : 'Azaad 4L',
+         album : 'Azaad 4L',
+         released : 'Dec-22-2025',
+         music : 'https://p320.djpunjab.is/data/320/58759/309484/Teer%20-%20Azaad%204L.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58756/300x700/pal-pal-%26talwiinder-verse%26-talwiinder.jpg',
          name : 'Pal Pal (Talwiinder Verse)',
          artist : 'Talwiinder',

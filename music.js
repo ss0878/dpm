@@ -2,6 +2,14 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58756/300x700/pal-pal-%26talwiinder-verse%26-talwiinder.jpg',
+         name : 'Pal Pal (Talwiinder Verse)',
+         artist : 'Talwiinder',
+         album : 'Talwiinder',
+         released : 'Dec-22-2025',
+         music : 'https://s320.djpunjab.is/data/320/58756/309472/Pal%20Pal%20(Talwiinder%20Verse)%20-%20Talwiinder.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58717/300x700/war-anthem-ninja.jpg',
          name : 'War Anthem',
          artist : 'Ninja Ft. Wazir Patar',

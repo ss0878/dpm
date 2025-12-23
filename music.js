@@ -26,20 +26,20 @@ const music_list = [
          music : 'https://p320.djpunjab.is/data/320/58759/309484/Teer%20-%20Azaad%204L.mp3'
            },
     {
-         img : 'https://cover.djpunjab.is/58756/300x700/pal-pal-%26talwiinder-verse%26-talwiinder.jpg',
-         name : 'Pal Pal (Talwiinder Verse)',
-         artist : 'Talwiinder',
-         album : 'Talwiinder',
-         released : 'Dec-22-2025',
-         music : 'https://s320.djpunjab.is/data/320/58756/309472/Pal%20Pal%20(Talwiinder%20Verse)%20-%20Talwiinder.mp3'
-           },
-    {
          img : 'https://cover.djpunjab.is/58717/300x700/war-anthem-ninja.jpg',
          name : 'War Anthem',
          artist : 'Ninja Ft. Wazir Patar',
          album : 'Ninja Ft. Wazir Patar',
          released : 'Dec-15-2025',
          music : 'https://s320.djpunjab.is/data/320/58717/309418/War%20Anthem%20-%20Ninja.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58756/300x700/pal-pal-%26talwiinder-verse%26-talwiinder.jpg',
+         name : 'Pal Pal (Talwiinder Verse)',
+         artist : 'Talwiinder',
+         album : 'Talwiinder',
+         released : 'Dec-22-2025',
+         music : 'https://s320.djpunjab.is/data/320/58756/309472/Pal%20Pal%20(Talwiinder%20Verse)%20-%20Talwiinder.mp3'
            },
     {
          img : 'https://cover.djpunjab.is/58715/300x700/jatt-khadh-daa-navi-sran.jpg',

@@ -2,6 +2,22 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58777/300x700/1911-jxggi.jpg',
+         name : '1911',
+         artist : 'Jxggi',
+         album : 'Jxggi',
+         released : 'Jan-2-2026',
+         music : 'https://s320.djpunjab.is/data/320/58777/309514/1911%20-%20Jxggi.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58773/300x700/winner-harsh-likhari.jpg',
+         name : 'Winner',
+         artist : 'Harsh Likhari',
+         album : 'Harsh Likhari',
+         released : 'Dec-29-2025',
+         music : 'https://s320.djpunjab.is/data/320/58773/309500/Winner%20-%20Harsh%20Likhari.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58759/300x700/shastar-nama-ep-azaad-4l.jpg',
          name : 'Sade Ta Ohi Ne',
          artist : 'Azaad 4L',

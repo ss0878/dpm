@@ -2,6 +2,14 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58792/300x700/senorita-%26j-balvin-version%26-diljit-dosanjh.jpg',
+         name : 'Senorita',
+         artist : 'Diljit Dosanjh Ft. J Balvin',
+         album : 'Diljit Dosanjh Ft. J Balvin',
+         released : 'Jan-6-2026',
+         music : 'https://s320.djpunjab.is/data/320/58792/309536/Senorita%20(J%20Balvin%20Version)%20-%20Diljit%20Dosanjh.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58777/300x700/1911-jxggi.jpg',
          name : '1911',
          artist : 'Jxggi',

@@ -6,7 +6,7 @@ const music_list = [
          name : 'Raatan Lambiyan',
          artist : 'AP Dhillon Ft. Shinda Kahlon',
          album : 'AP Dhillon Ft. Shinda Kahlon',
-         released : 'Jan-6-2026',
+         released : 'Jan-9-2026',
          music : 'https://s320.djpunjab.is/data/320/58812/309556/Raatan%20Lambiyan%20-%20AP%20Dhillon.mp3'
            },
     {

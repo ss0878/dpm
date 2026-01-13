@@ -6,8 +6,16 @@ const music_list = [
          name : 'WZR GANG',
          artist : 'Wazir Patar',
          album : 'Wazir Patar',
-         released : 'Jan-9-2026',
+         released : 'Jan-13-2026',
          music : 'https://s320.djpunjab.is/data/320/58843/309595/WZR%20GANG%20-%20Wazir%20Patar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58838/300x700/jee-nai-lagda-jasmine-sandlas.jpg',
+         name : 'Jee Nai Lagda',
+         artist : 'Jasmine Sandlas',
+         album : 'Jasmine Sandlas',
+         released : 'Jan-13-2026',
+         music : 'https://s320.djpunjab.is/data/320/58838/309587/Jee%20Nai%20Lagda%20-%20Jasmine%20Sandlas.mp3'
            },
     {
          img : 'https://cover.djpunjab.is/58812/300x700/raatan-lambiyan-ap-dhillon.jpg',

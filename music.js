@@ -2,6 +2,14 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58850/300x700/miss-me-with-that-talwiinder.jpg',
+         name : 'Miss Me With That',
+         artist : 'Talwiinder',
+         album : 'Talwiinder',
+         released : 'Jan-14-2026',
+         music : 'https://s320.djpunjab.is/data/320/58850/309602/Miss%20Me%20With%20That%20-%20Talwiinder.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58843/300x700/wzr-gang-wazir-patar.jpg',
          name : 'WZR GANG',
          artist : 'Wazir Patar',

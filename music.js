@@ -2,6 +2,14 @@ const music_list = [
     
    
    {
+         img : 'https://cover.djpunjab.is/58865/300x700/get-at-me-prem-dhillon.jpg',
+         name : 'Get At Me',
+         artist : 'Prem Dhillon',
+         album : 'Prem Dhillon',
+         released : 'Jan-17-2026',
+         music : 'https://s320.djpunjab.is/data/320/58865/309621/Get%20At%20Me%20-%20Prem%20Dhillon.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58850/300x700/miss-me-with-that-talwiinder.jpg',
          name : 'Miss Me With That',
          artist : 'Talwiinder',

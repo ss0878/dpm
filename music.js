@@ -1,7 +1,23 @@
 const music_list = [
     
    
-   {
+  {
+         img : 'https://cover.djpunjab.is/58924/300x700/suit-arnaaz-gill.jpg',
+         name : 'SUIT',
+         artist : 'Arnaaz Gill Ft. Arnaaz Gill',
+         album : 'Arnaaz Gill Ft. Arnaaz Gill',
+         released : 'Jan-24-2026',
+         music : 'https://s320.djpunjab.is/data/320/58924/309692/SUIT%20-%20Arnaaz%20Gill.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58921/300x700/beautiful-day-wazir-patar.jpg',
+         name : 'Beautiful Day',
+         artist : 'Wazir Patar',
+         album : 'Wazir Patar',
+         released : 'Jan-24-2026',
+         music : 'https://s320.djpunjab.is/data/320/58921/309689/Beautiful%20Day%20-%20Wazir%20Patar.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58865/300x700/get-at-me-prem-dhillon.jpg',
          name : 'Get At Me',
          artist : 'Prem Dhillon',

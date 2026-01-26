@@ -18,6 +18,14 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/58921/309689/Beautiful%20Day%20-%20Wazir%20Patar.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/58877/300x700/mere-jinna-pyar-arshaan.jpg',
+         name : 'Mere Jinna Pyar',
+         artist : 'Arshaan',
+         album : 'Arshaan',
+         released : 'Jan-20-2026',
+         music : 'https://s320.djpunjab.is/data/320/58877/309645/Mere%20Jinna%20Pyar%20-%20Arshaan.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58865/300x700/get-at-me-prem-dhillon.jpg',
          name : 'Get At Me',
          artist : 'Prem Dhillon',

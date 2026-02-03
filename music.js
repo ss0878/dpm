@@ -2,6 +2,30 @@ const music_list = [
     
    
   {
+         img : 'https://lq.djjohal.com/covers/736074/World%20Is%20Yours.jpg',
+         name : 'Awoke',
+         artist : 'Tarsem Jassar',
+         album : 'World Is Yours',
+         released : 'Feb-4-2026',
+         music : 'https://hd1.djjohal.com/320/525467/Awoke%20-%20Tarsem%20Jassar%20(DJJOhAL.Com).mp3'
+           },
+    {
+         img : 'https://lq.djjohal.com/covers/736074/World%20Is%20Yours.jpg',
+         name : 'Old Money',
+         artist : 'Tarsem Jassar',
+         album : 'World Is Yours',
+         released : 'Feb-4-2026',
+         music : 'https://hd1.djjohal.com/320/525472/Old%20Money%20-%20Tarsem%20Jassar%20(DJJOhAL.Com).mp3'
+           },
+    {
+         img : 'https://lq.djjohal.com/covers/736074/World%20Is%20Yours.jpg',
+         name : 'Fake Friends',
+         artist : 'Tarsem Jassar',
+         album : 'World Is Yours',
+         released : 'Feb-4-2026',
+         music : 'https://hd1.djjohal.com/320/525469/Fake%20Friends%20-%20Tarsem%20Jassar%20(DJJOhAL.Com).mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58924/300x700/suit-arnaaz-gill.jpg',
          name : 'SUIT',
          artist : 'Arnaaz Gill Ft. Arnaaz Gill',

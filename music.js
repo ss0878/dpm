@@ -2,6 +2,38 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/58997/300x700/money-rule-azaad-4l.jpg',
+         name : 'Money Rule',
+         artist : 'Azaad 4L',
+         album : 'Azaad 4L',
+         released : 'Feb-7-2026',
+         music : 'https://s320.djpunjab.is/data/320/58997/309777/Money%20Rule%20-%20Azaad%204L.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58996/300x700/photo-thapar.jpg',
+         name : 'Photo',
+         artist : 'Thapar',
+         album : 'Thapar',
+         released : 'Feb-7-2026',
+         music : 'https://s320.djpunjab.is/data/320/58996/309776/Photo%20-%20Thapar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58987/300x700/whats-poppin-ninja.jpg',
+         name : 'PWHATS POPPIN',
+         artist : 'Ninja Ft. Deep Jandu',
+         album : 'Ninja Ft. Deep Jandu',
+         released : 'Feb-7-2026',
+         music : 'https://s320.djpunjab.is/data/320/58987/309767/WHATS%20POPPIN%20-%20Ninja.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58986/300x700/thinking-of-you-ap-dhillon.jpg',
+         name : 'Thinking Of You',
+         artist : 'AP Dhillon',
+         album : 'AP Dhillon',
+         released : 'Feb-7-2026',
+         music : 'https://s320.djpunjab.is/data/320/58986/309766/Thinking%20Of%20You%20-%20AP%20Dhillon.mp3'
+           },
+    {
          img : 'https://lq.djjohal.com/covers/736074/World%20Is%20Yours.jpg',
          name : 'Awoke',
          artist : 'Tarsem Jassar',

@@ -2,6 +2,38 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/59028/300x700/lucky-me-jordan-sandhu.jpg',
+         name : 'Lucky Me',
+         artist : 'Jordan Sandhu',
+         album : 'Jordan Sandhu',
+         released : 'Feb-12-2026',
+         music : 'https://s320.djpunjab.is/data/320/59028/309820/Lucky%20Me%20-%20Jordan%20Sandhu.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59009/300x700/pal-vi-na-amrinder-gill.jpg',
+         name : 'Pal Vi Na',
+         artist : 'Amrinder Gill',
+         album : 'Amrinder Gill',
+         released : 'Feb-12-2026',
+         music : 'https://s320.djpunjab.is/data/320/59009/309789/Pal%20Vi%20Na%20-%20Amrinder%20Gill.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59005/300x700/banda-maarda-jind-dhillon.jpg',
+         name : 'Banda Maarda',
+         artist : 'Jind Dhillon',
+         album : 'Jind Dhillon',
+         released : 'Feb-9-2026',
+         music : 'https://s320.djpunjab.is/data/320/59005/309785/Banda%20Maarda%20-%20Jind%20Dhillon.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/58998/300x700/asla-mankirt-aulakh.jpg',
+         name : 'Asla',
+         artist : 'Mankirt Aulakh',
+         album : 'Mankirt Aulakh',
+         released : 'Feb-7-2026',
+         music : 'https://s320.djpunjab.is/data/320/58998/309778/Asla%20-%20Mankirt%20Aulakh.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58997/300x700/money-rule-azaad-4l.jpg',
          name : 'Money Rule',
          artist : 'Azaad 4L',

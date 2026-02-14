@@ -2,6 +2,46 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/59036/300x700/dil-warna-nirvair-pannu.jpg',
+         name : 'Dil Warna',
+         artist : 'Nirvair Pannu',
+         album : 'Nirvair Pannu',
+         released : 'Feb-14-2026',
+         music : 'https://s320.djpunjab.is/data/320/59036/309842/Dil%20Warna%20-%20Nirvair%20Pannu.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59041/300x700/still-mine-prem-dhillon.jpg',
+         name : 'Still Mine',
+         artist : 'Prem Dhillon',
+         album : 'Prem Dhillon',
+         released : 'Feb-14-2026',
+         music : 'https://s320.djpunjab.is/data/320/59032/309838/Kochi%20Files%20-%20Jassa%20Dhillon.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59032/300x700/kochi-files-jassa-dhillon.jpg',
+         name : 'Kochi Files',
+         artist : 'Jassa Dhillon',
+         album : 'Jassa Dhillon',
+         released : 'Feb-14-2026',
+         music : 'https://s320.djpunjab.is/data/320/59041/309847/Still%20Mine%20-%20Prem%20Dhillon.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59038/300x700/custom-parmish-verma.jpg',
+         name : 'Custom',
+         artist : 'Parmish Verma',
+         album : 'Parmish Verma',
+         released : 'Feb-14-2026',
+         music : 'https://s320.djpunjab.is/data/320/59038/309844/Custom%20-%20Parmish%20Verma.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59035/300x700/langdi-langala-davi-singh.jpg',
+         name : 'Langdi Langala',
+         artist : 'Davi Singh',
+         album : 'Davi Singh',
+         released : 'Feb-14-2026',
+         music : 'https://s320.djpunjab.is/data/320/59035/309841/Langdi%20Langala%20-%20Davi%20Singh.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59028/300x700/lucky-me-jordan-sandhu.jpg',
          name : 'Lucky Me',
          artist : 'Jordan Sandhu',

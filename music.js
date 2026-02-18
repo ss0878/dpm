@@ -2,6 +2,14 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/59051/300x700/5-7-karan-aujla.jpg',
+         name : '5-7',
+         artist : 'Karan Aujla',
+         album : 'Karan Aujla',
+         released : 'Feb-18-2026',
+         music : 'https://s320.djpunjab.is/data/320/59051/309862/5-7%20-%20Karan%20Aujla.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59036/300x700/dil-warna-nirvair-pannu.jpg',
          name : 'Dil Warna',
          artist : 'Nirvair Pannu',

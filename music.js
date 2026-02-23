@@ -18,6 +18,38 @@ const music_list = [
          music : 'https://p320.djpunjab.is/data/320/59077/309902/NAZAR%20-%20Armaan%20Gill.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/59083/300x700/darzi-kaka-wrld.jpg',
+         name : 'Darzi',
+         artist : 'Kaka Wrld FT. Sukhi',
+         album : 'Kaka Wrld',
+         released : 'Jan-23-2026',
+         music : 'https://s320.djpunjab.is/data/320/59083/309914/Darzi%20-%20Kaka%20Wrld.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59073/300x700/cali-di-muteyar-jagroop.jpg',
+         name : 'Cali Di Muteyar',
+         artist : 'Jagroop',
+         album : 'Jagroop',
+         released : 'Jan-23-2026',
+         music : 'https://s320.djpunjab.is/data/320/59083/309914/Darzi%20-%20Kaka%20Wrld.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59069/300x700/dera-sheran-da-gulab-sidhu.jpg',
+         name : 'Dera Sheran Da',
+         artist : 'Gulab Sidhu',
+         album : 'Gulab Sidhu',
+         released : 'Jan-21-2026',
+         music : 'https://s320.djpunjab.is/data/320/59069/309882/Dera%20Sheran%20Da%20-%20Gulab%20Sidhu.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59064/300x700/door-annural-khalid.jpg',
+         name : 'Door Annural',
+         artist : 'Khalid Ft. Mickey Singh',
+         album : 'Khalid Ft. Mickey Singh',
+         released : 'Jan-21-2026',
+         music : 'https://s320.djpunjab.is/data/320/59064/309877/Door%20-%20Annural%20Khalid.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59051/300x700/5-7-karan-aujla.jpg',
          name : '5-7',
          artist : 'Karan Aujla',

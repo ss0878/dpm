@@ -2,6 +2,22 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/59077/300x300/star-and-lightning-ep-armaan-gill.jpg',
+         name : 'KAMAAL',
+         artist : 'Arnaaz Gill Ft. Arnaaz Gill',
+         album : 'STAR AND LIGHTNING EP',
+         released : 'Jan-23-2026',
+         music : 'https://p320.djpunjab.is/data/320/59077/309904/KAMAAL%20-%20Armaan%20Gill.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59077/300x300/star-and-lightning-ep-armaan-gill.jpg',
+         name : 'NAZAR',
+         artist : 'Arnaaz Gill Ft. Arnaaz Gill',
+         album : 'STAR AND LIGHTNING EP',
+         released : 'Jan-23-2026',
+         music : 'https://p320.djpunjab.is/data/320/59077/309902/NAZAR%20-%20Armaan%20Gill.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59051/300x700/5-7-karan-aujla.jpg',
          name : '5-7',
          artist : 'Karan Aujla',

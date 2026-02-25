@@ -31,7 +31,7 @@ const music_list = [
          artist : 'Jagroop',
          album : 'Jagroop',
          released : 'Jan-23-2026',
-         music : 'https://s320.djpunjab.is/data/320/59083/309914/Darzi%20-%20Kaka%20Wrld.mp3'
+         music : 'https://s320.djpunjab.is/data/320/59073/309889/Cali%20Di%20Muteyar%20-%20Jagroop.mp3'
            },
     {
          img : 'https://cover.djpunjab.is/59069/300x700/dera-sheran-da-gulab-sidhu.jpg',

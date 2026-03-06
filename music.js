@@ -2,6 +2,14 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/59109/300x700/for-you-the-prophec.jpg',
+         name : 'For You',
+         artist : 'The Prophec',
+         album : 'The Prophec',
+         released : 'March-6-2026',
+         music : 'https://s320.djpunjab.is/data/320/59109/309962/For%20You%20-%20The%20Prophec.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59077/300x300/star-and-lightning-ep-armaan-gill.jpg',
          name : 'KAMAAL',
          artist : 'Arnaaz Gill Ft. Arnaaz Gill',

@@ -14,7 +14,7 @@ const music_list = [
          name : 'KAMAAL',
          artist : 'Arnaaz Gill Ft. Arnaaz Gill',
          album : 'STAR AND LIGHTNING EP',
-         released : 'Jan-23-2026',
+         released : 'Feb-23-2026',
          music : 'https://p320.djpunjab.is/data/320/59077/309904/KAMAAL%20-%20Armaan%20Gill.mp3'
            },
     {
@@ -22,7 +22,7 @@ const music_list = [
          name : 'NAZAR',
          artist : 'Arnaaz Gill Ft. Arnaaz Gill',
          album : 'STAR AND LIGHTNING EP',
-         released : 'Jan-23-2026',
+         released : 'Feb-23-2026',
          music : 'https://p320.djpunjab.is/data/320/59077/309902/NAZAR%20-%20Armaan%20Gill.mp3'
            },
     {
@@ -30,7 +30,7 @@ const music_list = [
          name : 'Darzi',
          artist : 'Kaka Wrld FT. Sukhi',
          album : 'Kaka Wrld',
-         released : 'Jan-23-2026',
+         released : 'Feb-23-2026',
          music : 'https://s320.djpunjab.is/data/320/59083/309914/Darzi%20-%20Kaka%20Wrld.mp3'
            },
     {
@@ -38,7 +38,7 @@ const music_list = [
          name : 'Cali Di Muteyar',
          artist : 'Jagroop',
          album : 'Jagroop',
-         released : 'Jan-23-2026',
+         released : 'Feb-23-2026',
          music : 'https://s320.djpunjab.is/data/320/59073/309889/Cali%20Di%20Muteyar%20-%20Jagroop.mp3'
            },
     {
@@ -46,7 +46,7 @@ const music_list = [
          name : 'Dera Sheran Da',
          artist : 'Gulab Sidhu',
          album : 'Gulab Sidhu',
-         released : 'Jan-21-2026',
+         released : 'Feb-21-2026',
          music : 'https://s320.djpunjab.is/data/320/59069/309882/Dera%20Sheran%20Da%20-%20Gulab%20Sidhu.mp3'
            },
     {
@@ -54,7 +54,7 @@ const music_list = [
          name : 'Door Annural',
          artist : 'Khalid Ft. Mickey Singh',
          album : 'Khalid Ft. Mickey Singh',
-         released : 'Jan-21-2026',
+         released : 'Feb-21-2026',
          music : 'https://s320.djpunjab.is/data/320/59064/309877/Door%20-%20Annural%20Khalid.mp3'
            },
     {

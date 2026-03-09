@@ -2,6 +2,14 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/59121/300x700/hassa-ni-hassa-kahda-wazir-patar.jpg',
+         name : 'Hassa Ni Hassa Kahda',
+         artist : 'Wazir Patar',
+         album : 'Wazir Patar',
+         released : 'March-9-2026',
+         music : 'https://s320.djpunjab.is/data/320/59121/309981/Hassa%20Ni%20Hassa%20Kahda%20-%20Wazir%20Patar.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59109/300x700/for-you-the-prophec.jpg',
          name : 'For You',
          artist : 'The Prophec',

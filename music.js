@@ -2,6 +2,14 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/59149/300x700/dealer-diljit-dosanjh.jpg',
+         name : 'Dealer',
+         artist : 'Diljit Dosanjh',
+         album : 'Diljit Dosanjh',
+         released : 'March-11-2026',
+         music : 'https://s320.djpunjab.is/data/320/59149/310012/Dealer%20-%20Diljit%20Dosanjh.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59121/300x700/hassa-ni-hassa-kahda-wazir-patar.jpg',
          name : 'Hassa Ni Hassa Kahda',
          artist : 'Wazir Patar',

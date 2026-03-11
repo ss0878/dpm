@@ -10,6 +10,14 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/59149/310012/Dealer%20-%20Diljit%20Dosanjh.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/59145/300x700/jind-kalli-sharry-maan.jpg',
+         name : 'Jind Kalli',
+         artist : 'Sharry Maan',
+         album : 'Sharry Maan',
+         released : 'March-11-2026',
+         music : 'https://s320.djpunjab.is/data/320/59145/310008/Jind%20Kalli%20-%20Sharry%20Maan.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59121/300x700/hassa-ni-hassa-kahda-wazir-patar.jpg',
          name : 'Hassa Ni Hassa Kahda',
          artist : 'Wazir Patar',

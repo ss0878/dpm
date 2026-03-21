@@ -126,7 +126,7 @@ const music_list = [
          name : 'Heere',
          artist : 'Arnaaz Gill Ft. Arnaaz Gill',
          album : 'Arnaaz Gill Ft. Arnaaz Gill',
-         released : 'Jan-24-2026',
+         released : 'Feb-23-2026',
          music : 'https://djpunjab.app/download/mp3/ExJ-809EYYewRBbN1iZs7ga121aa121a/Heere.mp3'
            },
     {

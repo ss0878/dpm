@@ -2,6 +2,70 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/59215/300x700/triple-clearance-rav-hanjra.jpg',
+         name : 'Triple Clearance',
+         artist : 'Rav Hanjra',
+         album : 'Rav Hanjra',
+         released : 'March-21-2026',
+         music : 'https://s320.djpunjab.is/data/320/59215/310102/Triple%20Clearance%20-%20Rav%20Hanjra.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59213/300x700/back-to-roots-ep-sharry-maan.jpg',
+         name : 'Jatt Nazaare Lenda',
+         artist : 'Sharry Maan',
+         album : 'Sharry Maan',
+         released : 'March-20-2026',
+         music : 'https://p320.djpunjab.is/data/320/59213/310093/Jatt%20Nazaare%20Lenda%20-%20Sharry%20Maan.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59213/300x700/back-to-roots-ep-sharry-maan.jpg',
+         name : 'So Far',
+         artist : 'Sharry Maan',
+         album : 'Sharry Maan',
+         released : 'March-20-2026',
+         music : 'https://p320.djpunjab.is/data/320/59213/310095/So%20Far%20-%20Sharry%20Maan.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59213/300x700/back-to-roots-ep-sharry-maan.jpg',
+         name : 'Tracker',
+         artist : 'Sharry Maan',
+         album : 'Sharry Maan',
+         released : 'March-20-2026',
+         music : 'https://p320.djpunjab.is/data/320/59213/310096/Tracker%20-%20Sharry%20Maan.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59214/300x700/future-archives-ep-jassa-dhillon.jpg',
+         name : 'Poster Boy',
+         artist : 'Jassa Dhillon',
+         album : 'Jassa Dhillon',
+         released : 'March-20-2026',
+         music : 'https://p320.djpunjab.is/data/320/59214/310098/Poster%20Boy%20-%20Jassa%20Dhillon.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59214/300x700/future-archives-ep-jassa-dhillon.jpg',
+         name : 'Still In Love',
+         artist : 'Jassa Dhillon',
+         album : 'Jassa Dhillon',
+         released : 'March-20-2026',
+         music : 'https://p320.djpunjab.is/data/320/59214/310101/Still%20In%20Love%20-%20Jassa%20Dhillon.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59178/300x700/misunderstood-tegi-pannu.jpg',
+         name : 'Kajla',
+         artist : 'Tegi Pannu',
+         album : 'Tegi Pannu',
+         released : 'March-14-2026',
+         music : 'https://p320.djpunjab.is/data/320/59178/310057/Kajla%20-%20Tegi%20Pannu.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59178/300x700/misunderstood-tegi-pannu.jpg',
+         name : 'Misunderstood',
+         artist : 'Tegi Pannu',
+         album : 'Tegi Pannu',
+         released : 'March-14-2026',
+         music : 'https://p320.djpunjab.is/data/320/59178/310055/Misunderstood%20-%20Tegi%20Pannu.mp3'
+           },
+    {
          img : 'https://lq.djjohal.com/covers/736296/Ranjha.jpg',
          name : 'Ranjha',
          artist : 'Diljit Dosanjh',

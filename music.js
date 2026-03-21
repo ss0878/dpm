@@ -23,7 +23,7 @@ const music_list = [
          artist : 'Rav Hanjra',
          album : 'Rav Hanjra',
          released : 'March-21-2026',
-         music : 'https://s320.djpunjab.is/data/320/59215/310102/Triple%20Clearance%20-%20Rav%20Hanjra.mp3'
+         music : 'https://djpunjab.app/download/mp3/lcHBEzSf__Bvg_FeMv8i1Aa121aa121a/Triple%20Clearance.mp3'
            },
     {
          img : 'https://cover.djpunjab.is/59213/300x700/back-to-roots-ep-sharry-maan.jpg',

@@ -306,6 +306,14 @@ const music_list = [
          music : 'https://hd1.djjohal.com/320/525469/Fake%20Friends%20-%20Tarsem%20Jassar%20(DJJOhAL.Com).mp3'
            },
     {
+         img : 'https://djpunjab.app/download/image/ExJ-809EYYewRBbN1iZs7ga121aa121a/Heere.jpg',
+         name : 'Heere',
+         artist : 'Arnaaz Gill Ft. Arnaaz Gill',
+         album : 'Arnaaz Gill Ft. Arnaaz Gill',
+         released : 'Jan-24-2026',
+         music : 'https://djpunjab.app/download/mp3/ExJ-809EYYewRBbN1iZs7ga121aa121a/Heere.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/58924/300x700/suit-arnaaz-gill.jpg',
          name : 'SUIT',
          artist : 'Arnaaz Gill Ft. Arnaaz Gill',

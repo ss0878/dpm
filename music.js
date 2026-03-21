@@ -122,6 +122,14 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/59109/309962/For%20You%20-%20The%20Prophec.mp3'
            },
     {
+         img : 'https://djpunjab.app/download/image/ExJ-809EYYewRBbN1iZs7ga121aa121a/Heere.jpg',
+         name : 'Heere',
+         artist : 'Arnaaz Gill Ft. Arnaaz Gill',
+         album : 'Arnaaz Gill Ft. Arnaaz Gill',
+         released : 'Jan-24-2026',
+         music : 'https://djpunjab.app/download/mp3/ExJ-809EYYewRBbN1iZs7ga121aa121a/Heere.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59077/300x300/star-and-lightning-ep-armaan-gill.jpg',
          name : 'KAMAAL',
          artist : 'Arnaaz Gill Ft. Arnaaz Gill',
@@ -304,14 +312,6 @@ const music_list = [
          album : 'World Is Yours',
          released : 'Feb-4-2026',
          music : 'https://hd1.djjohal.com/320/525469/Fake%20Friends%20-%20Tarsem%20Jassar%20(DJJOhAL.Com).mp3'
-           },
-    {
-         img : 'https://djpunjab.app/download/image/ExJ-809EYYewRBbN1iZs7ga121aa121a/Heere.jpg',
-         name : 'Heere',
-         artist : 'Arnaaz Gill Ft. Arnaaz Gill',
-         album : 'Arnaaz Gill Ft. Arnaaz Gill',
-         released : 'Jan-24-2026',
-         music : 'https://djpunjab.app/download/mp3/ExJ-809EYYewRBbN1iZs7ga121aa121a/Heere.mp3'
            },
     {
          img : 'https://cover.djpunjab.is/58924/300x700/suit-arnaaz-gill.jpg',

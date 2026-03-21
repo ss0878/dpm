@@ -2,6 +2,22 @@ const music_list = [
     
    
   {
+         img : 'https://djpunjab.app/download/image/5DAwWBLRkrLpn-ErmwuhpQa121aa121a/Bullet%20Bones.jpg',
+         name : 'Bullet Bones',
+         artist : 'Azaad 4L Ft Santali',
+         album : 'Azaad 4L Ft Santali',
+         released : 'March-21-2026',
+         music : 'https://djpunjab.app/download/mp3/5DAwWBLRkrLpn-ErmwuhpQa121aa121a/Bullet%20Bones.mp3'
+           },
+    {
+         img : 'https://djpunjab.app/download/image/qMeV_CEDUa0S8qimp6vrsga121aa121a/Takhat.jpg',
+         name : 'Takhat',
+         artist : 'Azaad 4L Ft Santali',
+         album : 'Azaad 4L Ft Santali',
+         released : 'March-21-2026',
+         music : 'https://djpunjab.app/download/mp3/qMeV_CEDUa0S8qimp6vrsga121aa121a/Takhat.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59215/300x700/triple-clearance-rav-hanjra.jpg',
          name : 'Triple Clearance',
          artist : 'Rav Hanjra',

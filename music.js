@@ -10,7 +10,7 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/59234/310121/Fall%20-%20Tarsem%20Jassar.mp3'
            },
     {
-         img : 'https://cover.djpunjab.is/59234/300x700/fall-tarsem-jassar.jpg',
+         img : 'https://cover.djpunjab.is/59219/300x700/jinni-sohni-harvi.jpg',
          name : 'Jinni Sohni',
          artist : 'Harvi',
          album : 'Harvi',

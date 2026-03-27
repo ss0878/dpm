@@ -2,6 +2,22 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/59234/300x700/fall-tarsem-jassar.jpg',
+         name : 'Fall',
+         artist : 'Tarsem Jassar Ft. Nimrat Khaira',
+         album : 'Tarsem Jassar Ft. Nimrat Khaira',
+         released : 'March-26-2026',
+         music : 'https://s320.djpunjab.is/data/320/59234/310121/Fall%20-%20Tarsem%20Jassar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59234/300x700/fall-tarsem-jassar.jpg',
+         name : 'Jinni Sohni',
+         artist : 'Harvi',
+         album : 'Harvi',
+         released : 'March-24-2026',
+         music : 'https://s320.djpunjab.is/data/320/59219/310106/Jinni%20Sohni%20-%20Harvi.mp3'
+           },
+    {
          img : 'https://djpunjab.app/download/image/5DAwWBLRkrLpn-ErmwuhpQa121aa121a/Bullet%20Bones.jpg',
          name : 'Bullet Bones',
          artist : 'Azaad 4L Ft Santali',

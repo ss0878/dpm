@@ -10,6 +10,14 @@ const music_list = [
          music : 'https://p320.djpunjab.is/data/320/59330/310262/Ace%20-%20Shubh.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/59330/300x700/chapter-iv-ep-shubh.jpg',
+         name : 'Bounce',
+         artist : 'Shubh',
+         album : 'Shubh',
+         released : 'April-10-2026',
+         music : 'https://p320.djpunjab.is/data/320/59330/310263/Bounce%20-%20Shubh.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59251/300x700/rumour-has-it-ep-sukha.jpg',
          name : 'DOUBLE UP',
          artist : 'Sukha',

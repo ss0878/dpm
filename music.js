@@ -2,6 +2,38 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/59394/300x700/eyes-on-me-sidhu-moose-wala.jpg',
+         name : 'Eyes On Me',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala',
+         released : 'April-27-2026',
+         music : 'https://s320.djpunjab.is/data/320/59394/310372/Eyes%20On%20Me%20-%20Sidhu%20Moose%20Wala.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59357/300x700/the-call-of-panjab-diljit-dosanjh.jpg',
+         name : 'Jeona Morh',
+         artist : 'Diljit Dosanjh',
+         album : 'Diljit Dosanjh',
+         released : 'April-23-2026',
+         music : 'https://p320.djpunjab.is/data/320/59357/310307/Jeona%20Morh%20-%20Diljit%20Dosanjh.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59357/300x700/the-call-of-panjab-diljit-dosanjh.jpg',
+         name : 'Morni',
+         artist : 'Diljit Dosanjh',
+         album : 'Diljit Dosanjh',
+         released : 'April-23-2026',
+         music : 'https://p320.djpunjab.is/data/320/59357/310305/Morni%20-%20Diljit%20Dosanjh.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59351/300x700/rabab-kiran-sandhu.jpg',
+         name : 'Rabab',
+         artist : 'Kiran Sandhu Ft. Wazir Patar',
+         album : 'Kiran Sandhu',
+         released : 'April-22-2026',
+         music : 'https://s320.djpunjab.is/data/320/59351/310286/Rabab%20-%20Kiran%20Sandhu.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59330/300x700/chapter-iv-ep-shubh.jpg',
          name : 'Ace',
          artist : 'Shubh',

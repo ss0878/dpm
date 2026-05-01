@@ -2,6 +2,70 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/59426/300x700/yaadan-hi-yaadan-ekam-sudhar.jpg',
+         name : 'Yaadan Hi Yaadan',
+         artist : 'Ekam Sudhar',
+         album : 'Ekam Sudhar',
+         released : 'May-1-2026',
+         music : 'https://s320.djpunjab.is/data/320/59426/310419/Yaadan%20Hi%20Yaadan%20-%20Ekam%20Sudhar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59424/300x700/idc-param.jpg',
+         name : 'IDC',
+         artist : 'Param',
+         album : 'Param',
+         released : 'May-1-2026',
+         music : 'https://s320.djpunjab.is/data/320/59424/310417/IDC%20-%20Param.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59415/300x700/top-fella-karan-aujla.jpg',
+         name : 'Top Fella',
+         artist : 'Karan Aujla',
+         album : 'Karan Aujla',
+         released : 'April-30-2026',
+         music : 'https://s320.djpunjab.is/data/320/59415/310408/Top%20Fella%20-%20Karan%20Aujla.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59413/300x700/ak47-gippy-grewal.jpg',
+         name : 'AK47',
+         artist : 'Gippy Grewal',
+         album : 'Gippy Grewal',
+         released : 'April-30-2026',
+         music : 'https://s320.djpunjab.is/data/320/59413/310402/AK47%20-%20Gippy%20Grewal.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59412/300x700/silly-jerry.jpg',
+         name : 'Silly',
+         artist : 'Jerry',
+         album : 'Jerry',
+         released : 'April-30-2026',
+         music : 'https://s320.djpunjab.is/data/320/59412/310401/Silly%20-%20Jerry.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59411/300x700/bae-day-gill.jpg',
+         name : 'Bae Day',
+         artist : 'Gill',
+         album : 'Gill',
+         released : 'April-30-2026',
+         music : 'https://s320.djpunjab.is/data/320/59411/310400/Bae%20Day%20-%20Gill.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59409/300x700/ek-nishani-the-prophec.jpg',
+         name : 'Ek Nishani',
+         artist : 'The Prophec',
+         album : 'The Prophec',
+         released : 'April-30-2026',
+         music : 'https://s320.djpunjab.is/data/320/59409/310398/Ek%20Nishani%20-%20The%20Prophec.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59404/300x700/tere-naal-akhil.jpg',
+         name : 'Tere Naal',
+         artist : 'Akhil',
+         album : 'Akhil',
+         released : 'April-29-2026',
+         music : 'https://s320.djpunjab.is/data/320/59404/310393/Tere%20Naal%20-%20Akhil.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59394/300x700/eyes-on-me-sidhu-moose-wala.jpg',
          name : 'Eyes On Me',
          artist : 'Sidhu Moose Wala',

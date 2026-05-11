@@ -2,6 +2,46 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/59494/300x700/folkman-ep-wazir-patar.jpg',
+         name : 'Chache Taaye',
+         artist : 'Wazir Patar',
+         album : 'Wazir Patar',
+         released : 'May-11-2026',
+         music : 'https://p320.djpunjab.is/data/320/59494/310519/Chache%20Taaye%20-%20Jeona%20Sandhu.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59494/300x700/folkman-ep-wazir-patar.jpg',
+         name : 'KaliNation',
+         artist : 'Wazir Patar',
+         album : 'Wazir Patar',
+         released : 'May-11-2026',
+         music : 'https://p320.djpunjab.is/data/320/59494/310520/KaliNation%20-%20Jeona%20Sandhu.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59490/300x300/bindrakhiya-forever-2-ep-igmor.jpg',
+         name : 'Sat Rang Da',
+         artist : 'Bindrakhiya Ft. Igmor',
+         album : 'Bindrakhiya Ft. Igmor',
+         released : 'May-9-2026',
+         music : 'https://p320.djpunjab.is/data/320/59490/310513/Sat%20Rang%20Da%20-%20Igmor.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59490/300x300/bindrakhiya-forever-2-ep-igmor.jpg',
+         name : 'Dil Kadh Ke',
+         artist : 'Bindrakhiya Ft. Igmor',
+         album : 'Bindrakhiya Ft. Igmor',
+         released : 'May-9-2026',
+         music : 'https://p320.djpunjab.is/data/320/59490/310515/Dil%20Kadh%20Ke%20-%20Igmor.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59490/300x300/bindrakhiya-forever-2-ep-igmor.jpg',
+         name : 'Lak Tunu Tunu',
+         artist : 'Bindrakhiya Ft. Igmor',
+         album : 'Bindrakhiya Ft. Igmor',
+         released : 'May-9-2026',
+         music : 'https://p320.djpunjab.is/data/320/59490/310512/Lak%20Tunu%20Tunu%20-%20Igmor.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59426/300x700/yaadan-hi-yaadan-ekam-sudhar.jpg',
          name : 'Yaadan Hi Yaadan',
          artist : 'Ekam Sudhar',

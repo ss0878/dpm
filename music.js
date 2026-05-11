@@ -2,6 +2,38 @@ const music_list = [
     
    
   {
+         img : 'https://djpunjab.app/download/image/5uFPzWpU0t0KqI-kTIMOZAa121aa121a/Big%20On%20Big.jpg',
+         name : 'Big On Big',
+         artist : 'Azaad 4L Santali',
+         album : 'Azaad 4L Santali',
+         released : 'May-11-2026',
+         music : 'https://djpunjab.app/download/mp3/5uFPzWpU0t0KqI-kTIMOZAa121aa121a/Big%20On%20Big.mp3'
+           },
+    {
+         img : 'https://djpunjab.app/download/image/5uFPzWpU0t0KqI-kTIMOZAa121aa121a/Big%20On%20Big.jpg',
+         name : 'Badshah',
+         artist : 'Azaad 4L Santali',
+         album : 'Azaad 4L Santali',
+         released : 'May-11-2026',
+         music : 'https://djpunjab.app/download/mp3/mnrFxB7fUt-JDqDUK6K9Vga121aa121a/Badshah.mp3'
+           },
+    {
+         img : 'https://djpunjab.app/download/image/5uFPzWpU0t0KqI-kTIMOZAa121aa121a/Big%20On%20Big.jpg',
+         name : 'Stay Dead',
+         artist : 'Azaad 4L Santali',
+         album : 'Azaad 4L Santali',
+         released : 'May-11-2026',
+         music : 'https://djpunjab.app/download/mp3/YMpTlRJk2T8lgwJdvdT12ga121aa121a/Stay%20Dead.mp3'
+           },
+    {
+         img : 'https://djpunjab.app/download/image/5uFPzWpU0t0KqI-kTIMOZAa121aa121a/Big%20On%20Big.jpg',
+         name : 'Tales',
+         artist : 'Azaad 4L Santali',
+         album : 'Azaad 4L Santali',
+         released : 'May-11-2026',
+         music : 'https://djpunjab.app/download/mp3/svWFtR6pEKal4VQgNIKbEAa121aa121a/Tales.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59494/300x700/folkman-ep-wazir-patar.jpg',
          name : 'Chache Taaye',
          artist : 'Wazir Patar',

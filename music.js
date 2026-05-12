@@ -2,6 +2,14 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/59497/300x700/fire-ne-ft.-azaad-4l-watan-sahi.jpg',
+         name : 'Fire Ne',
+         artist : 'Watan Sahi Ft. Azaad 4L',
+         album : 'Watan Sahi Ft. Azaad 4L',
+         released : 'May-12-2026',
+         music : 'https://s320.djpunjab.is/data/320/59497/310525/Fire%20Ne%20Ft.%20Azaad%204L%20-%20Watan%20Sahi.mp3'
+           },
+    {
          img : 'https://djpunjab.app/download/image/5uFPzWpU0t0KqI-kTIMOZAa121aa121a/Big%20On%20Big.jpg',
          name : 'Big On Big',
          artist : 'Azaad 4L Santali',

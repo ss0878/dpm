@@ -1,7 +1,16 @@
 const music_list = [
     
    
-  {
+  
+    {
+         img : 'https://cover.djpunjab.is/59522/300x700/sos-manjinder-sohi.jpg',
+         name : 'SOS',
+         artist : 'Manjinder Sohi Ft. Veer Sandhu',
+         album : 'Manjinder Sohi Ft. Veer Sandhu',
+         released : 'May-15-2026',
+         music : 'https://s320.djpunjab.is/data/320/59522/310558/SOS%20-%20Manjinder%20Sohi.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59497/300x700/fire-ne-ft.-azaad-4l-watan-sahi.jpg',
          name : 'Fire Ne',
          artist : 'Watan Sahi Ft. Azaad 4L',

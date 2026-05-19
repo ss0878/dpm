@@ -3,6 +3,22 @@ const music_list = [
    
   
     {
+         img : 'https://cover.djpunjab.is/59546/300x700/risk-jazzy-b.jpg',
+         name : 'Risk',
+         artist : 'Jazzy B',
+         album : 'Jazzy B',
+         released : 'May-19-2026',
+         music : 'https://s320.djpunjab.is/data/320/59546/310588/Risk%20-%20Jazzy%20B.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59536/300x700/911-varinder-brar.jpg',
+         name : '911',
+         artist : 'Varinder Brar',
+         album : 'Varinder Brar',
+         released : 'May-19-2026',
+         music : 'https://s320.djpunjab.is/data/320/59536/310576/911%20-%20Varinder%20Brar.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59522/300x700/sos-manjinder-sohi.jpg',
          name : 'SOS',
          artist : 'Manjinder Sohi Ft. Veer Sandhu',

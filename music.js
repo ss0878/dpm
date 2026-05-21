@@ -3,6 +3,14 @@ const music_list = [
    
   
     {
+         img : 'https://cover.djpunjab.is/59565/300x700/lanka-otaal.jpg',
+         name : 'Lanka',
+         artist : 'OtaaL',
+         album : 'OtaaL',
+         released : 'May-21-2026',
+         music : 'https://s320.djpunjab.is/data/320/59565/310607/Lanka%20-%20OtaaL.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59546/300x700/risk-jazzy-b.jpg',
          name : 'Risk',
          artist : 'Jazzy B',

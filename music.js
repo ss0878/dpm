@@ -35,6 +35,22 @@ const music_list = [
          music : 'https://p320.djpunjab.is/data/320/59568/310621/No%20Shortcut%20-%20Arjan%20Dhillon.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/59567/300x700/bermuda-triangle-cheema-y.jpg',
+         name : 'CEO',
+         artist : 'Cheema Y',
+         album : 'Cheema Y',
+         released : 'May-21-2026',
+         music : 'https://p320.djpunjab.is/data/320/59567/310616/CEO%20-%20Cheema%20Y.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59567/300x700/bermuda-triangle-cheema-y.jpg',
+         name : 'Cartel',
+         artist : 'Cheema Y',
+         album : 'Cheema Y',
+         released : 'May-21-2026',
+         music : 'https://p320.djpunjab.is/data/320/59567/310613/Cartel%20-%20Cheema%20Y.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59565/300x700/lanka-otaal.jpg',
          name : 'Lanka',
          artist : 'OtaaL',

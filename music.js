@@ -3,6 +3,38 @@ const music_list = [
    
   
     {
+         img : 'https://cover.djpunjab.is/59568/300x700/enigma-arjan-dhillon.jpg',
+         name : 'Enigma',
+         artist : 'Arjan Dhillon',
+         album : 'Arjan Dhillon',
+         released : 'May-21-2026',
+         music : 'https://p320.djpunjab.is/data/320/59568/310622/Enigma%20-%20Arjan%20Dhillon.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59568/300x700/enigma-arjan-dhillon.jpg',
+         name : 'One Call Away',
+         artist : 'Arjan Dhillon Ft. Jazzy B',
+         album : 'Arjan Dhillon Ft. Jazzy B',
+         released : 'May-21-2026',
+         music : 'https://p320.djpunjab.is/data/320/59568/310626/One%20Call%20Away%20-%20Arjan%20Dhillon.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59568/300x700/enigma-arjan-dhillon.jpg',
+         name : 'Culture',
+         artist : 'Arjan Dhillon',
+         album : 'Arjan Dhillon',
+         released : 'May-21-2026',
+         music : 'https://p320.djpunjab.is/data/320/59568/310627/Culture%20-%20Arjan%20Dhillon.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59568/300x700/enigma-arjan-dhillon.jpg',
+         name : 'No Shortcut',
+         artist : 'Arjan Dhillon',
+         album : 'Arjan Dhillon',
+         released : 'May-21-2026',
+         music : 'https://p320.djpunjab.is/data/320/59568/310621/No%20Shortcut%20-%20Arjan%20Dhillon.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59565/300x700/lanka-otaal.jpg',
          name : 'Lanka',
          artist : 'OtaaL',

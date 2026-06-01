@@ -3,6 +3,22 @@ const music_list = [
    
   
     {
+         img : 'https://cover.djpunjab.is/59629/300x700/naa-pushde-saivi-fareed.jpg',
+         name : 'Naa Pushde',
+         artist : 'Saivi Fareed',
+         album : 'Saivi Fareed',
+         released : 'June-1-2026',
+         music : 'https://s320.djpunjab.is/data/320/59629/310713/Naa%20Pushde%20-%20Saivi%20Fareed.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59621/300x700/above-all-zorawar.jpg',
+         name : 'Above All',
+         artist : 'Zorawar',
+         album : 'Zorawar',
+         released : 'May-29-2026',
+         music : 'https://s320.djpunjab.is/data/320/59621/310705/Above%20All%20-%20Zorawar.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59586/300x700/maktoob-nirvair-pannu.jpg',
          name : 'Excitement',
          artist : 'Nirvair Pannu',

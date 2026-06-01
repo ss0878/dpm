@@ -3,6 +3,14 @@ const music_list = [
    
   
     {
+         img : 'https://cover.djpunjab.is/59586/300x700/maktoob-nirvair-pannu.jpg',
+         name : 'Excitement',
+         artist : 'Nirvair Pannu',
+         album : 'Nirvair Pannu',
+         released : 'May-25-2026',
+         music : 'https://p320.djpunjab.is/data/320/59586/310663/Excitement%20-%20Nirvair%20Pannu.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59585/300x700/maan-made-ep-amrit-maan.jpg',
          name : 'BLACK BULL',
          artist : 'Amrit Maan',

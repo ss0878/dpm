@@ -195,6 +195,14 @@ const music_list = [
          music : 'https://p320.djpunjab.is/data/320/59490/310512/Lak%20Tunu%20Tunu%20-%20Igmor.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/59418/300x700/sadi-sun-harsh-nussi.jpg',
+         name : 'Sadi Sun',
+         artist : 'HARSH NUSSI',
+         album : 'HARSH NUSSI',
+         released : 'May-1-2026',
+         music : 'https://s320.djpunjab.is/data/320/59418/310411/Sadi%20Sun%20-%20HARSH%20NUSSI.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59426/300x700/yaadan-hi-yaadan-ekam-sudhar.jpg',
          name : 'Yaadan Hi Yaadan',
          artist : 'Ekam Sudhar',

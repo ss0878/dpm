@@ -2,6 +2,22 @@ const music_list = [
     
    
   
+   {
+         img : 'https://cover.djpunjab.is/59631/300x700/c-walk-karan-aujla.jpg',
+         name : 'C Walk',
+         artist : 'Karan Aujla',
+         album : 'Karan Aujla',
+         released : 'June-8-2026',
+         music : 'https://s320.djpunjab.is/data/320/59631/310715/C%20Walk%20-%20Karan%20Aujla.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59632/300x700/dastaar-anthem-jordan-sandhu.jpg',
+         name : 'Dastaar Anthem',
+         artist : 'Jordan Sandhu',
+         album : 'Jordan Sandhu',
+         released : 'June-8-2026',
+         music : 'https://s320.djpunjab.is/data/320/59632/310716/Dastaar%20Anthem%20-%20Jordan%20Sandhu.mp3'
+           },
     {
          img : 'https://cover.djpunjab.is/59629/300x700/naa-pushde-saivi-fareed.jpg',
          name : 'Naa Pushde',

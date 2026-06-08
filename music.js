@@ -51,6 +51,14 @@ const music_list = [
          music : 'https://p320.djpunjab.is/data/320/59585/310652/BLACK%20BULL%20-%20Amrit%20Maan.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/59585/300x700/maan-made-ep-amrit-maan.jpg',
+         name : 'SUPER BUSY',
+         artist : 'Amrit Maan',
+         album : 'Amrit Maan',
+         released : 'May-25-2026',
+         music : 'https://p320.djpunjab.is/data/320/59585/310651/SUPER%20BUSY%20-%20Amrit%20Maan.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59568/300x700/enigma-arjan-dhillon.jpg',
          name : 'Enigma',
          artist : 'Arjan Dhillon',

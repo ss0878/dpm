@@ -3,6 +3,14 @@ const music_list = [
    
   
    {
+         img : 'https://cover.djpunjab.is/59640/300x700/one-side-flow-nagii.jpg',
+         name : 'One Side Flow',
+         artist : 'Nagii',
+         album : 'Nagii',
+         released : 'June-9-2026',
+         music : 'https://s320.djpunjab.is/data/320/59640/310729/One%20Side%20Flow%20-%20Nagii.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59631/300x700/c-walk-karan-aujla.jpg',
          name : 'C Walk',
          artist : 'Karan Aujla',

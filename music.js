@@ -3,6 +3,14 @@ const music_list = [
    
   
    {
+         img : 'https://cover.djpunjab.is/59670/300x700/breathless-arnaaz-gill.jpg',
+         name : 'BREATHLESS',
+         artist : 'Arnaaz Gill',
+         album : 'Arnaaz Gill',
+         released : 'June-12-2026',
+         music : 'https://s320.djpunjab.is/data/320/59670/310773/BREATHLESS%20-%20Arnaaz%20Gill.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59640/300x700/one-side-flow-nagii.jpg',
          name : 'One Side Flow',
          artist : 'Nagii',

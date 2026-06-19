@@ -3,6 +3,22 @@ const music_list = [
    
   
    {
+         img : 'https://cover.djpunjab.is/59719/300x700/2-ghode-ninja.jpg',
+         name : '2 Ghode',
+         artist : 'Ninja',
+         album : 'Ninja',
+         released : 'June-19-2026',
+         music : 'https://s320.djpunjab.is/data/320/59719/310874/2%20Ghode%20-%20Ninja.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59725/300x700/majhaestic-prem-dhillon.jpg',
+         name : 'DEALER',
+         artist : 'Prem Dhillon',
+         album : 'Prem Dhillon',
+         released : 'June-19-2026',
+         music : 'https://p320.djpunjab.is/data/320/59725/310887/DEALER%20-%20Prem%20Dhillon.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59670/300x700/breathless-arnaaz-gill.jpg',
          name : 'BREATHLESS',
          artist : 'Arnaaz Gill',

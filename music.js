@@ -27,14 +27,6 @@ const music_list = [
          music : 'https://p320.djpunjab.is/data/320/59725/310881/London%20-%20Prem%20Dhillon.mp3'
            },
     {
-         img : 'https://cover.djpunjab.is/59725/300x700/majhaestic-prem-dhillon.jpg',
-         name : 'DEALER',
-         artist : 'Prem Dhillon',
-         album : 'Prem Dhillon',
-         released : 'June-19-2026',
-         music : 'https://p320.djpunjab.is/data/320/59725/310887/DEALER%20-%20Prem%20Dhillon.mp3'
-           },
-    {
          img : 'https://cover.djpunjab.is/59670/300x700/breathless-arnaaz-gill.jpg',
          name : 'BREATHLESS',
          artist : 'Arnaaz Gill',

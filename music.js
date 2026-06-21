@@ -3,6 +3,14 @@ const music_list = [
    
   
    {
+         img : 'https://cover.djpunjab.is/59737/300x700/low-fade-karan-aujla.jpg',
+         name : 'Low Fade',
+         artist : 'Karan Aujla',
+         album : 'Karan Aujla',
+         released : 'June-21-2026',
+         music : 'https://s320.djpunjab.is/data/320/59737/310921/Low%20Fade%20-%20Karan%20Aujla.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59719/300x700/2-ghode-ninja.jpg',
          name : '2 Ghode',
          artist : 'Ninja',
@@ -41,14 +49,6 @@ const music_list = [
          album : 'Nagii',
          released : 'June-9-2026',
          music : 'https://s320.djpunjab.is/data/320/59640/310729/One%20Side%20Flow%20-%20Nagii.mp3'
-           },
-    {
-         img : 'https://cover.djpunjab.is/59631/300x700/c-walk-karan-aujla.jpg',
-         name : 'C Walk',
-         artist : 'Karan Aujla',
-         album : 'Karan Aujla',
-         released : 'June-8-2026',
-         music : 'https://s320.djpunjab.is/data/320/59631/310715/C%20Walk%20-%20Karan%20Aujla.mp3'
            },
     {
          img : 'https://cover.djpunjab.is/59632/300x700/dastaar-anthem-jordan-sandhu.jpg',

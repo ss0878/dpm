@@ -3,6 +3,14 @@ const music_list = [
    
   
    {
+         img : 'https://cover.djpunjab.is/59744/300x700/40-bande-veer-sandhu.jpg',
+         name : '40 Bande',
+         artist : 'Veer Sandhu',
+         album : 'Veer Sandhu',
+         released : 'June-23-2026',
+         music : 'https://s320.djpunjab.is/data/320/59744/310928/40%20Bande%20-%20Veer%20Sandhu.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59737/300x700/low-fade-karan-aujla.jpg',
          name : 'Low Fade',
          artist : 'Karan Aujla',

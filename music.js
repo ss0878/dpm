@@ -3,6 +3,14 @@ const music_list = [
    
   
    {
+         img : 'https://cover.djpunjab.is/59759/300x700/coffee-amrinder-gill.jpg',
+         name : 'Coffee',
+         artist : 'Amrinder Gill',
+         album : 'Amrinder Gill',
+         released : 'June-26-2026',
+         music : 'https://s320.djpunjab.is/data/320/59759/310950/Coffee%20-%20Amrinder%20Gill.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59744/300x700/40-bande-veer-sandhu.jpg',
          name : '40 Bande',
          artist : 'Veer Sandhu',

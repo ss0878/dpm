@@ -11,6 +11,14 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/59759/310950/Coffee%20-%20Amrinder%20Gill.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/59763/300x700/cant-stop-now-gurinder-gill.jpg',
+         name : 'Heavyweight',
+         artist : 'Gurinder Gill Ft. Jazzy B',
+         album : 'Gurinder Gill Ft. Jazzy B',
+         released : 'June-26-2026',
+         music : 'https://p320.djpunjab.is/data/320/59763/310967/Heavyweight%20-%20Gurinder%20Gill.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59744/300x700/40-bande-veer-sandhu.jpg',
          name : '40 Bande',
          artist : 'Veer Sandhu',

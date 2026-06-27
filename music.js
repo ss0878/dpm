@@ -19,6 +19,14 @@ const music_list = [
          music : 'https://p320.djpunjab.is/data/320/59763/310967/Heavyweight%20-%20Gurinder%20Gill.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/59761/300x700/mechanic-varinder-brar.jpg',
+         name : 'Ak 47',
+         artist : 'Varinder Brar',
+         album : 'Varinder Brar',
+         released : 'June-26-2026',
+         music : 'https://p320.djpunjab.is/data/320/59761/310953/Ak%2047%20-%20Varinder%20Brar.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59744/300x700/40-bande-veer-sandhu.jpg',
          name : '40 Bande',
          artist : 'Veer Sandhu',

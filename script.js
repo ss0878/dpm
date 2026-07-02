@@ -551,15 +551,7 @@ function loadTrack(track_index){
 
     // Preload album art and set background only after image is decoded
     const imgUrl = music_list[track_index].img;
-    if (trackArtPreloadLink) {
-        try { document.head.removeChild(trackArtPreloadLink); } catch (e) {}
-    }
-    trackArtPreloadLink = document.createElement('link');
-    trackArtPreloadLink.rel = 'preload';
-    trackArtPreloadLink.as = 'image';
-    trackArtPreloadLink.href = imgUrl;
-    trackArtPreloadLink.setAttribute('fetchpriority', 'high');
-    document.head.appendChild(trackArtPreloadLink);
+    // No need to dynamically create a preload link here as we're preloading the first track in index.html
 
     const img = new Image();
     img.decoding = 'async';
@@ -726,39 +718,37 @@ function playPreviewTrack(index) {
 function random_bg_color(){
     // Use the track art element directly instead of creating a new image
     // This avoids CORS issues since the image is already loaded in the DOM
-    setTimeout(() => {
-        try {
-            // First, add a class to trigger the transition animation
-            document.body.classList.add('bg-transitioning');
-            
-            // Create a small canvas for color extraction
-            const canvas = document.createElement('canvas');
-            const ctx = canvas.getContext('2d');
-            
-            // Get computed style of track art to extract the background image URL
-            const trackArtStyle = getComputedStyle(track_art);
-            const backgroundImage = trackArtStyle.backgroundImage;
-            
-            // If we can't get the background image, use the direct URL from music_list
-            if (!backgroundImage || backgroundImage === 'none') {
-                extractColorsFromURL(music_list[track_index].img);
-                return;
-            }
-            
-            // Extract the URL from the backgroundImage CSS property
-            // Format is typically: url("http://example.com/image.jpg")
-            const urlMatch = backgroundImage.match(/url\(["']?([^"')]+)["']?\)/);
-            if (urlMatch && urlMatch[1]) {
-                extractColorsFromURL(urlMatch[1]);
-            } else {
-                // Fallback to the URL from music_list
-                extractColorsFromURL(music_list[track_index].img);
-            }
-        } catch (e) {
-            console.error('Error in color extraction:', e);
-            fallbackRandomColor();
+    try {
+        // First, add a class to trigger the transition animation
+        document.body.classList.add('bg-transitioning');
+        
+        // Create a small canvas for color extraction
+        const canvas = document.createElement('canvas');
+        const ctx = canvas.getContext('2d');
+        
+        // Get computed style of track art to extract the background image URL
+        const trackArtStyle = getComputedStyle(track_art);
+        const backgroundImage = trackArtStyle.backgroundImage;
+        
+        // If we can't get the background image, use the direct URL from music_list
+        if (!backgroundImage || backgroundImage === 'none') {
+            extractColorsFromURL(music_list[track_index].img);
+            return;
         }
-    }, 300); // Small delay to ensure track art is loaded
+        
+        // Extract the URL from the backgroundImage CSS property
+        // Format is typically: url("http://example.com/image.jpg")
+        const urlMatch = backgroundImage.match(/url\(["']?([^"')]+)["']?\)/);
+        if (urlMatch && urlMatch[1]) {
+            extractColorsFromURL(urlMatch[1]);
+        } else {
+            // Fallback to the URL from music_list
+            extractColorsFromURL(music_list[track_index].img);
+        }
+    } catch (e) {
+        console.error('Error in color extraction:', e);
+        fallbackRandomColor();
+    }
 }
 function reset(){
     curr_time.textContent = "00:00";
@@ -1627,48 +1617,58 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load saved theme
     loadSavedTheme();
     
-    // Initialize the playlist
-    initPlaylist();
-    
-    // Populate artist filter dropdown
-    populateArtistFilter();
-    
-    // Add event listener for search input to search as you type
-    const searchInput = document.getElementById('playlist-search-input');
-    if (searchInput) {
-        searchInput.addEventListener('input', function() {
-            const searchQuery = this.value.trim();
-            initPlaylist(searchQuery, currentArtistFilter);
-        });
-        
-        // Add event listener for Enter key in search input
-        searchInput.addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') {
-                searchPlaylist();
-            }
-        });
+    // Ensure the background GIF layer exists for transform-based animations
+    backgroundLayerEl = ensureBackgroundLayer();
+    // Honor reduced motion preference with low-power mode
+    if (prefersReducedMotion) {
+        document.body.classList.add('low-power');
     }
-    
-    // Add event listener for artist filter
-    const artistSelect = document.getElementById('artist-filter-select');
-    if (artistSelect) {
-        artistSelect.addEventListener('change', filterByArtist);
-    }
-    
-    // Initialize scroll-to-top functionality
-    initializeScrollToTop();
 
-    // Clicking main page artist opens playlist filtered by that artist
-    if (track_artist) {
-        track_artist.style.cursor = 'pointer';
-        track_artist.title = 'View all songs by this artist';
-        track_artist.addEventListener('click', function(e) {
-            e.preventDefault();
-            const artistText = track_artist.textContent ? track_artist.textContent.trim() : '';
-            if (!artistText) return;
-            openPlaylistForArtist(artistText);
-        });
-    }
+    // Defer non-critical tasks to improve initial load performance
+    setTimeout(() => {
+        // Initialize the playlist
+        initPlaylist();
+        
+        // Populate artist filter dropdown
+        populateArtistFilter();
+        
+        // Add event listener for search input to search as you type
+        const searchInput = document.getElementById('playlist-search-input');
+        if (searchInput) {
+            searchInput.addEventListener('input', function() {
+                const searchQuery = this.value.trim();
+                initPlaylist(searchQuery, currentArtistFilter);
+            });
+            
+            // Add event listener for Enter key in search input
+            searchInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    searchPlaylist();
+                }
+            });
+        }
+        
+        // Add event listener for artist filter
+        const artistSelect = document.getElementById('artist-filter-select');
+        if (artistSelect) {
+            artistSelect.addEventListener('change', filterByArtist);
+        }
+        
+        // Initialize scroll-to-top functionality
+        initializeScrollToTop();
+
+        // Clicking main page artist opens playlist filtered by that artist
+        if (track_artist) {
+            track_artist.style.cursor = 'pointer';
+            track_artist.title = 'View all songs by this artist';
+            track_artist.addEventListener('click', function(e) {
+                e.preventDefault();
+                const artistText = track_artist.textContent ? track_artist.textContent.trim() : '';
+                if (!artistText) return;
+                openPlaylistForArtist(artistText);
+            });
+        }
+    }, 0); // Defer execution
 });
 
 // Scroll to Top Functionality

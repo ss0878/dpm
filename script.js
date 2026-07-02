@@ -235,10 +235,6 @@ document.addEventListener('DOMContentLoaded', function() {
     if (prefersReducedMotion) {
         document.body.classList.add('low-power');
     }
-    // Default to low-power mode on iOS to reduce CPU/GPU overhead
-    if (isIOS) {
-        document.body.classList.add('low-power');
-    }
 });
 
 
@@ -780,7 +776,7 @@ let extractedColors = {
 
 function extractColorsFromURL(url) {
     // On iOS or in low-power/reduced-motion, skip heavy canvas work
-    if (isIOS || document.body.classList.contains('low-power') || prefersReducedMotion) {
+    if (document.body.classList.contains('low-power') || prefersReducedMotion) {
         fallbackRandomColor();
         return;
     }
@@ -889,7 +885,7 @@ function fallbackRandomColor() {
     // Remove the transition class after animation completes with longer duration
     setTimeout(() => {
         document.body.classList.remove('bg-transitioning');
-    }, 2000);
+    }, 1500);
 }
 
 // Color animation variables

@@ -235,6 +235,10 @@ document.addEventListener('DOMContentLoaded', function() {
     if (prefersReducedMotion) {
         document.body.classList.add('low-power');
     }
+    // Default to low-power mode on iOS to reduce CPU/GPU overhead
+    if (isIOS) {
+        document.body.classList.add('low-power');
+    }
 });
 
 
@@ -519,16 +523,6 @@ function loadTrack(track_index){
         try { curr_track.removeEventListener('timeupdate', timeUpdateHandler); } catch {}
         timeUpdateHandler = null;
     }
-
-    // Store current volume and playback state before replacing the audio element
-    const oldVolume = curr_track.volume;
-    const wasPlayingBefore = isPlaying;
-
-    // Create a new Audio object to ensure a clean state and proper resource management
-    // This helps mitigate issues with iOS's aggressive memory management and stale audio contexts
-    curr_track = new Audio();
-    curr_track.volume = oldVolume; // Restore volume
-
     reset();
     
     // Add loading animation class
@@ -542,16 +536,18 @@ function loadTrack(track_index){
     const trackUrl = getQualityUrl(music_list[track_index].music, currentBandwidth);
     curr_track.src = trackUrl;
     curr_track.load();
-    
-    // If it was playing before, ensure it attempts to play again after loading
-    if (wasPlayingBefore) {
-        isPlaying = true; // Set playing state to true so playTrack attempts to play
-    }
-    
 
     // Preload album art and set background only after image is decoded
     const imgUrl = music_list[track_index].img;
-    // No need to dynamically create a preload link here as we're preloading the first track in index.html
+    if (trackArtPreloadLink) {
+        try { document.head.removeChild(trackArtPreloadLink); } catch (e) {}
+    }
+    trackArtPreloadLink = document.createElement('link');
+    trackArtPreloadLink.rel = 'preload';
+    trackArtPreloadLink.as = 'image';
+    trackArtPreloadLink.href = imgUrl;
+    trackArtPreloadLink.setAttribute('fetchpriority', 'high');
+    document.head.appendChild(trackArtPreloadLink);
 
     const img = new Image();
     img.decoding = 'async';
@@ -580,13 +576,7 @@ function loadTrack(track_index){
     // Update media session position once metadata is available
     curr_track.addEventListener('loadedmetadata', function() {
         updatePositionState();
-        // Only attempt to play if it was playing before
-        if (wasPlayingBefore) {
-            playTrack();
-        } else {
-            // If not playing, ensure UI reflects paused state
-            updatePlaybackState('paused');
-        }
+        updatePlaybackState('paused');
         // Cache duration for previews to avoid extra decoders
         try { trackDurations[track_index] = curr_track.duration; } catch {}
     });
@@ -608,7 +598,6 @@ function loadTrack(track_index){
         }, 500); // Short delay for visual effect
     });
     
-    // Always call notification once the track is loaded and potentially playing
     notification();
 }
 
@@ -712,43 +701,46 @@ function playPreviewTrack(index) {
     if (index >= 0 && index < music_list.length) {
         track_index = index;
         loadTrack(track_index);
+        playTrack();
     }
 }
 
 function random_bg_color(){
     // Use the track art element directly instead of creating a new image
     // This avoids CORS issues since the image is already loaded in the DOM
-    try {
-        // First, add a class to trigger the transition animation
-        document.body.classList.add('bg-transitioning');
-        
-        // Create a small canvas for color extraction
-        const canvas = document.createElement('canvas');
-        const ctx = canvas.getContext('2d');
-        
-        // Get computed style of track art to extract the background image URL
-        const trackArtStyle = getComputedStyle(track_art);
-        const backgroundImage = trackArtStyle.backgroundImage;
-        
-        // If we can't get the background image, use the direct URL from music_list
-        if (!backgroundImage || backgroundImage === 'none') {
-            extractColorsFromURL(music_list[track_index].img);
-            return;
+    setTimeout(() => {
+        try {
+            // First, add a class to trigger the transition animation
+            document.body.classList.add('bg-transitioning');
+            
+            // Create a small canvas for color extraction
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            
+            // Get computed style of track art to extract the background image URL
+            const trackArtStyle = getComputedStyle(track_art);
+            const backgroundImage = trackArtStyle.backgroundImage;
+            
+            // If we can't get the background image, use the direct URL from music_list
+            if (!backgroundImage || backgroundImage === 'none') {
+                extractColorsFromURL(music_list[track_index].img);
+                return;
+            }
+            
+            // Extract the URL from the backgroundImage CSS property
+            // Format is typically: url("http://example.com/image.jpg")
+            const urlMatch = backgroundImage.match(/url\(["']?([^"')]+)["']?\)/);
+            if (urlMatch && urlMatch[1]) {
+                extractColorsFromURL(urlMatch[1]);
+            } else {
+                // Fallback to the URL from music_list
+                extractColorsFromURL(music_list[track_index].img);
+            }
+        } catch (e) {
+            console.error('Error in color extraction:', e);
+            fallbackRandomColor();
         }
-        
-        // Extract the URL from the backgroundImage CSS property
-        // Format is typically: url("http://example.com/image.jpg")
-        const urlMatch = backgroundImage.match(/url\(["']?([^"')]+)["']?\)/);
-        if (urlMatch && urlMatch[1]) {
-            extractColorsFromURL(urlMatch[1]);
-        } else {
-            // Fallback to the URL from music_list
-            extractColorsFromURL(music_list[track_index].img);
-        }
-    } catch (e) {
-        console.error('Error in color extraction:', e);
-        fallbackRandomColor();
-    }
+    }, 300); // Small delay to ensure track art is loaded
 }
 function reset(){
     curr_time.textContent = "00:00";
@@ -766,7 +758,7 @@ let extractedColors = {
 
 function extractColorsFromURL(url) {
     // On iOS or in low-power/reduced-motion, skip heavy canvas work
-    if (document.body.classList.contains('low-power') || prefersReducedMotion) {
+    if (isIOS || document.body.classList.contains('low-power') || prefersReducedMotion) {
         fallbackRandomColor();
         return;
     }
@@ -875,7 +867,7 @@ function fallbackRandomColor() {
     // Remove the transition class after animation completes with longer duration
     setTimeout(() => {
         document.body.classList.remove('bg-transitioning');
-    }, 1500);
+    }, 2000);
 }
 
 // Color animation variables
@@ -995,7 +987,7 @@ function playTrack(){
             updatePositionState();
             requestWakeLock();
         }).catch((err) => {
-            console.error('Playback start failed. Track Index:', track_index, 'Error:', err);
+            console.warn('Playback start failed, retrying once:', err);
             // Retry once after a short delay (common iOS quirk when transitioning tracks)
             setTimeout(() => {
                 curr_track.play().then(() => {
@@ -1009,13 +1001,9 @@ function playTrack(){
                     updatePlaybackState('playing');
                     updatePositionState();
                     requestWakeLock();
-                    console.log('Playback retry successful for track:', music_list[track_index].name);
                 }).catch((e) => {
-                    console.error('Playback retry failed. Track Index:', track_index, 'Error:', e);
+                    console.error('Retry playback failed:', e);
                     updatePlaybackState('paused');
-                    isPlaying = false; // Ensure isPlaying is false if retry fails
-                    track_art.classList.remove('rotate'); // Stop rotation if playback fails
-                    playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-5x"></i>'; // Show play button
                 });
             }, 300);
         });
@@ -1059,7 +1047,8 @@ function nextTrack(){
         if (nextArtistTrackIndex !== null) {
             track_index = nextArtistTrackIndex;
             loadTrack(track_index);
-            // Playback will be handled by loadTrack if it was playing before
+            playTrack();
+            notification();
             return;
         }
     }
@@ -1077,15 +1066,13 @@ function nextTrack(){
         // Normal sequential mode
         if(track_index < music_list.length - 1){
             track_index += 1;
-        } else if (isRepeat === 1) { // Repeat all from start
+        } else {
             track_index = 0;
-        } else { // End of playlist and no repeat, stop playback
-            pauseTrack();
-            return; // Exit function, do not load new track
         }
     }
     loadTrack(track_index);
-    // Playback will be handled by loadTrack if it was playing before
+    playTrack();
+    notification();
 }
 function prevTrack(){
     // Trigger haptic feedback for track skip
@@ -1121,7 +1108,8 @@ function prevTrack(){
         }
     }
     loadTrack(track_index);
-    // Playback will be handled by loadTrack if it was playing before
+    playTrack();
+    notification();
 }
 
 function seekTo(){
@@ -1617,58 +1605,48 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load saved theme
     loadSavedTheme();
     
-    // Ensure the background GIF layer exists for transform-based animations
-    backgroundLayerEl = ensureBackgroundLayer();
-    // Honor reduced motion preference with low-power mode
-    if (prefersReducedMotion) {
-        document.body.classList.add('low-power');
+    // Initialize the playlist
+    initPlaylist();
+    
+    // Populate artist filter dropdown
+    populateArtistFilter();
+    
+    // Add event listener for search input to search as you type
+    const searchInput = document.getElementById('playlist-search-input');
+    if (searchInput) {
+        searchInput.addEventListener('input', function() {
+            const searchQuery = this.value.trim();
+            initPlaylist(searchQuery, currentArtistFilter);
+        });
+        
+        // Add event listener for Enter key in search input
+        searchInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                searchPlaylist();
+            }
+        });
     }
+    
+    // Add event listener for artist filter
+    const artistSelect = document.getElementById('artist-filter-select');
+    if (artistSelect) {
+        artistSelect.addEventListener('change', filterByArtist);
+    }
+    
+    // Initialize scroll-to-top functionality
+    initializeScrollToTop();
 
-    // Defer non-critical tasks to improve initial load performance
-    setTimeout(() => {
-        // Initialize the playlist
-        initPlaylist();
-        
-        // Populate artist filter dropdown
-        populateArtistFilter();
-        
-        // Add event listener for search input to search as you type
-        const searchInput = document.getElementById('playlist-search-input');
-        if (searchInput) {
-            searchInput.addEventListener('input', function() {
-                const searchQuery = this.value.trim();
-                initPlaylist(searchQuery, currentArtistFilter);
-            });
-            
-            // Add event listener for Enter key in search input
-            searchInput.addEventListener('keypress', function(e) {
-                if (e.key === 'Enter') {
-                    searchPlaylist();
-                }
-            });
-        }
-        
-        // Add event listener for artist filter
-        const artistSelect = document.getElementById('artist-filter-select');
-        if (artistSelect) {
-            artistSelect.addEventListener('change', filterByArtist);
-        }
-        
-        // Initialize scroll-to-top functionality
-        initializeScrollToTop();
-
-        // Clicking main page artist opens playlist filtered by that artist
-        if (track_artist) {
-            track_artist.style.cursor = 'pointer';
-            track_artist.title = 'View all songs by this artist';
-            track_artist.addEventListener('click', function(e) {
-                e.preventDefault();
-                const artistText = track_artist.textContent ? track_artist.textContent.trim() : '';
-                if (!artistText) return;
-                openPlaylistForArtist(artistText);
-            });
-        }
-    }, 0); // Defer execution
+    // Clicking main page artist opens playlist filtered by that artist
+    if (track_artist) {
+        track_artist.style.cursor = 'pointer';
+        track_artist.title = 'View all songs by this artist';
+        track_artist.addEventListener('click', function(e) {
+            e.preventDefault();
+            const artistText = track_artist.textContent ? track_artist.textContent.trim() : '';
+            if (!artistText) return;
+            openPlaylistForArtist(artistText);
+        });
+    }
 });
 
 // Scroll to Top Functionality
@@ -1803,6 +1781,7 @@ function enableArtistFocusMode(artist) {
     if (firstTrackIndex !== -1) {
         track_index = firstTrackIndex;
         loadTrack(track_index);
+        playTrack();
     }
     
     // Update playlist to highlight focused artist

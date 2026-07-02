@@ -523,6 +523,16 @@ function loadTrack(track_index){
         try { curr_track.removeEventListener('timeupdate', timeUpdateHandler); } catch {}
         timeUpdateHandler = null;
     }
+
+    // Store current volume and playback state before replacing the audio element
+    const oldVolume = curr_track.volume;
+    const wasPlayingBefore = isPlaying;
+
+    // Create a new Audio object to ensure a clean state and proper resource management
+    // This helps mitigate issues with iOS's aggressive memory management and stale audio contexts
+    curr_track = new Audio();
+    curr_track.volume = oldVolume; // Restore volume
+
     reset();
     
     // Add loading animation class
@@ -536,6 +546,12 @@ function loadTrack(track_index){
     const trackUrl = getQualityUrl(music_list[track_index].music, currentBandwidth);
     curr_track.src = trackUrl;
     curr_track.load();
+    
+    // If it was playing before, ensure it attempts to play again after loading
+    if (wasPlayingBefore) {
+        isPlaying = true; // Set playing state to true so playTrack attempts to play
+    }
+    
 
     // Preload album art and set background only after image is decoded
     const imgUrl = music_list[track_index].img;
@@ -576,7 +592,13 @@ function loadTrack(track_index){
     // Update media session position once metadata is available
     curr_track.addEventListener('loadedmetadata', function() {
         updatePositionState();
-        updatePlaybackState('paused');
+        // Only attempt to play if it was playing before
+        if (wasPlayingBefore) {
+            playTrack();
+        } else {
+            // If not playing, ensure UI reflects paused state
+            updatePlaybackState('paused');
+        }
         // Cache duration for previews to avoid extra decoders
         try { trackDurations[track_index] = curr_track.duration; } catch {}
     });
@@ -598,6 +620,7 @@ function loadTrack(track_index){
         }, 500); // Short delay for visual effect
     });
     
+    // Always call notification once the track is loaded and potentially playing
     notification();
 }
 
@@ -701,7 +724,6 @@ function playPreviewTrack(index) {
     if (index >= 0 && index < music_list.length) {
         track_index = index;
         loadTrack(track_index);
-        playTrack();
     }
 }
 
@@ -987,7 +1009,7 @@ function playTrack(){
             updatePositionState();
             requestWakeLock();
         }).catch((err) => {
-            console.warn('Playback start failed, retrying once:', err);
+            console.error('Playback start failed. Track Index:', track_index, 'Error:', err);
             // Retry once after a short delay (common iOS quirk when transitioning tracks)
             setTimeout(() => {
                 curr_track.play().then(() => {
@@ -1001,9 +1023,13 @@ function playTrack(){
                     updatePlaybackState('playing');
                     updatePositionState();
                     requestWakeLock();
+                    console.log('Playback retry successful for track:', music_list[track_index].name);
                 }).catch((e) => {
-                    console.error('Retry playback failed:', e);
+                    console.error('Playback retry failed. Track Index:', track_index, 'Error:', e);
                     updatePlaybackState('paused');
+                    isPlaying = false; // Ensure isPlaying is false if retry fails
+                    track_art.classList.remove('rotate'); // Stop rotation if playback fails
+                    playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-5x"></i>'; // Show play button
                 });
             }, 300);
         });
@@ -1047,8 +1073,7 @@ function nextTrack(){
         if (nextArtistTrackIndex !== null) {
             track_index = nextArtistTrackIndex;
             loadTrack(track_index);
-            playTrack();
-            notification();
+            // Playback will be handled by loadTrack if it was playing before
             return;
         }
     }
@@ -1066,13 +1091,15 @@ function nextTrack(){
         // Normal sequential mode
         if(track_index < music_list.length - 1){
             track_index += 1;
-        } else {
+        } else if (isRepeat === 1) { // Repeat all from start
             track_index = 0;
+        } else { // End of playlist and no repeat, stop playback
+            pauseTrack();
+            return; // Exit function, do not load new track
         }
     }
     loadTrack(track_index);
-    playTrack();
-    notification();
+    // Playback will be handled by loadTrack if it was playing before
 }
 function prevTrack(){
     // Trigger haptic feedback for track skip
@@ -1108,8 +1135,7 @@ function prevTrack(){
         }
     }
     loadTrack(track_index);
-    playTrack();
-    notification();
+    // Playback will be handled by loadTrack if it was playing before
 }
 
 function seekTo(){
@@ -1781,7 +1807,6 @@ function enableArtistFocusMode(artist) {
     if (firstTrackIndex !== -1) {
         track_index = firstTrackIndex;
         loadTrack(track_index);
-        playTrack();
     }
     
     // Update playlist to highlight focused artist

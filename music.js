@@ -3,6 +3,22 @@ const music_list = [
    
   
    {
+         img : 'https://cover.djpunjab.is/59801/300x700/temptation-ep-zehr-vibe.jpg',
+         name : 'Temptation',
+         artist : 'Zehr Vibe',
+         album : 'Zehr Vibe',
+         released : 'Jul-3-2026',
+         music : 'https://p320.djpunjab.is/data/320/59801/311022/Temptation%20-%20Zehr%20Vibe.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59801/300x700/temptation-ep-zehr-vibe.jpg',
+         name : 'Body',
+         artist : 'Zehr Vibe',
+         album : 'Zehr Vibe',
+         released : 'Jul-3-2026',
+         music : 'https://p320.djpunjab.is/data/320/59801/311025/Body%20-%20Zehr%20Vibe.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59759/300x700/coffee-amrinder-gill.jpg',
          name : 'Coffee',
          artist : 'Amrinder Gill',

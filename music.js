@@ -1,7 +1,14 @@
 const music_list = [
     
    
-  
+  {
+         img : 'https://cover.djpunjab.is/59814/300x700/jerry-season-jerry.jpg',
+         name : 'Jerry Season',
+         artist : 'Jerry',
+         album : 'Jerry',
+         released : 'Jul-7-2026',
+         music : 'https://s320.djpunjab.is/data/320/59814/311060/Jerry%20Season%20-%20Jerry.mp3'
+           },
    {
          img : 'https://cover.djpunjab.is/59801/300x700/temptation-ep-zehr-vibe.jpg',
          name : 'Temptation',

@@ -2,6 +2,14 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/59819/300x700/goli-azaad-4l.jpg',
+         name : 'Goli',
+         artist : 'Azaad 4L Ft. Roop Bhullar',
+         album : 'Azaad 4L Ft. Roop Bhullar',
+         released : 'Jul-7-2026',
+         music : 'https://s320.djpunjab.is/data/320/59819/311069/Goli%20-%20Azaad%204L.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59814/300x700/jerry-season-jerry.jpg',
          name : 'Jerry Season',
          artist : 'Jerry',

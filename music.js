@@ -2,6 +2,22 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/59832/300x700/sohniye-shubh.jpg',
+         name : 'Sohniye',
+         artist : 'Shubh',
+         album : 'Shubh',
+         released : 'Jul-10-2026',
+         music : 'https://s320.djpunjab.is/data/320/59832/311093/Sohniye%20-%20Shubh.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59833/300x700/ecstasy-harkirat-sangha.jpg',
+         name : 'Ecstasy',
+         artist : 'Harkirat Sangha',
+         album : 'Harkirat Sangha',
+         released : 'Jul-10-2026',
+         music : 'https://s320.djpunjab.is/data/320/59833/311094/Ecstasy%20-%20Harkirat%20Sangha.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59819/300x700/goli-azaad-4l.jpg',
          name : 'Goli',
          artist : 'Azaad 4L Ft. Roop Bhullar',

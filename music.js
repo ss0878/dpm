@@ -2,6 +2,22 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/59838/300x700/tension-armaan-gill.jpg',
+         name : 'Tension',
+         artist : 'Armaan Gill Ft. Armaan Gill',
+         album : 'Armaan Gill Ft. Armaan Gill',
+         released : 'Jul-11-2026',
+         music : 'https://s320.djpunjab.is/data/320/59838/311106/TENSION%20-%20Armaan%20Gill.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59839/300x700/infamous-jassa-ford.jpg',
+         name : 'Infamous',
+         artist : 'Jassa Ford',
+         album : 'Jassa Ford',
+         released : 'Jul-11-2026',
+         music : 'https://s320.djpunjab.is/data/320/59839/311107/Infamous%20-%20Jassa%20Ford.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59832/300x700/sohniye-shubh.jpg',
          name : 'Sohniye',
          artist : 'Shubh',

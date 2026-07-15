@@ -2,6 +2,14 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/59865/300x700/she-knows-inderpal-moga.jpg',
+         name : 'She Knows',
+         artist : 'Inderpal Moga Ft. Jazzy B',
+         album : 'Inderpal Moga Ft. Jazzy B',
+         released : 'Jul-15-2026',
+         music : 'https://s320.djpunjab.is/data/320/59865/311151/She%20Knows%20-%20Inderpal%20Moga.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59838/300x700/tension-armaan-gill.jpg',
          name : 'Tension',
          artist : 'Armaan Gill Ft. Armaan Gill',
@@ -32,6 +40,14 @@ const music_list = [
          album : 'Harkirat Sangha',
          released : 'Jul-10-2026',
          music : 'https://s320.djpunjab.is/data/320/59833/311094/Ecstasy%20-%20Harkirat%20Sangha.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59836/300x700/best-kept-secret-ep-kahlon.jpg',
+         name : 'Ready',
+         artist : 'Kahlon Ft. Tegi Pannu',
+         album : 'Kahlon Ft. Tegi Pannu',
+         released : 'Jul-10-2026',
+         music : 'https://p320.djpunjab.is/data/320/59836/311102/Ready%20-%20Kahlon.mp3'
            },
     {
          img : 'https://cover.djpunjab.is/59819/300x700/goli-azaad-4l.jpg',

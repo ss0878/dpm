@@ -10,6 +10,22 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/59865/311151/She%20Knows%20-%20Inderpal%20Moga.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/59848/300x700/gods-favorite-jordan-sandhu.jpg',
+         name : 'Refugee',
+         artist : 'Jordan Sandhu',
+         album : 'Jordan Sandhu',
+         released : 'Jul-12-2026',
+         music : 'https://p320.djpunjab.is/data/320/59848/311116/Refugee%20-%20Jordan%20Sandhu.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59848/300x700/gods-favorite-jordan-sandhu.jpg',
+         name : 'Public Holiday',
+         artist : 'Jordan Sandhu',
+         album : 'Jordan Sandhu',
+         released : 'Jul-12-2026',
+         music : 'https://p320.djpunjab.is/data/320/59848/311117/Public%20Holiday%20-%20Jordan%20Sandhu.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59838/300x700/tension-armaan-gill.jpg',
          name : 'Tension',
          artist : 'Armaan Gill Ft. Armaan Gill',

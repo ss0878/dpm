@@ -26,6 +26,22 @@ const music_list = [
          music : 'https://p320.djpunjab.is/data/320/59848/311117/Public%20Holiday%20-%20Jordan%20Sandhu.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/59848/300x700/gods-favorite-jordan-sandhu.jpg',
+         name : '100 Times',
+         artist : 'Jordan Sandhu',
+         album : 'Jordan Sandhu',
+         released : 'Jul-12-2026',
+         music : 'https://p320.djpunjab.is/data/320/59848/311118/100%20Times%20-%20Jordan%20Sandhu.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/59848/300x700/gods-favorite-jordan-sandhu.jpg',
+         name : 'Call Text',
+         artist : 'Jordan Sandhu',
+         album : 'Jordan Sandhu',
+         released : 'Jul-12-2026',
+         music : 'https://p320.djpunjab.is/data/320/59848/311123/Call%20Text%20-%20Jordan%20Sandhu.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59838/300x700/tension-armaan-gill.jpg',
          name : 'Tension',
          artist : 'Armaan Gill Ft. Armaan Gill',

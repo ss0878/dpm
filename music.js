@@ -2,6 +2,14 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/59877/300x700/victory-lap-parmish-verma.jpg',
+         name : 'Drive Thru',
+         artist : 'Parmish Verma Ft. Wazir Patar',
+         album : 'Parmish Verma Ft. Wazir Patar',
+         released : 'Jul-15-2026',
+         music : 'https://p320.djpunjab.is/data/320/59877/311169/Drive%20Thru%20-%20Parmish%20Verma.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59865/300x700/she-knows-inderpal-moga.jpg',
          name : 'She Knows',
          artist : 'Inderpal Moga Ft. Jazzy B',

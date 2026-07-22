@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Music Player</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="page-content-wrapper">
+
+    <div class="container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <div class="logo">
+            <i class="fa-solid fa-headphones"></i>
+            <span>Music Player</span>
+        </div>
+
+
+
+        <div class="search-box">
+            <i class="fa-solid fa-search"></i>
+            <input
+                type="text"
+                id="search"
+                placeholder="Search songs...">
+        </div>
+
+        <div class="sort-options">
+            <label for="sort-by">Sort by:</label>
+            <select id="sort-by">
+                <option value="default">Default</option>
+                <option value="artist">Artist</option>
+                <option value="name">Song Name</option>
+            </select>
+        </div>
+
+        <div class="artist-filter" style="display: none;">
+            <label for="filter-artist">Filter by Artist:</label>
+            <select id="filter-artist">
+                <option value="all">All Artists</option>
+                <!-- Artist names will be populated by JavaScript -->
+            </select>
+        </div>
+
+        <h3 class="playlist-title">
+            Playlist
+        </h3>
+
+        <div class="tab-navigation">
+            <button id="playlistTab" class="active">Playlist</button>
+            <button id="historyTab">History</button>
+        </div>
+
+        <ul id="playlist" class="playlist">
+            <!-- Songs added with JavaScript -->
+        </ul>
+
+        <ul id="playHistoryList" class="playlist" style="display: none;">
+            <!-- Played songs will be added with JavaScript -->
+        </ul>
+
+    </aside>
+
+</div>
+
+    <!-- Main Content -->
+
+    <main class="main-player">
+
+        <a
+            id="download"
+            href="#"
+            download
+            class="download-btn">
+
+            <button>
+                <i class="fa-solid fa-download"></i>
+            </button>
+
+        </a>
+
+        <div class="player-card">
+
+            <button id="theme-toggle-btn" class="theme-toggle-btn"><i class="fa-solid fa-moon"></i></button>
+
+            <img
+                id="cover"
+                src=""
+                alt="Album Cover">
+
+            <h2 id="title">Song Name</h2>
+
+            <p id="artist">Artist Name</p>
+
+            <div class="album-info">
+
+                <span id="album">
+                    Album
+                </span>
+
+                <span id="release">
+                    2026
+                </span>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Progress -->
+
+        <div class="progress-area">
+
+            <span id="currentTime">
+                0:00
+            </span>
+
+            <input
+                type="range"
+                id="progress"
+                min="0"
+                max="100"
+                value="0">
+
+            <span id="duration">
+                0:00
+            </span>
+
+        </div>
+
+
+
+        <!-- Controls -->
+
+        <div class="controls">
+
+            <button id="shuffle">
+                <i class="fa-solid fa-shuffle"></i>
+            </button>
+
+            <button id="prev">
+                <i class="fa-solid fa-backward-step"></i>
+            </button>
+
+            <button id="play">
+                <i class="fa-solid fa-play"></i>
+            </button>
+
+            <button id="next">
+                <i class="fa-solid fa-forward-step"></i>
+            </button>
+
+            <button id="repeat">
+                <i class="fa-solid fa-repeat"></i>
+            </button>
+
+        </div>
+
+
+
+        <!-- Bottom Controls -->
+
+        <div class="bottom-controls">
+
+
+
+
+
+            <div class="actions">
+
+
+            </div>
+
+        </div>
+
+    </main>
+
+</div>
+
+    <!-- Playlist Toggle Button for Mobile -->
+    <button class="playlist-toggle-btn" id="playlistToggleBtn">
+        <i class="fa-solid fa-bars"></i> Playlist
+    </button>
+
+<!-- Mobile Bottom Player -->
+
+<div class="mobile-player">
+
+    <img id="mobileCover" src="" alt="Cover">
+
+    <div class="mobile-info">
+
+        <h4 id="mobileTitle">
+            Song Name
+        </h4>
+
+        <small id="mobileArtist">
+            Artist
+        </small>
+
+    </div>
+
+    <button id="mobilePlay">
+        <i class="fa-solid fa-play"></i>
+    </button>
+
+</div>
+
+<!-- Hidden Audio -->
+
+<audio id="audio"></audio>
+
+<!-- JavaScript -->
+
+<script src="js/music-list.js"></script>
+<script src="js/player.js"></script>
+<script src="js/search.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

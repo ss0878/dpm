@@ -2,6 +2,22 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/60016/300x700/lottery-arnaaz-gill.jpg',
+         name : 'LOTTERY',
+         artist : 'Arnaaz Gill',
+         album : 'Arnaaz Gill',
+         released : 'Jul-31-2026',
+         music : 'https://s320.djpunjab.is/data/320/60016/311352/LOTTERY%20-%20Arnaaz%20Gill.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60011/300x700/philosopher-rangrez-sidhu.jpg',
+         name : 'PHILOSOPHER',
+         artist : 'Rangrez Sidhu',
+         album : 'Rangrez Sidhu',
+         released : 'Jul-31-2026',
+         music : 'https://s320.djpunjab.is/data/320/60011/311347/PHILOSOPHER%20-%20Rangrez%20Sidhu.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/59877/300x700/victory-lap-parmish-verma.jpg',
          name : 'Drive Thru',
          artist : 'Parmish Verma Ft. Wazir Patar',

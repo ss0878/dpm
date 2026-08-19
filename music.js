@@ -2,6 +2,30 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/60145/300x700/tutt-gaye-aa-maninder-buttar.jpg',
+         name : 'Tutt Gaye Aa',
+         artist : 'Maninder Buttar',
+         album : 'Maninder Buttar',
+         released : 'Jul-17-2026',
+         music : 'https://s320.djpunjab.is/data/320/60145/311583/Tutt%20Gaye%20Aa%20-%20Maninder%20Buttar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60144/300x700/panamera-dhanda-nyoliwala.jpg',
+         name : 'Panamera',
+         artist : 'Dhanda Nyoliwala',
+         album : 'Dhanda Nyoliwala',
+         released : 'Jul-17-2026',
+         music : 'https://s320.djpunjab.is/data/320/60144/311582/Panamera%20-%20Dhanda%20Nyoliwala.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60143/300x700/sun-bae-harkirat-sangha.jpg',
+         name : 'Sun Bae',
+         artist : 'Harkirat Sangha',
+         album : 'Harkirat Sangha',
+         released : 'Jul-17-2026',
+         music : 'https://s320.djpunjab.is/data/320/60143/311581/Sun%20Bae%20-%20Harkirat%20Sangha.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/60016/300x700/lottery-arnaaz-gill.jpg',
          name : 'LOTTERY',
          artist : 'Arnaaz Gill',

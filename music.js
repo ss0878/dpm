@@ -26,6 +26,14 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/60143/311581/Sun%20Bae%20-%20Harkirat%20Sangha.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/60139/300x700/laapata-bir.jpg',
+         name : 'Laapata',
+         artist : 'BIR',
+         album : 'BIR',
+         released : 'Jul-17-2026',
+         music : 'https://s320.djpunjab.is/data/320/60139/311577/Laapata%20-%20BIR.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/60016/300x700/lottery-arnaaz-gill.jpg',
          name : 'LOTTERY',
          artist : 'Arnaaz Gill',

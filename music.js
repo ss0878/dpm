@@ -18,6 +18,14 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/60144/311582/Panamera%20-%20Dhanda%20Nyoliwala.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/60130/300x700/venomz-vol.-ii-raf-saperra.jpg',
+         name : 'Art Of War',
+         artist : 'Raf Saperra',
+         album : 'Raf Saperra',
+         released : 'Aug-16-2026',
+         music : 'https://p320.djpunjab.is/data/320/60130/311549/Art%20Of%20War%20-%20Raf%20Saperra.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/60143/300x700/sun-bae-harkirat-sangha.jpg',
          name : 'Sun Bae',
          artist : 'Harkirat Sangha',

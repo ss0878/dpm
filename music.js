@@ -6,7 +6,7 @@ const music_list = [
          name : 'Tutt Gaye Aa',
          artist : 'Maninder Buttar',
          album : 'Maninder Buttar',
-         released : 'Jul-17-2026',
+         released : 'Aug-17-2026',
          music : 'https://s320.djpunjab.is/data/320/60145/311583/Tutt%20Gaye%20Aa%20-%20Maninder%20Buttar.mp3'
            },
     {
@@ -14,7 +14,7 @@ const music_list = [
          name : 'Panamera',
          artist : 'Dhanda Nyoliwala',
          album : 'Dhanda Nyoliwala',
-         released : 'Jul-17-2026',
+         released : 'Aug-17-2026',
          music : 'https://s320.djpunjab.is/data/320/60144/311582/Panamera%20-%20Dhanda%20Nyoliwala.mp3'
            },
     {
@@ -22,7 +22,7 @@ const music_list = [
          name : 'Sun Bae',
          artist : 'Harkirat Sangha',
          album : 'Harkirat Sangha',
-         released : 'Jul-17-2026',
+         released : 'Aug-17-2026',
          music : 'https://s320.djpunjab.is/data/320/60143/311581/Sun%20Bae%20-%20Harkirat%20Sangha.mp3'
            },
     {
@@ -30,8 +30,16 @@ const music_list = [
          name : 'Laapata',
          artist : 'BIR',
          album : 'BIR',
-         released : 'Jul-17-2026',
+         released : 'Aug-17-2026',
          music : 'https://s320.djpunjab.is/data/320/60139/311577/Laapata%20-%20BIR.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60064/300x700/built-different-ep-saabi-bhinder.jpg',
+         name : 'Bhinder Flow',
+         artist : 'Saabi Bhinder',
+         album : 'Saabi Bhinder',
+         released : 'Aug-7-2026',
+         music : 'https://p320.djpunjab.is/data/320/60064/311426/Bhinder%20Flow%20-%20Saabi%20Bhinder.mp3'
            },
     {
          img : 'https://cover.djpunjab.is/60016/300x700/lottery-arnaaz-gill.jpg',

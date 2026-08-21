@@ -2,6 +2,78 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/60149/300x700/jma-ninja.jpg',
+         name : 'Jma',
+         artist : 'Ninja Ft. Deep Jandu',
+         album : 'Ninja Ft. Deep Jandu',
+         released : 'Aug-21-2026',
+         music : 'https://s320.djpunjab.is/data/320/60149/311597/Jma%20-%20Ninja.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60148/300x700/hazir-amrinder-gill.jpg',
+         name : 'Hazir',
+         artist : 'Amrinder Gill',
+         album : 'Amrinder Gill',
+         released : 'Aug-21-2026',
+         music : 'https://s320.djpunjab.is/data/320/60148/311596/Hazir%20-%20Amrinder%20Gill.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60151/300x700/nede-j-na-hoke-beh-wazir-patar.jpg',
+         name : 'Nede J Na Hoke Beh',
+         artist : 'Wazir Patar',
+         album : 'Wazir Patar',
+         released : 'Aug-21-2026',
+         music : 'https://s320.djpunjab.is/data/320/60151/311599/Nede%20J%20Na%20Hoke%20Beh%20-%20Wazir%20Patar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60145/300x700/tutt-gaye-aa-maninder-buttar.jpg',
+         name : 'Tutt Gaye Aa',
+         artist : 'Maninder Buttar',
+         album : 'Maninder Buttar',
+         released : 'Aug-17-2026',
+         music : 'https://s320.djpunjab.is/data/320/60145/311583/Tutt%20Gaye%20Aa%20-%20Maninder%20Buttar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60144/300x700/panamera-dhanda-nyoliwala.jpg',
+         name : 'Panamera',
+         artist : 'Dhanda Nyoliwala',
+         album : 'Dhanda Nyoliwala',
+         released : 'Aug-17-2026',
+         music : 'https://s320.djpunjab.is/data/320/60144/311582/Panamera%20-%20Dhanda%20Nyoliwala.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60130/300x700/venomz-vol.-ii-raf-saperra.jpg',
+         name : 'Art Of War',
+         artist : 'Raf Saperra',
+         album : 'Raf Saperra',
+         released : 'Aug-16-2026',
+         music : 'https://p320.djpunjab.is/data/320/60130/311549/Art%20Of%20War%20-%20Raf%20Saperra.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60143/300x700/sun-bae-harkirat-sangha.jpg',
+         name : 'Sun Bae',
+         artist : 'Harkirat Sangha',
+         album : 'Harkirat Sangha',
+         released : 'Aug-17-2026',
+         music : 'https://s320.djpunjab.is/data/320/60143/311581/Sun%20Bae%20-%20Harkirat%20Sangha.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60139/300x700/laapata-bir.jpg',
+         name : 'Laapata',
+         artist : 'BIR',
+         album : 'BIR',
+         released : 'Aug-17-2026',
+         music : 'https://s320.djpunjab.is/data/320/60139/311577/Laapata%20-%20BIR.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60064/300x700/built-different-ep-saabi-bhinder.jpg',
+         name : 'Bhinder Flow',
+         artist : 'Saabi Bhinder',
+         album : 'Saabi Bhinder',
+         released : 'Aug-7-2026',
+         music : 'https://p320.djpunjab.is/data/320/60064/311426/Bhinder%20Flow%20-%20Saabi%20Bhinder.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/60016/300x700/lottery-arnaaz-gill.jpg',
          name : 'LOTTERY',
          artist : 'Arnaaz Gill',

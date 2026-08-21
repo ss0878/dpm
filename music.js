@@ -10,6 +10,14 @@ const music_list = [
          music : 'https://s320.djpunjab.is/data/320/60149/311597/Jma%20-%20Ninja.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/60148/300x700/hazir-amrinder-gill.jpg',
+         name : 'Hazir',
+         artist : 'Amrinder Gill',
+         album : 'Amrinder Gill',
+         released : 'Aug-21-2026',
+         music : 'https://s320.djpunjab.is/data/320/60148/311596/Hazir%20-%20Amrinder%20Gill.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/60151/300x700/nede-j-na-hoke-beh-wazir-patar.jpg',
          name : 'Nede J Na Hoke Beh',
          artist : 'Wazir Patar',

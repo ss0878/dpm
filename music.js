@@ -2,6 +2,22 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/60149/300x700/jma-ninja.jpg',
+         name : 'Jma',
+         artist : 'Ninja Ft. Deep Jandu',
+         album : 'Ninja Ft. Deep Jandu',
+         released : 'Aug-21-2026',
+         music : 'https://s320.djpunjab.is/data/320/60149/311597/Jma%20-%20Ninja.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60151/300x700/nede-j-na-hoke-beh-wazir-patar.jpg',
+         name : 'Nede J Na Hoke Beh',
+         artist : 'Wazir Patar',
+         album : 'Wazir Patar',
+         released : 'Aug-21-2026',
+         music : 'https://s320.djpunjab.is/data/320/60151/311599/Nede%20J%20Na%20Hoke%20Beh%20-%20Wazir%20Patar.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/60145/300x700/tutt-gaye-aa-maninder-buttar.jpg',
          name : 'Tutt Gaye Aa',
          artist : 'Maninder Buttar',

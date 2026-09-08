@@ -2,6 +2,158 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/60249/300x700/tere-layi-sagar.jpg',
+         name : 'Tere Layi',
+         artist : 'Sagar',
+         album : 'Sagar',
+         released : 'Sep-7-2026',
+         music : 'https://s320.djpunjab.is/data/320/60249/311751/Tere%20Layi%20-%20Sagar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60209/300x700/note-kulbir-jhinjer.jpg',
+         name : 'Note',
+         artist : 'Kulbir Jhinjer',
+         album : 'Kulbir Jhinjer',
+         released : 'Sep-7-2026',
+         music : 'https://s320.djpunjab.is/data/320/60209/311695/Note%20-%20Kulbir%20Jhinjer.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.jpg',
+         name : 'Dhadhi Nation',
+         artist : 'Wazir Patar',
+         album : 'BLACK AND WHITE',
+         released : 'Sep-6-2026',
+         music : 'https://p320.djpunjab.is/data/320/60224/311725/Dhadhi%20Nation%20-%20Wazir%20Patar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.jpg',
+         name : 'LOOK MAMA',
+         artist : 'Wazir Patar',
+         album : 'BLACK AND WHITE',
+         released : 'Sep-6-2026',
+         music : 'https://p320.djpunjab.is/data/320/60224/311720/LOOK%20MAMA%20-%20Wazir%20Patar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.jpg',
+         name : 'Majha To Malwa',
+         artist : 'Wazir Patar',
+         album : 'BLACK AND WHITE',
+         released : 'Sep-6-2026',
+         music : 'https://p320.djpunjab.is/data/320/60224/311724/Majha%20To%20Malwa%20-%20Wazir%20Patar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.jpg',
+         name : 'Parche',
+         artist : 'Wazir Patar',
+         album : 'BLACK AND WHITE',
+         released : 'Sep-6-2026',
+         music : 'https://p320.djpunjab.is/data/320/60224/311722/Parche%20-%20Wazir%20Patar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.jpg',
+         name : 'WAHZIR INC',
+         artist : 'Wazir Patar',
+         album : 'BLACK AND WHITE',
+         released : 'Sep-6-2026',
+         music : 'https://p320.djpunjab.is/data/320/60224/311719/WAHZIR%20INC%20-%20Wazir%20Patar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.jpg',
+         name : 'Love From 80s',
+         artist : 'Wazir Patar',
+         album : 'BLACK AND WHITE',
+         released : 'Sep-6-2026',
+         music : 'https://p320.djpunjab.is/data/320/60224/311723/Love%20From%2080s%20-%20Wazir%20Patar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60220/300x700/im-an-artist-bro-diljit-dosanjh.jpg',
+         name : 'Love Like This',
+         artist : 'Diljit Dosanjh',
+         album : 'Im An Artist Bro',
+         released : 'Aug-31-2026',
+         music : 'https://p320.djpunjab.is/data/320/60220/311707/Love%20Like%20This%20-%20Diljit%20Dosanjh.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60220/300x700/im-an-artist-bro-diljit-dosanjh.jpg',
+         name : 'Waliyan',
+         artist : 'Diljit Dosanjh',
+         album : 'Im An Artist Bro',
+         released : 'Aug-31-2026',
+         music : 'https://p320.djpunjab.is/data/320/60220/311706/Waliyan%20-%20Diljit%20Dosanjh.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60220/300x700/im-an-artist-bro-diljit-dosanjh.jpg',
+         name : 'Devil',
+         artist : 'Diljit Dosanjh',
+         album : 'Im An Artist Bro',
+         released : 'Aug-31-2026',
+         music : 'https://p320.djpunjab.is/data/320/60220/311712/Devil%20-%20Diljit%20Dosanjh.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60187/300x300/zero-hours-azaad-4l.jpg',
+         name : 'Zero Hours',
+         artist : 'Azaad 4L',
+         album : 'Azaad 4L',
+         released : 'Aug-31-2026',
+         music : 'https://p320.djpunjab.is/data/320/60187/311667/First%20Day%20Out%20-%20Azaad%204L.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60187/300x300/zero-hours-azaad-4l.jpg',
+         name : 'Flowz',
+         artist : 'Azaad 4L',
+         album : 'Azaad 4L',
+         released : 'Aug-31-2026',
+         music : 'https://p320.djpunjab.is/data/320/60187/311668/Flowz%20-%20Azaad%204L.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60187/300x300/zero-hours-azaad-4l.jpg',
+         name : 'Flowz',
+         artist : 'Azaad 4L',
+         album : 'Azaad 4L',
+         released : 'Aug-31-2026',
+         music : 'https://p320.djpunjab.is/data/320/60187/311668/Flowz%20-%20Azaad%204L.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60186/300x700/apollo-dulla.jpg',
+         name : 'Hotieeee',
+         artist : 'Dulla',
+         album : 'Dulla',
+         released : 'Aug-29-2026',
+         music : 'https://p320.djpunjab.is/data/320/60186/311657/Hotieeee%20-%20Dulla.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60161/300x700/vision-ep-tarsem-jassar.jpg',
+         name : 'Just You',
+         artist : 'Tarsem Jassar',
+         album : 'Tarsem Jassar',
+         released : 'Aug-26-2026',
+         music : 'https://p320.djpunjab.is/data/320/60161/311610/Just%20You%20-%20Tarsem%20Jassar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60161/300x700/vision-ep-tarsem-jassar.jpg',
+         name : 'Better Late',
+         artist : 'Tarsem Jassar',
+         album : 'Tarsem Jassar',
+         released : 'Aug-26-2026',
+         music : 'https://p320.djpunjab.is/data/320/60161/311612/Better%20Late%20-%20Tarsem%20Jassar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60161/300x700/vision-ep-tarsem-jassar.jpg',
+         name : 'Remains',
+         artist : 'Tarsem Jassar',
+         album : 'Tarsem Jassar',
+         released : 'Aug-26-2026',
+         music : 'https://p320.djpunjab.is/data/320/60161/311609/Remains%20-%20Tarsem%20Jassar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60161/300x700/vision-ep-tarsem-jassar.jpg',
+         name : 'Aura',
+         artist : 'Tarsem Jassar',
+         album : 'Tarsem Jassar',
+         released : 'Aug-26-2026',
+         music : 'https://p320.djpunjab.is/data/320/60161/311613/Aura%20-%20Tarsem%20Jassar.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/60149/300x700/jma-ninja.jpg',
          name : 'Jma',
          artist : 'Ninja Ft. Deep Jandu',

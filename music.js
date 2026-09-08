@@ -2,6 +2,54 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.webp',
+         name : 'Dhadhi Nation',
+         artist : 'Wazir Patar',
+         album : 'BLACK AND WHITE',
+         released : 'Sep-6-2026',
+         music : 'https://p320.djpunjab.is/data/320/60224/311725/Dhadhi%20Nation%20-%20Wazir%20Patar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.webp',
+         name : 'LOOK MAMA',
+         artist : 'Wazir Patar',
+         album : 'BLACK AND WHITE',
+         released : 'Sep-6-2026',
+         music : 'https://p320.djpunjab.is/data/320/60224/311720/LOOK%20MAMA%20-%20Wazir%20Patar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.webp',
+         name : 'Majha To Malwa',
+         artist : 'Wazir Patar',
+         album : 'BLACK AND WHITE',
+         released : 'Sep-6-2026',
+         music : 'https://p320.djpunjab.is/data/320/60224/311724/Majha%20To%20Malwa%20-%20Wazir%20Patar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.webp',
+         name : 'Parche',
+         artist : 'Wazir Patar',
+         album : 'BLACK AND WHITE',
+         released : 'Sep-6-2026',
+         music : 'https://p320.djpunjab.is/data/320/60224/311722/Parche%20-%20Wazir%20Patar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.webp',
+         name : 'WAHZIR INC',
+         artist : 'Wazir Patar',
+         album : 'BLACK AND WHITE',
+         released : 'Sep-6-2026',
+         music : 'https://p320.djpunjab.is/data/320/60224/311719/WAHZIR%20INC%20-%20Wazir%20Patar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.webp',
+         name : 'Love From 80s',
+         artist : 'Wazir Patar',
+         album : 'BLACK AND WHITE',
+         released : 'Sep-6-2026',
+         music : 'https://p320.djpunjab.is/data/320/60224/311723/Love%20From%2080s%20-%20Wazir%20Patar.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/60220/300x700/im-an-artist-bro-diljit-dosanjh.jpg',
          name : 'Love Like This',
          artist : 'Diljit Dosanjh',

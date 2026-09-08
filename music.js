@@ -2,7 +2,23 @@ const music_list = [
     
    
   {
-         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.webp',
+         img : 'https://cover.djpunjab.is/60249/300x700/tere-layi-sagar.jpg',
+         name : 'Tere Layi',
+         artist : 'Sagar',
+         album : 'Sagar',
+         released : 'Sep-7-2026',
+         music : 'https://s320.djpunjab.is/data/320/60249/311751/Tere%20Layi%20-%20Sagar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60209/300x700/note-kulbir-jhinjer.jpg',
+         name : 'Note',
+         artist : 'Kulbir Jhinjer',
+         album : 'Kulbir Jhinjer',
+         released : 'Sep-7-2026',
+         music : 'https://s320.djpunjab.is/data/320/60209/311695/Note%20-%20Kulbir%20Jhinjer.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.jpg',
          name : 'Dhadhi Nation',
          artist : 'Wazir Patar',
          album : 'BLACK AND WHITE',
@@ -10,7 +26,7 @@ const music_list = [
          music : 'https://p320.djpunjab.is/data/320/60224/311725/Dhadhi%20Nation%20-%20Wazir%20Patar.mp3'
            },
     {
-         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.webp',
+         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.jpg',
          name : 'LOOK MAMA',
          artist : 'Wazir Patar',
          album : 'BLACK AND WHITE',
@@ -18,7 +34,7 @@ const music_list = [
          music : 'https://p320.djpunjab.is/data/320/60224/311720/LOOK%20MAMA%20-%20Wazir%20Patar.mp3'
            },
     {
-         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.webp',
+         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.jpg',
          name : 'Majha To Malwa',
          artist : 'Wazir Patar',
          album : 'BLACK AND WHITE',
@@ -26,7 +42,7 @@ const music_list = [
          music : 'https://p320.djpunjab.is/data/320/60224/311724/Majha%20To%20Malwa%20-%20Wazir%20Patar.mp3'
            },
     {
-         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.webp',
+         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.jpg',
          name : 'Parche',
          artist : 'Wazir Patar',
          album : 'BLACK AND WHITE',
@@ -34,7 +50,7 @@ const music_list = [
          music : 'https://p320.djpunjab.is/data/320/60224/311722/Parche%20-%20Wazir%20Patar.mp3'
            },
     {
-         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.webp',
+         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.jpg',
          name : 'WAHZIR INC',
          artist : 'Wazir Patar',
          album : 'BLACK AND WHITE',
@@ -42,7 +58,7 @@ const music_list = [
          music : 'https://p320.djpunjab.is/data/320/60224/311719/WAHZIR%20INC%20-%20Wazir%20Patar.mp3'
            },
     {
-         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.webp',
+         img : 'https://cover.djpunjab.is/60224/300x700/black-and-white-wazir-patar.jpg',
          name : 'Love From 80s',
          artist : 'Wazir Patar',
          album : 'BLACK AND WHITE',

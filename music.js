@@ -2,6 +2,38 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/60161/300x700/vision-ep-tarsem-jassar.jpg',
+         name : 'Just You',
+         artist : 'Tarsem Jassar',
+         album : 'Tarsem Jassar',
+         released : 'Aug-26-2026',
+         music : 'https://p320.djpunjab.is/data/320/60161/311610/Just%20You%20-%20Tarsem%20Jassar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60161/300x700/vision-ep-tarsem-jassar.jpg',
+         name : 'Better Late',
+         artist : 'Tarsem Jassar',
+         album : 'Tarsem Jassar',
+         released : 'Aug-26-2026',
+         music : 'https://p320.djpunjab.is/data/320/60161/311612/Better%20Late%20-%20Tarsem%20Jassar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60161/300x700/vision-ep-tarsem-jassar.jpg',
+         name : 'Remains',
+         artist : 'Tarsem Jassar',
+         album : 'Tarsem Jassar',
+         released : 'Aug-26-2026',
+         music : 'https://p320.djpunjab.is/data/320/60161/311609/Remains%20-%20Tarsem%20Jassar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60161/300x700/vision-ep-tarsem-jassar.jpg',
+         name : 'Aura',
+         artist : 'Tarsem Jassar',
+         album : 'Tarsem Jassar',
+         released : 'Aug-26-2026',
+         music : 'https://p320.djpunjab.is/data/320/60161/311613/Aura%20-%20Tarsem%20Jassar.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/60149/300x700/jma-ninja.jpg',
          name : 'Jma',
          artist : 'Ninja Ft. Deep Jandu',

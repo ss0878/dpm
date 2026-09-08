@@ -2,6 +2,30 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/60220/300x700/im-an-artist-bro-diljit-dosanjh.jpg',
+         name : 'Love Like This',
+         artist : 'Diljit Dosanjh',
+         album : 'Im An Artist Bro',
+         released : 'Aug-31-2026',
+         music : 'https://p320.djpunjab.is/data/320/60220/311707/Love%20Like%20This%20-%20Diljit%20Dosanjh.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60220/300x700/im-an-artist-bro-diljit-dosanjh.jpg',
+         name : 'Waliyan',
+         artist : 'Diljit Dosanjh',
+         album : 'Im An Artist Bro',
+         released : 'Aug-31-2026',
+         music : 'https://p320.djpunjab.is/data/320/60220/311706/Waliyan%20-%20Diljit%20Dosanjh.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60220/300x700/im-an-artist-bro-diljit-dosanjh.jpg',
+         name : 'Devil',
+         artist : 'Diljit Dosanjh',
+         album : 'Im An Artist Bro',
+         released : 'Aug-31-2026',
+         music : 'https://p320.djpunjab.is/data/320/60220/311712/Devil%20-%20Diljit%20Dosanjh.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/60187/300x300/zero-hours-azaad-4l.jpg',
          name : 'Zero Hours',
          artist : 'Azaad 4L',

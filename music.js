@@ -2,6 +2,38 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/60187/300x300/zero-hours-azaad-4l.jpg',
+         name : 'Zero Hours',
+         artist : 'Azaad 4L',
+         album : 'Azaad 4L',
+         released : 'Aug-31-2026',
+         music : 'https://p320.djpunjab.is/data/320/60187/311667/First%20Day%20Out%20-%20Azaad%204L.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60187/300x300/zero-hours-azaad-4l.jpg',
+         name : 'Flowz',
+         artist : 'Azaad 4L',
+         album : 'Azaad 4L',
+         released : 'Aug-31-2026',
+         music : 'https://p320.djpunjab.is/data/320/60187/311668/Flowz%20-%20Azaad%204L.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60187/300x300/zero-hours-azaad-4l.jpg',
+         name : 'Flowz',
+         artist : 'Azaad 4L',
+         album : 'Azaad 4L',
+         released : 'Aug-31-2026',
+         music : 'https://p320.djpunjab.is/data/320/60187/311668/Flowz%20-%20Azaad%204L.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60186/300x700/apollo-dulla.jpg',
+         name : 'Hotieeee',
+         artist : 'Dulla',
+         album : 'Dulla',
+         released : 'Aug-29-2026',
+         music : 'https://p320.djpunjab.is/data/320/60186/311657/Hotieeee%20-%20Dulla.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/60161/300x700/vision-ep-tarsem-jassar.jpg',
          name : 'Just You',
          artist : 'Tarsem Jassar',

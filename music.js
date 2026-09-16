@@ -2,6 +2,22 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/60315/300x300/face-2-face---gill-szn-arnaaz-gill.jpg',
+         name : 'FACE 2 FACE',
+         artist : 'Arnaaz Gill',
+         album : 'Arnaaz Gill',
+         released : 'Sep-12-2026',
+         music : 'https://p320.djpunjab.is/data/320/60315/311820/FACE%202%20FACE%20-%20Arnaaz%20Gill.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60315/300x300/face-2-face---gill-szn-arnaaz-gill.jpg',
+         name : 'GILL SZN',
+         artist : 'Arnaaz Gill',
+         album : 'Arnaaz Gill',
+         released : 'Sep-12-2026',
+         music : 'https://p320.djpunjab.is/data/320/60315/311821/GILL%20SZN%20-%20Arnaaz%20Gill.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/60249/300x700/tere-layi-sagar.jpg',
          name : 'Tere Layi',
          artist : 'Sagar',

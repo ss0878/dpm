@@ -2,6 +2,14 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/60420/300x700/ghostface-killah-sidhu-moose-wala.jpg',
+         name : 'FACE 2 FACE',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala',
+         released : 'Sep-21-2026',
+         music : 'https://s320.djpunjab.is/data/320/60420/311995/Ghostface%20Killah%20-%20Sidhu%20Moose%20Wala.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/60315/300x300/face-2-face---gill-szn-arnaaz-gill.jpg',
          name : 'FACE 2 FACE',
          artist : 'Arnaaz Gill',

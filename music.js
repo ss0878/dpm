@@ -3,7 +3,7 @@ const music_list = [
    
   {
          img : 'https://cover.djpunjab.is/60420/300x700/ghostface-killah-sidhu-moose-wala.jpg',
-         name : 'FACE 2 FACE',
+         name : 'Ghostface Killah',
          artist : 'Sidhu Moose Wala',
          album : 'Sidhu Moose Wala',
          released : 'Sep-21-2026',

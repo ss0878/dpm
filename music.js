@@ -2,6 +2,22 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/60408/300x700/hazir-amrinder-gill.jpg',
+         name : 'Banere Te',
+         artist : 'Amrinder Gill',
+         album : 'Amrinder Gill',
+         released : 'Sep-21-2026',
+         music : 'https://p320.djpunjab.is/data/320/60408/311976/Banere%20Te%20-%20Amrinder%20Gill.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60408/300x700/hazir-amrinder-gill.jpg',
+         name : 'Haal',
+         artist : 'Amrinder Gill',
+         album : 'Amrinder Gill',
+         released : 'Sep-21-2026',
+         music : 'https://p320.djpunjab.is/data/320/60408/311972/Haal%20-%20Amrinder%20Gill.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/60420/300x700/ghostface-killah-sidhu-moose-wala.jpg',
          name : 'Ghostface Killah',
          artist : 'Sidhu Moose Wala',
@@ -120,14 +136,6 @@ const music_list = [
          album : 'Azaad 4L',
          released : 'Aug-31-2026',
          music : 'https://p320.djpunjab.is/data/320/60187/311667/First%20Day%20Out%20-%20Azaad%204L.mp3'
-           },
-    {
-         img : 'https://cover.djpunjab.is/60187/300x300/zero-hours-azaad-4l.jpg',
-         name : 'Flowz',
-         artist : 'Azaad 4L',
-         album : 'Azaad 4L',
-         released : 'Aug-31-2026',
-         music : 'https://p320.djpunjab.is/data/320/60187/311668/Flowz%20-%20Azaad%204L.mp3'
            },
     {
          img : 'https://cover.djpunjab.is/60187/300x300/zero-hours-azaad-4l.jpg',

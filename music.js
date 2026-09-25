@@ -2,6 +2,30 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/60446/300x700/aujla-szn-1-karan-aujla.jpg',
+         name : 'Rap Killa',
+         artist : 'Karan Aujla Ft. Azaad 4L',
+         album : 'Karan Aujla',
+         released : 'Sep-25-2026',
+         music : 'https://p320.djpunjab.is/data/320/60446/312032/Rap%20Killa%20-%20Karan%20Aujla.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60446/300x700/aujla-szn-1-karan-aujla.jpg',
+         name : 'Straight Up',
+         artist : 'Karan Aujla Ft. Azaad 4L',
+         album : 'Karan Aujla',
+         released : 'Sep-25-2026',
+         music : 'https://p320.djpunjab.is/data/320/60446/312028/Straight%20Up%20-%20Karan%20Aujla.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60446/300x700/aujla-szn-1-karan-aujla.jpg',
+         name : 'Ashke',
+         artist : 'Karan Aujla',
+         album : 'Karan Aujla',
+         released : 'Sep-25-2026',
+         music : 'https://p320.djpunjab.is/data/320/60446/312031/Ashke%20-%20Karan%20Aujla.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/60408/300x700/hazir-amrinder-gill.jpg',
          name : 'Banere Te',
          artist : 'Amrinder Gill',

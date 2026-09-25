@@ -12,7 +12,7 @@ const music_list = [
     {
          img : 'https://cover.djpunjab.is/60446/300x700/aujla-szn-1-karan-aujla.jpg',
          name : 'Straight Up',
-         artist : 'Karan Aujla Ft. Azaad 4L',
+         artist : 'Karan Aujla',
          album : 'Karan Aujla',
          released : 'Sep-25-2026',
          music : 'https://p320.djpunjab.is/data/320/60446/312028/Straight%20Up%20-%20Karan%20Aujla.mp3'

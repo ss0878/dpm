@@ -2,6 +2,14 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/60469/300x700/real-problems-ep-inderpal-moga.jpg',
+         name : 'CHEETAH',
+         artist : 'Inderpal Moga',
+         album : 'Inderpal Moga',
+         released : 'Sep-27-2026',
+         music : 'https://p320.djpunjab.is/data/320/60469/312055/CHEETAH%20-%20Inderpal%20Moga.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/60446/300x700/aujla-szn-1-karan-aujla.jpg',
          name : 'Rap Killa',
          artist : 'Karan Aujla Ft. Azaad 4L',

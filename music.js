@@ -9833,14 +9833,6 @@ const music_list = [
             music : 'https://s320.djpunjab.is/data/320/47481/294722/Mutiyare%20Ni%20-%20Jassa%20Dhillon.mp3'
                },
                {
-            img : 'https://cover.djpunjab.is/47472/300x700/stranger-diljit-dosanjh.jpg',
-            name : 'Stranger',
-            artist : 'Diljit Dosanjh',
-            album : 'Diljit Dosanjh',
-            released : 'Jan-21-2020',
-            music : 'https://s320.djpunjab.is/data/320/47472/294697/Stranger%20-%20Diljit%20Dosanjh.mp3'
-               },
-               {
             img : 'https://cover.djpunjab.is/47450/300x700/jhanjar-%26original%26-karan-aujla.jpg',
             name : 'Jhanjar',
             artist : 'Karan Aujla',

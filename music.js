@@ -2,6 +2,14 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/60712/300x700/kaali-hoodie-%26original%26-sidhu-moose-wala.webpjpg',
+         name : 'Kaali Hoodie (Original)',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala',
+         released : 'Oct-16-2026',
+         music : 'https://s320.djpunjab.is/data/320/60712/312435/Kaali%20Hoodie%20(Original)%20-%20Sidhu%20Moose%20Wala.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/60469/300x700/real-problems-ep-inderpal-moga.jpg',
          name : 'CHEETAH',
          artist : 'Inderpal Moga',

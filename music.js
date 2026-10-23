@@ -10,6 +10,14 @@ const music_list = [
          music : 'https://p320.djpunjab.is/data/320/60552/312204/Charm%20-%20Nirvair%20Pannu.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/60552/300x700/persona-nirvair-pannu.jpg',
+         name : 'Quad',
+         artist : 'Nirvair Pannu',
+         album : 'Nirvair Pannu',
+         released : 'Oct-23-2026',
+         music : 'https://p320.djpunjab.is/data/320/60552/312207/Quad%20-%20Nirvair%20Pannu.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/60712/300x700/kaali-hoodie-%26original%26-sidhu-moose-wala.jpg',
          name : 'Kaali Hoodie (Original)',
          artist : 'Sidhu Moose Wala',

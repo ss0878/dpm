@@ -2,7 +2,7 @@ const music_list = [
     
    
   {
-         img : 'https://cover.djpunjab.is/60712/300x700/kaali-hoodie-%26original%26-sidhu-moose-wala.webpjpg',
+         img : 'https://cover.djpunjab.is/60712/300x700/kaali-hoodie-%26original%26-sidhu-moose-wala.jpg',
          name : 'Kaali Hoodie (Original)',
          artist : 'Sidhu Moose Wala',
          album : 'Sidhu Moose Wala',

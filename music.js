@@ -259,10 +259,18 @@ const music_list = [
            },
     {
          img : 'https://cover.djpunjab.is/60151/300x700/nede-j-na-hoke-beh-wazir-patar.jpg',
+         name : 'IYKYK',
+         artist : 'Jxggi',
+         album : 'Jxggi',
+         released : 'Aug-21-2026',
+         music : 'https://p320.djpunjab.is/data/320/60146/311585/IYKYK%20-%20Jxggi.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60146/300x700/inferno-jxggi.jpg',
          name : 'Nede J Na Hoke Beh',
          artist : 'Wazir Patar',
          album : 'Wazir Patar',
-         released : 'Aug-21-2026',
+         released : 'Aug-20-2026',
          music : 'https://s320.djpunjab.is/data/320/60151/311599/Nede%20J%20Na%20Hoke%20Beh%20-%20Wazir%20Patar.mp3'
            },
     {

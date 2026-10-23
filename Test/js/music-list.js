@@ -2,6 +2,38 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/60552/300x700/persona-nirvair-pannu.jpg',
+         name : 'Charm',
+         artist : 'Nirvair Pannu',
+         album : 'Nirvair Pannu',
+         released : 'Oct-23-2026',
+         music : 'https://p320.djpunjab.is/data/320/60552/312204/Charm%20-%20Nirvair%20Pannu.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60552/300x700/persona-nirvair-pannu.jpg',
+         name : 'Quad',
+         artist : 'Nirvair Pannu',
+         album : 'Nirvair Pannu',
+         released : 'Oct-23-2026',
+         music : 'https://p320.djpunjab.is/data/320/60552/312207/Quad%20-%20Nirvair%20Pannu.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60712/300x700/kaali-hoodie-%26original%26-sidhu-moose-wala.jpg',
+         name : 'Kaali Hoodie (Original)',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala',
+         released : 'Oct-16-2026',
+         music : 'https://s320.djpunjab.is/data/320/60712/312435/Kaali%20Hoodie%20(Original)%20-%20Sidhu%20Moose%20Wala.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60469/300x700/real-problems-ep-inderpal-moga.jpg',
+         name : 'CHEETAH',
+         artist : 'Inderpal Moga',
+         album : 'Inderpal Moga',
+         released : 'Sep-27-2026',
+         music : 'https://p320.djpunjab.is/data/320/60469/312055/CHEETAH%20-%20Inderpal%20Moga.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/60446/300x700/aujla-szn-1-karan-aujla.jpg',
          name : 'Rap Killa',
          artist : 'Karan Aujla Ft. Azaad 4L',
@@ -227,10 +259,18 @@ const music_list = [
            },
     {
          img : 'https://cover.djpunjab.is/60151/300x700/nede-j-na-hoke-beh-wazir-patar.jpg',
+         name : 'IYKYK',
+         artist : 'Jxggi',
+         album : 'Jxggi',
+         released : 'Aug-21-2026',
+         music : 'https://p320.djpunjab.is/data/320/60146/311585/IYKYK%20-%20Jxggi.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60146/300x700/inferno-jxggi.jpg',
          name : 'Nede J Na Hoke Beh',
          artist : 'Wazir Patar',
          album : 'Wazir Patar',
-         released : 'Aug-21-2026',
+         released : 'Aug-20-2026',
          music : 'https://s320.djpunjab.is/data/320/60151/311599/Nede%20J%20Na%20Hoke%20Beh%20-%20Wazir%20Patar.mp3'
            },
     {
@@ -9815,14 +9855,6 @@ const music_list = [
             album : 'Jassa Dhillon',
             released : 'Jan-24-2020',
             music : 'https://s320.djpunjab.is/data/320/47481/294722/Mutiyare%20Ni%20-%20Jassa%20Dhillon.mp3'
-               },
-               {
-            img : 'https://cover.djpunjab.is/47472/300x700/stranger-diljit-dosanjh.jpg',
-            name : 'Stranger',
-            artist : 'Diljit Dosanjh',
-            album : 'Diljit Dosanjh',
-            released : 'Jan-21-2020',
-            music : 'https://s320.djpunjab.is/data/320/47472/294697/Stranger%20-%20Diljit%20Dosanjh.mp3'
                },
                {
             img : 'https://cover.djpunjab.is/47450/300x700/jhanjar-%26original%26-karan-aujla.jpg',

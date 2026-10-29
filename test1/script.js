@@ -10,7 +10,7 @@ let playlistElement = document.getElementById("playlist");
 let playerRight = document.querySelector(".player-right");
 let themeIcon = document.getElementById("themeIcon");
 let shuffleBtn = document.getElementById("shuffleBtn");
-let replayBtn = document.getElementById("replayBtn");
+let downloadBtn = document.getElementById("downloadBtn");
 let currentTimeEl = document.getElementById("current-time");
 let durationEl = document.getElementById("duration");
 let artistFilter = document.getElementById("artistFilter");
@@ -18,7 +18,6 @@ let playlistSearch = document.getElementById("playlistSearch");
 
 let currentSongIndex = 0;
 let isShuffle = false;
-let isReplay = false;
 let filtered_music_list = [...music_list];
 
 function filterPlaylist() {
@@ -64,19 +63,16 @@ function toggleTheme() {
 function toggleShuffle() {
     isShuffle = !isShuffle;
     shuffleBtn.classList.toggle("active");
-    if (isShuffle && isReplay) {
-        isReplay = false;
-        replayBtn.classList.remove("active");
-    }
 }
 
-function toggleReplay() {
-    isReplay = !isReplay;
-    replayBtn.classList.toggle("active");
-    if (isReplay && isShuffle) {
-        isShuffle = false;
-        shuffleBtn.classList.remove("active");
-    }
+function downloadSongFile() {
+    const currentSong = filtered_music_list[currentSongIndex];
+    const link = document.createElement("a");
+    link.href = currentSong.music;
+    link.download = `${currentSong.name} - ${currentSong.artist}.mp3`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
 }
 
 function togglePlaylist() {
@@ -286,10 +282,5 @@ loadSong(currentSongIndex);
 
 // Auto-play next song when current one ends
 song.onended = function() {
-    if (isReplay) {
-        song.currentTime = 0;
-        playSong();
-    } else {
-        nextSong();
-    }
+    nextSong();
 };

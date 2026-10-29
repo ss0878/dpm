@@ -2,6 +2,7 @@ let progress = document.getElementById("progress");
 let song = document.getElementById("song");
 let ctrlIcon = document.getElementById("ctrlIcon");
 let songImg = document.getElementById("song-img");
+let songImgContainer = document.getElementById("song-img-container");
 let prevImg = document.getElementById("prev-img");
 let nextImg = document.getElementById("next-img");
 let songTitle = document.getElementById("song-title");
@@ -75,8 +76,11 @@ function downloadSongFile() {
     document.body.removeChild(link);
 }
 
+let playlistBtn = document.getElementById("playlistBtn");
+
 function togglePlaylist() {
     playerRight.classList.toggle("hidden");
+    playlistBtn.classList.toggle("active");
 }
 
 function loadSong(index, direction = "next") {
@@ -97,19 +101,19 @@ function loadSong(index, direction = "next") {
     // Trigger Animation
     const animationClass = direction === "prev" ? "slide-left" : "slide-right";
     
-    songImg.classList.remove("slide-left", "slide-right");
+    songImgContainer.classList.remove("slide-left", "slide-right");
     songTitle.classList.remove("slide-left", "slide-right");
     songArtist.classList.remove("slide-left", "slide-right");
     
-    void songImg.offsetWidth; // Trigger reflow
+    void songImgContainer.offsetWidth; // Trigger reflow
     
-    songImg.classList.add(animationClass);
+    songImgContainer.classList.add(animationClass);
     songTitle.classList.add(animationClass);
     songArtist.classList.add(animationClass);
     
-    // Remove animation class after it finishes so it doesn't conflict with rotation
+    // Remove animation class after it finishes
     setTimeout(() => {
-        songImg.classList.remove(animationClass);
+        songImgContainer.classList.remove(animationClass);
         songTitle.classList.remove(animationClass);
         songArtist.classList.remove(animationClass);
     }, 600);

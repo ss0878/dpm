@@ -59,11 +59,17 @@
                     <div class="playlist-container">
                     <div class="playlist-header">
                         <h3>Playlist</h3>
-                        <div class="filter-wrapper">
-                            <i class="fa-solid fa-filter"></i>
-                            <select id="artistFilter">
-                                <option value="all">All Artists</option>
-                            </select>
+                        <div class="header-controls">
+                            <div class="search-wrapper">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <input type="text" id="playlistSearch" placeholder="Search...">
+                            </div>
+                            <div class="filter-wrapper">
+                                <i class="fa-solid fa-filter"></i>
+                                <select id="artistFilter">
+                                    <option value="all">All Artists</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
                     <ul id="playlist">

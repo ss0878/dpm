@@ -476,25 +476,26 @@ body.playing #progress::-webkit-slider-thumb {
 
 .playlist-header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    gap: 15px;
     margin-bottom: 20px;
 }
 
-.playlist-container h3 {
-    margin-bottom: 0;
-    font-size: 13px;
-    font-weight: 700;
-    color: var(--text-color);
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    opacity: 0.8;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+@media (min-width: 480px) {
+    .playlist-header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
-.filter-wrapper {
+.header-controls {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.search-wrapper, .filter-wrapper {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -503,14 +504,20 @@ body.playing #progress::-webkit-slider-thumb {
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     color: var(--text-color);
+    transition: all 0.3s ease;
 }
 
-.filter-wrapper i {
+.search-wrapper:focus-within, .filter-wrapper:focus-within {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.search-wrapper i, .filter-wrapper i {
     font-size: 12px;
     opacity: 0.6;
 }
 
-#artistFilter {
+#playlistSearch, #artistFilter {
     background: transparent;
     border: none;
     color: var(--text-color);
@@ -519,6 +526,16 @@ body.playing #progress::-webkit-slider-thumb {
     outline: none;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
+}
+
+#playlistSearch {
+    width: 100px;
+    cursor: text;
+}
+
+#playlistSearch::placeholder {
+    color: var(--text-color);
+    opacity: 0.5;
 }
 
 #artistFilter option {

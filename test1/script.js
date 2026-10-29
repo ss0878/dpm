@@ -13,32 +13,35 @@ let shuffleBtn = document.getElementById("shuffleBtn");
 let replayBtn = document.getElementById("replayBtn");
 let currentTimeEl = document.getElementById("current-time");
 let durationEl = document.getElementById("duration");
-let imgArea = document.querySelector(".img-area");
 let artistFilter = document.getElementById("artistFilter");
+let playlistSearch = document.getElementById("playlistSearch");
 
 let currentSongIndex = 0;
 let isShuffle = false;
 let isReplay = false;
 let filtered_music_list = [...music_list];
 
-// Animation variables
-let animationId;
-
-function animatePulse() {
-    if (!document.body.classList.contains("playing")) return;
+function filterPlaylist() {
+    const selectedArtist = artistFilter.value;
+    const searchText = playlistSearch.value.toLowerCase().trim();
     
-    const time = Date.now() / 1000;
-    // Create a rhythmic pulse effect (approx 120 BPM)
-    const pulse = Math.sin(time * 8) * 0.5 + 0.5; // Oscillates between 0 and 1
+    filtered_music_list = music_list.filter(song => {
+        const matchesArtist = selectedArtist === "all" || song.artist === selectedArtist;
+        const matchesSearch = song.name.toLowerCase().includes(searchText) || 
+                              song.artist.toLowerCase().includes(searchText);
+        return matchesArtist && matchesSearch;
+    });
     
-    const scale = 1 + pulse * 0.2; // Scale between 1.0 and 1.2
-    const opacity = 0.3 + pulse * 0.4; // Opacity between 0.3 and 0.7
-    
-    imgArea.style.setProperty('--pulse-scale', scale);
-    imgArea.style.setProperty('--pulse-opacity', opacity);
-    
-    animationId = requestAnimationFrame(animatePulse);
+    currentSongIndex = 0;
+    initPlaylist();
+    if (filtered_music_list.length > 0) {
+        loadSong(currentSongIndex);
+    }
+    pauseSong();
 }
+
+artistFilter.onchange = filterPlaylist;
+playlistSearch.oninput = filterPlaylist;
 
 function formatTime(seconds) {
     let min = Math.floor(seconds / 60);
@@ -187,20 +190,6 @@ function initArtistFilter() {
     });
 }
 
-artistFilter.onchange = function() {
-    const selectedArtist = artistFilter.value;
-    if (selectedArtist === "all") {
-        filtered_music_list = [...music_list];
-    } else {
-        filtered_music_list = music_list.filter(song => song.artist === selectedArtist);
-    }
-    
-    currentSongIndex = 0;
-    initPlaylist();
-    loadSong(currentSongIndex);
-    pauseSong(); // Stop playback when filter changes to avoid confusion
-}
-
 song.onloadedmetadata = function() {
     progress.max = song.duration;
     progress.value = song.currentTime;
@@ -223,7 +212,6 @@ function playSong() {
     if ('mediaSession' in navigator) {
         navigator.mediaSession.playbackState = 'playing';
     }
-    animatePulse();
 }
 
 function pauseSong() {
@@ -234,9 +222,6 @@ function pauseSong() {
     if ('mediaSession' in navigator) {
         navigator.mediaSession.playbackState = 'paused';
     }
-    cancelAnimationFrame(animationId);
-    imgArea.style.setProperty('--pulse-scale', 1);
-    imgArea.style.setProperty('--pulse-opacity', 0);
 }
 
 setInterval(() => {

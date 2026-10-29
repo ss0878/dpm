@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="bg-circle-2"></div>
+        <div class="bg-circle-3"></div>
+        <div class="music-player">
+            <nav>
+                <div class="circle" onclick="toggleTheme()">
+                    <i class="fa-solid fa-moon" id="themeIcon"></i>
+                </div>
+                <div class="circle" onclick="togglePlaylist()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            
+            <div class="player-body">
+                <div class="player-left">
+                    <div class="img-area">
+                        <img src="" class="prev-img" id="prev-img">
+                        <img src="https://core-normal.traeapi.us/api/ide/v1/text_to_image?prompt=album+cover+art+abstract+colorful+music&image_size=square_hd" class="song-img" id="song-img">
+                        <img src="" class="next-img" id="next-img">
+                    </div>
+                    
+                    <div class="song-info">
+                        <h1 id="song-title">Song Title</h1>
+                        <p id="song-artist">Artist Name</p>
+                    </div>
+
+                    <audio id="song">
+                        <source src="" type="audio/mpeg">
+                    </audio>
+
+                    <div class="progress-container">
+                        <input type="range" value="0" id="progress">
+                        <div class="time-display">
+                            <span id="current-time">0:00</span>
+                            <span id="duration">0:00</span>
+                        </div>
+                    </div>
+
+                    <div class="controls">
+                        <div onclick="toggleShuffle()" id="shuffleBtn"><i class="fa-solid fa-shuffle"></i></div>
+                        <div onclick="prevSong()"><i class="fa-solid fa-backward"></i></div>
+                        <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+                        <div onclick="nextSong()"><i class="fa-solid fa-forward"></i></div>
+                        <div onclick="toggleReplay()" id="replayBtn"><i class="fa-solid fa-rotate-right"></i></div>
+                    </div>
+                </div>
+
+                <div class="player-right">
+                    <div class="playlist-container">
+                    <div class="playlist-header">
+                        <h3>Playlist</h3>
+                        <div class="filter-wrapper">
+                            <i class="fa-solid fa-filter"></i>
+                            <select id="artistFilter">
+                                <option value="all">All Artists</option>
+                            </select>
+                        </div>
+                    </div>
+                    <ul id="playlist">
+                        <!-- Songs will be injected here by JS -->
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="songs.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

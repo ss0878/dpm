@@ -133,6 +133,8 @@ body {
     opacity: 1;
     overflow: hidden;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .player-right.hidden {
@@ -366,53 +368,41 @@ body.dark-mode #progress {
     background: rgba(255, 255, 255, 0.05);
 }
 
-/* Rocket Thumb for Chrome/Safari/Edge */
+/* Vinyl Record Thumb for Chrome/Safari/Edge */
 #progress::-webkit-slider-thumb {
     -webkit-appearance: none;
-    height: 45px;
-    width: 45px;
+    height: 35px;
+    width: 35px;
     background: transparent;
     cursor: pointer;
     position: relative;
     z-index: 10;
-    /* Create a rocket shape using a background image */
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%234db6ac' d='M505.2 19.1C507.5 13.9 506 7.7 501.5 4.1S491.3 1.6 486.1 3.9L326.1 72.8l-72.2-7.2c-12.8-1.3-25.7 2.2-35.8 9.8l-128 96c-9.1 6.8-14.1 17.6-14.1 29v74.5l-63 63c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l63-63h74.5c11.4 0 22.2-5 29-14.1l96-128c7.6-10.1 11.1-23 9.8-35.8l-7.2-72.2L505.2 19.1z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%234db6ac' d='M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 352c-53 0-96-43-96-96s43-96 96-96s96 43 96 96s-43 96-96 96zm0-160c-35.3 0-64 28.7-64 64s28.7 64 64 64s64-28.7 64-64s-28.7-64-64-64z'/%3E%3C/svg%3E");
     background-size: contain;
     background-repeat: no-repeat;
     filter: drop-shadow(0 0 5px rgba(77, 182, 172, 0.8));
-    transform: rotate(45deg); /* Adjusted rotation for the new SVG */
     transition: all 0.2s;
-    margin-top: -17.5px; /* (Track Height / 2) - (Thumb Height / 2) = (10/2) - (45/2) = 5 - 22.5 = -17.5 */
+    margin-top: -12.5px; /* (Track Height / 2) - (Thumb Height / 2) = (10/2) - (35/2) = 5 - 17.5 = -12.5 */
 }
 
-/* Flame Animation when playing */
+/* Spin Animation when playing */
 body.playing #progress::-webkit-slider-thumb {
-    animation: rocketEngine 0.2s infinite alternate;
-}
-
-@keyframes rocketEngine {
-    from {
-        filter: drop-shadow(-2px 2px 2px #ff9800) drop-shadow(0 0 5px #4db6ac);
-    }
-    to {
-        filter: drop-shadow(-5px 5px 8px #ff5722) drop-shadow(0 0 8px #4db6ac);
-    }
+    animation: rotate 2s linear infinite;
 }
 
 #progress::-webkit-slider-thumb:hover {
-    transform: rotate(45deg) scale(1.1);
+    transform: scale(1.2);
 }
 
 /* For Firefox */
 #progress::-moz-range-thumb {
-    height: 45px;
-    width: 45px;
+    height: 35px;
+    width: 35px;
     background: transparent;
     border: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%234db6ac' d='M505.2 19.1C507.5 13.9 506 7.7 501.5 4.1S491.3 1.6 486.1 3.9L326.1 72.8l-72.2-7.2c-12.8-1.3-25.7 2.2-35.8 9.8l-128 96c-9.1 6.8-14.1 17.6-14.1 29v74.5l-63 63c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l63-63h74.5c11.4 0 22.2-5 29-14.1l96-128c7.6-10.1 11.1-23 9.8-35.8l-7.2-72.2L505.2 19.1z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%234db6ac' d='M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 352c-53 0-96-43-96-96s43-96 96-96s96 43 96 96s-43 96-96 96zm0-160c-35.3 0-64 28.7-64 64s28.7 64 64 64s64-28.7 64-64s-28.7-64-64-64z'/%3E%3C/svg%3E");
     background-size: contain;
     background-repeat: no-repeat;
-    transform: rotate(45deg);
 }
 
 .controls {
@@ -470,6 +460,7 @@ body.playing #progress::-webkit-slider-thumb {
     height: 100%;
     display: flex;
     flex-direction: column;
+    min-height: 0;
 }
 
 .playlist-header {
@@ -860,6 +851,7 @@ body.dark-mode #artistFilter option {
         height: 100%;
         display: flex;
         flex-direction: column;
+        min-height: 0;
     }
     
     .playlist-container.hidden {

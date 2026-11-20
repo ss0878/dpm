@@ -2,6 +2,46 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/60931/300x700/blink-twice-ep-sukha.jpg',
+         name : 'JATT VIGDE',
+         artist : 'Sukha Ft. RochKilla',
+         album : 'BLINK TWICE EP',
+         released : 'Nov-13-2026',
+         music : 'https://p320.djpunjab.is/data/320/60931/312747/JATT%20VIGDE%20-%20Sukha.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60888/300x700/phantom-ferrari-sidhu-moose-wala.jpg',
+         name : 'Phantom Ferrari',
+         artist : 'Sidhu Moose Wala',
+         album : 'Sidhu Moose Wala',
+         released : 'Nov-13-2026',
+         music : 'https://s320.djpunjab.is/data/320/60888/312685/Phantom%20Ferrari%20-%20Sidhu%20Moose%20Wala.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60886/300x700/never-left-shubh.jpg',
+         name : 'Never Left',
+         artist : 'Shubh',
+         album : 'Shubh',
+         released : 'Nov-13-2026',
+         music : 'https://s320.djpunjab.is/data/320/60886/312683/Never%20Left%20-%20Shubh.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60871/300x700/guts-amrit-maan.jpg',
+         name : 'Guts',
+         artist : 'Amrit Maan',
+         album : 'Amrit Maan',
+         released : 'Nov-10-2026',
+         music : 'https://s320.djpunjab.is/data/320/60871/312668/Guts%20-%20Amrit%20Maan.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60870/300x700/punjab-seyan-kulbir-jhinjer.jpg',
+         name : 'Punjab Seyan',
+         artist : 'Kulbir Jhinjer',
+         album : 'Kulbir Jhinjer',
+         released : 'Nov-10-2026',
+         music : 'https://s320.djpunjab.is/data/320/60870/312667/Punjab%20Seyan%20-%20Kulbir%20Jhinjer.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/60552/300x700/persona-nirvair-pannu.jpg',
          name : 'Charm',
          artist : 'Nirvair Pannu',

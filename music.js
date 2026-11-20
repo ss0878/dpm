@@ -2,6 +2,30 @@ const music_list = [
     
    
   {
+         img : 'https://cover.djpunjab.is/60917/300x300/since-2003-tarsem-jassar.jpg',
+         name : 'Since 2003',
+         artist : 'Tarsem Jassar',
+         album : 'Tarsem Jassar',
+         released : 'Nov-13-2026',
+         music : 'https://p320.djpunjab.is/data/320/60917/312730/Since%202003%20-%20Tarsem%20Jassar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60917/300x300/since-2003-tarsem-jassar.jpg',
+         name : 'For The Bros',
+         artist : 'Tarsem Jassar Ft. Kulbir Jhinjer',
+         album : 'Tarsem Jassar',
+         released : 'Nov-13-2026',
+         music : 'https://p320.djpunjab.is/data/320/60917/312731/For%20The%20Bros%20-%20Tarsem%20Jassar.mp3'
+           },
+    {
+         img : 'https://cover.djpunjab.is/60917/300x300/since-2003-tarsem-jassar.jpg',
+         name : 'No Chance',
+         artist : 'Tarsem Jassar Ft. Kulbir Jhinjer',
+         album : 'Tarsem Jassar',
+         released : 'Nov-13-2026',
+         music : 'https://p320.djpunjab.is/data/320/60917/312732/No%20Chance%20-%20Tarsem%20Jassar.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/60931/300x700/blink-twice-ep-sukha.jpg',
          name : 'JATT VIGDE',
          artist : 'Sukha Ft. RochKilla',

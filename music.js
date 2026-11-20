@@ -10,6 +10,14 @@ const music_list = [
          music : 'https://p320.djpunjab.is/data/320/60931/312747/JATT%20VIGDE%20-%20Sukha.mp3'
            },
     {
+         img : 'https://cover.djpunjab.is/60931/300x700/blink-twice-ep-sukha.jpg',
+         name : 'ROAD TRIPS',
+         artist : 'Sukha Ft. GurinderGill',
+         album : 'BLINK TWICE EP',
+         released : 'Nov-13-2026',
+         music : 'https://p320.djpunjab.is/data/320/60931/312749/ROAD%20TRIPS%20-%20Sukha.mp3'
+           },
+    {
          img : 'https://cover.djpunjab.is/60888/300x700/phantom-ferrari-sidhu-moose-wala.jpg',
          name : 'Phantom Ferrari',
          artist : 'Sidhu Moose Wala',
